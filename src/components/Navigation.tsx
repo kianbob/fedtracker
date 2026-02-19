@@ -9,6 +9,8 @@ const links = [
   { href: "/layoffs", label: "Separations" },
   { href: "/trends", label: "Trends" },
   { href: "/workforce-analysis", label: "Deep Dive" },
+  { href: "/findings", label: "Key Findings" },
+  { href: "/occupations", label: "Occupations" },
   { href: "/demographics", label: "Demographics" },
   { href: "/salaries", label: "Salaries" },
   { href: "/about", label: "About" },

@@ -293,7 +293,7 @@ export function AnalysisClient({ whosLeaving, retirementRisk, stemAnalysis, mana
                   {overseas.byAgency.slice(0, 12).map((a: any) => (
                     <Link key={a.code || a.agency_code} href={`/agencies/${a.code || a.agency_code}`} className="flex justify-between px-5 py-3 hover:bg-gray-50">
                       <span className="text-gray-800 text-sm truncate mr-3">{cleanAgencyName(a.name || a.agency)}</span>
-                      <span className="text-gray-700 font-semibold text-sm">{formatNumber(a.count || a.employees)}</span>
+                      <span className="text-gray-700 font-semibold text-sm">{formatNumber(a.overseas || a.count || a.employees)}</span>
                     </Link>
                   ))}
                 </div>
@@ -304,12 +304,31 @@ export function AnalysisClient({ whosLeaving, retirementRisk, stemAnalysis, mana
       )}
 
       {/* GRADE DISTRIBUTION */}
-      {gradeDistribution?.byGrade && (
+      {gradeDistribution?.byGrade && (() => {
+        function formatGrade(g: string): string {
+          if (!g) return "Other/Ungraded";
+          if (g === "00") return "Other/Ungraded";
+          if (g.startsWith("GS-")) return g;
+          const num = parseInt(g);
+          if (!isNaN(num) && num >= 1 && num <= 15) return `GS-${num}`;
+          return g;
+        }
+        function gradeSort(a: any, b: any): number {
+          const aNum = parseInt(a.grade);
+          const bNum = parseInt(b.grade);
+          if (!isNaN(aNum) && !isNaN(bNum)) return aNum - bNum;
+          if (!isNaN(aNum)) return -1;
+          if (!isNaN(bNum)) return 1;
+          return (a.grade || "").localeCompare(b.grade || "");
+        }
+        const sorted = [...gradeDistribution.byGrade].sort(gradeSort);
+        const total = sorted.reduce((s: number, x: any) => s + (x.count || 0), 0);
+        return (
         <Section title="📊 Pay Grade Distribution" subtitle="GS levels, SES, and other pay scales across the federal government.">
           <div className="bg-white border border-gray-200 rounded-xl p-4 mb-6">
             <SimpleBarChart
-              data={gradeDistribution.byGrade.slice(0, 18).map((g: any) => ({
-                name: g.grade?.startsWith("GS-") ? g.grade : `GS-${g.grade}`, count: g.count,
+              data={sorted.slice(0, 18).map((g: any) => ({
+                name: formatGrade(g.grade), count: g.count || 0,
               }))}
               dataKey="count" nameKey="name" color="#6366f1"
             />
@@ -319,21 +338,19 @@ export function AnalysisClient({ whosLeaving, retirementRisk, stemAnalysis, mana
               <span>Grade</span><span className="text-right">Employees</span><span className="text-right">Avg Salary</span><span className="text-right">% of Total</span>
             </div>
             <div className="divide-y divide-gray-100">
-              {gradeDistribution.byGrade.slice(0, 18).map((g: any) => {
-                const total = gradeDistribution.byGrade.reduce((s: number, x: any) => s + x.count, 0);
-                return (
+              {sorted.slice(0, 18).map((g: any) => (
                   <div key={g.grade} className="grid grid-cols-4 px-5 py-2.5 text-sm">
-                    <span className="font-medium text-gray-900">{g.grade?.startsWith("GS-") ? g.grade : `GS-${g.grade}`}</span>
+                    <span className="font-medium text-gray-900">{formatGrade(g.grade)}</span>
                     <span className="text-right text-gray-700">{formatNumber(g.count)}</span>
                     <span className="text-right text-gray-700">{formatSalary(g.avgSalary)}</span>
-                    <span className="text-right text-gray-500">{(g.count / total * 100).toFixed(1)}%</span>
+                    <span className="text-right text-gray-500">{total > 0 ? ((g.count || 0) / total * 100).toFixed(1) : "0"}%</span>
                   </div>
-                );
-              })}
+                ))}
             </div>
           </div>
         </Section>
-      )}
+        );
+      })()}
 
       {/* Data note */}
       <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 text-sm text-gray-500 mt-8">

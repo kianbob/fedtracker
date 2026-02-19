@@ -3,6 +3,7 @@ import { useState, useMemo } from "react";
 import { SeparationsChart } from "@/components/Charts";
 import { StatCard } from "@/components/StatCard";
 import { formatMonth, formatNumber } from "@/lib/format";
+import Link from "next/link";
 
 interface Props {
   separations: any;
@@ -56,13 +57,13 @@ export function LayoffsClient({ separations, agencies }: Props) {
             {Object.entries(separations.types as Record<string, string>)
               .sort((a, b) => (totals[b[0]] || 0) - (totals[a[0]] || 0))
               .map(([code, name]) => (
-                <div key={code} className="flex justify-between px-6 py-3">
+                <Link key={code} href={`/separations/${code}`} className="flex justify-between px-6 py-3 hover:bg-gray-50 transition-colors">
                   <div>
                     <span className="font-medium text-gray-900">{name}</span>
                     <span className="ml-2 text-xs text-gray-400">{code}</span>
                   </div>
                   <span className="font-semibold text-gray-700">{(totals[code] || 0).toLocaleString()}</span>
-                </div>
+                </Link>
               ))}
           </div>
         </div>

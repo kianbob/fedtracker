@@ -1,6 +1,7 @@
 "use client";
 import { useState, useMemo } from "react";
 import { formatNumber, formatSalary } from "@/lib/format";
+import Link from "next/link";
 import occupations from "../../../public/data/occupations.json";
 
 type SortKey = "employees" | "avgSalary" | "name";
@@ -60,7 +61,7 @@ export function OccupationsClient() {
         </div>
         <div className="divide-y divide-gray-100">
           {filtered.map((o) => (
-            <div key={o.code} className="grid grid-cols-12 gap-4 px-6 py-3 hover:bg-accent-50 transition-colors">
+            <Link key={o.code} href={`/occupations/${o.code}`} className="grid grid-cols-12 gap-4 px-6 py-3 hover:bg-accent-50 transition-colors">
               <div className="col-span-5">
                 <span className="font-medium text-gray-900">{o.name}</span>
                 <span className="ml-2 text-xs text-gray-400">{o.code}</span>
@@ -68,7 +69,7 @@ export function OccupationsClient() {
               <div className="col-span-3 text-sm text-gray-500 truncate">{o.family}</div>
               <div className="col-span-2 text-right text-gray-700">{formatNumber(o.employees)}</div>
               <div className="col-span-2 text-right text-gray-700">{formatSalary(o.avgSalary)}</div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>

@@ -21,11 +21,12 @@ export default function RiskPage() {
       <header className="mb-12">
         <p className="text-sm font-semibold text-accent uppercase tracking-wide mb-3">Agency Risk Analysis</p>
         <h1 className="font-serif text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
-          Which Agencies Are Most At Risk?
+          Agency Disruption Scores
         </h1>
         <p className="text-xl text-gray-600 max-w-3xl">
-          A composite risk score for every federal agency, based on workforce reduction rates, retirement eligibility,
-          separation surges, RIF activity, and quit rates.
+          A composite score measuring workforce disruption at every federal agency — based on reduction rates, retirement eligibility,
+          separation surges, RIF activity, and quit rates. High scores indicate the biggest changes. Whether that&apos;s a problem 
+          or progress depends on whether the agency was bloated to begin with.
         </p>
       </header>
 
@@ -59,9 +60,9 @@ export default function RiskPage() {
           <ol className="list-decimal list-inside space-y-2 ml-2">
             <li><strong>Workforce Reduction Rate (30%)</strong> — Percentage of employees lost through separations in 2025 vs. headcount.</li>
             <li><strong>Separation Surge (25%)</strong> — Year-over-year increase in separations (2025 vs. 2024). Captures sudden acceleration.</li>
-            <li><strong>Retirement Vulnerability (20%)</strong> — Percentage of current employees eligible to retire. Higher = more future risk.</li>
+            <li><strong>Retirement Eligibility (20%)</strong> — Percentage of current employees eligible to retire. Higher = more turnover potential (and more opportunity to right-size).</li>
             <li><strong>RIF Activity (15%)</strong> — Number of Reductions in Force as a share of total employees. Direct involuntary losses.</li>
-            <li><strong>Quit Rate (10%)</strong> — Percentage of separations that are voluntary quits, signaling morale and retention issues.</li>
+            <li><strong>Quit Rate (10%)</strong> — Percentage of separations that are voluntary quits. High quit rates may signal employees choosing private sector over government.</li>
           </ol>
           <p className="text-sm text-gray-500 mt-4">
             Scores are normalized on a 0–100 scale. Data source: OPM FedScope, December 2025 employment + FY2025 separations.

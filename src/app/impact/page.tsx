@@ -40,8 +40,8 @@ export default function ImpactPage() {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-12">
         <div className="bg-red-50 border border-red-200 rounded-xl p-6">
           <p className="text-sm text-red-600 font-medium mb-1">Most Impacted</p>
-          <p className="text-3xl font-bold text-red-900">DC lost {dc ? formatNumber(dc.seps2025) : "N/A"} jobs</p>
-          <p className="text-sm text-red-700 mt-1">{dc ? dc.impactPct : 0}% of federal employees in DC</p>
+          <p className="text-3xl font-bold text-red-900">DC: {dc ? formatNumber(dc.seps2025) : "N/A"} positions reduced</p>
+          <p className="text-sm text-red-700 mt-1">{dc ? dc.impactPct : 0}% of DC&apos;s federal workforce — the nation&apos;s bureaucracy capital</p>
         </div>
         <div className="bg-indigo-50 border border-indigo-200 rounded-xl p-6">
           <p className="text-sm text-indigo-600 font-medium mb-1">Experience Lost</p>

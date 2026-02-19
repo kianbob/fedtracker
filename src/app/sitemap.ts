@@ -19,7 +19,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/workforce-analysis`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     { url: `${base}/subagencies`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/about`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
+    { url: `${base}/findings`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
   ];
+
+  // Separation type pages
+  const separationCodes = ["SA", "SB", "SC", "SD", "SE", "SF", "SG", "SH", "SJ", "SK", "SL"];
+  separationCodes.forEach(code => {
+    pages.push({ url: `${base}/separations/${code}`, lastModified: now, changeFrequency: "monthly", priority: 0.7 });
+  });
 
   // Agency pages
   try {
@@ -34,6 +41,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const dir = path.join(process.cwd(), "public", "data", "state-detail");
     fs.readdirSync(dir).filter(f => f.endsWith(".json")).forEach(f => {
       pages.push({ url: `${base}/states/${f.replace(".json", "")}`, lastModified: now, changeFrequency: "monthly", priority: 0.7 });
+    });
+  } catch {}
+
+  // Occupation detail pages
+  try {
+    const occupationsPath = path.join(process.cwd(), "public", "data", "occupations.json");
+    const occupations: { code: string }[] = JSON.parse(fs.readFileSync(occupationsPath, "utf-8"));
+    occupations.forEach(occ => {
+      if (occ.code && occ.code !== "*") {
+        pages.push({ url: `${base}/occupations/${occ.code}`, lastModified: now, changeFrequency: "monthly", priority: 0.6 });
+      }
     });
   } catch {}
 

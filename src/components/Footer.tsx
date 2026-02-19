@@ -16,21 +16,26 @@ export function Footer() {
             <h4 className="font-semibold text-gray-900 mb-3">Explore</h4>
             <div className="space-y-2 text-sm">
               <Link href="/agencies" className="block text-gray-600 hover:text-accent">Agencies</Link>
+              <Link href="/doge" className="block text-gray-600 hover:text-accent">DOGE Impact</Link>
               <Link href="/layoffs" className="block text-gray-600 hover:text-accent">Layoffs & Separations</Link>
+              <Link href="/trends" className="block text-gray-600 hover:text-accent">Workforce Trends</Link>
               <Link href="/occupations" className="block text-gray-600 hover:text-accent">Occupations</Link>
               <Link href="/states" className="block text-gray-600 hover:text-accent">States</Link>
-              <Link href="/trends" className="block text-gray-600 hover:text-accent">Trends</Link>
               <Link href="/salaries" className="block text-gray-600 hover:text-accent">Salaries</Link>
-              <Link href="/doge" className="block text-gray-600 hover:text-accent">DOGE Impact</Link>
-              <Link href="/demographics" className="block text-gray-600 hover:text-accent">Demographics</Link>
             </div>
           </div>
           <div>
-            <h4 className="font-semibold text-gray-900 mb-3">Data</h4>
+            <h4 className="font-semibold text-gray-900 mb-3">Analysis</h4>
             <div className="space-y-2 text-sm">
-              <a href="https://www.opm.gov/data/datasets/" target="_blank" rel="noopener" className="block text-gray-600 hover:text-accent">OPM FedScope →</a>
-              <a href="https://data.opm.gov/" target="_blank" rel="noopener" className="block text-gray-600 hover:text-accent">data.opm.gov →</a>
+              <Link href="/workforce-analysis" className="block text-gray-600 hover:text-accent">Workforce Deep Dive</Link>
+              <Link href="/demographics" className="block text-gray-600 hover:text-accent">Demographics</Link>
+              <Link href="/subagencies" className="block text-gray-600 hover:text-accent">Subagencies</Link>
               <Link href="/about" className="block text-gray-600 hover:text-accent">About & Methodology</Link>
+            </div>
+            <h4 className="font-semibold text-gray-900 mb-3 mt-6">Data Sources</h4>
+            <div className="space-y-2 text-sm">
+              <a href="https://data.opm.gov/" target="_blank" rel="noopener" className="block text-gray-600 hover:text-accent">data.opm.gov →</a>
+              <a href="https://www.opm.gov/data/datasets/" target="_blank" rel="noopener" className="block text-gray-600 hover:text-accent">OPM FedScope →</a>
             </div>
           </div>
         </div>

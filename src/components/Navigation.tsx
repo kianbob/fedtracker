@@ -5,13 +5,12 @@ import { useState } from "react";
 const links = [
   { href: "/", label: "Home" },
   { href: "/agencies", label: "Agencies" },
-  { href: "/layoffs", label: "Layoffs & Separations" },
   { href: "/doge", label: "DOGE Impact" },
-  { href: "/occupations", label: "Occupations" },
-  { href: "/states", label: "States" },
-  { href: "/salaries", label: "Salaries" },
+  { href: "/layoffs", label: "Separations" },
   { href: "/trends", label: "Trends" },
+  { href: "/workforce-analysis", label: "Deep Dive" },
   { href: "/demographics", label: "Demographics" },
+  { href: "/salaries", label: "Salaries" },
   { href: "/about", label: "About" },
 ];
 

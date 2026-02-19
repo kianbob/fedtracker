@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { formatNumber, formatSalary, cleanAgencyName } from "@/lib/format";
+import { formatNumber, formatSalary, cleanAgencyName, toTitleCase } from "@/lib/format";
 import { AgencyCharts } from "./AgencyCharts";
 import agencyList from "../../../../public/data/agency-list.json";
 import fs from "fs";
@@ -72,7 +72,7 @@ export default async function AgencyDetailPage({ params }: { params: { code: str
           <div className="divide-y divide-gray-100">
             {data.topOccupations?.slice(0, 10).map((o: any, i: number) => (
               <div key={i} className="flex justify-between px-6 py-3">
-                <span className="text-gray-800 truncate mr-4">{o.name}</span>
+                <span className="text-gray-800 truncate mr-4">{toTitleCase(o.name)}</span>
                 <div className="flex gap-6 text-sm text-gray-500 whitespace-nowrap">
                   <span>{formatNumber(o.count)} employees</span>
                   <span>{formatSalary(o.avgSalary)}</span>
@@ -160,7 +160,7 @@ export default async function AgencyDetailPage({ params }: { params: { code: str
           <div className="bg-white border border-gray-200 rounded-xl overflow-hidden divide-y divide-gray-100">
             {data.educationDistribution.filter((e: any) => e.level !== "INVALID" && e.level !== "REDACTED").slice(0, 10).map((e: any) => (
               <div key={e.level} className="flex justify-between px-6 py-3">
-                <span className="text-gray-800 text-sm">{e.level}</span>
+                <span className="text-gray-800 text-sm">{toTitleCase(e.level)}</span>
                 <span className="text-gray-700 font-semibold text-sm">{formatNumber(e.count)}</span>
               </div>
             ))}
@@ -175,7 +175,7 @@ export default async function AgencyDetailPage({ params }: { params: { code: str
           <div className="bg-white border border-gray-200 rounded-xl overflow-hidden divide-y divide-gray-100">
             {data.subagencies.slice(0, 20).map((s: any) => (
               <div key={s.code || s.name} className="flex justify-between px-6 py-3">
-                <span className="text-gray-800 text-sm truncate mr-4">{s.name}</span>
+                <span className="text-gray-800 text-sm truncate mr-4">{toTitleCase(s.name)}</span>
                 <div className="flex gap-4 text-sm text-gray-500 whitespace-nowrap shrink-0">
                   <span>{formatNumber(s.count || s.employees)} employees</span>
                   {s.avgSalary > 0 && <span>{formatSalary(s.avgSalary)}</span>}

@@ -1,6 +1,6 @@
 "use client";
 import { TrendAreaChart, SimpleBarChart } from "@/components/Charts";
-import { formatMonth } from "@/lib/format";
+import { formatMonth, toTitleCase } from "@/lib/format";
 
 export function SeparationCharts({ data }: { data: any }) {
   const trendData = (data.monthlyTrend || []).map((m: any) => ({
@@ -37,7 +37,7 @@ export function SeparationCharts({ data }: { data: any }) {
           <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4">By Age Group</h2>
           <div className="bg-white border border-gray-200 rounded-xl p-4">
             <SimpleBarChart
-              data={data.byAge.map((a: any) => ({ name: a.label, count: a.count }))}
+              data={data.byAge.map((a: any) => ({ name: toTitleCase(a.label), count: a.count }))}
               dataKey="count" nameKey="name" color="#6366f1"
             />
           </div>

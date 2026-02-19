@@ -1,7 +1,7 @@
 "use client";
 import { SimpleBarChart, SimplePieChart } from "@/components/Charts";
 import { StatCard } from "@/components/StatCard";
-import { formatNumber } from "@/lib/format";
+import { formatNumber, toTitleCase } from "@/lib/format";
 
 interface Entry {
   label: string;
@@ -17,17 +17,6 @@ interface DemographicsData {
   appointment_type: Entry[];
   duty_station_state: Entry[];
   occupational_group: Entry[];
-}
-
-function titleCase(s: string): string {
-  if (s === "REDACTED" || s === "INVALID" || s === "NO DATA REPORTED") return s;
-  return s
-    .replace(/\b\w+/g, (w) => {
-      if (["OF", "THE", "AND", "FOR", "IN", "ON", "AT", "TO", "BY", "OR", "A"].includes(w))
-        return w.toLowerCase();
-      return w.charAt(0) + w.slice(1).toLowerCase();
-    })
-    .replace(/^./, (c) => c.toUpperCase());
 }
 
 export function DemographicsClient({ data }: { data: DemographicsData | null }) {
@@ -70,7 +59,7 @@ export function DemographicsClient({ data }: { data: DemographicsData | null }) 
 
   // Top education levels (simplified)
   const topEducation = data.education_level.slice(0, 8).map((e) => ({
-    label: titleCase(e.label).slice(0, 40),
+    label: toTitleCase(e.label).slice(0, 40),
     count: e.count,
   }));
 
@@ -82,16 +71,16 @@ export function DemographicsClient({ data }: { data: DemographicsData | null }) 
     ];
     return order.indexOf(a.label) - order.indexOf(b.label);
   });
-  const ageChart = ageSorted.map((a) => ({ label: a.label, count: a.count }));
+  const ageChart = ageSorted.map((a) => ({ label: toTitleCase(a.label), count: a.count }));
 
   // STEM breakdown (exclude "ALL OTHER")
   const stemChart = data.stem_occupation_type
     .filter((s) => !s.label.includes("ALL OTHER") && !s.label.includes("UNSPECIFIED"))
-    .map((s) => ({ label: titleCase(s.label).replace(" Occupations", ""), count: s.count }));
+    .map((s) => ({ label: toTitleCase(s.label).replace(" Occupations", ""), count: s.count }));
 
   // Top occupational groups
   const topOccupations = data.occupational_group.slice(0, 12).map((o) => ({
-    label: titleCase(o.label).replace(" Group", "").replace(" Family", "").slice(0, 40),
+    label: toTitleCase(o.label).replace(" Group", "").replace(" Family", "").slice(0, 40),
     count: o.count,
   }));
 
@@ -99,12 +88,12 @@ export function DemographicsClient({ data }: { data: DemographicsData | null }) 
   const topStates = data.duty_station_state
     .filter((s) => s.label !== "REDACTED" && s.label !== "NO DATA REPORTED")
     .slice(0, 15)
-    .map((s) => ({ label: titleCase(s.label), count: s.count }));
+    .map((s) => ({ label: toTitleCase(s.label), count: s.count }));
 
   // Work schedule for pie chart
   const workSchedule = data.work_schedule
     .filter((w) => w.count > 100)
-    .map((w) => ({ label: titleCase(w.label), count: w.count }));
+    .map((w) => ({ label: toTitleCase(w.label), count: w.count }));
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">

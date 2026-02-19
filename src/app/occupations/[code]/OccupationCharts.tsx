@@ -1,5 +1,6 @@
 "use client";
 import { SimpleBarChart, SimplePieChart } from "@/components/Charts";
+import { toTitleCase } from "@/lib/format";
 
 export function OccupationCharts({ data }: { data: any }) {
   return (
@@ -20,7 +21,7 @@ export function OccupationCharts({ data }: { data: any }) {
           <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4">Age Distribution</h2>
           <div className="bg-white border border-gray-200 rounded-xl p-4">
             <SimpleBarChart
-              data={data.ageDistribution.map((a: any) => ({ name: a.label, count: a.count }))}
+              data={data.ageDistribution.map((a: any) => ({ name: toTitleCase(a.label), count: a.count }))}
               dataKey="count" nameKey="name" color="#6366f1"
             />
           </div>
@@ -31,7 +32,7 @@ export function OccupationCharts({ data }: { data: any }) {
           <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4">Education Breakdown</h2>
           <div className="bg-white border border-gray-200 rounded-xl p-4">
             <SimplePieChart
-              data={data.educationDistribution.slice(0, 8).map((e: any) => ({ name: e.label, count: e.count }))}
+              data={data.educationDistribution.slice(0, 8).map((e: any) => ({ name: toTitleCase(e.label), count: e.count }))}
               dataKey="count" nameKey="name"
             />
           </div>

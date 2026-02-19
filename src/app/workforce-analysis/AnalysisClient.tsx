@@ -1,16 +1,8 @@
 "use client";
 import { SimpleBarChart } from "@/components/Charts";
 import { StatCard } from "@/components/StatCard";
-import { formatNumber, formatSalary, cleanAgencyName } from "@/lib/format";
+import { formatNumber, formatSalary, cleanAgencyName, toTitleCase } from "@/lib/format";
 import Link from "next/link";
-
-function titleCase(s: string): string {
-  if (!s || s === "REDACTED" || s === "INVALID") return s;
-  return s.replace(/\b\w+/g, (w) => {
-    if (["OF","THE","AND","FOR","IN","ON","AT","TO","BY","OR","A"].includes(w)) return w.toLowerCase();
-    return w.charAt(0) + w.slice(1).toLowerCase();
-  }).replace(/^./, c => c.toUpperCase());
-}
 
 function Section({ title, subtitle, children }: { title: string; subtitle?: string; children: React.ReactNode }) {
   return (
@@ -94,7 +86,7 @@ export function AnalysisClient({ whosLeaving, retirementRisk, stemAnalysis, mana
             <StatCard label="Retirement Eligible" value={formatNumber(retirementRisk.totalEligible)} sub={`${retirementRisk.pctEligible}% of workforce`} />
             <StatCard label="Total Workforce" value={formatNumber(retirementRisk.totalEmployees)} sub="December 2025" />
             <StatCard label="Highest Risk Agency" value={retirementRisk.byAgency?.[0] ? cleanAgencyName(retirementRisk.byAgency[0].name).slice(0, 25) : "—"} sub={`${retirementRisk.byAgency?.[0]?.pctEligible || 0}% eligible`} />
-            <StatCard label="Highest Risk Job" value={retirementRisk.byOccupation?.[0] ? titleCase(retirementRisk.byOccupation[0].name).slice(0, 25) : "—"} sub={`${retirementRisk.byOccupation?.[0]?.pctEligible || 0}% eligible`} />
+            <StatCard label="Highest Risk Job" value={retirementRisk.byOccupation?.[0] ? toTitleCase(retirementRisk.byOccupation[0].name).slice(0, 25) : "—"} sub={`${retirementRisk.byOccupation?.[0]?.pctEligible || 0}% eligible`} />
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             {retirementRisk.byAgency && (
@@ -119,7 +111,7 @@ export function AnalysisClient({ whosLeaving, retirementRisk, stemAnalysis, mana
                 <div className="bg-white border border-gray-200 rounded-xl overflow-hidden divide-y divide-gray-100">
                   {retirementRisk.byOccupation.slice(0, 10).map((o: any, i: number) => (
                     <div key={i} className="flex justify-between px-5 py-3">
-                      <span className="text-gray-800 text-sm truncate mr-3">{titleCase(o.name)}</span>
+                      <span className="text-gray-800 text-sm truncate mr-3">{toTitleCase(o.name)}</span>
                       <div className="flex items-center gap-3 shrink-0">
                         <span className="text-xs text-gray-400">{formatNumber(o.eligible)}/{formatNumber(o.total)}</span>
                         <span className="text-red-600 font-semibold text-sm">{o.pctEligible}%</span>
@@ -172,7 +164,7 @@ export function AnalysisClient({ whosLeaving, retirementRisk, stemAnalysis, mana
               <div className="bg-white border border-gray-200 rounded-xl p-4">
                 <SimpleBarChart
                   data={whosLeaving.year2025.topOccupations.slice(0, 15).map((o: any) => ({
-                    name: titleCase(o.name).slice(0, 30), count: o.count,
+                    name: toTitleCase(o.name).slice(0, 30), count: o.count,
                   }))}
                   dataKey="count" nameKey="name" color="#ef4444"
                 />
@@ -279,7 +271,7 @@ export function AnalysisClient({ whosLeaving, retirementRisk, stemAnalysis, mana
                 <div className="bg-white border border-gray-200 rounded-xl overflow-hidden divide-y divide-gray-100">
                   {overseas.byCountry.slice(0, 12).map((c: any) => (
                     <div key={c.country} className="flex justify-between px-5 py-3">
-                      <span className="text-gray-800 text-sm">{titleCase(c.country)}</span>
+                      <span className="text-gray-800 text-sm">{toTitleCase(c.country)}</span>
                       <span className="text-gray-700 font-semibold text-sm">{formatNumber(c.count || c.employees)}</span>
                     </div>
                   ))}

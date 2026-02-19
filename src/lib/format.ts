@@ -19,10 +19,19 @@ export function formatMonth(m: string): string {
   return `${names[month]} ${year}`;
 }
 
+const LOWERCASE_WORDS = ["OF", "THE", "AND", "FOR", "IN", "ON", "AT", "TO", "BY", "OR", "A"];
+
+export function toTitleCase(s: string): string {
+  if (!s || s === "REDACTED" || s === "INVALID" || s === "NO DATA REPORTED") return s;
+  return s
+    .replace(/\b\w+/g, (w) => {
+      if (LOWERCASE_WORDS.includes(w)) return w.toLowerCase();
+      return w.charAt(0) + w.slice(1).toLowerCase();
+    })
+    .replace(/^./, (c) => c.toUpperCase());
+}
+
 export function cleanAgencyName(name: string): string {
-  // Remove "XX-" prefix from agency names
-  return name.replace(/^[A-Z0-9]+-/, "").replace(/\b\w+/g, (w) => {
-    if (["OF", "THE", "AND", "FOR", "IN", "ON", "AT", "TO", "BY"].includes(w)) return w.toLowerCase();
-    return w.charAt(0) + w.slice(1).toLowerCase();
-  }).replace(/^./, (c) => c.toUpperCase());
+  // Remove "XX-" prefix from agency names, then title-case
+  return toTitleCase(name.replace(/^[A-Z0-9]+-/, ""));
 }

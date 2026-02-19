@@ -1,19 +1,11 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { formatNumber, formatSalary } from "@/lib/format";
+import { formatNumber, formatSalary, toTitleCase } from "@/lib/format";
 import { StatCard } from "@/components/StatCard";
 import { OccupationCharts } from "./OccupationCharts";
 import fs from "fs";
 import path from "path";
-
-function titleCase(s: string): string {
-  if (!s) return s;
-  return s.replace(/\b\w+/g, (w) => {
-    if (["OF","THE","AND","FOR","IN","ON","AT","TO","BY","OR","A"].includes(w)) return w.toLowerCase();
-    return w.charAt(0) + w.slice(1).toLowerCase();
-  }).replace(/^./, c => c.toUpperCase());
-}
 
 function getOccData(code: string) {
   const filePath = path.join(process.cwd(), "public", "data", "occupation-detail", `${code}.json`);
@@ -25,8 +17,8 @@ export async function generateMetadata({ params }: { params: { code: string } })
   const data = getOccData(params.code);
   if (!data) return { title: "Occupation Not Found — FedTracker" };
   return {
-    title: `${titleCase(data.name)} (${data.code}) — ${formatNumber(data.employees)} Employees — FedTracker`,
-    description: `Federal ${titleCase(data.name)} workforce data: ${formatNumber(data.employees)} employees, average salary ${formatSalary(data.avgSalary)}.`,
+    title: `${toTitleCase(data.name)} (${data.code}) — ${formatNumber(data.employees)} Employees — FedTracker`,
+    description: `Federal ${toTitleCase(data.name)} workforce data: ${formatNumber(data.employees)} employees, average salary ${formatSalary(data.avgSalary)}.`,
   };
 }
 
@@ -52,16 +44,16 @@ export default async function OccupationDetailPage({ params }: { params: { code:
         <span className="mx-1.5">/</span>
         <Link href="/occupations" className="hover:text-accent">Occupations</Link>
         <span className="mx-1.5">/</span>
-        <span className="text-gray-700">{titleCase(data.name)}</span>
+        <span className="text-gray-700">{toTitleCase(data.name)}</span>
       </nav>
 
-      <h1 className="font-serif text-3xl sm:text-4xl font-bold text-gray-900 mb-2">{titleCase(data.name)}</h1>
-      <p className="text-gray-500 mb-8">Series {data.code} · {data.group ? titleCase(data.group) : ""}</p>
+      <h1 className="font-serif text-3xl sm:text-4xl font-bold text-gray-900 mb-2">{toTitleCase(data.name)}</h1>
+      <p className="text-gray-500 mb-8">Series {data.code} · {data.group ? toTitleCase(data.group) : ""}</p>
 
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
         <StatCard label="Total Employees" value={formatNumber(data.employees)} />
         <StatCard label="Average Salary" value={formatSalary(data.avgSalary)} />
-        {topAgency && <StatCard label="Top Agency" value={titleCase(topAgency.name || topAgency.code).slice(0, 30)} sub={`${formatNumber(topAgency.count)} employees`} />}
+        {topAgency && <StatCard label="Top Agency" value={toTitleCase(topAgency.name || topAgency.code)} sub={`${formatNumber(topAgency.count)} employees`} />}
         {data.topStates?.[0] && <StatCard label="Top State" value={data.topStates[0].state} sub={`${formatNumber(data.topStates[0].count)} employees`} />}
       </div>
 

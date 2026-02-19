@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { formatNumber } from "@/lib/format";
+import { formatNumber, toTitleCase } from "@/lib/format";
 import { StatCard } from "@/components/StatCard";
 import { SeparationCharts } from "./SeparationCharts";
 import fs from "fs";
@@ -49,7 +49,7 @@ export default async function SeparationDetailPage({ params }: { params: { code:
         <StatCard label="Total Separations" value={formatNumber(data.totalCount)} sub="FY2020-2025" />
         {data.avgSalaryAtSeparation > 0 && <StatCard label="Avg Salary at Separation" value={`$${data.avgSalaryAtSeparation.toLocaleString()}`} />}
         {data.avgLOS > 0 && <StatCard label="Avg Length of Service" value={`${data.avgLOS} years`} />}
-        {data.topAgencies?.[0] && <StatCard label="Top Agency" value={(data.topAgencies[0].name || data.topAgencies[0].code).slice(0, 25)} sub={`${formatNumber(data.topAgencies[0].count)} separations`} />}
+        {data.topAgencies?.[0] && <StatCard label="Top Agency" value={toTitleCase(data.topAgencies[0].name || data.topAgencies[0].code)} sub={`${formatNumber(data.topAgencies[0].count)} separations`} />}
       </div>
 
       <SeparationCharts data={data} />
@@ -61,7 +61,7 @@ export default async function SeparationDetailPage({ params }: { params: { code:
           <div className="bg-white border border-gray-200 rounded-xl overflow-hidden divide-y divide-gray-100">
             {data.topOccupations.slice(0, 15).map((o: any, i: number) => (
               <div key={i} className="flex justify-between px-6 py-3">
-                <span className="text-gray-800 truncate mr-4">{o.name}</span>
+                <span className="text-gray-800 truncate mr-4">{toTitleCase(o.name)}</span>
                 <span className="text-gray-700 font-semibold text-sm shrink-0">{formatNumber(o.count)}</span>
               </div>
             ))}

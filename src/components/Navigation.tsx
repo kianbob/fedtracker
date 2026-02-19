@@ -1,8 +1,24 @@
 "use client";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 
-const links = [
+const topLinks = [
+  { href: "/agencies", label: "Agencies" },
+  { href: "/doge", label: "DOGE Impact" },
+  { href: "/layoffs", label: "Separations" },
+  { href: "/trends", label: "Trends" },
+  { href: "/occupations", label: "Occupations" },
+  { href: "/salaries", label: "Salaries" },
+  { href: "/about", label: "About" },
+];
+
+const analysisLinks = [
+  { href: "/workforce-analysis", label: "Deep Dive" },
+  { href: "/findings", label: "Key Findings" },
+  { href: "/demographics", label: "Demographics" },
+];
+
+const allMobileLinks = [
   { href: "/", label: "Home" },
   { href: "/agencies", label: "Agencies" },
   { href: "/doge", label: "DOGE Impact" },
@@ -10,14 +26,26 @@ const links = [
   { href: "/trends", label: "Trends" },
   { href: "/workforce-analysis", label: "Deep Dive" },
   { href: "/findings", label: "Key Findings" },
-  { href: "/occupations", label: "Occupations" },
   { href: "/demographics", label: "Demographics" },
+  { href: "/occupations", label: "Occupations" },
   { href: "/salaries", label: "Salaries" },
   { href: "/about", label: "About" },
 ];
 
 export function Navigation() {
-  const [open, setOpen] = useState(false);
+  const [mobileOpen, setMobileOpen] = useState(false);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    function handleClickOutside(e: MouseEvent) {
+      if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
+        setDropdownOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
 
   return (
     <nav className="bg-white border-b border-gray-200 sticky top-0 z-50">
@@ -32,7 +60,48 @@ export function Navigation() {
 
           {/* Desktop */}
           <div className="hidden md:flex items-center gap-1">
-            {links.slice(1).map((l) => (
+            {topLinks.slice(0, 4).map((l) => (
+              <Link
+                key={l.href}
+                href={l.href}
+                className="px-3 py-2 text-sm text-gray-600 hover:text-accent rounded-md hover:bg-accent-50 transition-colors"
+              >
+                {l.label}
+              </Link>
+            ))}
+
+            {/* Analysis dropdown */}
+            <div className="relative" ref={dropdownRef}>
+              <button
+                onClick={() => setDropdownOpen(!dropdownOpen)}
+                onMouseEnter={() => setDropdownOpen(true)}
+                className="px-3 py-2 text-sm text-gray-600 hover:text-accent rounded-md hover:bg-accent-50 transition-colors inline-flex items-center gap-1"
+              >
+                Analysis
+                <svg className={`w-3.5 h-3.5 transition-transform ${dropdownOpen ? "rotate-180" : ""}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              {dropdownOpen && (
+                <div
+                  className="absolute top-full left-0 mt-1 w-48 bg-white border border-gray-200 rounded-lg shadow-lg py-1"
+                  onMouseLeave={() => setDropdownOpen(false)}
+                >
+                  {analysisLinks.map((l) => (
+                    <Link
+                      key={l.href}
+                      href={l.href}
+                      onClick={() => setDropdownOpen(false)}
+                      className="block px-4 py-2.5 text-sm text-gray-600 hover:text-accent hover:bg-accent-50 transition-colors"
+                    >
+                      {l.label}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            {topLinks.slice(4).map((l) => (
               <Link
                 key={l.href}
                 href={l.href}
@@ -45,11 +114,11 @@ export function Navigation() {
 
           {/* Mobile toggle */}
           <button
-            onClick={() => setOpen(!open)}
+            onClick={() => setMobileOpen(!mobileOpen)}
             className="md:hidden p-2 rounded-md text-gray-600 hover:bg-gray-100"
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              {open ? (
+              {mobileOpen ? (
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
               ) : (
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
@@ -60,13 +129,13 @@ export function Navigation() {
       </div>
 
       {/* Mobile menu */}
-      {open && (
+      {mobileOpen && (
         <div className="md:hidden border-t border-gray-200 bg-white">
-          {links.map((l) => (
+          {allMobileLinks.map((l) => (
             <Link
               key={l.href}
               href={l.href}
-              onClick={() => setOpen(false)}
+              onClick={() => setMobileOpen(false)}
               className="block px-4 py-3 text-gray-700 hover:bg-accent-50 hover:text-accent border-b border-gray-100"
             >
               {l.label}

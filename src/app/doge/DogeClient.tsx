@@ -75,7 +75,7 @@ export function DogeClient({ data }: { data: DogeData | null }) {
 
   // Top 10 agencies bar chart data
   const agencyBarData = data.topAgenciesByNetLoss.slice(0, 10).map((a) => ({
-    name: cleanAgencyName(a.name).slice(0, 30),
+    name: cleanAgencyName(a.name),
     netLoss: Math.abs(a.netChange),
     code: a.code,
   }));
@@ -196,10 +196,10 @@ export function DogeClient({ data }: { data: DogeData | null }) {
                 href={`/agencies/${a.code}`}
                 className="flex items-center justify-between px-6 py-3 hover:bg-red-50 transition-colors"
               >
-                <span className="text-gray-800 truncate mr-4">
+                <span className="text-gray-800 mr-4">
                   {cleanAgencyName(a.name)}
                 </span>
-                <div className="flex items-center gap-4 text-sm whitespace-nowrap">
+                <div className="flex items-center gap-4 text-sm whitespace-nowrap shrink-0">
                   <span className="text-gray-400">
                     {formatNumber(a.separations)} left ·{" "}
                     {formatNumber(a.accessions)} hired

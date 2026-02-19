@@ -1,6 +1,6 @@
 "use client";
 import { useState, useMemo } from "react";
-import { formatNumber, formatSalary } from "@/lib/format";
+import { formatNumber, formatSalary, toTitleCase } from "@/lib/format";
 import Link from "next/link";
 import occupations from "../../../public/data/occupations.json";
 

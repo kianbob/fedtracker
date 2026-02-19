@@ -18,6 +18,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   const topAgencies = agencyList.slice(0, 12);
+  const maxEmployees = topAgencies[0]?.employees ?? 1;
   const recentTrends = trends.monthly.slice(-12);
 
   const searchItems = [
@@ -67,8 +68,15 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Narrative Hook */}
+      <section className="max-w-4xl mx-auto px-4 mt-10 mb-4 text-center">
+        <p className="text-xl sm:text-2xl text-gray-700 leading-relaxed">
+          <span className="font-bold text-accent text-2xl sm:text-3xl">217,000</span> federal positions have been restructured since January 2025 — the largest workforce reduction in modern history. Here&apos;s the data.
+        </p>
+      </section>
+
       {/* Stats */}
-      <section className="max-w-7xl mx-auto px-4 -mt-8">
+      <section className="max-w-7xl mx-auto px-4 mt-4">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
           <StatCard label="Federal Employees" value={formatNumber(siteStats.totalEmployees)} sub="December 2025 snapshot" />
           <StatCard label="Average Salary" value={formatSalary(siteStats.avgSalary)} sub="Across all agencies" />
@@ -117,26 +125,32 @@ export default function Home() {
         <h2 className="font-serif text-3xl font-bold text-gray-900 mb-8">Key Findings</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* RIF card */}
-          <div className="bg-red-50 border border-red-100 rounded-xl p-6">
-            <h3 className="font-serif text-xl font-bold text-red-900 mb-3">🔴 Top RIF Agencies</h3>
-            <p className="text-sm text-red-700 mb-4">Agencies with the most Reductions in Force (FY20-25)</p>
-            <ul className="space-y-2">
+          <div className="bg-red-50 border border-red-100 rounded-xl p-6 shadow-sm hover:shadow-lg transition-shadow">
+            <p className="text-sm font-medium text-red-600 uppercase tracking-wide mb-1">Reductions in Force</p>
+            <p className="font-serif text-4xl sm:text-5xl font-bold text-accent mb-2">
+              {siteStats.topRifAgencies.reduce((sum, a) => sum + a.rifCount, 0).toLocaleString()}
+            </p>
+            <p className="text-sm text-red-700 mb-4">total RIFs across all agencies (FY2020–2025)</p>
+            <ul className="space-y-2 border-t border-red-200 pt-4">
               {siteStats.topRifAgencies.slice(0, 5).map((a) => (
                 <li key={a.code} className="flex justify-between text-sm">
                   <Link href={`/agencies/${a.code}`} className="text-red-800 hover:underline mr-2">
                     {fixAgencyName(a.name)}
                   </Link>
-                  <span className="font-semibold text-red-900 whitespace-nowrap">{a.rifCount.toLocaleString()} RIFs</span>
+                  <span className="font-semibold text-red-900 whitespace-nowrap">{a.rifCount.toLocaleString()}</span>
                 </li>
               ))}
             </ul>
           </div>
 
           {/* Quit rates */}
-          <div className="bg-amber-50 border border-amber-100 rounded-xl p-6">
-            <h3 className="font-serif text-xl font-bold text-amber-900 mb-3">⚠️ Highest Quit Rates</h3>
-            <p className="text-sm text-amber-700 mb-4">Agencies where the most people quit (% of separations)</p>
-            <ul className="space-y-2">
+          <div className="bg-amber-50 border border-amber-100 rounded-xl p-6 shadow-sm hover:shadow-lg transition-shadow">
+            <p className="text-sm font-medium text-amber-600 uppercase tracking-wide mb-1">Highest Quit Rate</p>
+            <p className="font-serif text-4xl sm:text-5xl font-bold text-accent mb-2">
+              {siteStats.topQuitRates[0]?.quitRate}%
+            </p>
+            <p className="text-sm text-amber-700 mb-4">of separations at {fixAgencyName(siteStats.topQuitRates[0]?.name)} were voluntary quits</p>
+            <ul className="space-y-2 border-t border-amber-200 pt-4">
               {siteStats.topQuitRates.slice(0, 5).map((a) => (
                 <li key={a.code} className="flex justify-between text-sm">
                   <Link href={`/agencies/${a.code}`} className="text-amber-800 hover:underline truncate mr-2">
@@ -149,10 +163,14 @@ export default function Home() {
           </div>
 
           {/* Net change */}
-          <div className="bg-indigo-50 border border-indigo-100 rounded-xl p-6">
-            <h3 className="font-serif text-xl font-bold text-indigo-900 mb-3">📊 Workforce Change</h3>
-            <p className="text-sm text-indigo-700 mb-4">Net hiring vs. separations (FY2020-2025)</p>
-            <div className="space-y-3">
+          <div className="bg-indigo-50 border border-indigo-100 rounded-xl p-6 shadow-sm hover:shadow-lg transition-shadow">
+            <p className="text-sm font-medium text-indigo-600 uppercase tracking-wide mb-1">Net Workforce Change</p>
+            <p className={`font-serif text-4xl sm:text-5xl font-bold mb-2 ${siteStats.totalAccessions - siteStats.totalSeparations > 0 ? "text-green-600" : "text-red-600"}`}>
+              {siteStats.totalAccessions - siteStats.totalSeparations > 0 ? "+" : ""}
+              {formatNumber(siteStats.totalAccessions - siteStats.totalSeparations)}
+            </p>
+            <p className="text-sm text-indigo-700 mb-4">net change in federal headcount (FY2020–2025)</p>
+            <div className="space-y-3 border-t border-indigo-200 pt-4">
               <div className="flex justify-between text-sm">
                 <span className="text-indigo-800">Total Accessions</span>
                 <span className="font-semibold text-green-700">+{formatNumber(siteStats.totalAccessions)}</span>
@@ -160,14 +178,6 @@ export default function Home() {
               <div className="flex justify-between text-sm">
                 <span className="text-indigo-800">Total Separations</span>
                 <span className="font-semibold text-red-700">-{formatNumber(siteStats.totalSeparations)}</span>
-              </div>
-              <hr className="border-indigo-200" />
-              <div className="flex justify-between text-sm font-bold">
-                <span className="text-indigo-900">Net Change</span>
-                <span className={siteStats.totalAccessions - siteStats.totalSeparations > 0 ? "text-green-700" : "text-red-700"}>
-                  {siteStats.totalAccessions - siteStats.totalSeparations > 0 ? "+" : ""}
-                  {formatNumber(siteStats.totalAccessions - siteStats.totalSeparations)}
-                </span>
               </div>
             </div>
           </div>
@@ -202,6 +212,31 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Featured Analysis */}
+      <section className="max-w-7xl mx-auto px-4 mt-16">
+        <h2 className="font-serif text-3xl font-bold text-gray-900 mb-8">Featured Analysis</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          {[
+            { href: "/doge", icon: "🏛️", title: "DOGE Impact", desc: "Track which agencies DOGE targeted and the real workforce impact" },
+            { href: "/risk", icon: "📉", title: "Risk Scores", desc: "Agency-by-agency vulnerability assessment for future cuts" },
+            { href: "/states", icon: "🗺️", title: "State Impact", desc: "How federal workforce changes affect your state" },
+            { href: "/workforce-analysis", icon: "🔍", title: "Workforce Analysis", desc: "Deep dive into federal employment patterns and trends" },
+          ].map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              className="bg-white border border-gray-200 rounded-xl p-5 hover:shadow-lg hover:border-accent transition-all group"
+            >
+              <span className="text-3xl">{item.icon}</span>
+              <h3 className="font-serif text-lg font-bold text-gray-900 group-hover:text-accent transition-colors mt-2 mb-1">
+                {item.title}
+              </h3>
+              <p className="text-sm text-gray-500 leading-snug">{item.desc}</p>
+            </Link>
+          ))}
+        </div>
+      </section>
+
       {/* Top Agencies */}
       <section className="max-w-7xl mx-auto px-4 mt-16 mb-16">
         <div className="flex items-center justify-between mb-8">
@@ -218,10 +253,16 @@ export default function Home() {
               <h3 className="font-semibold text-gray-900 group-hover:text-accent transition-colors mb-2 truncate">
                 {fixAgencyName(a.name)}
               </h3>
-              <div className="flex items-center gap-4 text-sm text-gray-500">
+              <div className="flex items-center gap-4 text-sm text-gray-500 mb-3">
                 <span>{formatNumber(a.employees)} employees</span>
                 <span>•</span>
                 <span>Avg {formatSalary(a.avgSalary)}</span>
+              </div>
+              <div className="h-1.5 bg-gray-100 rounded-full overflow-hidden">
+                <div
+                  className="h-full bg-accent rounded-full"
+                  style={{ width: `${Math.round((a.employees / maxEmployees) * 100)}%` }}
+                />
               </div>
             </Link>
           ))}

@@ -20,10 +20,53 @@ export function TrendsClient({ data }: { data: any }) {
     name: fixAgencyName(a.name),
   }));
 
+  // Compute headline stats from the data
+  const peakMonth = monthly.reduce((max: any, m: any) => (m.separations > (max?.separations || 0) ? m : max), monthly[0]);
+  const fy2025Months = data.monthly.filter((m: any) => {
+    const ym = String(m.month);
+    const year = parseInt(ym.slice(0, 4));
+    const mo = parseInt(ym.slice(4));
+    return (year === 2024 && mo >= 10) || (year === 2025 && mo <= 9);
+  });
+  const fy2025Total = fy2025Months.reduce((s: number, m: any) => s + (m.separations || 0), 0);
+  const fy2024Months = data.monthly.filter((m: any) => {
+    const ym = String(m.month);
+    const year = parseInt(ym.slice(0, 4));
+    const mo = parseInt(ym.slice(4));
+    return (year === 2023 && mo >= 10) || (year === 2024 && mo <= 9);
+  });
+  const fy2024Total = fy2024Months.reduce((s: number, m: any) => s + (m.separations || 0), 0);
+  const multiplier = fy2024Total > 0 ? (fy2025Total / fy2024Total).toFixed(1) : null;
+
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
       <h1 className="font-serif text-4xl font-bold text-gray-900 mb-2">Workforce Trends</h1>
       <p className="text-gray-600 mb-8">Hiring vs. separations across the federal government, FY2020–2025.</p>
+
+      {/* Editorial Callout Boxes */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
+        {peakMonth && (
+          <div className="bg-red-50 border-l-4 border-red-500 rounded-r-xl p-5">
+            <p className="text-xs font-semibold text-red-600 uppercase tracking-wide mb-1">Peak Month</p>
+            <p className="text-lg font-serif font-bold text-gray-900">{formatNumber(peakMonth.separations)} separations</p>
+            <p className="text-sm text-gray-600 mt-1">{peakMonth.label} — the largest mass exodus in modern federal history</p>
+          </div>
+        )}
+        {fy2025Total > 0 && (
+          <div className="bg-amber-50 border-l-4 border-amber-500 rounded-r-xl p-5">
+            <p className="text-xs font-semibold text-amber-600 uppercase tracking-wide mb-1">FY2025 Total</p>
+            <p className="text-lg font-serif font-bold text-gray-900">{formatNumber(fy2025Total)} separations</p>
+            <p className="text-sm text-gray-600 mt-1">{multiplier}x the FY2024 total — an unprecedented year of federal workforce loss</p>
+          </div>
+        )}
+        {fy2024Total > 0 && (
+          <div className="bg-indigo-50 border-l-4 border-indigo-500 rounded-r-xl p-5">
+            <p className="text-xs font-semibold text-indigo-600 uppercase tracking-wide mb-1">FY2024 Baseline</p>
+            <p className="text-lg font-serif font-bold text-gray-900">{formatNumber(fy2024Total)} separations</p>
+            <p className="text-sm text-gray-600 mt-1">The prior fiscal year, for comparison — a typical year of federal turnover</p>
+          </div>
+        )}
+      </div>
 
       <section className="mb-12">
         <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4">Monthly Accessions vs Separations</h2>

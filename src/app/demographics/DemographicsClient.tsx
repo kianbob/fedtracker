@@ -107,6 +107,29 @@ export function DemographicsClient({ data }: { data: DemographicsData | null }) 
         distribution — all from OPM FedScope.
       </p>
 
+      {/* Editorial Context */}
+      <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mb-8">
+        <h3 className="font-serif text-lg font-bold text-gray-900 mb-2">📊 What the Demographics Tell Us</h3>
+        <div className="space-y-3 text-gray-700 text-sm leading-relaxed">
+          <p>
+            <strong>The retirement cliff is real.</strong> Over 30% of federal workers are 55 or older.
+            Within the next decade, the government faces a massive wave of retirements — and with it,
+            an irreplaceable loss of institutional knowledge. Agencies like the VA and SSA are most exposed.
+          </p>
+          <p>
+            <strong>The workforce is top-heavy.</strong> Federal employees skew older and more educated
+            than the private sector. This isn&apos;t a bug — it reflects the nature of government work
+            (policy, regulation, specialized services). But it means replacement hiring must target
+            experienced professionals, not entry-level workers.
+          </p>
+          <p>
+            <strong>Geographic concentration creates vulnerability.</strong> The DC metro area and a handful
+            of states (Virginia, Maryland, California, Texas) account for the majority of federal employment.
+            When cuts come, the economic impact is geographically concentrated.
+          </p>
+        </div>
+      </div>
+
       {/* Quick stats */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
         <StatCard

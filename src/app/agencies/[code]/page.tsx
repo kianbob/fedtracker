@@ -313,6 +313,24 @@ export default async function AgencyDetailPage({ params }: { params: { code: str
 
       {/* Separations chart */}
       {seps && <AgencyCharts seps={seps} />}
+
+      {/* Related Analysis */}
+      <section className="mt-12">
+        <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4">Related Analysis</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          {[
+            { href: "/risk", title: "Agency Risk Rankings", desc: `See how ${cleanAgencyName(data.name)} ranks in restructuring risk scores.` },
+            { href: "/doge", title: "DOGE Impact Dashboard", desc: `View the full DOGE impact on ${cleanAgencyName(data.name)} and other agencies.` },
+            { href: "/compare", title: "Compare Agencies", desc: `Compare ${cleanAgencyName(data.name)} with other federal agencies side by side.` },
+          ].map((link) => (
+            <Link key={link.href} href={link.href} className="bg-white border border-gray-200 rounded-xl p-5 hover:border-indigo-300 hover:shadow-md transition-all group">
+              <h3 className="font-serif font-bold text-gray-900 group-hover:text-indigo-700 transition-colors mb-1">{link.title}</h3>
+              <p className="text-sm text-gray-500">{link.desc}</p>
+              <span className="text-indigo-600 text-sm font-medium mt-2 inline-block">Explore →</span>
+            </Link>
+          ))}
+        </div>
+      </section>
     </div>
   );
 }

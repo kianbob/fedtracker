@@ -32,7 +32,9 @@ export function toTitleCase(s: string): string {
       return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
     })
     .join("")
-    .replace(/^./, (c) => c.toUpperCase());
+    .replace(/^./, (c) => c.toUpperCase())
+    .replace(/\bU\.s\./g, "U.S.")
+    .replace(/\bNat\b/g, "National");
 }
 
 export const titleCase = toTitleCase;

@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { StatCard } from "@/components/StatCard";
 import { HomepageChart } from "./HomepageChart";
 import { HomeSearch } from "@/components/HomeSearch";
-import { formatNumber, formatSalary, cleanAgencyName } from "@/lib/format";
+import { formatNumber, formatSalary, fixAgencyName } from "@/lib/format";
 import siteStats from "../../public/data/site-stats.json";
 import agencyList from "../../public/data/agency-list.json";
 import occupations from "../../public/data/occupations.json";
@@ -22,7 +22,7 @@ export default function Home() {
   const searchItems = [
     ...agencyList
       .filter((a) => a.code !== "*")
-      .map((a) => ({ label: cleanAgencyName(a.name), href: `/agencies/${a.code}`, type: "Agency" as const })),
+      .map((a) => ({ label: fixAgencyName(a.name), href: `/agencies/${a.code}`, type: "Agency" as const })),
     ...occupations
       .filter((o) => o.code !== "*")
       .map((o) => ({ label: o.name, href: `/occupations/${o.code}`, type: "Occupation" as const })),
@@ -119,8 +119,8 @@ export default function Home() {
             <ul className="space-y-2">
               {siteStats.topRifAgencies.slice(0, 5).map((a) => (
                 <li key={a.code} className="flex justify-between text-sm">
-                  <Link href={`/agencies/${a.code}`} className="text-red-800 hover:underline truncate mr-2">
-                    {cleanAgencyName(a.name)}
+                  <Link href={`/agencies/${a.code}`} className="text-red-800 hover:underline mr-2">
+                    {fixAgencyName(a.name)}
                   </Link>
                   <span className="font-semibold text-red-900 whitespace-nowrap">{a.rifCount.toLocaleString()} RIFs</span>
                 </li>
@@ -136,7 +136,7 @@ export default function Home() {
               {siteStats.topQuitRates.slice(0, 5).map((a) => (
                 <li key={a.code} className="flex justify-between text-sm">
                   <Link href={`/agencies/${a.code}`} className="text-amber-800 hover:underline truncate mr-2">
-                    {cleanAgencyName(a.name)}
+                    {fixAgencyName(a.name)}
                   </Link>
                   <span className="font-semibold text-amber-900 whitespace-nowrap">{a.quitRate}%</span>
                 </li>
@@ -184,7 +184,7 @@ export default function Home() {
               className="bg-white border border-gray-200 rounded-xl p-5 hover:shadow-md hover:border-accent-200 transition-all group"
             >
               <h3 className="font-semibold text-gray-900 group-hover:text-accent transition-colors mb-2 truncate">
-                {cleanAgencyName(a.name)}
+                {fixAgencyName(a.name)}
               </h3>
               <div className="flex items-center gap-4 text-sm text-gray-500">
                 <span>{formatNumber(a.employees)} employees</span>

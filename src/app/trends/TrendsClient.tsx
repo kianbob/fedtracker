@@ -1,6 +1,6 @@
 "use client";
 import { TrendAreaChart, SimpleBarChart } from "@/components/Charts";
-import { formatMonth, formatNumber, cleanAgencyName } from "@/lib/format";
+import { formatMonth, formatNumber, fixAgencyName } from "@/lib/format";
 import Link from "next/link";
 
 export function TrendsClient({ data }: { data: any }) {
@@ -11,13 +11,13 @@ export function TrendsClient({ data }: { data: any }) {
 
   const biggestLosers = data.netByAgency.slice(0, 15).map((a: any) => ({
     ...a,
-    name: cleanAgencyName(a.name),
+    name: fixAgencyName(a.name),
     absNet: Math.abs(a.net),
   }));
 
   const biggestGainers = [...data.netByAgency].reverse().slice(0, 15).map((a: any) => ({
     ...a,
-    name: cleanAgencyName(a.name),
+    name: fixAgencyName(a.name),
   }));
 
   return (
@@ -45,7 +45,7 @@ export function TrendsClient({ data }: { data: any }) {
           <div className="bg-white border border-gray-200 rounded-xl overflow-hidden divide-y divide-gray-100">
             {biggestLosers.map((a: any) => (
               <Link key={a.code} href={`/agencies/${a.code}`} className="flex justify-between px-6 py-3 hover:bg-red-50">
-                <span className="text-gray-800 truncate mr-4">{a.name}</span>
+                <span className="text-gray-800 mr-4">{a.name}</span>
                 <span className="text-red-600 font-semibold whitespace-nowrap">-{formatNumber(a.absNet)}</span>
               </Link>
             ))}
@@ -58,7 +58,7 @@ export function TrendsClient({ data }: { data: any }) {
           <div className="bg-white border border-gray-200 rounded-xl overflow-hidden divide-y divide-gray-100">
             {biggestGainers.map((a: any) => (
               <Link key={a.code} href={`/agencies/${a.code}`} className="flex justify-between px-6 py-3 hover:bg-green-50">
-                <span className="text-gray-800 truncate mr-4">{a.name}</span>
+                <span className="text-gray-800 mr-4">{a.name}</span>
                 <span className="text-green-600 font-semibold whitespace-nowrap">+{formatNumber(a.net)}</span>
               </Link>
             ))}

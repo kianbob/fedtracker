@@ -20,6 +20,7 @@ const moreLinks = [
   { href: "/education", label: "Education & Pay" },
   { href: "/workforce-analysis", label: "Deep Dive" },
   { href: "/demographics", label: "Demographics" },
+  { href: "/occupations", label: "Occupations" },
   { href: "/states", label: "States" },
   { href: "/subagencies", label: "Subagencies" },
   { href: "/compare", label: "Compare Agencies" },
@@ -28,6 +29,9 @@ const moreLinks = [
   { href: "/appointments", label: "Appointments" },
   { href: "/spending", label: "Agency Spending" },
   { href: "/downloads", label: "Downloads" },
+  { href: "/federal-bloat", label: "Federal Bloat" },
+  { href: "/who-got-cut", label: "Who Got Cut" },
+  { href: "/salary-analysis", label: "Salary Analysis" },
 ];
 
 const mobileMainLinks = [
@@ -35,7 +39,9 @@ const mobileMainLinks = [
   { href: "/agencies", label: "Agencies" },
   { href: "/doge", label: "DOGE Impact" },
   { href: "/layoffs", label: "Separations" },
+  { href: "/trends", label: "Trends" },
   { href: "/findings", label: "Key Findings" },
+  { href: "/salaries", label: "Salaries" },
   { href: "/about", label: "About" },
 ];
 
@@ -45,10 +51,10 @@ export function Navigation() {
   const [mobileMoreOpen, setMobileMoreOpen] = useState(false);
 
   return (
-    <nav className="bg-white border-b border-gray-200 sticky top-0 z-50">
+    <nav className="bg-white border-b border-gray-200 sticky top-0 z-50" aria-label="Main navigation">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
-          <Link href="/" className="flex items-center gap-2">
+          <Link href="/" className="flex items-center gap-2" aria-label="FedTracker home">
             <div className="w-8 h-8 accent-gradient rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-sm">FT</span>
             </div>
@@ -61,6 +67,7 @@ export function Navigation() {
               <Link
                 key={l.href}
                 href={l.href}
+                aria-label={l.label}
                 className="px-3 py-2 text-sm text-gray-600 hover:text-accent rounded-md hover:bg-accent-50 transition-colors"
               >
                 {l.label}
@@ -74,6 +81,9 @@ export function Navigation() {
               onMouseLeave={() => setMoreOpen(false)}
             >
               <button
+                aria-expanded={moreOpen}
+                aria-haspopup="true"
+                aria-label="More pages"
                 className="px-3 py-2 text-sm text-gray-600 hover:text-accent rounded-md hover:bg-accent-50 transition-colors inline-flex items-center gap-1"
               >
                 More
@@ -83,11 +93,13 @@ export function Navigation() {
               </button>
               {moreOpen && (
                 <div className="absolute top-full right-0 pt-1">
-                  <div className="w-48 bg-white border border-gray-200 rounded-lg shadow-lg py-1">
+                  <div className="w-48 bg-white border border-gray-200 rounded-lg shadow-lg py-1" role="menu">
                     {moreLinks.map((l) => (
                       <Link
                         key={l.href}
                         href={l.href}
+                        role="menuitem"
+                        aria-label={l.label}
                         onClick={() => setMoreOpen(false)}
                         className="block px-4 py-2.5 text-sm text-gray-600 hover:text-accent hover:bg-accent-50 transition-colors"
                       >
@@ -105,6 +117,8 @@ export function Navigation() {
           <DarkModeToggle />
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
+            aria-expanded={mobileOpen}
+            aria-label={mobileOpen ? "Close navigation menu" : "Open navigation menu"}
             className="md:hidden p-2 rounded-md text-gray-600 hover:bg-gray-100"
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -121,11 +135,13 @@ export function Navigation() {
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div className="md:hidden border-t border-gray-200 bg-white">
+        <div className="md:hidden border-t border-gray-200 bg-white" role="menu">
           {mobileMainLinks.map((l) => (
             <Link
               key={l.href}
               href={l.href}
+              role="menuitem"
+              aria-label={l.label}
               onClick={() => setMobileOpen(false)}
               className="block px-4 py-3 text-gray-700 hover:bg-accent-50 hover:text-accent border-b border-gray-100"
             >
@@ -137,6 +153,8 @@ export function Navigation() {
           <div className="border-b border-gray-100">
             <button
               onClick={() => setMobileMoreOpen(!mobileMoreOpen)}
+              aria-expanded={mobileMoreOpen}
+              aria-label={mobileMoreOpen ? "Collapse more pages" : "Expand more pages"}
               className="w-full flex items-center justify-between px-4 py-3 text-gray-700 hover:bg-accent-50 hover:text-accent"
             >
               <span>More</span>
@@ -150,6 +168,8 @@ export function Navigation() {
                   <Link
                     key={l.href}
                     href={l.href}
+                    role="menuitem"
+                    aria-label={l.label}
                     onClick={() => setMobileOpen(false)}
                     className="block px-8 py-2.5 text-sm text-gray-600 hover:text-accent hover:bg-accent-50 transition-colors"
                   >

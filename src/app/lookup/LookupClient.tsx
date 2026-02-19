@@ -151,6 +151,7 @@ export function LookupClient() {
             value={query}
             onChange={(e) => { setQuery(e.target.value); setShowDropdown(true); setSelected(null); }}
             onFocus={() => setShowDropdown(true)}
+            aria-label="Search for your federal agency"
             placeholder="Search for your agency..."
             className="w-full pl-12 pr-4 py-4 text-lg border-2 border-gray-300 rounded-xl focus:border-accent focus:ring-2 focus:ring-accent-200 outline-none transition-all"
           />

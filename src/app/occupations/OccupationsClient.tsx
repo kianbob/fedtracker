@@ -35,6 +35,7 @@ export function OccupationsClient() {
       <input
         type="text"
         placeholder="Search occupations..."
+        aria-label="Search occupations"
         value={search}
         onChange={(e) => setSearch(e.target.value)}
         className="w-full max-w-md border border-gray-300 rounded-lg px-4 py-2.5 mb-6 focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"

@@ -30,6 +30,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/occupation-impact`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${base}/appointments`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${base}/spending`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${base}/federal-bloat`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/who-got-cut`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/salary-analysis`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
   ];
 
   // Separation type pages

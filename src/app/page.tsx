@@ -217,10 +217,10 @@ export default function Home() {
         <h2 className="font-serif text-3xl font-bold text-gray-900 mb-8">Featured Analysis</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {[
-            { href: "/doge", icon: "🏛️", title: "DOGE Impact", desc: "Track which agencies DOGE targeted and the real workforce impact" },
-            { href: "/risk", icon: "📉", title: "Risk Scores", desc: "Agency-by-agency vulnerability assessment for future cuts" },
-            { href: "/states", icon: "🗺️", title: "State Impact", desc: "How federal workforce changes affect your state" },
-            { href: "/workforce-analysis", icon: "🔍", title: "Workforce Analysis", desc: "Deep dive into federal employment patterns and trends" },
+            { href: "/doge", icon: "🏛️", title: "DOGE Impact", desc: "Inside the largest federal restructuring in modern history — who was cut and why" },
+            { href: "/risk", icon: "📉", title: "Risk Scores", desc: "Which agencies are most vulnerable to the next round of cuts" },
+            { href: "/who-got-cut", icon: "👤", title: "Who Got Cut", desc: "The demographics, pay grades, and job types behind the layoff numbers" },
+            { href: "/salary-analysis", icon: "💰", title: "Salary Analysis", desc: "How federal pay compares across agencies, grades, and geography" },
           ].map((item) => (
             <Link
               key={item.href}
@@ -232,6 +232,48 @@ export default function Home() {
                 {item.title}
               </h3>
               <p className="text-sm text-gray-500 leading-snug">{item.desc}</p>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* Latest Analysis */}
+      <section className="max-w-7xl mx-auto px-4 mt-16">
+        <h2 className="font-serif text-3xl font-bold text-gray-900 mb-8">Latest Analysis</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {[
+            {
+              href: "/federal-bloat",
+              title: "The Federal Bloat Myth",
+              date: "February 2025",
+              desc: "The federal workforce has barely grown in 50 years while the population surged. We break down the real numbers behind the \"bloated bureaucracy\" narrative.",
+            },
+            {
+              href: "/who-got-cut",
+              title: "Who Got Cut: A Demographic Breakdown",
+              date: "February 2025",
+              desc: "Veterans, long-tenured employees, and specific pay grades bore the brunt of 2025 reductions. Here's what the separation data reveals.",
+            },
+            {
+              href: "/salary-analysis",
+              title: "Federal Salary Deep Dive",
+              date: "February 2025",
+              desc: "From GS-5 to senior executives, how does federal pay actually stack up? A data-driven look at compensation across the government.",
+            },
+          ].map((article) => (
+            <Link
+              key={article.href}
+              href={article.href}
+              className="bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg hover:border-accent transition-all group"
+            >
+              <div className="p-6">
+                <p className="text-xs font-medium text-accent uppercase tracking-wide mb-2">{article.date}</p>
+                <h3 className="font-serif text-xl font-bold text-gray-900 group-hover:text-accent transition-colors mb-3">
+                  {article.title}
+                </h3>
+                <p className="text-sm text-gray-500 leading-relaxed mb-4">{article.desc}</p>
+                <span className="text-sm font-medium text-accent group-hover:underline">Read more →</span>
+              </div>
             </Link>
           ))}
         </div>

@@ -90,6 +90,7 @@ export function HomeSearch({ items }: { items: SearchItem[] }) {
           }}
           onFocus={() => query.trim() && setOpen(true)}
           onKeyDown={handleKeyDown}
+          aria-label="Search agencies, occupations, or states"
           placeholder="Search agencies, occupations, or states..."
           className="w-full pl-11 pr-4 py-3 rounded-lg border border-white/30 bg-white text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:border-transparent shadow-sm"
         />

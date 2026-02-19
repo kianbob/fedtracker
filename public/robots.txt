@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fedtracker.vercel.app/sitemap.xml

@@ -65,6 +65,7 @@ function SearchableSelect({ value, onChange, exclude }: { value: string; onChang
               autoFocus
               type="text"
               placeholder="Search agencies..."
+              aria-label="Search agencies to compare"
               value={search}
               onChange={(e) => setSearch(e.target.value)}
               className="w-full px-3 py-1.5 text-sm border border-gray-200 rounded focus:outline-none focus:ring-1 focus:ring-accent"

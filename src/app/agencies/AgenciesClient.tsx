@@ -65,6 +65,7 @@ export function AgenciesClient() {
         <input
           type="text"
           placeholder="Search agencies..."
+          aria-label="Search federal agencies"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           className="w-full max-w-md border border-gray-300 rounded-lg px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"

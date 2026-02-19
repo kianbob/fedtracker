@@ -43,6 +43,12 @@ export function Footer() {
               <Link href="/appointments" className="block text-gray-600 hover:text-accent">Appointment Types</Link>
               <Link href="/about" className="block text-gray-600 hover:text-accent">About & Methodology</Link>
             </div>
+            <h4 className="font-semibold text-gray-900 mb-3 mt-6">Editorial</h4>
+            <div className="space-y-2 text-sm">
+              <Link href="/federal-bloat" className="block text-gray-600 hover:text-accent">Is the Federal Workforce Too Big?</Link>
+              <Link href="/who-got-cut" className="block text-gray-600 hover:text-accent">Who Got Cut: DOGE Reductions</Link>
+              <Link href="/salary-analysis" className="block text-gray-600 hover:text-accent">Federal Pay Analysis</Link>
+            </div>
             <h4 className="font-semibold text-gray-900 mb-3 mt-6">Data Sources</h4>
             <div className="space-y-2 text-sm">
               <a href="https://data.opm.gov/" target="_blank" rel="noopener" className="block text-gray-600 hover:text-accent">data.opm.gov →</a>

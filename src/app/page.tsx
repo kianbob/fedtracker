@@ -6,8 +6,8 @@ import siteStats from "../../public/data/site-stats.json";
 import agencyList from "../../public/data/agency-list.json";
 
 export const metadata: Metadata = {
-  title: "FedTracker — Track the Federal Workforce | 811K Employees, 124 Agencies",
-  description: "Explore data on 811K federal employees across 124 agencies. Salaries, layoffs, hiring trends, and separations — all from official OPM FedScope data.",
+  title: "FedTracker — Track the Federal Workforce | 2M+ Employees, 128 Agencies",
+  description: "Explore data on 2M+ federal employees across 128 agencies. Salaries, layoffs, hiring trends, and separations — all from official OPM FedScope data.",
 };
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
     <div>
       {/* Data freshness banner */}
       <div className="bg-amber-50 border-b border-amber-200 px-4 py-2 text-center text-sm text-amber-800">
-        📊 Data from OPM FedScope: Employment as of March 2025 · Separations &amp; Accessions FY2020–2024. <span className="font-medium">This data predates the 2025 DOGE-era workforce reductions.</span>
+        📊 Data from OPM FedScope: Employment as of December 2025 · Separations &amp; Accessions FY2020–2025. <span className="font-medium">Now includes December 2025 data.</span>
       </div>
 
       {/* Hero */}
@@ -50,10 +50,10 @@ export default function Home() {
       {/* Stats */}
       <section className="max-w-7xl mx-auto px-4 -mt-8">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-          <StatCard label="Federal Employees" value={formatNumber(siteStats.totalEmployees)} sub="March 2025 snapshot" />
+          <StatCard label="Federal Employees" value={formatNumber(siteStats.totalEmployees)} sub="December 2025 snapshot" />
           <StatCard label="Average Salary" value={formatSalary(siteStats.avgSalary)} sub="Across all agencies" />
-          <StatCard label="Separations (FY20-24)" value={formatNumber(siteStats.totalSeparations)} sub="People who left" />
-          <StatCard label="Accessions (FY20-24)" value={formatNumber(siteStats.totalAccessions)} sub="People who joined" />
+          <StatCard label="Separations (FY20-25)" value={formatNumber(siteStats.totalSeparations)} sub="People who left" />
+          <StatCard label="Accessions (FY20-25)" value={formatNumber(siteStats.totalAccessions)} sub="People who joined" />
         </div>
       </section>
 

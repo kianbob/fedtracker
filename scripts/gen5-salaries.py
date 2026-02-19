@@ -1,73 +1,86 @@
 #!/usr/bin/env python3
-"""Generate salary stats."""
+"""Generate salary stats from December 2025 employment data."""
 import duckdb, json, os
 
 DATA = os.path.expanduser("~/Projects/fedtracker-data/extracted")
+EMP = f"{DATA}/employment-dec2025.txt"
 OUT = os.path.expanduser("~/Projects/fedtracker-app/public/data")
 
+def title_case(s):
+    if not s: return s
+    small = {'of','the','and','for','in','on','at','to','by'}
+    words = s.split()
+    result = []
+    for i, w in enumerate(words):
+        if i > 0 and w.lower() in small:
+            result.append(w.lower())
+        else:
+            result.append(w.capitalize())
+    return ' '.join(result)
+
 con = duckdb.connect()
-con.execute(f"""
-CREATE VIEW emp AS
-SELECT * FROM read_csv('{DATA}/March_2025_Employment_3.txt',
-    delim='|', quote='"', header=true, all_varchar=true)
-""")
 
-print("Salary stats...")
+SALARY_FILTER = "annualized_adjusted_basic_pay != 'REDACTED'"
+SALARY_CAST = "CAST(annualized_adjusted_basic_pay AS DOUBLE)"
 
-# Salary distribution buckets
-buckets = con.execute("""
+print("Salary distribution...")
+buckets = con.execute(f"""
     SELECT 
         CASE 
-            WHEN TRY_CAST(SALARY AS DOUBLE) < 30000 THEN 'Under $30K'
-            WHEN TRY_CAST(SALARY AS DOUBLE) < 50000 THEN '$30K-$50K'
-            WHEN TRY_CAST(SALARY AS DOUBLE) < 75000 THEN '$50K-$75K'
-            WHEN TRY_CAST(SALARY AS DOUBLE) < 100000 THEN '$75K-$100K'
-            WHEN TRY_CAST(SALARY AS DOUBLE) < 125000 THEN '$100K-$125K'
-            WHEN TRY_CAST(SALARY AS DOUBLE) < 150000 THEN '$125K-$150K'
-            WHEN TRY_CAST(SALARY AS DOUBLE) < 200000 THEN '$150K-$200K'
+            WHEN {SALARY_CAST} < 30000 THEN 'Under $30K'
+            WHEN {SALARY_CAST} < 50000 THEN '$30K-$50K'
+            WHEN {SALARY_CAST} < 75000 THEN '$50K-$75K'
+            WHEN {SALARY_CAST} < 100000 THEN '$75K-$100K'
+            WHEN {SALARY_CAST} < 125000 THEN '$100K-$125K'
+            WHEN {SALARY_CAST} < 150000 THEN '$125K-$150K'
+            WHEN {SALARY_CAST} < 200000 THEN '$150K-$200K'
             ELSE '$200K+'
         END as bracket,
-        SUM(CAST(COUNT AS INT)) as employees
-    FROM emp WHERE TRY_CAST(SALARY AS DOUBLE) IS NOT NULL
+        SUM(CAST(count AS INT)) as employees
+    FROM read_csv('{EMP}', delim='|', header=true, all_varchar=true)
+    WHERE {SALARY_FILTER}
     GROUP BY bracket
 """).fetchall()
 
-# Top paid agencies
-top_paid = con.execute("""
-    SELECT AGY, AGYT,
-           ROUND(SUM(TRY_CAST(SALARY AS DOUBLE) * CAST(COUNT AS INT)) / NULLIF(SUM(CAST(COUNT AS INT)), 0)) as avg_salary,
-           SUM(CAST(COUNT AS INT)) as employees
-    FROM emp WHERE TRY_CAST(SALARY AS DOUBLE) IS NOT NULL
-    GROUP BY AGY, AGYT
+print("Top paid agencies...")
+top_paid = con.execute(f"""
+    SELECT agency_code, agency,
+           ROUND(SUM({SALARY_CAST} * CAST(count AS INT)) / NULLIF(SUM(CAST(count AS INT)), 0)) as avg_salary,
+           SUM(CAST(count AS INT)) as employees
+    FROM read_csv('{EMP}', delim='|', header=true, all_varchar=true)
+    WHERE {SALARY_FILTER}
+    GROUP BY agency_code, agency
     HAVING employees > 100
     ORDER BY avg_salary DESC LIMIT 20
 """).fetchall()
 
-# Top paid occupations
-top_occ_paid = con.execute("""
-    SELECT OCC, OCCT,
-           ROUND(SUM(TRY_CAST(SALARY AS DOUBLE) * CAST(COUNT AS INT)) / NULLIF(SUM(CAST(COUNT AS INT)), 0)) as avg_salary,
-           SUM(CAST(COUNT AS INT)) as employees
-    FROM emp WHERE TRY_CAST(SALARY AS DOUBLE) IS NOT NULL
-    GROUP BY OCC, OCCT
+print("Top paid occupations...")
+top_occ_paid = con.execute(f"""
+    SELECT occupational_series_code, occupational_series,
+           ROUND(SUM({SALARY_CAST} * CAST(count AS INT)) / NULLIF(SUM(CAST(count AS INT)), 0)) as avg_salary,
+           SUM(CAST(count AS INT)) as employees
+    FROM read_csv('{EMP}', delim='|', header=true, all_varchar=true)
+    WHERE {SALARY_FILTER}
+    GROUP BY occupational_series_code, occupational_series
     HAVING employees > 50
     ORDER BY avg_salary DESC LIMIT 20
 """).fetchall()
 
-# By grade
-by_grade = con.execute("""
-    SELECT GRD as grade,
-           ROUND(SUM(TRY_CAST(SALARY AS DOUBLE) * CAST(COUNT AS INT)) / NULLIF(SUM(CAST(COUNT AS INT)), 0)) as avg_salary,
-           SUM(CAST(COUNT AS INT)) as employees
-    FROM emp WHERE TRY_CAST(SALARY AS DOUBLE) IS NOT NULL AND GRD != '*'
-    GROUP BY GRD
+print("By grade...")
+by_grade = con.execute(f"""
+    SELECT grade,
+           ROUND(SUM({SALARY_CAST} * CAST(count AS INT)) / NULLIF(SUM(CAST(count AS INT)), 0)) as avg_salary,
+           SUM(CAST(count AS INT)) as employees
+    FROM read_csv('{EMP}', delim='|', header=true, all_varchar=true)
+    WHERE {SALARY_FILTER} AND grade != '' AND grade != '*'
+    GROUP BY grade
     ORDER BY grade
 """).fetchall()
 
 salary_stats = {
     "distribution": [{"bracket": r[0], "employees": int(r[1])} for r in buckets],
-    "topPaidAgencies": [{"code": r[0], "name": r[1], "avgSalary": int(r[2]), "employees": int(r[3])} for r in top_paid],
-    "topPaidOccupations": [{"code": r[0], "name": r[1], "avgSalary": int(r[2]), "employees": int(r[3])} for r in top_occ_paid],
+    "topPaidAgencies": [{"code": r[0], "name": title_case(r[1]), "avgSalary": int(r[2]), "employees": int(r[3])} for r in top_paid],
+    "topPaidOccupations": [{"code": r[0], "name": title_case(r[1]), "avgSalary": int(r[2]), "employees": int(r[3])} for r in top_occ_paid],
     "byGrade": [{"grade": r[0], "avgSalary": int(r[1]), "employees": int(r[2])} for r in by_grade],
 }
 

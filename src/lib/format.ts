@@ -1,3 +1,113 @@
+// Federal Pay Plan descriptions
+const PAY_PLANS: Record<string, string> = {
+  'GS': 'General Schedule',
+  'GM': 'General Schedule (Senior)',
+  'GG': 'General Schedule (Defense)',
+  'GL': 'General Schedule (Law Enforcement)',
+  'GW': 'General Schedule (Workers)',
+  'GP': 'General Practice (VA Physicians)',
+  'VM': 'VA Title 38 (Medical)',
+  'VN': 'VA Nurse',
+  'VP': 'VA Podiatrist/Optometrist',
+  'VH': 'VA Hybrid Title 38',
+  'VC': 'VA Canteen',
+  'AD': 'Administratively Determined',
+  'AL': 'Administrative Law Judge',
+  'EX': 'Executive Schedule',
+  'ES': 'Senior Executive Service',
+  'EI': 'Expert/Consultant',
+  'EJ': 'Expert/Consultant (Senior)',
+  'EK': 'Expert/Consultant (Defense)',
+  'EL': 'Expert/Consultant (Limited)',
+  'EF': 'Executive Fellow',
+  'EG': 'Senior Level (Scientific)',
+  'EH': 'Senior Level (Professional)',
+  'EN': 'Executive (Non-career)',
+  'SL': 'Senior Level',
+  'ST': 'Scientific/Professional',
+  'FP': 'Foreign Service Pay',
+  'FO': 'Foreign Service Officer',
+  'FE': 'Foreign Service Executive',
+  'FV': 'FAA Core Compensation',
+  'FG': 'Federal Wage System (Supervisory)',
+  'WE': 'Wage Employee',
+  'NH': 'DoD Acquisition (Professional)',
+  'NJ': 'DoD Acquisition (Technical)',
+  'NK': 'DoD Acquisition (Administrative)',
+  'NM': 'DoD Acquisition (Senior)',
+  'ND': 'DoD Science & Technology',
+  'NB': 'DoD Business Management',
+  'NC': 'DoD Cyber',
+  'NG': 'DoD Intelligence',
+  'NO': 'DoD Operational',
+  'NP': 'DoD Medical',
+  'NR': 'DoD Research',
+  'NT': 'DoD Technology',
+  'CG': 'Coast Guard',
+  'CM': 'Commissioned Corps (PHS)',
+  'CN': 'Commissioned (NOAA)',
+  'CT': 'Commissioned (Title 10)',
+  'CU': 'Commissioned (Uniformed)',
+  'DA': 'Defense Civilian Intelligence',
+  'DB': 'Defense Band',
+  'DE': 'Defense Expeditionary',
+  'DG': 'Defense Intelligence',
+  'DJ': 'Defense Intelligence (Senior)',
+  'DK': 'Defense Clandestine',
+  'DO': 'Defense Intelligence (Operational)',
+  'DP': 'Defense Intelligence (Professional)',
+  'DR': 'Defense Intelligence (Research)',
+  'DS': 'Defense Intelligence (Specialist)',
+  'DT': 'Defense Intelligence (Technical)',
+  'DU': 'Defense Intelligence (Ungraded)',
+  'DX': 'Defense Intelligence (Executive)',
+  'ED': 'Education (Gallaudet)',
+  'IC': 'Intelligence Community',
+  'IE': 'Intelligence (Executive)',
+  'IJ': 'Intelligence (Expert)',
+  'IM': 'Intelligence (Manager)',
+  'IP': 'Intelligence (Professional)',
+  'IR': 'Intelligence (Research)',
+  'IT': 'Intelligence (Technical)',
+  'LE': 'Law Enforcement',
+  'PG': 'Postal (Graded)',
+  'RA': 'Research Associate',
+  'RF': 'Research Foundation',
+  'RG': 'Research Grade',
+  'RS': 'Research Scientist',
+  'SK': 'Skilled Trades',
+  'SP': 'Senior Professional',
+  'SR': 'Statutory Rate',
+  'SS': 'Special Staff',
+  'SV': 'TSA Security',
+  'TR': 'Transportation',
+  'ZA': 'NIST (Professional)',
+  'ZP': 'NIST (Scientific)',
+  'ZS': 'NIST (Support)',
+  'ZT': 'NIST (Technical)',
+  'ZZ': 'Miscellaneous Pay Plan',
+  'AA': 'Administrative Appeals',
+  'BN': 'Botanic Garden',
+};
+
+export function explainGrade(grade: string): { plan: string; level: string; planName: string } {
+  if (!grade) return { plan: '', level: '', planName: '' };
+  const parts = grade.split('-');
+  const plan = parts[0] || '';
+  const level = parts[1] || '';
+  const planName = PAY_PLANS[plan] || plan;
+  return { plan, level, planName };
+}
+
+export function formatGrade(grade: string): string {
+  if (!grade) return '';
+  const { planName, level } = explainGrade(grade);
+  if (level === '00' || level === 'PH') {
+    return `${grade} — ${planName}${level === 'PH' ? ' (Physician)' : ''}`;
+  }
+  return `${grade} — ${planName}${level ? ', Grade ' + level : ''}`;
+}
+
 export function formatNumber(n: number | null | undefined): string {
   if (n == null || isNaN(n)) return "0";
   if (n >= 1_000_000) return (n / 1_000_000).toFixed(2).replace(/\.?0+$/, "") + "M";

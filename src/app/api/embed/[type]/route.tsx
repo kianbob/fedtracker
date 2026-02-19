@@ -48,7 +48,7 @@ function wrapHtml(title: string, body: string) {
 </head>
 <body>
   ${body}
-  <a href="https://fedtracker.org" target="_blank" rel="noopener" class="watermark">FedTracker</a>
+  <a href="https://fedtracker.vercel.app" target="_blank" rel="noopener" class="watermark">FedTracker</a>
 </body>
 </html>`;
 }

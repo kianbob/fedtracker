@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { formatNumber, formatSalary, toTitleCase } from "@/lib/format";
+import { formatNumber, formatSalary, toTitleCase, explainGrade } from "@/lib/format";
 import { StatCard } from "@/components/StatCard";
 import { OccupationCharts } from "./OccupationCharts";
 import fs from "fs";
@@ -77,19 +77,34 @@ export default async function OccupationDetailPage({ params }: { params: { code:
       {/* Salary by Grade */}
       {data.salaryByGrade?.length > 0 && (
         <section className="mt-12">
-          <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4">Salary by Grade</h2>
+          <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4">Salary by Pay Plan &amp; Grade</h2>
+          <p className="text-sm text-gray-500 mb-4">
+            Federal employees are paid under various pay plans. GS (General Schedule) is the most common,
+            covering most white-collar positions. Other plans include VA medical, Senior Executive Service,
+            DoD acquisition, and agency-specific scales.
+          </p>
           <div className="bg-white border border-gray-200 rounded-xl overflow-hidden">
-            <div className="grid grid-cols-3 px-5 py-2 bg-gray-50 text-xs font-semibold text-gray-500 uppercase">
-              <span>Grade</span><span className="text-right">Employees</span><span className="text-right">Avg Salary</span>
+            <div className="grid grid-cols-[1fr_auto_auto] gap-x-4 px-5 py-2 bg-gray-50 text-xs font-semibold text-gray-500 uppercase">
+              <span>Grade &amp; Pay Plan</span><span className="text-right">Employees</span><span className="text-right">Avg Salary</span>
             </div>
             <div className="divide-y divide-gray-100">
-              {data.salaryByGrade.slice(0, 15).map((g: any) => (
-                <div key={g.grade} className="grid grid-cols-3 px-5 py-2.5 text-sm">
-                  <span className="font-medium text-gray-900">{g.grade}</span>
-                  <span className="text-right text-gray-700">{formatNumber(g.count)}</span>
-                  <span className={`text-right ${g.avgSalary === 0 ? "text-gray-400" : "text-gray-700"}`}>{g.avgSalary === 0 ? "N/A" : formatSalary(g.avgSalary)}</span>
-                </div>
-              ))}
+              {data.salaryByGrade.slice(0, 20).map((g: any) => {
+                const info = g.grade ? explainGrade(g.grade) : null;
+                return (
+                  <div key={g.grade} className="grid grid-cols-[1fr_auto_auto] gap-x-4 px-5 py-3 text-sm">
+                    <div>
+                      <span className="font-mono font-semibold text-gray-900">{g.grade}</span>
+                      {info?.planName && (
+                        <span className="ml-2 text-xs text-gray-500">
+                          {info.planName}{info.level && info.level !== '00' && info.level !== 'PH' ? `, Grade ${info.level}` : ''}{info.level === 'PH' ? ' (Physician)' : ''}
+                        </span>
+                      )}
+                    </div>
+                    <span className="text-right text-gray-700 whitespace-nowrap">{formatNumber(g.count)}</span>
+                    <span className={`text-right whitespace-nowrap ${g.avgSalary === 0 ? "text-gray-400" : "text-gray-700 font-medium"}`}>{g.avgSalary === 0 ? "N/A" : formatSalary(g.avgSalary)}</span>
+                  </div>
+                );
+              })}
             </div>
           </div>
         </section>

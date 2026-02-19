@@ -58,7 +58,7 @@ export function OccupationsClient() {
               Occupation {sortBy === "name" ? (sortDir === "desc" ? "↓" : "↑") : ""}
             </button>
           </div>
-          <div className="col-span-3"><span className="text-xs text-gray-400">Family</span></div>
+          <div className="col-span-3"><span className="text-xs uppercase tracking-wide font-medium text-gray-500">Family</span></div>
           <div className="col-span-2 text-right">
             <button onClick={() => toggleSort("employees")} className={`text-xs uppercase tracking-wide font-medium ${sortBy === "employees" ? "text-accent" : "text-gray-500"}`}>
               Count {sortBy === "employees" ? (sortDir === "desc" ? "↓" : "↑") : ""}

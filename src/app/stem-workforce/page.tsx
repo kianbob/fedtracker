@@ -53,44 +53,14 @@ function Section({
   );
 }
 
-// Compute STEM vs Non-STEM totals
-const stemRows = stemData.by_agency.filter((r) =>
-  STEM_TYPES.includes(r.type)
-);
-const nonStemRows = stemData.by_agency.filter(
-  (r) => r.type === "ALL OTHER OCCUPATIONS"
-);
+// Compute STEM vs Non-STEM totals from pre-aggregated data
+const stemTotalEntry = stemData.totals.find((t) => t.category === "STEM");
+const nonStemTotalEntry = stemData.totals.find((t) => t.category === "Non-STEM");
 
-const stemTotal = stemRows.reduce((s, r) => s + r.employees, 0);
-const nonStemTotal = nonStemRows.reduce((s, r) => s + r.employees, 0);
-
-const stemSalaryRows = stemRows.filter(
-  (r) => r.avg_salary != null && r.avg_salary > 0
-);
-const stemAvgSalary =
-  stemSalaryRows.length > 0
-    ? Math.round(
-        stemSalaryRows.reduce(
-          (s, r) => s + r.avg_salary! * r.employees,
-          0
-        ) /
-          stemSalaryRows.reduce((s, r) => s + r.employees, 0)
-      )
-    : null;
-
-const nonStemSalaryRows = nonStemRows.filter(
-  (r) => r.avg_salary != null && r.avg_salary > 0
-);
-const nonStemAvgSalary =
-  nonStemSalaryRows.length > 0
-    ? Math.round(
-        nonStemSalaryRows.reduce(
-          (s, r) => s + r.avg_salary! * r.employees,
-          0
-        ) /
-          nonStemSalaryRows.reduce((s, r) => s + r.employees, 0)
-      )
-    : null;
+const stemTotal = stemTotalEntry?.employees ?? 0;
+const nonStemTotal = nonStemTotalEntry?.employees ?? 0;
+const stemAvgSalary = stemTotalEntry?.avg_salary ?? null;
+const nonStemAvgSalary = nonStemTotalEntry?.avg_salary ?? null;
 
 const stemPct = ((stemTotal / (stemTotal + nonStemTotal)) * 100).toFixed(1);
 
@@ -99,49 +69,29 @@ interface AgencyStem {
   agency: string;
   agency_code: string;
   stemEmployees: number;
-  weightedSalary: number;
-  salaryEmployees: number;
+  avgSalary: number | null;
 }
 
-const agencyMap = new Map<string, AgencyStem>();
-for (const r of stemRows) {
-  const existing = agencyMap.get(r.agency_code);
-  if (existing) {
-    existing.stemEmployees += r.employees;
-    if (r.avg_salary != null && r.avg_salary > 0) {
-      existing.weightedSalary += r.avg_salary * r.employees;
-      existing.salaryEmployees += r.employees;
-    }
-  } else {
-    agencyMap.set(r.agency_code, {
-      agency: r.agency,
-      agency_code: r.agency_code,
-      stemEmployees: r.employees,
-      weightedSalary:
-        r.avg_salary != null && r.avg_salary > 0
-          ? r.avg_salary * r.employees
-          : 0,
-      salaryEmployees:
-        r.avg_salary != null && r.avg_salary > 0 ? r.employees : 0,
-    });
-  }
-}
+const topAgencies: AgencyStem[] = [...stemData.by_agency]
+  .sort((a, b) => b.stemCount - a.stemCount)
+  .slice(0, 15)
+  .map((a) => ({
+    agency: a.name,
+    agency_code: a.code,
+    stemEmployees: a.stemCount,
+    avgSalary: a.avg_salary,
+  }));
 
-const topAgencies = [...Array.from(agencyMap.values())]
-  .sort((a, b) => b.stemEmployees - a.stemEmployees)
-  .slice(0, 15);
-
-// STEM category breakdown for chart
-const categoryTotals = STEM_TYPES.map((type) => {
-  const rows = stemRows.filter((r) => r.type === type);
-  const label = type
+// STEM category breakdown for chart (from byType)
+const categoryTotals = stemData.byType.map((t) => {
+  const label = t.type
     .replace(" OCCUPATIONS", "")
     .charAt(0)
     .toUpperCase()
-    + type.replace(" OCCUPATIONS", "").slice(1).toLowerCase();
+    + t.type.replace(" OCCUPATIONS", "").slice(1).toLowerCase();
   return {
     category: label,
-    employees: rows.reduce((s, r) => s + r.employees, 0),
+    employees: t.employees,
   };
 }).sort((a, b) => b.employees - a.employees);
 
@@ -312,12 +262,8 @@ export default function STEMWorkforcePage() {
                       {formatNumber(a.stemEmployees)}
                     </td>
                     <td className="px-3 py-3 text-right font-semibold text-gray-900">
-                      {a.salaryEmployees > 0
-                        ? formatSalary(
-                            Math.round(
-                              a.weightedSalary / a.salaryEmployees
-                            )
-                          )
+                      {a.avgSalary != null && a.avgSalary > 0
+                        ? formatSalary(a.avgSalary)
                         : "N/A"}
                     </td>
                   </tr>

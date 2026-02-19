@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, useCallback } from "react";
 import { DarkModeToggle } from "./DarkModeToggle";
 
 interface NavItem {
@@ -11,12 +11,14 @@ interface NavItem {
 
 interface NavCategory {
   label: string;
+  hubHref: string;
   items: NavItem[];
 }
 
 const categories: NavCategory[] = [
   {
     label: "Explore",
+    hubHref: "/explore",
     items: [
       { href: "/agencies", title: "Agencies", description: "128 federal agencies" },
       { href: "/occupations", title: "Occupations", description: "540+ federal job series" },
@@ -27,6 +29,7 @@ const categories: NavCategory[] = [
   },
   {
     label: "Workforce",
+    hubHref: "/workforce",
     items: [
       { href: "/trends", title: "Trends", description: "Employment over time" },
       { href: "/demographics", title: "Demographics", description: "Age, gender, veterans" },
@@ -38,6 +41,7 @@ const categories: NavCategory[] = [
   },
   {
     label: "DOGE & Cuts",
+    hubHref: "/cuts",
     items: [
       { href: "/doge", title: "DOGE Impact Dashboard", description: "Live impact tracker" },
       { href: "/layoffs", title: "Separations", description: "All departure types" },
@@ -50,18 +54,29 @@ const categories: NavCategory[] = [
   },
   {
     label: "Analysis",
+    hubHref: "/analysis",
     items: [
       { href: "/findings", title: "Key Findings", description: "Overview" },
       { href: "/workforce-analysis", title: "Workforce Deep Dive", description: "Comprehensive analysis" },
       { href: "/federal-bloat", title: "Federal Bloat", description: "Size & efficiency" },
       { href: "/salary-analysis", title: "Salary Analysis", description: "Pay patterns" },
-      { href: "/compare", title: "Compare Agencies", description: "Side-by-side comparison" },
       { href: "/brain-drain", title: "Brain Drain Index", description: "Who's really leaving" },
       { href: "/retirement-cliff", title: "Retirement Cliff", description: "Aging workforce risk" },
       { href: "/geographic-impact", title: "Geographic Impact", description: "Where federal jobs are" },
       { href: "/stem-workforce", title: "STEM Brain Drain", description: "Technical workforce analysis" },
       { href: "/salary-explorer", title: "Salary Explorer", description: "Interactive pay lookup" },
       { href: "/monthly-timeline", title: "Monthly Timeline", description: "Month-by-month changes" },
+    ],
+  },
+  {
+    label: "About",
+    hubHref: "/about",
+    items: [
+      { href: "/about", title: "About", description: "About FedTracker" },
+      { href: "/downloads", title: "Downloads", description: "Download data files" },
+      { href: "/updates", title: "Updates", description: "Latest changes" },
+      { href: "/compare", title: "Compare", description: "Side-by-side comparison" },
+      { href: "/workforce-analysis", title: "Workforce Analysis", description: "Comprehensive analysis" },
     ],
   },
 ];
@@ -115,31 +130,46 @@ function DesktopDropdown({
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
         </svg>
       </button>
-      {open && (
-        <div className="absolute top-full left-0 pt-1">
-          <div
-            className="w-[280px] bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg shadow-lg py-1"
-            role="menu"
-          >
-            {category.items.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                role="menuitem"
-                onClick={onClose}
-                className="block px-4 py-2.5 hover:bg-accent-50 dark:hover:bg-gray-700 transition-colors"
-              >
-                <span className="block text-sm font-semibold text-gray-900 dark:text-gray-100">
-                  {item.title}
-                </span>
-                <span className="block text-xs text-gray-500 dark:text-gray-400">
-                  {item.description}
-                </span>
-              </Link>
-            ))}
+      <div
+        className="absolute top-full left-0 pt-1"
+        style={{
+          opacity: open ? 1 : 0,
+          transform: open ? "translateY(0)" : "translateY(-4px)",
+          transition: "opacity 150ms ease, transform 150ms ease",
+          pointerEvents: open ? "auto" : "none",
+        }}
+      >
+        <div
+          className="w-[280px] bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg shadow-lg py-1"
+          role="menu"
+        >
+          {category.items.map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              role="menuitem"
+              onClick={onClose}
+              className="block px-4 py-2.5 hover:bg-accent-50 dark:hover:bg-gray-700 transition-colors"
+            >
+              <span className="block text-sm font-semibold text-gray-900 dark:text-gray-100">
+                {item.title}
+              </span>
+              <span className="block text-xs text-gray-500 dark:text-gray-400">
+                {item.description}
+              </span>
+            </Link>
+          ))}
+          <div className="border-t border-gray-100 dark:border-gray-700 mt-1 pt-1">
+            <Link
+              href={category.hubHref}
+              onClick={onClose}
+              className="block px-4 py-2 text-sm font-medium text-accent dark:text-indigo-400 hover:bg-accent-50 dark:hover:bg-gray-700 transition-colors"
+            >
+              View All →
+            </Link>
           </div>
         </div>
-      )}
+      </div>
     </div>
   );
 }
@@ -155,6 +185,17 @@ function MobileAccordion({
   onToggle: () => void;
   onNavigate: () => void;
 }) {
+  const contentRef = useRef<HTMLDivElement>(null);
+  const [maxHeight, setMaxHeight] = useState<string>("0px");
+
+  useEffect(() => {
+    if (open && contentRef.current) {
+      setMaxHeight(`${contentRef.current.scrollHeight}px`);
+    } else {
+      setMaxHeight("0px");
+    }
+  }, [open]);
+
   return (
     <div className="border-b border-gray-100 dark:border-gray-700">
       <button
@@ -164,7 +205,7 @@ function MobileAccordion({
       >
         <span className="font-medium">{category.label}</span>
         <svg
-          className={`w-4 h-4 transition-transform ${open ? "rotate-180" : ""}`}
+          className={`w-4 h-4 transition-transform duration-200 ${open ? "rotate-180" : ""}`}
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -172,7 +213,14 @@ function MobileAccordion({
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
         </svg>
       </button>
-      {open && (
+      <div
+        ref={contentRef}
+        style={{
+          maxHeight,
+          transition: "max-height 200ms ease",
+          overflow: "hidden",
+        }}
+      >
         <div className="bg-gray-50 dark:bg-gray-800/50">
           {category.items.map((item) => (
             <Link
@@ -189,8 +237,15 @@ function MobileAccordion({
               </span>
             </Link>
           ))}
+          <Link
+            href={category.hubHref}
+            onClick={onNavigate}
+            className="block px-6 py-2.5 text-sm font-medium text-accent dark:text-indigo-400 hover:bg-accent-50 dark:hover:bg-gray-700 transition-colors"
+          >
+            View All →
+          </Link>
         </div>
-      )}
+      </div>
     </div>
   );
 }
@@ -199,6 +254,8 @@ export function Navigation() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const [openAccordion, setOpenAccordion] = useState<string | null>(null);
+
+  const closeMobile = useCallback(() => setMobileOpen(false), []);
 
   return (
     <nav
@@ -228,12 +285,6 @@ export function Navigation() {
                 onClose={() => setOpenDropdown(null)}
               />
             ))}
-            <Link
-              href="/about"
-              className="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-accent dark:hover:text-indigo-400 rounded-md hover:bg-accent-50 dark:hover:bg-gray-800 transition-colors"
-            >
-              About
-            </Link>
           </div>
 
           {/* Right side: search, dark mode, hamburger */}
@@ -285,16 +336,9 @@ export function Navigation() {
               onToggle={() =>
                 setOpenAccordion(openAccordion === cat.label ? null : cat.label)
               }
-              onNavigate={() => setMobileOpen(false)}
+              onNavigate={closeMobile}
             />
           ))}
-          <Link
-            href="/about"
-            onClick={() => setMobileOpen(false)}
-            className="block px-4 py-3 font-medium text-gray-700 dark:text-gray-200 hover:bg-accent-50 dark:hover:bg-gray-800 border-b border-gray-100 dark:border-gray-700"
-          >
-            About
-          </Link>
         </div>
       )}
     </nav>

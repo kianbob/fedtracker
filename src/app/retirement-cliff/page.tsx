@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo, Fragment } from "react";
 import Link from "next/link";
 import {
   BarChart,
@@ -27,6 +27,15 @@ const AGE_ORDER = [
   "40-44", "45-49", "50-54", "55-59", "60-64", "65 OR MORE",
 ];
 
+function toTitleCase(s: string): string {
+  const minor = new Set(["of", "the", "and", "in", "for", "on", "at", "to", "a", "an"]);
+  return s
+    .toLowerCase()
+    .split(" ")
+    .map((w, i) => (i > 0 && minor.has(w)) ? w : w.charAt(0).toUpperCase() + w.slice(1))
+    .join(" ");
+}
+
 function riskColor(pct: number): string {
   if (pct >= 40) return "text-red-700 bg-red-50";
   if (pct >= 30) return "text-amber-700 bg-amber-50";
@@ -43,12 +52,17 @@ function riskBadge(pct: number): string {
 
 export default function RetirementCliffPage() {
   const [data, setData] = useState<AgencyRetirement[] | null>(null);
+  const [error, setError] = useState<string | null>(null);
   const [expandedCode, setExpandedCode] = useState<string | null>(null);
 
   useEffect(() => {
     fetch("/data/retirement-cliff.json")
-      .then((r) => r.json())
-      .then(setData);
+      .then((r) => {
+        if (!r.ok) throw new Error(`Failed to load data: ${r.status} ${r.statusText}`);
+        return r.json();
+      })
+      .then(setData)
+      .catch((e) => setError(e.message));
   }, []);
 
   // Aggregate age pyramid across all agencies
@@ -65,6 +79,14 @@ export default function RetirementCliffPage() {
       count: totals[bracket],
     }));
   }, [data]);
+
+  if (error) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-red-600 text-lg">Error: {error}</div>
+      </div>
+    );
+  }
 
   if (!data) {
     return (

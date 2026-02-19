@@ -52,6 +52,12 @@ const sections = [
       { href: "/federal-bloat", title: "Federal Bloat", stat: "🏛️", desc: "Federal workforce size & efficiency" },
       { href: "/salary-analysis", title: "Salary Analysis", stat: "💵", desc: "Deep pay pattern analysis" },
       { href: "/compare", title: "Compare Agencies", stat: "⚖️", desc: "Side-by-side agency comparison" },
+      { href: "/brain-drain", title: "Brain Drain Index", stat: "🧠", desc: "Who is really leaving" },
+      { href: "/retirement-cliff", title: "Retirement Cliff", stat: "⏳", desc: "Aging workforce risk analysis" },
+      { href: "/geographic-impact", title: "Geographic Impact", stat: "🗺️", desc: "Where federal jobs are concentrated" },
+      { href: "/stem-workforce", title: "STEM Brain Drain", stat: "🔬", desc: "Technical workforce analysis" },
+      { href: "/salary-explorer", title: "Salary Explorer", stat: "🔎", desc: "Interactive pay lookup tool" },
+      { href: "/monthly-timeline", title: "Monthly Timeline", stat: "📅", desc: "Month-by-month workforce changes" },
     ],
   },
 ];

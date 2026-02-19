@@ -126,7 +126,11 @@ export default function DownloadsPage() {
         </div>
       ))}
 
-      <div className="mt-12 p-6 bg-gray-50 border border-gray-200 rounded-xl text-center">
+      <p className="mt-8 text-sm text-gray-500">
+        Some datasets are only available in JSON format because they contain nested or hierarchical data structures that don&apos;t map well to flat CSV rows.
+      </p>
+
+      <div className="mt-6 p-6 bg-gray-50 border border-gray-200 rounded-xl text-center">
         <p className="text-sm text-gray-600">
           All data derived from{" "}
           <a href="https://data.opm.gov/" target="_blank" rel="noopener noreferrer" className="text-accent hover:text-accent-light underline">

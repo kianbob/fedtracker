@@ -15,6 +15,7 @@ import {
 
 interface AgencyBrainDrain {
   code: string;
+  name: string;
   sep_count: number;
   avg_sep_salary: number;
   avg_sep_los: number;
@@ -46,13 +47,18 @@ function formatCurrency(n: number): string {
 
 export default function BrainDrainPage() {
   const [data, setData] = useState<BrainDrainData | null>(null);
+  const [error, setError] = useState<string | null>(null);
   const [sortKey, setSortKey] = useState<SortKey>("salary_gap");
   const [sortAsc, setSortAsc] = useState(false);
 
   useEffect(() => {
     fetch("/data/brain-drain.json")
-      .then((r) => r.json())
-      .then(setData);
+      .then((r) => {
+        if (!r.ok) throw new Error(`Failed to load data: ${r.status} ${r.statusText}`);
+        return r.json();
+      })
+      .then(setData)
+      .catch((e) => setError(e.message));
   }, []);
 
   const sortedAgencies = useMemo(() => {
@@ -91,6 +97,14 @@ export default function BrainDrainPage() {
       >
         {label} {sortKey === field ? (sortAsc ? "↑" : "↓") : ""}
       </th>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-red-600 text-lg">Error: {error}</div>
+      </div>
     );
   }
 
@@ -196,7 +210,10 @@ export default function BrainDrainPage() {
             <tbody className="bg-white divide-y divide-gray-100">
               {sortedAgencies.map((a) => (
                 <tr key={a.code} className="hover:bg-indigo-50/50 transition-colors">
-                  <td className="px-3 py-2 text-sm font-medium text-gray-900">{a.code}</td>
+                  <td className="px-3 py-2 text-sm font-medium text-gray-900">
+                    {a.name !== a.code ? a.name : a.code}
+                    {a.name !== a.code && <span className="text-gray-400 ml-1 text-xs">({a.code})</span>}
+                  </td>
                   <td className="px-3 py-2 text-sm text-gray-700">{a.sep_count.toLocaleString()}</td>
                   <td className="px-3 py-2 text-sm text-gray-700">{formatCurrency(a.avg_sep_salary)}</td>
                   <td className="px-3 py-2 text-sm text-gray-700">{formatCurrency(a.avg_acc_salary)}</td>

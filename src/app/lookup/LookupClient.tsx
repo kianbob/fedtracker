@@ -177,6 +177,33 @@ export function LookupClient() {
         )}
       </div>
 
+      {/* Popular Agencies */}
+      {!selected && !query.trim() && (
+        <div className="max-w-2xl mx-auto -mt-6 mb-12">
+          <p className="text-sm text-gray-500 mb-3">Popular agencies:</p>
+          <div className="flex flex-wrap gap-2">
+            {[
+              { label: "Department of Defense", q: "Department of Defense" },
+              { label: "Veterans Affairs", q: "Veterans Affairs" },
+              { label: "Department of Justice", q: "Department of Justice" },
+              { label: "NASA", q: "NASA" },
+              { label: "IRS", q: "IRS" },
+              { label: "Department of Education", q: "Department of Education" },
+              { label: "EPA", q: "EPA" },
+              { label: "FBI", q: "FBI" },
+            ].map((chip) => (
+              <button
+                key={chip.label}
+                onClick={() => { setQuery(chip.q); setShowDropdown(true); }}
+                className="px-3 py-1.5 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-accent-50 hover:text-accent transition-colors"
+              >
+                {chip.label}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+
       {/* Report Card */}
       {selected && rc && (
         <div className="space-y-8">

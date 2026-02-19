@@ -74,7 +74,7 @@ export default async function SeparationDetailPage({ params }: { params: { code:
         <section className="mt-12">
           <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4">Top Occupations</h2>
           <div className="bg-white border border-gray-200 rounded-xl overflow-hidden divide-y divide-gray-100">
-            {data.topOccupations.slice(0, 15).map((o: any, i: number) => (
+            {data.topOccupations.filter((o: any) => !['NO DATA REPORTED', 'UNSPECIFIED'].includes(o.name?.toUpperCase())).slice(0, 15).map((o: any, i: number) => (
               <div key={i} className="flex justify-between px-6 py-3">
                 <span className="text-gray-800 truncate mr-4">{toTitleCase(o.name)}</span>
                 <span className="text-gray-700 font-semibold text-sm shrink-0">{formatNumber(o.count)}</span>

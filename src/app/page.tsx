@@ -2,9 +2,12 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { StatCard } from "@/components/StatCard";
 import { HomepageChart } from "./HomepageChart";
+import { HomeSearch } from "@/components/HomeSearch";
 import { formatNumber, formatSalary, cleanAgencyName } from "@/lib/format";
 import siteStats from "../../public/data/site-stats.json";
 import agencyList from "../../public/data/agency-list.json";
+import occupations from "../../public/data/occupations.json";
+import statesData from "../../public/data/states.json";
 import trends from "../../public/data/trends.json";
 
 export const metadata: Metadata = {
@@ -15,6 +18,18 @@ export const metadata: Metadata = {
 export default function Home() {
   const topAgencies = agencyList.slice(0, 12);
   const recentTrends = trends.monthly.slice(-12);
+
+  const searchItems = [
+    ...agencyList
+      .filter((a) => a.code !== "*")
+      .map((a) => ({ label: cleanAgencyName(a.name), href: `/agencies/${a.code}`, type: "Agency" as const })),
+    ...occupations
+      .filter((o) => o.code !== "*")
+      .map((o) => ({ label: o.name, href: `/occupations/${o.code}`, type: "Occupation" as const })),
+    ...statesData
+      .filter((s) => s.code !== "*" && s.code !== "NDR")
+      .map((s) => ({ label: s.name, href: `/states/${s.code}`, type: "State" as const })),
+  ];
 
   return (
     <div>

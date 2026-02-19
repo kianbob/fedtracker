@@ -6,33 +6,33 @@ const topLinks = [
   { href: "/agencies", label: "Agencies" },
   { href: "/doge", label: "DOGE Impact" },
   { href: "/layoffs", label: "Separations" },
-  { href: "/trends", label: "Trends" },
-  { href: "/occupations", label: "Occupations" },
-  { href: "/salaries", label: "Salaries" },
+  { href: "/findings", label: "Key Findings" },
   { href: "/about", label: "About" },
 ];
 
-const analysisLinks = [
+const moreLinks = [
+  { href: "/trends", label: "Trends" },
   { href: "/workforce-analysis", label: "Deep Dive" },
-  { href: "/findings", label: "Key Findings" },
+  { href: "/occupations", label: "Occupations" },
   { href: "/demographics", label: "Demographics" },
+  { href: "/salaries", label: "Salaries" },
+  { href: "/states", label: "States" },
+  { href: "/subagencies", label: "Subagencies" },
 ];
 
-const mobileTopLinks = [
+const mobileMainLinks = [
   { href: "/", label: "Home" },
   { href: "/agencies", label: "Agencies" },
   { href: "/doge", label: "DOGE Impact" },
   { href: "/layoffs", label: "Separations" },
-  { href: "/trends", label: "Trends" },
-  { href: "/occupations", label: "Occupations" },
-  { href: "/salaries", label: "Salaries" },
+  { href: "/findings", label: "Key Findings" },
   { href: "/about", label: "About" },
 ];
 
 export function Navigation() {
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [dropdownOpen, setDropdownOpen] = useState(false);
-  const [mobileAnalysisOpen, setMobileAnalysisOpen] = useState(false);
+  const [moreOpen, setMoreOpen] = useState(false);
+  const [mobileMoreOpen, setMobileMoreOpen] = useState(false);
 
   return (
     <nav className="bg-white border-b border-gray-200 sticky top-0 z-50">
@@ -47,7 +47,7 @@ export function Navigation() {
 
           {/* Desktop */}
           <div className="hidden md:flex items-center gap-1">
-            {topLinks.slice(0, 4).map((l) => (
+            {topLinks.map((l) => (
               <Link
                 key={l.href}
                 href={l.href}
@@ -57,28 +57,28 @@ export function Navigation() {
               </Link>
             ))}
 
-            {/* Analysis dropdown — hover to open */}
+            {/* More dropdown */}
             <div
               className="relative"
-              onMouseEnter={() => setDropdownOpen(true)}
-              onMouseLeave={() => setDropdownOpen(false)}
+              onMouseEnter={() => setMoreOpen(true)}
+              onMouseLeave={() => setMoreOpen(false)}
             >
               <button
                 className="px-3 py-2 text-sm text-gray-600 hover:text-accent rounded-md hover:bg-accent-50 transition-colors inline-flex items-center gap-1"
               >
-                Analysis
-                <svg className={`w-3.5 h-3.5 transition-transform ${dropdownOpen ? "rotate-180" : ""}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                More
+                <svg className={`w-3.5 h-3.5 transition-transform ${moreOpen ? "rotate-180" : ""}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
               </button>
-              {dropdownOpen && (
-                <div className="absolute top-full left-0 pt-1">
+              {moreOpen && (
+                <div className="absolute top-full right-0 pt-1">
                   <div className="w-48 bg-white border border-gray-200 rounded-lg shadow-lg py-1">
-                    {analysisLinks.map((l) => (
+                    {moreLinks.map((l) => (
                       <Link
                         key={l.href}
                         href={l.href}
-                        onClick={() => setDropdownOpen(false)}
+                        onClick={() => setMoreOpen(false)}
                         className="block px-4 py-2.5 text-sm text-gray-600 hover:text-accent hover:bg-accent-50 transition-colors"
                       >
                         {l.label}
@@ -88,16 +88,6 @@ export function Navigation() {
                 </div>
               )}
             </div>
-
-            {topLinks.slice(4).map((l) => (
-              <Link
-                key={l.href}
-                href={l.href}
-                className="px-3 py-2 text-sm text-gray-600 hover:text-accent rounded-md hover:bg-accent-50 transition-colors"
-              >
-                {l.label}
-              </Link>
-            ))}
           </div>
 
           {/* Mobile toggle */}
@@ -119,7 +109,7 @@ export function Navigation() {
       {/* Mobile menu */}
       {mobileOpen && (
         <div className="md:hidden border-t border-gray-200 bg-white">
-          {mobileTopLinks.slice(0, 5).map((l) => (
+          {mobileMainLinks.map((l) => (
             <Link
               key={l.href}
               href={l.href}
@@ -130,20 +120,20 @@ export function Navigation() {
             </Link>
           ))}
 
-          {/* Mobile Analysis expandable section */}
+          {/* Mobile More expandable section */}
           <div className="border-b border-gray-100">
             <button
-              onClick={() => setMobileAnalysisOpen(!mobileAnalysisOpen)}
+              onClick={() => setMobileMoreOpen(!mobileMoreOpen)}
               className="w-full flex items-center justify-between px-4 py-3 text-gray-700 hover:bg-accent-50 hover:text-accent"
             >
-              <span>Analysis</span>
-              <svg className={`w-4 h-4 transition-transform ${mobileAnalysisOpen ? "rotate-180" : ""}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <span>More</span>
+              <svg className={`w-4 h-4 transition-transform ${mobileMoreOpen ? "rotate-180" : ""}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
               </svg>
             </button>
-            {mobileAnalysisOpen && (
+            {mobileMoreOpen && (
               <div className="bg-gray-50">
-                {analysisLinks.map((l) => (
+                {moreLinks.map((l) => (
                   <Link
                     key={l.href}
                     href={l.href}
@@ -156,17 +146,6 @@ export function Navigation() {
               </div>
             )}
           </div>
-
-          {mobileTopLinks.slice(5).map((l) => (
-            <Link
-              key={l.href}
-              href={l.href}
-              onClick={() => setMobileOpen(false)}
-              className="block px-4 py-3 text-gray-700 hover:bg-accent-50 hover:text-accent border-b border-gray-100"
-            >
-              {l.label}
-            </Link>
-          ))}
         </div>
       )}
     </nav>

@@ -14,6 +14,8 @@ const topLinks = [
 ];
 
 const moreLinks = [
+  { href: "/risk", label: "Risk Scores" },
+  { href: "/impact", label: "State Impact" },
   { href: "/workforce-analysis", label: "Deep Dive" },
   { href: "/demographics", label: "Demographics" },
   { href: "/states", label: "States" },

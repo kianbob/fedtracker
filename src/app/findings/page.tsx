@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { StatCard } from "@/components/StatCard";
+import { formatNumber, fixAgencyName } from "@/lib/format";
+import hardestHit from "../../../public/data/hardest-hit.json";
+import knowledgeLoss from "../../../public/data/knowledge-loss.json";
+import tenureSeparations from "../../../public/data/tenure-separations.json";
 
 export const metadata: Metadata = {
   title: "Key Findings — The Real State of the Federal Workforce — FedTracker",
@@ -76,6 +80,9 @@ export default function FindingsPage() {
           <li><a href="#stem" className="hover:text-accent">4. STEM Brain Drain</a></li>
           <li><a href="#managers" className="hover:text-accent">5. The Manager Ratio Myth</a></li>
           <li><a href="#overseas" className="hover:text-accent">6. The Overseas Workforce</a></li>
+          <li><a href="#hardest-hit" className="hover:text-accent">7. Who Got Hit Hardest</a></li>
+          <li><a href="#experience-drain" className="hover:text-accent">8. The Experience Drain (by Agency)</a></li>
+          <li><a href="#tenure" className="hover:text-accent">9. Who&apos;s Leaving by Tenure</a></li>
         </ol>
       </nav>
 
@@ -205,6 +212,116 @@ export default function FindingsPage() {
             different occupations. Any workforce restructuring needs to account for these differences.
             Explore the details in the <Link href="/workforce-analysis" className="text-accent font-semibold hover:underline">overseas analysis</Link>.
           </p>
+        </FindingSection>
+      </div>
+
+      {/* WHO GOT HIT HARDEST */}
+      <div id="hardest-hit">
+        <FindingSection emoji="💥" title="Who Got Hit Hardest">
+          <p className="text-gray-700 text-lg leading-relaxed mb-6">
+            Some agencies lost the vast majority of their workforce. The Department of Education saw a staggering
+            79.3% reduction — nearly 4 out of 5 employees gone. Here are the top agencies by percentage of workforce lost.
+          </p>
+          <div className="overflow-x-auto border border-gray-200 rounded-xl mb-6">
+            <table className="w-full text-sm">
+              <thead className="bg-gray-50 border-b border-gray-200">
+                <tr>
+                  <th className="px-3 py-3 text-left text-xs font-semibold text-gray-600 uppercase">Agency</th>
+                  <th className="px-3 py-3 text-left text-xs font-semibold text-gray-600 uppercase">Employees</th>
+                  <th className="px-3 py-3 text-left text-xs font-semibold text-gray-600 uppercase">2025 Seps</th>
+                  <th className="px-3 py-3 text-left text-xs font-semibold text-gray-600 uppercase">% Reduction</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-100">
+                {hardestHit.slice(0, 10).map((a) => (
+                  <tr key={a.code} className={a.code === "ED" ? "bg-red-50/50 font-medium" : "hover:bg-gray-50"}>
+                    <td className="px-3 py-3">
+                      <Link href={`/agencies/${a.code}`} className="text-accent hover:underline">
+                        {fixAgencyName(a.name)}
+                      </Link>
+                    </td>
+                    <td className="px-3 py-3 text-gray-700">{formatNumber(a.employees)}</td>
+                    <td className="px-3 py-3 text-gray-700">{formatNumber(a.seps2025)}</td>
+                    <td className="px-3 py-3">
+                      <span className={a.reductionPct > 50 ? "text-red-600 font-bold" : "text-red-600 font-semibold"}>
+                        {a.reductionPct}%
+                      </span>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </FindingSection>
+      </div>
+
+      {/* EXPERIENCE DRAIN BY AGENCY */}
+      <div id="experience-drain">
+        <FindingSection emoji="📉" title="The Experience Drain: Agency by Agency">
+          <p className="text-gray-700 text-lg leading-relaxed mb-6">
+            When experienced employees leave, they take decades of institutional knowledge with them. Here are
+            the agencies that lost the most cumulative years of federal experience in 2025.
+          </p>
+          <div className="overflow-x-auto border border-gray-200 rounded-xl mb-6">
+            <table className="w-full text-sm">
+              <thead className="bg-gray-50 border-b border-gray-200">
+                <tr>
+                  <th className="px-3 py-3 text-left text-xs font-semibold text-gray-600 uppercase">Agency</th>
+                  <th className="px-3 py-3 text-left text-xs font-semibold text-gray-600 uppercase">Experience Lost</th>
+                  <th className="px-3 py-3 text-left text-xs font-semibold text-gray-600 uppercase">2025 Seps</th>
+                  <th className="px-3 py-3 text-left text-xs font-semibold text-gray-600 uppercase">Avg Tenure</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-100">
+                {knowledgeLoss.slice(0, 15).map((a) => (
+                  <tr key={a.code} className="hover:bg-gray-50">
+                    <td className="px-3 py-3">
+                      <Link href={`/agencies/${a.code}`} className="text-accent hover:underline">
+                        {fixAgencyName(a.name)}
+                      </Link>
+                    </td>
+                    <td className="px-3 py-3 text-gray-900 font-semibold">{formatNumber(a.experienceLostYears)} years</td>
+                    <td className="px-3 py-3 text-gray-700">{formatNumber(a.seps2025)}</td>
+                    <td className="px-3 py-3 text-gray-700">{a.avgTenure} yrs</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <PullQuote text="The VA alone lost 542,000 years of combined experience. That's not a number you recover from quickly." />
+        </FindingSection>
+      </div>
+
+      {/* TENURE SEPARATIONS */}
+      <div id="tenure">
+        <FindingSection emoji="📊" title="Who's Leaving by Tenure">
+          <p className="text-gray-700 text-lg leading-relaxed mb-6">
+            The newest employees (0–4 years) account for the largest share of departures, driven overwhelmingly by quits.
+            But the 20+ year veterans are leaving in huge numbers too — mostly through retirement programs.
+          </p>
+          <div className="space-y-6">
+            {[...tenureSeparations].sort((a, b) => b.total - a.total).map((bracket) => {
+              const topTypes = Object.entries(bracket.byType)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 5);
+              return (
+                <div key={bracket.bracket} className="bg-gray-50 border border-gray-200 rounded-xl p-6">
+                  <div className="flex items-center justify-between mb-3">
+                    <h3 className="font-semibold text-gray-900 text-lg">{bracket.bracket}</h3>
+                    <span className="text-xl font-bold text-accent">{formatNumber(bracket.total)}</span>
+                  </div>
+                  <div className="flex flex-wrap gap-2">
+                    {topTypes.map(([type, count]) => (
+                      <span key={type} className="bg-white border border-gray-200 rounded-lg px-3 py-1.5 text-sm">
+                        <span className="text-gray-500">{type}:</span>{" "}
+                        <span className="font-semibold text-gray-900">{formatNumber(count as number)}</span>
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
         </FindingSection>
       </div>
 

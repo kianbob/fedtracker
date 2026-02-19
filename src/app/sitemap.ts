@@ -20,6 +20,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/subagencies`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/about`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
     { url: `${base}/findings`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/risk`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${base}/impact`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${base}/education`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
   ];
 
   // Separation type pages

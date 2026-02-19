@@ -6,6 +6,7 @@ import { HomeSearch } from "@/components/HomeSearch";
 import { formatNumber, formatSalary, fixAgencyName } from "@/lib/format";
 import siteStats from "../../public/data/site-stats.json";
 import agencyList from "../../public/data/agency-list.json";
+import agencyRisk from "../../public/data/agency-risk.json";
 import occupations from "../../public/data/occupations.json";
 import statesData from "../../public/data/states.json";
 import trends from "../../public/data/trends.json";
@@ -88,6 +89,9 @@ export default function Home() {
               <p className="text-sm text-red-700 mt-1">
                 The federal government has seen unprecedented workforce changes in 2025. Explore the data.
               </p>
+              <div className="flex gap-2 mt-2">
+                <Link href="/impact" className="text-xs font-medium text-red-600 hover:underline">State-by-State Impact →</Link>
+              </div>
             </div>
             <span className="bg-red-600 text-white font-semibold px-5 py-2.5 rounded-lg text-sm whitespace-nowrap self-start sm:self-center group-hover:bg-red-700 transition-colors">
               View Report →
@@ -167,6 +171,34 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Agency Risk Scores */}
+      <section className="max-w-7xl mx-auto px-4 mt-16">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="font-serif text-3xl font-bold text-gray-900">Agency Risk Scores</h2>
+          <Link href="/risk" className="text-accent hover:underline text-sm font-medium">View all scores →</Link>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+          {[...agencyRisk].sort((a, b) => b.riskScore - a.riskScore).slice(0, 5).map((a) => (
+            <Link
+              key={a.code}
+              href={`/agencies/${a.code}`}
+              className="bg-white border border-gray-200 rounded-xl p-4 hover:shadow-md hover:border-red-200 transition-all group"
+            >
+              <div className="flex items-center gap-2 mb-2">
+                <span className={`text-xs font-bold px-2 py-0.5 rounded ${
+                  a.riskScore > 60 ? "bg-red-100 text-red-700" : a.riskScore > 30 ? "bg-yellow-100 text-yellow-700" : "bg-green-100 text-green-700"
+                }`}>{a.riskScore}</span>
+                <div className="flex-1 h-1.5 bg-gray-200 rounded-full overflow-hidden">
+                  <div className={`h-full rounded-full ${a.riskScore > 60 ? "bg-red-500" : a.riskScore > 30 ? "bg-yellow-500" : "bg-green-500"}`} style={{ width: `${a.riskScore}%` }} />
+                </div>
+              </div>
+              <p className="text-sm font-semibold text-gray-900 group-hover:text-accent truncate">{fixAgencyName(a.name)}</p>
+              <p className="text-xs text-gray-500">{a.reductionPct}% workforce reduction</p>
+            </Link>
+          ))}
         </div>
       </section>
 

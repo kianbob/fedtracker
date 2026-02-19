@@ -87,7 +87,7 @@ export default function Home() {
                 DOGE Impact: 2025 Workforce Reduction
               </h3>
               <p className="text-sm text-red-700 mt-1">
-                The federal government has seen unprecedented workforce changes in 2025. Explore the data.
+                The federal government underwent its largest restructuring in modern history. See the data.
               </p>
               <div className="flex gap-2 mt-2">
                 <Link href="/impact" className="text-xs font-medium text-red-600 hover:underline">State-by-State Impact →</Link>

@@ -103,7 +103,7 @@ export function DogeClient({ data }: { data: DogeData | null }) {
             DOGE Impact Dashboard
           </h1>
           <p className="text-lg text-red-100 max-w-2xl mb-8">
-            A data-driven look at the unprecedented federal workforce reduction
+            A data-driven look at the historic federal workforce restructuring
             in 2025. Every number comes from official OPM FedScope data.
           </p>
           <div className="inline-block bg-white/10 backdrop-blur border border-white/20 rounded-2xl px-8 py-6">
@@ -268,10 +268,10 @@ export function DogeClient({ data }: { data: DogeData | null }) {
                 <strong className="text-red-900">
                   The Department of Government Efficiency (DOGE)
                 </strong>{" "}
-                was established in January 2025 with a mandate to reduce the size
-                of the federal government. Combined with executive orders on
-                hiring freezes and workforce restructuring, it triggered the
-                largest peacetime reduction in the federal civilian workforce.
+                was established in January 2025 with a mandate to bring accountability 
+                and efficiency to the federal government. Combined with executive orders on
+                hiring freezes and workforce restructuring, it delivered the
+                largest peacetime right-sizing of the federal civilian workforce.
               </p>
               <p>
                 <strong className="text-red-900">Hiring Freeze:</strong> Federal
@@ -312,9 +312,9 @@ export function DogeClient({ data }: { data: DogeData | null }) {
               <p>
                 <strong className="text-red-900">The September Spike:</strong>{" "}
                 September 2025 saw {formatNumber(peakMonth.separations)}{" "}
-                separations — the largest single-month exodus in modern federal
+                separations — the largest single-month workforce reduction in modern federal
                 history. This included end-of-fiscal-year retirements amplified
-                by workforce reduction policies and early retirement incentives.
+                by restructuring policies and early retirement incentives.
               </p>
             </div>
           </div>

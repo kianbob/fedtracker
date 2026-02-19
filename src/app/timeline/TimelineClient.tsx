@@ -28,15 +28,15 @@ function generateNarrative(d: MonthData, allData: MonthData[]): string {
   const peakMonth = allData.reduce((a, b) => b.separations > a.separations ? b : a);
   const isPeak = d.month === peakMonth.month;
 
-  if (isPeak) return `${seps} separations — the biggest single-month exodus in modern federal history. Only ${acc} hired.`;
+  if (isPeak) return `${seps} separations — the single largest month of federal workforce reduction in modern history. Only ${acc} hired.`;
 
   // Jan 2025 - first big month
-  if (d.month === "202501") return `${seps} separations — the first wave begins. Hiring still strong at ${acc}.`;
-  if (d.month === "202502") return `${seps} separations as DOGE ramps up. Hiring drops to ${acc} — the freeze begins.`;
-  if (d.month === "202503") return `${seps} separations with hiring plummeting to ${acc}. Net loss of ${Math.abs(d.netChange).toLocaleString()} in one month.`;
+  if (d.month === "202501") return `${seps} separations — the restructuring begins. Hiring still strong at ${acc}.`;
+  if (d.month === "202502") return `${seps} separations as DOGE ramps up. Hiring drops to ${acc} — the spending freeze takes hold.`;
+  if (d.month === "202503") return `${seps} separations with hiring cut to ${acc}. Net reduction of ${Math.abs(d.netChange).toLocaleString()} in one month.`;
   if (d.month === "202507") return `${seps} separations including ${d.rifs.toLocaleString()} RIFs — the largest RIF month. Only ${acc} hired.`;
-  if (d.month === "202510") return `Separations slow to ${seps}. Hiring at ${acc}. The worst may be over — but damage is done.`;
-  if (d.month === "202511") return `${seps} separations — lowest since DOGE began. Net change nearly flat at ${d.netChange.toLocaleString()}.`;
+  if (d.month === "202510") return `Separations slow to ${seps}. Hiring at ${acc}. The initial restructuring appears to be stabilizing.`;
+  if (d.month === "202511") return `${seps} separations — lowest since DOGE began. Net change nearly flat at ${d.netChange.toLocaleString()}. The new baseline.`;
 
   // Pre-DOGE months (2023-2024)
   if (d.month < "202501") {
@@ -46,7 +46,7 @@ function generateNarrative(d: MonthData, allData: MonthData[]): string {
 
   // Generic DOGE-era
   if (d.rifs > 100) return `${seps} separations including ${d.rifs.toLocaleString()} RIFs. Hiring frozen at ${acc}.`;
-  if (d.netChange < -15000) return `${seps} separations vs only ${acc} hired. A devastating net loss of ${Math.abs(d.netChange).toLocaleString()}.`;
+  if (d.netChange < -15000) return `${seps} separations vs only ${acc} hired. Net reduction of ${Math.abs(d.netChange).toLocaleString()}.`;
   return `${seps} separations, ${acc} accessions. Net change: ${d.netChange.toLocaleString()}.`;
 }
 
@@ -88,8 +88,8 @@ export function TimelineClient({ data }: { data: MonthData[] | null }) {
           The DOGE Effect: Month by Month
         </h1>
         <p className="text-xl text-gray-600 max-w-3xl">
-          The federal government has lost a net <span className="font-bold text-indigo-600">{totalCumulativeLoss.toLocaleString()}</span> employees
-          since January 2025. Here&apos;s how it unfolded.
+          The federal workforce shrank by a net <span className="font-bold text-indigo-600">{totalCumulativeLoss.toLocaleString()}</span> positions
+          since January 2025. Here&apos;s how the restructuring unfolded, month by month.
         </p>
       </div>
 

@@ -6,11 +6,11 @@ import path from "path";
 export const metadata: Metadata = {
   title: "DOGE Impact Dashboard — 217K Federal Jobs Lost in 2025 — FedTracker",
   description:
-    "Data-driven analysis of the 2025 federal workforce reduction under DOGE: 217,177 net jobs lost, 10,721 RIFs, hiring frozen 54%. Agency-by-agency breakdown and monthly trends from OPM data.",
+    "Data-driven analysis of the 2025 federal workforce restructuring under DOGE: 217,177 net positions reduced, 10,721 RIFs, hiring reduced 54%. Agency-by-agency breakdown and monthly trends from OPM data.",
   openGraph: {
-    title: "DOGE Impact Dashboard — 217K Federal Jobs Lost",
+    title: "DOGE Impact Dashboard — 217K Federal Positions Restructured",
     description:
-      "The federal government lost 217,177 employees since January 2025. See the full breakdown by agency, month, and separation type.",
+      "The federal workforce shrank by 217,177 positions since January 2025. See the full breakdown by agency, month, and separation type.",
   },
 };
 

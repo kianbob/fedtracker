@@ -156,11 +156,11 @@ export function AppointmentsClient({ data }: { data: AppointmentData[] | null })
         <div className="space-y-4 text-gray-700">
           <div>
             <h3 className="font-semibold text-gray-900">Career (Competitive Service)</h3>
-            <p>Employees who passed a competitive exam and completed their probationary period. These are permanent, full civil service protections. The backbone of the federal workforce.</p>
+            <p>Employees who passed a competitive exam and completed their probationary period. These are permanent positions with full civil service protections — which also makes them the hardest to fire, regardless of performance.</p>
           </div>
           <div>
             <h3 className="font-semibold text-gray-900">Career-Conditional</h3>
-            <p>Employees still in their probationary period (typically 1-2 years). They&apos;re on the path to career status but can be more easily terminated — making them a prime DOGE target.</p>
+            <p>Employees still in their probationary period (typically 1-2 years). They&apos;re on the path to career status but can still be let go for performance — the one window where normal accountability applies.</p>
           </div>
           <div>
             <h3 className="font-semibold text-gray-900">Excepted Service (Schedule A, B, C, D)</h3>
@@ -168,11 +168,11 @@ export function AppointmentsClient({ data }: { data: AppointmentData[] | null })
           </div>
           <div>
             <h3 className="font-semibold text-gray-900">Senior Executive Service (SES)</h3>
-            <p>The top tier of federal management — senior leaders who bridge political appointees and the career workforce. Career SES members are non-partisan experts; noncareer SES are political appointees.</p>
+            <p>The top tier of federal management — senior leaders who bridge political appointees and the career workforce. Career SES members are supposed to be non-partisan experts; noncareer SES are political appointees. SES members earn $150-200K+ and are rarely held accountable for agency performance.</p>
           </div>
           <div>
             <h3 className="font-semibold text-gray-900">Nonpermanent / Temporary</h3>
-            <p>Term-limited positions including seasonal workers, interns, and temporary hires. While easier to cut, they serve essential surge capacity for agencies like IRS during tax season.</p>
+            <p>Term-limited positions including seasonal workers, interns, and temporary hires. These are the positions that should flex up and down with actual need — exactly how a well-run organization operates.</p>
           </div>
         </div>
       </div>

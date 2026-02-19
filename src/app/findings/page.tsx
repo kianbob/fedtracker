@@ -41,7 +41,8 @@ export default function FindingsPage() {
         </h1>
         <p className="text-xl text-gray-600 max-w-3xl leading-relaxed">
           We analyzed 2 million employment records and 5 years of separation data from OPM FedScope. 
-          Here are the most important findings — many of which contradict the political narratives on both sides.
+          For decades, the federal workforce has grown with little accountability. 2025 was the year 
+          that finally changed. Here&apos;s what the data shows about the long-overdue restructuring.
         </p>
         <div className="flex gap-4 mt-6 text-sm text-gray-500">
           <span>Data: OPM FedScope Dec 2025</span>
@@ -90,8 +91,8 @@ export default function FindingsPage() {
         <FindingSection emoji="🔥" title="The DOGE Effect">
           <p className="text-gray-700 text-lg leading-relaxed mb-6">
             The federal workforce shrank by approximately 217,000 positions between early 2025 and the end of the year. 
-            This wasn&apos;t just attrition — it was a coordinated reduction driven by hiring freezes, 
-            early retirement incentives, and a massive increase in Reductions in Force (RIFs).
+            After decades of unchecked growth, this was the first serious attempt to right-size the federal bureaucracy.
+            The reduction came through hiring freezes, early retirement incentives, and Reductions in Force (RIFs).
           </p>
 
           <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
@@ -100,7 +101,7 @@ export default function FindingsPage() {
             <StatCard label="Early Retirements" value="4,000+" sub="SE separations surged" />
           </div>
 
-          <PullQuote text="RIFs went from single digits per month to thousands. This isn't normal attrition — it's a deliberate restructuring of the federal government." />
+          <PullQuote text="RIFs went from single digits per month to thousands. For the first time in modern history, the federal government got smaller instead of bigger." />
 
           <p className="text-gray-700 leading-relaxed mb-4">
             The most dramatic signal is in <Link href="/separations/SH" className="text-accent font-semibold hover:underline">RIF data (code SH)</Link>. 
@@ -115,9 +116,10 @@ export default function FindingsPage() {
       <div id="retirement">
         <FindingSection emoji="⏰" title="The Retirement Cliff">
           <p className="text-gray-700 text-lg leading-relaxed mb-6">
-            Nearly one in five federal employees is currently eligible to retire. This was already a crisis before 
-            DOGE — now it&apos;s an emergency. As experienced workers accelerate their departures, agencies face a 
-            compounding knowledge loss problem.
+            Nearly one in five federal employees is currently eligible to retire. This has been true for years — 
+            the government has long been top-heavy with high-tenure, high-salary employees nearing retirement age. 
+            The question isn&apos;t whether these retirements will happen, but whether agencies actually need to 
+            backfill all of these positions, or whether this is a natural opportunity to streamline.
           </p>
 
           <div className="grid grid-cols-2 gap-4 mb-8">
@@ -130,16 +132,17 @@ export default function FindingsPage() {
             see which agencies have 25%+ of their workforce eligible to walk out tomorrow.
           </p>
 
-          <PullQuote text="The federal government was already facing a retirement tsunami. The hiring freeze just turned it into a staffing catastrophe." />
+          <PullQuote text="A workforce where 1 in 5 employees can retire tomorrow was never sustainable. The question is whether agencies will use this moment to modernize or just reflexively replace every headcount." />
         </FindingSection>
       </div>
 
       <div id="experience">
         <FindingSection emoji="🧠" title="The Experience Drain">
           <p className="text-gray-700 text-lg leading-relaxed mb-6">
-            It&apos;s not just how many people are leaving — it&apos;s who. Federal employees separating in 2025 
-            had significantly longer tenures than in prior years. The people with the most institutional knowledge 
-            are the ones heading for the exits.
+            Federal employees separating in 2025 had significantly longer tenures than in prior years. 
+            While critics frame this as a &quot;brain drain,&quot; it&apos;s worth noting that many of these long-tenure 
+            employees were among the highest-paid in government, and &quot;institutional knowledge&quot; can also mean 
+            &quot;institutional inertia.&quot; Fresh perspectives and modern skills aren&apos;t always a bad trade.
           </p>
 
           <div className="grid grid-cols-2 gap-4 mb-8">
@@ -148,9 +151,10 @@ export default function FindingsPage() {
           </div>
 
           <p className="text-gray-700 leading-relaxed">
-            This matters enormously for agencies that rely on deep institutional knowledge — regulatory agencies, 
-            intelligence, defense logistics. You can&apos;t hire a replacement and expect them to be effective on day one.
-            See the <Link href="/workforce-analysis" className="text-accent font-semibold hover:underline">experience exodus analysis</Link> for 
+            For genuinely critical roles — intelligence, defense logistics, nuclear safety — experience matters.
+            But the data doesn&apos;t distinguish between irreplaceable expertise and bureaucratic tenure.
+            The real question is which of these roles were essential and which were the product of decades of empire-building.
+            See the <Link href="/workforce-analysis" className="text-accent font-semibold hover:underline">experience analysis</Link> for 
             agency-by-agency breakdowns.
           </p>
         </FindingSection>
@@ -160,14 +164,14 @@ export default function FindingsPage() {
         <FindingSection emoji="🔬" title="STEM Brain Drain">
           <p className="text-gray-700 text-lg leading-relaxed mb-6">
             The federal government employs hundreds of thousands of scientists, engineers, IT specialists, 
-            and mathematicians. These are exactly the people the private sector is competing hardest for — 
-            and exactly the people a hiring freeze makes hardest to replace.
+            and mathematicians. These are arguably the most defensible government roles — the ones even 
+            small-government advocates agree the private sector can&apos;t easily replace.
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-4">
-            STEM employees earn more on average than their non-STEM counterparts in government, 
-            but still significantly less than private sector equivalents. With the current uncertainty, 
-            the government&apos;s ability to attract and retain technical talent is at serious risk.
+            STEM employees earn about 44% more than non-STEM feds, but still less than private sector equivalents. 
+            This is the one area where workforce reductions need to be surgical, not blunt. Losing a GS-15 
+            program analyst is very different from losing a nuclear physicist or cybersecurity engineer.
           </p>
 
           <p className="text-gray-700 leading-relaxed">
@@ -180,16 +184,16 @@ export default function FindingsPage() {
       <div id="managers">
         <FindingSection emoji="👔" title="The Manager Ratio Myth">
           <p className="text-gray-700 text-lg leading-relaxed mb-6">
-            One of the central claims driving workforce reductions is that the federal government has too many 
-            managers and not enough front-line workers. The data tells a more nuanced story.
+            Is the federal government really overrun with middle managers? The overall ratio is roughly 1:5, 
+            which is actually comparable to the private sector. But some agencies tell a very different story.
           </p>
 
-          <PullQuote text="The overall federal manager-to-staff ratio is roughly comparable to the private sector. But the variation between agencies is enormous." />
+          <PullQuote text="Some agencies have a manager for every 2-3 employees. In the private sector, that kind of overhead gets you fired. In government, it gets you a bigger budget." />
 
           <p className="text-gray-700 leading-relaxed mb-4">
-            Some agencies genuinely have high supervisory ratios. Others are remarkably lean. 
-            Blanket cuts don&apos;t account for this variation. A 1:5 ratio at a small policy shop means something 
-            very different than 1:30 at a large service delivery agency.
+            The variation between agencies is enormous. Small policy shops with 1:2 or 1:3 ratios are the 
+            textbook definition of bureaucratic bloat. Large service delivery agencies like the VA actually 
+            run leaner than many private companies. The data supports targeted cuts, not blanket ones.
           </p>
 
           <p className="text-gray-700 leading-relaxed">
@@ -202,14 +206,15 @@ export default function FindingsPage() {
       <div id="overseas">
         <FindingSection emoji="🌍" title="The Overseas Workforce">
           <p className="text-gray-700 text-lg leading-relaxed mb-6">
-            A surprisingly large portion of federal civilian employees work outside the United States. 
-            These roles — from embassy staff to military support to scientific researchers — are often invisible 
-            in the domestic workforce debate.
+            The federal government maintains a massive civilian workforce overseas — a legacy of America&apos;s 
+            post-WWII global footprint that has never been seriously questioned. Do we still need the same 
+            overseas staffing levels we had during the Cold War?
           </p>
 
           <p className="text-gray-700 leading-relaxed">
-            The overseas workforce has different characteristics: different age distributions, different pay scales, 
-            different occupations. Any workforce restructuring needs to account for these differences.
+            Some overseas positions are genuinely essential (embassy security, military support). Others are 
+            relics of an era when the U.S. thought it needed to manage the world. The data shows the scale 
+            of this commitment — taxpayers should decide if it&apos;s still justified.
             Explore the details in the <Link href="/workforce-analysis" className="text-accent font-semibold hover:underline">overseas analysis</Link>.
           </p>
         </FindingSection>
@@ -219,8 +224,9 @@ export default function FindingsPage() {
       <div id="hardest-hit">
         <FindingSection emoji="💥" title="Who Got Hit Hardest">
           <p className="text-gray-700 text-lg leading-relaxed mb-6">
-            Some agencies lost the vast majority of their workforce. The Department of Education saw a staggering
-            79.3% reduction — nearly 4 out of 5 employees gone. Here are the top agencies by percentage of workforce lost.
+            Some agencies saw dramatic workforce reductions. The Department of Education lost 79.3% of its workforce — 
+            which, depending on your view of federal involvement in education, is either alarming or long overdue.
+            USAID was effectively dismantled. Here&apos;s who shrank the most.
           </p>
           <div className="overflow-x-auto border border-gray-200 rounded-xl mb-6">
             <table className="w-full text-sm">
@@ -288,7 +294,7 @@ export default function FindingsPage() {
               </tbody>
             </table>
           </div>
-          <PullQuote text="The VA alone lost 542,000 years of combined experience. That's not a number you recover from quickly." />
+          <PullQuote text="The VA alone lost 542,000 years of combined experience. Whether that experience was being used effectively is a separate question — but the scale is undeniable." />
         </FindingSection>
       </div>
 

@@ -11,13 +11,13 @@ export function TrendsClient({ data }: { data: any }) {
 
   const biggestLosers = data.netByAgency.slice(0, 15).map((a: any) => ({
     ...a,
-    name: cleanAgencyName(a.name).slice(0, 35),
+    name: cleanAgencyName(a.name),
     absNet: Math.abs(a.net),
   }));
 
   const biggestGainers = [...data.netByAgency].reverse().slice(0, 15).map((a: any) => ({
     ...a,
-    name: cleanAgencyName(a.name).slice(0, 35),
+    name: cleanAgencyName(a.name),
   }));
 
   return (

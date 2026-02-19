@@ -54,7 +54,10 @@ export function SalariesClient({ data }: { data: any }) {
       <section>
         <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4">Average Salary by GS Grade</h2>
         <div className="bg-white border border-gray-200 rounded-xl p-4">
-          <SimpleBarChart data={data.byGrade.filter((g: any) => g.grade && g.employees > 100)} dataKey="avgSalary" nameKey="grade" color="#3730a3" />
+          <SimpleBarChart data={data.byGrade
+            .filter((g: any) => /^(0[1-9]|1[0-5])$/.test(g.grade))
+            .sort((a: any, b: any) => parseInt(a.grade) - parseInt(b.grade))
+            .map((g: any) => ({ ...g, grade: `GS-${parseInt(g.grade)}` }))} dataKey="avgSalary" nameKey="grade" color="#3730a3" />
         </div>
       </section>
     </div>

@@ -23,7 +23,7 @@ export function TrendsClient({ data }: { data: any }) {
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
       <h1 className="font-serif text-4xl font-bold text-gray-900 mb-2">Workforce Trends</h1>
-      <p className="text-gray-600 mb-8">Hiring vs. separations across the federal government, FY2020-2024.</p>
+      <p className="text-gray-600 mb-8">Hiring vs. separations across the federal government, FY2020–2025.</p>
 
       <section className="mb-12">
         <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4">Monthly Accessions vs Separations</h2>

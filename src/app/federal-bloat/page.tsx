@@ -5,7 +5,7 @@ import { formatNumber, fixAgencyName } from "@/lib/format";
 import agencyBudgets from "../../../public/data/agency-budgets.json";
 
 export const metadata: Metadata = {
-  title: "Is the Federal Workforce Too Big? — FedTracker",
+  title: "Is the Federal Workforce Too Big? — OpenFeds",
   description:
     "The federal workforce is smaller than in 1960, but spending per employee has exploded. The real bloat isn't headcount — it's the shadow contractor workforce and runaway budgets.",
 };
@@ -67,7 +67,7 @@ export default function FederalBloatPage() {
       </nav>
       <header className="mb-16">
         <p className="text-sm font-semibold text-accent uppercase tracking-wide mb-3">
-          FedTracker Editorial
+          OpenFeds Editorial
         </p>
         <h1 className="font-serif text-4xl sm:text-5xl font-bold text-gray-900 mb-4 leading-tight">
           Is the Federal Workforce Too Big?

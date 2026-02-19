@@ -6,7 +6,7 @@ import dogeImpact from "../../../public/data/doge-impact.json";
 import hardestHit from "../../../public/data/hardest-hit.json";
 
 export const metadata: Metadata = {
-  title: "Who Got Cut: The DOGE Workforce Reduction — FedTracker",
+  title: "Who Got Cut: The DOGE Workforce Reduction — OpenFeds",
   description:
     "335,000 federal separations in 2025 — a 67% increase. RIFs surged from 46 to 10,721. Here's who was affected, which agencies shrank, and where the jobs disappeared.",
 };
@@ -72,7 +72,7 @@ export default function WhoGotCutPage() {
       </nav>
       <header className="mb-16">
         <p className="text-sm font-semibold text-accent uppercase tracking-wide mb-3">
-          FedTracker Editorial
+          OpenFeds Editorial
         </p>
         <h1 className="font-serif text-4xl sm:text-5xl font-bold text-gray-900 mb-4 leading-tight">
           Who Got Cut: The DOGE

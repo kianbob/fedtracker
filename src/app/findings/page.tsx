@@ -8,7 +8,7 @@ import knowledgeLoss from "../../../public/data/knowledge-loss.json";
 import tenureSeparations from "../../../public/data/tenure-separations.json";
 
 export const metadata: Metadata = {
-  title: "Key Findings — The Real State of the Federal Workforce — FedTracker",
+  title: "Key Findings — The Real State of the Federal Workforce — OpenFeds",
   description: "Data-driven analysis of the federal workforce in 2025: the DOGE effect, retirement cliff, experience drain, STEM brain drain, and more.",
 };
 
@@ -41,7 +41,7 @@ export default function FindingsPage() {
         <span className="text-slate-300">Key Findings</span>
       </nav>
       <header className="mb-16">
-        <p className="text-sm font-semibold text-accent uppercase tracking-wide mb-3">FedTracker Analysis</p>
+        <p className="text-sm font-semibold text-accent uppercase tracking-wide mb-3">OpenFeds Analysis</p>
         <h1 className="font-serif text-4xl sm:text-5xl font-bold text-gray-900 mb-4 leading-tight">
           The Federal Workforce in 2025:<br />What the Data Actually Shows
         </h1>
@@ -58,7 +58,7 @@ export default function FindingsPage() {
         <p className="text-xs text-gray-400 mt-2">Last updated: February 2026</p>
         <div className="flex gap-3 mt-4">
           <a
-            href="https://twitter.com/intent/tweet?text=Key%20Findings%3A%20The%20Federal%20Workforce%20in%202025&url=https%3A%2F%2Ffedtracker.vercel.app%2Ffindings"
+            href="https://twitter.com/intent/tweet?text=Key%20Findings%3A%20The%20Federal%20Workforce%20in%202025&url=https%3A%2F%2Fopenfeds.vercel.app%2Ffindings"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium text-white bg-gray-900 rounded-lg hover:bg-gray-700 transition-colors"
@@ -67,7 +67,7 @@ export default function FindingsPage() {
             Share on X
           </a>
           <a
-            href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Ffedtracker.vercel.app%2Ffindings"
+            href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fopenfeds.vercel.app%2Ffindings"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium text-white bg-[#0A66C2] rounded-lg hover:bg-[#004182] transition-colors"

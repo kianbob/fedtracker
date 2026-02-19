@@ -4,7 +4,7 @@ import states from "../../../public/data/states.json";
 import { StatesClient } from "./StatesClient";
 
 export const metadata = {
-  title: "Federal Employees by State — Geographic Distribution — FedTracker",
+  title: "Federal Employees by State — Geographic Distribution — OpenFeds",
   description: "See where federal employees work across all 50 states and territories. Employee counts and average salaries by location from OPM FedScope.",
 };
 

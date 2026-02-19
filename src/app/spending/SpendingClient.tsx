@@ -93,7 +93,7 @@ export function SpendingClient() {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
-      <Breadcrumb items={[{ label: 'Workforce', href: '/spending' }, { label: 'Spending' }]} />
+      <Breadcrumb items={[{ label: 'Workforce', href: '/workforce' }, { label: 'Spending' }]} />
       {/* Hero */}
       <header className="mb-12">
         <p className="text-sm font-semibold text-accent uppercase tracking-wide mb-3">Federal Budget Analysis</p>

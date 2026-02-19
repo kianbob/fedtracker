@@ -10,7 +10,7 @@ export function SalariesClient({ data }: { data: any }) {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
-      <Breadcrumb items={[{ label: 'Workforce', href: '/salaries' }, { label: 'Salaries' }]} />
+      <Breadcrumb items={[{ label: 'Workforce', href: '/workforce' }, { label: 'Salaries' }]} />
       <h1 className="font-serif text-4xl font-bold text-gray-900 mb-2">Federal Salary Analysis</h1>
       <p className="text-gray-600 mb-8">Pay distribution, highest-paid agencies, occupations, and grade levels.</p>
 

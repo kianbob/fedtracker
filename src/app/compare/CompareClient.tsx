@@ -132,7 +132,7 @@ export function CompareClient() {
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-12">
-      <Breadcrumb items={[{ label: 'About', href: '/compare' }, { label: 'Compare Agencies' }]} />
+      <Breadcrumb items={[{ label: 'About', href: '/about' }, { label: 'Compare Agencies' }]} />
       <h1 className="font-serif text-4xl font-bold text-gray-900 mb-2">Compare Agencies</h1>
       <p className="text-gray-600 mb-8">Select two federal agencies to compare side-by-side on key workforce metrics.</p>
 

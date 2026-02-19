@@ -131,7 +131,7 @@ export function LookupClient() {
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
-      <Breadcrumb items={[{ label: 'Explore', href: '/lookup' }, { label: 'Agency Lookup' }]} />
+      <Breadcrumb items={[{ label: 'Explore', href: '/explore' }, { label: 'Agency Lookup' }]} />
       <div className="text-center mb-10">
         <h1 className="font-serif text-4xl font-bold text-gray-900 mb-3">
           What Happened to My Agency?

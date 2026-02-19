@@ -75,7 +75,7 @@ export default function DownloadsPage() {
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-12">
-      <Breadcrumb items={[{ label: 'About', href: '/downloads' }, { label: 'Downloads' }]} />
+      <Breadcrumb items={[{ label: 'About', href: '/about' }, { label: 'Downloads' }]} />
       <div className="text-center mb-12">
         <h1 className="font-serif text-4xl font-bold text-gray-900 mb-3">Data Downloads</h1>
         <p className="text-lg text-gray-600">

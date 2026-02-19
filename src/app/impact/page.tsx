@@ -29,7 +29,7 @@ export default function ImpactPage() {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
-      <Breadcrumb items={[{ label: 'DOGE & Cuts', href: '/impact' }, { label: 'Geographic Impact' }]} />
+      <Breadcrumb items={[{ label: 'DOGE & Cuts', href: '/cuts' }, { label: 'Geographic Impact' }]} />
       {/* Hero */}
       <header className="mb-12">
         <p className="text-sm font-semibold text-accent uppercase tracking-wide mb-3">State-by-State Analysis</p>

@@ -84,7 +84,7 @@ export function TimelineClient({ data }: { data: MonthData[] | null }) {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-10">
-      <Breadcrumb items={[{ label: 'DOGE & Cuts', href: '/timeline' }, { label: 'Timeline' }]} />
+      <Breadcrumb items={[{ label: 'DOGE & Cuts', href: '/cuts' }, { label: 'Timeline' }]} />
       {/* Hero */}
       <div className="mb-10">
         <h1 className="font-serif text-4xl md:text-5xl font-bold text-gray-900 mb-4">

@@ -63,7 +63,7 @@ export function AppointmentsClient({ data }: { data: AppointmentData[] | null })
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-10">
-      <Breadcrumb items={[{ label: 'Workforce', href: '/appointments' }, { label: 'Appointments' }]} />
+      <Breadcrumb items={[{ label: 'Workforce', href: '/workforce' }, { label: 'Appointments' }]} />
       <h1 className="font-serif text-4xl md:text-5xl font-bold text-gray-900 mb-4">
         Career vs Temporary: Who Got Cut?
       </h1>

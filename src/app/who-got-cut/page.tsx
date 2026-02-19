@@ -94,7 +94,7 @@ export default function WhoGotCutPage() {
       </header>
 
       {/* TOC */}
-      <nav className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-10">
+      <nav className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-6">
         <h3 className="font-semibold text-gray-900 mb-3">In This Analysis</h3>
         <ol className="space-y-2 text-gray-700">
           <li>

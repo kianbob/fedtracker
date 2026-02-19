@@ -41,7 +41,7 @@ export function TrendsClient({ data }: { data: any }) {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
-      <Breadcrumb items={[{ label: 'Workforce', href: '/trends' }, { label: 'Trends' }]} />
+      <Breadcrumb items={[{ label: 'Workforce', href: '/workforce' }, { label: 'Trends' }]} />
       <h1 className="font-serif text-4xl font-bold text-gray-900 mb-2">Workforce Trends</h1>
       <p className="text-gray-600 mb-8">Hiring vs. separations across the federal government, FY2020–2025.</p>
 

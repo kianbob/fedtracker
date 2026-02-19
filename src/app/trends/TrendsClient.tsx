@@ -45,8 +45,8 @@ export function TrendsClient({ data }: { data: any }) {
           <div className="bg-white border border-gray-200 rounded-xl overflow-hidden divide-y divide-gray-100">
             {biggestLosers.map((a: any) => (
               <Link key={a.code} href={`/agencies/${a.code}`} className="flex justify-between px-6 py-3 hover:bg-red-50">
-                <span className="text-gray-800 mr-4">{a.name}</span>
-                <span className="text-red-600 font-semibold whitespace-nowrap">-{formatNumber(a.absNet)}</span>
+                <span className="text-gray-800 mr-4 text-sm">{a.name}</span>
+                <span className="text-red-600 font-semibold whitespace-nowrap shrink-0">-{formatNumber(a.absNet)}</span>
               </Link>
             ))}
           </div>
@@ -58,8 +58,8 @@ export function TrendsClient({ data }: { data: any }) {
           <div className="bg-white border border-gray-200 rounded-xl overflow-hidden divide-y divide-gray-100">
             {biggestGainers.map((a: any) => (
               <Link key={a.code} href={`/agencies/${a.code}`} className="flex justify-between px-6 py-3 hover:bg-green-50">
-                <span className="text-gray-800 mr-4">{a.name}</span>
-                <span className="text-green-600 font-semibold whitespace-nowrap">+{formatNumber(a.net)}</span>
+                <span className="text-gray-800 mr-4 text-sm">{a.name}</span>
+                <span className="text-green-600 font-semibold whitespace-nowrap shrink-0">+{formatNumber(a.net)}</span>
               </Link>
             ))}
           </div>

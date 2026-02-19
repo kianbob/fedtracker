@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { formatNumber, formatSalary, toTitleCase, explainGrade } from "@/lib/format";
+import { formatNumber, formatSalary, toTitleCase, explainGrade, fixAgencyName } from "@/lib/format";
 import { StatCard } from "@/components/StatCard";
 import { OccupationCharts } from "./OccupationCharts";
 import fs from "fs";
@@ -53,7 +53,7 @@ export default async function OccupationDetailPage({ params }: { params: { code:
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
         <StatCard label="Total Employees" value={formatNumber(data.employees)} />
         <StatCard label="Average Salary" value={formatSalary(data.avgSalary)} />
-        {topAgency && <StatCard label="Top Agency" value={toTitleCase(topAgency.name || topAgency.code)} sub={`${formatNumber(topAgency.count)} employees`} />}
+        {topAgency && <StatCard label="Top Agency" value={fixAgencyName(topAgency.name || topAgency.code)} sub={`${formatNumber(topAgency.count)} employees`} />}
         {data.topStates?.[0] && <StatCard label="Top State" value={data.topStates[0].state} sub={`${formatNumber(data.topStates[0].count)} employees`} />}
       </div>
 

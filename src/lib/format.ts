@@ -183,6 +183,10 @@ const AGENCY_NAME_FIXES: Record<string, string> = {
   'Privacy And Civil Liberties Oversight': 'Privacy and Civil Liberties Oversight Board',
   'Department Of Treasury': 'Department of the Treasury',
   'Department Of Interior': 'Department of the Interior',
+  'Department Of Health And Human Serv': 'Department of Health and Human Services',
+  'Department of Health and Human Serv': 'Department of Health and Human Services',
+  'Department Of Veterans Affair': 'Department of Veterans Affairs',
+  'Department of Veterans Affair': 'Department of Veterans Affairs',
 };
 
 // Pre-compute lowercase lookup map for case-insensitive matching

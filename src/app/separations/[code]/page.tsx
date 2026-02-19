@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { formatNumber, toTitleCase, cleanAgencyName } from "@/lib/format";
+import { formatNumber, toTitleCase, cleanAgencyName, fixAgencyName } from "@/lib/format";
 import { StatCard } from "@/components/StatCard";
 import { SeparationCharts } from "./SeparationCharts";
 import fs from "fs";
@@ -49,7 +49,7 @@ export default async function SeparationDetailPage({ params }: { params: { code:
         <StatCard label="Total Separations" value={formatNumber(data.totalCount)} sub="FY2020-2025" />
         {data.avgSalaryAtSeparation > 0 && <StatCard label="Avg Salary at Separation" value={`$${data.avgSalaryAtSeparation.toLocaleString()}`} />}
         {data.avgLOS > 0 && <StatCard label="Avg Length of Service" value={`${data.avgLOS} years`} />}
-        {data.topAgencies?.[0] && <StatCard label="Top Agency" value={toTitleCase(data.topAgencies[0].name || data.topAgencies[0].code)} sub={`${formatNumber(data.topAgencies[0].count)} separations`} />}
+        {data.topAgencies?.[0] && <StatCard label="Top Agency" value={fixAgencyName(data.topAgencies[0].name || data.topAgencies[0].code)} sub={`${formatNumber(data.topAgencies[0].count)} separations`} />}
       </div>
 
       <SeparationCharts data={data} />

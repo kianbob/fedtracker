@@ -223,7 +223,7 @@ export default async function AgencyDetailPage({ params }: { params: { code: str
                 const maxCount = Math.max(...data.ageDistribution.map((x: any) => x.count || 0));
                 return (
                   <div key={a.label} className="flex items-center px-6 py-2">
-                    <span className="text-sm text-gray-700 w-20 shrink-0">{a.label}</span>
+                    <span className="text-sm text-gray-700 w-28 shrink-0">{toTitleCase(a.label)}</span>
                     <div className="flex-1 mx-4">
                       <div className="h-5 bg-gray-100 rounded-full overflow-hidden">
                         <div className="h-full bg-indigo-400 rounded-full" style={{ width: `${maxCount > 0 ? (a.count / maxCount * 100) : 0}%` }} />

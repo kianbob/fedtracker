@@ -1,5 +1,5 @@
 export function StatCard({ label, value, sub }: { label: string; value: string; sub?: string }) {
-  const textSize = value.length > 20 ? "text-sm" : value.length > 12 ? "text-xl" : "text-3xl";
+  const textSize = value.length > 30 ? "text-xs leading-snug" : value.length > 20 ? "text-sm" : value.length > 12 ? "text-xl" : "text-3xl";
   return (
     <div className="bg-white rounded-xl border border-gray-200 p-6 hover:shadow-md transition-shadow">
       <p className="text-sm font-medium text-gray-500 uppercase tracking-wide">{label}</p>

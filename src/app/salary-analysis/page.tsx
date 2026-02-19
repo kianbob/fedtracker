@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Breadcrumb from "@/components/Breadcrumb";
 import { StatCard } from "@/components/StatCard";
 import { formatNumber } from "@/lib/format";
 import salaryStats from "../../../public/data/salary-stats.json";
@@ -62,6 +63,7 @@ const topOccupations = salaryStats.topPaidOccupations.slice(0, 10);
 export default function SalaryAnalysisPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
+      <Breadcrumb items={[{ label: "Analysis" }, { label: "Salary Analysis" }]} />
       <header className="mb-16">
         <p className="text-sm font-semibold text-accent uppercase tracking-wide mb-3">
           FedTracker Editorial

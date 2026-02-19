@@ -31,12 +31,49 @@ export const metadata: Metadata = {
   },
 };
 
-const jsonLd = {
+const jsonLdWebSite = {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  name: "FedTracker",
-  description: "Federal workforce data from OPM FedScope — employees, salaries, layoffs, and hiring trends across all agencies.",
-  url: "https://fedtracker.vercel.app",
+  "@type": "WebSite",
+  "name": "FedTracker",
+  "url": "https://fedtracker.vercel.app",
+  "description": "Track the federal workforce with data from OPM FedScope. 2.07M employees, 128 agencies, salaries, layoffs, hiring trends, and DOGE impact analysis.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "TheDataProject.ai",
+    "url": "https://thedataproject.ai"
+  }
+};
+
+const jsonLdDataset = {
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Federal Workforce Analysis (FY2020–2025)",
+  "description": "Analysis of OPM FedScope employment, separations, and accessions data covering 2.07 million federal employees across 128 agencies, including 2025 DOGE workforce reduction impact.",
+  "url": "https://fedtracker.vercel.app",
+  "creator": {
+    "@type": "Organization",
+    "name": "TheDataProject.ai"
+  },
+  "isBasedOn": {
+    "@type": "Dataset",
+    "name": "OPM FedScope",
+    "description": "Official federal workforce data published by the U.S. Office of Personnel Management covering employment demographics, separations, and accessions.",
+    "url": "https://data.opm.gov",
+    "creator": {
+      "@type": "Organization",
+      "name": "U.S. Office of Personnel Management"
+    }
+  },
+  "temporalCoverage": "2020-01/2025-12",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "variableMeasured": [
+    "Employment Count",
+    "Average Salary",
+    "Separations",
+    "Accessions",
+    "Agency",
+    "Occupation"
+  ]
 };
 
 export default function RootLayout({
@@ -50,7 +87,11 @@ export default function RootLayout({
         <link rel="alternate" type="application/rss+xml" title="FedTracker" href="/feed.xml" />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdWebSite, null, 2) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdDataset, null, 2) }}
         />
       </head>
       <body className="font-sans bg-white text-gray-900 antialiased">

@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import { formatNumber, fixAgencyName } from "@/lib/format";
 import {
@@ -37,7 +37,16 @@ export function SpendingClient() {
   const [sortAsc, setSortAsc] = useState(false);
 
   const agencies = data as any[];
+
+  function hasQuestionableData(a: any): boolean {
+    return hasBadBudgetData(a) || a.contracts < 0 || a.contractsPerEmployee < 0;
+  }
+
   const sorted = [...agencies].sort((a, b) => {
+    // Push questionable data rows to the bottom
+    const aQ = hasQuestionableData(a) ? 1 : 0;
+    const bQ = hasQuestionableData(b) ? 1 : 0;
+    if (aQ !== bQ) return aQ - bQ;
     const av = sortKey === "name" ? fixAgencyName(a.name) : (a[sortKey] ?? 0);
     const bv = sortKey === "name" ? fixAgencyName(b.name) : (b[sortKey] ?? 0);
     if (av < bv) return sortAsc ? -1 : 1;
@@ -195,27 +204,40 @@ export function SpendingClient() {
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100 dark:divide-gray-800">
-              {sorted.map((a: any) => (
-                <tr key={a.opmCode} className="hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors">
-                  <td className="px-3 py-3">
-                    <Link href={`/agencies/${a.opmCode}`} className="text-accent hover:underline font-medium">
-                      {fixAgencyName(a.name)}
-                    </Link>
-                  </td>
-                  <td className="px-3 py-3 text-gray-700 dark:text-gray-300">{formatNumber(a.employees)}</td>
-                  <td className="px-3 py-3 font-semibold text-gray-900 dark:text-white">
-                    {hasBadBudgetData(a) ? <span className="text-gray-400 font-normal text-xs">Data unavailable</span> : fmtDollars(a.budgetPerEmployee)}
-                  </td>
-                  <td className="px-3 py-3 text-gray-700 dark:text-gray-300">{a.contractsPerEmployee ? fmtDollars(a.contractsPerEmployee) : "—"}</td>
-                  <td className="px-3 py-3 text-gray-700 dark:text-gray-300">{fmtDollars(a.outlays)}</td>
-                  <td className="px-3 py-3 text-gray-700 dark:text-gray-300">{a.contracts ? fmtDollars(a.contracts) : "—"}</td>
-                  <td className="px-3 py-3">
-                    <span className={`text-xs font-bold px-1.5 py-0.5 rounded ${a.riskScore > 60 ? "text-red-700 bg-red-50" : a.riskScore > 30 ? "text-yellow-700 bg-yellow-50" : "text-green-700 bg-green-50"}`}>
-                      {a.riskScore}
-                    </span>
-                  </td>
-                </tr>
-              ))}
+              {sorted.map((a: any, i: number) => {
+                const flagged = hasQuestionableData(a);
+                const prevFlagged = i > 0 && hasQuestionableData(sorted[i - 1]);
+                return (
+                  <React.Fragment key={a.opmCode}>
+                    {flagged && !prevFlagged && (
+                      <tr>
+                        <td colSpan={7} className="px-3 py-2 bg-amber-50 dark:bg-amber-900/20 text-xs text-amber-700 dark:text-amber-400 font-medium border-t border-amber-200 dark:border-amber-800">
+                          Data below may reflect cross-agency allocations, mismatched budget codes, or other anomalies
+                        </td>
+                      </tr>
+                    )}
+                    <tr className={`${flagged ? "opacity-60" : ""} hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors`}>
+                      <td className="px-3 py-3">
+                        <Link href={`/agencies/${a.opmCode}`} className="text-accent hover:underline font-medium">
+                          {fixAgencyName(a.name)}
+                        </Link>
+                      </td>
+                      <td className="px-3 py-3 text-gray-700 dark:text-gray-300">{formatNumber(a.employees)}</td>
+                      <td className="px-3 py-3 font-semibold text-gray-900 dark:text-white">
+                        {hasBadBudgetData(a) ? <span className="text-gray-400 font-normal text-xs">Data unavailable</span> : fmtDollars(a.budgetPerEmployee)}
+                      </td>
+                      <td className="px-3 py-3 text-gray-700 dark:text-gray-300">{a.contractsPerEmployee > 0 ? fmtDollars(a.contractsPerEmployee) : a.contractsPerEmployee < 0 ? "N/A" : "—"}</td>
+                      <td className="px-3 py-3 text-gray-700 dark:text-gray-300">{fmtDollars(a.outlays)}</td>
+                      <td className="px-3 py-3 text-gray-700 dark:text-gray-300">{a.contracts > 0 ? fmtDollars(a.contracts) : a.contracts < 0 ? "N/A" : "—"}</td>
+                      <td className="px-3 py-3">
+                        <span className={`text-xs font-bold px-1.5 py-0.5 rounded ${a.riskScore > 60 ? "text-red-700 bg-red-50" : a.riskScore > 30 ? "text-yellow-700 bg-yellow-50" : "text-green-700 bg-green-50"}`}>
+                          {a.riskScore}
+                        </span>
+                      </td>
+                    </tr>
+                  </React.Fragment>
+                );
+              })}
             </tbody>
           </table>
         </div>

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Breadcrumb from "@/components/Breadcrumb";
 import { StatCard } from "@/components/StatCard";
 import { formatNumber, fixAgencyName } from "@/lib/format";
 import dogeImpact from "../../../public/data/doge-impact.json";
@@ -63,6 +64,7 @@ const totalTerminations = hardestHit.reduce(
 export default function WhoGotCutPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
+      <Breadcrumb items={[{ label: "Analysis" }, { label: "Who Got Cut" }]} />
       <header className="mb-16">
         <p className="text-sm font-semibold text-accent uppercase tracking-wide mb-3">
           FedTracker Editorial

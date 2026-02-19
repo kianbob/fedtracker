@@ -58,6 +58,17 @@ const AGENCY_NAME_FIXES: Record<string, string> = {
   'Internat Boundary Cmsn: U.S. And Canada': 'International Boundary Commission: U.S. and Canada',
   'Inter Bound And Water Comm U.S. Section': 'International Boundary and Water Commission U.S. Section',
   'International Joint Cmsn: U.S. & Canada': 'International Joint Commission: U.S. and Canada',
+  'Department of Housing and Urban Developm': 'Department of Housing and Urban Development',
+  'Federal Permitting Improvement Stee': 'Federal Permitting Improvement Steering Council',
+  'Department Of Housing And Urban Developm': 'Department of Housing and Urban Development',
+  'Federal Permitting Improvement Steering': 'Federal Permitting Improvement Steering Council',
+  'Council of Insp. Gen. on Integ.& Effic.': 'Council of Inspectors General on Integrity and Efficiency',
+  'Ofc of the Nat Cyber Dir': 'Office of the National Cyber Director',
+  'Adv Council on Historic Preservation': 'Advisory Council on Historic Preservation',
+  'Cmte For Purch Frm Pple Blind Or Sev Dis': 'Committee for Purchase From People Who Are Blind or Severely Disabled',
+  'Nat Cmsn On Libraries And Info Science': 'National Commission on Libraries and Information Science',
+  'Nat Foundation On Arts And Humanities': 'National Foundation on the Arts and Humanities',
+  'Nat Aeronautics and Space Administration': 'National Aeronautics and Space Administration',
 };
 
 export function fixAgencyName(name: string): string {

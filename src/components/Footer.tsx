@@ -27,9 +27,13 @@ export function Footer() {
           <div>
             <h4 className="font-semibold text-gray-900 mb-3">Analysis</h4>
             <div className="space-y-2 text-sm">
+              <Link href="/risk" className="block text-gray-600 hover:text-accent">Agency Risk Scores</Link>
+              <Link href="/impact" className="block text-gray-600 hover:text-accent">State Impact</Link>
+              <Link href="/education" className="block text-gray-600 hover:text-accent">Education & Pay</Link>
               <Link href="/workforce-analysis" className="block text-gray-600 hover:text-accent">Workforce Deep Dive</Link>
               <Link href="/demographics" className="block text-gray-600 hover:text-accent">Demographics</Link>
               <Link href="/subagencies" className="block text-gray-600 hover:text-accent">Subagencies</Link>
+              <Link href="/findings" className="block text-gray-600 hover:text-accent">Key Findings</Link>
               <Link href="/about" className="block text-gray-600 hover:text-accent">About & Methodology</Link>
             </div>
             <h4 className="font-semibold text-gray-900 mb-3 mt-6">Data Sources</h4>

@@ -50,7 +50,7 @@ export default function FindingsPage() {
         </div>
         <div className="flex gap-3 mt-4">
           <a
-            href="https://twitter.com/intent/tweet?text=Key%20Findings%3A%20The%20Federal%20Workforce%20in%202025&url=https%3A%2F%2Ffedtracker.org%2Ffindings"
+            href="https://twitter.com/intent/tweet?text=Key%20Findings%3A%20The%20Federal%20Workforce%20in%202025&url=https%3A%2F%2Ffedtracker.vercel.app%2Ffindings"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium text-white bg-gray-900 rounded-lg hover:bg-gray-700 transition-colors"
@@ -59,7 +59,7 @@ export default function FindingsPage() {
             Share on X
           </a>
           <a
-            href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Ffedtracker.org%2Ffindings"
+            href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Ffedtracker.vercel.app%2Ffindings"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium text-white bg-[#0A66C2] rounded-lg hover:bg-[#004182] transition-colors"

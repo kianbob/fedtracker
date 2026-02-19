@@ -143,8 +143,8 @@ export default async function AgencyDetailPage({ params }: { params: { code: str
             {data.reductionPct > 0 && (
               <div className="bg-white border border-gray-200 rounded-xl p-5">
                 <p className="text-xs text-gray-500 uppercase tracking-wide">Workforce Reduction</p>
-                <p className={`text-3xl font-serif font-bold ${data.reductionPct > 30 ? 'text-red-600' : 'text-gray-900'}`}>{data.reductionPct}%</p>
-                <p className="text-xs text-gray-400">of workforce separated</p>
+                <p className={`text-3xl font-serif font-bold ${data.reductionPct > 30 ? 'text-red-600' : 'text-gray-900'}`}>{data.reductionPct > 100 ? '>100' : data.reductionPct}%</p>
+                <p className="text-xs text-gray-400">{data.reductionPct > 100 ? 'more left than remain' : 'of workforce separated'}</p>
               </div>
             )}
           </div>

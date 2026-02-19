@@ -39,13 +39,13 @@ export function SalariesClient({ data }: { data: any }) {
           <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4">Highest Paid Occupations</h2>
           <div className="bg-white border border-gray-200 rounded-xl overflow-hidden divide-y divide-gray-100">
             {data.topPaidOccupations.slice(0, 15).map((o: any) => (
-              <div key={o.code} className="flex justify-between px-6 py-3">
+              <Link key={o.code} href={`/occupations/${o.code}`} className="flex justify-between px-6 py-3 hover:bg-accent-50">
                 <div>
                   <span className="text-gray-800 font-medium">{o.name}</span>
                   <span className="ml-2 text-xs text-gray-400">{formatNumber(o.employees)} emp</span>
                 </div>
                 <span className="font-semibold text-accent">{formatSalary(o.avgSalary)}</span>
-              </div>
+              </Link>
             ))}
           </div>
         </section>

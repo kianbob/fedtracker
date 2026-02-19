@@ -179,6 +179,9 @@ const AGENCY_NAME_FIXES: Record<string, string> = {
   'Nat Cmsn On Libraries And Info Science': 'National Commission on Libraries and Information Science',
   'Nat Foundation On Arts And Humanities': 'National Foundation on the Arts and Humanities',
   'Nat Aeronautics and Space Administration': 'National Aeronautics and Space Administration',
+  'Privacy And Civil Liberties Oversight': 'Privacy and Civil Liberties Oversight Board',
+  'Department Of Treasury': 'Department of the Treasury',
+  'Department Of Interior': 'Department of the Interior',
 };
 
 export function fixAgencyName(name: string): string {

@@ -195,7 +195,7 @@ export default function Home() {
                   <div className={`h-full rounded-full ${a.riskScore > 60 ? "bg-red-500" : a.riskScore > 30 ? "bg-yellow-500" : "bg-green-500"}`} style={{ width: `${a.riskScore}%` }} />
                 </div>
               </div>
-              <p className="text-sm font-semibold text-gray-900 group-hover:text-accent truncate">{fixAgencyName(a.name)}</p>
+              <p className="text-sm font-semibold text-gray-900 group-hover:text-accent leading-tight">{fixAgencyName(a.name)}</p>
               <p className="text-xs text-gray-500">{a.reductionPct}% workforce reduction</p>
             </Link>
           ))}

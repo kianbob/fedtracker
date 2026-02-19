@@ -1,1 +1,104 @@
-{"code": "UJ", "name": "UJ-JAPAN-UNITED STATES FRIENDSHIP COMMISSION", "monthly": [{"month": "201911", "SA": 0, "SB": 0, "SC": 0, "SD": 1, "SE": 0, "SF": 0, "SG": 0, "SH": 0, "SJ": 0, "SK": 0, "SL": 0}, {"month": "202004", "SA": 0, "SB": 0, "SC": 0, "SD": 0, "SE": 0, "SF": 0, "SG": 0, "SH": 0, "SJ": 2, "SK": 0, "SL": 0}, {"month": "202203", "SA": 1, "SB": 0, "SC": 0, "SD": 0, "SE": 0, "SF": 0, "SG": 0, "SH": 0, "SJ": 0, "SK": 0, "SL": 0}, {"month": "202206", "SA": 0, "SB": 0, "SC": 1, "SD": 0, "SE": 0, "SF": 0, "SG": 0, "SH": 0, "SJ": 0, "SK": 0, "SL": 0}, {"month": "202207", "SA": 0, "SB": 0, "SC": 1, "SD": 0, "SE": 0, "SF": 0, "SG": 0, "SH": 0, "SJ": 0, "SK": 0, "SL": 0}, {"month": "202212", "SA": 1, "SB": 0, "SC": 0, "SD": 0, "SE": 0, "SF": 0, "SG": 0, "SH": 0, "SJ": 0, "SK": 0, "SL": 0}, {"month": "202306", "SA": 0, "SB": 0, "SC": 1, "SD": 0, "SE": 0, "SF": 0, "SG": 0, "SH": 0, "SJ": 0, "SK": 0, "SL": 0}]}
+{
+  "code": "UJ",
+  "name": "Japan-United States Friendship Commission",
+  "monthly": [
+    {
+      "month": "201911",
+      "SA": 0,
+      "SB": 0,
+      "SC": 0,
+      "SD": 1,
+      "SE": 0,
+      "SF": 0,
+      "SG": 0,
+      "SH": 0,
+      "SJ": 0,
+      "SK": 0,
+      "SL": 0
+    },
+    {
+      "month": "202004",
+      "SA": 0,
+      "SB": 0,
+      "SC": 0,
+      "SD": 0,
+      "SE": 0,
+      "SF": 0,
+      "SG": 0,
+      "SH": 0,
+      "SJ": 2,
+      "SK": 0,
+      "SL": 0
+    },
+    {
+      "month": "202203",
+      "SA": 1,
+      "SB": 0,
+      "SC": 0,
+      "SD": 0,
+      "SE": 0,
+      "SF": 0,
+      "SG": 0,
+      "SH": 0,
+      "SJ": 0,
+      "SK": 0,
+      "SL": 0
+    },
+    {
+      "month": "202206",
+      "SA": 0,
+      "SB": 0,
+      "SC": 1,
+      "SD": 0,
+      "SE": 0,
+      "SF": 0,
+      "SG": 0,
+      "SH": 0,
+      "SJ": 0,
+      "SK": 0,
+      "SL": 0
+    },
+    {
+      "month": "202207",
+      "SA": 0,
+      "SB": 0,
+      "SC": 1,
+      "SD": 0,
+      "SE": 0,
+      "SF": 0,
+      "SG": 0,
+      "SH": 0,
+      "SJ": 0,
+      "SK": 0,
+      "SL": 0
+    },
+    {
+      "month": "202212",
+      "SA": 1,
+      "SB": 0,
+      "SC": 0,
+      "SD": 0,
+      "SE": 0,
+      "SF": 0,
+      "SG": 0,
+      "SH": 0,
+      "SJ": 0,
+      "SK": 0,
+      "SL": 0
+    },
+    {
+      "month": "202306",
+      "SA": 0,
+      "SB": 0,
+      "SC": 1,
+      "SD": 0,
+      "SE": 0,
+      "SF": 0,
+      "SG": 0,
+      "SH": 0,
+      "SJ": 0,
+      "SK": 0,
+      "SL": 0
+    }
+  ]
+}

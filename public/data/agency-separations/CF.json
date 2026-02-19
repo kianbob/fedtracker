@@ -1,1 +1,62 @@
-{"code": "CF", "name": "CF-COMMISSION OF FINE ARTS", "monthly": [{"month": "202112", "SA": 0, "SB": 0, "SC": 0, "SD": 1, "SE": 0, "SF": 0, "SG": 0, "SH": 0, "SJ": 0, "SK": 0, "SL": 0}, {"month": "202211", "SA": 0, "SB": 0, "SC": 0, "SD": 0, "SE": 0, "SF": 1, "SG": 0, "SH": 1, "SJ": 0, "SK": 0, "SL": 0}, {"month": "202303", "SA": 0, "SB": 0, "SC": 1, "SD": 0, "SE": 0, "SF": 0, "SG": 0, "SH": 0, "SJ": 0, "SK": 0, "SL": 0}, {"month": "202307", "SA": 1, "SB": 0, "SC": 0, "SD": 0, "SE": 0, "SF": 0, "SG": 0, "SH": 0, "SJ": 0, "SK": 0, "SL": 0}]}
+{
+  "code": "CF",
+  "name": "Commission of Fine Arts",
+  "monthly": [
+    {
+      "month": "202112",
+      "SA": 0,
+      "SB": 0,
+      "SC": 0,
+      "SD": 1,
+      "SE": 0,
+      "SF": 0,
+      "SG": 0,
+      "SH": 0,
+      "SJ": 0,
+      "SK": 0,
+      "SL": 0
+    },
+    {
+      "month": "202211",
+      "SA": 0,
+      "SB": 0,
+      "SC": 0,
+      "SD": 0,
+      "SE": 0,
+      "SF": 1,
+      "SG": 0,
+      "SH": 1,
+      "SJ": 0,
+      "SK": 0,
+      "SL": 0
+    },
+    {
+      "month": "202303",
+      "SA": 0,
+      "SB": 0,
+      "SC": 1,
+      "SD": 0,
+      "SE": 0,
+      "SF": 0,
+      "SG": 0,
+      "SH": 0,
+      "SJ": 0,
+      "SK": 0,
+      "SL": 0
+    },
+    {
+      "month": "202307",
+      "SA": 1,
+      "SB": 0,
+      "SC": 0,
+      "SD": 0,
+      "SE": 0,
+      "SF": 0,
+      "SG": 0,
+      "SH": 0,
+      "SJ": 0,
+      "SK": 0,
+      "SL": 0
+    }
+  ]
+}

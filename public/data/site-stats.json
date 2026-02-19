@@ -1,1 +1,131 @@
-{"totalEmployees": 811775, "avgSalary": 118338, "agencyCount": 124, "totalSeparations": 953844, "totalAccessions": 1170401, "topRifAgencies": [{"code": "TR", "name": "TR-DEPARTMENT OF THE TREASURY", "rifCount": 142}, {"code": "HE", "name": "HE-DEPARTMENT OF HEALTH AND HUMAN SERVICES", "rifCount": 65}, {"code": "AR", "name": "AR-DEPARTMENT OF THE ARMY", "rifCount": 42}, {"code": "HS", "name": "HS-DEPARTMENT OF HOMELAND SECURITY", "rifCount": 34}, {"code": "KS", "name": "KS-CORPORATION FOR NATIONAL AND COMMUNITY SERVICE", "rifCount": 29}, {"code": "IN", "name": "IN-DEPARTMENT OF THE INTERIOR", "rifCount": 27}, {"code": "AG", "name": "AG-DEPARTMENT OF AGRICULTURE", "rifCount": 20}, {"code": "CM", "name": "CM-DEPARTMENT OF COMMERCE", "rifCount": 7}, {"code": "NV", "name": "NV-DEPARTMENT OF THE NAVY", "rifCount": 3}, {"code": "IB", "name": "IB-U.S. AGENCY FOR GLOBAL MEDIA", "rifCount": 3}], "topQuitRates": [{"code": "FT", "name": "FT-FEDERAL TRADE COMMISSION", "quits": 305, "totalSeps": 502, "quitRate": 60.8}, {"code": "VA", "name": "VA-DEPARTMENT OF VETERANS AFFAIRS", "quits": 84202, "totalSeps": 160378, "quitRate": 52.5}, {"code": "TR", "name": "TR-DEPARTMENT OF THE TREASURY", "quits": 20894, "totalSeps": 42257, "quitRate": 49.4}, {"code": "HS", "name": "HS-DEPARTMENT OF HOMELAND SECURITY", "quits": 32428, "totalSeps": 69392, "quitRate": 46.7}, {"code": "HE", "name": "HE-DEPARTMENT OF HEALTH AND HUMAN SERVICES", "quits": 11869, "totalSeps": 28474, "quitRate": 41.7}, {"code": "SB", "name": "SB-SMALL BUSINESS ADMINISTRATION", "quits": 5438, "totalSeps": 13226, "quitRate": 41.1}, {"code": "FD", "name": "FD-FEDERAL DEPOSIT INSURANCE CORPORATION", "quits": 927, "totalSeps": 2312, "quitRate": 40.1}, {"code": "CM", "name": "CM-DEPARTMENT OF COMMERCE", "quits": 14661, "totalSeps": 36596, "quitRate": 40.1}, {"code": "DD", "name": "DD-DEPARTMENT OF DEFENSE", "quits": 25307, "totalSeps": 65134, "quitRate": 38.9}, {"code": "AR", "name": "AR-DEPARTMENT OF THE ARMY", "quits": 44709, "totalSeps": 116207, "quitRate": 38.5}]}
+{
+  "totalEmployees": 811775,
+  "avgSalary": 118338,
+  "agencyCount": 124,
+  "totalSeparations": 953844,
+  "totalAccessions": 1170401,
+  "topRifAgencies": [
+    {
+      "code": "TR",
+      "name": "Department of the Treasury",
+      "rifCount": 142
+    },
+    {
+      "code": "HE",
+      "name": "Department of Health and Human Services",
+      "rifCount": 65
+    },
+    {
+      "code": "AR",
+      "name": "Department of the Army",
+      "rifCount": 42
+    },
+    {
+      "code": "HS",
+      "name": "Department of Homeland Security",
+      "rifCount": 34
+    },
+    {
+      "code": "KS",
+      "name": "Corporation for National and Community Service",
+      "rifCount": 29
+    },
+    {
+      "code": "IN",
+      "name": "Department of the Interior",
+      "rifCount": 27
+    },
+    {
+      "code": "AG",
+      "name": "Department of Agriculture",
+      "rifCount": 20
+    },
+    {
+      "code": "CM",
+      "name": "Department of Commerce",
+      "rifCount": 7
+    },
+    {
+      "code": "NV",
+      "name": "Department of the Navy",
+      "rifCount": 3
+    },
+    {
+      "code": "IB",
+      "name": "U.S. Agency for Global Media",
+      "rifCount": 3
+    }
+  ],
+  "topQuitRates": [
+    {
+      "code": "FT",
+      "name": "Federal Trade Commission",
+      "quits": 305,
+      "totalSeps": 502,
+      "quitRate": 60.8
+    },
+    {
+      "code": "VA",
+      "name": "Department of Veterans Affairs",
+      "quits": 84202,
+      "totalSeps": 160378,
+      "quitRate": 52.5
+    },
+    {
+      "code": "TR",
+      "name": "Department of the Treasury",
+      "quits": 20894,
+      "totalSeps": 42257,
+      "quitRate": 49.4
+    },
+    {
+      "code": "HS",
+      "name": "Department of Homeland Security",
+      "quits": 32428,
+      "totalSeps": 69392,
+      "quitRate": 46.7
+    },
+    {
+      "code": "HE",
+      "name": "Department of Health and Human Services",
+      "quits": 11869,
+      "totalSeps": 28474,
+      "quitRate": 41.7
+    },
+    {
+      "code": "SB",
+      "name": "Small Business Administration",
+      "quits": 5438,
+      "totalSeps": 13226,
+      "quitRate": 41.1
+    },
+    {
+      "code": "FD",
+      "name": "Federal Deposit Insurance Corporation",
+      "quits": 927,
+      "totalSeps": 2312,
+      "quitRate": 40.1
+    },
+    {
+      "code": "CM",
+      "name": "Department of Commerce",
+      "quits": 14661,
+      "totalSeps": 36596,
+      "quitRate": 40.1
+    },
+    {
+      "code": "DD",
+      "name": "Department of Defense",
+      "quits": 25307,
+      "totalSeps": 65134,
+      "quitRate": 38.9
+    },
+    {
+      "code": "AR",
+      "name": "Department of the Army",
+      "quits": 44709,
+      "totalSeps": 116207,
+      "quitRate": 38.5
+    }
+  ]
+}

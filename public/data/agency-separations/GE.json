@@ -1,1 +1,20 @@
-{"code": "GE", "name": "GE-BARRY GOLDWATER SCHOLARSHIP AND EXCELLENCE IN EDUCATION FOUNDATION", "monthly": [{"month": "202103", "SA": 0, "SB": 0, "SC": 0, "SD": 0, "SE": 0, "SF": 0, "SG": 0, "SH": 0, "SJ": 1, "SK": 0, "SL": 0}]}
+{
+  "code": "GE",
+  "name": "Barry Goldwater Scholarship and Excellence in Education Foundation",
+  "monthly": [
+    {
+      "month": "202103",
+      "SA": 0,
+      "SB": 0,
+      "SC": 0,
+      "SD": 0,
+      "SE": 0,
+      "SF": 0,
+      "SG": 0,
+      "SH": 0,
+      "SJ": 1,
+      "SK": 0,
+      "SL": 0
+    }
+  ]
+}

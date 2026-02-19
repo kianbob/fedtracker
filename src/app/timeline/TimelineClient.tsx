@@ -117,7 +117,7 @@ export function TimelineClient({ data }: { data: MonthData[] | null }) {
         <ResponsiveContainer width="100%" height={400}>
           <ComposedChart data={chartData} margin={{ top: 10, right: 10, bottom: 40, left: 10 }}>
             <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
-            <XAxis dataKey="label" tick={{ fontSize: 11 }} angle={-45} textAnchor="end" interval={showPreDoge ? 3 : 0} />
+            <XAxis dataKey="label" tick={{ fontSize: 10 }} angle={-45} textAnchor="end" interval={showPreDoge ? 5 : "preserveStartEnd"} height={60} />
             <YAxis tick={{ fontSize: 12 }} tickFormatter={(v) => v >= 1000 ? `${(v / 1000).toFixed(0)}K` : v} />
             <Tooltip formatter={(v: any) => Number(v).toLocaleString()} />
             <Area type="monotone" dataKey="separations" stroke="#ef4444" fill="#ef4444" fillOpacity={0.15} name="Separations" />

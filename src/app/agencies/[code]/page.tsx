@@ -96,6 +96,61 @@ export default async function AgencyDetailPage({ params }: { params: { code: str
         </div>
       </section>
 
+      {/* 2025 Impact */}
+      {data.riskScore != null && (
+        <section className="mb-12">
+          <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4">2025 Workforce Impact</h2>
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+            <div className="bg-white border border-gray-200 rounded-xl p-5">
+              <p className="text-xs text-gray-500 uppercase tracking-wide">Risk Score</p>
+              <p className={`text-3xl font-serif font-bold ${data.riskScore > 60 ? 'text-red-600' : data.riskScore > 30 ? 'text-amber-600' : 'text-green-600'}`}>{data.riskScore}/100</p>
+              <p className="text-xs text-gray-400">{data.riskScore > 60 ? 'Critical' : data.riskScore > 30 ? 'Elevated' : 'Stable'}</p>
+            </div>
+            {data.seps2025 > 0 && (
+              <div className="bg-white border border-gray-200 rounded-xl p-5">
+                <p className="text-xs text-gray-500 uppercase tracking-wide">2025 Separations</p>
+                <p className="text-3xl font-serif font-bold text-gray-900">{formatNumber(data.seps2025)}</p>
+                {data.sepChange !== 0 && <p className={`text-xs ${data.sepChange > 0 ? 'text-red-500' : 'text-green-500'}`}>{data.sepChange > 0 ? '+' : ''}{data.sepChange}% vs 2024</p>}
+              </div>
+            )}
+            {data.rifCount > 0 && (
+              <div className="bg-white border border-gray-200 rounded-xl p-5">
+                <p className="text-xs text-gray-500 uppercase tracking-wide">RIFs (Layoffs)</p>
+                <p className="text-3xl font-serif font-bold text-red-600">{formatNumber(data.rifCount)}</p>
+              </div>
+            )}
+            {data.experienceLostYears > 0 && (
+              <div className="bg-white border border-gray-200 rounded-xl p-5">
+                <p className="text-xs text-gray-500 uppercase tracking-wide">Experience Lost</p>
+                <p className="text-3xl font-serif font-bold text-gray-900">{formatNumber(data.experienceLostYears)}</p>
+                <p className="text-xs text-gray-400">combined years</p>
+              </div>
+            )}
+            {data.avgTenure && (
+              <div className="bg-white border border-gray-200 rounded-xl p-5">
+                <p className="text-xs text-gray-500 uppercase tracking-wide">Avg Tenure</p>
+                <p className="text-3xl font-serif font-bold text-gray-900">{data.avgTenure}</p>
+                <p className="text-xs text-gray-400">years</p>
+              </div>
+            )}
+            {data.quitRate > 0 && (
+              <div className="bg-white border border-gray-200 rounded-xl p-5">
+                <p className="text-xs text-gray-500 uppercase tracking-wide">Quit Rate</p>
+                <p className="text-3xl font-serif font-bold text-amber-600">{data.quitRate}%</p>
+                <p className="text-xs text-gray-400">of separations</p>
+              </div>
+            )}
+            {data.reductionPct > 0 && (
+              <div className="bg-white border border-gray-200 rounded-xl p-5">
+                <p className="text-xs text-gray-500 uppercase tracking-wide">Workforce Reduction</p>
+                <p className={`text-3xl font-serif font-bold ${data.reductionPct > 30 ? 'text-red-600' : 'text-gray-900'}`}>{data.reductionPct}%</p>
+                <p className="text-xs text-gray-400">of workforce separated</p>
+              </div>
+            )}
+          </div>
+        </section>
+      )}
+
       {/* Extra stats */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
         {data.retirementRisk && (

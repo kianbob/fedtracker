@@ -32,7 +32,7 @@ const jsonLd = {
   "@type": "Organization",
   name: "FedTracker",
   description: "Federal workforce data from OPM FedScope — employees, salaries, layoffs, and hiring trends across all agencies.",
-  url: "https://fedtracker.org",
+  url: "https://fedtracker.vercel.app",
 };
 
 export default function RootLayout({

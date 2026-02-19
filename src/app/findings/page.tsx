@@ -250,7 +250,7 @@ export default function FindingsPage() {
                     <td className="px-3 py-3 text-gray-700">{formatNumber(a.seps2025)}</td>
                     <td className="px-3 py-3">
                       <span className={a.reductionPct > 50 ? "text-red-600 font-bold" : "text-red-600 font-semibold"}>
-                        {a.reductionPct}%
+                        {a.reductionPct > 100 ? '>100' : a.reductionPct}%
                       </span>
                     </td>
                   </tr>

@@ -23,7 +23,7 @@ const stats: StatDef[] = [
   { label: "RIF Count", key: "rifCount", format: (v) => formatNumber(v), better: "lower" },
   { label: "Quit Rate", key: "quitRate", format: (v) => v != null ? v.toFixed(1) + "%" : "N/A", better: "lower" },
   { label: "2025 Separations", key: "seps2025", format: (v) => formatNumber(v), better: "lower" },
-  { label: "Workforce Reduction %", key: "reductionPct", format: (v) => v != null ? v.toFixed(1) + "%" : "N/A", better: "lower" },
+  { label: "Workforce Reduction %", key: "reductionPct", format: (v) => v != null ? (v > 100 ? ">100%" : v.toFixed(1) + "%") : "N/A", better: "lower" },
   { label: "Experience Lost (years)", key: "experienceLostYears", format: (v) => formatNumber(v), better: "lower" },
   { label: "Avg Tenure", key: "avgTenure", format: (v) => v != null ? v.toFixed(1) + " yrs" : "N/A", better: "higher" },
 ];

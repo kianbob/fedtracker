@@ -109,13 +109,13 @@ export function AgenciesClient() {
               <div className="md:col-span-2 text-right text-gray-700 hidden md:block">{formatSalary(a.avgSalary)}</div>
               <div className="md:col-span-1 text-right text-gray-700 hidden md:block">{a.riskScore ?? "—"}</div>
               <div className="md:col-span-1 text-right text-gray-700 hidden md:block">{a.rifCount != null ? formatNumber(a.rifCount) : "—"}</div>
-              <div className="md:col-span-2 text-right text-gray-700 hidden md:block">{a.reductionPct != null ? a.reductionPct.toFixed(1) + "%" : "—"}</div>
+              <div className="md:col-span-2 text-right text-gray-700 hidden md:block">{a.reductionPct != null ? (a.reductionPct > 100 ? ">100%" : a.reductionPct.toFixed(1) + "%") : "—"}</div>
               {/* Mobile inline stats */}
               <div className="flex gap-4 mt-1 text-xs text-gray-500 md:hidden">
                 <span>{formatNumber(a.employees)} emp</span>
                 <span>{formatSalary(a.avgSalary)}</span>
                 {a.riskScore != null && <span>Risk: {a.riskScore}</span>}
-                {a.reductionPct != null && <span>-{a.reductionPct.toFixed(1)}%</span>}
+                {a.reductionPct != null && <span>-{a.reductionPct > 100 ? ">100" : a.reductionPct.toFixed(1)}%</span>}
               </div>
             </Link>
           ))}

@@ -126,7 +126,7 @@ export function LookupClient() {
   const shareText = selected
     ? `${selected.name}: Risk Score ${selected.riskScore}/100, ${formatNumber(selected.seps2025)} separations in 2025 (${selected.sepChange > 0 ? "+" : ""}${selected.sepChange}% YoY). Check your agency at`
     : "";
-  const shareUrl = typeof window !== "undefined" ? window.location.href : "https://fedtracker.org/lookup";
+  const shareUrl = typeof window !== "undefined" ? window.location.href : "https://fedtracker.vercel.app/lookup";
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
@@ -199,7 +199,7 @@ export function LookupClient() {
             <StatCard label="RIFs" value={formatNumber(selected.rifCount)} />
             <StatCard
               label="Workforce Reduction"
-              value={`${selected.reductionPct}%`}
+              value={selected.reductionPct > 100 ? '>100%' : `${selected.reductionPct}%`}
             />
             <StatCard label="Avg Salary" value={formatSalary(selected.avgSalary)} />
             <StatCard label="Retirement Risk" value={`${selected.retirementPct}%`} sub="eligible to retire" />

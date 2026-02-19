@@ -30,11 +30,19 @@ function riskBadge(score: number) {
   return "text-red-700 bg-red-50";
 }
 
+function fmtReduction(pct: number) {
+  if (pct > 100) return ">100%";
+  return `${pct}%`;
+}
+
 export function RiskTable({ agencies }: { agencies: Agency[] }) {
   const [sortKey, setSortKey] = useState<SortKey>("riskScore");
   const [sortAsc, setSortAsc] = useState(false);
+  const [hideSmall, setHideSmall] = useState(true);
 
-  const sorted = [...agencies].sort((a, b) => {
+  const filtered = hideSmall ? agencies.filter(a => a.employees >= 50) : agencies;
+
+  const sorted = [...filtered].sort((a, b) => {
     const av = sortKey === "name" ? fixAgencyName(a.name) : (a[sortKey] ?? 0);
     const bv = sortKey === "name" ? fixAgencyName(b.name) : (b[sortKey] ?? 0);
     if (av < bv) return sortAsc ? -1 : 1;
@@ -60,6 +68,14 @@ export function RiskTable({ agencies }: { agencies: Agency[] }) {
   }
 
   return (
+    <>
+    <div className="mb-4 flex items-center gap-3">
+      <label className="flex items-center gap-2 text-sm text-gray-600 cursor-pointer">
+        <input type="checkbox" checked={hideSmall} onChange={() => setHideSmall(!hideSmall)} className="accent-indigo-600" />
+        Hide small agencies (&lt;50 employees)
+      </label>
+      <span className="text-xs text-gray-400">{filtered.length} of {agencies.length} shown</span>
+    </div>
     <div className="overflow-x-auto border border-gray-200 rounded-xl">
       <table className="w-full text-sm">
         <thead className="bg-gray-50 border-b border-gray-200">
@@ -99,7 +115,7 @@ export function RiskTable({ agencies }: { agencies: Agency[] }) {
               <td className="px-3 py-3 text-gray-700">{a.seps2025.toLocaleString()}</td>
               <td className="px-3 py-3">
                 <span className={a.reductionPct > 30 ? "text-red-600 font-semibold" : "text-gray-700"}>
-                  {a.reductionPct}%
+                  {fmtReduction(a.reductionPct)}
                 </span>
               </td>
             </tr>
@@ -107,5 +123,6 @@ export function RiskTable({ agencies }: { agencies: Agency[] }) {
         </tbody>
       </table>
     </div>
+    </>
   );
 }

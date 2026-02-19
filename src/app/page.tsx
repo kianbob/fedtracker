@@ -196,7 +196,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-sm font-semibold text-gray-900 group-hover:text-accent leading-tight">{fixAgencyName(a.name)}</p>
-              <p className="text-xs text-gray-500">{a.reductionPct}% workforce reduction</p>
+              <p className="text-xs text-gray-500">{a.reductionPct > 100 ? '>100' : a.reductionPct}% workforce reduction</p>
             </Link>
           ))}
         </div>

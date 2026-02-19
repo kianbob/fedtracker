@@ -30,7 +30,7 @@ export function LayoffsClient({ separations, agencies }: Props) {
     <div className="max-w-7xl mx-auto px-4 py-12">
       <h1 className="font-serif text-4xl font-bold text-gray-900 mb-2">Federal Layoffs & Separations</h1>
       <p className="text-gray-600 mb-8 max-w-3xl">
-        Every federal employee who left their position from FY2020 to FY2024, broken down by type.
+        Every federal employee who left their position from FY2020 to FY2025, broken down by type.
         RIFs (Reductions in Force) are involuntary layoffs. This data comes from OPM FedScope.
       </p>
 
@@ -50,7 +50,7 @@ export function LayoffsClient({ separations, agencies }: Props) {
 
       {/* Type breakdown table */}
       <section>
-        <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4">Separation Types (FY2020-2024)</h2>
+        <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4">Separation Types (FY2020-2025)</h2>
         <div className="bg-white border border-gray-200 rounded-xl overflow-hidden">
           <div className="divide-y divide-gray-100">
             {Object.entries(separations.types as Record<string, string>)

@@ -24,21 +24,21 @@ export default function AboutPage() {
           <h2 className="font-serif text-2xl font-bold text-gray-900 mb-3">Data Sources</h2>
           <div className="bg-gray-50 rounded-xl p-6 space-y-4">
             <div>
-              <h3 className="font-semibold text-gray-900">Employment Data (March 2025)</h3>
+              <h3 className="font-semibold text-gray-900">Employment Data (December 2025)</h3>
               <p className="text-sm text-gray-600">
-                Current federal workforce snapshot with ~811K employee records. Includes agency, occupation,
+                Current federal workforce snapshot with ~2.07M employee records. Includes agency, occupation,
                 location, salary, education level, and work schedule.
               </p>
             </div>
             <div>
-              <h3 className="font-semibold text-gray-900">Separations Data (FY2020-2024)</h3>
+              <h3 className="font-semibold text-gray-900">Separations Data (FY2020-2025)</h3>
               <p className="text-sm text-gray-600">
                 ~953K records of employees leaving federal service. Includes separation type (quit, retirement,
                 RIF, termination, etc.), effective date, and salary at separation.
               </p>
             </div>
             <div>
-              <h3 className="font-semibold text-gray-900">Accessions Data (FY2020-2024)</h3>
+              <h3 className="font-semibold text-gray-900">Accessions Data (FY2020-2025)</h3>
               <p className="text-sm text-gray-600">
                 ~1.17M records of new hires entering federal service. Includes accession type (new hire,
                 transfer), effective date, and starting salary.
@@ -70,7 +70,7 @@ export default function AboutPage() {
           <ul className="list-disc pl-5 space-y-2 text-gray-700">
             <li>This covers civilian federal employees only — not military, contractors, or postal workers (USPS has its own data).</li>
             <li>Some records have redacted values (marked as &quot;REDACTED&quot; or &quot;*&quot;) for privacy. These are excluded from salary calculations.</li>
-            <li>The employment snapshot is a point-in-time view (March 2025), while separations and accessions span FY2020-2024.</li>
+            <li>The employment snapshot is a point-in-time view (December 2025), while separations and accessions span FY2020-2025.</li>
           </ul>
         </section>
 

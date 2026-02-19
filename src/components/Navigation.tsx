@@ -6,6 +6,7 @@ const links = [
   { href: "/", label: "Home" },
   { href: "/agencies", label: "Agencies" },
   { href: "/layoffs", label: "Layoffs & Separations" },
+  { href: "/doge", label: "DOGE Impact" },
   { href: "/occupations", label: "Occupations" },
   { href: "/states", label: "States" },
   { href: "/salaries", label: "Salaries" },

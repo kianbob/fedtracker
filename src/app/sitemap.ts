@@ -14,6 +14,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/states`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/salaries`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/trends`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/doge`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${base}/demographics`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/about`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
   ];
 

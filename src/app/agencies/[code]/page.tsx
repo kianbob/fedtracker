@@ -52,7 +52,7 @@ export default async function AgencyDetailPage({ params }: { params: { code: str
         <span className="text-gray-700">{cleanAgencyName(data.name)}</span>
       </nav>
       <h1 className="font-serif text-3xl sm:text-4xl font-bold text-gray-900 mb-2">{cleanAgencyName(data.name)}</h1>
-      <p className="text-gray-500 mb-8">Agency Code: {data.code} · {formatNumber(data.employees)} employees · March 2025</p>
+      <p className="text-gray-500 mb-8">Agency Code: {data.code} · {formatNumber(data.employees)} employees · December 2025</p>
 
       <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 mb-12">
         <div className="bg-white border border-gray-200 rounded-xl p-6">

@@ -27,6 +27,14 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "FedTracker",
+  description: "Federal workforce data from OPM FedScope — employees, salaries, layoffs, and hiring trends across all agencies.",
+  url: "https://fedtracker.org",
+};
+
 export default function RootLayout({
   children,
 }: {
@@ -34,6 +42,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${playfair.variable} ${inter.variable}`}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className="font-sans bg-white text-gray-900 antialiased">
         <Navigation />
         <main className="min-h-screen">{children}</main>

@@ -3,8 +3,8 @@ import { formatNumber, formatSalary } from "@/lib/format";
 import states from "../../../public/data/states.json";
 
 export const metadata = {
-  title: "Federal Employees by State — FedTracker",
-  description: "Where federal workers are located across the United States.",
+  title: "Federal Employees by State — Geographic Distribution — FedTracker",
+  description: "See where federal employees work across all 50 states and territories. Employee counts and average salaries by location from OPM FedScope.",
 };
 
 export default function StatesPage() {

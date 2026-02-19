@@ -1,9 +1,11 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { StatCard } from "@/components/StatCard";
+import { HomepageChart } from "./HomepageChart";
 import { formatNumber, formatSalary, cleanAgencyName } from "@/lib/format";
 import siteStats from "../../public/data/site-stats.json";
 import agencyList from "../../public/data/agency-list.json";
+import trends from "../../public/data/trends.json";
 
 export const metadata: Metadata = {
   title: "FedTracker — Track the Federal Workforce | 2M+ Employees, 128 Agencies",
@@ -12,6 +14,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   const topAgencies = agencyList.slice(0, 12);
+  const recentTrends = trends.monthly.slice(-12);
 
   return (
     <div>
@@ -57,6 +60,38 @@ export default function Home() {
         </div>
       </section>
 
+      {/* DOGE Impact CTA */}
+      <section className="max-w-7xl mx-auto px-4 mt-10">
+        <Link href="/doge" className="block bg-red-50 border-2 border-red-200 rounded-xl p-6 hover:bg-red-100 hover:border-red-300 transition-all group">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+            <div>
+              <p className="text-xs font-semibold text-red-600 uppercase tracking-wide mb-1">New Analysis</p>
+              <h3 className="font-serif text-2xl font-bold text-red-900 group-hover:text-red-800">
+                DOGE Impact: 2025 Workforce Reduction
+              </h3>
+              <p className="text-sm text-red-700 mt-1">
+                The federal government has seen unprecedented workforce changes in 2025. Explore the data.
+              </p>
+            </div>
+            <span className="bg-red-600 text-white font-semibold px-5 py-2.5 rounded-lg text-sm whitespace-nowrap self-start sm:self-center group-hover:bg-red-700 transition-colors">
+              View Report →
+            </span>
+          </div>
+        </Link>
+      </section>
+
+      {/* Recent Trends Chart */}
+      <section className="max-w-7xl mx-auto px-4 mt-12">
+        <div className="flex items-center justify-between mb-4">
+          <h2 className="font-serif text-3xl font-bold text-gray-900">Recent Trends</h2>
+          <Link href="/trends" className="text-accent hover:underline text-sm font-medium">View full trends →</Link>
+        </div>
+        <p className="text-sm text-gray-500 mb-4">Monthly hiring vs. separations over the last 12 months.</p>
+        <div className="bg-white border border-gray-200 rounded-xl p-4">
+          <HomepageChart data={recentTrends} />
+        </div>
+      </section>
+
       {/* Key Findings */}
       <section className="max-w-7xl mx-auto px-4 mt-16">
         <h2 className="font-serif text-3xl font-bold text-gray-900 mb-8">Key Findings</h2>
@@ -64,7 +99,7 @@ export default function Home() {
           {/* RIF card */}
           <div className="bg-red-50 border border-red-100 rounded-xl p-6">
             <h3 className="font-serif text-xl font-bold text-red-900 mb-3">🔴 Top RIF Agencies</h3>
-            <p className="text-sm text-red-700 mb-4">Agencies with the most Reductions in Force (FY20-24)</p>
+            <p className="text-sm text-red-700 mb-4">Agencies with the most Reductions in Force (FY20-25)</p>
             <ul className="space-y-2">
               {siteStats.topRifAgencies.slice(0, 5).map((a) => (
                 <li key={a.code} className="flex justify-between text-sm">
@@ -96,7 +131,7 @@ export default function Home() {
           {/* Net change */}
           <div className="bg-indigo-50 border border-indigo-100 rounded-xl p-6">
             <h3 className="font-serif text-xl font-bold text-indigo-900 mb-3">📊 Workforce Change</h3>
-            <p className="text-sm text-indigo-700 mb-4">Net hiring vs. separations (FY2020-2024)</p>
+            <p className="text-sm text-indigo-700 mb-4">Net hiring vs. separations (FY2020-2025)</p>
             <div className="space-y-3">
               <div className="flex justify-between text-sm">
                 <span className="text-indigo-800">Total Accessions</span>

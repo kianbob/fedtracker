@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { formatNumber, formatSalary, cleanAgencyName } from "@/lib/format";
+import Breadcrumb from "@/components/Breadcrumb";
 import { StateOccupationChart } from "@/components/StateOccupationChart";
 import states from "../../../../public/data/states.json";
 import stateOccupations from "../../../../public/data/state-occupations.json";
@@ -58,13 +59,10 @@ export default async function StateDetailPage({ params }: { params: { code: stri
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
-      <nav className="text-xs text-gray-400 mb-6">
-        <Link href="/" className="hover:text-accent">Home</Link>
-        <span className="mx-1.5">/</span>
-        <Link href="/states" className="hover:text-accent">States</Link>
-        <span className="mx-1.5">/</span>
-        <span className="text-gray-700">{data.name}</span>
-      </nav>
+      <Breadcrumb items={[
+        { label: "States", href: "/states" },
+        { label: data.name },
+      ]} />
       <h1 className="font-serif text-3xl sm:text-4xl font-bold text-gray-900 mb-2">Federal Employees in {data.name}</h1>
 
       <div className="grid grid-cols-2 gap-4 mb-12">

@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { formatNumber, formatSalary, toTitleCase, explainGrade, fixAgencyName } from "@/lib/format";
+import Breadcrumb from "@/components/Breadcrumb";
 import { StatCard } from "@/components/StatCard";
 import { OccupationCharts } from "./OccupationCharts";
 import fs from "fs";
@@ -39,13 +40,10 @@ export default async function OccupationDetailPage({ params }: { params: { code:
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
-      <nav className="text-xs text-gray-400 mb-6">
-        <Link href="/" className="hover:text-accent">Home</Link>
-        <span className="mx-1.5">/</span>
-        <Link href="/occupations" className="hover:text-accent">Occupations</Link>
-        <span className="mx-1.5">/</span>
-        <span className="text-gray-700">{toTitleCase(data.name)}</span>
-      </nav>
+      <Breadcrumb items={[
+        { label: "Occupations", href: "/occupations" },
+        { label: toTitleCase(data.name) },
+      ]} />
 
       <h1 className="font-serif text-3xl sm:text-4xl font-bold text-gray-900 mb-2">{toTitleCase(data.name)}</h1>
       <p className="text-gray-500 mb-8">Series {data.code} · {data.group ? toTitleCase(data.group) : ""}</p>

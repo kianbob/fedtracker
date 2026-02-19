@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { formatNumber, formatSalary, cleanAgencyName, toTitleCase } from "@/lib/format";
+import Breadcrumb from "@/components/Breadcrumb";
 import { AgencyCharts } from "./AgencyCharts";
 import agencyList from "../../../../public/data/agency-list.json";
 import fs from "fs";
@@ -44,13 +45,10 @@ export default async function AgencyDetailPage({ params }: { params: { code: str
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
-      <nav className="text-xs text-gray-400 mb-6">
-        <Link href="/" className="hover:text-accent">Home</Link>
-        <span className="mx-1.5">/</span>
-        <Link href="/agencies" className="hover:text-accent">Agencies</Link>
-        <span className="mx-1.5">/</span>
-        <span className="text-gray-700">{cleanAgencyName(data.name)}</span>
-      </nav>
+      <Breadcrumb items={[
+        { label: "Agencies", href: "/agencies" },
+        { label: cleanAgencyName(data.name) },
+      ]} />
       <h1 className="font-serif text-3xl sm:text-4xl font-bold text-gray-900 mb-2">{cleanAgencyName(data.name)}</h1>
       <p className="text-gray-500 mb-8">Agency Code: {data.code} · {formatNumber(data.employees)} employees · December 2025</p>
 

@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { SimpleBarChart, SimplePieChart } from "@/components/Charts";
 import { StatCard } from "@/components/StatCard";
 import { formatNumber, toTitleCase } from "@/lib/format";
@@ -258,6 +259,25 @@ export function DemographicsClient({ data }: { data: DemographicsData | null }) 
             nameKey="label"
             color="#10b981"
           />
+        </div>
+      </section>
+
+      {/* Related Analysis */}
+      <section className="mt-12">
+        <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4">Related Analysis</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {[
+            { href: "/workforce-analysis", title: "Workforce Deep Dive", desc: "Retirement cliff, experience drain, STEM brain drain, and pay grade analysis." },
+            { href: "/education", title: "Education & Salary", desc: "How education level affects federal pay — from high school to doctorate." },
+            { href: "/appointments", title: "Appointment Types", desc: "How DOGE cuts affected career, temporary, SES, and excepted service employees." },
+            { href: "/states", title: "Employees by State", desc: "Where federal employees work across all 50 states and territories." },
+          ].map((link) => (
+            <Link key={link.href} href={link.href} className="bg-white border border-gray-200 rounded-xl p-5 hover:border-indigo-300 hover:shadow-md transition-all group">
+              <h3 className="font-serif font-bold text-gray-900 group-hover:text-indigo-700 transition-colors mb-1">{link.title}</h3>
+              <p className="text-sm text-gray-500">{link.desc}</p>
+              <span className="text-indigo-600 text-sm font-medium mt-2 inline-block">Explore →</span>
+            </Link>
+          ))}
         </div>
       </section>
 

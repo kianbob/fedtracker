@@ -17,7 +17,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://openfeds.org"),
+  metadataBase: new URL("https://www.openfeds.org"),
   alternates: {
     canonical: "./",
   },

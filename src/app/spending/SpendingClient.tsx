@@ -213,6 +213,25 @@ export function SpendingClient() {
         </div>
       </section>
 
+      {/* Related Analysis */}
+      <section className="mt-12">
+        <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4">Related Analysis</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {[
+            { href: "/federal-bloat", title: "Federal Bloat Myth", desc: "Is the federal workforce really bloated? The data tells a different story than the headlines." },
+            { href: "/agencies", title: "Agency Explorer", desc: "Browse all 24 federal agencies with workforce size, salary data, and separation trends." },
+            { href: "/trends", title: "Workforce Trends", desc: "Month-by-month hiring, separations, and net change across the federal government." },
+            { href: "/risk", title: "Agency Risk Dashboard", desc: "Which agencies face the highest restructuring risk based on workforce trends." },
+          ].map((link) => (
+            <Link key={link.href} href={link.href} className="bg-white border border-gray-200 rounded-xl p-5 hover:border-indigo-300 hover:shadow-md transition-all group">
+              <h3 className="font-serif font-bold text-gray-900 group-hover:text-indigo-700 transition-colors mb-1">{link.title}</h3>
+              <p className="text-sm text-gray-500">{link.desc}</p>
+              <span className="text-indigo-600 text-sm font-medium mt-2 inline-block">Explore →</span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
       {/* Source */}
       <p className="text-xs text-gray-400 mt-8">
         Sources: <a href="https://data.opm.gov" className="underline hover:text-accent" target="_blank" rel="noopener">OPM FedScope</a> (December 2025 employment) |{" "}

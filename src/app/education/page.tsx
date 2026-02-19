@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { formatNumber, formatSalary } from "@/lib/format";
 import { EducationChart } from "./EducationChart";
 import educationData from "../../../public/data/education-salary.json";
@@ -123,6 +124,24 @@ export default function EducationPage() {
             {formatSalary(educationData[0]?.avgSalary)} for professional degrees. This reflects the premium
             placed on legal and medical expertise in government service.
           </p>
+        </div>
+      </section>
+
+      {/* Related Analysis */}
+      <section className="mt-12">
+        <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4">Related Analysis</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {[
+            { href: "/salary-analysis", title: "Salary Analysis", desc: "Are federal workers overpaid? A deep dive into GS grades, agency pay, and private sector comparisons." },
+            { href: "/demographics", title: "Workforce Demographics", desc: "Age, gender, veteran status, and more — a full demographic portrait of federal employees." },
+            { href: "/occupations", title: "Occupation Explorer", desc: "Browse 500+ federal job series with salary data, workforce size, and separation trends." },
+          ].map((link) => (
+            <Link key={link.href} href={link.href} className="bg-white border border-gray-200 rounded-xl p-5 hover:border-indigo-300 hover:shadow-md transition-all group">
+              <h3 className="font-serif font-bold text-gray-900 group-hover:text-indigo-700 transition-colors mb-1">{link.title}</h3>
+              <p className="text-sm text-gray-500">{link.desc}</p>
+              <span className="text-indigo-600 text-sm font-medium mt-2 inline-block">Explore →</span>
+            </Link>
+          ))}
         </div>
       </section>
     </div>

@@ -68,6 +68,30 @@ export function LayoffsClient({ separations, agencies }: Props) {
           </div>
         </div>
       </section>
+
+      {/* Related Analysis */}
+      <section className="mt-12">
+        <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4">Related Analysis</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {[
+            { href: "/who-got-cut", title: "Who Got Cut", desc: "Agency-by-agency breakdown of the 2025 DOGE-driven workforce reductions." },
+            { href: "/doge", title: "DOGE Impact Dashboard", desc: "Full breakdown of 2025 federal workforce restructuring by agency, month, and separation type." },
+            { href: "/trends", title: "Workforce Trends", desc: "Month-by-month hiring, separations, and net change across the federal government." },
+            { href: "/agencies", title: "Agency Explorer", desc: "Browse all 24 federal agencies with workforce size, salary data, and separation trends." },
+          ].map((link) => (
+            <Link key={link.href} href={link.href} className="bg-white border border-gray-200 rounded-xl p-5 hover:border-indigo-300 hover:shadow-md transition-all group">
+              <h3 className="font-serif font-bold text-gray-900 group-hover:text-indigo-700 transition-colors mb-1">{link.title}</h3>
+              <p className="text-sm text-gray-500">{link.desc}</p>
+              <span className="text-indigo-600 text-sm font-medium mt-2 inline-block">Explore →</span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* Methodology */}
+      <p className="text-xs text-gray-400 mt-8">
+        Data: OPM FedScope (December 2025 employment, FY2020–2025 separations). Updated monthly.
+      </p>
     </div>
   );
 }

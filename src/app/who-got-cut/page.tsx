@@ -549,6 +549,25 @@ export default function WhoGotCutPage() {
         </Section>
       </div>
 
+      {/* Related Analysis */}
+      <section className="mt-12">
+        <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4">Related Analysis</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {[
+            { href: "/doge", title: "DOGE Impact Dashboard", desc: "Full breakdown of 2025 federal workforce restructuring by agency, month, and separation type." },
+            { href: "/impact", title: "State-by-State Impact", desc: "How DOGE-driven federal workforce reductions affect each state — DC, Maryland, and Virginia hit hardest." },
+            { href: "/states", title: "State Explorer", desc: "Explore federal employment by state — where the jobs are and where the cuts hit hardest." },
+            { href: "/risk", title: "Agency Risk Dashboard", desc: "Which agencies face the highest restructuring risk based on workforce trends." },
+          ].map((link) => (
+            <Link key={link.href} href={link.href} className="bg-white border border-gray-200 rounded-xl p-5 hover:border-indigo-300 hover:shadow-md transition-all group">
+              <h3 className="font-serif font-bold text-gray-900 group-hover:text-indigo-700 transition-colors mb-1">{link.title}</h3>
+              <p className="text-sm text-gray-500">{link.desc}</p>
+              <span className="text-indigo-600 text-sm font-medium mt-2 inline-block">Explore →</span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
       {/* METHODOLOGY */}
       <section className="bg-gray-50 border border-gray-200 rounded-xl p-8 mt-16">
         <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4">

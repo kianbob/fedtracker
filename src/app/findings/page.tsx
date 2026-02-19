@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Breadcrumb from "@/components/Breadcrumb";
+
 import { StatCard } from "@/components/StatCard";
 import { formatNumber, fixAgencyName } from "@/lib/format";
 import hardestHit from "../../../public/data/hardest-hit.json";
@@ -35,7 +35,11 @@ function FindingSection({ emoji, title, children }: { emoji: string; title: stri
 export default function FindingsPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
-      <Breadcrumb items={[{ label: "Key Findings" }]} />
+      <nav className="flex items-center gap-1.5 text-xs text-slate-500 mb-6">
+        <Link href="/" className="hover:text-indigo-400">Home</Link>
+        <span>/</span>
+        <span className="text-slate-300">Key Findings</span>
+      </nav>
       <header className="mb-16">
         <p className="text-sm font-semibold text-accent uppercase tracking-wide mb-3">FedTracker Analysis</p>
         <h1 className="font-serif text-4xl sm:text-5xl font-bold text-gray-900 mb-4 leading-tight">

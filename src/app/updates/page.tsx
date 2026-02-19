@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Breadcrumb from "@/components/Breadcrumb";
+
 
 export const metadata: Metadata = {
   title: "Updates — FedTracker",
@@ -31,7 +31,11 @@ const updates = [
 export default function UpdatesPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-12">
-      <Breadcrumb items={[{ label: "Updates" }]} />
+      <nav className="flex items-center gap-1.5 text-xs text-slate-500 mb-6">
+        <Link href="/" className="hover:text-indigo-400">Home</Link>
+        <span>/</span>
+        <span className="text-slate-300">Updates</span>
+      </nav>
       <h1 className="font-serif text-4xl font-bold text-gray-900 mb-2">Updates</h1>
       <p className="text-gray-500 mb-10">Data updates and site changelog.</p>
 

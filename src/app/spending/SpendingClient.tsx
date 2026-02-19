@@ -9,7 +9,12 @@ import data from "../../../public/data/agency-budgets.json";
 
 type SortKey = "budgetPerEmployee" | "contractsPerEmployee" | "employees" | "riskScore" | "outlays" | "contracts" | "name";
 
-function fmtDollars(v: number): string {
+function hasBadBudgetData(a: any): boolean {
+  return a.budgetPerEmployee > 10_000_000 || a.budgetPerEmployee < 1_000;
+}
+
+function fmtDollars(v: number | null | undefined): string {
+  if (v == null || v < 0) return "N/A";
   if (v >= 1e12) return `$${(v / 1e12).toFixed(1)}T`;
   if (v >= 1e9) return `$${(v / 1e9).toFixed(1)}B`;
   if (v >= 1e6) return `$${(v / 1e6).toFixed(1)}M`;
@@ -40,14 +45,15 @@ export function SpendingClient() {
     return 0;
   });
 
-  const totalBudget = agencies.reduce((s, a) => s + (a.budgetAuthority || 0), 0);
-  const totalEmployees = agencies.reduce((s, a) => s + (a.employees || 0), 0);
-  const totalContracts = agencies.reduce((s, a) => s + (a.contracts || 0), 0);
+  const validAgencies = agencies.filter(a => !hasBadBudgetData(a));
+  const totalBudget = validAgencies.reduce((s, a) => s + (a.budgetAuthority || 0), 0);
+  const totalEmployees = validAgencies.reduce((s, a) => s + (a.employees || 0), 0);
+  const totalContracts = agencies.reduce((s, a) => s + (a.contracts > 0 ? a.contracts : 0), 0);
   const avgBudgetPerEmp = totalBudget / totalEmployees;
 
-  // Top 15 for chart (exclude SSA Selective Service outlier)
+  // Top 15 for chart — exclude bad data joins
   const chartData = [...agencies]
-    .filter(a => a.employees >= 500)
+    .filter(a => a.employees >= 500 && !hasBadBudgetData(a))
     .sort((a, b) => b.budgetPerEmployee - a.budgetPerEmployee)
     .slice(0, 15)
     .map(a => ({ name: fixAgencyName(a.name).replace(/Department of (the )?/i, "").slice(0, 22), value: a.budgetPerEmployee, code: a.opmCode }));
@@ -96,7 +102,7 @@ export function SpendingClient() {
       {/* Stats */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
         <StatCard label="Total Budget Authority" value={fmtDollars(totalBudget)} sub="FY2025, matched agencies" />
-        <StatCard label="Employees (Matched)" value={formatNumber(totalEmployees)} sub="24 agencies matched" />
+        <StatCard label="Employees (Matched)" value={formatNumber(totalEmployees)} sub={`${validAgencies.length} agencies matched`} />
         <StatCard label="Avg Budget / Employee" value={fmtDollars(avgBudgetPerEmp)} sub="Across all matched" />
         <StatCard label="Total Contracts" value={fmtDollars(totalContracts)} sub="FY2025 obligations" />
       </div>
@@ -197,7 +203,9 @@ export function SpendingClient() {
                     </Link>
                   </td>
                   <td className="px-3 py-3 text-gray-700 dark:text-gray-300">{formatNumber(a.employees)}</td>
-                  <td className="px-3 py-3 font-semibold text-gray-900 dark:text-white">{fmtDollars(a.budgetPerEmployee)}</td>
+                  <td className="px-3 py-3 font-semibold text-gray-900 dark:text-white">
+                    {hasBadBudgetData(a) ? <span className="text-gray-400 font-normal text-xs">Data unavailable</span> : fmtDollars(a.budgetPerEmployee)}
+                  </td>
                   <td className="px-3 py-3 text-gray-700 dark:text-gray-300">{a.contractsPerEmployee ? fmtDollars(a.contractsPerEmployee) : "—"}</td>
                   <td className="px-3 py-3 text-gray-700 dark:text-gray-300">{fmtDollars(a.outlays)}</td>
                   <td className="px-3 py-3 text-gray-700 dark:text-gray-300">{a.contracts ? fmtDollars(a.contracts) : "—"}</td>
@@ -219,7 +227,7 @@ export function SpendingClient() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {[
             { href: "/federal-bloat", title: "Federal Bloat Myth", desc: "Is the federal workforce really bloated? The data tells a different story than the headlines." },
-            { href: "/agencies", title: "Agency Explorer", desc: "Browse all 24 federal agencies with workforce size, salary data, and separation trends." },
+            { href: "/agencies", title: "Agency Explorer", desc: "Browse all 128 federal agencies with workforce size, salary data, and separation trends." },
             { href: "/trends", title: "Workforce Trends", desc: "Month-by-month hiring, separations, and net change across the federal government." },
             { href: "/risk", title: "Agency Risk Dashboard", desc: "Which agencies face the highest restructuring risk based on workforce trends." },
           ].map((link) => (

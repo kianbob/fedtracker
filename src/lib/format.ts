@@ -156,6 +156,21 @@ export function cleanAgencyName(name: string): string {
 
 // OPM agency name corrections (abbreviations/truncations in source data)
 const AGENCY_NAME_FIXES: Record<string, string> = {
+  'AR': 'Department of the Army',
+  'AF': 'Department of the Air Force',
+  'NV': 'Department of the Navy',
+  'DD': 'Department of Defense',
+  'Ar': 'Department of the Army',
+  'Af': 'Department of the Air Force',
+  'Nv': 'Department of the Navy',
+  'Dd': 'Department of Defense',
+  'U.s.agency for Global Media': 'U.S. Agency for Global Media',
+  'U.S.AGENCY FOR GLOBAL MEDIA': 'U.S. Agency for Global Media',
+  'U.s. International Trade Commission': 'U.S. International Trade Commission',
+  'U.s. Holocaust Memorial Museum': 'U.S. Holocaust Memorial Museum',
+  'U.s.-china Economic & Security Rev Cmsn': 'U.S.-China Economic and Security Review Commission',
+  'U.s. Cmsn on Internatl Religious Freedom': 'U.S. Commission on International Religious Freedom',
+  'U.s. Interagency Council on Homelessness': 'U.S. Interagency Council on Homelessness',
   'Dfc': 'U.S. International Development Finance Corporation',
   'Nat Aeronautics And Space Administration': 'NASA (National Aeronautics and Space Administration)',
   'Nat Archives And Records Administration': 'National Archives and Records Administration',

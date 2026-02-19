@@ -77,7 +77,7 @@ export function LayoffsClient({ separations, agencies }: Props) {
             { href: "/who-got-cut", title: "Who Got Cut", desc: "Agency-by-agency breakdown of the 2025 DOGE-driven workforce reductions." },
             { href: "/doge", title: "DOGE Impact Dashboard", desc: "Full breakdown of 2025 federal workforce restructuring by agency, month, and separation type." },
             { href: "/trends", title: "Workforce Trends", desc: "Month-by-month hiring, separations, and net change across the federal government." },
-            { href: "/agencies", title: "Agency Explorer", desc: "Browse all 24 federal agencies with workforce size, salary data, and separation trends." },
+            { href: "/agencies", title: "Agency Explorer", desc: "Browse all 128 federal agencies with workforce size, salary data, and separation trends." },
           ].map((link) => (
             <Link key={link.href} href={link.href} className="bg-white border border-gray-200 rounded-xl p-5 hover:border-indigo-300 hover:shadow-md transition-all group">
               <h3 className="font-serif font-bold text-gray-900 group-hover:text-indigo-700 transition-colors mb-1">{link.title}</h3>

@@ -105,9 +105,10 @@ export default function AboutPage() {
             <div>
               <h3 className="font-semibold text-gray-900 mb-1">Separation Types</h3>
               <p className="text-sm">
-                Separation types follow OPM&apos;s standard coding: SA (Transfer Out), SB (Death), SC (Quit),
-                SD (Retirement), SE (Termination for Cause), SF (Involuntary Resignation), SG (Other Separation),
-                SH (RIF — Reduction in Force), SJ (Termination), SK (Disability), and SL (Early Retirement).
+                Separation types follow OPM&apos;s standard coding: SA (Transfer Out), SB (Transfer Out — Mass),
+                SC (Quit), SD (Retirement), SE (Early Retirement), SF (Disability Retirement),
+                SG (Termination), SH (RIF — Reduction in Force), SI (Resignation in Lieu of Termination),
+                SK (Death), and SL (Other).
                 Monthly separation counts are aggregated by type to produce trend charts and breakdowns.
               </p>
             </div>

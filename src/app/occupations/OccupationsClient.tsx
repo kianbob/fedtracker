@@ -11,8 +11,10 @@ export function OccupationsClient() {
   const [sortBy, setSortBy] = useState<SortKey>("employees");
   const [sortDir, setSortDir] = useState<"asc" | "desc">("desc");
 
+  const validOccupations = useMemo(() => occupations.filter((o) => o.code !== "*" && o.name.toLowerCase() !== "invalid"), []);
+
   const filtered = useMemo(() => {
-    let list = occupations.filter((o) =>
+    let list = validOccupations.filter((o) =>
       o.name.toLowerCase().includes(search.toLowerCase()) || o.code.includes(search)
     );
     list.sort((a, b) => {
@@ -30,7 +32,7 @@ export function OccupationsClient() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
       <h1 className="font-serif text-4xl font-bold text-gray-900 mb-2">Federal Occupations</h1>
-      <p className="text-gray-600 mb-8">{occupations.length} distinct occupations across the federal workforce.</p>
+      <p className="text-gray-600 mb-8">{validOccupations.length} distinct occupations across the federal workforce.</p>
 
       <input
         type="text"

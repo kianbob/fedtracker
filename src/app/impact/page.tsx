@@ -57,6 +57,7 @@ export default function ImpactPage() {
       </section>
 
       {/* Table */}
+      <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4">States by 2025 Separations</h2>
       <div className="overflow-x-auto border border-gray-200 rounded-xl">
         <table className="w-full text-sm">
           <thead className="bg-gray-50 border-b border-gray-200">

@@ -91,7 +91,7 @@ export default function SubagenciesPage() {
         <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4">Related Analysis</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {[
-            { href: "/agencies", title: "Agency Explorer", desc: "Browse all 24 federal agencies with workforce size, salary data, and separation trends." },
+            { href: "/agencies", title: "Agency Explorer", desc: "Browse all 128 federal agencies with workforce size, salary data, and separation trends." },
             { href: "/doge", title: "DOGE Impact Dashboard", desc: "Full breakdown of 2025 federal workforce restructuring by agency, month, and separation type." },
             { href: "/risk", title: "Agency Risk Dashboard", desc: "Which agencies face the highest restructuring risk based on workforce trends." },
           ].map((link) => (

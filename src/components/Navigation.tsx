@@ -6,14 +6,14 @@ const topLinks = [
   { href: "/agencies", label: "Agencies" },
   { href: "/doge", label: "DOGE Impact" },
   { href: "/layoffs", label: "Separations" },
+  { href: "/trends", label: "Trends" },
   { href: "/findings", label: "Key Findings" },
+  { href: "/occupations", label: "Occupations" },
+  { href: "/salaries", label: "Salaries" },
   { href: "/about", label: "About" },
 ];
 
 const moreLinks = [
-  { href: "/trends", label: "Trends" },
-  { href: "/occupations", label: "Occupations" },
-  { href: "/salaries", label: "Salaries" },
   { href: "/workforce-analysis", label: "Deep Dive" },
   { href: "/demographics", label: "Demographics" },
   { href: "/states", label: "States" },

@@ -23,6 +23,34 @@ interface Agency {
   avgTenure: number;
 }
 
+// Common abbreviations for agency search
+const AGENCY_ALIASES: Record<string, string[]> = {
+  'NN': ['NASA'],
+  'DJ': ['DOJ', 'Justice'],
+  'DD': ['DOD', 'Pentagon', 'Military', 'Defense'],
+  'HE': ['HHS', 'Health'],
+  'VA': ['Veterans', 'VA'],
+  'TD': ['DOT', 'Transportation'],
+  'TR': ['Treasury', 'IRS'],
+  'ED': ['Education', 'Dept of Ed'],
+  'IN': ['Interior', 'DOI'],
+  'AG': ['USDA', 'Agriculture'],
+  'HS': ['DHS', 'Homeland'],
+  'ST': ['State Dept', 'DOS'],
+  'DL': ['DOL', 'Labor'],
+  'HU': ['HUD', 'Housing'],
+  'CT': ['DOE', 'Energy'],
+  'CM': ['Commerce'],
+  'EP': ['EPA'],
+  'GS': ['GSA'],
+  'OM': ['OMB'],
+  'FT': ['FTC'],
+  'SE': ['SEC'],
+  'NF': ['NSF', 'Science Foundation'],
+  'SZ': ['SSA', 'Social Security'],
+  'AM': ['USAID'],
+};
+
 function riskColor(score: number) {
   if (score > 60) return { bg: "bg-red-100", text: "text-red-700", border: "border-red-200" };
   if (score > 30) return { bg: "bg-yellow-50", text: "text-yellow-700", border: "border-yellow-200" };
@@ -79,9 +107,11 @@ export function LookupClient() {
   const filtered = useMemo(() => {
     if (!query.trim()) return agencies.slice(0, 10);
     const q = query.toLowerCase();
-    return agencies.filter(
-      (a) => a.name.toLowerCase().includes(q) || a.code.toLowerCase().includes(q)
-    ).slice(0, 15);
+    return agencies.filter((a) => {
+      if (a.name.toLowerCase().includes(q) || a.code.toLowerCase().includes(q)) return true;
+      const aliases = AGENCY_ALIASES[a.code];
+      return aliases ? aliases.some(al => al.toLowerCase().includes(q) || q.includes(al.toLowerCase())) : false;
+    }).slice(0, 15);
   }, [query, agencies]);
 
   function selectAgency(a: Agency) {

@@ -5,8 +5,14 @@ import { formatNumber, formatSalary, cleanAgencyName, toTitleCase } from "@/lib/
 import Breadcrumb from "@/components/Breadcrumb";
 import { AgencyCharts } from "./AgencyCharts";
 import agencyList from "../../../../public/data/agency-list.json";
+import occupationList from "../../../../public/data/occupations.json";
 import fs from "fs";
 import path from "path";
+
+const occCodeByName: Record<string, string> = {};
+for (const o of occupationList as { code: string; name: string }[]) {
+  occCodeByName[o.name.toUpperCase()] = o.code;
+}
 
 export async function generateMetadata({ params }: { params: { code: string } }): Promise<Metadata> {
   const data = await getAgencyData(params.code);
@@ -68,15 +74,22 @@ export default async function AgencyDetailPage({ params }: { params: { code: str
         <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4">Top Occupations</h2>
         <div className="bg-white border border-gray-200 rounded-xl overflow-hidden">
           <div className="divide-y divide-gray-100">
-            {data.topOccupations?.slice(0, 10).map((o: any, i: number) => (
-              <div key={i} className="flex justify-between px-6 py-3">
-                <span className="text-gray-800 truncate mr-4">{toTitleCase(o.name)}</span>
-                <div className="flex gap-6 text-sm text-gray-500 whitespace-nowrap">
-                  <span>{formatNumber(o.count)} employees</span>
-                  <span>{formatSalary(o.avgSalary)}</span>
+            {data.topOccupations?.slice(0, 10).map((o: any, i: number) => {
+              const occCode = occCodeByName[o.name.toUpperCase()];
+              return (
+                <div key={i} className="flex justify-between px-6 py-3">
+                  {occCode ? (
+                    <Link href={`/occupations/${occCode}`} className="text-indigo-700 hover:underline truncate mr-4">{toTitleCase(o.name)}</Link>
+                  ) : (
+                    <span className="text-gray-800 truncate mr-4">{toTitleCase(o.name)}</span>
+                  )}
+                  <div className="flex gap-6 text-sm text-gray-500 whitespace-nowrap">
+                    <span>{formatNumber(o.count)} employees</span>
+                    <span>{formatSalary(o.avgSalary)}</span>
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>

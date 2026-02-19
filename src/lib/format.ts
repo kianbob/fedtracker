@@ -24,10 +24,14 @@ const LOWERCASE_WORDS = ["OF", "THE", "AND", "FOR", "IN", "ON", "AT", "TO", "BY"
 export function toTitleCase(s: string): string {
   if (!s || s === "REDACTED" || s === "INVALID" || s === "NO DATA REPORTED") return s;
   return s
-    .replace(/\b\w+/g, (w) => {
-      if (LOWERCASE_WORDS.includes(w)) return w.toLowerCase();
-      return w.charAt(0) + w.slice(1).toLowerCase();
+    .split(/(\s+|-(?=[A-Za-z]))/)
+    .map((word, i) => {
+      if (/^\s+$/.test(word) || word === '-') return word;
+      const upper = word.toUpperCase();
+      if (i > 0 && LOWERCASE_WORDS.includes(upper)) return word.toLowerCase();
+      return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
     })
+    .join("")
     .replace(/^./, (c) => c.toUpperCase());
 }
 

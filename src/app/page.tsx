@@ -62,6 +62,7 @@ export default function Home() {
               Salary Data
             </Link>
           </div>
+          <HomeSearch items={searchItems} />
         </div>
       </section>
 

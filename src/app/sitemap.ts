@@ -23,6 +23,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/risk`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${base}/impact`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${base}/education`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${base}/compare`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
   ];
 
   // Separation type pages

@@ -21,6 +21,7 @@ const moreLinks = [
   { href: "/demographics", label: "Demographics" },
   { href: "/states", label: "States" },
   { href: "/subagencies", label: "Subagencies" },
+  { href: "/compare", label: "Compare Agencies" },
 ];
 
 const mobileMainLinks = [

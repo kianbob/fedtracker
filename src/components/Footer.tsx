@@ -22,6 +22,7 @@ export function Footer() {
               <Link href="/occupations" className="block text-gray-600 hover:text-accent">Occupations</Link>
               <Link href="/states" className="block text-gray-600 hover:text-accent">States</Link>
               <Link href="/salaries" className="block text-gray-600 hover:text-accent">Salaries</Link>
+              <Link href="/compare" className="block text-gray-600 hover:text-accent">Compare Agencies</Link>
             </div>
           </div>
           <div>

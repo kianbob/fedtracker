@@ -56,6 +56,12 @@ const categories: NavCategory[] = [
       { href: "/federal-bloat", title: "Federal Bloat", description: "Size & efficiency" },
       { href: "/salary-analysis", title: "Salary Analysis", description: "Pay patterns" },
       { href: "/compare", title: "Compare Agencies", description: "Side-by-side comparison" },
+      { href: "/brain-drain", title: "Brain Drain Index", description: "Who's really leaving" },
+      { href: "/retirement-cliff", title: "Retirement Cliff", description: "Aging workforce risk" },
+      { href: "/geographic-impact", title: "Geographic Impact", description: "Where federal jobs are" },
+      { href: "/stem-workforce", title: "STEM Brain Drain", description: "Technical workforce analysis" },
+      { href: "/salary-explorer", title: "Salary Explorer", description: "Interactive pay lookup" },
+      { href: "/monthly-timeline", title: "Monthly Timeline", description: "Month-by-month changes" },
     ],
   },
 ];

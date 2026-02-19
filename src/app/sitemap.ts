@@ -33,6 +33,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/federal-bloat`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/who-got-cut`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/salary-analysis`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/brain-drain`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/retirement-cliff`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/geographic-impact`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/stem-workforce`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/salary-explorer`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/monthly-timeline`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
   ];
 
   // Separation type pages

@@ -6,7 +6,8 @@ export function formatNumber(n: number | null | undefined): string {
 }
 
 export function formatSalary(n: number | null | undefined): string {
-  if (n == null || isNaN(n)) return "$0";
+  if (n == null || isNaN(n)) return "N/A";
+  if (n === 0) return "$0";
   return "$" + n.toLocaleString("en-US", { maximumFractionDigits: 0 });
 }
 

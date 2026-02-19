@@ -3,6 +3,7 @@ import fs from "fs";
 import path from "path";
 import Link from "next/link";
 import { formatNumber, formatSalary, cleanAgencyName } from "@/lib/format";
+import { SubagenciesClient } from "./SubagenciesClient";
 
 export const metadata: Metadata = {
   title: "Federal Subagencies — 788 Organizations Within Agencies — FedTracker",
@@ -54,37 +55,7 @@ export default function SubagenciesPage() {
         Here&apos;s the full breakdown of who&apos;s inside each department.
       </p>
 
-      <div className="space-y-8">
-        {parentGroups.map(group => (
-          <div key={group.code} className="bg-white border border-gray-200 rounded-xl overflow-hidden">
-            <Link href={`/agencies/${group.code}`} className="block bg-gray-50 px-6 py-4 hover:bg-indigo-50 transition-colors border-b border-gray-200">
-              <div className="flex items-center justify-between">
-                <h2 className="font-serif text-xl font-bold text-gray-900">{cleanAgencyName(group.name)}</h2>
-                <span className="text-sm text-gray-500">{formatNumber(group.totalEmployees)} employees · {group.subs.length} subagencies</span>
-              </div>
-            </Link>
-            <div className="divide-y divide-gray-100">
-              {group.subs.slice(0, 10).map((sub: any) => (
-                <div key={sub.code} className="flex items-center justify-between px-6 py-3 hover:bg-gray-50">
-                  <div>
-                    <span className="text-sm text-gray-800">{cleanAgencyName(sub.name)}</span>
-                    <span className="text-xs text-gray-400 ml-2">({sub.code})</span>
-                  </div>
-                  <div className="flex items-center gap-4 text-sm">
-                    <span className="text-gray-600">{formatNumber(sub.employees)}</span>
-                    <span className="text-gray-400">Avg {formatSalary(sub.avgSalary)}</span>
-                  </div>
-                </div>
-              ))}
-              {group.subs.length > 10 && (
-                <div className="px-6 py-2 text-xs text-gray-400">
-                  + {group.subs.length - 10} more subagencies
-                </div>
-              )}
-            </div>
-          </div>
-        ))}
-      </div>
+      <SubagenciesClient parentGroups={parentGroups} />
 
       {/* Related Analysis */}
       <section className="mt-12">

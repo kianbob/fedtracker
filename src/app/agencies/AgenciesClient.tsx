@@ -11,14 +11,17 @@ const riskMap = new Map(agencyRisk.map((a) => [a.code, a]));
 
 function RiskDot({ score }: { score: number | undefined }) {
   if (score == null) return null;
-  const color = score >= 60 ? "bg-red-500" : score >= 40 ? "bg-yellow-500" : "bg-green-500";
+  const color = score >= 67 ? "bg-red-500" : score >= 34 ? "bg-yellow-500" : "bg-green-500";
   return <span className={`inline-block w-2.5 h-2.5 rounded-full ${color} mr-2 flex-shrink-0`} title={`Risk: ${score}`} />;
 }
+
+const PAGE_SIZE = 20;
 
 export function AgenciesClient() {
   const [search, setSearch] = useState("");
   const [sortBy, setSortBy] = useState<SortKey>("employees");
   const [sortDir, setSortDir] = useState<"asc" | "desc">("desc");
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
 
   const merged = useMemo(() => {
     return agencyList.map((a) => {
@@ -42,6 +45,7 @@ export function AgenciesClient() {
       else cmp = ((a as Record<string, unknown>)[sortBy] as number ?? -1) - ((b as Record<string, unknown>)[sortBy] as number ?? -1);
       return sortDir === "desc" ? -cmp : cmp;
     });
+    setVisibleCount(PAGE_SIZE);
     return list;
   }, [search, sortBy, sortDir, merged]);
 
@@ -61,7 +65,7 @@ export function AgenciesClient() {
       <h1 className="font-serif text-4xl font-bold text-gray-900 mb-2">Federal Agencies</h1>
       <p className="text-gray-600 mb-8">All {agencyList.length} federal agencies with employee counts and salary data from December 2025.</p>
 
-      <div className="flex flex-col sm:flex-row gap-4 mb-6">
+      <div className="flex flex-col sm:flex-row gap-4 mb-4">
         <input
           type="text"
           placeholder="Search agencies..."
@@ -84,6 +88,14 @@ export function AgenciesClient() {
         </div>
       </div>
 
+      {/* Risk score legend */}
+      <div className="flex flex-wrap items-center gap-x-5 gap-y-1 mb-6 text-xs text-gray-500">
+        <span className="font-medium text-gray-600">Risk Score (0–100, higher = more disruption risk):</span>
+        <span className="flex items-center gap-1.5"><span className="inline-block w-2.5 h-2.5 rounded-full bg-green-500" /> Low (0–33)</span>
+        <span className="flex items-center gap-1.5"><span className="inline-block w-2.5 h-2.5 rounded-full bg-yellow-500" /> Medium (34–66)</span>
+        <span className="flex items-center gap-1.5"><span className="inline-block w-2.5 h-2.5 rounded-full bg-red-500" /> High (67–100)</span>
+      </div>
+
       <div className="bg-white border border-gray-200 rounded-xl overflow-hidden">
         {/* Desktop header - hidden on mobile */}
         <div className="hidden md:grid grid-cols-12 gap-4 px-6 py-3 bg-gray-50 border-b border-gray-200">
@@ -95,7 +107,7 @@ export function AgenciesClient() {
           <div className="col-span-2 text-right"><SortHeader k="reductionPct" label="Reduction %" /></div>
         </div>
         <div className="divide-y divide-gray-100">
-          {filtered.map((a) => (
+          {filtered.slice(0, visibleCount).map((a) => (
             <Link
               key={a.code}
               href={`/agencies/${a.code}`}
@@ -104,7 +116,7 @@ export function AgenciesClient() {
               <div className="md:col-span-4 flex items-center min-w-0">
                 <RiskDot score={a.riskScore ?? undefined} />
                 <span className="font-medium text-gray-900 truncate" title={cleanAgencyName(a.name)}>{cleanAgencyName(a.name)}</span>
-                <span className="ml-2 text-xs text-gray-400 shrink-0">{a.code}</span>
+                <span className="ml-2 text-xs font-semibold text-gray-600 shrink-0">{a.code}</span>
               </div>
               <div className="md:col-span-2 text-right text-gray-700 hidden md:block">{formatNumber(a.employees)}</div>
               <div className="md:col-span-2 text-right text-gray-700 hidden md:block">{formatSalary(a.avgSalary)}</div>
@@ -121,6 +133,21 @@ export function AgenciesClient() {
             </Link>
           ))}
         </div>
+      </div>
+
+      {/* Show More / count */}
+      <div className="flex items-center justify-between mt-4">
+        <p className="text-sm text-gray-500">
+          Showing {Math.min(visibleCount, filtered.length)} of {filtered.length} agencies
+        </p>
+        {visibleCount < filtered.length && (
+          <button
+            onClick={() => setVisibleCount((c) => c + PAGE_SIZE)}
+            className="px-4 py-2 text-sm font-medium text-accent border border-accent rounded-lg hover:bg-accent-50 transition-colors"
+          >
+            Show More
+          </button>
+        )}
       </div>
     </div>
   );

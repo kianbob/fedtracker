@@ -14,14 +14,9 @@ export const metadata: Metadata = {
   },
 };
 
-function getDogeData() {
+function loadJson(filename: string) {
   try {
-    const filePath = path.join(
-      process.cwd(),
-      "public",
-      "data",
-      "doge-impact.json"
-    );
+    const filePath = path.join(process.cwd(), "public", "data", filename);
     if (!fs.existsSync(filePath)) return null;
     return JSON.parse(fs.readFileSync(filePath, "utf-8"));
   } catch {
@@ -30,6 +25,13 @@ function getDogeData() {
 }
 
 export default function DogePage() {
-  const data = getDogeData();
-  return <DogeClient data={data} />;
+  const data = loadJson("doge-impact.json");
+  const agencyList: { code: string; name: string; employees: number }[] =
+    loadJson("agency-list.json") ?? [];
+
+  // Build lookup: agency code → employee count (pre-restructuring headcount)
+  const empByCode: Record<string, number> = {};
+  for (const a of agencyList) empByCode[a.code] = a.employees;
+
+  return <DogeClient data={data} agencyEmployees={empByCode} />;
 }

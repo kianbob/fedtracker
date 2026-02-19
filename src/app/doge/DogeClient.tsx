@@ -1,7 +1,7 @@
 "use client";
 import { TrendAreaChart, SimpleBarChart } from "@/components/Charts";
 import { StatCard } from "@/components/StatCard";
-import { formatNumber, formatMonth, cleanAgencyName } from "@/lib/format";
+import { formatNumber, formatMonth, cleanAgencyName, fixAgencyName } from "@/lib/format";
 import Link from "next/link";
 
 interface MonthlyEntry {
@@ -45,7 +45,13 @@ interface DogeData {
   separationCodes: Record<string, string>;
 }
 
-export function DogeClient({ data }: { data: DogeData | null }) {
+export function DogeClient({
+  data,
+  agencyEmployees,
+}: {
+  data: DogeData | null;
+  agencyEmployees: Record<string, number>;
+}) {
   if (!data) {
     return (
       <div className="max-w-7xl mx-auto px-4 py-12">
@@ -89,6 +95,33 @@ export function DogeClient({ data }: { data: DogeData | null }) {
   // Peak separations month
   const peakMonth = data.monthlyBreakdown2025.reduce((max, m) =>
     m.separations > max.separations ? m : max
+  );
+
+  // Most affected agencies by % workforce reduction
+  const agenciesByPctReduction = data.topAgenciesByNetLoss
+    .filter((a) => agencyEmployees[a.code] && agencyEmployees[a.code] > 0)
+    .map((a) => {
+      const headcount = agencyEmployees[a.code];
+      // netChange is negative; percentage of the original headcount lost
+      const pctReduction = (Math.abs(a.netChange) / headcount) * 100;
+      return {
+        ...a,
+        headcount,
+        pctReduction: Math.min(pctReduction, 100), // cap at 100%
+      };
+    })
+    .sort((a, b) => b.pctReduction - a.pctReduction)
+    .slice(0, 10);
+
+  const maxPctReduction = agenciesByPctReduction[0]?.pctReduction ?? 1;
+
+  // Key takeaway values
+  const worstMonthLabel = formatMonth(peakMonth.month);
+  const avgMonthlyLoss2025 = Math.round(
+    Math.abs(netChange) / data.monthlyBreakdown2025.length
+  );
+  const rifMultiplier = Math.round(
+    totalRif2025 / Math.max(data.rifByYear["2024"] ?? 1, 1)
   );
 
   return (
@@ -142,6 +175,79 @@ export function DogeClient({ data }: { data: DogeData | null }) {
             sub={data.comparisonPeriod}
           />
         </div>
+
+        {/* Key Takeaways */}
+        <section className="mb-12">
+          <div className="bg-indigo-50 border border-indigo-200 rounded-xl p-8">
+            <h2 className="font-serif text-2xl font-bold text-indigo-900 mb-4">
+              Key Takeaways
+            </h2>
+            <ul className="space-y-3 text-indigo-900 text-sm leading-relaxed">
+              <li className="flex items-start gap-3">
+                <span className="text-indigo-500 font-bold mt-0.5">1.</span>
+                <span>
+                  The federal civilian workforce shrank by{" "}
+                  <strong>{Math.abs(netChange).toLocaleString()}</strong>{" "}
+                  positions between January and November 2025 — an average net
+                  loss of <strong>{formatNumber(avgMonthlyLoss2025)}</strong> per
+                  month.
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-indigo-500 font-bold mt-0.5">2.</span>
+                <span>
+                  Hiring collapsed by{" "}
+                  <strong>{Math.abs(data.accessionChangePct)}%</strong> compared
+                  to 2024, while separations rose{" "}
+                  <strong>{data.separationChangePct}%</strong> — a
+                  double-squeeze that accounts for the historic workforce
+                  contraction.
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-indigo-500 font-bold mt-0.5">3.</span>
+                <span>
+                  Formal Reductions in Force (RIF) surged from{" "}
+                  {data.rifByYear["2024"] ?? 0} in 2024 to{" "}
+                  <strong>{formatNumber(totalRif2025)}</strong> in 2025 — a{" "}
+                  <strong>{rifMultiplier}x</strong> increase — concentrated at
+                  HHS and USAID.
+                </span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-indigo-500 font-bold mt-0.5">4.</span>
+                <span>
+                  {worstMonthLabel} was the peak month with{" "}
+                  <strong>{formatNumber(peakMonth.separations)}</strong>{" "}
+                  separations, driven by end-of-fiscal-year retirements
+                  amplified by early retirement incentives and restructuring
+                  policies.
+                </span>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        {/* Editorial Context */}
+        <section className="mb-12">
+          <div className="bg-gray-50 border border-gray-200 rounded-xl p-8">
+            <h2 className="font-serif text-2xl font-bold text-gray-900 mb-3">
+              What Is DOGE?
+            </h2>
+            <p className="text-gray-700 text-sm leading-relaxed">
+              The Department of Government Efficiency (DOGE) was established in
+              January 2025 as a White House advisory body tasked with reducing
+              federal spending and streamlining the government workforce. Through
+              a combination of executive orders imposing hiring freezes, a
+              voluntary &quot;Deferred Resignation Program&quot; buyout, and
+              targeted Reductions in Force, the initiative produced the largest
+              peacetime contraction of the federal civilian workforce on record.
+              The data on this page — drawn entirely from official OPM FedScope
+              records — shows the scale and distribution of those changes across
+              agencies and over time.
+            </p>
+          </div>
+        </section>
 
         {/* Monthly Trend Area Chart */}
         <section className="mb-12">
@@ -207,6 +313,52 @@ export function DogeClient({ data }: { data: DogeData | null }) {
                   <span className="text-red-600 font-semibold">
                     {a.netChange.toLocaleString()}
                   </span>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </section>
+
+        {/* Most Affected Agencies by % Reduction */}
+        <section className="mb-12">
+          <h2 className="font-serif text-2xl font-bold text-gray-900 mb-2">
+            Most Affected Agencies by Percentage Reduction
+          </h2>
+          <p className="text-sm text-gray-500 mb-4">
+            Agencies ranked by the share of their workforce lost in 2025,
+            relative to their pre-restructuring headcount.
+          </p>
+          <div className="bg-white border border-gray-200 rounded-xl overflow-hidden divide-y divide-gray-100">
+            {agenciesByPctReduction.map((a, i) => (
+              <Link
+                key={a.code}
+                href={`/agencies/${a.code}`}
+                className="flex items-center gap-4 px-6 py-3 hover:bg-indigo-50 transition-colors"
+              >
+                <span className="text-gray-400 font-mono text-sm w-6 text-right shrink-0">
+                  {i + 1}
+                </span>
+                <div className="flex-1 min-w-0">
+                  <div className="flex items-center justify-between mb-1">
+                    <span className="text-gray-800 text-sm truncate mr-3">
+                      {fixAgencyName(a.name)}
+                    </span>
+                    <span className="text-indigo-700 font-semibold text-sm whitespace-nowrap">
+                      {a.pctReduction.toFixed(1)}%
+                    </span>
+                  </div>
+                  <div className="w-full bg-gray-100 rounded-full h-2">
+                    <div
+                      className="bg-indigo-500 h-2 rounded-full"
+                      style={{
+                        width: `${(a.pctReduction / maxPctReduction) * 100}%`,
+                      }}
+                    />
+                  </div>
+                  <p className="text-xs text-gray-400 mt-1">
+                    {Math.abs(a.netChange).toLocaleString()} lost of{" "}
+                    {a.headcount.toLocaleString()}
+                  </p>
                 </div>
               </Link>
             ))}
@@ -404,6 +556,56 @@ export function DogeClient({ data }: { data: DogeData | null }) {
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* Related Analysis */}
+        <section className="mb-12">
+          <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4">
+            Related Analysis
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {[
+              {
+                href: "/risk",
+                title: "Agency Risk Assessment",
+                desc: "Which agencies face the highest restructuring risk based on workforce trends.",
+              },
+              {
+                href: "/states",
+                title: "Impact by State",
+                desc: "Where federal job losses are concentrated geographically across the U.S.",
+              },
+              {
+                href: "/separations/SH",
+                title: "RIF Separations",
+                desc: "Detailed breakdown of Reduction in Force actions by agency, occupation, and demographics.",
+              },
+              {
+                href: "/trends",
+                title: "Workforce Trends",
+                desc: "Month-by-month accession and separation trends across all federal agencies.",
+              },
+              {
+                href: "/workforce-analysis",
+                title: "Workforce Deep Dive",
+                desc: "Comprehensive analysis of the federal workforce by pay grade, tenure, and more.",
+              },
+            ].map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="bg-white border border-gray-200 rounded-xl p-5 hover:border-indigo-300 hover:shadow-md transition-all group"
+              >
+                <h3 className="font-serif font-bold text-gray-900 group-hover:text-indigo-700 transition-colors mb-1">
+                  {link.title}
+                </h3>
+                <p className="text-sm text-gray-500">{link.desc}</p>
+                <span className="text-indigo-600 text-sm font-medium mt-2 inline-block">
+                  Explore →
+                </span>
+              </Link>
+            ))}
           </div>
         </section>
 

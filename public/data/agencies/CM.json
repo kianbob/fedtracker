@@ -1,1 +1,517 @@
-{"code": "CM", "name": "Department of Commerce", "employees": 42084, "avgSalary": 127654, "topOccupations": [{"name": "Patent Examining", "count": 9257, "avgSalary": 157418}, {"name": "Miscellaneous Clerk and Assistant", "count": 7185, "avgSalary": 45094}, {"name": "Information Technology Management", "count": 2781, "avgSalary": 153215}, {"name": "Meteorology", "count": 2123, "avgSalary": 122943}, {"name": "Management and Program Analysis", "count": 1744, "avgSalary": 143422}, {"name": "Miscellaneous Administration and Program", "count": 1648, "avgSalary": 137457}, {"name": "General Attorney", "count": 1465, "avgSalary": 163733}, {"name": "Statistics", "count": 1337, "avgSalary": 135160}, {"name": "General Physical Science", "count": 1017, "avgSalary": 156263}, {"name": "General Natural Resources Management and Biological Sciences", "count": 701, "avgSalary": 130292}, {"name": "Fish Biology", "count": 605, "avgSalary": 132353}, {"name": "General Business and Industry", "count": 586, "avgSalary": 152414}, {"name": "Human Resources Management", "count": 473, "avgSalary": 144856}, {"name": "Economist", "count": 461, "avgSalary": 152823}, {"name": "Trade Specialist", "count": 453, "avgSalary": 146364}], "topStates": [{"name": "Maryland", "code": "MD", "count": 10635}, {"name": "Virginia", "code": "VA", "count": 7172}, {"name": "District of Columbia", "code": "DC", "count": 2292}, {"name": "California", "code": "CA", "count": 1787}, {"name": "Florida", "code": "FL", "count": 1611}, {"name": "Texas", "code": "TX", "count": 1429}, {"name": "Colorado", "code": "CO", "count": 1391}, {"name": "Washington", "code": "WA", "count": 1018}, {"name": "New York", "code": "NY", "count": 968}, {"name": "North Carolina", "code": "NC", "count": 793}, {"name": "Indiana", "code": "IN", "count": 789}, {"name": "Pennsylvania", "code": "PA", "count": 754}, {"name": "Massachusetts", "code": "MA", "count": 677}, {"name": "Michigan", "code": "MI", "count": 638}, {"name": "Illinois", "code": "IL", "count": 612}], "education": [{"level": "Bachelor's Degree", "count": 13124}, {"level": "High School Graduate Or Certificate of Equivalency", "count": 9577}, {"level": "Master's Degree", "count": 8261}, {"level": "Doctorate Degree", "count": 3255}, {"level": "First Professional", "count": 2029}, {"level": "Post-bachelor's", "count": 1019}, {"level": "Associate Degree", "count": 812}, {"level": "Post-doctorate", "count": 768}, {"level": "Some College - Less Than One Year", "count": 728}, {"level": "One Year College", "count": 457}, {"level": "Two Years College", "count": 419}, {"level": "Post-master's", "count": 408}, {"level": "Three Years College", "count": 348}, {"level": "Four Years College", "count": 323}, {"level": "Terminal Occupational Program - Certificate of Completion, Diploma Or Equivalent", "count": 226}, {"level": "Terminal Occupational Program - Did Not Complete", "count": 102}, {"level": "Post-first Professional", "count": 87}, {"level": "Some High School - Did Not Complete", "count": 66}, {"level": "Post-sixth Year", "count": 32}, {"level": "Sixth-year Degree", "count": 25}, {"level": "Invalid", "count": 9}, {"level": "No Formal Education Or Some Elementary School - Did Not Complete", "count": 8}, {"level": "Elementary School Completed - No High School", "count": 1}], "subagencies": [{"code": "CM56", "name": "PATENT AND TRADEMARK OFFICE", "employees": 13503, "avgSalary": 155629}, {"code": "CM63", "name": "U.S. CENSUS BUREAU", "employees": 11377, "avgSalary": 77575}, {"code": "CM54", "name": "NATIONAL OCEANIC AND ATMOSPHERIC ADMINISTRATION", "employees": 9984, "avgSalary": 131403}, {"code": "CM57", "name": "NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY", "employees": 3265, "avgSalary": 148163}, {"code": "CM55", "name": "INTERNATIONAL TRADE ADMINISTRATION", "employees": 1210, "avgSalary": 150588}, {"code": "CM51", "name": "OFFICE OF THE SECRETARY", "employees": 931, "avgSalary": 153017}, {"code": "CM61", "name": "NATIONAL TELECOMMUNICATIONS AND INFORMATION ADMINISTRATION", "employees": 567, "avgSalary": 163563}, {"code": "CM67", "name": "BUREAU OF INDUSTRY AND SECURITY", "employees": 436, "avgSalary": 155338}, {"code": "CM53", "name": "BUREAU OF ECONOMIC ANALYSIS", "employees": 393, "avgSalary": 153599}, {"code": "CM64", "name": "OFFICE OF THE INSPECTOR GENERAL", "employees": 205, "avgSalary": 153805}, {"code": "CM52", "name": "ECONOMIC DEVELOPMENT ADMINISTRATION", "employees": 188, "avgSalary": 141815}, {"code": "CM59", "name": "MINORITY BUSINESS DEVELOPMENT AGENCY", "employees": 25, "avgSalary": 146746}], "ageDistribution": [{"bracket": "20-24", "count": 584}, {"bracket": "25-29", "count": 2023}, {"bracket": "30-34", "count": 2999}, {"bracket": "35-39", "count": 4369}, {"bracket": "40-44", "count": 6399}, {"bracket": "45-49", "count": 6095}, {"bracket": "50-54", "count": 5286}, {"bracket": "55-59", "count": 5412}, {"bracket": "60-64", "count": 4241}, {"bracket": "65 OR MORE", "count": 4676}], "educationDistribution": [{"level": "BACHELOR'S DEGREE", "count": 13124}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 9577}, {"level": "MASTER'S DEGREE", "count": 8261}, {"level": "DOCTORATE DEGREE", "count": 3255}, {"level": "FIRST PROFESSIONAL", "count": 2029}, {"level": "POST-BACHELOR'S", "count": 1019}, {"level": "ASSOCIATE DEGREE", "count": 812}, {"level": "POST-DOCTORATE", "count": 768}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 728}, {"level": "ONE YEAR COLLEGE", "count": 457}, {"level": "TWO YEARS COLLEGE", "count": 419}, {"level": "POST-MASTER'S", "count": 408}, {"level": "THREE YEARS COLLEGE", "count": 348}, {"level": "FOUR YEARS COLLEGE", "count": 323}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT", "count": 226}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE", "count": 102}, {"level": "POST-FIRST PROFESSIONAL", "count": 87}, {"level": "SOME HIGH SCHOOL - DID NOT COMPLETE", "count": 66}, {"level": "POST-SIXTH YEAR", "count": 32}, {"level": "SIXTH-YEAR DEGREE", "count": 25}, {"level": "INVALID", "count": 9}, {"level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE", "count": 8}, {"level": "ELEMENTARY SCHOOL COMPLETED - NO HIGH SCHOOL", "count": 1}], "supervisoryBreakdown": [{"status": "ALL OTHER POSITIONS", "count": 34614}, {"status": "SUPERVISOR OR MANAGER", "count": 5470}, {"status": "SUPERVISOR (CSRA)", "count": 896}, {"status": "TEAM LEADER", "count": 783}, {"status": "MANAGEMENT OFFICIAL (CSRA)", "count": 203}, {"status": "LEADER", "count": 118}], "stem": {"stemCount": 12437, "total": 42084, "stemPct": 29.6}, "retirementRisk": {"eligible": 9780, "total": 42084, "pctEligible": 23.2}, "riskScore": 47, "quitRate": 33.0, "rifCount": 0, "seps2025": 9397, "seps2024": 5459, "sepChange": 72.1, "reductionPct": 22.3, "experienceLostYears": 127394, "avgTenure": 13.3}
+{
+  "code": "CM",
+  "name": "Department of Commerce",
+  "employees": 42084,
+  "avgSalary": 127654,
+  "topOccupations": [
+    {
+      "name": "Patent Examining",
+      "count": 9257,
+      "avgSalary": 157418
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "count": 7185,
+      "avgSalary": 45094
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 2781,
+      "avgSalary": 153215
+    },
+    {
+      "name": "Meteorology",
+      "count": 2123,
+      "avgSalary": 122943
+    },
+    {
+      "name": "Management and Program Analysis",
+      "count": 1744,
+      "avgSalary": 143422
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 1648,
+      "avgSalary": 137457
+    },
+    {
+      "name": "General Attorney",
+      "count": 1465,
+      "avgSalary": 163733
+    },
+    {
+      "name": "Statistics",
+      "count": 1337,
+      "avgSalary": 135160
+    },
+    {
+      "name": "General Physical Science",
+      "count": 1017,
+      "avgSalary": 156263
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "count": 701,
+      "avgSalary": 130292
+    },
+    {
+      "name": "Fish Biology",
+      "count": 605,
+      "avgSalary": 132353
+    },
+    {
+      "name": "General Business and Industry",
+      "count": 586,
+      "avgSalary": 152414
+    },
+    {
+      "name": "Human Resources Management",
+      "count": 473,
+      "avgSalary": 144856
+    },
+    {
+      "name": "Economist",
+      "count": 461,
+      "avgSalary": 152823
+    },
+    {
+      "name": "Trade Specialist",
+      "count": 453,
+      "avgSalary": 146364
+    }
+  ],
+  "topStates": [
+    {
+      "name": "Maryland",
+      "code": "MD",
+      "count": 10635
+    },
+    {
+      "name": "Virginia",
+      "code": "VA",
+      "count": 7172
+    },
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 2292
+    },
+    {
+      "name": "California",
+      "code": "CA",
+      "count": 1787
+    },
+    {
+      "name": "Florida",
+      "code": "FL",
+      "count": 1611
+    },
+    {
+      "name": "Texas",
+      "code": "TX",
+      "count": 1429
+    },
+    {
+      "name": "Colorado",
+      "code": "CO",
+      "count": 1391
+    },
+    {
+      "name": "Washington",
+      "code": "WA",
+      "count": 1018
+    },
+    {
+      "name": "New York",
+      "code": "NY",
+      "count": 968
+    },
+    {
+      "name": "North Carolina",
+      "code": "NC",
+      "count": 793
+    },
+    {
+      "name": "Indiana",
+      "code": "IN",
+      "count": 789
+    },
+    {
+      "name": "Pennsylvania",
+      "code": "PA",
+      "count": 754
+    },
+    {
+      "name": "Massachusetts",
+      "code": "MA",
+      "count": 677
+    },
+    {
+      "name": "Michigan",
+      "code": "MI",
+      "count": 638
+    },
+    {
+      "name": "Illinois",
+      "code": "IL",
+      "count": 612
+    }
+  ],
+  "education": [
+    {
+      "level": "Bachelor's Degree",
+      "count": 13124
+    },
+    {
+      "level": "High School Graduate Or Certificate of Equivalency",
+      "count": 9577
+    },
+    {
+      "level": "Master's Degree",
+      "count": 8261
+    },
+    {
+      "level": "Doctorate Degree",
+      "count": 3255
+    },
+    {
+      "level": "First Professional",
+      "count": 2029
+    },
+    {
+      "level": "Post-bachelor's",
+      "count": 1019
+    },
+    {
+      "level": "Associate Degree",
+      "count": 812
+    },
+    {
+      "level": "Post-doctorate",
+      "count": 768
+    },
+    {
+      "level": "Some College - Less Than One Year",
+      "count": 728
+    },
+    {
+      "level": "One Year College",
+      "count": 457
+    },
+    {
+      "level": "Two Years College",
+      "count": 419
+    },
+    {
+      "level": "Post-master's",
+      "count": 408
+    },
+    {
+      "level": "Three Years College",
+      "count": 348
+    },
+    {
+      "level": "Four Years College",
+      "count": 323
+    },
+    {
+      "level": "Terminal Occupational Program - Certificate of Completion, Diploma Or Equivalent",
+      "count": 226
+    },
+    {
+      "level": "Terminal Occupational Program - Did Not Complete",
+      "count": 102
+    },
+    {
+      "level": "Post-first Professional",
+      "count": 87
+    },
+    {
+      "level": "Some High School - Did Not Complete",
+      "count": 66
+    },
+    {
+      "level": "Post-sixth Year",
+      "count": 32
+    },
+    {
+      "level": "Sixth-year Degree",
+      "count": 25
+    },
+    {
+      "level": "Invalid",
+      "count": 9
+    },
+    {
+      "level": "No Formal Education Or Some Elementary School - Did Not Complete",
+      "count": 8
+    },
+    {
+      "level": "Elementary School Completed - No High School",
+      "count": 1
+    }
+  ],
+  "subagencies": [
+    {
+      "code": "CM56",
+      "name": "PATENT AND TRADEMARK OFFICE",
+      "employees": 13503,
+      "avgSalary": 155629
+    },
+    {
+      "code": "CM63",
+      "name": "U.S. CENSUS BUREAU",
+      "employees": 11377,
+      "avgSalary": 77575
+    },
+    {
+      "code": "CM54",
+      "name": "NATIONAL OCEANIC AND ATMOSPHERIC ADMINISTRATION",
+      "employees": 9984,
+      "avgSalary": 131403
+    },
+    {
+      "code": "CM57",
+      "name": "NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY",
+      "employees": 3265,
+      "avgSalary": 148163
+    },
+    {
+      "code": "CM55",
+      "name": "INTERNATIONAL TRADE ADMINISTRATION",
+      "employees": 1210,
+      "avgSalary": 150588
+    },
+    {
+      "code": "CM51",
+      "name": "OFFICE OF THE SECRETARY",
+      "employees": 931,
+      "avgSalary": 153017
+    },
+    {
+      "code": "CM61",
+      "name": "NATIONAL TELECOMMUNICATIONS AND INFORMATION ADMINISTRATION",
+      "employees": 567,
+      "avgSalary": 163563
+    },
+    {
+      "code": "CM67",
+      "name": "BUREAU OF INDUSTRY AND SECURITY",
+      "employees": 436,
+      "avgSalary": 155338
+    },
+    {
+      "code": "CM53",
+      "name": "BUREAU OF ECONOMIC ANALYSIS",
+      "employees": 393,
+      "avgSalary": 153599
+    },
+    {
+      "code": "CM64",
+      "name": "OFFICE OF THE INSPECTOR GENERAL",
+      "employees": 205,
+      "avgSalary": 153805
+    },
+    {
+      "code": "CM52",
+      "name": "ECONOMIC DEVELOPMENT ADMINISTRATION",
+      "employees": 188,
+      "avgSalary": 141815
+    },
+    {
+      "code": "CM59",
+      "name": "MINORITY BUSINESS DEVELOPMENT AGENCY",
+      "employees": 25,
+      "avgSalary": 146746
+    }
+  ],
+  "ageDistribution": [
+    {
+      "bracket": "20-24",
+      "count": 584
+    },
+    {
+      "bracket": "25-29",
+      "count": 2023
+    },
+    {
+      "bracket": "30-34",
+      "count": 2999
+    },
+    {
+      "bracket": "35-39",
+      "count": 4369
+    },
+    {
+      "bracket": "40-44",
+      "count": 6399
+    },
+    {
+      "bracket": "45-49",
+      "count": 6095
+    },
+    {
+      "bracket": "50-54",
+      "count": 5286
+    },
+    {
+      "bracket": "55-59",
+      "count": 5412
+    },
+    {
+      "bracket": "60-64",
+      "count": 4241
+    },
+    {
+      "bracket": "65 OR MORE",
+      "count": 4676
+    }
+  ],
+  "educationDistribution": [
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 13124
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 9577
+    },
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 8261
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 3255
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 2029
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 1019
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 812
+    },
+    {
+      "level": "POST-DOCTORATE",
+      "count": 768
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 728
+    },
+    {
+      "level": "ONE YEAR COLLEGE",
+      "count": 457
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 419
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 408
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 348
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 323
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT",
+      "count": 226
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE",
+      "count": 102
+    },
+    {
+      "level": "POST-FIRST PROFESSIONAL",
+      "count": 87
+    },
+    {
+      "level": "SOME HIGH SCHOOL - DID NOT COMPLETE",
+      "count": 66
+    },
+    {
+      "level": "POST-SIXTH YEAR",
+      "count": 32
+    },
+    {
+      "level": "SIXTH-YEAR DEGREE",
+      "count": 25
+    },
+    {
+      "level": "INVALID",
+      "count": 9
+    },
+    {
+      "level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE",
+      "count": 8
+    },
+    {
+      "level": "ELEMENTARY SCHOOL COMPLETED - NO HIGH SCHOOL",
+      "count": 1
+    }
+  ],
+  "supervisoryBreakdown": [
+    {
+      "status": "ALL OTHER POSITIONS",
+      "count": 34614
+    },
+    {
+      "status": "SUPERVISOR OR MANAGER",
+      "count": 5470
+    },
+    {
+      "status": "SUPERVISOR (CSRA)",
+      "count": 896
+    },
+    {
+      "status": "TEAM LEADER",
+      "count": 783
+    },
+    {
+      "status": "MANAGEMENT OFFICIAL (CSRA)",
+      "count": 203
+    },
+    {
+      "status": "LEADER",
+      "count": 118
+    }
+  ],
+  "stem": {
+    "stemCount": 12437,
+    "total": 42084,
+    "stemPct": 29.6
+  },
+  "retirementRisk": {
+    "eligible": 9780,
+    "total": 42084,
+    "pctEligible": 23.2
+  },
+  "riskScore": 47,
+  "quitRate": 33.0,
+  "rifCount": 0,
+  "seps2025": 9397,
+  "seps2024": 5459,
+  "sepChange": 72.1,
+  "reductionPct": 22.3,
+  "experienceLostYears": 127394,
+  "avgTenure": 13.3,
+  "budgetAuthority": 34374847880,
+  "obligated": 3214683776,
+  "outlays": 4565557347,
+  "budgetPerEmployee": 816815,
+  "contracts": 4159442216,
+  "contractsPerEmployee": 98837,
+  "grants": 21238413243,
+  "directPayments": 0
+}

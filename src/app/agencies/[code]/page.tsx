@@ -151,6 +151,36 @@ export default async function AgencyDetailPage({ params }: { params: { code: str
         </section>
       )}
 
+      {/* Budget from USASpending */}
+      {data.budgetAuthority > 0 && (
+        <section className="mb-12 bg-blue-50 border border-blue-200 rounded-xl p-6">
+          <h2 className="font-serif text-xl font-bold text-blue-900 mb-3">💰 Agency Budget (FY2025)</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+            <div>
+              <p className="text-blue-600 font-medium">Budget Authority</p>
+              <p className="text-xl font-bold text-blue-900">${data.budgetAuthority >= 1e12 ? (data.budgetAuthority/1e12).toFixed(1)+'T' : data.budgetAuthority >= 1e9 ? (data.budgetAuthority/1e9).toFixed(1)+'B' : (data.budgetAuthority/1e6).toFixed(0)+'M'}</p>
+            </div>
+            <div>
+              <p className="text-blue-600 font-medium">Budget / Employee</p>
+              <p className="text-xl font-bold text-blue-900">${data.budgetPerEmployee >= 1e6 ? (data.budgetPerEmployee/1e6).toFixed(1)+'M' : (data.budgetPerEmployee/1e3).toFixed(0)+'K'}</p>
+            </div>
+            {data.contracts > 0 && (
+              <div>
+                <p className="text-blue-600 font-medium">Contract Spending</p>
+                <p className="text-xl font-bold text-blue-900">${data.contracts >= 1e9 ? (data.contracts/1e9).toFixed(1)+'B' : (data.contracts/1e6).toFixed(0)+'M'}</p>
+              </div>
+            )}
+            {data.grants > 0 && (
+              <div>
+                <p className="text-blue-600 font-medium">Grant Spending</p>
+                <p className="text-xl font-bold text-blue-900">${data.grants >= 1e9 ? (data.grants/1e9).toFixed(1)+'B' : (data.grants/1e6).toFixed(0)+'M'}</p>
+              </div>
+            )}
+          </div>
+          <p className="text-xs text-blue-500 mt-3">Source: <a href="https://usaspending.gov" target="_blank" rel="noopener" className="underline">USASpending.gov</a> FY2025. <Link href="/spending" className="underline">See all agencies →</Link></p>
+        </section>
+      )}
+
       {/* Extra stats */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
         {data.retirementRisk && (

@@ -26,6 +26,7 @@ const moreLinks = [
   { href: "/timeline", label: "Timeline" },
   { href: "/occupation-impact", label: "Occupation Impact" },
   { href: "/appointments", label: "Appointments" },
+  { href: "/spending", label: "Agency Spending" },
   { href: "/downloads", label: "Downloads" },
 ];
 

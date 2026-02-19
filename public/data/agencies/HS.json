@@ -1,1 +1,539 @@
-{"code": "HS", "name": "Department of Homeland Security", "employees": 227584, "avgSalary": 118849, "topOccupations": [{"name": "Emergency Management Specialist", "count": 10697, "avgSalary": 93352}, {"name": "Management and Program Analysis", "count": 8081, "avgSalary": 136994}, {"name": "Miscellaneous Administration and Program", "count": 6943, "avgSalary": 118958}, {"name": "Information Technology Management", "count": 5008, "avgSalary": 142328}, {"name": "Human Resources Management", "count": 1860, "avgSalary": 119464}, {"name": "Security Administration", "count": 1666, "avgSalary": 127683}, {"name": "General Attorney", "count": 1619, "avgSalary": 167744}, {"name": "Program Management", "count": 1509, "avgSalary": 176896}, {"name": "Contracting", "count": 1242, "avgSalary": 136923}, {"name": "Financial Administration and Program", "count": 962, "avgSalary": 123789}, {"name": "Security Clerical and Assistance", "count": 954, "avgSalary": 79594}, {"name": "Environmental Protection Specialist", "count": 829, "avgSalary": 99508}, {"name": "Supply Program Management", "count": 822, "avgSalary": 75856}, {"name": "Training Instruction", "count": 724, "avgSalary": 114885}, {"name": "Logistics Management", "count": 626, "avgSalary": 120173}], "topStates": [{"name": "District of Columbia", "code": "DC", "count": 13735}, {"name": "Virginia", "code": "VA", "count": 7991}, {"name": "Texas", "code": "TX", "count": 4273}, {"name": "Maryland", "code": "MD", "count": 4200}, {"name": "California", "code": "CA", "count": 2678}, {"name": "Florida", "code": "FL", "count": 2643}, {"name": "No Data Reported", "code": "NDR", "count": 2465}, {"name": "Georgia", "code": "GA", "count": 2284}, {"name": "New York", "code": "NY", "count": 1412}, {"name": "North Carolina", "code": "NC", "count": 1263}, {"name": "Missouri", "code": "MO", "count": 1003}, {"name": "Massachusetts", "code": "MA", "count": 812}, {"name": "Washington", "code": "WA", "count": 810}, {"name": "Louisiana", "code": "LA", "count": 809}, {"name": "New Jersey", "code": "NJ", "count": 791}], "education": [{"level": "High School Graduate Or Certificate of Equivalency", "count": 76992}, {"level": "Bachelor's Degree", "count": 59443}, {"level": "Master's Degree", "count": 19910}, {"level": "Some College - Less Than One Year", "count": 15490}, {"level": "Associate Degree", "count": 12473}, {"level": "One Year College", "count": 8660}, {"level": "Two Years College", "count": 8562}, {"level": "No Formal Education Or Some Elementary School - Did Not Complete", "count": 5443}, {"level": "First Professional", "count": 4179}, {"level": "Three Years College", "count": 3912}, {"level": "Four Years College", "count": 3806}, {"level": "Doctorate Degree", "count": 2237}, {"level": "Post-bachelor's", "count": 2217}, {"level": "Terminal Occupational Program - Certificate of Completion, Diploma Or Equivalent", "count": 1752}, {"level": "Terminal Occupational Program - Did Not Complete", "count": 725}, {"level": "Invalid", "count": 632}, {"level": "Post-master's", "count": 346}, {"level": "Some High School - Did Not Complete", "count": 345}, {"level": "Post-first Professional", "count": 227}, {"level": "Sixth-year Degree", "count": 85}, {"level": "Post-doctorate", "count": 74}, {"level": "Post-sixth Year", "count": 40}, {"level": "No Data Reported", "count": 20}, {"level": "Elementary School Completed - No High School", "count": 14}], "subagencies": [{"code": "HSBD", "name": "CUSTOMS AND BORDER PROTECTION", "employees": 67587, "avgSalary": 148149}, {"code": "HSBC", "name": "TRANSPORTATION SECURITY ADMINISTRATION", "employees": 63006, "avgSalary": 123897}, {"code": "HSBB", "name": "IMMIGRATION AND CUSTOMS ENFORCEMENT", "employees": 28272, "avgSalary": 154903}, {"code": "HSCB", "name": "FEDERAL EMERGENCY MANAGEMENT AGENCY", "employees": 22195, "avgSalary": 101438}, {"code": "HSAB", "name": "CITIZENSHIP AND IMMIGRATION SERVICES", "employees": 19903, "avgSalary": 125120}, {"code": "HSAC", "name": "U.S. COAST GUARD", "employees": 8993, "avgSalary": 109651}, {"code": "HSAD", "name": "U.S. SECRET SERVICE", "employees": 8234, "avgSalary": 132112}, {"code": "HSAA", "name": "DHS HEADQUARTERS", "employees": 4402, "avgSalary": 148499}, {"code": "HSCA", "name": "CYBERSECURITY AND INFRASTRUCTURE SECURITY AGENCY", "employees": 2356, "avgSalary": 150498}, {"code": "HSBE", "name": "FEDERAL LAW ENFORCEMENT TRAINING CENTERS", "employees": 1382, "avgSalary": 108815}, {"code": "HSAE", "name": "OFFICE OF THE INSPECTOR GENERAL", "employees": 696, "avgSalary": 146802}, {"code": "HSFA", "name": "SCIENCE AND TECHNOLOGY DIRECTORATE", "employees": 409, "avgSalary": 166076}, {"code": "HSDA", "name": "DOMESTIC NUCLEAR DETECTION OFFICE", "employees": 149, "avgSalary": 165120}], "ageDistribution": [{"bracket": "20-24", "count": 7390}, {"bracket": "25-29", "count": 18888}, {"bracket": "30-34", "count": 26034}, {"bracket": "35-39", "count": 30590}, {"bracket": "40-44", "count": 34959}, {"bracket": "45-49", "count": 33578}, {"bracket": "50-54", "count": 28533}, {"bracket": "55-59", "count": 23528}, {"bracket": "60-64", "count": 14818}, {"bracket": "65 OR MORE", "count": 9264}, {"bracket": "LESS THAN 20", "count": 2}], "educationDistribution": [{"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 76992}, {"level": "BACHELOR'S DEGREE", "count": 59443}, {"level": "MASTER'S DEGREE", "count": 19910}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 15490}, {"level": "ASSOCIATE DEGREE", "count": 12473}, {"level": "ONE YEAR COLLEGE", "count": 8660}, {"level": "TWO YEARS COLLEGE", "count": 8562}, {"level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE", "count": 5443}, {"level": "FIRST PROFESSIONAL", "count": 4179}, {"level": "THREE YEARS COLLEGE", "count": 3912}, {"level": "FOUR YEARS COLLEGE", "count": 3806}, {"level": "DOCTORATE DEGREE", "count": 2237}, {"level": "POST-BACHELOR'S", "count": 2217}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT", "count": 1752}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE", "count": 725}, {"level": "INVALID", "count": 632}, {"level": "POST-MASTER'S", "count": 346}, {"level": "SOME HIGH SCHOOL - DID NOT COMPLETE", "count": 345}, {"level": "POST-FIRST PROFESSIONAL", "count": 227}, {"level": "SIXTH-YEAR DEGREE", "count": 85}, {"level": "POST-DOCTORATE", "count": 74}, {"level": "POST-SIXTH YEAR", "count": 40}, {"level": "NO DATA REPORTED", "count": 20}, {"level": "ELEMENTARY SCHOOL COMPLETED - NO HIGH SCHOOL", "count": 14}], "supervisoryBreakdown": [{"status": "ALL OTHER POSITIONS", "count": 183439}, {"status": "SUPERVISOR OR MANAGER", "count": 34451}, {"status": "LEADER", "count": 6510}, {"status": "SUPERVISOR (CSRA)", "count": 2754}, {"status": "TEAM LEADER", "count": 286}, {"status": "MANAGEMENT OFFICIAL (CSRA)", "count": 138}, {"status": "INVALID", "count": 6}], "stem": {"stemCount": 13853, "total": 227584, "stemPct": 6.1}, "retirementRisk": {"eligible": 33138, "total": 227584, "pctEligible": 14.6}, "riskScore": 42, "quitRate": 42.7, "rifCount": 178, "seps2025": 24186, "seps2024": 14359, "sepChange": 68.4, "reductionPct": 10.6, "experienceLostYears": 316260, "avgTenure": 11.9}
+{
+  "code": "HS",
+  "name": "Department of Homeland Security",
+  "employees": 227584,
+  "avgSalary": 118849,
+  "topOccupations": [
+    {
+      "name": "Emergency Management Specialist",
+      "count": 10697,
+      "avgSalary": 93352
+    },
+    {
+      "name": "Management and Program Analysis",
+      "count": 8081,
+      "avgSalary": 136994
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 6943,
+      "avgSalary": 118958
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 5008,
+      "avgSalary": 142328
+    },
+    {
+      "name": "Human Resources Management",
+      "count": 1860,
+      "avgSalary": 119464
+    },
+    {
+      "name": "Security Administration",
+      "count": 1666,
+      "avgSalary": 127683
+    },
+    {
+      "name": "General Attorney",
+      "count": 1619,
+      "avgSalary": 167744
+    },
+    {
+      "name": "Program Management",
+      "count": 1509,
+      "avgSalary": 176896
+    },
+    {
+      "name": "Contracting",
+      "count": 1242,
+      "avgSalary": 136923
+    },
+    {
+      "name": "Financial Administration and Program",
+      "count": 962,
+      "avgSalary": 123789
+    },
+    {
+      "name": "Security Clerical and Assistance",
+      "count": 954,
+      "avgSalary": 79594
+    },
+    {
+      "name": "Environmental Protection Specialist",
+      "count": 829,
+      "avgSalary": 99508
+    },
+    {
+      "name": "Supply Program Management",
+      "count": 822,
+      "avgSalary": 75856
+    },
+    {
+      "name": "Training Instruction",
+      "count": 724,
+      "avgSalary": 114885
+    },
+    {
+      "name": "Logistics Management",
+      "count": 626,
+      "avgSalary": 120173
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 13735
+    },
+    {
+      "name": "Virginia",
+      "code": "VA",
+      "count": 7991
+    },
+    {
+      "name": "Texas",
+      "code": "TX",
+      "count": 4273
+    },
+    {
+      "name": "Maryland",
+      "code": "MD",
+      "count": 4200
+    },
+    {
+      "name": "California",
+      "code": "CA",
+      "count": 2678
+    },
+    {
+      "name": "Florida",
+      "code": "FL",
+      "count": 2643
+    },
+    {
+      "name": "No Data Reported",
+      "code": "NDR",
+      "count": 2465
+    },
+    {
+      "name": "Georgia",
+      "code": "GA",
+      "count": 2284
+    },
+    {
+      "name": "New York",
+      "code": "NY",
+      "count": 1412
+    },
+    {
+      "name": "North Carolina",
+      "code": "NC",
+      "count": 1263
+    },
+    {
+      "name": "Missouri",
+      "code": "MO",
+      "count": 1003
+    },
+    {
+      "name": "Massachusetts",
+      "code": "MA",
+      "count": 812
+    },
+    {
+      "name": "Washington",
+      "code": "WA",
+      "count": 810
+    },
+    {
+      "name": "Louisiana",
+      "code": "LA",
+      "count": 809
+    },
+    {
+      "name": "New Jersey",
+      "code": "NJ",
+      "count": 791
+    }
+  ],
+  "education": [
+    {
+      "level": "High School Graduate Or Certificate of Equivalency",
+      "count": 76992
+    },
+    {
+      "level": "Bachelor's Degree",
+      "count": 59443
+    },
+    {
+      "level": "Master's Degree",
+      "count": 19910
+    },
+    {
+      "level": "Some College - Less Than One Year",
+      "count": 15490
+    },
+    {
+      "level": "Associate Degree",
+      "count": 12473
+    },
+    {
+      "level": "One Year College",
+      "count": 8660
+    },
+    {
+      "level": "Two Years College",
+      "count": 8562
+    },
+    {
+      "level": "No Formal Education Or Some Elementary School - Did Not Complete",
+      "count": 5443
+    },
+    {
+      "level": "First Professional",
+      "count": 4179
+    },
+    {
+      "level": "Three Years College",
+      "count": 3912
+    },
+    {
+      "level": "Four Years College",
+      "count": 3806
+    },
+    {
+      "level": "Doctorate Degree",
+      "count": 2237
+    },
+    {
+      "level": "Post-bachelor's",
+      "count": 2217
+    },
+    {
+      "level": "Terminal Occupational Program - Certificate of Completion, Diploma Or Equivalent",
+      "count": 1752
+    },
+    {
+      "level": "Terminal Occupational Program - Did Not Complete",
+      "count": 725
+    },
+    {
+      "level": "Invalid",
+      "count": 632
+    },
+    {
+      "level": "Post-master's",
+      "count": 346
+    },
+    {
+      "level": "Some High School - Did Not Complete",
+      "count": 345
+    },
+    {
+      "level": "Post-first Professional",
+      "count": 227
+    },
+    {
+      "level": "Sixth-year Degree",
+      "count": 85
+    },
+    {
+      "level": "Post-doctorate",
+      "count": 74
+    },
+    {
+      "level": "Post-sixth Year",
+      "count": 40
+    },
+    {
+      "level": "No Data Reported",
+      "count": 20
+    },
+    {
+      "level": "Elementary School Completed - No High School",
+      "count": 14
+    }
+  ],
+  "subagencies": [
+    {
+      "code": "HSBD",
+      "name": "CUSTOMS AND BORDER PROTECTION",
+      "employees": 67587,
+      "avgSalary": 148149
+    },
+    {
+      "code": "HSBC",
+      "name": "TRANSPORTATION SECURITY ADMINISTRATION",
+      "employees": 63006,
+      "avgSalary": 123897
+    },
+    {
+      "code": "HSBB",
+      "name": "IMMIGRATION AND CUSTOMS ENFORCEMENT",
+      "employees": 28272,
+      "avgSalary": 154903
+    },
+    {
+      "code": "HSCB",
+      "name": "FEDERAL EMERGENCY MANAGEMENT AGENCY",
+      "employees": 22195,
+      "avgSalary": 101438
+    },
+    {
+      "code": "HSAB",
+      "name": "CITIZENSHIP AND IMMIGRATION SERVICES",
+      "employees": 19903,
+      "avgSalary": 125120
+    },
+    {
+      "code": "HSAC",
+      "name": "U.S. COAST GUARD",
+      "employees": 8993,
+      "avgSalary": 109651
+    },
+    {
+      "code": "HSAD",
+      "name": "U.S. SECRET SERVICE",
+      "employees": 8234,
+      "avgSalary": 132112
+    },
+    {
+      "code": "HSAA",
+      "name": "DHS HEADQUARTERS",
+      "employees": 4402,
+      "avgSalary": 148499
+    },
+    {
+      "code": "HSCA",
+      "name": "CYBERSECURITY AND INFRASTRUCTURE SECURITY AGENCY",
+      "employees": 2356,
+      "avgSalary": 150498
+    },
+    {
+      "code": "HSBE",
+      "name": "FEDERAL LAW ENFORCEMENT TRAINING CENTERS",
+      "employees": 1382,
+      "avgSalary": 108815
+    },
+    {
+      "code": "HSAE",
+      "name": "OFFICE OF THE INSPECTOR GENERAL",
+      "employees": 696,
+      "avgSalary": 146802
+    },
+    {
+      "code": "HSFA",
+      "name": "SCIENCE AND TECHNOLOGY DIRECTORATE",
+      "employees": 409,
+      "avgSalary": 166076
+    },
+    {
+      "code": "HSDA",
+      "name": "DOMESTIC NUCLEAR DETECTION OFFICE",
+      "employees": 149,
+      "avgSalary": 165120
+    }
+  ],
+  "ageDistribution": [
+    {
+      "bracket": "20-24",
+      "count": 7390
+    },
+    {
+      "bracket": "25-29",
+      "count": 18888
+    },
+    {
+      "bracket": "30-34",
+      "count": 26034
+    },
+    {
+      "bracket": "35-39",
+      "count": 30590
+    },
+    {
+      "bracket": "40-44",
+      "count": 34959
+    },
+    {
+      "bracket": "45-49",
+      "count": 33578
+    },
+    {
+      "bracket": "50-54",
+      "count": 28533
+    },
+    {
+      "bracket": "55-59",
+      "count": 23528
+    },
+    {
+      "bracket": "60-64",
+      "count": 14818
+    },
+    {
+      "bracket": "65 OR MORE",
+      "count": 9264
+    },
+    {
+      "bracket": "LESS THAN 20",
+      "count": 2
+    }
+  ],
+  "educationDistribution": [
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 76992
+    },
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 59443
+    },
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 19910
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 15490
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 12473
+    },
+    {
+      "level": "ONE YEAR COLLEGE",
+      "count": 8660
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 8562
+    },
+    {
+      "level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE",
+      "count": 5443
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 4179
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 3912
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 3806
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 2237
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 2217
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT",
+      "count": 1752
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE",
+      "count": 725
+    },
+    {
+      "level": "INVALID",
+      "count": 632
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 346
+    },
+    {
+      "level": "SOME HIGH SCHOOL - DID NOT COMPLETE",
+      "count": 345
+    },
+    {
+      "level": "POST-FIRST PROFESSIONAL",
+      "count": 227
+    },
+    {
+      "level": "SIXTH-YEAR DEGREE",
+      "count": 85
+    },
+    {
+      "level": "POST-DOCTORATE",
+      "count": 74
+    },
+    {
+      "level": "POST-SIXTH YEAR",
+      "count": 40
+    },
+    {
+      "level": "NO DATA REPORTED",
+      "count": 20
+    },
+    {
+      "level": "ELEMENTARY SCHOOL COMPLETED - NO HIGH SCHOOL",
+      "count": 14
+    }
+  ],
+  "supervisoryBreakdown": [
+    {
+      "status": "ALL OTHER POSITIONS",
+      "count": 183439
+    },
+    {
+      "status": "SUPERVISOR OR MANAGER",
+      "count": 34451
+    },
+    {
+      "status": "LEADER",
+      "count": 6510
+    },
+    {
+      "status": "SUPERVISOR (CSRA)",
+      "count": 2754
+    },
+    {
+      "status": "TEAM LEADER",
+      "count": 286
+    },
+    {
+      "status": "MANAGEMENT OFFICIAL (CSRA)",
+      "count": 138
+    },
+    {
+      "status": "INVALID",
+      "count": 6
+    }
+  ],
+  "stem": {
+    "stemCount": 13853,
+    "total": 227584,
+    "stemPct": 6.1
+  },
+  "retirementRisk": {
+    "eligible": 33138,
+    "total": 227584,
+    "pctEligible": 14.6
+  },
+  "riskScore": 42,
+  "quitRate": 42.7,
+  "rifCount": 178,
+  "seps2025": 24186,
+  "seps2024": 14359,
+  "sepChange": 68.4,
+  "reductionPct": 10.6,
+  "experienceLostYears": 316260,
+  "avgTenure": 11.9,
+  "budgetAuthority": 349537498049,
+  "obligated": 37756573518,
+  "outlays": 31146134992,
+  "budgetPerEmployee": 1535861,
+  "contracts": 28403416581,
+  "contractsPerEmployee": 124804,
+  "grants": 32761091735,
+  "directPayments": 3485283002
+}

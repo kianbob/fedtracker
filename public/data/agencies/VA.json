@@ -1,1 +1,645 @@
-{"code": "VA", "name": "Department of Veterans Affairs", "employees": 451121, "avgSalary": 112960, "topOccupations": [{"name": "Nurse", "count": 91673, "avgSalary": 131451}, {"name": "Medical Support Assistance", "count": 35849, "avgSalary": 57595}, {"name": "Medical Officer", "count": 29180, "avgSalary": 310051}, {"name": "Social Work", "count": 20872, "avgSalary": 108880}, {"name": "Veterans Claims Examining", "count": 18856, "avgSalary": 89889}, {"name": "Practical Nurse", "count": 14357, "avgSalary": 74975}, {"name": "Nursing Assistant", "count": 13717, "avgSalary": 55384}, {"name": "Pharmacist", "count": 12423, "avgSalary": 166841}, {"name": "Custodial Working", "count": 11203, "avgSalary": 46351}, {"name": "Miscellaneous Administration and Program", "count": 8879, "avgSalary": 93665}, {"name": "Management and Program Analysis", "count": 8633, "avgSalary": 113602}, {"name": "Health Aid and Technician", "count": 8355, "avgSalary": 60308}, {"name": "Psychology", "count": 8093, "avgSalary": 141358}, {"name": "General Health Science", "count": 8092, "avgSalary": 107005}, {"name": "Human Resources Management", "count": 7802, "avgSalary": 119229}], "topStates": [{"name": "California", "code": "CA", "count": 36689}, {"name": "Florida", "code": "FL", "count": 35482}, {"name": "Texas", "code": "TX", "count": 35346}, {"name": "Pennsylvania", "code": "PA", "count": 17875}, {"name": "New York", "code": "NY", "count": 17755}, {"name": "Ohio", "code": "OH", "count": 16930}, {"name": "North Carolina", "code": "NC", "count": 16520}, {"name": "Illinois", "code": "IL", "count": 14823}, {"name": "Georgia", "code": "GA", "count": 13943}, {"name": "Tennessee", "code": "TN", "count": 12991}, {"name": "Virginia", "code": "VA", "count": 12027}, {"name": "Michigan", "code": "MI", "count": 11753}, {"name": "Missouri", "code": "MO", "count": 10841}, {"name": "Arizona", "code": "AZ", "count": 10637}, {"name": "Wisconsin", "code": "WI", "count": 9722}], "education": [{"level": "Bachelor's Degree", "count": 110946}, {"level": "Master's Degree", "count": 86902}, {"level": "High School Graduate Or Certificate of Equivalency", "count": 57530}, {"level": "Associate Degree", "count": 48671}, {"level": "First Professional", "count": 38310}, {"level": "Doctorate Degree", "count": 26576}, {"level": "No Formal Education Or Some Elementary School - Did Not Complete", "count": 18407}, {"level": "Terminal Occupational Program - Certificate of Completion, Diploma Or Equivalent", "count": 16553}, {"level": "Some College - Less Than One Year", "count": 13575}, {"level": "One Year College", "count": 10828}, {"level": "Two Years College", "count": 9141}, {"level": "Some High School - Did Not Complete", "count": 4274}, {"level": "Terminal Occupational Program - Did Not Complete", "count": 3410}, {"level": "Three Years College", "count": 3092}, {"level": "Four Years College", "count": 2494}, {"level": "Elementary School Completed - No High School", "count": 231}, {"level": "Post-bachelor's", "count": 83}, {"level": "Post-master's", "count": 51}, {"level": "Post-doctorate", "count": 16}, {"level": "Post-first Professional", "count": 15}, {"level": "Sixth-year Degree", "count": 8}, {"level": "Post-sixth Year", "count": 6}, {"level": "Invalid", "count": 2}], "subagencies": [{"code": "VATA", "name": "VETERANS HEALTH ADMINISTRATION", "employees": 402973, "avgSalary": 113707}, {"code": "VALA", "name": "VETERANS BENEFITS ADMINISTRATION", "employees": 30718, "avgSalary": 93028}, {"code": "VAEB", "name": "DEPUTY ASSISTANT SECRETARY FOR INFORMATION AND TECHNOLOGY", "employees": 7325, "avgSalary": 140214}, {"code": "VAPA", "name": "NATIONAL CEMETERY ADMINISTRATION", "employees": 2152, "avgSalary": 81632}, {"code": "VADD", "name": "DEPUTY ASSISTANT SECRETARY FOR FINANCE", "employees": 1453, "avgSalary": 99529}, {"code": "VAAD", "name": "BOARD OF VETERANS APPEALS", "employees": 1314, "avgSalary": 143631}, {"code": "VADG", "name": "EXECUTIVE DIRECTOR, OFFICE OF ACQUISITION AND LOGISTICS", "employees": 1050, "avgSalary": 126373}, {"code": "VAAF", "name": "INSPECTOR GENERAL", "employees": 977, "avgSalary": 148038}, {"code": "VAAA", "name": "OFFICE OF THE SECRETARY", "employees": 958, "avgSalary": 139963}, {"code": "VAAE", "name": "GENERAL COUNSEL", "employees": 675, "avgSalary": 140426}, {"code": "VAHG", "name": "VET CUSTOMER EXPER (VCE)", "employees": 247, "avgSalary": 128379}, {"code": "VABC", "name": "CHIEF HUMAN CAPITAL OFFICER", "employees": 223, "avgSalary": 145338}, {"code": "VAGB", "name": "EXECUTIVE DIRECTOR FOR SECURITY AND LAW ENFORCEMENT", "employees": 213, "avgSalary": 98533}, {"code": "VADA", "name": "IMMEDIATE OFFICE OF THE ASSISTANT SECRETARY FOR MANAGEMENT", "employees": 178, "avgSalary": 142850}, {"code": "VAAI", "name": "ELECTRONIC HEALTH RECORD MODERNIZATION", "employees": 171, "avgSalary": 158157}, {"code": "VAAJ", "name": "OFFICE OF ACCOUNTABILITY AND WHISTLEBLOWER PROTECTION", "employees": 112, "avgSalary": 158021}, {"code": "VABE", "name": "DEPUTY ASSISTANT SECRETARY FOR ADMINISTRATION", "employees": 51, "avgSalary": 145768}, {"code": "VAKB", "name": "DEPUTY ASSISTANT SECRETARY FOR CONGRESSIONAL AFFAIRS", "employees": 38, "avgSalary": 149308}, {"code": "VAGA", "name": "IMMEDIATE OFFICE OF THE ASSISTANT SECRETARY FOR OPERATIONS, SECURITY, AND PREPAREDNESS", "employees": 36, "avgSalary": 161431}, {"code": "VABA", "name": "IMMEDIATE OFFICE OF THE ASSISTANT SECRETARY FOR HUMAN RESOURCES AND ADMINISTRATION", "employees": 36, "avgSalary": 160445}, {"code": "VADC", "name": "DEPUTY ASSISTANT SECRETARY FOR BUDGET", "employees": 31, "avgSalary": 164131}, {"code": "VAJA", "name": "OFFICE OF THE ASSISTANT SECRETARY FOR PUBLIC AND INTERGOVERNMENTAL AFFAIRS", "employees": 29, "avgSalary": 156868}, {"code": "VAJC", "name": "DEPUTY ASSISTANT SECRETARY FOR PUBLIC AFFAIRS", "employees": 27, "avgSalary": 158202}, {"code": "VABK", "name": "OFFICE OF ENTERPRISE OPERATIONS", "employees": 25, "avgSalary": 162322}, {"code": "VABG", "name": "DEPUTY ASSISTANT SECRETARY FOR CORPORATE SENIOR EXECUTIVE MANAGEMENT", "employees": 23, "avgSalary": 170491}, {"code": "VAGD", "name": "EXECUTIVE DIRECTOR FOR IDENTITY, CREDENTIAL, AND ACCESSMANAGEMENT", "employees": 21, "avgSalary": 125282}, {"code": "VABH", "name": "DEPUTY ASSISTANT SECRETARY FOR LABOR MANAGEMENT RELATIONS", "employees": 15, "avgSalary": 183489}, {"code": "VAKA", "name": "IMMEDIATE OFFICE OF THE ASSISTANT SECRETARY FOR CONGRESSIONAL AND LEGISLATIVE AFFAIRS", "employees": 11, "avgSalary": 159544}, {"code": "VAGC", "name": "DEP ASST SEC FOR EMERGENCY MGT & RESILIENCE", "employees": 10, "avgSalary": 175057}, {"code": "VADE", "name": "DEPUTY ASSISTANT SECRETARY FOR FMBTS", "employees": 10, "avgSalary": 153233}, {"code": "VAEA", "name": "IMMEDIATE OFFICE OF THE ASSISTANT SECRETARY FOR INFORMATION AND TECHNOLOGY", "employees": 10, "avgSalary": 213217}, {"code": "VAJB", "name": "DEPUTY ASSISTANCE SECRETARY FOR INTERGOVERNMENTAL AFFAIRS", "employees": 9, "avgSalary": 151382}], "ageDistribution": [{"bracket": "20-24", "count": 4106}, {"bracket": "25-29", "count": 16764}, {"bracket": "30-34", "count": 34432}, {"bracket": "35-39", "count": 55071}, {"bracket": "40-44", "count": 68806}, {"bracket": "45-49", "count": 67411}, {"bracket": "50-54", "count": 65566}, {"bracket": "55-59", "count": 64460}, {"bracket": "60-64", "count": 46306}, {"bracket": "65 OR MORE", "count": 28039}, {"bracket": "LESS THAN 20", "count": 160}], "educationDistribution": [{"level": "BACHELOR'S DEGREE", "count": 110946}, {"level": "MASTER'S DEGREE", "count": 86902}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 57530}, {"level": "ASSOCIATE DEGREE", "count": 48671}, {"level": "FIRST PROFESSIONAL", "count": 38310}, {"level": "DOCTORATE DEGREE", "count": 26576}, {"level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE", "count": 18407}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT", "count": 16553}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 13575}, {"level": "ONE YEAR COLLEGE", "count": 10828}, {"level": "TWO YEARS COLLEGE", "count": 9141}, {"level": "SOME HIGH SCHOOL - DID NOT COMPLETE", "count": 4274}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE", "count": 3410}, {"level": "THREE YEARS COLLEGE", "count": 3092}, {"level": "FOUR YEARS COLLEGE", "count": 2494}, {"level": "ELEMENTARY SCHOOL COMPLETED - NO HIGH SCHOOL", "count": 231}, {"level": "POST-BACHELOR'S", "count": 83}, {"level": "POST-MASTER'S", "count": 51}, {"level": "POST-DOCTORATE", "count": 16}, {"level": "POST-FIRST PROFESSIONAL", "count": 15}, {"level": "SIXTH-YEAR DEGREE", "count": 8}, {"level": "POST-SIXTH YEAR", "count": 6}, {"level": "INVALID", "count": 2}], "supervisoryBreakdown": [{"status": "ALL OTHER POSITIONS", "count": 427422}, {"status": "SUPERVISOR OR MANAGER", "count": 14532}, {"status": "LEADER", "count": 8452}, {"status": "TEAM LEADER", "count": 620}, {"status": "MANAGEMENT OFFICIAL (CSRA)", "count": 76}, {"status": "SUPERVISOR (CSRA)", "count": 13}, {"status": "INVALID", "count": 6}], "stem": {"stemCount": 194355, "total": 451121, "stemPct": 43.1}, "retirementRisk": {"eligible": 75452, "total": 451121, "pctEligible": 16.7}, "riskScore": 44, "quitRate": 51.4, "rifCount": 0, "seps2025": 49622, "seps2024": 35477, "sepChange": 39.9, "reductionPct": 11.0, "experienceLostYears": 542111, "avgTenure": 10.1}
+{
+  "code": "VA",
+  "name": "Department of Veterans Affairs",
+  "employees": 451121,
+  "avgSalary": 112960,
+  "topOccupations": [
+    {
+      "name": "Nurse",
+      "count": 91673,
+      "avgSalary": 131451
+    },
+    {
+      "name": "Medical Support Assistance",
+      "count": 35849,
+      "avgSalary": 57595
+    },
+    {
+      "name": "Medical Officer",
+      "count": 29180,
+      "avgSalary": 310051
+    },
+    {
+      "name": "Social Work",
+      "count": 20872,
+      "avgSalary": 108880
+    },
+    {
+      "name": "Veterans Claims Examining",
+      "count": 18856,
+      "avgSalary": 89889
+    },
+    {
+      "name": "Practical Nurse",
+      "count": 14357,
+      "avgSalary": 74975
+    },
+    {
+      "name": "Nursing Assistant",
+      "count": 13717,
+      "avgSalary": 55384
+    },
+    {
+      "name": "Pharmacist",
+      "count": 12423,
+      "avgSalary": 166841
+    },
+    {
+      "name": "Custodial Working",
+      "count": 11203,
+      "avgSalary": 46351
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 8879,
+      "avgSalary": 93665
+    },
+    {
+      "name": "Management and Program Analysis",
+      "count": 8633,
+      "avgSalary": 113602
+    },
+    {
+      "name": "Health Aid and Technician",
+      "count": 8355,
+      "avgSalary": 60308
+    },
+    {
+      "name": "Psychology",
+      "count": 8093,
+      "avgSalary": 141358
+    },
+    {
+      "name": "General Health Science",
+      "count": 8092,
+      "avgSalary": 107005
+    },
+    {
+      "name": "Human Resources Management",
+      "count": 7802,
+      "avgSalary": 119229
+    }
+  ],
+  "topStates": [
+    {
+      "name": "California",
+      "code": "CA",
+      "count": 36689
+    },
+    {
+      "name": "Florida",
+      "code": "FL",
+      "count": 35482
+    },
+    {
+      "name": "Texas",
+      "code": "TX",
+      "count": 35346
+    },
+    {
+      "name": "Pennsylvania",
+      "code": "PA",
+      "count": 17875
+    },
+    {
+      "name": "New York",
+      "code": "NY",
+      "count": 17755
+    },
+    {
+      "name": "Ohio",
+      "code": "OH",
+      "count": 16930
+    },
+    {
+      "name": "North Carolina",
+      "code": "NC",
+      "count": 16520
+    },
+    {
+      "name": "Illinois",
+      "code": "IL",
+      "count": 14823
+    },
+    {
+      "name": "Georgia",
+      "code": "GA",
+      "count": 13943
+    },
+    {
+      "name": "Tennessee",
+      "code": "TN",
+      "count": 12991
+    },
+    {
+      "name": "Virginia",
+      "code": "VA",
+      "count": 12027
+    },
+    {
+      "name": "Michigan",
+      "code": "MI",
+      "count": 11753
+    },
+    {
+      "name": "Missouri",
+      "code": "MO",
+      "count": 10841
+    },
+    {
+      "name": "Arizona",
+      "code": "AZ",
+      "count": 10637
+    },
+    {
+      "name": "Wisconsin",
+      "code": "WI",
+      "count": 9722
+    }
+  ],
+  "education": [
+    {
+      "level": "Bachelor's Degree",
+      "count": 110946
+    },
+    {
+      "level": "Master's Degree",
+      "count": 86902
+    },
+    {
+      "level": "High School Graduate Or Certificate of Equivalency",
+      "count": 57530
+    },
+    {
+      "level": "Associate Degree",
+      "count": 48671
+    },
+    {
+      "level": "First Professional",
+      "count": 38310
+    },
+    {
+      "level": "Doctorate Degree",
+      "count": 26576
+    },
+    {
+      "level": "No Formal Education Or Some Elementary School - Did Not Complete",
+      "count": 18407
+    },
+    {
+      "level": "Terminal Occupational Program - Certificate of Completion, Diploma Or Equivalent",
+      "count": 16553
+    },
+    {
+      "level": "Some College - Less Than One Year",
+      "count": 13575
+    },
+    {
+      "level": "One Year College",
+      "count": 10828
+    },
+    {
+      "level": "Two Years College",
+      "count": 9141
+    },
+    {
+      "level": "Some High School - Did Not Complete",
+      "count": 4274
+    },
+    {
+      "level": "Terminal Occupational Program - Did Not Complete",
+      "count": 3410
+    },
+    {
+      "level": "Three Years College",
+      "count": 3092
+    },
+    {
+      "level": "Four Years College",
+      "count": 2494
+    },
+    {
+      "level": "Elementary School Completed - No High School",
+      "count": 231
+    },
+    {
+      "level": "Post-bachelor's",
+      "count": 83
+    },
+    {
+      "level": "Post-master's",
+      "count": 51
+    },
+    {
+      "level": "Post-doctorate",
+      "count": 16
+    },
+    {
+      "level": "Post-first Professional",
+      "count": 15
+    },
+    {
+      "level": "Sixth-year Degree",
+      "count": 8
+    },
+    {
+      "level": "Post-sixth Year",
+      "count": 6
+    },
+    {
+      "level": "Invalid",
+      "count": 2
+    }
+  ],
+  "subagencies": [
+    {
+      "code": "VATA",
+      "name": "VETERANS HEALTH ADMINISTRATION",
+      "employees": 402973,
+      "avgSalary": 113707
+    },
+    {
+      "code": "VALA",
+      "name": "VETERANS BENEFITS ADMINISTRATION",
+      "employees": 30718,
+      "avgSalary": 93028
+    },
+    {
+      "code": "VAEB",
+      "name": "DEPUTY ASSISTANT SECRETARY FOR INFORMATION AND TECHNOLOGY",
+      "employees": 7325,
+      "avgSalary": 140214
+    },
+    {
+      "code": "VAPA",
+      "name": "NATIONAL CEMETERY ADMINISTRATION",
+      "employees": 2152,
+      "avgSalary": 81632
+    },
+    {
+      "code": "VADD",
+      "name": "DEPUTY ASSISTANT SECRETARY FOR FINANCE",
+      "employees": 1453,
+      "avgSalary": 99529
+    },
+    {
+      "code": "VAAD",
+      "name": "BOARD OF VETERANS APPEALS",
+      "employees": 1314,
+      "avgSalary": 143631
+    },
+    {
+      "code": "VADG",
+      "name": "EXECUTIVE DIRECTOR, OFFICE OF ACQUISITION AND LOGISTICS",
+      "employees": 1050,
+      "avgSalary": 126373
+    },
+    {
+      "code": "VAAF",
+      "name": "INSPECTOR GENERAL",
+      "employees": 977,
+      "avgSalary": 148038
+    },
+    {
+      "code": "VAAA",
+      "name": "OFFICE OF THE SECRETARY",
+      "employees": 958,
+      "avgSalary": 139963
+    },
+    {
+      "code": "VAAE",
+      "name": "GENERAL COUNSEL",
+      "employees": 675,
+      "avgSalary": 140426
+    },
+    {
+      "code": "VAHG",
+      "name": "VET CUSTOMER EXPER (VCE)",
+      "employees": 247,
+      "avgSalary": 128379
+    },
+    {
+      "code": "VABC",
+      "name": "CHIEF HUMAN CAPITAL OFFICER",
+      "employees": 223,
+      "avgSalary": 145338
+    },
+    {
+      "code": "VAGB",
+      "name": "EXECUTIVE DIRECTOR FOR SECURITY AND LAW ENFORCEMENT",
+      "employees": 213,
+      "avgSalary": 98533
+    },
+    {
+      "code": "VADA",
+      "name": "IMMEDIATE OFFICE OF THE ASSISTANT SECRETARY FOR MANAGEMENT",
+      "employees": 178,
+      "avgSalary": 142850
+    },
+    {
+      "code": "VAAI",
+      "name": "ELECTRONIC HEALTH RECORD MODERNIZATION",
+      "employees": 171,
+      "avgSalary": 158157
+    },
+    {
+      "code": "VAAJ",
+      "name": "OFFICE OF ACCOUNTABILITY AND WHISTLEBLOWER PROTECTION",
+      "employees": 112,
+      "avgSalary": 158021
+    },
+    {
+      "code": "VABE",
+      "name": "DEPUTY ASSISTANT SECRETARY FOR ADMINISTRATION",
+      "employees": 51,
+      "avgSalary": 145768
+    },
+    {
+      "code": "VAKB",
+      "name": "DEPUTY ASSISTANT SECRETARY FOR CONGRESSIONAL AFFAIRS",
+      "employees": 38,
+      "avgSalary": 149308
+    },
+    {
+      "code": "VAGA",
+      "name": "IMMEDIATE OFFICE OF THE ASSISTANT SECRETARY FOR OPERATIONS, SECURITY, AND PREPAREDNESS",
+      "employees": 36,
+      "avgSalary": 161431
+    },
+    {
+      "code": "VABA",
+      "name": "IMMEDIATE OFFICE OF THE ASSISTANT SECRETARY FOR HUMAN RESOURCES AND ADMINISTRATION",
+      "employees": 36,
+      "avgSalary": 160445
+    },
+    {
+      "code": "VADC",
+      "name": "DEPUTY ASSISTANT SECRETARY FOR BUDGET",
+      "employees": 31,
+      "avgSalary": 164131
+    },
+    {
+      "code": "VAJA",
+      "name": "OFFICE OF THE ASSISTANT SECRETARY FOR PUBLIC AND INTERGOVERNMENTAL AFFAIRS",
+      "employees": 29,
+      "avgSalary": 156868
+    },
+    {
+      "code": "VAJC",
+      "name": "DEPUTY ASSISTANT SECRETARY FOR PUBLIC AFFAIRS",
+      "employees": 27,
+      "avgSalary": 158202
+    },
+    {
+      "code": "VABK",
+      "name": "OFFICE OF ENTERPRISE OPERATIONS",
+      "employees": 25,
+      "avgSalary": 162322
+    },
+    {
+      "code": "VABG",
+      "name": "DEPUTY ASSISTANT SECRETARY FOR CORPORATE SENIOR EXECUTIVE MANAGEMENT",
+      "employees": 23,
+      "avgSalary": 170491
+    },
+    {
+      "code": "VAGD",
+      "name": "EXECUTIVE DIRECTOR FOR IDENTITY, CREDENTIAL, AND ACCESSMANAGEMENT",
+      "employees": 21,
+      "avgSalary": 125282
+    },
+    {
+      "code": "VABH",
+      "name": "DEPUTY ASSISTANT SECRETARY FOR LABOR MANAGEMENT RELATIONS",
+      "employees": 15,
+      "avgSalary": 183489
+    },
+    {
+      "code": "VAKA",
+      "name": "IMMEDIATE OFFICE OF THE ASSISTANT SECRETARY FOR CONGRESSIONAL AND LEGISLATIVE AFFAIRS",
+      "employees": 11,
+      "avgSalary": 159544
+    },
+    {
+      "code": "VAGC",
+      "name": "DEP ASST SEC FOR EMERGENCY MGT & RESILIENCE",
+      "employees": 10,
+      "avgSalary": 175057
+    },
+    {
+      "code": "VADE",
+      "name": "DEPUTY ASSISTANT SECRETARY FOR FMBTS",
+      "employees": 10,
+      "avgSalary": 153233
+    },
+    {
+      "code": "VAEA",
+      "name": "IMMEDIATE OFFICE OF THE ASSISTANT SECRETARY FOR INFORMATION AND TECHNOLOGY",
+      "employees": 10,
+      "avgSalary": 213217
+    },
+    {
+      "code": "VAJB",
+      "name": "DEPUTY ASSISTANCE SECRETARY FOR INTERGOVERNMENTAL AFFAIRS",
+      "employees": 9,
+      "avgSalary": 151382
+    }
+  ],
+  "ageDistribution": [
+    {
+      "bracket": "20-24",
+      "count": 4106
+    },
+    {
+      "bracket": "25-29",
+      "count": 16764
+    },
+    {
+      "bracket": "30-34",
+      "count": 34432
+    },
+    {
+      "bracket": "35-39",
+      "count": 55071
+    },
+    {
+      "bracket": "40-44",
+      "count": 68806
+    },
+    {
+      "bracket": "45-49",
+      "count": 67411
+    },
+    {
+      "bracket": "50-54",
+      "count": 65566
+    },
+    {
+      "bracket": "55-59",
+      "count": 64460
+    },
+    {
+      "bracket": "60-64",
+      "count": 46306
+    },
+    {
+      "bracket": "65 OR MORE",
+      "count": 28039
+    },
+    {
+      "bracket": "LESS THAN 20",
+      "count": 160
+    }
+  ],
+  "educationDistribution": [
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 110946
+    },
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 86902
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 57530
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 48671
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 38310
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 26576
+    },
+    {
+      "level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE",
+      "count": 18407
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT",
+      "count": 16553
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 13575
+    },
+    {
+      "level": "ONE YEAR COLLEGE",
+      "count": 10828
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 9141
+    },
+    {
+      "level": "SOME HIGH SCHOOL - DID NOT COMPLETE",
+      "count": 4274
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE",
+      "count": 3410
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 3092
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 2494
+    },
+    {
+      "level": "ELEMENTARY SCHOOL COMPLETED - NO HIGH SCHOOL",
+      "count": 231
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 83
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 51
+    },
+    {
+      "level": "POST-DOCTORATE",
+      "count": 16
+    },
+    {
+      "level": "POST-FIRST PROFESSIONAL",
+      "count": 15
+    },
+    {
+      "level": "SIXTH-YEAR DEGREE",
+      "count": 8
+    },
+    {
+      "level": "POST-SIXTH YEAR",
+      "count": 6
+    },
+    {
+      "level": "INVALID",
+      "count": 2
+    }
+  ],
+  "supervisoryBreakdown": [
+    {
+      "status": "ALL OTHER POSITIONS",
+      "count": 427422
+    },
+    {
+      "status": "SUPERVISOR OR MANAGER",
+      "count": 14532
+    },
+    {
+      "status": "LEADER",
+      "count": 8452
+    },
+    {
+      "status": "TEAM LEADER",
+      "count": 620
+    },
+    {
+      "status": "MANAGEMENT OFFICIAL (CSRA)",
+      "count": 76
+    },
+    {
+      "status": "SUPERVISOR (CSRA)",
+      "count": 13
+    },
+    {
+      "status": "INVALID",
+      "count": 6
+    }
+  ],
+  "stem": {
+    "stemCount": 194355,
+    "total": 451121,
+    "stemPct": 43.1
+  },
+  "retirementRisk": {
+    "eligible": 75452,
+    "total": 451121,
+    "pctEligible": 16.7
+  },
+  "riskScore": 44,
+  "quitRate": 51.4,
+  "rifCount": 0,
+  "seps2025": 49622,
+  "seps2024": 35477,
+  "sepChange": 39.9,
+  "reductionPct": 11.0,
+  "experienceLostYears": 542111,
+  "avgTenure": 10.1,
+  "budgetAuthority": 517777206640,
+  "obligated": 118739939091,
+  "outlays": 117591522475,
+  "budgetPerEmployee": 1147757,
+  "contracts": 78295285932,
+  "contractsPerEmployee": 173557,
+  "grants": 3120245247,
+  "directPayments": 203036766443
+}

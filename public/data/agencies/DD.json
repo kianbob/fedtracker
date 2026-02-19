@@ -1,1 +1,496 @@
-{"code": "DD", "name": "Department of Defense", "employees": 146609, "avgSalary": null, "topOccupations": [{"name": "Information Technology Group", "code": "INFORMATION TECHNOLOGY MANAGEMENT", "employees": 9579, "avgSalary": 0}, {"name": "Medical, Hospital, Dental, and Public Health Group", "code": "NURSE", "employees": 8789, "avgSalary": 0}, {"name": "Business and Industry Group", "code": "CONTRACTING", "employees": 7672, "avgSalary": 0}, {"name": "General Administrative, Clerical, and Office Services Group", "code": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "employees": 7591, "avgSalary": 0}, {"name": "Education Group", "code": "GENERAL EDUCATION AND TRAINING", "employees": 7127, "avgSalary": 0}, {"name": "General Administrative, Clerical, and Office Services Group", "code": "MANAGEMENT AND PROGRAM ANALYSIS", "employees": 5846, "avgSalary": 0}, {"name": "Quality Assurance, Inspection, and Grading Group", "code": "QUALITY ASSURANCE", "employees": 3768, "avgSalary": 0}, {"name": "Business and Industry Group", "code": "GENERAL BUSINESS AND INDUSTRY", "employees": 3701, "avgSalary": 0}, {"name": "Accounting and Budget Group", "code": "FINANCIAL ADMINISTRATION AND PROGRAM", "employees": 3624, "avgSalary": 0}, {"name": "Accounting and Budget Group", "code": "AUDITING", "employees": 3591, "avgSalary": 0}, {"name": "Education Group", "code": "EDUCATION AND VOCATIONAL TRAINING", "employees": 2977, "avgSalary": 0}, {"name": "Medical, Hospital, Dental, and Public Health Group", "code": "MEDICAL SUPPORT ASSISTANCE", "employees": 2937, "avgSalary": 0}, {"name": "Miscellaneous Occupations Group", "code": "SECURITY ADMINISTRATION", "employees": 2748, "avgSalary": 0}, {"name": "Accounting and Budget Group", "code": "ACCOUNTING", "employees": 2660, "avgSalary": 0}, {"name": "Engineering and Architecture Group", "code": "GENERAL ENGINEERING", "employees": 2373, "avgSalary": 0}], "topStates": [], "subagencies": [{"code": "DD83", "name": "MILITARY TREATMENT FACILITIES UNDER DHA", "employees": 41682, "avgSalary": 0}, {"code": "DD07", "name": "DEFENSE LOGISTICS AGENCY", "employees": 23084, "avgSalary": 0}, {"code": "DD16", "name": "DEPARTMENT OF DEFENSE EDUCATION ACTIVITY", "employees": 14208, "avgSalary": 0}, {"code": "DD34", "name": "DEFENSE COMMISSARY AGENCY", "employees": 9975, "avgSalary": 0}, {"code": "DD35", "name": "DEFENSE FINANCE AND ACCOUNTING SERVICE", "employees": 9600, "avgSalary": 0}, {"code": "DD63", "name": "DEFENSE CONTRACT MANAGEMENT AGENCY", "employees": 9074, "avgSalary": 0}, {"code": "DD04", "name": "DEFENSE INFORMATION SYSTEMS AGENCY", "employees": 6209, "avgSalary": 0}, {"code": "DD60", "name": "DEFENSE HEALTH AGENCY", "employees": 5729, "avgSalary": 0}, {"code": "DD12", "name": "DEFENSE COUNTERINTELLIGENCE AND SECURITY AGENCY", "employees": 5181, "avgSalary": 0}, {"code": "DD10", "name": "DEFENSE CONTRACT AUDIT AGENCY", "employees": 3208, "avgSalary": 0}, {"code": "DD27", "name": "MISSILE DEFENSE AGENCY", "employees": 2547, "avgSalary": 0}, {"code": "DD01", "name": "OFFICE OF THE SECRETARY OF DEFENSE", "employees": 2326, "avgSalary": 0}, {"code": "DD48", "name": "DEFENSE HUMAN RESOURCES ACTIVITY", "employees": 2251, "avgSalary": 0}, {"code": "DD26", "name": "OFFICE OF THE INSPECTOR GENERAL", "employees": 1609, "avgSalary": 0}, {"code": "DD21", "name": "WASHINGTON HEADQUARTERS SERVICES", "employees": 1457, "avgSalary": 0}, {"code": "DD61", "name": "DEFENSE THREAT REDUCTION AGENCY", "employees": 1116, "avgSalary": 0}, {"code": "DD65", "name": "PENTAGON FORCE PROTECTION AGENCY", "employees": 1080, "avgSalary": 0}, {"code": "DD82", "name": "NATIONAL RECONNAISSANCE OFFICE", "employees": 1075, "avgSalary": 0}, {"code": "DD06", "name": "DEFENSE SECURITY COOPERATION AGENCY", "employees": 1048, "avgSalary": 0}, {"code": "DD02", "name": "ORGANIZATION OF THE JOINT CHIEFS OF STAFF", "employees": 774, "avgSalary": 0}, {"code": "DD15", "name": "UNIFORMED SERVICES UNIVERSITY OF THE HEALTH SCIENCES", "employees": 691, "avgSalary": 0}, {"code": "DD81", "name": "WARFIGHTING ACQUISITION UNIVERSITY", "employees": 581, "avgSalary": 0}, {"code": "DD80", "name": "DEFENSE MEDIA ACTIVITY", "employees": 415, "avgSalary": 0}, {"code": "DD69", "name": "NATIONAL DEFENSE UNIVERSITY", "employees": 396, "avgSalary": 0}, {"code": "DD53", "name": "DEFENSE POW/MIA ACCOUNTING AGENCY", "employees": 296, "avgSalary": 0}, {"code": "DD25", "name": "DEFENSE LEGAL SERVICES AGENCY", "employees": 240, "avgSalary": 0}, {"code": "DD13", "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY", "employees": 228, "avgSalary": 0}, {"code": "DD71", "name": "DEFENSE MICROELECTRONICS ACTIVITY", "employees": 190, "avgSalary": 0}, {"code": "DD29", "name": "DEFENSE TECHNOLOGY SECURITY ADMINISTRATION", "employees": 124, "avgSalary": 0}, {"code": "DD74", "name": "DEFENSE TECHNICAL INFORMATION CENTER", "employees": 96, "avgSalary": 0}, {"code": "DD08", "name": "U.S. COURT OF APPEALS FOR THE ARMED FORCES", "employees": 52, "avgSalary": 0}, {"code": "DD23", "name": "OFFICE OF ECONOMIC ADJUSTMENT", "employees": 47, "avgSalary": 0}, {"code": "DD68", "name": "DEPARTMENT OF DEFENSE TEST RESOURCE MANAGEMENT CENTER", "employees": 20, "avgSalary": 0}], "ageDistribution": [{"bracket": "20-24", "count": 2148}, {"bracket": "25-29", "count": 5947}, {"bracket": "30-34", "count": 10172}, {"bracket": "35-39", "count": 15692}, {"bracket": "40-44", "count": 21963}, {"bracket": "45-49", "count": 21755}, {"bracket": "50-54", "count": 20878}, {"bracket": "55-59", "count": 22008}, {"bracket": "60-64", "count": 16779}, {"bracket": "65 OR MORE", "count": 9163}, {"bracket": "LESS THAN 20", "count": 104}], "educationDistribution": [{"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 40959}, {"level": "BACHELOR'S DEGREE", "count": 38589}, {"level": "MASTER'S DEGREE", "count": 30679}, {"level": "ASSOCIATE DEGREE", "count": 9700}, {"level": "DOCTORATE DEGREE", "count": 6076}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 3095}, {"level": "POST-MASTER'S", "count": 2972}, {"level": "TWO YEARS COLLEGE", "count": 2926}, {"level": "ONE YEAR COLLEGE", "count": 2570}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT", "count": 1764}, {"level": "FOUR YEARS COLLEGE", "count": 1714}, {"level": "POST-BACHELOR'S", "count": 1689}, {"level": "FIRST PROFESSIONAL", "count": 1466}, {"level": "THREE YEARS COLLEGE", "count": 1150}, {"level": "POST-DOCTORATE", "count": 350}, {"level": "SIXTH-YEAR DEGREE", "count": 320}, {"level": "SOME HIGH SCHOOL - DID NOT COMPLETE", "count": 198}, {"level": "POST-FIRST PROFESSIONAL", "count": 163}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE", "count": 96}, {"level": "POST-SIXTH YEAR", "count": 65}, {"level": "NO DATA REPORTED", "count": 44}, {"level": "ELEMENTARY SCHOOL COMPLETED - NO HIGH SCHOOL", "count": 12}, {"level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE", "count": 9}, {"level": "INVALID", "count": 3}], "supervisoryBreakdown": [{"status": "ALL OTHER POSITIONS", "count": 122742}, {"status": "SUPERVISOR OR MANAGER", "count": 17908}, {"status": "TEAM LEADER", "count": 1924}, {"status": "SUPERVISOR (CSRA)", "count": 1757}, {"status": "LEADER", "count": 1706}, {"status": "MANAGEMENT OFFICIAL (CSRA)", "count": 572}], "stem": {"stemCount": 32992, "total": 146609, "stemPct": 22.5}, "retirementRisk": {"eligible": 29071, "total": 146609, "pctEligible": 19.8}, "riskScore": 40, "quitRate": 47.4, "rifCount": 14, "seps2025": 21845, "seps2024": 18406, "sepChange": 18.7, "reductionPct": 14.9, "experienceLostYears": 294520, "avgTenure": 11.7}
+{
+  "code": "DD",
+  "name": "Department of Defense",
+  "employees": 146609,
+  "avgSalary": null,
+  "topOccupations": [
+    {
+      "name": "Information Technology Group",
+      "code": "INFORMATION TECHNOLOGY MANAGEMENT",
+      "employees": 9579,
+      "avgSalary": 0
+    },
+    {
+      "name": "Medical, Hospital, Dental, and Public Health Group",
+      "code": "NURSE",
+      "employees": 8789,
+      "avgSalary": 0
+    },
+    {
+      "name": "Business and Industry Group",
+      "code": "CONTRACTING",
+      "employees": 7672,
+      "avgSalary": 0
+    },
+    {
+      "name": "General Administrative, Clerical, and Office Services Group",
+      "code": "MISCELLANEOUS ADMINISTRATION AND PROGRAM",
+      "employees": 7591,
+      "avgSalary": 0
+    },
+    {
+      "name": "Education Group",
+      "code": "GENERAL EDUCATION AND TRAINING",
+      "employees": 7127,
+      "avgSalary": 0
+    },
+    {
+      "name": "General Administrative, Clerical, and Office Services Group",
+      "code": "MANAGEMENT AND PROGRAM ANALYSIS",
+      "employees": 5846,
+      "avgSalary": 0
+    },
+    {
+      "name": "Quality Assurance, Inspection, and Grading Group",
+      "code": "QUALITY ASSURANCE",
+      "employees": 3768,
+      "avgSalary": 0
+    },
+    {
+      "name": "Business and Industry Group",
+      "code": "GENERAL BUSINESS AND INDUSTRY",
+      "employees": 3701,
+      "avgSalary": 0
+    },
+    {
+      "name": "Accounting and Budget Group",
+      "code": "FINANCIAL ADMINISTRATION AND PROGRAM",
+      "employees": 3624,
+      "avgSalary": 0
+    },
+    {
+      "name": "Accounting and Budget Group",
+      "code": "AUDITING",
+      "employees": 3591,
+      "avgSalary": 0
+    },
+    {
+      "name": "Education Group",
+      "code": "EDUCATION AND VOCATIONAL TRAINING",
+      "employees": 2977,
+      "avgSalary": 0
+    },
+    {
+      "name": "Medical, Hospital, Dental, and Public Health Group",
+      "code": "MEDICAL SUPPORT ASSISTANCE",
+      "employees": 2937,
+      "avgSalary": 0
+    },
+    {
+      "name": "Miscellaneous Occupations Group",
+      "code": "SECURITY ADMINISTRATION",
+      "employees": 2748,
+      "avgSalary": 0
+    },
+    {
+      "name": "Accounting and Budget Group",
+      "code": "ACCOUNTING",
+      "employees": 2660,
+      "avgSalary": 0
+    },
+    {
+      "name": "Engineering and Architecture Group",
+      "code": "GENERAL ENGINEERING",
+      "employees": 2373,
+      "avgSalary": 0
+    }
+  ],
+  "topStates": [],
+  "subagencies": [
+    {
+      "code": "DD83",
+      "name": "MILITARY TREATMENT FACILITIES UNDER DHA",
+      "employees": 41682,
+      "avgSalary": 0
+    },
+    {
+      "code": "DD07",
+      "name": "DEFENSE LOGISTICS AGENCY",
+      "employees": 23084,
+      "avgSalary": 0
+    },
+    {
+      "code": "DD16",
+      "name": "DEPARTMENT OF DEFENSE EDUCATION ACTIVITY",
+      "employees": 14208,
+      "avgSalary": 0
+    },
+    {
+      "code": "DD34",
+      "name": "DEFENSE COMMISSARY AGENCY",
+      "employees": 9975,
+      "avgSalary": 0
+    },
+    {
+      "code": "DD35",
+      "name": "DEFENSE FINANCE AND ACCOUNTING SERVICE",
+      "employees": 9600,
+      "avgSalary": 0
+    },
+    {
+      "code": "DD63",
+      "name": "DEFENSE CONTRACT MANAGEMENT AGENCY",
+      "employees": 9074,
+      "avgSalary": 0
+    },
+    {
+      "code": "DD04",
+      "name": "DEFENSE INFORMATION SYSTEMS AGENCY",
+      "employees": 6209,
+      "avgSalary": 0
+    },
+    {
+      "code": "DD60",
+      "name": "DEFENSE HEALTH AGENCY",
+      "employees": 5729,
+      "avgSalary": 0
+    },
+    {
+      "code": "DD12",
+      "name": "DEFENSE COUNTERINTELLIGENCE AND SECURITY AGENCY",
+      "employees": 5181,
+      "avgSalary": 0
+    },
+    {
+      "code": "DD10",
+      "name": "DEFENSE CONTRACT AUDIT AGENCY",
+      "employees": 3208,
+      "avgSalary": 0
+    },
+    {
+      "code": "DD27",
+      "name": "MISSILE DEFENSE AGENCY",
+      "employees": 2547,
+      "avgSalary": 0
+    },
+    {
+      "code": "DD01",
+      "name": "OFFICE OF THE SECRETARY OF DEFENSE",
+      "employees": 2326,
+      "avgSalary": 0
+    },
+    {
+      "code": "DD48",
+      "name": "DEFENSE HUMAN RESOURCES ACTIVITY",
+      "employees": 2251,
+      "avgSalary": 0
+    },
+    {
+      "code": "DD26",
+      "name": "OFFICE OF THE INSPECTOR GENERAL",
+      "employees": 1609,
+      "avgSalary": 0
+    },
+    {
+      "code": "DD21",
+      "name": "WASHINGTON HEADQUARTERS SERVICES",
+      "employees": 1457,
+      "avgSalary": 0
+    },
+    {
+      "code": "DD61",
+      "name": "DEFENSE THREAT REDUCTION AGENCY",
+      "employees": 1116,
+      "avgSalary": 0
+    },
+    {
+      "code": "DD65",
+      "name": "PENTAGON FORCE PROTECTION AGENCY",
+      "employees": 1080,
+      "avgSalary": 0
+    },
+    {
+      "code": "DD82",
+      "name": "NATIONAL RECONNAISSANCE OFFICE",
+      "employees": 1075,
+      "avgSalary": 0
+    },
+    {
+      "code": "DD06",
+      "name": "DEFENSE SECURITY COOPERATION AGENCY",
+      "employees": 1048,
+      "avgSalary": 0
+    },
+    {
+      "code": "DD02",
+      "name": "ORGANIZATION OF THE JOINT CHIEFS OF STAFF",
+      "employees": 774,
+      "avgSalary": 0
+    },
+    {
+      "code": "DD15",
+      "name": "UNIFORMED SERVICES UNIVERSITY OF THE HEALTH SCIENCES",
+      "employees": 691,
+      "avgSalary": 0
+    },
+    {
+      "code": "DD81",
+      "name": "WARFIGHTING ACQUISITION UNIVERSITY",
+      "employees": 581,
+      "avgSalary": 0
+    },
+    {
+      "code": "DD80",
+      "name": "DEFENSE MEDIA ACTIVITY",
+      "employees": 415,
+      "avgSalary": 0
+    },
+    {
+      "code": "DD69",
+      "name": "NATIONAL DEFENSE UNIVERSITY",
+      "employees": 396,
+      "avgSalary": 0
+    },
+    {
+      "code": "DD53",
+      "name": "DEFENSE POW/MIA ACCOUNTING AGENCY",
+      "employees": 296,
+      "avgSalary": 0
+    },
+    {
+      "code": "DD25",
+      "name": "DEFENSE LEGAL SERVICES AGENCY",
+      "employees": 240,
+      "avgSalary": 0
+    },
+    {
+      "code": "DD13",
+      "name": "DEFENSE ADVANCED RESEARCH PROJECTS AGENCY",
+      "employees": 228,
+      "avgSalary": 0
+    },
+    {
+      "code": "DD71",
+      "name": "DEFENSE MICROELECTRONICS ACTIVITY",
+      "employees": 190,
+      "avgSalary": 0
+    },
+    {
+      "code": "DD29",
+      "name": "DEFENSE TECHNOLOGY SECURITY ADMINISTRATION",
+      "employees": 124,
+      "avgSalary": 0
+    },
+    {
+      "code": "DD74",
+      "name": "DEFENSE TECHNICAL INFORMATION CENTER",
+      "employees": 96,
+      "avgSalary": 0
+    },
+    {
+      "code": "DD08",
+      "name": "U.S. COURT OF APPEALS FOR THE ARMED FORCES",
+      "employees": 52,
+      "avgSalary": 0
+    },
+    {
+      "code": "DD23",
+      "name": "OFFICE OF ECONOMIC ADJUSTMENT",
+      "employees": 47,
+      "avgSalary": 0
+    },
+    {
+      "code": "DD68",
+      "name": "DEPARTMENT OF DEFENSE TEST RESOURCE MANAGEMENT CENTER",
+      "employees": 20,
+      "avgSalary": 0
+    }
+  ],
+  "ageDistribution": [
+    {
+      "bracket": "20-24",
+      "count": 2148
+    },
+    {
+      "bracket": "25-29",
+      "count": 5947
+    },
+    {
+      "bracket": "30-34",
+      "count": 10172
+    },
+    {
+      "bracket": "35-39",
+      "count": 15692
+    },
+    {
+      "bracket": "40-44",
+      "count": 21963
+    },
+    {
+      "bracket": "45-49",
+      "count": 21755
+    },
+    {
+      "bracket": "50-54",
+      "count": 20878
+    },
+    {
+      "bracket": "55-59",
+      "count": 22008
+    },
+    {
+      "bracket": "60-64",
+      "count": 16779
+    },
+    {
+      "bracket": "65 OR MORE",
+      "count": 9163
+    },
+    {
+      "bracket": "LESS THAN 20",
+      "count": 104
+    }
+  ],
+  "educationDistribution": [
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 40959
+    },
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 38589
+    },
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 30679
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 9700
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 6076
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 3095
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 2972
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 2926
+    },
+    {
+      "level": "ONE YEAR COLLEGE",
+      "count": 2570
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT",
+      "count": 1764
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 1714
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 1689
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 1466
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 1150
+    },
+    {
+      "level": "POST-DOCTORATE",
+      "count": 350
+    },
+    {
+      "level": "SIXTH-YEAR DEGREE",
+      "count": 320
+    },
+    {
+      "level": "SOME HIGH SCHOOL - DID NOT COMPLETE",
+      "count": 198
+    },
+    {
+      "level": "POST-FIRST PROFESSIONAL",
+      "count": 163
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE",
+      "count": 96
+    },
+    {
+      "level": "POST-SIXTH YEAR",
+      "count": 65
+    },
+    {
+      "level": "NO DATA REPORTED",
+      "count": 44
+    },
+    {
+      "level": "ELEMENTARY SCHOOL COMPLETED - NO HIGH SCHOOL",
+      "count": 12
+    },
+    {
+      "level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE",
+      "count": 9
+    },
+    {
+      "level": "INVALID",
+      "count": 3
+    }
+  ],
+  "supervisoryBreakdown": [
+    {
+      "status": "ALL OTHER POSITIONS",
+      "count": 122742
+    },
+    {
+      "status": "SUPERVISOR OR MANAGER",
+      "count": 17908
+    },
+    {
+      "status": "TEAM LEADER",
+      "count": 1924
+    },
+    {
+      "status": "SUPERVISOR (CSRA)",
+      "count": 1757
+    },
+    {
+      "status": "LEADER",
+      "count": 1706
+    },
+    {
+      "status": "MANAGEMENT OFFICIAL (CSRA)",
+      "count": 572
+    }
+  ],
+  "stem": {
+    "stemCount": 32992,
+    "total": 146609,
+    "stemPct": 22.5
+  },
+  "retirementRisk": {
+    "eligible": 29071,
+    "total": 146609,
+    "pctEligible": 19.8
+  },
+  "riskScore": 40,
+  "quitRate": 47.4,
+  "rifCount": 14,
+  "seps2025": 21845,
+  "seps2024": 18406,
+  "sepChange": 18.7,
+  "reductionPct": 14.9,
+  "experienceLostYears": 294520,
+  "avgTenure": 11.7,
+  "budgetAuthority": 1422204199257,
+  "obligated": 498376235260,
+  "outlays": 514628995853,
+  "budgetPerEmployee": 9700661,
+  "contracts": 491399709639,
+  "contractsPerEmployee": 3351770,
+  "grants": 9250020761,
+  "directPayments": 8491972
+}

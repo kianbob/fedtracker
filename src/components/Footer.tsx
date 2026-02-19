@@ -36,6 +36,7 @@ export function Footer() {
               <Link href="/workforce-analysis" className="block text-gray-600 hover:text-accent">Workforce Deep Dive</Link>
               <Link href="/demographics" className="block text-gray-600 hover:text-accent">Demographics</Link>
               <Link href="/subagencies" className="block text-gray-600 hover:text-accent">Subagencies</Link>
+              <Link href="/spending" className="block text-gray-600 hover:text-accent">Agency Spending</Link>
               <Link href="/findings" className="block text-gray-600 hover:text-accent">Key Findings</Link>
               <Link href="/timeline" className="block text-gray-600 hover:text-accent">DOGE Timeline</Link>
               <Link href="/occupation-impact" className="block text-gray-600 hover:text-accent">Occupation Impact</Link>
@@ -50,7 +51,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-gray-200 text-sm text-gray-500">
-          Data: OPM FedScope (December 2025 Employment, FY2020-2025 Separations & Accessions).
+          Data: OPM FedScope (December 2025 Employment, FY2020-2025 Separations &amp; Accessions) | USASpending.gov (FY2025 Budget Authority).
         </div>
       </div>
     </footer>

@@ -1,1 +1,497 @@
-{"code": "TR", "name": "Department of Treasury", "employees": 89881, "avgSalary": 92769, "topOccupations": [{"name": "Contact Representative", "count": 20298, "avgSalary": 61437}, {"name": "Tax Examining", "count": 10866, "avgSalary": 56378}, {"name": "Information Technology Management", "count": 7438, "avgSalary": 141513}, {"name": "Miscellaneous Clerk and Assistant", "count": 5229, "avgSalary": 46926}, {"name": "Financial Administration and Program", "count": 4655, "avgSalary": 103924}, {"name": "Management and Program Analysis", "count": 4360, "avgSalary": 137437}, {"name": "Human Resources Management", "count": 2144, "avgSalary": 113238}, {"name": "Miscellaneous Administration and Program", "count": 2087, "avgSalary": 136540}, {"name": "General Attorney", "count": 1990, "avgSalary": 174251}, {"name": "Financial Institution Examining", "count": 1865, "avgSalary": 166910}, {"name": "Financial Clerical and Assistance", "count": 1193, "avgSalary": 64136}, {"name": "Program Management", "count": 1027, "avgSalary": 161030}, {"name": "General Business and Industry", "count": 744, "avgSalary": 101236}, {"name": "Management and Program Clerical and Assistance", "count": 662, "avgSalary": 59977}, {"name": "Tax Specialist", "count": 559, "avgSalary": 87831}], "topStates": [{"name": "Texas", "code": "TX", "count": 8286}, {"name": "Utah", "code": "UT", "count": 6447}, {"name": "District of Columbia", "code": "DC", "count": 5940}, {"name": "California", "code": "CA", "count": 5548}, {"name": "Pennsylvania", "code": "PA", "count": 5091}, {"name": "Georgia", "code": "GA", "count": 4796}, {"name": "Missouri", "code": "MO", "count": 4764}, {"name": "New York", "code": "NY", "count": 4540}, {"name": "Tennessee", "code": "TN", "count": 4289}, {"name": "Maryland", "code": "MD", "count": 3917}, {"name": "No Data Reported", "code": "NDR", "count": 3313}, {"name": "West Virginia", "code": "WV", "count": 2637}, {"name": "Kentucky", "code": "KY", "count": 2405}, {"name": "Florida", "code": "FL", "count": 1876}, {"name": "Massachusetts", "code": "MA", "count": 1486}], "education": [{"level": "High School Graduate Or Certificate of Equivalency", "count": 54928}, {"level": "Bachelor's Degree", "count": 16498}, {"level": "Master's Degree", "count": 8119}, {"level": "Associate Degree", "count": 2338}, {"level": "Some College - Less Than One Year", "count": 1626}, {"level": "First Professional", "count": 1166}, {"level": "Two Years College", "count": 1061}, {"level": "Doctorate Degree", "count": 862}, {"level": "One Year College", "count": 710}, {"level": "Four Years College", "count": 647}, {"level": "Three Years College", "count": 516}, {"level": "Post-bachelor's", "count": 361}, {"level": "Terminal Occupational Program - Certificate of Completion, Diploma Or Equivalent", "count": 323}, {"level": "Some High School - Did Not Complete", "count": 203}, {"level": "Post-master's", "count": 165}, {"level": "Post-first Professional", "count": 149}, {"level": "Terminal Occupational Program - Did Not Complete", "count": 117}, {"level": "Post-doctorate", "count": 45}, {"level": "No Formal Education Or Some Elementary School - Did Not Complete", "count": 20}, {"level": "Sixth-year Degree", "count": 13}, {"level": "Post-sixth Year", "count": 10}, {"level": "Elementary School Completed - No High School", "count": 4}], "subagencies": [{"code": "TR93", "name": "INTERNAL REVENUE SERVICE", "employees": 77661, "avgSalary": 84749}, {"code": "TR91", "name": "DEPARTMENTAL OFFICES", "employees": 2847, "avgSalary": 148952}, {"code": "TRAJ", "name": "OFFICE OF THE COMPTROLLER OF THE CURRENCY", "employees": 2783, "avgSalary": 175546}, {"code": "TRFD", "name": "BUREAU OF THE FISCAL SERVICE", "employees": 2128, "avgSalary": 114799}, {"code": "TRAI", "name": "BUREAU OF ENGRAVING AND PRINTING", "employees": 1632, "avgSalary": 123612}, {"code": "TRAD", "name": "U.S. MINT", "employees": 1320, "avgSalary": 103191}, {"code": "TRTG", "name": "OFFICE OF THE INSPECTOR GENERAL FOR TAX ADMINISTRATION", "employees": 662, "avgSalary": 137573}, {"code": "TR40", "name": "ALCOHOL AND TOBACCO TAX AND TRADE BUREAU", "employees": 449, "avgSalary": 154122}, {"code": "TRAF", "name": "FINANCIAL CRIMES ENFORCEMENT NETWORK", "employees": 243, "avgSalary": 159868}, {"code": "TR95", "name": "OFFICE OF INSPECTOR GENERAL", "employees": 156, "avgSalary": 144485}], "ageDistribution": [{"bracket": "20-24", "count": 1890}, {"bracket": "25-29", "count": 6006}, {"bracket": "30-34", "count": 8116}, {"bracket": "35-39", "count": 10167}, {"bracket": "40-44", "count": 12591}, {"bracket": "45-49", "count": 12732}, {"bracket": "50-54", "count": 11324}, {"bracket": "55-59", "count": 11821}, {"bracket": "60-64", "count": 9310}, {"bracket": "65 OR MORE", "count": 5924}], "educationDistribution": [{"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 54928}, {"level": "BACHELOR'S DEGREE", "count": 16498}, {"level": "MASTER'S DEGREE", "count": 8119}, {"level": "ASSOCIATE DEGREE", "count": 2338}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 1626}, {"level": "FIRST PROFESSIONAL", "count": 1166}, {"level": "TWO YEARS COLLEGE", "count": 1061}, {"level": "DOCTORATE DEGREE", "count": 862}, {"level": "ONE YEAR COLLEGE", "count": 710}, {"level": "FOUR YEARS COLLEGE", "count": 647}, {"level": "THREE YEARS COLLEGE", "count": 516}, {"level": "POST-BACHELOR'S", "count": 361}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT", "count": 323}, {"level": "SOME HIGH SCHOOL - DID NOT COMPLETE", "count": 203}, {"level": "POST-MASTER'S", "count": 165}, {"level": "POST-FIRST PROFESSIONAL", "count": 149}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE", "count": 117}, {"level": "POST-DOCTORATE", "count": 45}, {"level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE", "count": 20}, {"level": "SIXTH-YEAR DEGREE", "count": 13}, {"level": "POST-SIXTH YEAR", "count": 10}, {"level": "ELEMENTARY SCHOOL COMPLETED - NO HIGH SCHOOL", "count": 4}], "supervisoryBreakdown": [{"status": "ALL OTHER POSITIONS", "count": 71913}, {"status": "SUPERVISOR OR MANAGER", "count": 9102}, {"status": "MANAGEMENT OFFICIAL (CSRA)", "count": 4479}, {"status": "LEADER", "count": 3255}, {"status": "TEAM LEADER", "count": 815}, {"status": "SUPERVISOR (CSRA)", "count": 317}], "stem": {"stemCount": 9234, "total": 89881, "stemPct": 10.3}, "retirementRisk": {"eligible": 20218, "total": 89881, "pctEligible": 22.5}, "riskScore": 59, "quitRate": 66.4, "rifCount": 10, "seps2025": 28858, "seps2024": 9487, "sepChange": 204.2, "reductionPct": 32.1, "experienceLostYears": 313428, "avgTenure": 13.0}
+{
+  "code": "TR",
+  "name": "Department of Treasury",
+  "employees": 89881,
+  "avgSalary": 92769,
+  "topOccupations": [
+    {
+      "name": "Contact Representative",
+      "count": 20298,
+      "avgSalary": 61437
+    },
+    {
+      "name": "Tax Examining",
+      "count": 10866,
+      "avgSalary": 56378
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 7438,
+      "avgSalary": 141513
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "count": 5229,
+      "avgSalary": 46926
+    },
+    {
+      "name": "Financial Administration and Program",
+      "count": 4655,
+      "avgSalary": 103924
+    },
+    {
+      "name": "Management and Program Analysis",
+      "count": 4360,
+      "avgSalary": 137437
+    },
+    {
+      "name": "Human Resources Management",
+      "count": 2144,
+      "avgSalary": 113238
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 2087,
+      "avgSalary": 136540
+    },
+    {
+      "name": "General Attorney",
+      "count": 1990,
+      "avgSalary": 174251
+    },
+    {
+      "name": "Financial Institution Examining",
+      "count": 1865,
+      "avgSalary": 166910
+    },
+    {
+      "name": "Financial Clerical and Assistance",
+      "count": 1193,
+      "avgSalary": 64136
+    },
+    {
+      "name": "Program Management",
+      "count": 1027,
+      "avgSalary": 161030
+    },
+    {
+      "name": "General Business and Industry",
+      "count": 744,
+      "avgSalary": 101236
+    },
+    {
+      "name": "Management and Program Clerical and Assistance",
+      "count": 662,
+      "avgSalary": 59977
+    },
+    {
+      "name": "Tax Specialist",
+      "count": 559,
+      "avgSalary": 87831
+    }
+  ],
+  "topStates": [
+    {
+      "name": "Texas",
+      "code": "TX",
+      "count": 8286
+    },
+    {
+      "name": "Utah",
+      "code": "UT",
+      "count": 6447
+    },
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 5940
+    },
+    {
+      "name": "California",
+      "code": "CA",
+      "count": 5548
+    },
+    {
+      "name": "Pennsylvania",
+      "code": "PA",
+      "count": 5091
+    },
+    {
+      "name": "Georgia",
+      "code": "GA",
+      "count": 4796
+    },
+    {
+      "name": "Missouri",
+      "code": "MO",
+      "count": 4764
+    },
+    {
+      "name": "New York",
+      "code": "NY",
+      "count": 4540
+    },
+    {
+      "name": "Tennessee",
+      "code": "TN",
+      "count": 4289
+    },
+    {
+      "name": "Maryland",
+      "code": "MD",
+      "count": 3917
+    },
+    {
+      "name": "No Data Reported",
+      "code": "NDR",
+      "count": 3313
+    },
+    {
+      "name": "West Virginia",
+      "code": "WV",
+      "count": 2637
+    },
+    {
+      "name": "Kentucky",
+      "code": "KY",
+      "count": 2405
+    },
+    {
+      "name": "Florida",
+      "code": "FL",
+      "count": 1876
+    },
+    {
+      "name": "Massachusetts",
+      "code": "MA",
+      "count": 1486
+    }
+  ],
+  "education": [
+    {
+      "level": "High School Graduate Or Certificate of Equivalency",
+      "count": 54928
+    },
+    {
+      "level": "Bachelor's Degree",
+      "count": 16498
+    },
+    {
+      "level": "Master's Degree",
+      "count": 8119
+    },
+    {
+      "level": "Associate Degree",
+      "count": 2338
+    },
+    {
+      "level": "Some College - Less Than One Year",
+      "count": 1626
+    },
+    {
+      "level": "First Professional",
+      "count": 1166
+    },
+    {
+      "level": "Two Years College",
+      "count": 1061
+    },
+    {
+      "level": "Doctorate Degree",
+      "count": 862
+    },
+    {
+      "level": "One Year College",
+      "count": 710
+    },
+    {
+      "level": "Four Years College",
+      "count": 647
+    },
+    {
+      "level": "Three Years College",
+      "count": 516
+    },
+    {
+      "level": "Post-bachelor's",
+      "count": 361
+    },
+    {
+      "level": "Terminal Occupational Program - Certificate of Completion, Diploma Or Equivalent",
+      "count": 323
+    },
+    {
+      "level": "Some High School - Did Not Complete",
+      "count": 203
+    },
+    {
+      "level": "Post-master's",
+      "count": 165
+    },
+    {
+      "level": "Post-first Professional",
+      "count": 149
+    },
+    {
+      "level": "Terminal Occupational Program - Did Not Complete",
+      "count": 117
+    },
+    {
+      "level": "Post-doctorate",
+      "count": 45
+    },
+    {
+      "level": "No Formal Education Or Some Elementary School - Did Not Complete",
+      "count": 20
+    },
+    {
+      "level": "Sixth-year Degree",
+      "count": 13
+    },
+    {
+      "level": "Post-sixth Year",
+      "count": 10
+    },
+    {
+      "level": "Elementary School Completed - No High School",
+      "count": 4
+    }
+  ],
+  "subagencies": [
+    {
+      "code": "TR93",
+      "name": "INTERNAL REVENUE SERVICE",
+      "employees": 77661,
+      "avgSalary": 84749
+    },
+    {
+      "code": "TR91",
+      "name": "DEPARTMENTAL OFFICES",
+      "employees": 2847,
+      "avgSalary": 148952
+    },
+    {
+      "code": "TRAJ",
+      "name": "OFFICE OF THE COMPTROLLER OF THE CURRENCY",
+      "employees": 2783,
+      "avgSalary": 175546
+    },
+    {
+      "code": "TRFD",
+      "name": "BUREAU OF THE FISCAL SERVICE",
+      "employees": 2128,
+      "avgSalary": 114799
+    },
+    {
+      "code": "TRAI",
+      "name": "BUREAU OF ENGRAVING AND PRINTING",
+      "employees": 1632,
+      "avgSalary": 123612
+    },
+    {
+      "code": "TRAD",
+      "name": "U.S. MINT",
+      "employees": 1320,
+      "avgSalary": 103191
+    },
+    {
+      "code": "TRTG",
+      "name": "OFFICE OF THE INSPECTOR GENERAL FOR TAX ADMINISTRATION",
+      "employees": 662,
+      "avgSalary": 137573
+    },
+    {
+      "code": "TR40",
+      "name": "ALCOHOL AND TOBACCO TAX AND TRADE BUREAU",
+      "employees": 449,
+      "avgSalary": 154122
+    },
+    {
+      "code": "TRAF",
+      "name": "FINANCIAL CRIMES ENFORCEMENT NETWORK",
+      "employees": 243,
+      "avgSalary": 159868
+    },
+    {
+      "code": "TR95",
+      "name": "OFFICE OF INSPECTOR GENERAL",
+      "employees": 156,
+      "avgSalary": 144485
+    }
+  ],
+  "ageDistribution": [
+    {
+      "bracket": "20-24",
+      "count": 1890
+    },
+    {
+      "bracket": "25-29",
+      "count": 6006
+    },
+    {
+      "bracket": "30-34",
+      "count": 8116
+    },
+    {
+      "bracket": "35-39",
+      "count": 10167
+    },
+    {
+      "bracket": "40-44",
+      "count": 12591
+    },
+    {
+      "bracket": "45-49",
+      "count": 12732
+    },
+    {
+      "bracket": "50-54",
+      "count": 11324
+    },
+    {
+      "bracket": "55-59",
+      "count": 11821
+    },
+    {
+      "bracket": "60-64",
+      "count": 9310
+    },
+    {
+      "bracket": "65 OR MORE",
+      "count": 5924
+    }
+  ],
+  "educationDistribution": [
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 54928
+    },
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 16498
+    },
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 8119
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 2338
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 1626
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 1166
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 1061
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 862
+    },
+    {
+      "level": "ONE YEAR COLLEGE",
+      "count": 710
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 647
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 516
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 361
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT",
+      "count": 323
+    },
+    {
+      "level": "SOME HIGH SCHOOL - DID NOT COMPLETE",
+      "count": 203
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 165
+    },
+    {
+      "level": "POST-FIRST PROFESSIONAL",
+      "count": 149
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE",
+      "count": 117
+    },
+    {
+      "level": "POST-DOCTORATE",
+      "count": 45
+    },
+    {
+      "level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE",
+      "count": 20
+    },
+    {
+      "level": "SIXTH-YEAR DEGREE",
+      "count": 13
+    },
+    {
+      "level": "POST-SIXTH YEAR",
+      "count": 10
+    },
+    {
+      "level": "ELEMENTARY SCHOOL COMPLETED - NO HIGH SCHOOL",
+      "count": 4
+    }
+  ],
+  "supervisoryBreakdown": [
+    {
+      "status": "ALL OTHER POSITIONS",
+      "count": 71913
+    },
+    {
+      "status": "SUPERVISOR OR MANAGER",
+      "count": 9102
+    },
+    {
+      "status": "MANAGEMENT OFFICIAL (CSRA)",
+      "count": 4479
+    },
+    {
+      "status": "LEADER",
+      "count": 3255
+    },
+    {
+      "status": "TEAM LEADER",
+      "count": 815
+    },
+    {
+      "status": "SUPERVISOR (CSRA)",
+      "count": 317
+    }
+  ],
+  "stem": {
+    "stemCount": 9234,
+    "total": 89881,
+    "stemPct": 10.3
+  },
+  "retirementRisk": {
+    "eligible": 20218,
+    "total": 89881,
+    "pctEligible": 22.5
+  },
+  "riskScore": 59,
+  "quitRate": 66.4,
+  "rifCount": 10,
+  "seps2025": 28858,
+  "seps2024": 9487,
+  "sepChange": 204.2,
+  "reductionPct": 32.1,
+  "experienceLostYears": 313428,
+  "avgTenure": 13.0,
+  "budgetAuthority": 3721993897579,
+  "obligated": 462896029887,
+  "outlays": 464576144771,
+  "budgetPerEmployee": 41410241,
+  "contracts": 8551252359,
+  "contractsPerEmployee": 95140,
+  "grants": 635197032,
+  "directPayments": -204904145
+}

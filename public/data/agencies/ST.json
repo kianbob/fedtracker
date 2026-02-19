@@ -1,1 +1,439 @@
-{"code": "ST", "name": "Department of State", "employees": 11713, "avgSalary": 135661, "topOccupations": [{"name": "Passport and Visa Examining", "count": 2026, "avgSalary": 90658}, {"name": "Foreign Affairs", "count": 2000, "avgSalary": 150441}, {"name": "Management and Program Analysis", "count": 1291, "avgSalary": 140616}, {"name": "Miscellaneous Administration and Program", "count": 839, "avgSalary": 132422}, {"name": "Information Technology Management", "count": 815, "avgSalary": 156228}, {"name": "Human Resources Management", "count": 401, "avgSalary": 136020}, {"name": "Security Administration", "count": 297, "avgSalary": 146407}, {"name": "General Attorney", "count": 270, "avgSalary": 190992}, {"name": "Budget Analysis", "count": 268, "avgSalary": 149267}, {"name": "Contracting", "count": 249, "avgSalary": 151897}, {"name": "Training Instruction", "count": 220, "avgSalary": 107543}, {"name": "Financial Administration and Program", "count": 185, "avgSalary": 133472}, {"name": "Administrative Officer", "count": 173, "avgSalary": 157180}, {"name": "Public Affairs", "count": 172, "avgSalary": 144242}, {"name": "Program Management", "count": 124, "avgSalary": 173897}], "topStates": [{"name": "District of Columbia", "code": "DC", "count": 7622}, {"name": "South Carolina", "code": "SC", "count": 591}, {"name": "New Hampshire", "code": "NH", "count": 449}, {"name": "Virginia", "code": "VA", "count": 433}, {"name": "No Data Reported", "code": "NDR", "count": 227}, {"name": "California", "code": "CA", "count": 223}, {"name": "Texas", "code": "TX", "count": 211}, {"name": "New York", "code": "NY", "count": 169}, {"name": "Arizona", "code": "AZ", "count": 163}, {"name": "Florida", "code": "FL", "count": 151}, {"name": "Louisiana", "code": "LA", "count": 144}, {"name": "Washington", "code": "WA", "count": 103}, {"name": "Illinois", "code": "IL", "count": 86}, {"name": "Pennsylvania", "code": "PA", "count": 82}, {"name": "Colorado", "code": "CO", "count": 59}], "education": [{"level": "Master's Degree", "count": 3953}, {"level": "Bachelor's Degree", "count": 3838}, {"level": "High School Graduate Or Certificate of Equivalency", "count": 2027}, {"level": "Doctorate Degree", "count": 628}, {"level": "Associate Degree", "count": 367}, {"level": "First Professional", "count": 261}, {"level": "Some College - Less Than One Year", "count": 134}, {"level": "Some High School - Did Not Complete", "count": 120}, {"level": "Two Years College", "count": 118}, {"level": "Three Years College", "count": 71}, {"level": "One Year College", "count": 55}, {"level": "Terminal Occupational Program - Certificate of Completion, Diploma Or Equivalent", "count": 38}, {"level": "Four Years College", "count": 32}, {"level": "Post-bachelor's", "count": 17}, {"level": "Post-master's", "count": 14}, {"level": "Invalid", "count": 13}, {"level": "Post-sixth Year", "count": 9}, {"level": "Terminal Occupational Program - Did Not Complete", "count": 9}, {"level": "Post-doctorate", "count": 7}, {"level": "Elementary School Completed - No High School", "count": 1}, {"level": "Post-first Professional", "count": 1}], "subagencies": [{"code": "ST00", "name": "DEPARTMENT OF STATE", "employees": 11713, "avgSalary": 135661}], "ageDistribution": [{"bracket": "20-24", "count": 69}, {"bracket": "25-29", "count": 497}, {"bracket": "30-34", "count": 976}, {"bracket": "35-39", "count": 1515}, {"bracket": "40-44", "count": 1874}, {"bracket": "45-49", "count": 1845}, {"bracket": "50-54", "count": 1473}, {"bracket": "55-59", "count": 1395}, {"bracket": "60-64", "count": 1052}, {"bracket": "65 OR MORE", "count": 1017}], "educationDistribution": [{"level": "MASTER'S DEGREE", "count": 3953}, {"level": "BACHELOR'S DEGREE", "count": 3838}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 2027}, {"level": "DOCTORATE DEGREE", "count": 628}, {"level": "ASSOCIATE DEGREE", "count": 367}, {"level": "FIRST PROFESSIONAL", "count": 261}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 134}, {"level": "SOME HIGH SCHOOL - DID NOT COMPLETE", "count": 120}, {"level": "TWO YEARS COLLEGE", "count": 118}, {"level": "THREE YEARS COLLEGE", "count": 71}, {"level": "ONE YEAR COLLEGE", "count": 55}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT", "count": 38}, {"level": "FOUR YEARS COLLEGE", "count": 32}, {"level": "POST-BACHELOR'S", "count": 17}, {"level": "POST-MASTER'S", "count": 14}, {"level": "INVALID", "count": 13}, {"level": "POST-SIXTH YEAR", "count": 9}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE", "count": 9}, {"level": "POST-DOCTORATE", "count": 7}, {"level": "ELEMENTARY SCHOOL COMPLETED - NO HIGH SCHOOL", "count": 1}, {"level": "POST-FIRST PROFESSIONAL", "count": 1}], "supervisoryBreakdown": [{"status": "ALL OTHER POSITIONS", "count": 9592}, {"status": "SUPERVISOR OR MANAGER", "count": 1793}, {"status": "SUPERVISOR (CSRA)", "count": 145}, {"status": "TEAM LEADER", "count": 144}, {"status": "MANAGEMENT OFFICIAL (CSRA)", "count": 25}, {"status": "LEADER", "count": 13}, {"status": "INVALID", "count": 1}], "stem": {"stemCount": 3490, "total": 11713, "stemPct": 29.8}, "retirementRisk": {"eligible": 2585, "total": 11713, "pctEligible": 22.1}, "riskScore": 67, "quitRate": 27.4, "rifCount": 872, "seps2025": 3904, "seps2024": 1965, "sepChange": 98.7, "reductionPct": 33.3, "experienceLostYears": 58322, "avgTenure": 14.0}
+{
+  "code": "ST",
+  "name": "Department of State",
+  "employees": 11713,
+  "avgSalary": 135661,
+  "topOccupations": [
+    {
+      "name": "Passport and Visa Examining",
+      "count": 2026,
+      "avgSalary": 90658
+    },
+    {
+      "name": "Foreign Affairs",
+      "count": 2000,
+      "avgSalary": 150441
+    },
+    {
+      "name": "Management and Program Analysis",
+      "count": 1291,
+      "avgSalary": 140616
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 839,
+      "avgSalary": 132422
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 815,
+      "avgSalary": 156228
+    },
+    {
+      "name": "Human Resources Management",
+      "count": 401,
+      "avgSalary": 136020
+    },
+    {
+      "name": "Security Administration",
+      "count": 297,
+      "avgSalary": 146407
+    },
+    {
+      "name": "General Attorney",
+      "count": 270,
+      "avgSalary": 190992
+    },
+    {
+      "name": "Budget Analysis",
+      "count": 268,
+      "avgSalary": 149267
+    },
+    {
+      "name": "Contracting",
+      "count": 249,
+      "avgSalary": 151897
+    },
+    {
+      "name": "Training Instruction",
+      "count": 220,
+      "avgSalary": 107543
+    },
+    {
+      "name": "Financial Administration and Program",
+      "count": 185,
+      "avgSalary": 133472
+    },
+    {
+      "name": "Administrative Officer",
+      "count": 173,
+      "avgSalary": 157180
+    },
+    {
+      "name": "Public Affairs",
+      "count": 172,
+      "avgSalary": 144242
+    },
+    {
+      "name": "Program Management",
+      "count": 124,
+      "avgSalary": 173897
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 7622
+    },
+    {
+      "name": "South Carolina",
+      "code": "SC",
+      "count": 591
+    },
+    {
+      "name": "New Hampshire",
+      "code": "NH",
+      "count": 449
+    },
+    {
+      "name": "Virginia",
+      "code": "VA",
+      "count": 433
+    },
+    {
+      "name": "No Data Reported",
+      "code": "NDR",
+      "count": 227
+    },
+    {
+      "name": "California",
+      "code": "CA",
+      "count": 223
+    },
+    {
+      "name": "Texas",
+      "code": "TX",
+      "count": 211
+    },
+    {
+      "name": "New York",
+      "code": "NY",
+      "count": 169
+    },
+    {
+      "name": "Arizona",
+      "code": "AZ",
+      "count": 163
+    },
+    {
+      "name": "Florida",
+      "code": "FL",
+      "count": 151
+    },
+    {
+      "name": "Louisiana",
+      "code": "LA",
+      "count": 144
+    },
+    {
+      "name": "Washington",
+      "code": "WA",
+      "count": 103
+    },
+    {
+      "name": "Illinois",
+      "code": "IL",
+      "count": 86
+    },
+    {
+      "name": "Pennsylvania",
+      "code": "PA",
+      "count": 82
+    },
+    {
+      "name": "Colorado",
+      "code": "CO",
+      "count": 59
+    }
+  ],
+  "education": [
+    {
+      "level": "Master's Degree",
+      "count": 3953
+    },
+    {
+      "level": "Bachelor's Degree",
+      "count": 3838
+    },
+    {
+      "level": "High School Graduate Or Certificate of Equivalency",
+      "count": 2027
+    },
+    {
+      "level": "Doctorate Degree",
+      "count": 628
+    },
+    {
+      "level": "Associate Degree",
+      "count": 367
+    },
+    {
+      "level": "First Professional",
+      "count": 261
+    },
+    {
+      "level": "Some College - Less Than One Year",
+      "count": 134
+    },
+    {
+      "level": "Some High School - Did Not Complete",
+      "count": 120
+    },
+    {
+      "level": "Two Years College",
+      "count": 118
+    },
+    {
+      "level": "Three Years College",
+      "count": 71
+    },
+    {
+      "level": "One Year College",
+      "count": 55
+    },
+    {
+      "level": "Terminal Occupational Program - Certificate of Completion, Diploma Or Equivalent",
+      "count": 38
+    },
+    {
+      "level": "Four Years College",
+      "count": 32
+    },
+    {
+      "level": "Post-bachelor's",
+      "count": 17
+    },
+    {
+      "level": "Post-master's",
+      "count": 14
+    },
+    {
+      "level": "Invalid",
+      "count": 13
+    },
+    {
+      "level": "Post-sixth Year",
+      "count": 9
+    },
+    {
+      "level": "Terminal Occupational Program - Did Not Complete",
+      "count": 9
+    },
+    {
+      "level": "Post-doctorate",
+      "count": 7
+    },
+    {
+      "level": "Elementary School Completed - No High School",
+      "count": 1
+    },
+    {
+      "level": "Post-first Professional",
+      "count": 1
+    }
+  ],
+  "subagencies": [
+    {
+      "code": "ST00",
+      "name": "DEPARTMENT OF STATE",
+      "employees": 11713,
+      "avgSalary": 135661
+    }
+  ],
+  "ageDistribution": [
+    {
+      "bracket": "20-24",
+      "count": 69
+    },
+    {
+      "bracket": "25-29",
+      "count": 497
+    },
+    {
+      "bracket": "30-34",
+      "count": 976
+    },
+    {
+      "bracket": "35-39",
+      "count": 1515
+    },
+    {
+      "bracket": "40-44",
+      "count": 1874
+    },
+    {
+      "bracket": "45-49",
+      "count": 1845
+    },
+    {
+      "bracket": "50-54",
+      "count": 1473
+    },
+    {
+      "bracket": "55-59",
+      "count": 1395
+    },
+    {
+      "bracket": "60-64",
+      "count": 1052
+    },
+    {
+      "bracket": "65 OR MORE",
+      "count": 1017
+    }
+  ],
+  "educationDistribution": [
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 3953
+    },
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 3838
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 2027
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 628
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 367
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 261
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 134
+    },
+    {
+      "level": "SOME HIGH SCHOOL - DID NOT COMPLETE",
+      "count": 120
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 118
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 71
+    },
+    {
+      "level": "ONE YEAR COLLEGE",
+      "count": 55
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT",
+      "count": 38
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 32
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 17
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 14
+    },
+    {
+      "level": "INVALID",
+      "count": 13
+    },
+    {
+      "level": "POST-SIXTH YEAR",
+      "count": 9
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE",
+      "count": 9
+    },
+    {
+      "level": "POST-DOCTORATE",
+      "count": 7
+    },
+    {
+      "level": "ELEMENTARY SCHOOL COMPLETED - NO HIGH SCHOOL",
+      "count": 1
+    },
+    {
+      "level": "POST-FIRST PROFESSIONAL",
+      "count": 1
+    }
+  ],
+  "supervisoryBreakdown": [
+    {
+      "status": "ALL OTHER POSITIONS",
+      "count": 9592
+    },
+    {
+      "status": "SUPERVISOR OR MANAGER",
+      "count": 1793
+    },
+    {
+      "status": "SUPERVISOR (CSRA)",
+      "count": 145
+    },
+    {
+      "status": "TEAM LEADER",
+      "count": 144
+    },
+    {
+      "status": "MANAGEMENT OFFICIAL (CSRA)",
+      "count": 25
+    },
+    {
+      "status": "LEADER",
+      "count": 13
+    },
+    {
+      "status": "INVALID",
+      "count": 1
+    }
+  ],
+  "stem": {
+    "stemCount": 3490,
+    "total": 11713,
+    "stemPct": 29.8
+  },
+  "retirementRisk": {
+    "eligible": 2585,
+    "total": 11713,
+    "pctEligible": 22.1
+  },
+  "riskScore": 67,
+  "quitRate": 27.4,
+  "rifCount": 872,
+  "seps2025": 3904,
+  "seps2024": 1965,
+  "sepChange": 98.7,
+  "reductionPct": 33.3,
+  "experienceLostYears": 58322,
+  "avgTenure": 14.0,
+  "budgetAuthority": 61689287350,
+  "obligated": 5226834205,
+  "outlays": 9800640883,
+  "budgetPerEmployee": 5266737,
+  "contracts": 31446549498,
+  "contractsPerEmployee": 2684756,
+  "grants": 1265044046,
+  "directPayments": 0
+}

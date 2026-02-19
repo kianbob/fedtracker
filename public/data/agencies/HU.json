@@ -1,1 +1,509 @@
-{"code": "HU", "name": "Department of Housing and Urban Developm", "employees": 6299, "avgSalary": 143557, "topOccupations": [{"name": "General Business and Industry", "count": 1829, "avgSalary": 141301}, {"name": "Miscellaneous Administration and Program", "count": 912, "avgSalary": 149353}, {"name": "Management and Program Analysis", "count": 884, "avgSalary": 136058}, {"name": "General Attorney", "count": 278, "avgSalary": 173057}, {"name": "Equal Opportunity Compliance", "count": 223, "avgSalary": 128934}, {"name": "Information Technology Management", "count": 223, "avgSalary": 158834}, {"name": "Auditing", "count": 216, "avgSalary": 150268}, {"name": "Financial Analysis", "count": 211, "avgSalary": 132405}, {"name": "Accounting", "count": 127, "avgSalary": 148952}, {"name": "Financial Administration and Program", "count": 105, "avgSalary": 143242}, {"name": "Budget Analysis", "count": 101, "avgSalary": 162021}, {"name": "Appraising", "count": 91, "avgSalary": 142399}, {"name": "Human Resources Management", "count": 88, "avgSalary": 158656}, {"name": "Construction Analyst", "count": 75, "avgSalary": 127270}, {"name": "Grants Management", "count": 74, "avgSalary": 125341}], "topStates": [{"name": "District of Columbia", "code": "DC", "count": 2280}, {"name": "Texas", "code": "TX", "count": 359}, {"name": "California", "code": "CA", "count": 344}, {"name": "Georgia", "code": "GA", "count": 344}, {"name": "Colorado", "code": "CO", "count": 274}, {"name": "Illinois", "code": "IL", "count": 264}, {"name": "New York", "code": "NY", "count": 257}, {"name": "Pennsylvania", "code": "PA", "count": 201}, {"name": "Maryland", "code": "MD", "count": 174}, {"name": "Florida", "code": "FL", "count": 156}, {"name": "Kansas", "code": "KS", "count": 125}, {"name": "Michigan", "code": "MI", "count": 105}, {"name": "Massachusetts", "code": "MA", "count": 101}, {"name": "Oklahoma", "code": "OK", "count": 97}, {"name": "Washington", "code": "WA", "count": 91}], "education": [{"level": "Bachelor's Degree", "count": 1811}, {"level": "Master's Degree", "count": 1714}, {"level": "High School Graduate Or Certificate of Equivalency", "count": 1649}, {"level": "Doctorate Degree", "count": 257}, {"level": "First Professional", "count": 149}, {"level": "Associate Degree", "count": 144}, {"level": "Some College - Less Than One Year", "count": 130}, {"level": "Two Years College", "count": 110}, {"level": "Post-bachelor's", "count": 74}, {"level": "One Year College", "count": 62}, {"level": "Four Years College", "count": 43}, {"level": "Three Years College", "count": 39}, {"level": "Post-master's", "count": 37}, {"level": "Terminal Occupational Program - Certificate of Completion, Diploma Or Equivalent", "count": 36}, {"level": "Post-doctorate", "count": 10}, {"level": "Some High School - Did Not Complete", "count": 10}, {"level": "Post-first Professional", "count": 8}, {"level": "Terminal Occupational Program - Did Not Complete", "count": 7}, {"level": "Sixth-year Degree", "count": 5}, {"level": "No Formal Education Or Some Elementary School - Did Not Complete", "count": 3}, {"level": "Invalid", "count": 1}], "subagencies": [{"code": "HUCC", "name": "OFFICE OF GENERAL COUNSEL", "employees": 2078, "avgSalary": 137997}, {"code": "HUBB", "name": "OFFICE OF THE CHIEF HUMAN CAPITAL OFFICER", "employees": 1374, "avgSalary": 140029}, {"code": "HUGG", "name": "OFFICE OF INSPECTOR GENERAL", "employees": 589, "avgSalary": 153059}, {"code": "HUEE", "name": "ASSISTANT SECRETARY FOR FAIR HOUSING AND EQUAL OPPORTUNITY", "employees": 515, "avgSalary": 149676}, {"code": "HUDD", "name": "ASSISTANT SECRETARY FOR COMMUNITY PLANNING AND DEVELOPMENT", "employees": 461, "avgSalary": 143055}, {"code": "HUAA", "name": "OFFICE OF THE SECRETARY OF HOUSING AND URBAN DEVELOPMENT", "employees": 454, "avgSalary": 152614}, {"code": "HU**", "name": "INVALID", "employees": 326, "avgSalary": 157998}, {"code": "HUFF", "name": "OFFICE OF THE CHIEF FINANCIAL OFFICER", "employees": 298, "avgSalary": 141542}, {"code": "HUKK", "name": "OFFICE OF FIELD POLICY AND MANAGEMENT", "employees": 66, "avgSalary": 150538}, {"code": "HUII", "name": "OFFICE OF DEPARTMENTAL OPERATIONS AND COORDINATION", "employees": 54, "avgSalary": 155110}, {"code": "HUJJ", "name": "ASSISTANT SECRETARY FOR CONGRESSIONAL AND INTERGOVERNMENTAL RELATIONS", "employees": 46, "avgSalary": 135242}, {"code": "HULL", "name": "OFFICE OF HEALTHY HOMES AND LEAD HAZARD CONTROL", "employees": 22, "avgSalary": 157430}, {"code": "HUMM", "name": "ASSISTANT SECRETARY FOR HOUSING--FEDERAL HOUSING COMMISSIONER", "employees": 15, "avgSalary": 146903}, {"code": "HUNN", "name": "OFFICE OF THE CHIEF PROCUREMENT OFFICER", "employees": 1, "avgSalary": 104781}], "ageDistribution": [{"bracket": "20-24", "count": 25}, {"bracket": "25-29", "count": 138}, {"bracket": "30-34", "count": 313}, {"bracket": "35-39", "count": 621}, {"bracket": "40-44", "count": 942}, {"bracket": "45-49", "count": 1021}, {"bracket": "50-54", "count": 949}, {"bracket": "55-59", "count": 1033}, {"bracket": "60-64", "count": 764}, {"bracket": "65 OR MORE", "count": 493}], "educationDistribution": [{"level": "BACHELOR'S DEGREE", "count": 1811}, {"level": "MASTER'S DEGREE", "count": 1714}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 1649}, {"level": "DOCTORATE DEGREE", "count": 257}, {"level": "FIRST PROFESSIONAL", "count": 149}, {"level": "ASSOCIATE DEGREE", "count": 144}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 130}, {"level": "TWO YEARS COLLEGE", "count": 110}, {"level": "POST-BACHELOR'S", "count": 74}, {"level": "ONE YEAR COLLEGE", "count": 62}, {"level": "FOUR YEARS COLLEGE", "count": 43}, {"level": "THREE YEARS COLLEGE", "count": 39}, {"level": "POST-MASTER'S", "count": 37}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT", "count": 36}, {"level": "POST-DOCTORATE", "count": 10}, {"level": "SOME HIGH SCHOOL - DID NOT COMPLETE", "count": 10}, {"level": "POST-FIRST PROFESSIONAL", "count": 8}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE", "count": 7}, {"level": "SIXTH-YEAR DEGREE", "count": 5}, {"level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE", "count": 3}, {"level": "INVALID", "count": 1}], "supervisoryBreakdown": [{"status": "ALL OTHER POSITIONS", "count": 5080}, {"status": "SUPERVISOR OR MANAGER", "count": 1179}, {"status": "TEAM LEADER", "count": 21}, {"status": "SUPERVISOR (CSRA)", "count": 15}, {"status": "MANAGEMENT OFFICIAL (CSRA)", "count": 4}], "stem": {"stemCount": 508, "total": 6299, "stemPct": 8.1}, "retirementRisk": {"eligible": 1729, "total": 6299, "pctEligible": 27.4}, "riskScore": 59, "quitRate": 49.2, "rifCount": 0, "seps2025": 2695, "seps2024": 650, "sepChange": 314.6, "reductionPct": 42.8, "experienceLostYears": 42265, "avgTenure": 15.4}
+{
+  "code": "HU",
+  "name": "Department of Housing and Urban Developm",
+  "employees": 6299,
+  "avgSalary": 143557,
+  "topOccupations": [
+    {
+      "name": "General Business and Industry",
+      "count": 1829,
+      "avgSalary": 141301
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 912,
+      "avgSalary": 149353
+    },
+    {
+      "name": "Management and Program Analysis",
+      "count": 884,
+      "avgSalary": 136058
+    },
+    {
+      "name": "General Attorney",
+      "count": 278,
+      "avgSalary": 173057
+    },
+    {
+      "name": "Equal Opportunity Compliance",
+      "count": 223,
+      "avgSalary": 128934
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 223,
+      "avgSalary": 158834
+    },
+    {
+      "name": "Auditing",
+      "count": 216,
+      "avgSalary": 150268
+    },
+    {
+      "name": "Financial Analysis",
+      "count": 211,
+      "avgSalary": 132405
+    },
+    {
+      "name": "Accounting",
+      "count": 127,
+      "avgSalary": 148952
+    },
+    {
+      "name": "Financial Administration and Program",
+      "count": 105,
+      "avgSalary": 143242
+    },
+    {
+      "name": "Budget Analysis",
+      "count": 101,
+      "avgSalary": 162021
+    },
+    {
+      "name": "Appraising",
+      "count": 91,
+      "avgSalary": 142399
+    },
+    {
+      "name": "Human Resources Management",
+      "count": 88,
+      "avgSalary": 158656
+    },
+    {
+      "name": "Construction Analyst",
+      "count": 75,
+      "avgSalary": 127270
+    },
+    {
+      "name": "Grants Management",
+      "count": 74,
+      "avgSalary": 125341
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 2280
+    },
+    {
+      "name": "Texas",
+      "code": "TX",
+      "count": 359
+    },
+    {
+      "name": "California",
+      "code": "CA",
+      "count": 344
+    },
+    {
+      "name": "Georgia",
+      "code": "GA",
+      "count": 344
+    },
+    {
+      "name": "Colorado",
+      "code": "CO",
+      "count": 274
+    },
+    {
+      "name": "Illinois",
+      "code": "IL",
+      "count": 264
+    },
+    {
+      "name": "New York",
+      "code": "NY",
+      "count": 257
+    },
+    {
+      "name": "Pennsylvania",
+      "code": "PA",
+      "count": 201
+    },
+    {
+      "name": "Maryland",
+      "code": "MD",
+      "count": 174
+    },
+    {
+      "name": "Florida",
+      "code": "FL",
+      "count": 156
+    },
+    {
+      "name": "Kansas",
+      "code": "KS",
+      "count": 125
+    },
+    {
+      "name": "Michigan",
+      "code": "MI",
+      "count": 105
+    },
+    {
+      "name": "Massachusetts",
+      "code": "MA",
+      "count": 101
+    },
+    {
+      "name": "Oklahoma",
+      "code": "OK",
+      "count": 97
+    },
+    {
+      "name": "Washington",
+      "code": "WA",
+      "count": 91
+    }
+  ],
+  "education": [
+    {
+      "level": "Bachelor's Degree",
+      "count": 1811
+    },
+    {
+      "level": "Master's Degree",
+      "count": 1714
+    },
+    {
+      "level": "High School Graduate Or Certificate of Equivalency",
+      "count": 1649
+    },
+    {
+      "level": "Doctorate Degree",
+      "count": 257
+    },
+    {
+      "level": "First Professional",
+      "count": 149
+    },
+    {
+      "level": "Associate Degree",
+      "count": 144
+    },
+    {
+      "level": "Some College - Less Than One Year",
+      "count": 130
+    },
+    {
+      "level": "Two Years College",
+      "count": 110
+    },
+    {
+      "level": "Post-bachelor's",
+      "count": 74
+    },
+    {
+      "level": "One Year College",
+      "count": 62
+    },
+    {
+      "level": "Four Years College",
+      "count": 43
+    },
+    {
+      "level": "Three Years College",
+      "count": 39
+    },
+    {
+      "level": "Post-master's",
+      "count": 37
+    },
+    {
+      "level": "Terminal Occupational Program - Certificate of Completion, Diploma Or Equivalent",
+      "count": 36
+    },
+    {
+      "level": "Post-doctorate",
+      "count": 10
+    },
+    {
+      "level": "Some High School - Did Not Complete",
+      "count": 10
+    },
+    {
+      "level": "Post-first Professional",
+      "count": 8
+    },
+    {
+      "level": "Terminal Occupational Program - Did Not Complete",
+      "count": 7
+    },
+    {
+      "level": "Sixth-year Degree",
+      "count": 5
+    },
+    {
+      "level": "No Formal Education Or Some Elementary School - Did Not Complete",
+      "count": 3
+    },
+    {
+      "level": "Invalid",
+      "count": 1
+    }
+  ],
+  "subagencies": [
+    {
+      "code": "HUCC",
+      "name": "OFFICE OF GENERAL COUNSEL",
+      "employees": 2078,
+      "avgSalary": 137997
+    },
+    {
+      "code": "HUBB",
+      "name": "OFFICE OF THE CHIEF HUMAN CAPITAL OFFICER",
+      "employees": 1374,
+      "avgSalary": 140029
+    },
+    {
+      "code": "HUGG",
+      "name": "OFFICE OF INSPECTOR GENERAL",
+      "employees": 589,
+      "avgSalary": 153059
+    },
+    {
+      "code": "HUEE",
+      "name": "ASSISTANT SECRETARY FOR FAIR HOUSING AND EQUAL OPPORTUNITY",
+      "employees": 515,
+      "avgSalary": 149676
+    },
+    {
+      "code": "HUDD",
+      "name": "ASSISTANT SECRETARY FOR COMMUNITY PLANNING AND DEVELOPMENT",
+      "employees": 461,
+      "avgSalary": 143055
+    },
+    {
+      "code": "HUAA",
+      "name": "OFFICE OF THE SECRETARY OF HOUSING AND URBAN DEVELOPMENT",
+      "employees": 454,
+      "avgSalary": 152614
+    },
+    {
+      "code": "HU**",
+      "name": "INVALID",
+      "employees": 326,
+      "avgSalary": 157998
+    },
+    {
+      "code": "HUFF",
+      "name": "OFFICE OF THE CHIEF FINANCIAL OFFICER",
+      "employees": 298,
+      "avgSalary": 141542
+    },
+    {
+      "code": "HUKK",
+      "name": "OFFICE OF FIELD POLICY AND MANAGEMENT",
+      "employees": 66,
+      "avgSalary": 150538
+    },
+    {
+      "code": "HUII",
+      "name": "OFFICE OF DEPARTMENTAL OPERATIONS AND COORDINATION",
+      "employees": 54,
+      "avgSalary": 155110
+    },
+    {
+      "code": "HUJJ",
+      "name": "ASSISTANT SECRETARY FOR CONGRESSIONAL AND INTERGOVERNMENTAL RELATIONS",
+      "employees": 46,
+      "avgSalary": 135242
+    },
+    {
+      "code": "HULL",
+      "name": "OFFICE OF HEALTHY HOMES AND LEAD HAZARD CONTROL",
+      "employees": 22,
+      "avgSalary": 157430
+    },
+    {
+      "code": "HUMM",
+      "name": "ASSISTANT SECRETARY FOR HOUSING--FEDERAL HOUSING COMMISSIONER",
+      "employees": 15,
+      "avgSalary": 146903
+    },
+    {
+      "code": "HUNN",
+      "name": "OFFICE OF THE CHIEF PROCUREMENT OFFICER",
+      "employees": 1,
+      "avgSalary": 104781
+    }
+  ],
+  "ageDistribution": [
+    {
+      "bracket": "20-24",
+      "count": 25
+    },
+    {
+      "bracket": "25-29",
+      "count": 138
+    },
+    {
+      "bracket": "30-34",
+      "count": 313
+    },
+    {
+      "bracket": "35-39",
+      "count": 621
+    },
+    {
+      "bracket": "40-44",
+      "count": 942
+    },
+    {
+      "bracket": "45-49",
+      "count": 1021
+    },
+    {
+      "bracket": "50-54",
+      "count": 949
+    },
+    {
+      "bracket": "55-59",
+      "count": 1033
+    },
+    {
+      "bracket": "60-64",
+      "count": 764
+    },
+    {
+      "bracket": "65 OR MORE",
+      "count": 493
+    }
+  ],
+  "educationDistribution": [
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 1811
+    },
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 1714
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 1649
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 257
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 149
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 144
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 130
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 110
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 74
+    },
+    {
+      "level": "ONE YEAR COLLEGE",
+      "count": 62
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 43
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 39
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 37
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT",
+      "count": 36
+    },
+    {
+      "level": "POST-DOCTORATE",
+      "count": 10
+    },
+    {
+      "level": "SOME HIGH SCHOOL - DID NOT COMPLETE",
+      "count": 10
+    },
+    {
+      "level": "POST-FIRST PROFESSIONAL",
+      "count": 8
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE",
+      "count": 7
+    },
+    {
+      "level": "SIXTH-YEAR DEGREE",
+      "count": 5
+    },
+    {
+      "level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE",
+      "count": 3
+    },
+    {
+      "level": "INVALID",
+      "count": 1
+    }
+  ],
+  "supervisoryBreakdown": [
+    {
+      "status": "ALL OTHER POSITIONS",
+      "count": 5080
+    },
+    {
+      "status": "SUPERVISOR OR MANAGER",
+      "count": 1179
+    },
+    {
+      "status": "TEAM LEADER",
+      "count": 21
+    },
+    {
+      "status": "SUPERVISOR (CSRA)",
+      "count": 15
+    },
+    {
+      "status": "MANAGEMENT OFFICIAL (CSRA)",
+      "count": 4
+    }
+  ],
+  "stem": {
+    "stemCount": 508,
+    "total": 6299,
+    "stemPct": 8.1
+  },
+  "retirementRisk": {
+    "eligible": 1729,
+    "total": 6299,
+    "pctEligible": 27.4
+  },
+  "riskScore": 59,
+  "quitRate": 49.2,
+  "rifCount": 0,
+  "seps2025": 2695,
+  "seps2024": 650,
+  "sepChange": 314.6,
+  "reductionPct": 42.8,
+  "experienceLostYears": 42265,
+  "avgTenure": 15.4,
+  "budgetAuthority": 275088549583,
+  "obligated": 23798624386,
+  "outlays": 21284336456,
+  "budgetPerEmployee": 43671781,
+  "contracts": -1329903557,
+  "contractsPerEmployee": -211129,
+  "grants": 28134897218,
+  "directPayments": 56282333878
+}

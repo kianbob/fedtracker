@@ -1,1 +1,533 @@
-{"code": "IN", "name": "Department of Interior", "employees": 56872, "avgSalary": 98133, "topOccupations": [{"name": "General Natural Resources Management and Biological Sciences", "count": 3904, "avgSalary": 105844}, {"name": "Park Ranger", "count": 3265, "avgSalary": 86072}, {"name": "Miscellaneous Administration and Program", "count": 2665, "avgSalary": 115991}, {"name": "Maintenance Mechanic", "count": 2597, "avgSalary": 68480}, {"name": "Information Technology Management", "count": 1887, "avgSalary": 122432}, {"name": "Wildland Fire Management", "count": 1656, "avgSalary": 79662}, {"name": "Miscellaneous Clerk and Assistant", "count": 1637, "avgSalary": 56715}, {"name": "Management and Program Analysis", "count": 1486, "avgSalary": 123172}, {"name": "Hydrologic Technician", "count": 1326, "avgSalary": 73991}, {"name": "Hydrology", "count": 1086, "avgSalary": 116562}, {"name": "Human Resources Management", "count": 1070, "avgSalary": 115082}, {"name": "Civil Engineering", "count": 1023, "avgSalary": 125633}, {"name": "Contracting", "count": 928, "avgSalary": 121319}, {"name": "Budget Analysis", "count": 925, "avgSalary": 105982}, {"name": "Biological Science Technician", "count": 924, "avgSalary": 54191}], "topStates": [{"name": "California", "code": "CA", "count": 5332}, {"name": "Colorado", "code": "CO", "count": 5174}, {"name": "Arizona", "code": "AZ", "count": 3375}, {"name": "New Mexico", "code": "NM", "count": 3011}, {"name": "Virginia", "code": "VA", "count": 2754}, {"name": "Oregon", "code": "OR", "count": 2198}, {"name": "Washington", "code": "WA", "count": 2165}, {"name": "Idaho", "code": "ID", "count": 1868}, {"name": "District of Columbia", "code": "DC", "count": 1849}, {"name": "Nevada", "code": "NV", "count": 1775}, {"name": "Utah", "code": "UT", "count": 1691}, {"name": "Alaska", "code": "AK", "count": 1671}, {"name": "Montana", "code": "MT", "count": 1574}, {"name": "Wyoming", "code": "WY", "count": 1534}, {"name": "Florida", "code": "FL", "count": 1289}], "education": [{"level": "Bachelor's Degree", "count": 18641}, {"level": "High School Graduate Or Certificate of Equivalency", "count": 14046}, {"level": "Master's Degree", "count": 10355}, {"level": "Doctorate Degree", "count": 2541}, {"level": "Associate Degree", "count": 2478}, {"level": "Some College - Less Than One Year", "count": 1677}, {"level": "Two Years College", "count": 1273}, {"level": "Post-bachelor's", "count": 1136}, {"level": "One Year College", "count": 1115}, {"level": "Four Years College", "count": 683}, {"level": "Three Years College", "count": 673}, {"level": "First Professional", "count": 559}, {"level": "Terminal Occupational Program - Certificate of Completion, Diploma Or Equivalent", "count": 463}, {"level": "No Data Reported", "count": 378}, {"level": "Post-master's", "count": 312}, {"level": "Some High School - Did Not Complete", "count": 115}, {"level": "Terminal Occupational Program - Did Not Complete", "count": 111}, {"level": "Post-first Professional", "count": 92}, {"level": "Post-doctorate", "count": 75}, {"level": "No Formal Education Or Some Elementary School - Did Not Complete", "count": 61}, {"level": "Post-sixth Year", "count": 45}, {"level": "Sixth-year Degree", "count": 40}, {"level": "Elementary School Completed - No High School", "count": 3}], "subagencies": [{"code": "IN10", "name": "NATIONAL PARK SERVICE", "employees": 15156, "avgSalary": 81710}, {"code": "IN05", "name": "BUREAU OF LAND MANAGEMENT", "employees": 7858, "avgSalary": 90378}, {"code": "IN01", "name": "OFFICE OF THE SECRETARY OF THE INTERIOR", "employees": 7595, "avgSalary": 119808}, {"code": "IN15", "name": "U.S. FISH AND WILDLIFE SERVICE", "employees": 6994, "avgSalary": 99787}, {"code": "IN08", "name": "GEOLOGICAL SURVEY", "employees": 6515, "avgSalary": 105611}, {"code": "IN07", "name": "BUREAU OF RECLAMATION", "employees": 4025, "avgSalary": 110160}, {"code": "IN06", "name": "INDIAN AFFAIRS", "employees": 3485, "avgSalary": 94520}, {"code": "IN28", "name": "BUREAU OF INDIAN EDUCATION", "employees": 2843, "avgSalary": 79503}, {"code": "IN26", "name": "BUREAU OF SAFETY AND ENVIRONMENTAL ENFORCEMENT", "employees": 582, "avgSalary": 138856}, {"code": "IN27", "name": "BUREAU OF OCEAN ENERGY MANAGEMENT", "employees": 513, "avgSalary": 143684}, {"code": "IN21", "name": "OFFICE OF THE SOLICITOR", "employees": 439, "avgSalary": 160203}, {"code": "IN29", "name": "BUREAU OF TRUST FUNDS ADMINISTRATION", "employees": 370, "avgSalary": 110298}, {"code": "IN22", "name": "OFFICE OF SURFACE MINING, RECLAMATION AND ENFORCEMENT", "employees": 261, "avgSalary": 124618}, {"code": "IN24", "name": "OFFICE OF THE INSPECTOR GENERAL", "employees": 236, "avgSalary": 155637}], "ageDistribution": [{"bracket": "20-24", "count": 960}, {"bracket": "25-29", "count": 3474}, {"bracket": "30-34", "count": 5488}, {"bracket": "35-39", "count": 7056}, {"bracket": "40-44", "count": 8209}, {"bracket": "45-49", "count": 8356}, {"bracket": "50-54", "count": 7679}, {"bracket": "55-59", "count": 7031}, {"bracket": "60-64", "count": 5296}, {"bracket": "65 OR MORE", "count": 3306}, {"bracket": "LESS THAN 20", "count": 17}], "educationDistribution": [{"level": "BACHELOR'S DEGREE", "count": 18641}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 14046}, {"level": "MASTER'S DEGREE", "count": 10355}, {"level": "DOCTORATE DEGREE", "count": 2541}, {"level": "ASSOCIATE DEGREE", "count": 2478}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 1677}, {"level": "TWO YEARS COLLEGE", "count": 1273}, {"level": "POST-BACHELOR'S", "count": 1136}, {"level": "ONE YEAR COLLEGE", "count": 1115}, {"level": "FOUR YEARS COLLEGE", "count": 683}, {"level": "THREE YEARS COLLEGE", "count": 673}, {"level": "FIRST PROFESSIONAL", "count": 559}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT", "count": 463}, {"level": "NO DATA REPORTED", "count": 378}, {"level": "POST-MASTER'S", "count": 312}, {"level": "SOME HIGH SCHOOL - DID NOT COMPLETE", "count": 115}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE", "count": 111}, {"level": "POST-FIRST PROFESSIONAL", "count": 92}, {"level": "POST-DOCTORATE", "count": 75}, {"level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE", "count": 61}, {"level": "POST-SIXTH YEAR", "count": 45}, {"level": "SIXTH-YEAR DEGREE", "count": 40}, {"level": "ELEMENTARY SCHOOL COMPLETED - NO HIGH SCHOOL", "count": 3}], "supervisoryBreakdown": [{"status": "ALL OTHER POSITIONS", "count": 44294}, {"status": "SUPERVISOR OR MANAGER", "count": 9448}, {"status": "SUPERVISOR (CSRA)", "count": 2409}, {"status": "LEADER", "count": 492}, {"status": "TEAM LEADER", "count": 180}, {"status": "MANAGEMENT OFFICIAL (CSRA)", "count": 49}], "stem": {"stemCount": 16504, "total": 56872, "stemPct": 29.0}, "retirementRisk": {"eligible": 13194, "total": 56872, "pctEligible": 23.2}, "riskScore": 36, "quitRate": 43.7, "rifCount": 0, "seps2025": 14743, "seps2024": 12401, "sepChange": 18.9, "reductionPct": 25.9, "experienceLostYears": 124461, "avgTenure": 14.4}
+{
+  "code": "IN",
+  "name": "Department of Interior",
+  "employees": 56872,
+  "avgSalary": 98133,
+  "topOccupations": [
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "count": 3904,
+      "avgSalary": 105844
+    },
+    {
+      "name": "Park Ranger",
+      "count": 3265,
+      "avgSalary": 86072
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 2665,
+      "avgSalary": 115991
+    },
+    {
+      "name": "Maintenance Mechanic",
+      "count": 2597,
+      "avgSalary": 68480
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 1887,
+      "avgSalary": 122432
+    },
+    {
+      "name": "Wildland Fire Management",
+      "count": 1656,
+      "avgSalary": 79662
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "count": 1637,
+      "avgSalary": 56715
+    },
+    {
+      "name": "Management and Program Analysis",
+      "count": 1486,
+      "avgSalary": 123172
+    },
+    {
+      "name": "Hydrologic Technician",
+      "count": 1326,
+      "avgSalary": 73991
+    },
+    {
+      "name": "Hydrology",
+      "count": 1086,
+      "avgSalary": 116562
+    },
+    {
+      "name": "Human Resources Management",
+      "count": 1070,
+      "avgSalary": 115082
+    },
+    {
+      "name": "Civil Engineering",
+      "count": 1023,
+      "avgSalary": 125633
+    },
+    {
+      "name": "Contracting",
+      "count": 928,
+      "avgSalary": 121319
+    },
+    {
+      "name": "Budget Analysis",
+      "count": 925,
+      "avgSalary": 105982
+    },
+    {
+      "name": "Biological Science Technician",
+      "count": 924,
+      "avgSalary": 54191
+    }
+  ],
+  "topStates": [
+    {
+      "name": "California",
+      "code": "CA",
+      "count": 5332
+    },
+    {
+      "name": "Colorado",
+      "code": "CO",
+      "count": 5174
+    },
+    {
+      "name": "Arizona",
+      "code": "AZ",
+      "count": 3375
+    },
+    {
+      "name": "New Mexico",
+      "code": "NM",
+      "count": 3011
+    },
+    {
+      "name": "Virginia",
+      "code": "VA",
+      "count": 2754
+    },
+    {
+      "name": "Oregon",
+      "code": "OR",
+      "count": 2198
+    },
+    {
+      "name": "Washington",
+      "code": "WA",
+      "count": 2165
+    },
+    {
+      "name": "Idaho",
+      "code": "ID",
+      "count": 1868
+    },
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 1849
+    },
+    {
+      "name": "Nevada",
+      "code": "NV",
+      "count": 1775
+    },
+    {
+      "name": "Utah",
+      "code": "UT",
+      "count": 1691
+    },
+    {
+      "name": "Alaska",
+      "code": "AK",
+      "count": 1671
+    },
+    {
+      "name": "Montana",
+      "code": "MT",
+      "count": 1574
+    },
+    {
+      "name": "Wyoming",
+      "code": "WY",
+      "count": 1534
+    },
+    {
+      "name": "Florida",
+      "code": "FL",
+      "count": 1289
+    }
+  ],
+  "education": [
+    {
+      "level": "Bachelor's Degree",
+      "count": 18641
+    },
+    {
+      "level": "High School Graduate Or Certificate of Equivalency",
+      "count": 14046
+    },
+    {
+      "level": "Master's Degree",
+      "count": 10355
+    },
+    {
+      "level": "Doctorate Degree",
+      "count": 2541
+    },
+    {
+      "level": "Associate Degree",
+      "count": 2478
+    },
+    {
+      "level": "Some College - Less Than One Year",
+      "count": 1677
+    },
+    {
+      "level": "Two Years College",
+      "count": 1273
+    },
+    {
+      "level": "Post-bachelor's",
+      "count": 1136
+    },
+    {
+      "level": "One Year College",
+      "count": 1115
+    },
+    {
+      "level": "Four Years College",
+      "count": 683
+    },
+    {
+      "level": "Three Years College",
+      "count": 673
+    },
+    {
+      "level": "First Professional",
+      "count": 559
+    },
+    {
+      "level": "Terminal Occupational Program - Certificate of Completion, Diploma Or Equivalent",
+      "count": 463
+    },
+    {
+      "level": "No Data Reported",
+      "count": 378
+    },
+    {
+      "level": "Post-master's",
+      "count": 312
+    },
+    {
+      "level": "Some High School - Did Not Complete",
+      "count": 115
+    },
+    {
+      "level": "Terminal Occupational Program - Did Not Complete",
+      "count": 111
+    },
+    {
+      "level": "Post-first Professional",
+      "count": 92
+    },
+    {
+      "level": "Post-doctorate",
+      "count": 75
+    },
+    {
+      "level": "No Formal Education Or Some Elementary School - Did Not Complete",
+      "count": 61
+    },
+    {
+      "level": "Post-sixth Year",
+      "count": 45
+    },
+    {
+      "level": "Sixth-year Degree",
+      "count": 40
+    },
+    {
+      "level": "Elementary School Completed - No High School",
+      "count": 3
+    }
+  ],
+  "subagencies": [
+    {
+      "code": "IN10",
+      "name": "NATIONAL PARK SERVICE",
+      "employees": 15156,
+      "avgSalary": 81710
+    },
+    {
+      "code": "IN05",
+      "name": "BUREAU OF LAND MANAGEMENT",
+      "employees": 7858,
+      "avgSalary": 90378
+    },
+    {
+      "code": "IN01",
+      "name": "OFFICE OF THE SECRETARY OF THE INTERIOR",
+      "employees": 7595,
+      "avgSalary": 119808
+    },
+    {
+      "code": "IN15",
+      "name": "U.S. FISH AND WILDLIFE SERVICE",
+      "employees": 6994,
+      "avgSalary": 99787
+    },
+    {
+      "code": "IN08",
+      "name": "GEOLOGICAL SURVEY",
+      "employees": 6515,
+      "avgSalary": 105611
+    },
+    {
+      "code": "IN07",
+      "name": "BUREAU OF RECLAMATION",
+      "employees": 4025,
+      "avgSalary": 110160
+    },
+    {
+      "code": "IN06",
+      "name": "INDIAN AFFAIRS",
+      "employees": 3485,
+      "avgSalary": 94520
+    },
+    {
+      "code": "IN28",
+      "name": "BUREAU OF INDIAN EDUCATION",
+      "employees": 2843,
+      "avgSalary": 79503
+    },
+    {
+      "code": "IN26",
+      "name": "BUREAU OF SAFETY AND ENVIRONMENTAL ENFORCEMENT",
+      "employees": 582,
+      "avgSalary": 138856
+    },
+    {
+      "code": "IN27",
+      "name": "BUREAU OF OCEAN ENERGY MANAGEMENT",
+      "employees": 513,
+      "avgSalary": 143684
+    },
+    {
+      "code": "IN21",
+      "name": "OFFICE OF THE SOLICITOR",
+      "employees": 439,
+      "avgSalary": 160203
+    },
+    {
+      "code": "IN29",
+      "name": "BUREAU OF TRUST FUNDS ADMINISTRATION",
+      "employees": 370,
+      "avgSalary": 110298
+    },
+    {
+      "code": "IN22",
+      "name": "OFFICE OF SURFACE MINING, RECLAMATION AND ENFORCEMENT",
+      "employees": 261,
+      "avgSalary": 124618
+    },
+    {
+      "code": "IN24",
+      "name": "OFFICE OF THE INSPECTOR GENERAL",
+      "employees": 236,
+      "avgSalary": 155637
+    }
+  ],
+  "ageDistribution": [
+    {
+      "bracket": "20-24",
+      "count": 960
+    },
+    {
+      "bracket": "25-29",
+      "count": 3474
+    },
+    {
+      "bracket": "30-34",
+      "count": 5488
+    },
+    {
+      "bracket": "35-39",
+      "count": 7056
+    },
+    {
+      "bracket": "40-44",
+      "count": 8209
+    },
+    {
+      "bracket": "45-49",
+      "count": 8356
+    },
+    {
+      "bracket": "50-54",
+      "count": 7679
+    },
+    {
+      "bracket": "55-59",
+      "count": 7031
+    },
+    {
+      "bracket": "60-64",
+      "count": 5296
+    },
+    {
+      "bracket": "65 OR MORE",
+      "count": 3306
+    },
+    {
+      "bracket": "LESS THAN 20",
+      "count": 17
+    }
+  ],
+  "educationDistribution": [
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 18641
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 14046
+    },
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 10355
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 2541
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 2478
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 1677
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 1273
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 1136
+    },
+    {
+      "level": "ONE YEAR COLLEGE",
+      "count": 1115
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 683
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 673
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 559
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT",
+      "count": 463
+    },
+    {
+      "level": "NO DATA REPORTED",
+      "count": 378
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 312
+    },
+    {
+      "level": "SOME HIGH SCHOOL - DID NOT COMPLETE",
+      "count": 115
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE",
+      "count": 111
+    },
+    {
+      "level": "POST-FIRST PROFESSIONAL",
+      "count": 92
+    },
+    {
+      "level": "POST-DOCTORATE",
+      "count": 75
+    },
+    {
+      "level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE",
+      "count": 61
+    },
+    {
+      "level": "POST-SIXTH YEAR",
+      "count": 45
+    },
+    {
+      "level": "SIXTH-YEAR DEGREE",
+      "count": 40
+    },
+    {
+      "level": "ELEMENTARY SCHOOL COMPLETED - NO HIGH SCHOOL",
+      "count": 3
+    }
+  ],
+  "supervisoryBreakdown": [
+    {
+      "status": "ALL OTHER POSITIONS",
+      "count": 44294
+    },
+    {
+      "status": "SUPERVISOR OR MANAGER",
+      "count": 9448
+    },
+    {
+      "status": "SUPERVISOR (CSRA)",
+      "count": 2409
+    },
+    {
+      "status": "LEADER",
+      "count": 492
+    },
+    {
+      "status": "TEAM LEADER",
+      "count": 180
+    },
+    {
+      "status": "MANAGEMENT OFFICIAL (CSRA)",
+      "count": 49
+    }
+  ],
+  "stem": {
+    "stemCount": 16504,
+    "total": 56872,
+    "stemPct": 29.0
+  },
+  "retirementRisk": {
+    "eligible": 13194,
+    "total": 56872,
+    "pctEligible": 23.2
+  },
+  "riskScore": 36,
+  "quitRate": 43.7,
+  "rifCount": 0,
+  "seps2025": 14743,
+  "seps2024": 12401,
+  "sepChange": 18.9,
+  "reductionPct": 25.9,
+  "experienceLostYears": 124461,
+  "avgTenure": 14.4,
+  "budgetAuthority": 74676455192,
+  "obligated": 6799509272,
+  "outlays": 8111028602,
+  "budgetPerEmployee": 1313062,
+  "contracts": 6442999575,
+  "contractsPerEmployee": 113289,
+  "grants": 7694178416,
+  "directPayments": 3915699714
+}

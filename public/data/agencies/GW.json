@@ -1,1 +1,209 @@
-{"code": "GW", "name": "INTER BOUND AND WATER COMM U.S. SECTION", "employees": 279, "avgSalary": 85379, "topOccupations": [{"name": "ENGINEERING EQUIPMENT OPERATING", "count": 27, "avgSalary": 65679}, {"name": "CIVIL ENGINEERING", "count": 24, "avgSalary": 119087}, {"name": "SECURITY GUARD", "count": 23, "avgSalary": 55200}, {"name": "MAINTENANCE MECHANIC", "count": 15, "avgSalary": 64602}, {"name": "HYDROLOGIC TECHNICIAN", "count": 13, "avgSalary": 61163}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "count": 9, "avgSalary": 109720}, {"name": "GENERAL ENGINEERING", "count": 8, "avgSalary": 126460}, {"name": "HEAVY MOBILE EQUIPMENT MECHANIC", "count": 7, "avgSalary": 70117}, {"name": "SUPPLY CLERICAL AND TECHNICIAN", "count": 7, "avgSalary": 58046}, {"name": "SECURITY ADMINISTRATION", "count": 7, "avgSalary": 104249}, {"name": "TRACTOR OPERATING", "count": 6, "avgSalary": 66398}, {"name": "INDUSTRIAL EQUIPMENT MECHANIC", "count": 6, "avgSalary": 72033}, {"name": "SEWAGE DISPOSAL PLANT OPERATING", "count": 6, "avgSalary": 63340}, {"name": "ELECTRICAL POWER CONTROLLING", "count": 6, "avgSalary": 76774}, {"name": "HYDROLOGY", "count": 6, "avgSalary": 116439}], "topStates": [{"name": "TEXAS", "code": "TX", "count": 239}, {"name": "ARIZONA", "code": "AZ", "count": 19}, {"name": "NEW MEXICO", "code": "NM", "count": 9}, {"name": "CALIFORNIA", "code": "CA", "count": 6}, {"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 1}, {"name": "FLORIDA", "code": "FL", "count": 1}, {"name": "KENTUCKY", "code": "KY", "count": 1}, {"name": "UTAH", "code": "UT", "count": 1}, {"name": "WASHINGTON", "code": "WA", "count": 1}, {"name": "GEORGIA", "code": "GA", "count": 1}], "education": [{"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 89}, {"level": "BACHELOR'S DEGREE", "count": 66}, {"level": "MASTER'S DEGREE", "count": 26}, {"level": "TWO YEARS COLLEGE", "count": 19}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 15}, {"level": "ASSOCIATE DEGREE", "count": 15}, {"level": "ONE YEAR COLLEGE", "count": 11}, {"level": "THREE YEARS COLLEGE", "count": 7}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT", "count": 5}, {"level": "DOCTORATE DEGREE", "count": 5}, {"level": "POST-BACHELOR'S", "count": 4}, {"level": "SOME HIGH SCHOOL - DID NOT COMPLETE", "count": 4}, {"level": "FOUR YEARS COLLEGE", "count": 4}, {"level": "FIRST PROFESSIONAL", "count": 3}, {"level": "POST-FIRST PROFESSIONAL", "count": 2}, {"level": "POST-SIXTH YEAR", "count": 2}, {"level": "POST-DOCTORATE", "count": 1}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE", "count": 1}]}
+{
+  "code": "GW",
+  "name": "Inter Bound and Water Comm U.S. Section",
+  "employees": 279,
+  "avgSalary": 85379,
+  "topOccupations": [
+    {
+      "name": "Engineering Equipment Operating",
+      "count": 27,
+      "avgSalary": 65679
+    },
+    {
+      "name": "Civil Engineering",
+      "count": 24,
+      "avgSalary": 119087
+    },
+    {
+      "name": "Security Guard",
+      "count": 23,
+      "avgSalary": 55200
+    },
+    {
+      "name": "Maintenance Mechanic",
+      "count": 15,
+      "avgSalary": 64602
+    },
+    {
+      "name": "Hydrologic Technician",
+      "count": 13,
+      "avgSalary": 61163
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 9,
+      "avgSalary": 109720
+    },
+    {
+      "name": "General Engineering",
+      "count": 8,
+      "avgSalary": 126460
+    },
+    {
+      "name": "Heavy Mobile Equipment Mechanic",
+      "count": 7,
+      "avgSalary": 70117
+    },
+    {
+      "name": "Supply Clerical and Technician",
+      "count": 7,
+      "avgSalary": 58046
+    },
+    {
+      "name": "Security Administration",
+      "count": 7,
+      "avgSalary": 104249
+    },
+    {
+      "name": "Tractor Operating",
+      "count": 6,
+      "avgSalary": 66398
+    },
+    {
+      "name": "Industrial Equipment Mechanic",
+      "count": 6,
+      "avgSalary": 72033
+    },
+    {
+      "name": "Sewage Disposal Plant Operating",
+      "count": 6,
+      "avgSalary": 63340
+    },
+    {
+      "name": "Electrical Power Controlling",
+      "count": 6,
+      "avgSalary": 76774
+    },
+    {
+      "name": "Hydrology",
+      "count": 6,
+      "avgSalary": 116439
+    }
+  ],
+  "topStates": [
+    {
+      "name": "Texas",
+      "code": "TX",
+      "count": 239
+    },
+    {
+      "name": "Arizona",
+      "code": "AZ",
+      "count": 19
+    },
+    {
+      "name": "New Mexico",
+      "code": "NM",
+      "count": 9
+    },
+    {
+      "name": "California",
+      "code": "CA",
+      "count": 6
+    },
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 1
+    },
+    {
+      "name": "Florida",
+      "code": "FL",
+      "count": 1
+    },
+    {
+      "name": "Kentucky",
+      "code": "KY",
+      "count": 1
+    },
+    {
+      "name": "Utah",
+      "code": "UT",
+      "count": 1
+    },
+    {
+      "name": "Washington",
+      "code": "WA",
+      "count": 1
+    },
+    {
+      "name": "Georgia",
+      "code": "GA",
+      "count": 1
+    }
+  ],
+  "education": [
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 89
+    },
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 66
+    },
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 26
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 19
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 15
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 15
+    },
+    {
+      "level": "ONE YEAR COLLEGE",
+      "count": 11
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 7
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT",
+      "count": 5
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 5
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 4
+    },
+    {
+      "level": "SOME HIGH SCHOOL - DID NOT COMPLETE",
+      "count": 4
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 4
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 3
+    },
+    {
+      "level": "POST-FIRST PROFESSIONAL",
+      "count": 2
+    },
+    {
+      "level": "POST-SIXTH YEAR",
+      "count": 2
+    },
+    {
+      "level": "POST-DOCTORATE",
+      "count": 1
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE",
+      "count": 1
+    }
+  ]
+}

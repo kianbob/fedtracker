@@ -1,1 +1,160 @@
-{"code": "NV", "name": "NEVADA", "employees": 4105, "avgSalary": 96971, "topAgencies": [{"name": "DEPARTMENT OF INTERIOR", "code": "IN", "employees": 2006}, {"name": "DEPARTMENT OF AGRICULTURE", "code": "AG", "employees": 556}, {"name": "DEPARTMENT OF TRANSPORTATION", "code": "TD", "employees": 358}, {"name": "SOCIAL SECURITY ADMINISTRATION", "code": "SZ", "employees": 251}, {"name": "DEPARTMENT OF COMMERCE", "code": "CM", "employees": 187}, {"name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "code": "HE", "employees": 159}, {"name": "DEPARTMENT OF TREASURY", "code": "TR", "employees": 155}, {"name": "DEPARTMENT OF ENERGY", "code": "DN", "employees": 137}, {"name": "DEPARTMENT OF LABOR", "code": "DL", "employees": 52}, {"name": "GENERAL SERVICES ADMINISTRATION", "code": "GS", "employees": 43}, {"name": "ENVIRONMENTAL PROTECTION AGENCY", "code": "EP", "employees": 42}, {"name": "DEPARTMENT OF JUSTICE", "code": "DJ", "employees": 42}, {"name": "SMALL BUSINESS ADMINISTRATION", "code": "SB", "employees": 41}, {"name": "EQUAL EMPLOYMENT OPPORTUNITY COMMISSION", "code": "EE", "employees": 16}, {"name": "DEPARTMENT OF HOUSING AND URBAN DEVELOPM", "code": "HU", "employees": 10}], "topOccupations": [{"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "employees": 230, "avgSalary": 108514}, {"name": "WILDLAND FIRE MANAGEMENT", "employees": 195, "avgSalary": 65591}, {"name": "GENERAL NATURAL RESOURCES MANAGEMENT AND BIOLOGICAL SCIENCES", "employees": 189, "avgSalary": 91447}, {"name": "AIR TRAFFIC CONTROL", "employees": 153, "avgSalary": 153809}, {"name": "SOCIAL INSURANCE ADMINISTRATION", "employees": 148, "avgSalary": 90611}, {"name": "FORESTRY TECHNICIAN", "employees": 144, "avgSalary": 55333}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "employees": 136, "avgSalary": 49186}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "employees": 133, "avgSalary": 111826}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "employees": 132, "avgSalary": 115262}, {"name": "GENERAL BUSINESS AND INDUSTRY", "employees": 82, "avgSalary": 91384}, {"name": "TRANSPORTATION SPECIALIST", "employees": 78, "avgSalary": 109429}, {"name": "BIOLOGICAL SCIENCE TECHNICIAN", "employees": 76, "avgSalary": 48174}, {"name": "REALTY", "employees": 69, "avgSalary": 84346}, {"name": "HUMAN RESOURCES MANAGEMENT", "employees": 69, "avgSalary": 105313}, {"name": "PARK RANGER", "employees": 67, "avgSalary": 76078}]}
+{
+  "code": "NV",
+  "name": "NEVADA",
+  "employees": 4105,
+  "avgSalary": 96971,
+  "topAgencies": [
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 2006
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 556
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 358
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 251
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 187
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 159
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 155
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 137
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 52
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 43
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 42
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 42
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 41
+    },
+    {
+      "name": "Equal Employment Opportunity Commission",
+      "code": "EE",
+      "employees": 16
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 10
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 230,
+      "avgSalary": 108514
+    },
+    {
+      "name": "Wildland Fire Management",
+      "employees": 195,
+      "avgSalary": 65591
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 189,
+      "avgSalary": 91447
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 153,
+      "avgSalary": 153809
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 148,
+      "avgSalary": 90611
+    },
+    {
+      "name": "Forestry Technician",
+      "employees": 144,
+      "avgSalary": 55333
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 136,
+      "avgSalary": 49186
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 133,
+      "avgSalary": 111826
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 132,
+      "avgSalary": 115262
+    },
+    {
+      "name": "General Business and Industry",
+      "employees": 82,
+      "avgSalary": 91384
+    },
+    {
+      "name": "Transportation Specialist",
+      "employees": 78,
+      "avgSalary": 109429
+    },
+    {
+      "name": "Biological Science Technician",
+      "employees": 76,
+      "avgSalary": 48174
+    },
+    {
+      "name": "Realty",
+      "employees": 69,
+      "avgSalary": 84346
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 69,
+      "avgSalary": 105313
+    },
+    {
+      "name": "Park Ranger",
+      "employees": 67,
+      "avgSalary": 76078
+    }
+  ]
+}

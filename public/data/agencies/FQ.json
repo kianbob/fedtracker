@@ -1,1 +1,183 @@
-{"code": "FQ", "name": "COURT SERVICES AND OFFENDR SUPERVSN AGY", "employees": 1024, "avgSalary": 125753, "topOccupations": [{"name": "SOCIAL SCIENCE", "count": 594, "avgSalary": 122202}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 61, "avgSalary": 131533}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "count": 59, "avgSalary": 160499}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "count": 45, "avgSalary": 70287}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "count": 40, "avgSalary": 156504}, {"name": "SOCIAL SCIENCE AID AND TECHNICIAN", "count": 35, "avgSalary": 70181}, {"name": "HUMAN RESOURCES MANAGEMENT", "count": 34, "avgSalary": 147709}, {"name": "GENERAL ATTORNEY", "count": 13, "avgSalary": 179285}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "count": 12, "avgSalary": 138259}, {"name": "CONTRACTING", "count": 11, "avgSalary": 143270}, {"name": "SOCIAL SERVICES AID AND ASSISTANT", "count": 9, "avgSalary": 86075}, {"name": "TRAINING INSTRUCTION", "count": 8, "avgSalary": 138039}, {"name": "SECURITY ADMINISTRATION", "count": 8, "avgSalary": 147375}, {"name": "TOXICOLOGY", "count": 7, "avgSalary": 126031}, {"name": "GENERAL EDUCATION AND TRAINING", "count": 7, "avgSalary": 133752}], "topStates": [{"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 1022}, {"name": "REDACTED", "code": "REDACTED", "count": 2}, {"name": "FLORIDA", "code": "FL", "count": 1}, {"name": "VIRGINIA", "code": "VA", "count": 1}], "education": [{"level": "BACHELOR'S DEGREE", "count": 427}, {"level": "MASTER'S DEGREE", "count": 217}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 184}, {"level": "POST-BACHELOR'S", "count": 34}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 31}, {"level": "ASSOCIATE DEGREE", "count": 21}, {"level": "DOCTORATE DEGREE", "count": 18}, {"level": "FIRST PROFESSIONAL", "count": 15}, {"level": "TWO YEARS COLLEGE", "count": 14}, {"level": "FOUR YEARS COLLEGE", "count": 13}, {"level": "THREE YEARS COLLEGE", "count": 12}, {"level": "ONE YEAR COLLEGE", "count": 12}, {"level": "POST-MASTER'S", "count": 10}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT", "count": 8}, {"level": "POST-FIRST PROFESSIONAL", "count": 3}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE", "count": 2}, {"level": "SOME HIGH SCHOOL - DID NOT COMPLETE", "count": 2}, {"level": "POST-DOCTORATE", "count": 2}, {"level": "SIXTH-YEAR DEGREE", "count": 1}]}
+{
+  "code": "FQ",
+  "name": "Court Services and Offendr Supervsn Agy",
+  "employees": 1024,
+  "avgSalary": 125753,
+  "topOccupations": [
+    {
+      "name": "Social Science",
+      "count": 594,
+      "avgSalary": 122202
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 61,
+      "avgSalary": 131533
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 59,
+      "avgSalary": 160499
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "count": 45,
+      "avgSalary": 70287
+    },
+    {
+      "name": "Management and Program Analysis",
+      "count": 40,
+      "avgSalary": 156504
+    },
+    {
+      "name": "Social Science Aid and Technician",
+      "count": 35,
+      "avgSalary": 70181
+    },
+    {
+      "name": "Human Resources Management",
+      "count": 34,
+      "avgSalary": 147709
+    },
+    {
+      "name": "General Attorney",
+      "count": 13,
+      "avgSalary": 179285
+    },
+    {
+      "name": "Financial Administration and Program",
+      "count": 12,
+      "avgSalary": 138259
+    },
+    {
+      "name": "Contracting",
+      "count": 11,
+      "avgSalary": 143270
+    },
+    {
+      "name": "Social Services Aid and Assistant",
+      "count": 9,
+      "avgSalary": 86075
+    },
+    {
+      "name": "Training Instruction",
+      "count": 8,
+      "avgSalary": 138039
+    },
+    {
+      "name": "Security Administration",
+      "count": 8,
+      "avgSalary": 147375
+    },
+    {
+      "name": "Toxicology",
+      "count": 7,
+      "avgSalary": 126031
+    },
+    {
+      "name": "General Education and Training",
+      "count": 7,
+      "avgSalary": 133752
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 1022
+    },
+    {
+      "name": "Redacted",
+      "code": "REDACTED",
+      "count": 2
+    },
+    {
+      "name": "Florida",
+      "code": "FL",
+      "count": 1
+    },
+    {
+      "name": "Virginia",
+      "code": "VA",
+      "count": 1
+    }
+  ],
+  "education": [
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 427
+    },
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 217
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 184
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 34
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 31
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 21
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 18
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 15
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 14
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 13
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 12
+    },
+    {
+      "level": "ONE YEAR COLLEGE",
+      "count": 12
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 10
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT",
+      "count": 8
+    },
+    {
+      "level": "POST-FIRST PROFESSIONAL",
+      "count": 3
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE",
+      "count": 2
+    },
+    {
+      "level": "SOME HIGH SCHOOL - DID NOT COMPLETE",
+      "count": 2
+    },
+    {
+      "level": "POST-DOCTORATE",
+      "count": 2
+    },
+    {
+      "level": "SIXTH-YEAR DEGREE",
+      "count": 1
+    }
+  ]
+}

@@ -1,1 +1,160 @@
-{"code": "NE", "name": "NEBRASKA", "employees": 2574, "avgSalary": 92233, "topAgencies": [{"name": "DEPARTMENT OF AGRICULTURE", "code": "AG", "employees": 1341}, {"name": "DEPARTMENT OF INTERIOR", "code": "IN", "employees": 357}, {"name": "DEPARTMENT OF TRANSPORTATION", "code": "TD", "employees": 187}, {"name": "SOCIAL SECURITY ADMINISTRATION", "code": "SZ", "employees": 148}, {"name": "DEPARTMENT OF COMMERCE", "code": "CM", "employees": 128}, {"name": "DEPARTMENT OF TREASURY", "code": "TR", "employees": 98}, {"name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "code": "HE", "employees": 88}, {"name": "FEDERAL DEPOSIT INSURANCE CORPORATION", "code": "FD", "employees": 49}, {"name": "DEPARTMENT OF LABOR", "code": "DL", "employees": 30}, {"name": "GENERAL SERVICES ADMINISTRATION", "code": "GS", "employees": 28}, {"name": "DEPARTMENT OF HOUSING AND URBAN DEVELOPM", "code": "HU", "employees": 27}, {"name": "DEPARTMENT OF JUSTICE", "code": "DJ", "employees": 25}, {"name": "DEPARTMENT OF ENERGY", "code": "DN", "employees": 23}, {"name": "SMALL BUSINESS ADMINISTRATION", "code": "SB", "employees": 16}, {"name": "NATIONAL CREDIT UNION ADMINISTRATION", "code": "CU", "employees": 7}], "topOccupations": [{"name": "CONSUMER SAFETY INSPECTION", "employees": 196, "avgSalary": 70425}, {"name": "SOIL CONSERVATION", "employees": 154, "avgSalary": 82450}, {"name": "GENERAL NATURAL RESOURCES MANAGEMENT AND BIOLOGICAL SCIENCES", "employees": 126, "avgSalary": 96230}, {"name": "LOAN SPECIALIST", "employees": 102, "avgSalary": 87028}, {"name": "SOCIAL INSURANCE ADMINISTRATION", "employees": 94, "avgSalary": 94765}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "employees": 92, "avgSalary": 47782}, {"name": "FINANCIAL INSTITUTION EXAMINING", "employees": 81, "avgSalary": 133838}, {"name": "BIOLOGICAL SCIENCE TECHNICIAN", "employees": 74, "avgSalary": 52228}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "employees": 73, "avgSalary": 109939}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "employees": 71, "avgSalary": 103898}, {"name": "AIR TRAFFIC CONTROL", "employees": 65, "avgSalary": 112501}, {"name": "GENERAL BUSINESS AND INDUSTRY", "employees": 63, "avgSalary": 90118}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "employees": 52, "avgSalary": 116718}, {"name": "FOOD INSPECTION", "employees": 45, "avgSalary": 55402}, {"name": "TRANSPORTATION SPECIALIST", "employees": 44, "avgSalary": 111984}]}
+{
+  "code": "NE",
+  "name": "NEBRASKA",
+  "employees": 2574,
+  "avgSalary": 92233,
+  "topAgencies": [
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 1341
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 357
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 187
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 148
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 128
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 98
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 88
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 49
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 30
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 28
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 27
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 25
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 23
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 16
+    },
+    {
+      "name": "National Credit Union Administration",
+      "code": "CU",
+      "employees": 7
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Consumer Safety Inspection",
+      "employees": 196,
+      "avgSalary": 70425
+    },
+    {
+      "name": "Soil Conservation",
+      "employees": 154,
+      "avgSalary": 82450
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 126,
+      "avgSalary": 96230
+    },
+    {
+      "name": "Loan Specialist",
+      "employees": 102,
+      "avgSalary": 87028
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 94,
+      "avgSalary": 94765
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 92,
+      "avgSalary": 47782
+    },
+    {
+      "name": "Financial Institution Examining",
+      "employees": 81,
+      "avgSalary": 133838
+    },
+    {
+      "name": "Biological Science Technician",
+      "employees": 74,
+      "avgSalary": 52228
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 73,
+      "avgSalary": 109939
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 71,
+      "avgSalary": 103898
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 65,
+      "avgSalary": 112501
+    },
+    {
+      "name": "General Business and Industry",
+      "employees": 63,
+      "avgSalary": 90118
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 52,
+      "avgSalary": 116718
+    },
+    {
+      "name": "Food Inspection",
+      "employees": 45,
+      "avgSalary": 55402
+    },
+    {
+      "name": "Transportation Specialist",
+      "employees": 44,
+      "avgSalary": 111984
+    }
+  ]
+}

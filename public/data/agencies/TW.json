@@ -1,1 +1,158 @@
-{"code": "TW", "name": "SURFACE TRANSPORTATION BOARD", "employees": 126, "avgSalary": 170055, "topOccupations": [{"name": "GENERAL ATTORNEY", "count": 48, "avgSalary": 192517}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 12, "avgSalary": 164443}, {"name": "PARALEGAL SPECIALIST", "count": 11, "avgSalary": 108730}, {"name": "TRANSPORTATION INDUSTRY ANALYSIS", "count": 10, "avgSalary": 172257}, {"name": "ECONOMIST", "count": 9, "avgSalary": 165131}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "count": 6, "avgSalary": 178182}, {"name": "HUMAN RESOURCES MANAGEMENT", "count": 5, "avgSalary": 180578}, {"name": "ENVIRONMENTAL PROTECTION SPECIALIST", "count": 5, "avgSalary": 164336}, {"name": "SUPPORT SERVICES ADMINISTRATION", "count": 3, "avgSalary": 147603}, {"name": "AUDITING", "count": 3, "avgSalary": 175890}, {"name": "OPERATIONS RESEARCH", "count": 3, "avgSalary": 155609}, {"name": "RECORDS AND INFORMATION MANAGEMENT", "count": 2, "avgSalary": 153092}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "count": 2, "avgSalary": 161487}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "count": 2, "avgSalary": 173360}, {"name": "GENERAL ENGINEERING", "count": 1, "avgSalary": 185234}], "topStates": [{"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 120}, {"name": "MARYLAND", "code": "MD", "count": 1}, {"name": "NEW JERSEY", "code": "NJ", "count": 1}, {"name": "TEXAS", "code": "TX", "count": 1}, {"name": "GEORGIA", "code": "GA", "count": 1}, {"name": "MISSISSIPPI", "code": "MS", "count": 1}, {"name": "OHIO", "code": "OH", "count": 1}], "education": [{"level": "FIRST PROFESSIONAL", "count": 48}, {"level": "MASTER'S DEGREE", "count": 30}, {"level": "BACHELOR'S DEGREE", "count": 17}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 15}, {"level": "POST-BACHELOR'S", "count": 4}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 4}, {"level": "DOCTORATE DEGREE", "count": 4}, {"level": "TWO YEARS COLLEGE", "count": 3}, {"level": "ASSOCIATE DEGREE", "count": 1}]}
+{
+  "code": "TW",
+  "name": "Surface Transportation Board",
+  "employees": 126,
+  "avgSalary": 170055,
+  "topOccupations": [
+    {
+      "name": "General Attorney",
+      "count": 48,
+      "avgSalary": 192517
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 12,
+      "avgSalary": 164443
+    },
+    {
+      "name": "Paralegal Specialist",
+      "count": 11,
+      "avgSalary": 108730
+    },
+    {
+      "name": "Transportation Industry Analysis",
+      "count": 10,
+      "avgSalary": 172257
+    },
+    {
+      "name": "Economist",
+      "count": 9,
+      "avgSalary": 165131
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 6,
+      "avgSalary": 178182
+    },
+    {
+      "name": "Human Resources Management",
+      "count": 5,
+      "avgSalary": 180578
+    },
+    {
+      "name": "Environmental Protection Specialist",
+      "count": 5,
+      "avgSalary": 164336
+    },
+    {
+      "name": "Support Services Administration",
+      "count": 3,
+      "avgSalary": 147603
+    },
+    {
+      "name": "Auditing",
+      "count": 3,
+      "avgSalary": 175890
+    },
+    {
+      "name": "Operations Research",
+      "count": 3,
+      "avgSalary": 155609
+    },
+    {
+      "name": "Records and Information Management",
+      "count": 2,
+      "avgSalary": 153092
+    },
+    {
+      "name": "Financial Administration and Program",
+      "count": 2,
+      "avgSalary": 161487
+    },
+    {
+      "name": "Management and Program Analysis",
+      "count": 2,
+      "avgSalary": 173360
+    },
+    {
+      "name": "General Engineering",
+      "count": 1,
+      "avgSalary": 185234
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 120
+    },
+    {
+      "name": "Maryland",
+      "code": "MD",
+      "count": 1
+    },
+    {
+      "name": "New Jersey",
+      "code": "NJ",
+      "count": 1
+    },
+    {
+      "name": "Texas",
+      "code": "TX",
+      "count": 1
+    },
+    {
+      "name": "Georgia",
+      "code": "GA",
+      "count": 1
+    },
+    {
+      "name": "Mississippi",
+      "code": "MS",
+      "count": 1
+    },
+    {
+      "name": "Ohio",
+      "code": "OH",
+      "count": 1
+    }
+  ],
+  "education": [
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 48
+    },
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 30
+    },
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 17
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 15
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 4
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 4
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 4
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 3
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 1
+    }
+  ]
+}

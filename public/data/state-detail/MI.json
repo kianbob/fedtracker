@@ -1,1 +1,160 @@
-{"code": "MI", "name": "MICHIGAN", "employees": 7359, "avgSalary": 106429, "topAgencies": [{"name": "DEPARTMENT OF AGRICULTURE", "code": "AG", "employees": 1355}, {"name": "SOCIAL SECURITY ADMINISTRATION", "code": "SZ", "employees": 1192}, {"name": "DEPARTMENT OF TREASURY", "code": "TR", "employees": 1013}, {"name": "DEPARTMENT OF TRANSPORTATION", "code": "TD", "employees": 741}, {"name": "DEPARTMENT OF COMMERCE", "code": "CM", "employees": 663}, {"name": "DEPARTMENT OF INTERIOR", "code": "IN", "employees": 577}, {"name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "code": "HE", "employees": 436}, {"name": "ENVIRONMENTAL PROTECTION AGENCY", "code": "EP", "employees": 315}, {"name": "DEPARTMENT OF JUSTICE", "code": "DJ", "employees": 262}, {"name": "DEPARTMENT OF HOUSING AND URBAN DEVELOPM", "code": "HU", "employees": 135}, {"name": "GENERAL SERVICES ADMINISTRATION", "code": "GS", "employees": 134}, {"name": "DEPARTMENT OF LABOR", "code": "DL", "employees": 116}, {"name": "SMALL BUSINESS ADMINISTRATION", "code": "SB", "employees": 69}, {"name": "DEPARTMENT OF STATE", "code": "ST", "employees": 46}, {"name": "FEDERAL DEPOSIT INSURANCE CORPORATION", "code": "FD", "employees": 37}], "topOccupations": [{"name": "SOCIAL INSURANCE ADMINISTRATION", "employees": 693, "avgSalary": 102392}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "employees": 453, "avgSalary": 132539}, {"name": "CONTACT REPRESENTATIVE", "employees": 344, "avgSalary": 60260}, {"name": "AIR TRAFFIC CONTROL", "employees": 325, "avgSalary": 138245}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "employees": 301, "avgSalary": 48503}, {"name": "GENERAL ATTORNEY", "employees": 258, "avgSalary": 145989}, {"name": "PATENT EXAMINING", "employees": 250, "avgSalary": 141171}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "employees": 248, "avgSalary": 118242}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "employees": 204, "avgSalary": 127306}, {"name": "GENERAL NATURAL RESOURCES MANAGEMENT AND BIOLOGICAL SCIENCES", "employees": 198, "avgSalary": 96732}, {"name": "GENERAL BUSINESS AND INDUSTRY", "employees": 197, "avgSalary": 108888}, {"name": "FORESTRY TECHNICIAN", "employees": 187, "avgSalary": 54281}, {"name": "BIOLOGICAL SCIENCE TECHNICIAN", "employees": 130, "avgSalary": 54614}, {"name": "LOAN SPECIALIST", "employees": 129, "avgSalary": 86121}, {"name": "TRANSPORTATION SPECIALIST", "employees": 119, "avgSalary": 116298}]}
+{
+  "code": "MI",
+  "name": "MICHIGAN",
+  "employees": 7359,
+  "avgSalary": 106429,
+  "topAgencies": [
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 1355
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 1192
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 1013
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 741
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 663
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 577
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 436
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 315
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 262
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 135
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 134
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 116
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 69
+    },
+    {
+      "name": "Department of State",
+      "code": "ST",
+      "employees": 46
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 37
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Social Insurance Administration",
+      "employees": 693,
+      "avgSalary": 102392
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 453,
+      "avgSalary": 132539
+    },
+    {
+      "name": "Contact Representative",
+      "employees": 344,
+      "avgSalary": 60260
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 325,
+      "avgSalary": 138245
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 301,
+      "avgSalary": 48503
+    },
+    {
+      "name": "General Attorney",
+      "employees": 258,
+      "avgSalary": 145989
+    },
+    {
+      "name": "Patent Examining",
+      "employees": 250,
+      "avgSalary": 141171
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 248,
+      "avgSalary": 118242
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 204,
+      "avgSalary": 127306
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 198,
+      "avgSalary": 96732
+    },
+    {
+      "name": "General Business and Industry",
+      "employees": 197,
+      "avgSalary": 108888
+    },
+    {
+      "name": "Forestry Technician",
+      "employees": 187,
+      "avgSalary": 54281
+    },
+    {
+      "name": "Biological Science Technician",
+      "employees": 130,
+      "avgSalary": 54614
+    },
+    {
+      "name": "Loan Specialist",
+      "employees": 129,
+      "avgSalary": 86121
+    },
+    {
+      "name": "Transportation Specialist",
+      "employees": 119,
+      "avgSalary": 116298
+    }
+  ]
+}

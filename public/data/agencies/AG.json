@@ -1,1 +1,254 @@
-{"code": "AG", "name": "DEPARTMENT OF AGRICULTURE", "employees": 89680, "avgSalary": 88340, "topOccupations": [{"name": "FORESTRY TECHNICIAN", "count": 10450, "avgSalary": 54708}, {"name": "GENERAL NATURAL RESOURCES MANAGEMENT AND BIOLOGICAL SCIENCES", "count": 6255, "avgSalary": 103692}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 5921, "avgSalary": 108436}, {"name": "CONSUMER SAFETY INSPECTION", "count": 5322, "avgSalary": 72641}, {"name": "SOIL CONSERVATION", "count": 4865, "avgSalary": 84957}, {"name": "BIOLOGICAL SCIENCE TECHNICIAN", "count": 4007, "avgSalary": 52748}, {"name": "LOAN SPECIALIST", "count": 3301, "avgSalary": 88686}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "count": 2918, "avgSalary": 123817}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "count": 2751, "avgSalary": 118858}, {"name": "GENERAL BUSINESS AND INDUSTRY", "count": 2473, "avgSalary": 87637}, {"name": "AGRICULTURAL COMMODITY GRADING", "count": 1664, "avgSalary": 69114}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "count": 1652, "avgSalary": 55056}, {"name": "FORESTRY", "count": 1469, "avgSalary": 85389}, {"name": "VETERINARY MEDICAL SCIENCE", "count": 1454, "avgSalary": 123731}, {"name": "HUMAN RESOURCES MANAGEMENT", "count": 1448, "avgSalary": 110079}], "topStates": [{"name": "CALIFORNIA", "code": "CA", "count": 8229}, {"name": "TEXAS", "code": "TX", "count": 4329}, {"name": "OREGON", "code": "OR", "count": 3857}, {"name": "COLORADO", "code": "CO", "count": 3415}, {"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 3238}, {"name": "MARYLAND", "code": "MD", "count": 3180}, {"name": "MISSOURI", "code": "MO", "count": 3003}, {"name": "MONTANA", "code": "MT", "count": 2942}, {"name": "IDAHO", "code": "ID", "count": 2831}, {"name": "GEORGIA", "code": "GA", "count": 2794}, {"name": "NEW MEXICO", "code": "NM", "count": 2631}, {"name": "WASHINGTON", "code": "WA", "count": 2353}, {"name": "VIRGINIA", "code": "VA", "count": 2318}, {"name": "REDACTED", "code": "REDACTED", "count": 2187}, {"name": "NORTH CAROLINA", "code": "NC", "count": 2171}], "education": [{"level": "BACHELOR'S DEGREE", "count": 27687}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 26882}, {"level": "MASTER'S DEGREE", "count": 10664}, {"level": "DOCTORATE DEGREE", "count": 4160}, {"level": "ASSOCIATE DEGREE", "count": 3441}, {"level": "TWO YEARS COLLEGE", "count": 3270}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 2809}, {"level": "ONE YEAR COLLEGE", "count": 2494}, {"level": "THREE YEARS COLLEGE", "count": 2210}, {"level": "FOUR YEARS COLLEGE", "count": 1894}, {"level": "FIRST PROFESSIONAL", "count": 1348}, {"level": "POST-BACHELOR'S", "count": 1147}, {"level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE", "count": 847}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE", "count": 502}, {"level": "SOME HIGH SCHOOL - DID NOT COMPLETE", "count": 491}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT", "count": 431}, {"level": "POST-DOCTORATE", "count": 186}, {"level": "POST-MASTER'S", "count": 175}, {"level": "POST-FIRST PROFESSIONAL", "count": 111}, {"level": "SIXTH-YEAR DEGREE", "count": 43}, {"level": "POST-SIXTH YEAR", "count": 29}, {"level": "ELEMENTARY SCHOOL COMPLETED - NO HIGH SCHOOL", "count": 16}, {"level": "Invalid", "count": 3}]}
+{
+  "code": "AG",
+  "name": "Department of Agriculture",
+  "employees": 89680,
+  "avgSalary": 88340,
+  "topOccupations": [
+    {
+      "name": "Forestry Technician",
+      "count": 10450,
+      "avgSalary": 54708
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "count": 6255,
+      "avgSalary": 103692
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 5921,
+      "avgSalary": 108436
+    },
+    {
+      "name": "Consumer Safety Inspection",
+      "count": 5322,
+      "avgSalary": 72641
+    },
+    {
+      "name": "Soil Conservation",
+      "count": 4865,
+      "avgSalary": 84957
+    },
+    {
+      "name": "Biological Science Technician",
+      "count": 4007,
+      "avgSalary": 52748
+    },
+    {
+      "name": "Loan Specialist",
+      "count": 3301,
+      "avgSalary": 88686
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 2918,
+      "avgSalary": 123817
+    },
+    {
+      "name": "Management and Program Analysis",
+      "count": 2751,
+      "avgSalary": 118858
+    },
+    {
+      "name": "General Business and Industry",
+      "count": 2473,
+      "avgSalary": 87637
+    },
+    {
+      "name": "Agricultural Commodity Grading",
+      "count": 1664,
+      "avgSalary": 69114
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "count": 1652,
+      "avgSalary": 55056
+    },
+    {
+      "name": "Forestry",
+      "count": 1469,
+      "avgSalary": 85389
+    },
+    {
+      "name": "Veterinary Medical Science",
+      "count": 1454,
+      "avgSalary": 123731
+    },
+    {
+      "name": "Human Resources Management",
+      "count": 1448,
+      "avgSalary": 110079
+    }
+  ],
+  "topStates": [
+    {
+      "name": "California",
+      "code": "CA",
+      "count": 8229
+    },
+    {
+      "name": "Texas",
+      "code": "TX",
+      "count": 4329
+    },
+    {
+      "name": "Oregon",
+      "code": "OR",
+      "count": 3857
+    },
+    {
+      "name": "Colorado",
+      "code": "CO",
+      "count": 3415
+    },
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 3238
+    },
+    {
+      "name": "Maryland",
+      "code": "MD",
+      "count": 3180
+    },
+    {
+      "name": "Missouri",
+      "code": "MO",
+      "count": 3003
+    },
+    {
+      "name": "Montana",
+      "code": "MT",
+      "count": 2942
+    },
+    {
+      "name": "Idaho",
+      "code": "ID",
+      "count": 2831
+    },
+    {
+      "name": "Georgia",
+      "code": "GA",
+      "count": 2794
+    },
+    {
+      "name": "New Mexico",
+      "code": "NM",
+      "count": 2631
+    },
+    {
+      "name": "Washington",
+      "code": "WA",
+      "count": 2353
+    },
+    {
+      "name": "Virginia",
+      "code": "VA",
+      "count": 2318
+    },
+    {
+      "name": "Redacted",
+      "code": "REDACTED",
+      "count": 2187
+    },
+    {
+      "name": "North Carolina",
+      "code": "NC",
+      "count": 2171
+    }
+  ],
+  "education": [
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 27687
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 26882
+    },
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 10664
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 4160
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 3441
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 3270
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 2809
+    },
+    {
+      "level": "ONE YEAR COLLEGE",
+      "count": 2494
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 2210
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 1894
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 1348
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 1147
+    },
+    {
+      "level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE",
+      "count": 847
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE",
+      "count": 502
+    },
+    {
+      "level": "SOME HIGH SCHOOL - DID NOT COMPLETE",
+      "count": 491
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT",
+      "count": 431
+    },
+    {
+      "level": "POST-DOCTORATE",
+      "count": 186
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 175
+    },
+    {
+      "level": "POST-FIRST PROFESSIONAL",
+      "count": 111
+    },
+    {
+      "level": "SIXTH-YEAR DEGREE",
+      "count": 43
+    },
+    {
+      "level": "POST-SIXTH YEAR",
+      "count": 29
+    },
+    {
+      "level": "ELEMENTARY SCHOOL COMPLETED - NO HIGH SCHOOL",
+      "count": 16
+    },
+    {
+      "level": "Invalid",
+      "count": 3
+    }
+  ]
+}

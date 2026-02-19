@@ -1,1 +1,26 @@
-{"code": "WU", "name": "SOUTHWEST BORDER REGIONAL COMMISSION", "employees": 2, "avgSalary": 168002, "topOccupations": [{"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 2, "avgSalary": 168002}], "topStates": [{"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 2}], "education": [{"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 2}]}
+{
+  "code": "WU",
+  "name": "Southwest Border Regional Commission",
+  "employees": 2,
+  "avgSalary": 168002,
+  "topOccupations": [
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 2,
+      "avgSalary": 168002
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 2
+    }
+  ],
+  "education": [
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 2
+    }
+  ]
+}

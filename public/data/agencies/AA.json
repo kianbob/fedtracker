@@ -1,1 +1,44 @@
-{"code": "AA", "name": "ADMIN CONFERENCE OF THE UNITED STATES", "employees": 10, "avgSalary": 159822, "topOccupations": [{"name": "GENERAL ATTORNEY", "count": 8, "avgSalary": 156492}, {"name": "PROGRAM MANAGEMENT", "count": 1, "avgSalary": 225700}, {"name": "ADMINISTRATIVE OFFICER", "count": 1, "avgSalary": 120579}], "topStates": [{"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 10}], "education": [{"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 5}, {"level": "FIRST PROFESSIONAL", "count": 4}, {"level": "BACHELOR'S DEGREE", "count": 1}]}
+{
+  "code": "AA",
+  "name": "Admin Conference of the United States",
+  "employees": 10,
+  "avgSalary": 159822,
+  "topOccupations": [
+    {
+      "name": "General Attorney",
+      "count": 8,
+      "avgSalary": 156492
+    },
+    {
+      "name": "Program Management",
+      "count": 1,
+      "avgSalary": 225700
+    },
+    {
+      "name": "Administrative Officer",
+      "count": 1,
+      "avgSalary": 120579
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 10
+    }
+  ],
+  "education": [
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 5
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 4
+    },
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 1
+    }
+  ]
+}

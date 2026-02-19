@@ -1,1 +1,42 @@
-{"code": "CX", "name": "NAT CMSN ON LIBRARIES AND INFO SCIENCE", "employees": 17, "avgSalary": 120785, "topOccupations": [{"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 17, "avgSalary": 120785}], "topStates": [{"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 17}], "education": [{"level": "No Data Reported", "count": 6}, {"level": "DOCTORATE DEGREE", "count": 5}, {"level": "MASTER'S DEGREE", "count": 4}, {"level": "ASSOCIATE DEGREE", "count": 1}, {"level": "THREE YEARS COLLEGE", "count": 1}]}
+{
+  "code": "CX",
+  "name": "National Cmsn on Libraries and Info Science",
+  "employees": 17,
+  "avgSalary": 120785,
+  "topOccupations": [
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 17,
+      "avgSalary": 120785
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 17
+    }
+  ],
+  "education": [
+    {
+      "level": "No Data Reported",
+      "count": 6
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 5
+    },
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 4
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 1
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 1
+    }
+  ]
+}

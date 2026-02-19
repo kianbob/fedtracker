@@ -1,1 +1,160 @@
-{"code": "IN", "name": "INDIANA", "employees": 5113, "avgSalary": 98299, "topAgencies": [{"name": "DEPARTMENT OF COMMERCE", "code": "CM", "employees": 997}, {"name": "DEPARTMENT OF TRANSPORTATION", "code": "TD", "employees": 889}, {"name": "DEPARTMENT OF AGRICULTURE", "code": "AG", "employees": 828}, {"name": "SOCIAL SECURITY ADMINISTRATION", "code": "SZ", "employees": 667}, {"name": "DEPARTMENT OF TREASURY", "code": "TR", "employees": 424}, {"name": "DEPARTMENT OF JUSTICE", "code": "DJ", "employees": 409}, {"name": "DEPARTMENT OF INTERIOR", "code": "IN", "employees": 267}, {"name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "code": "HE", "employees": 149}, {"name": "DEPARTMENT OF LABOR", "code": "DL", "employees": 93}, {"name": "GENERAL SERVICES ADMINISTRATION", "code": "GS", "employees": 70}, {"name": "FEDERAL DEPOSIT INSURANCE CORPORATION", "code": "FD", "employees": 51}, {"name": "DEPARTMENT OF HOUSING AND URBAN DEVELOPM", "code": "HU", "employees": 49}, {"name": "EQUAL EMPLOYMENT OPPORTUNITY COMMISSION", "code": "EE", "employees": 39}, {"name": "SMALL BUSINESS ADMINISTRATION", "code": "SB", "employees": 31}, {"name": "ENVIRONMENTAL PROTECTION AGENCY", "code": "EP", "employees": 25}], "topOccupations": [{"name": "AIR TRAFFIC CONTROL", "employees": 580, "avgSalary": 148853}, {"name": "SOCIAL INSURANCE ADMINISTRATION", "employees": 408, "avgSalary": 95000}, {"name": "STATISTICAL ASSISTANT", "employees": 355, "avgSalary": 47099}, {"name": "CONTACT REPRESENTATIVE", "employees": 243, "avgSalary": 60150}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "employees": 194, "avgSalary": 46588}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "employees": 159, "avgSalary": 112148}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "employees": 155, "avgSalary": 113766}, {"name": "SOIL CONSERVATION", "employees": 147, "avgSalary": 88269}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "employees": 139, "avgSalary": 122207}, {"name": "TRANSPORTATION SPECIALIST", "employees": 123, "avgSalary": 112974}, {"name": "GENERAL ATTORNEY", "employees": 109, "avgSalary": 137523}, {"name": "GENERAL NATURAL RESOURCES MANAGEMENT AND BIOLOGICAL SCIENCES", "employees": 84, "avgSalary": 92066}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "employees": 84, "avgSalary": 92939}, {"name": "GENERAL BUSINESS AND INDUSTRY", "employees": 84, "avgSalary": 103792}, {"name": "HUMAN RESOURCES MANAGEMENT", "employees": 80, "avgSalary": 104718}]}
+{
+  "code": "IN",
+  "name": "INDIANA",
+  "employees": 5113,
+  "avgSalary": 98299,
+  "topAgencies": [
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 997
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 889
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 828
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 667
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 424
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 409
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 267
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 149
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 93
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 70
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 51
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 49
+    },
+    {
+      "name": "Equal Employment Opportunity Commission",
+      "code": "EE",
+      "employees": 39
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 31
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 25
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Air Traffic Control",
+      "employees": 580,
+      "avgSalary": 148853
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 408,
+      "avgSalary": 95000
+    },
+    {
+      "name": "Statistical Assistant",
+      "employees": 355,
+      "avgSalary": 47099
+    },
+    {
+      "name": "Contact Representative",
+      "employees": 243,
+      "avgSalary": 60150
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 194,
+      "avgSalary": 46588
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 159,
+      "avgSalary": 112148
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 155,
+      "avgSalary": 113766
+    },
+    {
+      "name": "Soil Conservation",
+      "employees": 147,
+      "avgSalary": 88269
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 139,
+      "avgSalary": 122207
+    },
+    {
+      "name": "Transportation Specialist",
+      "employees": 123,
+      "avgSalary": 112974
+    },
+    {
+      "name": "General Attorney",
+      "employees": 109,
+      "avgSalary": 137523
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 84,
+      "avgSalary": 92066
+    },
+    {
+      "name": "Financial Administration and Program",
+      "employees": 84,
+      "avgSalary": 92939
+    },
+    {
+      "name": "General Business and Industry",
+      "employees": 84,
+      "avgSalary": 103792
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 80,
+      "avgSalary": 104718
+    }
+  ]
+}

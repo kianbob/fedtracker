@@ -1,1 +1,246 @@
-{"code": "HU", "name": "null", "employees": 423, "avgSalary": 148114, "topOccupations": [{"name": "GENERAL BUSINESS AND INDUSTRY", "count": 2465, "avgSalary": 138148}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "count": 1266, "avgSalary": 130729}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 1228, "avgSalary": 146072}, {"name": "GENERAL ATTORNEY", "count": 438, "avgSalary": 167129}, {"name": "EQUAL OPPORTUNITY COMPLIANCE", "count": 386, "avgSalary": 121794}, {"name": "FINANCIAL ANALYSIS", "count": 290, "avgSalary": 129677}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "count": 282, "avgSalary": 158575}, {"name": "AUDITING", "count": 227, "avgSalary": 147379}, {"name": "ACCOUNTING", "count": 142, "avgSalary": 147420}, {"name": "BUDGET ANALYSIS", "count": 139, "avgSalary": 155783}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "count": 136, "avgSalary": 140109}, {"name": "APPRAISING", "count": 122, "avgSalary": 139949}, {"name": "GRANTS MANAGEMENT", "count": 117, "avgSalary": 120599}, {"name": "HUMAN RESOURCES MANAGEMENT", "count": 112, "avgSalary": 158501}, {"name": "CONTRACTING", "count": 107, "avgSalary": 144771}], "topStates": [{"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 2968}, {"name": "CALIFORNIA", "code": "CA", "count": 498}, {"name": "TEXAS", "code": "TX", "count": 477}, {"name": "GEORGIA", "code": "GA", "count": 443}, {"name": "NEW YORK", "code": "NY", "count": 383}, {"name": "COLORADO", "code": "CO", "count": 375}, {"name": "ILLINOIS", "code": "IL", "count": 351}, {"name": "PENNSYLVANIA", "code": "PA", "count": 260}, {"name": "REDACTED", "code": "REDACTED", "count": 253}, {"name": "MARYLAND", "code": "MD", "count": 227}, {"name": "FLORIDA", "code": "FL", "count": 222}, {"name": "KANSAS", "code": "KS", "count": 176}, {"name": "MASSACHUSETTS", "code": "MA", "count": 174}, {"name": "VIRGINIA", "code": "VA", "count": 151}, {"name": "MICHIGAN", "code": "MI", "count": 143}], "education": [{"level": "BACHELOR'S DEGREE", "count": 2378}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 2323}, {"level": "MASTER'S DEGREE", "count": 2290}, {"level": "DOCTORATE DEGREE", "count": 381}, {"level": "FIRST PROFESSIONAL", "count": 239}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 210}, {"level": "ASSOCIATE DEGREE", "count": 205}, {"level": "TWO YEARS COLLEGE", "count": 142}, {"level": "POST-BACHELOR'S", "count": 104}, {"level": "ONE YEAR COLLEGE", "count": 100}, {"level": "THREE YEARS COLLEGE", "count": 65}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT", "count": 59}, {"level": "FOUR YEARS COLLEGE", "count": 56}, {"level": "POST-MASTER'S", "count": 54}, {"level": "SOME HIGH SCHOOL - DID NOT COMPLETE", "count": 16}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE", "count": 15}, {"level": "POST-DOCTORATE", "count": 12}, {"level": "POST-FIRST PROFESSIONAL", "count": 10}, {"level": "SIXTH-YEAR DEGREE", "count": 8}, {"level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE", "count": 4}, {"level": "Invalid", "count": 1}]}
+{
+  "code": "HU",
+  "name": "Null",
+  "employees": 423,
+  "avgSalary": 148114,
+  "topOccupations": [
+    {
+      "name": "General Business and Industry",
+      "count": 2465,
+      "avgSalary": 138148
+    },
+    {
+      "name": "Management and Program Analysis",
+      "count": 1266,
+      "avgSalary": 130729
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 1228,
+      "avgSalary": 146072
+    },
+    {
+      "name": "General Attorney",
+      "count": 438,
+      "avgSalary": 167129
+    },
+    {
+      "name": "Equal Opportunity Compliance",
+      "count": 386,
+      "avgSalary": 121794
+    },
+    {
+      "name": "Financial Analysis",
+      "count": 290,
+      "avgSalary": 129677
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 282,
+      "avgSalary": 158575
+    },
+    {
+      "name": "Auditing",
+      "count": 227,
+      "avgSalary": 147379
+    },
+    {
+      "name": "Accounting",
+      "count": 142,
+      "avgSalary": 147420
+    },
+    {
+      "name": "Budget Analysis",
+      "count": 139,
+      "avgSalary": 155783
+    },
+    {
+      "name": "Financial Administration and Program",
+      "count": 136,
+      "avgSalary": 140109
+    },
+    {
+      "name": "Appraising",
+      "count": 122,
+      "avgSalary": 139949
+    },
+    {
+      "name": "Grants Management",
+      "count": 117,
+      "avgSalary": 120599
+    },
+    {
+      "name": "Human Resources Management",
+      "count": 112,
+      "avgSalary": 158501
+    },
+    {
+      "name": "Contracting",
+      "count": 107,
+      "avgSalary": 144771
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 2968
+    },
+    {
+      "name": "California",
+      "code": "CA",
+      "count": 498
+    },
+    {
+      "name": "Texas",
+      "code": "TX",
+      "count": 477
+    },
+    {
+      "name": "Georgia",
+      "code": "GA",
+      "count": 443
+    },
+    {
+      "name": "New York",
+      "code": "NY",
+      "count": 383
+    },
+    {
+      "name": "Colorado",
+      "code": "CO",
+      "count": 375
+    },
+    {
+      "name": "Illinois",
+      "code": "IL",
+      "count": 351
+    },
+    {
+      "name": "Pennsylvania",
+      "code": "PA",
+      "count": 260
+    },
+    {
+      "name": "Redacted",
+      "code": "REDACTED",
+      "count": 253
+    },
+    {
+      "name": "Maryland",
+      "code": "MD",
+      "count": 227
+    },
+    {
+      "name": "Florida",
+      "code": "FL",
+      "count": 222
+    },
+    {
+      "name": "Kansas",
+      "code": "KS",
+      "count": 176
+    },
+    {
+      "name": "Massachusetts",
+      "code": "MA",
+      "count": 174
+    },
+    {
+      "name": "Virginia",
+      "code": "VA",
+      "count": 151
+    },
+    {
+      "name": "Michigan",
+      "code": "MI",
+      "count": 143
+    }
+  ],
+  "education": [
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 2378
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 2323
+    },
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 2290
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 381
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 239
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 210
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 205
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 142
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 104
+    },
+    {
+      "level": "ONE YEAR COLLEGE",
+      "count": 100
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 65
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT",
+      "count": 59
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 56
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 54
+    },
+    {
+      "level": "SOME HIGH SCHOOL - DID NOT COMPLETE",
+      "count": 16
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE",
+      "count": 15
+    },
+    {
+      "level": "POST-DOCTORATE",
+      "count": 12
+    },
+    {
+      "level": "POST-FIRST PROFESSIONAL",
+      "count": 10
+    },
+    {
+      "level": "SIXTH-YEAR DEGREE",
+      "count": 8
+    },
+    {
+      "level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE",
+      "count": 4
+    },
+    {
+      "level": "Invalid",
+      "count": 1
+    }
+  ]
+}

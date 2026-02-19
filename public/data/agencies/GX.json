@@ -1,1 +1,63 @@
-{"code": "GX", "name": "INTERNAT BOUNDARY CMSN: U.S. AND CANADA", "employees": 7, "avgSalary": 134126, "topOccupations": [{"name": "ENGINEERING TECHNICAL", "count": 4, "avgSalary": 107834}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 2, "avgSalary": 179418}, {"name": "ADMINISTRATIVE OFFICER", "count": 1, "avgSalary": 148716}], "topStates": [{"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 3}, {"name": "MONTANA", "code": "MT", "count": 2}, {"name": "MINNESOTA", "code": "MN", "count": 1}, {"name": "MAINE", "code": "ME", "count": 1}], "education": [{"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 4}, {"level": "ASSOCIATE DEGREE", "count": 1}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 1}, {"level": "TWO YEARS COLLEGE", "count": 1}]}
+{
+  "code": "GX",
+  "name": "Internat Boundary Cmsn: U.S. and Canada",
+  "employees": 7,
+  "avgSalary": 134126,
+  "topOccupations": [
+    {
+      "name": "Engineering Technical",
+      "count": 4,
+      "avgSalary": 107834
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 2,
+      "avgSalary": 179418
+    },
+    {
+      "name": "Administrative Officer",
+      "count": 1,
+      "avgSalary": 148716
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 3
+    },
+    {
+      "name": "Montana",
+      "code": "MT",
+      "count": 2
+    },
+    {
+      "name": "Minnesota",
+      "code": "MN",
+      "count": 1
+    },
+    {
+      "name": "Maine",
+      "code": "ME",
+      "count": 1
+    }
+  ],
+  "education": [
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 4
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 1
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 1
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 1
+    }
+  ]
+}

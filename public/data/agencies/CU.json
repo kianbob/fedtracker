@@ -1,1 +1,156 @@
-{"code": "CU", "name": "NATIONAL CREDIT UNION ADMINISTRATION", "employees": 1, "avgSalary": 315000, "topOccupations": [{"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "count": 1, "avgSalary": 315000}], "topStates": [{"name": "VIRGINIA", "code": "VA", "count": 361}, {"name": "TEXAS", "code": "TX", "count": 101}, {"name": "CALIFORNIA", "code": "CA", "count": 69}, {"name": "NEW YORK", "code": "NY", "count": 61}, {"name": "PENNSYLVANIA", "code": "PA", "count": 52}, {"name": "ARIZONA", "code": "AZ", "count": 36}, {"name": "FLORIDA", "code": "FL", "count": 34}, {"name": "GEORGIA", "code": "GA", "count": 33}, {"name": "MICHIGAN", "code": "MI", "count": 32}, {"name": "NEW JERSEY", "code": "NJ", "count": 29}, {"name": "ILLINOIS", "code": "IL", "count": 27}, {"name": "OHIO", "code": "OH", "count": 27}, {"name": "COLORADO", "code": "CO", "count": 25}, {"name": "WASHINGTON", "code": "WA", "count": 24}, {"name": "NORTH CAROLINA", "code": "NC", "count": 21}], "education": [{"level": "BACHELOR'S DEGREE", "count": 661}, {"level": "MASTER'S DEGREE", "count": 368}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 56}, {"level": "FIRST PROFESSIONAL", "count": 43}, {"level": "DOCTORATE DEGREE", "count": 16}, {"level": "ASSOCIATE DEGREE", "count": 13}, {"level": "FOUR YEARS COLLEGE", "count": 13}, {"level": "POST-BACHELOR'S", "count": 13}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 9}, {"level": "TWO YEARS COLLEGE", "count": 6}, {"level": "POST-MASTER'S", "count": 5}, {"level": "SOME HIGH SCHOOL - DID NOT COMPLETE", "count": 4}, {"level": "THREE YEARS COLLEGE", "count": 3}, {"level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE", "count": 2}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT", "count": 1}, {"level": "ONE YEAR COLLEGE", "count": 1}]}
+{
+  "code": "CU",
+  "name": "National Credit Union Administration",
+  "employees": 1,
+  "avgSalary": 315000,
+  "topOccupations": [
+    {
+      "name": "Financial Administration and Program",
+      "count": 1,
+      "avgSalary": 315000
+    }
+  ],
+  "topStates": [
+    {
+      "name": "Virginia",
+      "code": "VA",
+      "count": 361
+    },
+    {
+      "name": "Texas",
+      "code": "TX",
+      "count": 101
+    },
+    {
+      "name": "California",
+      "code": "CA",
+      "count": 69
+    },
+    {
+      "name": "New York",
+      "code": "NY",
+      "count": 61
+    },
+    {
+      "name": "Pennsylvania",
+      "code": "PA",
+      "count": 52
+    },
+    {
+      "name": "Arizona",
+      "code": "AZ",
+      "count": 36
+    },
+    {
+      "name": "Florida",
+      "code": "FL",
+      "count": 34
+    },
+    {
+      "name": "Georgia",
+      "code": "GA",
+      "count": 33
+    },
+    {
+      "name": "Michigan",
+      "code": "MI",
+      "count": 32
+    },
+    {
+      "name": "New Jersey",
+      "code": "NJ",
+      "count": 29
+    },
+    {
+      "name": "Illinois",
+      "code": "IL",
+      "count": 27
+    },
+    {
+      "name": "Ohio",
+      "code": "OH",
+      "count": 27
+    },
+    {
+      "name": "Colorado",
+      "code": "CO",
+      "count": 25
+    },
+    {
+      "name": "Washington",
+      "code": "WA",
+      "count": 24
+    },
+    {
+      "name": "North Carolina",
+      "code": "NC",
+      "count": 21
+    }
+  ],
+  "education": [
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 661
+    },
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 368
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 56
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 43
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 16
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 13
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 13
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 13
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 9
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 6
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 5
+    },
+    {
+      "level": "SOME HIGH SCHOOL - DID NOT COMPLETE",
+      "count": 4
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 3
+    },
+    {
+      "level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE",
+      "count": 2
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT",
+      "count": 1
+    },
+    {
+      "level": "ONE YEAR COLLEGE",
+      "count": 1
+    }
+  ]
+}

@@ -1,1 +1,258 @@
-{"code": "DN", "name": "DEPARTMENT OF ENERGY", "employees": 16729, "avgSalary": 145846, "topOccupations": [{"name": "GENERAL ENGINEERING", "count": 1775, "avgSalary": 159467}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "count": 1575, "avgSalary": 145979}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 1187, "avgSalary": 119246}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "count": 929, "avgSalary": 150458}, {"name": "GENERAL PHYSICAL SCIENCE", "count": 877, "avgSalary": 154630}, {"name": "GENERAL BUSINESS AND INDUSTRY", "count": 822, "avgSalary": 149038}, {"name": "CONTRACTING", "count": 712, "avgSalary": 138390}, {"name": "GENERAL ATTORNEY", "count": 677, "avgSalary": 175443}, {"name": "HIGH VOLTAGE ELECTRICIAN", "count": 627, "avgSalary": 136161}, {"name": "PROGRAM MANAGEMENT", "count": 601, "avgSalary": 199046}, {"name": "ELECTRICAL ENGINEERING", "count": 583, "avgSalary": 146050}, {"name": "PUBLIC UTILITIES SPECIALIST", "count": 460, "avgSalary": 127264}, {"name": "SECURITY ADMINISTRATION", "count": 407, "avgSalary": 147591}, {"name": "HUMAN RESOURCES MANAGEMENT", "count": 374, "avgSalary": 136967}, {"name": "BUDGET ANALYSIS", "count": 327, "avgSalary": 147909}], "topStates": [{"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 4087}, {"name": "WASHINGTON", "code": "WA", "count": 2304}, {"name": "OREGON", "code": "OR", "count": 1420}, {"name": "MARYLAND", "code": "MD", "count": 1265}, {"name": "COLORADO", "code": "CO", "count": 947}, {"name": "NEW MEXICO", "code": "NM", "count": 900}, {"name": "REDACTED", "code": "REDACTED", "count": 793}, {"name": "CALIFORNIA", "code": "CA", "count": 512}, {"name": "TENNESSEE", "code": "TN", "count": 496}, {"name": "PENNSYLVANIA", "code": "PA", "count": 494}, {"name": "VIRGINIA", "code": "VA", "count": 377}, {"name": "SOUTH CAROLINA", "code": "SC", "count": 325}, {"name": "WEST VIRGINIA", "code": "WV", "count": 317}, {"name": "ARIZONA", "code": "AZ", "count": 304}, {"name": "IDAHO", "code": "ID", "count": 270}], "education": [{"level": "MASTER'S DEGREE", "count": 4871}, {"level": "BACHELOR'S DEGREE", "count": 4795}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 3139}, {"level": "DOCTORATE DEGREE", "count": 1012}, {"level": "ASSOCIATE DEGREE", "count": 643}, {"level": "FIRST PROFESSIONAL", "count": 579}, {"level": "POST-BACHELOR'S", "count": 391}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 368}, {"level": "TWO YEARS COLLEGE", "count": 333}, {"level": "ONE YEAR COLLEGE", "count": 301}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT", "count": 265}, {"level": "FOUR YEARS COLLEGE", "count": 217}, {"level": "THREE YEARS COLLEGE", "count": 206}, {"level": "POST-MASTER'S", "count": 117}, {"level": "POST-DOCTORATE", "count": 86}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE", "count": 72}, {"level": "POST-FIRST PROFESSIONAL", "count": 30}, {"level": "SOME HIGH SCHOOL - DID NOT COMPLETE", "count": 15}, {"level": "Invalid", "count": 10}, {"level": "SIXTH-YEAR DEGREE", "count": 9}, {"level": "POST-SIXTH YEAR", "count": 7}, {"level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE", "count": 3}, {"level": "No Data Reported", "count": 2}, {"level": "ELEMENTARY SCHOOL COMPLETED - NO HIGH SCHOOL", "count": 1}]}
+{
+  "code": "DN",
+  "name": "Department of Energy",
+  "employees": 16729,
+  "avgSalary": 145846,
+  "topOccupations": [
+    {
+      "name": "General Engineering",
+      "count": 1775,
+      "avgSalary": 159467
+    },
+    {
+      "name": "Management and Program Analysis",
+      "count": 1575,
+      "avgSalary": 145979
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 1187,
+      "avgSalary": 119246
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 929,
+      "avgSalary": 150458
+    },
+    {
+      "name": "General Physical Science",
+      "count": 877,
+      "avgSalary": 154630
+    },
+    {
+      "name": "General Business and Industry",
+      "count": 822,
+      "avgSalary": 149038
+    },
+    {
+      "name": "Contracting",
+      "count": 712,
+      "avgSalary": 138390
+    },
+    {
+      "name": "General Attorney",
+      "count": 677,
+      "avgSalary": 175443
+    },
+    {
+      "name": "High Voltage Electrician",
+      "count": 627,
+      "avgSalary": 136161
+    },
+    {
+      "name": "Program Management",
+      "count": 601,
+      "avgSalary": 199046
+    },
+    {
+      "name": "Electrical Engineering",
+      "count": 583,
+      "avgSalary": 146050
+    },
+    {
+      "name": "Public Utilities Specialist",
+      "count": 460,
+      "avgSalary": 127264
+    },
+    {
+      "name": "Security Administration",
+      "count": 407,
+      "avgSalary": 147591
+    },
+    {
+      "name": "Human Resources Management",
+      "count": 374,
+      "avgSalary": 136967
+    },
+    {
+      "name": "Budget Analysis",
+      "count": 327,
+      "avgSalary": 147909
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 4087
+    },
+    {
+      "name": "Washington",
+      "code": "WA",
+      "count": 2304
+    },
+    {
+      "name": "Oregon",
+      "code": "OR",
+      "count": 1420
+    },
+    {
+      "name": "Maryland",
+      "code": "MD",
+      "count": 1265
+    },
+    {
+      "name": "Colorado",
+      "code": "CO",
+      "count": 947
+    },
+    {
+      "name": "New Mexico",
+      "code": "NM",
+      "count": 900
+    },
+    {
+      "name": "Redacted",
+      "code": "REDACTED",
+      "count": 793
+    },
+    {
+      "name": "California",
+      "code": "CA",
+      "count": 512
+    },
+    {
+      "name": "Tennessee",
+      "code": "TN",
+      "count": 496
+    },
+    {
+      "name": "Pennsylvania",
+      "code": "PA",
+      "count": 494
+    },
+    {
+      "name": "Virginia",
+      "code": "VA",
+      "count": 377
+    },
+    {
+      "name": "South Carolina",
+      "code": "SC",
+      "count": 325
+    },
+    {
+      "name": "West Virginia",
+      "code": "WV",
+      "count": 317
+    },
+    {
+      "name": "Arizona",
+      "code": "AZ",
+      "count": 304
+    },
+    {
+      "name": "Idaho",
+      "code": "ID",
+      "count": 270
+    }
+  ],
+  "education": [
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 4871
+    },
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 4795
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 3139
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 1012
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 643
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 579
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 391
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 368
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 333
+    },
+    {
+      "level": "ONE YEAR COLLEGE",
+      "count": 301
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT",
+      "count": 265
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 217
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 206
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 117
+    },
+    {
+      "level": "POST-DOCTORATE",
+      "count": 86
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE",
+      "count": 72
+    },
+    {
+      "level": "POST-FIRST PROFESSIONAL",
+      "count": 30
+    },
+    {
+      "level": "SOME HIGH SCHOOL - DID NOT COMPLETE",
+      "count": 15
+    },
+    {
+      "level": "Invalid",
+      "count": 10
+    },
+    {
+      "level": "SIXTH-YEAR DEGREE",
+      "count": 9
+    },
+    {
+      "level": "POST-SIXTH YEAR",
+      "count": 7
+    },
+    {
+      "level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE",
+      "count": 3
+    },
+    {
+      "level": "No Data Reported",
+      "count": 2
+    },
+    {
+      "level": "ELEMENTARY SCHOOL COMPLETED - NO HIGH SCHOOL",
+      "count": 1
+    }
+  ]
+}

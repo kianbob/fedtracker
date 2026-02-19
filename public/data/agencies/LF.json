@@ -1,1 +1,161 @@
-{"code": "LF", "name": "FEDERAL ELECTION COMMISSION", "employees": 278, "avgSalary": 142686, "topOccupations": [{"name": "GENERAL ATTORNEY", "count": 71, "avgSalary": 177230}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 69, "avgSalary": 130694}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "count": 38, "avgSalary": 154945}, {"name": "AUDITING", "count": 23, "avgSalary": 136916}, {"name": "PUBLIC AFFAIRS", "count": 16, "avgSalary": 133204}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "count": 15, "avgSalary": 76117}, {"name": "PARALEGAL SPECIALIST", "count": 9, "avgSalary": 103397}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "count": 7, "avgSalary": 144706}, {"name": "HUMAN RESOURCES MANAGEMENT", "count": 5, "avgSalary": 130323}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "count": 5, "avgSalary": 133252}, {"name": "SECRETARY", "count": 5, "avgSalary": 80448}, {"name": "ACCOUNTING", "count": 4, "avgSalary": 143128}, {"name": "MAIL AND FILE", "count": 2, "avgSalary": 63429}, {"name": "EQUAL EMPLOYMENT OPPORTUNITY", "count": 2, "avgSalary": 173968}, {"name": "BUDGET ANALYSIS", "count": 2, "avgSalary": 170559}], "topStates": [{"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 278}, {"name": "REDACTED", "code": "REDACTED", "count": 2}], "education": [{"level": "BACHELOR'S DEGREE", "count": 87}, {"level": "FIRST PROFESSIONAL", "count": 57}, {"level": "MASTER'S DEGREE", "count": 56}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 24}, {"level": "DOCTORATE DEGREE", "count": 23}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 7}, {"level": "TWO YEARS COLLEGE", "count": 7}, {"level": "FOUR YEARS COLLEGE", "count": 5}, {"level": "ASSOCIATE DEGREE", "count": 5}, {"level": "POST-BACHELOR'S", "count": 3}, {"level": "POST-SIXTH YEAR", "count": 1}, {"level": "POST-MASTER'S", "count": 1}, {"level": "THREE YEARS COLLEGE", "count": 1}, {"level": "ONE YEAR COLLEGE", "count": 1}, {"level": "Invalid", "count": 1}, {"level": "POST-DOCTORATE", "count": 1}]}
+{
+  "code": "LF",
+  "name": "Federal Election Commission",
+  "employees": 278,
+  "avgSalary": 142686,
+  "topOccupations": [
+    {
+      "name": "General Attorney",
+      "count": 71,
+      "avgSalary": 177230
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 69,
+      "avgSalary": 130694
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 38,
+      "avgSalary": 154945
+    },
+    {
+      "name": "Auditing",
+      "count": 23,
+      "avgSalary": 136916
+    },
+    {
+      "name": "Public Affairs",
+      "count": 16,
+      "avgSalary": 133204
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "count": 15,
+      "avgSalary": 76117
+    },
+    {
+      "name": "Paralegal Specialist",
+      "count": 9,
+      "avgSalary": 103397
+    },
+    {
+      "name": "Management and Program Analysis",
+      "count": 7,
+      "avgSalary": 144706
+    },
+    {
+      "name": "Human Resources Management",
+      "count": 5,
+      "avgSalary": 130323
+    },
+    {
+      "name": "Financial Administration and Program",
+      "count": 5,
+      "avgSalary": 133252
+    },
+    {
+      "name": "Secretary",
+      "count": 5,
+      "avgSalary": 80448
+    },
+    {
+      "name": "Accounting",
+      "count": 4,
+      "avgSalary": 143128
+    },
+    {
+      "name": "Mail and File",
+      "count": 2,
+      "avgSalary": 63429
+    },
+    {
+      "name": "Equal Employment Opportunity",
+      "count": 2,
+      "avgSalary": 173968
+    },
+    {
+      "name": "Budget Analysis",
+      "count": 2,
+      "avgSalary": 170559
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 278
+    },
+    {
+      "name": "Redacted",
+      "code": "REDACTED",
+      "count": 2
+    }
+  ],
+  "education": [
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 87
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 57
+    },
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 56
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 24
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 23
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 7
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 7
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 5
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 5
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 3
+    },
+    {
+      "level": "POST-SIXTH YEAR",
+      "count": 1
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 1
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 1
+    },
+    {
+      "level": "ONE YEAR COLLEGE",
+      "count": 1
+    },
+    {
+      "level": "Invalid",
+      "count": 1
+    },
+    {
+      "level": "POST-DOCTORATE",
+      "count": 1
+    }
+  ]
+}

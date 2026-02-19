@@ -1,1 +1,242 @@
-{"code": "NL", "name": "NATIONAL LABOR RELATIONS BOARD", "employees": 1225, "avgSalary": 144174, "topOccupations": [{"name": "GENERAL ATTORNEY", "count": 561, "avgSalary": 162311}, {"name": "LABOR-MANAGEMENT RELATIONS EXAMINING", "count": 211, "avgSalary": 143535}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "count": 98, "avgSalary": 66679}, {"name": "HUMAN RESOURCES MANAGEMENT", "count": 42, "avgSalary": 145731}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 38, "avgSalary": 130396}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "count": 32, "avgSalary": 162535}, {"name": "ADMINISTRATIVE LAW JUDGE", "count": 30, "avgSalary": 206626}, {"name": "ADMINISTRATIVE OFFICER", "count": 29, "avgSalary": 118213}, {"name": "SECRETARY", "count": 28, "avgSalary": 83859}, {"name": "PROGRAM MANAGEMENT", "count": 25, "avgSalary": 219184}, {"name": "LANGUAGE SPECIALIST", "count": 14, "avgSalary": 81786}, {"name": "HUMAN RESOURCES MANAGEMENT STUDENT TRAINEE", "count": 13, "avgSalary": 63840}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "count": 12, "avgSalary": 125373}, {"name": "SECURITY ADMINISTRATION", "count": 8, "avgSalary": 146996}, {"name": "PARALEGAL SPECIALIST", "count": 8, "avgSalary": 101571}], "topStates": [{"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 379}, {"name": "CALIFORNIA", "code": "CA", "count": 116}, {"name": "NEW YORK", "code": "NY", "count": 86}, {"name": "PENNSYLVANIA", "code": "PA", "count": 50}, {"name": "ILLINOIS", "code": "IL", "count": 48}, {"name": "OHIO", "code": "OH", "count": 47}, {"name": "TEXAS", "code": "TX", "count": 41}, {"name": "MICHIGAN", "code": "MI", "count": 37}, {"name": "WASHINGTON", "code": "WA", "count": 33}, {"name": "FLORIDA", "code": "FL", "count": 31}, {"name": "REDACTED", "code": "REDACTED", "count": 28}, {"name": "ARIZONA", "code": "AZ", "count": 27}, {"name": "NEW JERSEY", "code": "NJ", "count": 27}, {"name": "MARYLAND", "code": "MD", "count": 26}, {"name": "GEORGIA", "code": "GA", "count": 22}], "education": [{"level": "FIRST PROFESSIONAL", "count": 554}, {"level": "BACHELOR'S DEGREE", "count": 211}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 151}, {"level": "MASTER'S DEGREE", "count": 141}, {"level": "ASSOCIATE DEGREE", "count": 35}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 31}, {"level": "POST-BACHELOR'S", "count": 29}, {"level": "TWO YEARS COLLEGE", "count": 18}, {"level": "ONE YEAR COLLEGE", "count": 15}, {"level": "POST-FIRST PROFESSIONAL", "count": 12}, {"level": "DOCTORATE DEGREE", "count": 11}, {"level": "THREE YEARS COLLEGE", "count": 8}, {"level": "SOME HIGH SCHOOL - DID NOT COMPLETE", "count": 5}, {"level": "POST-MASTER'S", "count": 4}, {"level": "FOUR YEARS COLLEGE", "count": 3}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE", "count": 3}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT", "count": 3}, {"level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE", "count": 1}, {"level": "No Data Reported", "count": 1}, {"level": "POST-DOCTORATE", "count": 1}]}
+{
+  "code": "NL",
+  "name": "National Labor Relations Board",
+  "employees": 1225,
+  "avgSalary": 144174,
+  "topOccupations": [
+    {
+      "name": "General Attorney",
+      "count": 561,
+      "avgSalary": 162311
+    },
+    {
+      "name": "Labor-Management Relations Examining",
+      "count": 211,
+      "avgSalary": 143535
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "count": 98,
+      "avgSalary": 66679
+    },
+    {
+      "name": "Human Resources Management",
+      "count": 42,
+      "avgSalary": 145731
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 38,
+      "avgSalary": 130396
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 32,
+      "avgSalary": 162535
+    },
+    {
+      "name": "Administrative Law Judge",
+      "count": 30,
+      "avgSalary": 206626
+    },
+    {
+      "name": "Administrative Officer",
+      "count": 29,
+      "avgSalary": 118213
+    },
+    {
+      "name": "Secretary",
+      "count": 28,
+      "avgSalary": 83859
+    },
+    {
+      "name": "Program Management",
+      "count": 25,
+      "avgSalary": 219184
+    },
+    {
+      "name": "Language Specialist",
+      "count": 14,
+      "avgSalary": 81786
+    },
+    {
+      "name": "Human Resources Management Student Trainee",
+      "count": 13,
+      "avgSalary": 63840
+    },
+    {
+      "name": "Management and Program Analysis",
+      "count": 12,
+      "avgSalary": 125373
+    },
+    {
+      "name": "Security Administration",
+      "count": 8,
+      "avgSalary": 146996
+    },
+    {
+      "name": "Paralegal Specialist",
+      "count": 8,
+      "avgSalary": 101571
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 379
+    },
+    {
+      "name": "California",
+      "code": "CA",
+      "count": 116
+    },
+    {
+      "name": "New York",
+      "code": "NY",
+      "count": 86
+    },
+    {
+      "name": "Pennsylvania",
+      "code": "PA",
+      "count": 50
+    },
+    {
+      "name": "Illinois",
+      "code": "IL",
+      "count": 48
+    },
+    {
+      "name": "Ohio",
+      "code": "OH",
+      "count": 47
+    },
+    {
+      "name": "Texas",
+      "code": "TX",
+      "count": 41
+    },
+    {
+      "name": "Michigan",
+      "code": "MI",
+      "count": 37
+    },
+    {
+      "name": "Washington",
+      "code": "WA",
+      "count": 33
+    },
+    {
+      "name": "Florida",
+      "code": "FL",
+      "count": 31
+    },
+    {
+      "name": "Redacted",
+      "code": "REDACTED",
+      "count": 28
+    },
+    {
+      "name": "Arizona",
+      "code": "AZ",
+      "count": 27
+    },
+    {
+      "name": "New Jersey",
+      "code": "NJ",
+      "count": 27
+    },
+    {
+      "name": "Maryland",
+      "code": "MD",
+      "count": 26
+    },
+    {
+      "name": "Georgia",
+      "code": "GA",
+      "count": 22
+    }
+  ],
+  "education": [
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 554
+    },
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 211
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 151
+    },
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 141
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 35
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 31
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 29
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 18
+    },
+    {
+      "level": "ONE YEAR COLLEGE",
+      "count": 15
+    },
+    {
+      "level": "POST-FIRST PROFESSIONAL",
+      "count": 12
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 11
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 8
+    },
+    {
+      "level": "SOME HIGH SCHOOL - DID NOT COMPLETE",
+      "count": 5
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 4
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 3
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE",
+      "count": 3
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT",
+      "count": 3
+    },
+    {
+      "level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE",
+      "count": 1
+    },
+    {
+      "level": "No Data Reported",
+      "count": 1
+    },
+    {
+      "level": "POST-DOCTORATE",
+      "count": 1
+    }
+  ]
+}

@@ -1,1 +1,160 @@
-{"code": "DC", "name": "DISTRICT OF COLUMBIA", "employees": 99727, "avgSalary": 153909, "topAgencies": [{"name": "DEPARTMENT OF JUSTICE", "code": "DJ", "employees": 16096}, {"name": "DEPARTMENT OF STATE", "code": "ST", "employees": 9639}, {"name": "DEPARTMENT OF TRANSPORTATION", "code": "TD", "employees": 7640}, {"name": "DEPARTMENT OF TREASURY", "code": "TR", "employees": 7246}, {"name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "code": "HE", "employees": 4293}, {"name": "DEPARTMENT OF ENERGY", "code": "DN", "employees": 4087}, {"name": "ENVIRONMENTAL PROTECTION AGENCY", "code": "EP", "employees": 4034}, {"name": "SMITHSONIAN INSTITUTION", "code": "SM", "employees": 3547}, {"name": "DEPARTMENT OF AGRICULTURE", "code": "AG", "employees": 3238}, {"name": "DEPARTMENT OF COMMERCE", "code": "CM", "employees": 2796}, {"name": "DEPARTMENT OF HOUSING AND URBAN DEVELOPM", "code": "HU", "employees": 2790}, {"name": "U.S. AGENCY FOR INTERNATIONAL DEV", "code": "AM", "employees": 2649}, {"name": "DEPARTMENT OF LABOR", "code": "DL", "employees": 2612}, {"name": "SECURITIES AND EXCHANGE COMMISSION", "code": "SE", "employees": 2305}, {"name": "FEDERAL DEPOSIT INSURANCE CORPORATION", "code": "FD", "employees": 2078}], "topOccupations": [{"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "employees": 13591, "avgSalary": 148731}, {"name": "GENERAL ATTORNEY", "employees": 13029, "avgSalary": 188452}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "employees": 12371, "avgSalary": 146569}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "employees": 7419, "avgSalary": 168197}, {"name": "FOREIGN AFFAIRS", "employees": 2848, "avgSalary": 149430}, {"name": "HUMAN RESOURCES MANAGEMENT", "employees": 2696, "avgSalary": 153314}, {"name": "GENERAL BUSINESS AND INDUSTRY", "employees": 2508, "avgSalary": 159685}, {"name": "PROGRAM MANAGEMENT", "employees": 2454, "avgSalary": 202383}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "employees": 1792, "avgSalary": 154915}, {"name": "ECONOMIST", "employees": 1756, "avgSalary": 172501}, {"name": "SECURITY ADMINISTRATION", "employees": 1687, "avgSalary": 138686}, {"name": "BUDGET ANALYSIS", "employees": 1582, "avgSalary": 153643}, {"name": "SOCIAL SCIENCE", "employees": 1564, "avgSalary": 137643}, {"name": "CONTRACTING", "employees": 1450, "avgSalary": 156012}, {"name": "ACCOUNTING", "employees": 1417, "avgSalary": 170587}]}
+{
+  "code": "DC",
+  "name": "DISTRICT OF COLUMBIA",
+  "employees": 99727,
+  "avgSalary": 153909,
+  "topAgencies": [
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 16096
+    },
+    {
+      "name": "Department of State",
+      "code": "ST",
+      "employees": 9639
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 7640
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 7246
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 4293
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 4087
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 4034
+    },
+    {
+      "name": "Smithsonian Institution",
+      "code": "SM",
+      "employees": 3547
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 3238
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 2796
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 2790
+    },
+    {
+      "name": "U.S. Agency for International Dev",
+      "code": "AM",
+      "employees": 2649
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 2612
+    },
+    {
+      "name": "Securities and Exchange Commission",
+      "code": "SE",
+      "employees": 2305
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 2078
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 13591,
+      "avgSalary": 148731
+    },
+    {
+      "name": "General Attorney",
+      "employees": 13029,
+      "avgSalary": 188452
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 12371,
+      "avgSalary": 146569
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 7419,
+      "avgSalary": 168197
+    },
+    {
+      "name": "Foreign Affairs",
+      "employees": 2848,
+      "avgSalary": 149430
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 2696,
+      "avgSalary": 153314
+    },
+    {
+      "name": "General Business and Industry",
+      "employees": 2508,
+      "avgSalary": 159685
+    },
+    {
+      "name": "Program Management",
+      "employees": 2454,
+      "avgSalary": 202383
+    },
+    {
+      "name": "Financial Administration and Program",
+      "employees": 1792,
+      "avgSalary": 154915
+    },
+    {
+      "name": "Economist",
+      "employees": 1756,
+      "avgSalary": 172501
+    },
+    {
+      "name": "Security Administration",
+      "employees": 1687,
+      "avgSalary": 138686
+    },
+    {
+      "name": "Budget Analysis",
+      "employees": 1582,
+      "avgSalary": 153643
+    },
+    {
+      "name": "Social Science",
+      "employees": 1564,
+      "avgSalary": 137643
+    },
+    {
+      "name": "Contracting",
+      "employees": 1450,
+      "avgSalary": 156012
+    },
+    {
+      "name": "Accounting",
+      "employees": 1417,
+      "avgSalary": 170587
+    }
+  ]
+}

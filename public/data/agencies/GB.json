@@ -1,1 +1,222 @@
-{"code": "GB", "name": "DFC", "employees": 678, "avgSalary": 155283, "topOccupations": [{"name": "GENERAL BUSINESS AND INDUSTRY", "count": 246, "avgSalary": 162503}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 134, "avgSalary": 146744}, {"name": "GENERAL ATTORNEY", "count": 78, "avgSalary": 193841}, {"name": "HUMAN RESOURCES MANAGEMENT", "count": 39, "avgSalary": 155034}, {"name": "ACCOUNTING", "count": 30, "avgSalary": 148115}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "count": 29, "avgSalary": 170051}, {"name": "CONTRACTING", "count": 18, "avgSalary": 118644}, {"name": "ECONOMIST", "count": 11, "avgSalary": 144091}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "count": 9, "avgSalary": 139976}, {"name": "PARALEGAL SPECIALIST", "count": 7, "avgSalary": 106888}, {"name": "AUDITING", "count": 7, "avgSalary": 178797}, {"name": "BUDGET ANALYSIS", "count": 7, "avgSalary": 136554}, {"name": "SECURITY ADMINISTRATION", "count": 6, "avgSalary": 127384}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "count": 6, "avgSalary": 79581}, {"name": "PUBLIC AFFAIRS", "count": 5, "avgSalary": 145396}], "topStates": [{"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 427}, {"name": "MARYLAND", "code": "MD", "count": 39}, {"name": "VIRGINIA", "code": "VA", "count": 26}, {"name": "NEW YORK", "code": "NY", "count": 21}, {"name": "REDACTED", "code": "REDACTED", "count": 18}, {"name": "TEXAS", "code": "TX", "count": 16}, {"name": "FLORIDA", "code": "FL", "count": 14}, {"name": "COLORADO", "code": "CO", "count": 14}, {"name": "GEORGIA", "code": "GA", "count": 14}, {"name": "CALIFORNIA", "code": "CA", "count": 14}, {"name": "ILLINOIS", "code": "IL", "count": 9}, {"name": "NEW JERSEY", "code": "NJ", "count": 7}, {"name": "WASHINGTON", "code": "WA", "count": 5}, {"name": "WISCONSIN", "code": "WI", "count": 5}, {"name": "NORTH CAROLINA", "code": "NC", "count": 5}], "education": [{"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 230}, {"level": "MASTER'S DEGREE", "count": 225}, {"level": "BACHELOR'S DEGREE", "count": 102}, {"level": "FIRST PROFESSIONAL", "count": 71}, {"level": "DOCTORATE DEGREE", "count": 21}, {"level": "POST-BACHELOR'S", "count": 14}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 6}, {"level": "ASSOCIATE DEGREE", "count": 5}, {"level": "POST-MASTER'S", "count": 3}, {"level": "THREE YEARS COLLEGE", "count": 3}, {"level": "ONE YEAR COLLEGE", "count": 3}, {"level": "FOUR YEARS COLLEGE", "count": 1}, {"level": "POST-FIRST PROFESSIONAL", "count": 1}, {"level": "SOME HIGH SCHOOL - DID NOT COMPLETE", "count": 1}, {"level": "POST-DOCTORATE", "count": 1}]}
+{
+  "code": "GB",
+  "name": "Dfc",
+  "employees": 678,
+  "avgSalary": 155283,
+  "topOccupations": [
+    {
+      "name": "General Business and Industry",
+      "count": 246,
+      "avgSalary": 162503
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 134,
+      "avgSalary": 146744
+    },
+    {
+      "name": "General Attorney",
+      "count": 78,
+      "avgSalary": 193841
+    },
+    {
+      "name": "Human Resources Management",
+      "count": 39,
+      "avgSalary": 155034
+    },
+    {
+      "name": "Accounting",
+      "count": 30,
+      "avgSalary": 148115
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 29,
+      "avgSalary": 170051
+    },
+    {
+      "name": "Contracting",
+      "count": 18,
+      "avgSalary": 118644
+    },
+    {
+      "name": "Economist",
+      "count": 11,
+      "avgSalary": 144091
+    },
+    {
+      "name": "Management and Program Analysis",
+      "count": 9,
+      "avgSalary": 139976
+    },
+    {
+      "name": "Paralegal Specialist",
+      "count": 7,
+      "avgSalary": 106888
+    },
+    {
+      "name": "Auditing",
+      "count": 7,
+      "avgSalary": 178797
+    },
+    {
+      "name": "Budget Analysis",
+      "count": 7,
+      "avgSalary": 136554
+    },
+    {
+      "name": "Security Administration",
+      "count": 6,
+      "avgSalary": 127384
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "count": 6,
+      "avgSalary": 79581
+    },
+    {
+      "name": "Public Affairs",
+      "count": 5,
+      "avgSalary": 145396
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 427
+    },
+    {
+      "name": "Maryland",
+      "code": "MD",
+      "count": 39
+    },
+    {
+      "name": "Virginia",
+      "code": "VA",
+      "count": 26
+    },
+    {
+      "name": "New York",
+      "code": "NY",
+      "count": 21
+    },
+    {
+      "name": "Redacted",
+      "code": "REDACTED",
+      "count": 18
+    },
+    {
+      "name": "Texas",
+      "code": "TX",
+      "count": 16
+    },
+    {
+      "name": "Florida",
+      "code": "FL",
+      "count": 14
+    },
+    {
+      "name": "Colorado",
+      "code": "CO",
+      "count": 14
+    },
+    {
+      "name": "Georgia",
+      "code": "GA",
+      "count": 14
+    },
+    {
+      "name": "California",
+      "code": "CA",
+      "count": 14
+    },
+    {
+      "name": "Illinois",
+      "code": "IL",
+      "count": 9
+    },
+    {
+      "name": "New Jersey",
+      "code": "NJ",
+      "count": 7
+    },
+    {
+      "name": "Washington",
+      "code": "WA",
+      "count": 5
+    },
+    {
+      "name": "Wisconsin",
+      "code": "WI",
+      "count": 5
+    },
+    {
+      "name": "North Carolina",
+      "code": "NC",
+      "count": 5
+    }
+  ],
+  "education": [
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 230
+    },
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 225
+    },
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 102
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 71
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 21
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 14
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 6
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 5
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 3
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 3
+    },
+    {
+      "level": "ONE YEAR COLLEGE",
+      "count": 3
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 1
+    },
+    {
+      "level": "POST-FIRST PROFESSIONAL",
+      "count": 1
+    },
+    {
+      "level": "SOME HIGH SCHOOL - DID NOT COMPLETE",
+      "count": 1
+    },
+    {
+      "level": "POST-DOCTORATE",
+      "count": 1
+    }
+  ]
+}

@@ -1,1 +1,36 @@
-{"code": "AW", "name": "ARCTIC RESEARCH COMMISSION", "employees": 2, "avgSalary": 195275, "topOccupations": [{"name": "GENERAL NATURAL RESOURCES MANAGEMENT AND BIOLOGICAL SCIENCES", "count": 1, "avgSalary": 183049}, {"name": "PROGRAM MANAGEMENT", "count": 1, "avgSalary": 207500}], "topStates": [{"name": "ALASKA", "code": "AK", "count": 1}, {"name": "VIRGINIA", "code": "VA", "count": 1}], "education": [{"level": "DOCTORATE DEGREE", "count": 2}]}
+{
+  "code": "AW",
+  "name": "Arctic Research Commission",
+  "employees": 2,
+  "avgSalary": 195275,
+  "topOccupations": [
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "count": 1,
+      "avgSalary": 183049
+    },
+    {
+      "name": "Program Management",
+      "count": 1,
+      "avgSalary": 207500
+    }
+  ],
+  "topStates": [
+    {
+      "name": "Alaska",
+      "code": "AK",
+      "count": 1
+    },
+    {
+      "name": "Virginia",
+      "code": "VA",
+      "count": 1
+    }
+  ],
+  "education": [
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 2
+    }
+  ]
+}

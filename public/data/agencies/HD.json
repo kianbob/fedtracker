@@ -1,1 +1,163 @@
-{"code": "HD", "name": "U.S. HOLOCAUST MEMORIAL MUSEUM", "employees": 109, "avgSalary": 135503, "topOccupations": [{"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 17, "avgSalary": 151360}, {"name": "MUSEUM SPECIALIST AND TECHNICIAN", "count": 13, "avgSalary": 110228}, {"name": "GENERAL ARTS AND INFORMATION", "count": 9, "avgSalary": 165548}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "count": 8, "avgSalary": 167283}, {"name": "GENERAL EDUCATION AND TRAINING", "count": 8, "avgSalary": 168634}, {"name": "ARCHIVIST", "count": 7, "avgSalary": 121310}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "count": 7, "avgSalary": 51716}, {"name": "SECURITY ADMINISTRATION", "count": 4, "avgSalary": 120431}, {"name": "MUSEUM CURATOR", "count": 4, "avgSalary": 164682}, {"name": "UTILITY SYSTEMS REPAIRING-OPERATING", "count": 4, "avgSalary": 88071}, {"name": "TECHNICAL INFORMATION SERVICES", "count": 3, "avgSalary": 107861}, {"name": "LIBRARIAN", "count": 3, "avgSalary": 137447}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "count": 3, "avgSalary": 160191}, {"name": "FACILITY OPERATIONS SERVICES", "count": 3, "avgSalary": 130695}, {"name": "BUDGET ANALYSIS", "count": 2, "avgSalary": 175978}], "topStates": [{"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 78}, {"name": "MARYLAND", "code": "MD", "count": 29}, {"name": "NORTH CAROLINA", "code": "NC", "count": 1}, {"name": "MISSISSIPPI", "code": "MS", "count": 1}], "education": [{"level": "MASTER'S DEGREE", "count": 38}, {"level": "BACHELOR'S DEGREE", "count": 27}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 19}, {"level": "DOCTORATE DEGREE", "count": 7}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 4}, {"level": "FOUR YEARS COLLEGE", "count": 3}, {"level": "THREE YEARS COLLEGE", "count": 2}, {"level": "ONE YEAR COLLEGE", "count": 2}, {"level": "TWO YEARS COLLEGE", "count": 2}, {"level": "No Data Reported", "count": 1}, {"level": "POST-FIRST PROFESSIONAL", "count": 1}, {"level": "POST-MASTER'S", "count": 1}, {"level": "ASSOCIATE DEGREE", "count": 1}, {"level": "FIRST PROFESSIONAL", "count": 1}]}
+{
+  "code": "HD",
+  "name": "U.S. Holocaust Memorial Museum",
+  "employees": 109,
+  "avgSalary": 135503,
+  "topOccupations": [
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 17,
+      "avgSalary": 151360
+    },
+    {
+      "name": "Museum Specialist and Technician",
+      "count": 13,
+      "avgSalary": 110228
+    },
+    {
+      "name": "General Arts and Information",
+      "count": 9,
+      "avgSalary": 165548
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 8,
+      "avgSalary": 167283
+    },
+    {
+      "name": "General Education and Training",
+      "count": 8,
+      "avgSalary": 168634
+    },
+    {
+      "name": "Archivist",
+      "count": 7,
+      "avgSalary": 121310
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "count": 7,
+      "avgSalary": 51716
+    },
+    {
+      "name": "Security Administration",
+      "count": 4,
+      "avgSalary": 120431
+    },
+    {
+      "name": "Museum Curator",
+      "count": 4,
+      "avgSalary": 164682
+    },
+    {
+      "name": "Utility Systems Repairing-Operating",
+      "count": 4,
+      "avgSalary": 88071
+    },
+    {
+      "name": "Technical Information Services",
+      "count": 3,
+      "avgSalary": 107861
+    },
+    {
+      "name": "Librarian",
+      "count": 3,
+      "avgSalary": 137447
+    },
+    {
+      "name": "Financial Administration and Program",
+      "count": 3,
+      "avgSalary": 160191
+    },
+    {
+      "name": "Facility Operations Services",
+      "count": 3,
+      "avgSalary": 130695
+    },
+    {
+      "name": "Budget Analysis",
+      "count": 2,
+      "avgSalary": 175978
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 78
+    },
+    {
+      "name": "Maryland",
+      "code": "MD",
+      "count": 29
+    },
+    {
+      "name": "North Carolina",
+      "code": "NC",
+      "count": 1
+    },
+    {
+      "name": "Mississippi",
+      "code": "MS",
+      "count": 1
+    }
+  ],
+  "education": [
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 38
+    },
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 27
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 19
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 7
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 4
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 3
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 2
+    },
+    {
+      "level": "ONE YEAR COLLEGE",
+      "count": 2
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 2
+    },
+    {
+      "level": "No Data Reported",
+      "count": 1
+    },
+    {
+      "level": "POST-FIRST PROFESSIONAL",
+      "count": 1
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 1
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 1
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 1
+    }
+  ]
+}

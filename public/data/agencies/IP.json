@@ -1,1 +1,26 @@
-{"code": "IP", "name": "INTEL PROPERTY ENFORC COORDINATOR", "employees": 2, "avgSalary": 197250, "topOccupations": [{"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 2, "avgSalary": 197250}], "topStates": [{"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 2}], "education": [{"level": "FIRST PROFESSIONAL", "count": 2}]}
+{
+  "code": "IP",
+  "name": "Intel Property Enforc Coordinator",
+  "employees": 2,
+  "avgSalary": 197250,
+  "topOccupations": [
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 2,
+      "avgSalary": 197250
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 2
+    }
+  ],
+  "education": [
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 2
+    }
+  ]
+}

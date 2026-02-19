@@ -1,1 +1,238 @@
-{"code": "HF", "name": "FEDERAL HOUSING FINANCE AGENCY", "employees": 821, "avgSalary": 205999, "topOccupations": [{"name": "FINANCIAL INSTITUTION EXAMINING", "count": 207, "avgSalary": 210470}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "count": 103, "avgSalary": 184592}, {"name": "FINANCIAL ANALYSIS", "count": 83, "avgSalary": 219292}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 80, "avgSalary": 219683}, {"name": "GENERAL ATTORNEY", "count": 69, "avgSalary": 233488}, {"name": "ECONOMIST", "count": 64, "avgSalary": 189705}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "count": 52, "avgSalary": 210135}, {"name": "ACCOUNTING", "count": 30, "avgSalary": 215300}, {"name": "HUMAN RESOURCES MANAGEMENT", "count": 30, "avgSalary": 190388}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "count": 24, "avgSalary": 189815}, {"name": "AUDITING", "count": 14, "avgSalary": 181818}, {"name": "FINANCIAL MANAGEMENT", "count": 13, "avgSalary": 224018}, {"name": "CONTRACTING", "count": 10, "avgSalary": 198094}, {"name": "STATISTICS", "count": 7, "avgSalary": 206041}, {"name": "EQUAL EMPLOYMENT OPPORTUNITY", "count": 5, "avgSalary": 186106}], "topStates": [{"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 717}, {"name": "REDACTED", "code": "REDACTED", "count": 48}, {"name": "VIRGINIA", "code": "VA", "count": 39}, {"name": "GEORGIA", "code": "GA", "count": 9}, {"name": "TEXAS", "code": "TX", "count": 8}, {"name": "FLORIDA", "code": "FL", "count": 7}, {"name": "KANSAS", "code": "KS", "count": 5}, {"name": "CALIFORNIA", "code": "CA", "count": 5}, {"name": "PENNSYLVANIA", "code": "PA", "count": 5}, {"name": "ILLINOIS", "code": "IL", "count": 3}, {"name": "INDIANA", "code": "IN", "count": 3}, {"name": "NEW JERSEY", "code": "NJ", "count": 3}, {"name": "NORTH CAROLINA", "code": "NC", "count": 3}, {"name": "TENNESSEE", "code": "TN", "count": 2}, {"name": "NEW YORK", "code": "NY", "count": 2}], "education": [{"level": "MASTER'S DEGREE", "count": 351}, {"level": "BACHELOR'S DEGREE", "count": 252}, {"level": "DOCTORATE DEGREE", "count": 83}, {"level": "FIRST PROFESSIONAL", "count": 70}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 33}, {"level": "POST-BACHELOR'S", "count": 24}, {"level": "TWO YEARS COLLEGE", "count": 11}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 11}, {"level": "POST-MASTER'S", "count": 8}, {"level": "ONE YEAR COLLEGE", "count": 6}, {"level": "FOUR YEARS COLLEGE", "count": 4}, {"level": "POST-FIRST PROFESSIONAL", "count": 3}, {"level": "ASSOCIATE DEGREE", "count": 3}, {"level": "SIXTH-YEAR DEGREE", "count": 3}, {"level": "THREE YEARS COLLEGE", "count": 2}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT", "count": 2}, {"level": "No Data Reported", "count": 1}, {"level": "POST-DOCTORATE", "count": 1}, {"level": "POST-SIXTH YEAR", "count": 1}]}
+{
+  "code": "HF",
+  "name": "Federal Housing Finance Agency",
+  "employees": 821,
+  "avgSalary": 205999,
+  "topOccupations": [
+    {
+      "name": "Financial Institution Examining",
+      "count": 207,
+      "avgSalary": 210470
+    },
+    {
+      "name": "Management and Program Analysis",
+      "count": 103,
+      "avgSalary": 184592
+    },
+    {
+      "name": "Financial Analysis",
+      "count": 83,
+      "avgSalary": 219292
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 80,
+      "avgSalary": 219683
+    },
+    {
+      "name": "General Attorney",
+      "count": 69,
+      "avgSalary": 233488
+    },
+    {
+      "name": "Economist",
+      "count": 64,
+      "avgSalary": 189705
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 52,
+      "avgSalary": 210135
+    },
+    {
+      "name": "Accounting",
+      "count": 30,
+      "avgSalary": 215300
+    },
+    {
+      "name": "Human Resources Management",
+      "count": 30,
+      "avgSalary": 190388
+    },
+    {
+      "name": "Financial Administration and Program",
+      "count": 24,
+      "avgSalary": 189815
+    },
+    {
+      "name": "Auditing",
+      "count": 14,
+      "avgSalary": 181818
+    },
+    {
+      "name": "Financial Management",
+      "count": 13,
+      "avgSalary": 224018
+    },
+    {
+      "name": "Contracting",
+      "count": 10,
+      "avgSalary": 198094
+    },
+    {
+      "name": "Statistics",
+      "count": 7,
+      "avgSalary": 206041
+    },
+    {
+      "name": "Equal Employment Opportunity",
+      "count": 5,
+      "avgSalary": 186106
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 717
+    },
+    {
+      "name": "Redacted",
+      "code": "REDACTED",
+      "count": 48
+    },
+    {
+      "name": "Virginia",
+      "code": "VA",
+      "count": 39
+    },
+    {
+      "name": "Georgia",
+      "code": "GA",
+      "count": 9
+    },
+    {
+      "name": "Texas",
+      "code": "TX",
+      "count": 8
+    },
+    {
+      "name": "Florida",
+      "code": "FL",
+      "count": 7
+    },
+    {
+      "name": "Kansas",
+      "code": "KS",
+      "count": 5
+    },
+    {
+      "name": "California",
+      "code": "CA",
+      "count": 5
+    },
+    {
+      "name": "Pennsylvania",
+      "code": "PA",
+      "count": 5
+    },
+    {
+      "name": "Illinois",
+      "code": "IL",
+      "count": 3
+    },
+    {
+      "name": "Indiana",
+      "code": "IN",
+      "count": 3
+    },
+    {
+      "name": "New Jersey",
+      "code": "NJ",
+      "count": 3
+    },
+    {
+      "name": "North Carolina",
+      "code": "NC",
+      "count": 3
+    },
+    {
+      "name": "Tennessee",
+      "code": "TN",
+      "count": 2
+    },
+    {
+      "name": "New York",
+      "code": "NY",
+      "count": 2
+    }
+  ],
+  "education": [
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 351
+    },
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 252
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 83
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 70
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 33
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 24
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 11
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 11
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 8
+    },
+    {
+      "level": "ONE YEAR COLLEGE",
+      "count": 6
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 4
+    },
+    {
+      "level": "POST-FIRST PROFESSIONAL",
+      "count": 3
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 3
+    },
+    {
+      "level": "SIXTH-YEAR DEGREE",
+      "count": 3
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 2
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT",
+      "count": 2
+    },
+    {
+      "level": "No Data Reported",
+      "count": 1
+    },
+    {
+      "level": "POST-DOCTORATE",
+      "count": 1
+    },
+    {
+      "level": "POST-SIXTH YEAR",
+      "count": 1
+    }
+  ]
+}

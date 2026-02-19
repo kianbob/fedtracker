@@ -1,1 +1,48 @@
-{"code": "FK", "name": "FARM CREDIT SYSTEM INSURANCE CORPORATION", "employees": 5, "avgSalary": 301024, "topOccupations": [{"name": "GENERAL BUSINESS AND INDUSTRY", "count": 3, "avgSalary": 277790}, {"name": "GENERAL ATTORNEY", "count": 2, "avgSalary": 335875}], "topStates": [{"name": "VIRGINIA", "code": "VA", "count": 9}, {"name": "TEXAS", "code": "TX", "count": 1}], "education": [{"level": "BACHELOR'S DEGREE", "count": 4}, {"level": "FIRST PROFESSIONAL", "count": 3}, {"level": "MASTER'S DEGREE", "count": 2}, {"level": "ASSOCIATE DEGREE", "count": 1}]}
+{
+  "code": "FK",
+  "name": "Farm Credit System Insurance Corporation",
+  "employees": 5,
+  "avgSalary": 301024,
+  "topOccupations": [
+    {
+      "name": "General Business and Industry",
+      "count": 3,
+      "avgSalary": 277790
+    },
+    {
+      "name": "General Attorney",
+      "count": 2,
+      "avgSalary": 335875
+    }
+  ],
+  "topStates": [
+    {
+      "name": "Virginia",
+      "code": "VA",
+      "count": 9
+    },
+    {
+      "name": "Texas",
+      "code": "TX",
+      "count": 1
+    }
+  ],
+  "education": [
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 4
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 3
+    },
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 2
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 1
+    }
+  ]
+}

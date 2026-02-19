@@ -1,1 +1,162 @@
-{"code": "RH", "name": "ARMED FORCES RETIREMENT HOME", "employees": 309, "avgSalary": 79059, "topOccupations": [{"name": "NURSING ASSISTANT", "count": 79, "avgSalary": 50904}, {"name": "PRACTICAL NURSE", "count": 45, "avgSalary": 65003}, {"name": "NURSE", "count": 35, "avgSalary": 98563}, {"name": "SECURITY GUARD", "count": 32, "avgSalary": 55098}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 20, "avgSalary": 127742}, {"name": "GENERAL BUSINESS AND INDUSTRY", "count": 11, "avgSalary": 79839}, {"name": "MEDICAL RECORDS TECHNICIAN", "count": 7, "avgSalary": 50902}, {"name": "MEDICAL OFFICER", "count": 7, "avgSalary": 248257}, {"name": "RECREATION SPECIALIST", "count": 5, "avgSalary": 78716}, {"name": "SOCIAL WORK", "count": 5, "avgSalary": 93443}, {"name": "PHARMACY TECHNICIAN", "count": 4, "avgSalary": 57947}, {"name": "DIETITIAN AND NUTRITIONIST", "count": 4, "avgSalary": 89926}, {"name": "HEALTH SYSTEM ADMINISTRATION", "count": 4, "avgSalary": 136279}, {"name": "FINANCIAL ANALYSIS", "count": 3, "avgSalary": 99801}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "count": 3, "avgSalary": 112572}], "topStates": [{"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 174}, {"name": "MISSISSIPPI", "code": "MS", "count": 135}, {"name": "REDACTED", "code": "REDACTED", "count": 2}], "education": [{"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 140}, {"level": "BACHELOR'S DEGREE", "count": 56}, {"level": "ASSOCIATE DEGREE", "count": 36}, {"level": "MASTER'S DEGREE", "count": 22}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 17}, {"level": "ONE YEAR COLLEGE", "count": 11}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT", "count": 9}, {"level": "DOCTORATE DEGREE", "count": 7}, {"level": "TWO YEARS COLLEGE", "count": 6}, {"level": "SOME HIGH SCHOOL - DID NOT COMPLETE", "count": 2}, {"level": "FIRST PROFESSIONAL", "count": 1}, {"level": "POST-BACHELOR'S", "count": 1}, {"level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE", "count": 1}, {"level": "FOUR YEARS COLLEGE", "count": 1}, {"level": "THREE YEARS COLLEGE", "count": 1}]}
+{
+  "code": "RH",
+  "name": "Armed Forces Retirement Home",
+  "employees": 309,
+  "avgSalary": 79059,
+  "topOccupations": [
+    {
+      "name": "Nursing Assistant",
+      "count": 79,
+      "avgSalary": 50904
+    },
+    {
+      "name": "Practical Nurse",
+      "count": 45,
+      "avgSalary": 65003
+    },
+    {
+      "name": "Nurse",
+      "count": 35,
+      "avgSalary": 98563
+    },
+    {
+      "name": "Security Guard",
+      "count": 32,
+      "avgSalary": 55098
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 20,
+      "avgSalary": 127742
+    },
+    {
+      "name": "General Business and Industry",
+      "count": 11,
+      "avgSalary": 79839
+    },
+    {
+      "name": "Medical Records Technician",
+      "count": 7,
+      "avgSalary": 50902
+    },
+    {
+      "name": "Medical Officer",
+      "count": 7,
+      "avgSalary": 248257
+    },
+    {
+      "name": "Recreation Specialist",
+      "count": 5,
+      "avgSalary": 78716
+    },
+    {
+      "name": "Social Work",
+      "count": 5,
+      "avgSalary": 93443
+    },
+    {
+      "name": "Pharmacy Technician",
+      "count": 4,
+      "avgSalary": 57947
+    },
+    {
+      "name": "Dietitian and Nutritionist",
+      "count": 4,
+      "avgSalary": 89926
+    },
+    {
+      "name": "Health System Administration",
+      "count": 4,
+      "avgSalary": 136279
+    },
+    {
+      "name": "Financial Analysis",
+      "count": 3,
+      "avgSalary": 99801
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 3,
+      "avgSalary": 112572
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 174
+    },
+    {
+      "name": "Mississippi",
+      "code": "MS",
+      "count": 135
+    },
+    {
+      "name": "Redacted",
+      "code": "REDACTED",
+      "count": 2
+    }
+  ],
+  "education": [
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 140
+    },
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 56
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 36
+    },
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 22
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 17
+    },
+    {
+      "level": "ONE YEAR COLLEGE",
+      "count": 11
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT",
+      "count": 9
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 7
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 6
+    },
+    {
+      "level": "SOME HIGH SCHOOL - DID NOT COMPLETE",
+      "count": 2
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 1
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 1
+    },
+    {
+      "level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE",
+      "count": 1
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 1
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 1
+    }
+  ]
+}

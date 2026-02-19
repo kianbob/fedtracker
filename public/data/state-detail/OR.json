@@ -1,1 +1,160 @@
-{"code": "OR", "name": "OREGON", "employees": 10316, "avgSalary": 96080, "topAgencies": [{"name": "DEPARTMENT OF AGRICULTURE", "code": "AG", "employees": 3857}, {"name": "DEPARTMENT OF INTERIOR", "code": "IN", "employees": 2475}, {"name": "DEPARTMENT OF ENERGY", "code": "DN", "employees": 1420}, {"name": "DEPARTMENT OF COMMERCE", "code": "CM", "employees": 492}, {"name": "DEPARTMENT OF TREASURY", "code": "TR", "employees": 408}, {"name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "code": "HE", "employees": 374}, {"name": "SOCIAL SECURITY ADMINISTRATION", "code": "SZ", "employees": 337}, {"name": "DEPARTMENT OF TRANSPORTATION", "code": "TD", "employees": 316}, {"name": "DEPARTMENT OF JUSTICE", "code": "DJ", "employees": 196}, {"name": "ENVIRONMENTAL PROTECTION AGENCY", "code": "EP", "employees": 124}, {"name": "GENERAL SERVICES ADMINISTRATION", "code": "GS", "employees": 70}, {"name": "DEPARTMENT OF LABOR", "code": "DL", "employees": 59}, {"name": "FEDERAL DEPOSIT INSURANCE CORPORATION", "code": "FD", "employees": 41}, {"name": "DEPARTMENT OF HOUSING AND URBAN DEVELOPM", "code": "HU", "employees": 37}, {"name": "SMALL BUSINESS ADMINISTRATION", "code": "SB", "employees": 25}], "topOccupations": [{"name": "FORESTRY TECHNICIAN", "employees": 1090, "avgSalary": 57287}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "employees": 727, "avgSalary": 101673}, {"name": "GENERAL NATURAL RESOURCES MANAGEMENT AND BIOLOGICAL SCIENCES", "employees": 647, "avgSalary": 100919}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "employees": 316, "avgSalary": 127359}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "employees": 266, "avgSalary": 117684}, {"name": "CONTACT REPRESENTATIVE", "employees": 255, "avgSalary": 63664}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "employees": 253, "avgSalary": 51324}, {"name": "FORESTRY", "employees": 251, "avgSalary": 85140}, {"name": "BIOLOGICAL SCIENCE TECHNICIAN", "employees": 227, "avgSalary": 54049}, {"name": "SOCIAL INSURANCE ADMINISTRATION", "employees": 212, "avgSalary": 97242}, {"name": "GENERAL BUSINESS AND INDUSTRY", "employees": 204, "avgSalary": 106451}, {"name": "GENERAL ATTORNEY", "employees": 174, "avgSalary": 158020}, {"name": "WILDLAND FIRE MANAGEMENT", "employees": 169, "avgSalary": 74081}, {"name": "FISH BIOLOGY", "employees": 164, "avgSalary": 105627}, {"name": "PUBLIC UTILITIES SPECIALIST", "employees": 163, "avgSalary": 132186}]}
+{
+  "code": "OR",
+  "name": "OREGON",
+  "employees": 10316,
+  "avgSalary": 96080,
+  "topAgencies": [
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 3857
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 2475
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 1420
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 492
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 408
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 374
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 337
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 316
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 196
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 124
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 70
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 59
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 41
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 37
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 25
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Forestry Technician",
+      "employees": 1090,
+      "avgSalary": 57287
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 727,
+      "avgSalary": 101673
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 647,
+      "avgSalary": 100919
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 316,
+      "avgSalary": 127359
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 266,
+      "avgSalary": 117684
+    },
+    {
+      "name": "Contact Representative",
+      "employees": 255,
+      "avgSalary": 63664
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 253,
+      "avgSalary": 51324
+    },
+    {
+      "name": "Forestry",
+      "employees": 251,
+      "avgSalary": 85140
+    },
+    {
+      "name": "Biological Science Technician",
+      "employees": 227,
+      "avgSalary": 54049
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 212,
+      "avgSalary": 97242
+    },
+    {
+      "name": "General Business and Industry",
+      "employees": 204,
+      "avgSalary": 106451
+    },
+    {
+      "name": "General Attorney",
+      "employees": 174,
+      "avgSalary": 158020
+    },
+    {
+      "name": "Wildland Fire Management",
+      "employees": 169,
+      "avgSalary": 74081
+    },
+    {
+      "name": "Fish Biology",
+      "employees": 164,
+      "avgSalary": 105627
+    },
+    {
+      "name": "Public Utilities Specialist",
+      "employees": 163,
+      "avgSalary": 132186
+    }
+  ]
+}

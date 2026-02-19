@@ -1,1 +1,238 @@
-{"code": "AH", "name": "NAT FOUNDATION ON ARTS AND HUMANITIES", "employees": 465, "avgSalary": 124943, "topOccupations": [{"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 154, "avgSalary": 106431}, {"name": "GRANTS MANAGEMENT", "count": 72, "avgSalary": 117549}, {"name": "GENERAL EDUCATION AND TRAINING", "count": 70, "avgSalary": 140688}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "count": 24, "avgSalary": 155881}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "count": 22, "avgSalary": 125794}, {"name": "HUMAN RESOURCES MANAGEMENT", "count": 17, "avgSalary": 142696}, {"name": "GENERAL ATTORNEY", "count": 13, "avgSalary": 173762}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "count": 10, "avgSalary": 126448}, {"name": "CONTRACTING", "count": 8, "avgSalary": 150117}, {"name": "AUDITING", "count": 7, "avgSalary": 167711}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "count": 7, "avgSalary": 71409}, {"name": "PUBLIC AFFAIRS", "count": 7, "avgSalary": 116130}, {"name": "WRITING AND EDITING", "count": 6, "avgSalary": 124952}, {"name": "ACCOUNTING", "count": 6, "avgSalary": 168111}, {"name": "SOCIAL SCIENCE", "count": 5, "avgSalary": 153051}], "topStates": [{"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 379}, {"name": "MARYLAND", "code": "MD", "count": 28}, {"name": "VIRGINIA", "code": "VA", "count": 12}, {"name": "NEW YORK", "code": "NY", "count": 7}, {"name": "FLORIDA", "code": "FL", "count": 5}, {"name": "ILLINOIS", "code": "IL", "count": 5}, {"name": "PENNSYLVANIA", "code": "PA", "count": 4}, {"name": "MASSACHUSETTS", "code": "MA", "count": 3}, {"name": "WASHINGTON", "code": "WA", "count": 3}, {"name": "REDACTED", "code": "REDACTED", "count": 3}, {"name": "DELAWARE", "code": "DE", "count": 2}, {"name": "NEBRASKA", "code": "NE", "count": 2}, {"name": "CALIFORNIA", "code": "CA", "count": 1}, {"name": "WISCONSIN", "code": "WI", "count": 1}, {"name": "MINNESOTA", "code": "MN", "count": 1}], "education": [{"level": "MASTER'S DEGREE", "count": 158}, {"level": "BACHELOR'S DEGREE", "count": 109}, {"level": "DOCTORATE DEGREE", "count": 73}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 55}, {"level": "No Data Reported", "count": 20}, {"level": "FIRST PROFESSIONAL", "count": 9}, {"level": "FOUR YEARS COLLEGE", "count": 6}, {"level": "TWO YEARS COLLEGE", "count": 5}, {"level": "POST-BACHELOR'S", "count": 5}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 5}, {"level": "THREE YEARS COLLEGE", "count": 4}, {"level": "POST-FIRST PROFESSIONAL", "count": 3}, {"level": "POST-MASTER'S", "count": 3}, {"level": "ASSOCIATE DEGREE", "count": 3}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT", "count": 2}, {"level": "ONE YEAR COLLEGE", "count": 2}, {"level": "SIXTH-YEAR DEGREE", "count": 1}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE", "count": 1}, {"level": "POST-SIXTH YEAR", "count": 1}]}
+{
+  "code": "AH",
+  "name": "National Foundation on Arts and Humanities",
+  "employees": 465,
+  "avgSalary": 124943,
+  "topOccupations": [
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 154,
+      "avgSalary": 106431
+    },
+    {
+      "name": "Grants Management",
+      "count": 72,
+      "avgSalary": 117549
+    },
+    {
+      "name": "General Education and Training",
+      "count": 70,
+      "avgSalary": 140688
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 24,
+      "avgSalary": 155881
+    },
+    {
+      "name": "Management and Program Analysis",
+      "count": 22,
+      "avgSalary": 125794
+    },
+    {
+      "name": "Human Resources Management",
+      "count": 17,
+      "avgSalary": 142696
+    },
+    {
+      "name": "General Attorney",
+      "count": 13,
+      "avgSalary": 173762
+    },
+    {
+      "name": "Financial Administration and Program",
+      "count": 10,
+      "avgSalary": 126448
+    },
+    {
+      "name": "Contracting",
+      "count": 8,
+      "avgSalary": 150117
+    },
+    {
+      "name": "Auditing",
+      "count": 7,
+      "avgSalary": 167711
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "count": 7,
+      "avgSalary": 71409
+    },
+    {
+      "name": "Public Affairs",
+      "count": 7,
+      "avgSalary": 116130
+    },
+    {
+      "name": "Writing and Editing",
+      "count": 6,
+      "avgSalary": 124952
+    },
+    {
+      "name": "Accounting",
+      "count": 6,
+      "avgSalary": 168111
+    },
+    {
+      "name": "Social Science",
+      "count": 5,
+      "avgSalary": 153051
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 379
+    },
+    {
+      "name": "Maryland",
+      "code": "MD",
+      "count": 28
+    },
+    {
+      "name": "Virginia",
+      "code": "VA",
+      "count": 12
+    },
+    {
+      "name": "New York",
+      "code": "NY",
+      "count": 7
+    },
+    {
+      "name": "Florida",
+      "code": "FL",
+      "count": 5
+    },
+    {
+      "name": "Illinois",
+      "code": "IL",
+      "count": 5
+    },
+    {
+      "name": "Pennsylvania",
+      "code": "PA",
+      "count": 4
+    },
+    {
+      "name": "Massachusetts",
+      "code": "MA",
+      "count": 3
+    },
+    {
+      "name": "Washington",
+      "code": "WA",
+      "count": 3
+    },
+    {
+      "name": "Redacted",
+      "code": "REDACTED",
+      "count": 3
+    },
+    {
+      "name": "Delaware",
+      "code": "DE",
+      "count": 2
+    },
+    {
+      "name": "Nebraska",
+      "code": "NE",
+      "count": 2
+    },
+    {
+      "name": "California",
+      "code": "CA",
+      "count": 1
+    },
+    {
+      "name": "Wisconsin",
+      "code": "WI",
+      "count": 1
+    },
+    {
+      "name": "Minnesota",
+      "code": "MN",
+      "count": 1
+    }
+  ],
+  "education": [
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 158
+    },
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 109
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 73
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 55
+    },
+    {
+      "level": "No Data Reported",
+      "count": 20
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 9
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 6
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 5
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 5
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 5
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 4
+    },
+    {
+      "level": "POST-FIRST PROFESSIONAL",
+      "count": 3
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 3
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 3
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT",
+      "count": 2
+    },
+    {
+      "level": "ONE YEAR COLLEGE",
+      "count": 2
+    },
+    {
+      "level": "SIXTH-YEAR DEGREE",
+      "count": 1
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE",
+      "count": 1
+    },
+    {
+      "level": "POST-SIXTH YEAR",
+      "count": 1
+    }
+  ]
+}

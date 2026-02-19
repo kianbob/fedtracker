@@ -1,1 +1,130 @@
-{"code": "GC", "name": "GULF COAST ECOSYSTEM RESTORATION COUNCIL", "employees": 23, "avgSalary": 148366, "topOccupations": [{"name": "GRANTS MANAGEMENT", "count": 6, "avgSalary": 123009}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "count": 4, "avgSalary": 135466}, {"name": "GENERAL NATURAL RESOURCES MANAGEMENT AND BIOLOGICAL SCIENCES", "count": 4, "avgSalary": 159353}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 2, "avgSalary": 177837}, {"name": "PROGRAM MANAGEMENT", "count": 1, "avgSalary": 225700}, {"name": "GENERAL ATTORNEY", "count": 1, "avgSalary": 195200}, {"name": "ECOLOGY", "count": 1, "avgSalary": 115922}, {"name": "GENERAL BUSINESS AND INDUSTRY", "count": 1, "avgSalary": 137000}, {"name": "ADMINISTRATIVE OFFICER", "count": 1, "avgSalary": 185541}, {"name": "PUBLIC AFFAIRS", "count": 1, "avgSalary": 126461}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "count": 1, "avgSalary": 153587}], "topStates": [{"name": "LOUISIANA", "code": "LA", "count": 10}, {"name": "ALABAMA", "code": "AL", "count": 4}, {"name": "TEXAS", "code": "TX", "count": 3}, {"name": "FLORIDA", "code": "FL", "count": 2}, {"name": "MISSISSIPPI", "code": "MS", "count": 2}, {"name": "VIRGINIA", "code": "VA", "count": 1}, {"name": "CALIFORNIA", "code": "CA", "count": 1}], "education": [{"level": "MASTER'S DEGREE", "count": 10}, {"level": "BACHELOR'S DEGREE", "count": 7}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 2}, {"level": "POST-MASTER'S", "count": 1}, {"level": "FOUR YEARS COLLEGE", "count": 1}, {"level": "FIRST PROFESSIONAL", "count": 1}, {"level": "POST-BACHELOR'S", "count": 1}]}
+{
+  "code": "GC",
+  "name": "Gulf Coast Ecosystem Restoration Council",
+  "employees": 23,
+  "avgSalary": 148366,
+  "topOccupations": [
+    {
+      "name": "Grants Management",
+      "count": 6,
+      "avgSalary": 123009
+    },
+    {
+      "name": "Financial Administration and Program",
+      "count": 4,
+      "avgSalary": 135466
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "count": 4,
+      "avgSalary": 159353
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 2,
+      "avgSalary": 177837
+    },
+    {
+      "name": "Program Management",
+      "count": 1,
+      "avgSalary": 225700
+    },
+    {
+      "name": "General Attorney",
+      "count": 1,
+      "avgSalary": 195200
+    },
+    {
+      "name": "Ecology",
+      "count": 1,
+      "avgSalary": 115922
+    },
+    {
+      "name": "General Business and Industry",
+      "count": 1,
+      "avgSalary": 137000
+    },
+    {
+      "name": "Administrative Officer",
+      "count": 1,
+      "avgSalary": 185541
+    },
+    {
+      "name": "Public Affairs",
+      "count": 1,
+      "avgSalary": 126461
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 1,
+      "avgSalary": 153587
+    }
+  ],
+  "topStates": [
+    {
+      "name": "Louisiana",
+      "code": "LA",
+      "count": 10
+    },
+    {
+      "name": "Alabama",
+      "code": "AL",
+      "count": 4
+    },
+    {
+      "name": "Texas",
+      "code": "TX",
+      "count": 3
+    },
+    {
+      "name": "Florida",
+      "code": "FL",
+      "count": 2
+    },
+    {
+      "name": "Mississippi",
+      "code": "MS",
+      "count": 2
+    },
+    {
+      "name": "Virginia",
+      "code": "VA",
+      "count": 1
+    },
+    {
+      "name": "California",
+      "code": "CA",
+      "count": 1
+    }
+  ],
+  "education": [
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 10
+    },
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 7
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 2
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 1
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 1
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 1
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 1
+    }
+  ]
+}

@@ -1,1 +1,160 @@
-{"code": "KY", "name": "KENTUCKY", "employees": 7814, "avgSalary": 84017, "topAgencies": [{"name": "DEPARTMENT OF TREASURY", "code": "TR", "employees": 3296}, {"name": "DEPARTMENT OF AGRICULTURE", "code": "AG", "employees": 1172}, {"name": "DEPARTMENT OF JUSTICE", "code": "DJ", "employees": 952}, {"name": "SOCIAL SECURITY ADMINISTRATION", "code": "SZ", "employees": 702}, {"name": "DEPARTMENT OF TRANSPORTATION", "code": "TD", "employees": 382}, {"name": "DEPARTMENT OF INTERIOR", "code": "IN", "employees": 337}, {"name": "DEPARTMENT OF LABOR", "code": "DL", "employees": 248}, {"name": "DEPARTMENT OF COMMERCE", "code": "CM", "employees": 233}, {"name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "code": "HE", "employees": 134}, {"name": "DEPARTMENT OF ENERGY", "code": "DN", "employees": 78}, {"name": "FEDERAL DEPOSIT INSURANCE CORPORATION", "code": "FD", "employees": 73}, {"name": "DEPARTMENT OF HOUSING AND URBAN DEVELOPM", "code": "HU", "employees": 46}, {"name": "GENERAL SERVICES ADMINISTRATION", "code": "GS", "employees": 36}, {"name": "SMALL BUSINESS ADMINISTRATION", "code": "SB", "employees": 26}, {"name": "ENVIRONMENTAL PROTECTION AGENCY", "code": "EP", "employees": 25}], "topOccupations": [{"name": "CONTACT REPRESENTATIVE", "employees": 1227, "avgSalary": 56863}, {"name": "TAX EXAMINING", "employees": 791, "avgSalary": 56780}, {"name": "SOCIAL INSURANCE ADMINISTRATION", "employees": 428, "avgSalary": 92324}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "employees": 340, "avgSalary": 48301}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "employees": 241, "avgSalary": 119894}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "employees": 221, "avgSalary": 119773}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "employees": 209, "avgSalary": 102334}, {"name": "FINANCIAL CLERICAL AND ASSISTANCE", "employees": 199, "avgSalary": 61517}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "employees": 194, "avgSalary": 103938}, {"name": "HUMAN RESOURCES MANAGEMENT", "employees": 168, "avgSalary": 97064}, {"name": "AIR TRAFFIC CONTROL", "employees": 155, "avgSalary": 132744}, {"name": "LOAN SPECIALIST", "employees": 135, "avgSalary": 84339}, {"name": "MINE SAFETY AND HEALTH INSPECTION SERIES", "employees": 129, "avgSalary": 111054}, {"name": "GENERAL BUSINESS AND INDUSTRY", "employees": 113, "avgSalary": 93421}, {"name": "SOCIAL SCIENCE", "employees": 106, "avgSalary": 88882}]}
+{
+  "code": "KY",
+  "name": "KENTUCKY",
+  "employees": 7814,
+  "avgSalary": 84017,
+  "topAgencies": [
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 3296
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 1172
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 952
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 702
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 382
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 337
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 248
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 233
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 134
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 78
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 73
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 46
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 36
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 26
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 25
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Contact Representative",
+      "employees": 1227,
+      "avgSalary": 56863
+    },
+    {
+      "name": "Tax Examining",
+      "employees": 791,
+      "avgSalary": 56780
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 428,
+      "avgSalary": 92324
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 340,
+      "avgSalary": 48301
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 241,
+      "avgSalary": 119894
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 221,
+      "avgSalary": 119773
+    },
+    {
+      "name": "Financial Administration and Program",
+      "employees": 209,
+      "avgSalary": 102334
+    },
+    {
+      "name": "Financial Clerical and Assistance",
+      "employees": 199,
+      "avgSalary": 61517
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 194,
+      "avgSalary": 103938
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 168,
+      "avgSalary": 97064
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 155,
+      "avgSalary": 132744
+    },
+    {
+      "name": "Loan Specialist",
+      "employees": 135,
+      "avgSalary": 84339
+    },
+    {
+      "name": "Mine Safety and Health Inspection Series",
+      "employees": 129,
+      "avgSalary": 111054
+    },
+    {
+      "name": "General Business and Industry",
+      "employees": 113,
+      "avgSalary": 93421
+    },
+    {
+      "name": "Social Science",
+      "employees": 106,
+      "avgSalary": 88882
+    }
+  ]
+}

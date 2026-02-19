@@ -1,1 +1,234 @@
-{"code": "FT", "name": "FEDERAL TRADE COMMISSION", "employees": 1202, "avgSalary": 169831, "topOccupations": [{"name": "GENERAL ATTORNEY", "count": 718, "avgSalary": 184419}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 105, "avgSalary": 146273}, {"name": "ECONOMIST", "count": 89, "avgSalary": 187841}, {"name": "PARALEGAL SPECIALIST", "count": 50, "avgSalary": 72973}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "count": 43, "avgSalary": 171673}, {"name": "HUMAN RESOURCES MANAGEMENT", "count": 21, "avgSalary": 162991}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "count": 20, "avgSalary": 157142}, {"name": "ADMINISTRATIVE OFFICER", "count": 12, "avgSalary": 143276}, {"name": "GENERAL LEGAL AND KINDRED ADMINISTRATION", "count": 12, "avgSalary": 97392}, {"name": "ACCOUNTING", "count": 10, "avgSalary": 183167}, {"name": "SECURITY ADMINISTRATION", "count": 10, "avgSalary": 146546}, {"name": "CONTRACTING", "count": 10, "avgSalary": 166009}, {"name": "LAW CLERK", "count": 9, "avgSalary": 85753}, {"name": "GENERAL ARTS AND INFORMATION", "count": 9, "avgSalary": 168577}, {"name": "STATISTICS", "count": 8, "avgSalary": 72197}], "topStates": [{"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 895}, {"name": "CALIFORNIA", "code": "CA", "count": 52}, {"name": "REDACTED", "code": "REDACTED", "count": 42}, {"name": "NEW YORK", "code": "NY", "count": 41}, {"name": "VIRGINIA", "code": "VA", "count": 32}, {"name": "WASHINGTON", "code": "WA", "count": 26}, {"name": "ILLINOIS", "code": "IL", "count": 23}, {"name": "TEXAS", "code": "TX", "count": 22}, {"name": "OHIO", "code": "OH", "count": 17}, {"name": "GEORGIA", "code": "GA", "count": 17}, {"name": "MARYLAND", "code": "MD", "count": 17}, {"name": "MASSACHUSETTS", "code": "MA", "count": 8}, {"name": "COLORADO", "code": "CO", "count": 7}, {"name": "NORTH CAROLINA", "code": "NC", "count": 6}, {"name": "PENNSYLVANIA", "code": "PA", "count": 5}], "education": [{"level": "FIRST PROFESSIONAL", "count": 662}, {"level": "BACHELOR'S DEGREE", "count": 192}, {"level": "MASTER'S DEGREE", "count": 128}, {"level": "DOCTORATE DEGREE", "count": 114}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 49}, {"level": "POST-BACHELOR'S", "count": 22}, {"level": "ASSOCIATE DEGREE", "count": 16}, {"level": "POST-MASTER'S", "count": 11}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 9}, {"level": "THREE YEARS COLLEGE", "count": 8}, {"level": "POST-DOCTORATE", "count": 6}, {"level": "TWO YEARS COLLEGE", "count": 6}, {"level": "ONE YEAR COLLEGE", "count": 6}, {"level": "FOUR YEARS COLLEGE", "count": 5}, {"level": "POST-FIRST PROFESSIONAL", "count": 4}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT", "count": 3}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE", "count": 2}, {"level": "No Data Reported", "count": 1}]}
+{
+  "code": "FT",
+  "name": "Federal Trade Commission",
+  "employees": 1202,
+  "avgSalary": 169831,
+  "topOccupations": [
+    {
+      "name": "General Attorney",
+      "count": 718,
+      "avgSalary": 184419
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 105,
+      "avgSalary": 146273
+    },
+    {
+      "name": "Economist",
+      "count": 89,
+      "avgSalary": 187841
+    },
+    {
+      "name": "Paralegal Specialist",
+      "count": 50,
+      "avgSalary": 72973
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 43,
+      "avgSalary": 171673
+    },
+    {
+      "name": "Human Resources Management",
+      "count": 21,
+      "avgSalary": 162991
+    },
+    {
+      "name": "Management and Program Analysis",
+      "count": 20,
+      "avgSalary": 157142
+    },
+    {
+      "name": "Administrative Officer",
+      "count": 12,
+      "avgSalary": 143276
+    },
+    {
+      "name": "General Legal and Kindred Administration",
+      "count": 12,
+      "avgSalary": 97392
+    },
+    {
+      "name": "Accounting",
+      "count": 10,
+      "avgSalary": 183167
+    },
+    {
+      "name": "Security Administration",
+      "count": 10,
+      "avgSalary": 146546
+    },
+    {
+      "name": "Contracting",
+      "count": 10,
+      "avgSalary": 166009
+    },
+    {
+      "name": "Law Clerk",
+      "count": 9,
+      "avgSalary": 85753
+    },
+    {
+      "name": "General Arts and Information",
+      "count": 9,
+      "avgSalary": 168577
+    },
+    {
+      "name": "Statistics",
+      "count": 8,
+      "avgSalary": 72197
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 895
+    },
+    {
+      "name": "California",
+      "code": "CA",
+      "count": 52
+    },
+    {
+      "name": "Redacted",
+      "code": "REDACTED",
+      "count": 42
+    },
+    {
+      "name": "New York",
+      "code": "NY",
+      "count": 41
+    },
+    {
+      "name": "Virginia",
+      "code": "VA",
+      "count": 32
+    },
+    {
+      "name": "Washington",
+      "code": "WA",
+      "count": 26
+    },
+    {
+      "name": "Illinois",
+      "code": "IL",
+      "count": 23
+    },
+    {
+      "name": "Texas",
+      "code": "TX",
+      "count": 22
+    },
+    {
+      "name": "Ohio",
+      "code": "OH",
+      "count": 17
+    },
+    {
+      "name": "Georgia",
+      "code": "GA",
+      "count": 17
+    },
+    {
+      "name": "Maryland",
+      "code": "MD",
+      "count": 17
+    },
+    {
+      "name": "Massachusetts",
+      "code": "MA",
+      "count": 8
+    },
+    {
+      "name": "Colorado",
+      "code": "CO",
+      "count": 7
+    },
+    {
+      "name": "North Carolina",
+      "code": "NC",
+      "count": 6
+    },
+    {
+      "name": "Pennsylvania",
+      "code": "PA",
+      "count": 5
+    }
+  ],
+  "education": [
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 662
+    },
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 192
+    },
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 128
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 114
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 49
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 22
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 16
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 11
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 9
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 8
+    },
+    {
+      "level": "POST-DOCTORATE",
+      "count": 6
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 6
+    },
+    {
+      "level": "ONE YEAR COLLEGE",
+      "count": 6
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 5
+    },
+    {
+      "level": "POST-FIRST PROFESSIONAL",
+      "count": 4
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT",
+      "count": 3
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE",
+      "count": 2
+    },
+    {
+      "level": "No Data Reported",
+      "count": 1
+    }
+  ]
+}

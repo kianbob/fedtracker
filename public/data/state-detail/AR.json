@@ -1,1 +1,160 @@
-{"code": "AR", "name": "ARKANSAS", "employees": 3969, "avgSalary": 90302, "topAgencies": [{"name": "DEPARTMENT OF AGRICULTURE", "code": "AG", "employees": 1666}, {"name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "code": "HE", "employees": 488}, {"name": "SOCIAL SECURITY ADMINISTRATION", "code": "SZ", "employees": 407}, {"name": "DEPARTMENT OF INTERIOR", "code": "IN", "employees": 328}, {"name": "DEPARTMENT OF JUSTICE", "code": "DJ", "employees": 302}, {"name": "DEPARTMENT OF TRANSPORTATION", "code": "TD", "employees": 198}, {"name": "DEPARTMENT OF COMMERCE", "code": "CM", "employees": 108}, {"name": "DEPARTMENT OF TREASURY", "code": "TR", "employees": 99}, {"name": "DEPARTMENT OF ENERGY", "code": "DN", "employees": 65}, {"name": "SMALL BUSINESS ADMINISTRATION", "code": "SB", "employees": 60}, {"name": "DEPARTMENT OF LABOR", "code": "DL", "employees": 47}, {"name": "DEPARTMENT OF HOUSING AND URBAN DEVELOPM", "code": "HU", "employees": 37}, {"name": "NAT ARCHIVES AND RECORDS ADMINISTRATION", "code": "NQ", "employees": 32}, {"name": "GENERAL SERVICES ADMINISTRATION", "code": "GS", "employees": 31}, {"name": "FEDERAL DEPOSIT INSURANCE CORPORATION", "code": "FD", "employees": 30}], "topOccupations": [{"name": "CONSUMER SAFETY INSPECTION", "employees": 273, "avgSalary": 70613}, {"name": "SOCIAL INSURANCE ADMINISTRATION", "employees": 265, "avgSalary": 95068}, {"name": "GENERAL NATURAL RESOURCES MANAGEMENT AND BIOLOGICAL SCIENCES", "employees": 207, "avgSalary": 110610}, {"name": "FORESTRY TECHNICIAN", "employees": 165, "avgSalary": 53869}, {"name": "SOIL CONSERVATION", "employees": 153, "avgSalary": 81231}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "employees": 140, "avgSalary": 104420}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "employees": 134, "avgSalary": 46080}, {"name": "LOAN SPECIALIST", "employees": 123, "avgSalary": 87270}, {"name": "BIOLOGICAL SCIENCE TECHNICIAN", "employees": 104, "avgSalary": 54946}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "employees": 98, "avgSalary": 108260}, {"name": "GENERAL BUSINESS AND INDUSTRY", "employees": 94, "avgSalary": 84370}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "employees": 82, "avgSalary": 111290}, {"name": "AIR TRAFFIC CONTROL", "employees": 76, "avgSalary": 110039}, {"name": "CONTACT REPRESENTATIVE", "employees": 65, "avgSalary": 56611}, {"name": "CHEMISTRY", "employees": 63, "avgSalary": 139595}]}
+{
+  "code": "AR",
+  "name": "ARKANSAS",
+  "employees": 3969,
+  "avgSalary": 90302,
+  "topAgencies": [
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 1666
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 488
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 407
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 328
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 302
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 198
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 108
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 99
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 65
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 60
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 47
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 37
+    },
+    {
+      "name": "National Archives and Records Administration",
+      "code": "NQ",
+      "employees": 32
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 31
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 30
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Consumer Safety Inspection",
+      "employees": 273,
+      "avgSalary": 70613
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 265,
+      "avgSalary": 95068
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 207,
+      "avgSalary": 110610
+    },
+    {
+      "name": "Forestry Technician",
+      "employees": 165,
+      "avgSalary": 53869
+    },
+    {
+      "name": "Soil Conservation",
+      "employees": 153,
+      "avgSalary": 81231
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 140,
+      "avgSalary": 104420
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 134,
+      "avgSalary": 46080
+    },
+    {
+      "name": "Loan Specialist",
+      "employees": 123,
+      "avgSalary": 87270
+    },
+    {
+      "name": "Biological Science Technician",
+      "employees": 104,
+      "avgSalary": 54946
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 98,
+      "avgSalary": 108260
+    },
+    {
+      "name": "General Business and Industry",
+      "employees": 94,
+      "avgSalary": 84370
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 82,
+      "avgSalary": 111290
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 76,
+      "avgSalary": 110039
+    },
+    {
+      "name": "Contact Representative",
+      "employees": 65,
+      "avgSalary": 56611
+    },
+    {
+      "name": "Chemistry",
+      "employees": 63,
+      "avgSalary": 139595
+    }
+  ]
+}

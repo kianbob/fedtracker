@@ -1,1 +1,124 @@
-{"code": "EW", "name": "TRADE AND DEVELOPMENT AGENCY", "employees": 59, "avgSalary": 145937, "topOccupations": [{"name": "TRADE SPECIALIST", "count": 23, "avgSalary": 142838}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 9, "avgSalary": 139678}, {"name": "GENERAL ATTORNEY", "count": 7, "avgSalary": 178237}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "count": 5, "avgSalary": 133755}, {"name": "CONTRACTING", "count": 4, "avgSalary": 153575}, {"name": "PUBLIC AFFAIRS", "count": 3, "avgSalary": 158845}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "count": 3, "avgSalary": 118569}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "count": 2, "avgSalary": 183093}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "count": 1, "avgSalary": 109975}, {"name": "BUSINESS AND INDUSTRY STUDENT TRAINEE", "count": 1, "avgSalary": 38842}, {"name": "FINANCIAL MANAGEMENT", "count": 1, "avgSalary": 189950}], "topStates": [{"name": "VIRGINIA", "code": "VA", "count": 55}, {"name": "IDAHO", "code": "ID", "count": 1}, {"name": "OREGON", "code": "OR", "count": 1}, {"name": "ILLINOIS", "code": "IL", "count": 1}, {"name": "FLORIDA", "code": "FL", "count": 1}], "education": [{"level": "MASTER'S DEGREE", "count": 22}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 17}, {"level": "BACHELOR'S DEGREE", "count": 13}, {"level": "DOCTORATE DEGREE", "count": 2}, {"level": "FIRST PROFESSIONAL", "count": 2}, {"level": "TWO YEARS COLLEGE", "count": 1}, {"level": "No Data Reported", "count": 1}, {"level": "POST-MASTER'S", "count": 1}]}
+{
+  "code": "EW",
+  "name": "Trade and Development Agency",
+  "employees": 59,
+  "avgSalary": 145937,
+  "topOccupations": [
+    {
+      "name": "Trade Specialist",
+      "count": 23,
+      "avgSalary": 142838
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 9,
+      "avgSalary": 139678
+    },
+    {
+      "name": "General Attorney",
+      "count": 7,
+      "avgSalary": 178237
+    },
+    {
+      "name": "Management and Program Analysis",
+      "count": 5,
+      "avgSalary": 133755
+    },
+    {
+      "name": "Contracting",
+      "count": 4,
+      "avgSalary": 153575
+    },
+    {
+      "name": "Public Affairs",
+      "count": 3,
+      "avgSalary": 158845
+    },
+    {
+      "name": "Financial Administration and Program",
+      "count": 3,
+      "avgSalary": 118569
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 2,
+      "avgSalary": 183093
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "count": 1,
+      "avgSalary": 109975
+    },
+    {
+      "name": "Business and Industry Student Trainee",
+      "count": 1,
+      "avgSalary": 38842
+    },
+    {
+      "name": "Financial Management",
+      "count": 1,
+      "avgSalary": 189950
+    }
+  ],
+  "topStates": [
+    {
+      "name": "Virginia",
+      "code": "VA",
+      "count": 55
+    },
+    {
+      "name": "Idaho",
+      "code": "ID",
+      "count": 1
+    },
+    {
+      "name": "Oregon",
+      "code": "OR",
+      "count": 1
+    },
+    {
+      "name": "Illinois",
+      "code": "IL",
+      "count": 1
+    },
+    {
+      "name": "Florida",
+      "code": "FL",
+      "count": 1
+    }
+  ],
+  "education": [
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 22
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 17
+    },
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 13
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 2
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 2
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 1
+    },
+    {
+      "level": "No Data Reported",
+      "count": 1
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 1
+    }
+  ]
+}

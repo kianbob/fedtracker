@@ -1,1 +1,210 @@
-{"code": "SK", "name": "CONSUMER PRODUCT SAFETY COMMISSION", "employees": 353, "avgSalary": 150356, "topOccupations": [{"name": "GENERAL ATTORNEY", "count": 46, "avgSalary": 171007}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "count": 43, "avgSalary": 136802}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 34, "avgSalary": 156716}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "count": 34, "avgSalary": 157314}, {"name": "MECHANICAL ENGINEERING", "count": 23, "avgSalary": 141181}, {"name": "GENERAL ENGINEERING", "count": 14, "avgSalary": 168133}, {"name": "HUMAN RESOURCES MANAGEMENT", "count": 13, "avgSalary": 148365}, {"name": "CHEMISTRY", "count": 13, "avgSalary": 137521}, {"name": "PROGRAM MANAGEMENT", "count": 11, "avgSalary": 196492}, {"name": "MATHEMATICAL STATISTICS", "count": 11, "avgSalary": 140159}, {"name": "PUBLIC AFFAIRS", "count": 10, "avgSalary": 149430}, {"name": "PSYCHOLOGY", "count": 10, "avgSalary": 150639}, {"name": "CONTRACTING", "count": 10, "avgSalary": 142531}, {"name": "STATISTICS", "count": 8, "avgSalary": 155474}, {"name": "ELECTRICAL ENGINEERING", "count": 8, "avgSalary": 147058}], "topStates": [{"name": "MARYLAND", "code": "MD", "count": 344}, {"name": "REDACTED", "code": "REDACTED", "count": 155}, {"name": "CALIFORNIA", "code": "CA", "count": 1}, {"name": "NEW HAMPSHIRE", "code": "NH", "count": 1}, {"name": "WASHINGTON", "code": "WA", "count": 1}, {"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 1}, {"name": "NEW YORK", "code": "NY", "count": 1}, {"name": "GEORGIA", "code": "GA", "count": 1}, {"name": "FLORIDA", "code": "FL", "count": 1}, {"name": "ALABAMA", "code": "AL", "count": 1}, {"name": "VIRGINIA", "code": "VA", "count": 1}], "education": [{"level": "MASTER'S DEGREE", "count": 170}, {"level": "BACHELOR'S DEGREE", "count": 161}, {"level": "FIRST PROFESSIONAL", "count": 56}, {"level": "DOCTORATE DEGREE", "count": 25}, {"level": "POST-BACHELOR'S", "count": 23}, {"level": "POST-MASTER'S", "count": 10}, {"level": "TWO YEARS COLLEGE", "count": 10}, {"level": "FOUR YEARS COLLEGE", "count": 9}, {"level": "POST-DOCTORATE", "count": 8}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 7}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 7}, {"level": "ONE YEAR COLLEGE", "count": 7}, {"level": "THREE YEARS COLLEGE", "count": 6}, {"level": "POST-FIRST PROFESSIONAL", "count": 5}, {"level": "ASSOCIATE DEGREE", "count": 2}, {"level": "SIXTH-YEAR DEGREE", "count": 1}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE", "count": 1}]}
+{
+  "code": "SK",
+  "name": "Consumer Product Safety Commission",
+  "employees": 353,
+  "avgSalary": 150356,
+  "topOccupations": [
+    {
+      "name": "General Attorney",
+      "count": 46,
+      "avgSalary": 171007
+    },
+    {
+      "name": "Management and Program Analysis",
+      "count": 43,
+      "avgSalary": 136802
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 34,
+      "avgSalary": 156716
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 34,
+      "avgSalary": 157314
+    },
+    {
+      "name": "Mechanical Engineering",
+      "count": 23,
+      "avgSalary": 141181
+    },
+    {
+      "name": "General Engineering",
+      "count": 14,
+      "avgSalary": 168133
+    },
+    {
+      "name": "Human Resources Management",
+      "count": 13,
+      "avgSalary": 148365
+    },
+    {
+      "name": "Chemistry",
+      "count": 13,
+      "avgSalary": 137521
+    },
+    {
+      "name": "Program Management",
+      "count": 11,
+      "avgSalary": 196492
+    },
+    {
+      "name": "Mathematical Statistics",
+      "count": 11,
+      "avgSalary": 140159
+    },
+    {
+      "name": "Public Affairs",
+      "count": 10,
+      "avgSalary": 149430
+    },
+    {
+      "name": "Psychology",
+      "count": 10,
+      "avgSalary": 150639
+    },
+    {
+      "name": "Contracting",
+      "count": 10,
+      "avgSalary": 142531
+    },
+    {
+      "name": "Statistics",
+      "count": 8,
+      "avgSalary": 155474
+    },
+    {
+      "name": "Electrical Engineering",
+      "count": 8,
+      "avgSalary": 147058
+    }
+  ],
+  "topStates": [
+    {
+      "name": "Maryland",
+      "code": "MD",
+      "count": 344
+    },
+    {
+      "name": "Redacted",
+      "code": "REDACTED",
+      "count": 155
+    },
+    {
+      "name": "California",
+      "code": "CA",
+      "count": 1
+    },
+    {
+      "name": "New Hampshire",
+      "code": "NH",
+      "count": 1
+    },
+    {
+      "name": "Washington",
+      "code": "WA",
+      "count": 1
+    },
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 1
+    },
+    {
+      "name": "New York",
+      "code": "NY",
+      "count": 1
+    },
+    {
+      "name": "Georgia",
+      "code": "GA",
+      "count": 1
+    },
+    {
+      "name": "Florida",
+      "code": "FL",
+      "count": 1
+    },
+    {
+      "name": "Alabama",
+      "code": "AL",
+      "count": 1
+    },
+    {
+      "name": "Virginia",
+      "code": "VA",
+      "count": 1
+    }
+  ],
+  "education": [
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 170
+    },
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 161
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 56
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 25
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 23
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 10
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 10
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 9
+    },
+    {
+      "level": "POST-DOCTORATE",
+      "count": 8
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 7
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 7
+    },
+    {
+      "level": "ONE YEAR COLLEGE",
+      "count": 7
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 6
+    },
+    {
+      "level": "POST-FIRST PROFESSIONAL",
+      "count": 5
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 2
+    },
+    {
+      "level": "SIXTH-YEAR DEGREE",
+      "count": 1
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE",
+      "count": 1
+    }
+  ]
+}

@@ -1,1 +1,95 @@
-{"code": "RO", "name": "MEDICAID & CHIP PAYMENT & ACCESS COMM", "employees": 47, "avgSalary": 151713, "topOccupations": [{"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 43, "avgSalary": 154908}, {"name": "Invalid", "count": 1, "avgSalary": 154420}, {"name": "HUMAN RESOURCES MANAGEMENT", "count": 1, "avgSalary": 66018}, {"name": "FINANCIAL MANAGEMENT", "count": 1, "avgSalary": 165659}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "count": 1, "avgSalary": 83379}], "topStates": [{"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 42}, {"name": "MICHIGAN", "code": "MI", "count": 1}, {"name": "CALIFORNIA", "code": "CA", "count": 1}, {"name": "UTAH", "code": "UT", "count": 1}, {"name": "MARYLAND", "code": "MD", "count": 1}, {"name": "WASHINGTON", "code": "WA", "count": 1}], "education": [{"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 16}, {"level": "MASTER'S DEGREE", "count": 11}, {"level": "BACHELOR'S DEGREE", "count": 9}, {"level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE", "count": 7}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 2}, {"level": "DOCTORATE DEGREE", "count": 1}, {"level": "FIRST PROFESSIONAL", "count": 1}]}
+{
+  "code": "RO",
+  "name": "Medicaid & Chip Payment & Access Comm",
+  "employees": 47,
+  "avgSalary": 151713,
+  "topOccupations": [
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 43,
+      "avgSalary": 154908
+    },
+    {
+      "name": "Invalid",
+      "count": 1,
+      "avgSalary": 154420
+    },
+    {
+      "name": "Human Resources Management",
+      "count": 1,
+      "avgSalary": 66018
+    },
+    {
+      "name": "Financial Management",
+      "count": 1,
+      "avgSalary": 165659
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 1,
+      "avgSalary": 83379
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 42
+    },
+    {
+      "name": "Michigan",
+      "code": "MI",
+      "count": 1
+    },
+    {
+      "name": "California",
+      "code": "CA",
+      "count": 1
+    },
+    {
+      "name": "Utah",
+      "code": "UT",
+      "count": 1
+    },
+    {
+      "name": "Maryland",
+      "code": "MD",
+      "count": 1
+    },
+    {
+      "name": "Washington",
+      "code": "WA",
+      "count": 1
+    }
+  ],
+  "education": [
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 16
+    },
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 11
+    },
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 9
+    },
+    {
+      "level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE",
+      "count": 7
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 2
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 1
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 1
+    }
+  ]
+}

@@ -1,1 +1,160 @@
-{"code": "MN", "name": "MINNESOTA", "employees": 6623, "avgSalary": 109354, "topAgencies": [{"name": "DEPARTMENT OF AGRICULTURE", "code": "AG", "employees": 1842}, {"name": "DEPARTMENT OF TRANSPORTATION", "code": "TD", "employees": 959}, {"name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "code": "HE", "employees": 830}, {"name": "DEPARTMENT OF INTERIOR", "code": "IN", "employees": 718}, {"name": "DEPARTMENT OF JUSTICE", "code": "DJ", "employees": 664}, {"name": "SOCIAL SECURITY ADMINISTRATION", "code": "SZ", "employees": 388}, {"name": "DEPARTMENT OF TREASURY", "code": "TR", "employees": 327}, {"name": "DEPARTMENT OF COMMERCE", "code": "CM", "employees": 267}, {"name": "DEPARTMENT OF HOUSING AND URBAN DEVELOPM", "code": "HU", "employees": 96}, {"name": "ENVIRONMENTAL PROTECTION AGENCY", "code": "EP", "employees": 87}, {"name": "DEPARTMENT OF LABOR", "code": "DL", "employees": 74}, {"name": "GENERAL SERVICES ADMINISTRATION", "code": "GS", "employees": 68}, {"name": "FEDERAL DEPOSIT INSURANCE CORPORATION", "code": "FD", "employees": 67}, {"name": "DEPARTMENT OF STATE", "code": "ST", "employees": 42}, {"name": "FARM CREDIT ADMINISTRATION", "code": "FL", "employees": 39}], "topOccupations": [{"name": "AIR TRAFFIC CONTROL", "employees": 598, "avgSalary": 164416}, {"name": "SOCIAL INSURANCE ADMINISTRATION", "employees": 265, "avgSalary": 101526}, {"name": "NURSE", "employees": 218, "avgSalary": 111104}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "employees": 216, "avgSalary": 51482}, {"name": "GENERAL NATURAL RESOURCES MANAGEMENT AND BIOLOGICAL SCIENCES", "employees": 215, "avgSalary": 107600}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "employees": 204, "avgSalary": 116965}, {"name": "HUMAN RESOURCES MANAGEMENT", "employees": 203, "avgSalary": 114548}, {"name": "FINANCIAL INSTITUTION EXAMINING", "employees": 191, "avgSalary": 162741}, {"name": "SOIL CONSERVATION", "employees": 168, "avgSalary": 81072}, {"name": "FORESTRY TECHNICIAN", "employees": 165, "avgSalary": 55427}, {"name": "GENERAL BUSINESS AND INDUSTRY", "employees": 164, "avgSalary": 106815}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "employees": 163, "avgSalary": 127947}, {"name": "CONSUMER SAFETY INSPECTION", "employees": 154, "avgSalary": 74162}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "employees": 127, "avgSalary": 121844}, {"name": "TRANSPORTATION SPECIALIST", "employees": 125, "avgSalary": 120420}]}
+{
+  "code": "MN",
+  "name": "MINNESOTA",
+  "employees": 6623,
+  "avgSalary": 109354,
+  "topAgencies": [
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 1842
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 959
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 830
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 718
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 664
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 388
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 327
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 267
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 96
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 87
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 74
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 68
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 67
+    },
+    {
+      "name": "Department of State",
+      "code": "ST",
+      "employees": 42
+    },
+    {
+      "name": "Farm Credit Administration",
+      "code": "FL",
+      "employees": 39
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Air Traffic Control",
+      "employees": 598,
+      "avgSalary": 164416
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 265,
+      "avgSalary": 101526
+    },
+    {
+      "name": "Nurse",
+      "employees": 218,
+      "avgSalary": 111104
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 216,
+      "avgSalary": 51482
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 215,
+      "avgSalary": 107600
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 204,
+      "avgSalary": 116965
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 203,
+      "avgSalary": 114548
+    },
+    {
+      "name": "Financial Institution Examining",
+      "employees": 191,
+      "avgSalary": 162741
+    },
+    {
+      "name": "Soil Conservation",
+      "employees": 168,
+      "avgSalary": 81072
+    },
+    {
+      "name": "Forestry Technician",
+      "employees": 165,
+      "avgSalary": 55427
+    },
+    {
+      "name": "General Business and Industry",
+      "employees": 164,
+      "avgSalary": 106815
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 163,
+      "avgSalary": 127947
+    },
+    {
+      "name": "Consumer Safety Inspection",
+      "employees": 154,
+      "avgSalary": 74162
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 127,
+      "avgSalary": 121844
+    },
+    {
+      "name": "Transportation Specialist",
+      "employees": 125,
+      "avgSalary": 120420
+    }
+  ]
+}

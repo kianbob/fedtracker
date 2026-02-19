@@ -1,1 +1,222 @@
-{"code": "BO", "name": "OFFICE OF MANAGEMENT AND BUDGET", "employees": 536, "avgSalary": 167162, "topOccupations": [{"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 396, "avgSalary": 169221}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "count": 31, "avgSalary": 179095}, {"name": "GENERAL ATTORNEY", "count": 18, "avgSalary": 190632}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "count": 16, "avgSalary": 163578}, {"name": "ECONOMIST", "count": 16, "avgSalary": 168192}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "count": 12, "avgSalary": 98953}, {"name": "BUDGET ANALYSIS", "count": 10, "avgSalary": 182651}, {"name": "STATISTICS", "count": 6, "avgSalary": 169881}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "count": 6, "avgSalary": 179966}, {"name": "GOVERNMENT INFORMATION SPECIALIST", "count": 5, "avgSalary": 119644}, {"name": "ADMINISTRATION AND OFFICE SUPPORT STUDENT TRAINEE", "count": 4, "avgSalary": 66733}, {"name": "CONTRACTING", "count": 3, "avgSalary": 175879}, {"name": "SUPPORT SERVICES ADMINISTRATION", "count": 2, "avgSalary": 136515}, {"name": "GENERAL PHYSICAL SCIENCE", "count": 2, "avgSalary": 166920}, {"name": "FINANCIAL MANAGEMENT STUDENT TRAINEE", "count": 2, "avgSalary": 69923}], "topStates": [{"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 512}, {"name": "NORTH CAROLINA", "code": "NC", "count": 4}, {"name": "FLORIDA", "code": "FL", "count": 3}, {"name": "MASSACHUSETTS", "code": "MA", "count": 3}, {"name": "ILLINOIS", "code": "IL", "count": 2}, {"name": "PENNSYLVANIA", "code": "PA", "count": 2}, {"name": "CALIFORNIA", "code": "CA", "count": 2}, {"name": "NEW MEXICO", "code": "NM", "count": 1}, {"name": "SOUTH CAROLINA", "code": "SC", "count": 1}, {"name": "SOUTH DAKOTA", "code": "SD", "count": 1}, {"name": "TEXAS", "code": "TX", "count": 1}, {"name": "VIRGINIA", "code": "VA", "count": 1}, {"name": "GEORGIA", "code": "GA", "count": 1}, {"name": "NEW YORK", "code": "NY", "count": 1}, {"name": "TENNESSEE", "code": "TN", "count": 1}], "education": [{"level": "MASTER'S DEGREE", "count": 315}, {"level": "BACHELOR'S DEGREE", "count": 73}, {"level": "DOCTORATE DEGREE", "count": 52}, {"level": "FIRST PROFESSIONAL", "count": 41}, {"level": "POST-MASTER'S", "count": 12}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 10}, {"level": "POST-BACHELOR'S", "count": 8}, {"level": "POST-DOCTORATE", "count": 6}, {"level": "TWO YEARS COLLEGE", "count": 5}, {"level": "ASSOCIATE DEGREE", "count": 4}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 3}, {"level": "ONE YEAR COLLEGE", "count": 2}, {"level": "POST-FIRST PROFESSIONAL", "count": 2}, {"level": "SIXTH-YEAR DEGREE", "count": 2}, {"level": "FOUR YEARS COLLEGE", "count": 1}]}
+{
+  "code": "BO",
+  "name": "Office of Management and Budget",
+  "employees": 536,
+  "avgSalary": 167162,
+  "topOccupations": [
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 396,
+      "avgSalary": 169221
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 31,
+      "avgSalary": 179095
+    },
+    {
+      "name": "General Attorney",
+      "count": 18,
+      "avgSalary": 190632
+    },
+    {
+      "name": "Financial Administration and Program",
+      "count": 16,
+      "avgSalary": 163578
+    },
+    {
+      "name": "Economist",
+      "count": 16,
+      "avgSalary": 168192
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "count": 12,
+      "avgSalary": 98953
+    },
+    {
+      "name": "Budget Analysis",
+      "count": 10,
+      "avgSalary": 182651
+    },
+    {
+      "name": "Statistics",
+      "count": 6,
+      "avgSalary": 169881
+    },
+    {
+      "name": "Management and Program Analysis",
+      "count": 6,
+      "avgSalary": 179966
+    },
+    {
+      "name": "Government Information Specialist",
+      "count": 5,
+      "avgSalary": 119644
+    },
+    {
+      "name": "Administration and Office Support Student Trainee",
+      "count": 4,
+      "avgSalary": 66733
+    },
+    {
+      "name": "Contracting",
+      "count": 3,
+      "avgSalary": 175879
+    },
+    {
+      "name": "Support Services Administration",
+      "count": 2,
+      "avgSalary": 136515
+    },
+    {
+      "name": "General Physical Science",
+      "count": 2,
+      "avgSalary": 166920
+    },
+    {
+      "name": "Financial Management Student Trainee",
+      "count": 2,
+      "avgSalary": 69923
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 512
+    },
+    {
+      "name": "North Carolina",
+      "code": "NC",
+      "count": 4
+    },
+    {
+      "name": "Florida",
+      "code": "FL",
+      "count": 3
+    },
+    {
+      "name": "Massachusetts",
+      "code": "MA",
+      "count": 3
+    },
+    {
+      "name": "Illinois",
+      "code": "IL",
+      "count": 2
+    },
+    {
+      "name": "Pennsylvania",
+      "code": "PA",
+      "count": 2
+    },
+    {
+      "name": "California",
+      "code": "CA",
+      "count": 2
+    },
+    {
+      "name": "New Mexico",
+      "code": "NM",
+      "count": 1
+    },
+    {
+      "name": "South Carolina",
+      "code": "SC",
+      "count": 1
+    },
+    {
+      "name": "South Dakota",
+      "code": "SD",
+      "count": 1
+    },
+    {
+      "name": "Texas",
+      "code": "TX",
+      "count": 1
+    },
+    {
+      "name": "Virginia",
+      "code": "VA",
+      "count": 1
+    },
+    {
+      "name": "Georgia",
+      "code": "GA",
+      "count": 1
+    },
+    {
+      "name": "New York",
+      "code": "NY",
+      "count": 1
+    },
+    {
+      "name": "Tennessee",
+      "code": "TN",
+      "count": 1
+    }
+  ],
+  "education": [
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 315
+    },
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 73
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 52
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 41
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 12
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 10
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 8
+    },
+    {
+      "level": "POST-DOCTORATE",
+      "count": 6
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 5
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 4
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 3
+    },
+    {
+      "level": "ONE YEAR COLLEGE",
+      "count": 2
+    },
+    {
+      "level": "POST-FIRST PROFESSIONAL",
+      "count": 2
+    },
+    {
+      "level": "SIXTH-YEAR DEGREE",
+      "count": 2
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 1
+    }
+  ]
+}

@@ -1,1 +1,114 @@
-{"code": "EO", "name": "MORRIS K. UDALL & STEWART L. UDALL FOUND", "employees": 39, "avgSalary": 97616, "topOccupations": [{"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 34, "avgSalary": 93940}, {"name": "GENERAL ATTORNEY", "count": 1, "avgSalary": 174781}, {"name": "FINANCIAL CLERICAL AND ASSISTANCE", "count": 1, "avgSalary": 66021}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "count": 1, "avgSalary": 126892}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "count": 1, "avgSalary": 62270}, {"name": "FINANCIAL MANAGEMENT", "count": 1, "avgSalary": 183100}], "topStates": [{"name": "ARIZONA", "code": "AZ", "count": 26}, {"name": "CALIFORNIA", "code": "CA", "count": 4}, {"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 3}, {"name": "TENNESSEE", "code": "TN", "count": 2}, {"name": "MASSACHUSETTS", "code": "MA", "count": 1}, {"name": "LOUISIANA", "code": "LA", "count": 1}, {"name": "COLORADO", "code": "CO", "count": 1}, {"name": "MICHIGAN", "code": "MI", "count": 1}], "education": [{"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 15}, {"level": "MASTER'S DEGREE", "count": 7}, {"level": "BACHELOR'S DEGREE", "count": 5}, {"level": "DOCTORATE DEGREE", "count": 4}, {"level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE", "count": 4}, {"level": "FIRST PROFESSIONAL", "count": 2}, {"level": "ASSOCIATE DEGREE", "count": 1}, {"level": "TWO YEARS COLLEGE", "count": 1}]}
+{
+  "code": "EO",
+  "name": "Morris K. Udall & Stewart L. Udall Found",
+  "employees": 39,
+  "avgSalary": 97616,
+  "topOccupations": [
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 34,
+      "avgSalary": 93940
+    },
+    {
+      "name": "General Attorney",
+      "count": 1,
+      "avgSalary": 174781
+    },
+    {
+      "name": "Financial Clerical and Assistance",
+      "count": 1,
+      "avgSalary": 66021
+    },
+    {
+      "name": "Financial Administration and Program",
+      "count": 1,
+      "avgSalary": 126892
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 1,
+      "avgSalary": 62270
+    },
+    {
+      "name": "Financial Management",
+      "count": 1,
+      "avgSalary": 183100
+    }
+  ],
+  "topStates": [
+    {
+      "name": "Arizona",
+      "code": "AZ",
+      "count": 26
+    },
+    {
+      "name": "California",
+      "code": "CA",
+      "count": 4
+    },
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 3
+    },
+    {
+      "name": "Tennessee",
+      "code": "TN",
+      "count": 2
+    },
+    {
+      "name": "Massachusetts",
+      "code": "MA",
+      "count": 1
+    },
+    {
+      "name": "Louisiana",
+      "code": "LA",
+      "count": 1
+    },
+    {
+      "name": "Colorado",
+      "code": "CO",
+      "count": 1
+    },
+    {
+      "name": "Michigan",
+      "code": "MI",
+      "count": 1
+    }
+  ],
+  "education": [
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 15
+    },
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 7
+    },
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 5
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 4
+    },
+    {
+      "level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE",
+      "count": 4
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 2
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 1
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 1
+    }
+  ]
+}

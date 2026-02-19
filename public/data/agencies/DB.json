@@ -1,1 +1,35 @@
-{"code": "DB", "name": "PUBLIC INTEREST DECLASSIFICATION BOARD", "employees": 8, "avgSalary": 131390, "topOccupations": [{"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 8, "avgSalary": 131390}], "topStates": [{"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 6}, {"name": "CALIFORNIA", "code": "CA", "count": 2}], "education": [{"level": "No Data Reported", "count": 5}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 3}]}
+{
+  "code": "DB",
+  "name": "Public Interest Declassification Board",
+  "employees": 8,
+  "avgSalary": 131390,
+  "topOccupations": [
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 8,
+      "avgSalary": 131390
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 6
+    },
+    {
+      "name": "California",
+      "code": "CA",
+      "count": 2
+    }
+  ],
+  "education": [
+    {
+      "level": "No Data Reported",
+      "count": 5
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 3
+    }
+  ]
+}

@@ -1,1 +1,250 @@
-{"code": "EP", "name": "ENVIRONMENTAL PROTECTION AGENCY", "employees": 16275, "avgSalary": 134522, "topOccupations": [{"name": "GENERAL PHYSICAL SCIENCE", "count": 2546, "avgSalary": 132294}, {"name": "GENERAL NATURAL RESOURCES MANAGEMENT AND BIOLOGICAL SCIENCES", "count": 2231, "avgSalary": 123232}, {"name": "ENVIRONMENTAL PROTECTION SPECIALIST", "count": 1682, "avgSalary": 136906}, {"name": "ENVIRONMENTAL ENGINEERING", "count": 1404, "avgSalary": 141288}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "count": 1268, "avgSalary": 138019}, {"name": "GENERAL ATTORNEY", "count": 1109, "avgSalary": 165634}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "count": 707, "avgSalary": 141227}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 546, "avgSalary": 137500}, {"name": "CHEMISTRY", "count": 442, "avgSalary": 130736}, {"name": "CONTRACTING", "count": 304, "avgSalary": 126684}, {"name": "PROGRAM MANAGEMENT", "count": 282, "avgSalary": 211247}, {"name": "PUBLIC AFFAIRS", "count": 280, "avgSalary": 130268}, {"name": "HUMAN RESOURCES MANAGEMENT", "count": 247, "avgSalary": 121983}, {"name": "SOCIAL SCIENCE", "count": 195, "avgSalary": 129949}, {"name": "GENERAL ENGINEERING", "count": 181, "avgSalary": 129804}], "topStates": [{"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 4034}, {"name": "NORTH CAROLINA", "code": "NC", "count": 1492}, {"name": "ILLINOIS", "code": "IL", "count": 1100}, {"name": "GEORGIA", "code": "GA", "count": 984}, {"name": "CALIFORNIA", "code": "CA", "count": 941}, {"name": "TEXAS", "code": "TX", "count": 827}, {"name": "PENNSYLVANIA", "code": "PA", "count": 747}, {"name": "COLORADO", "code": "CO", "count": 706}, {"name": "NEW YORK", "code": "NY", "count": 671}, {"name": "MASSACHUSETTS", "code": "MA", "count": 624}, {"name": "OHIO", "code": "OH", "count": 577}, {"name": "WASHINGTON", "code": "WA", "count": 569}, {"name": "KANSAS", "code": "KS", "count": 563}, {"name": "MARYLAND", "code": "MD", "count": 486}, {"name": "REDACTED", "code": "REDACTED", "count": 381}], "education": [{"level": "BACHELOR'S DEGREE", "count": 5264}, {"level": "MASTER'S DEGREE", "count": 4933}, {"level": "DOCTORATE DEGREE", "count": 1866}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 1197}, {"level": "FIRST PROFESSIONAL", "count": 977}, {"level": "POST-BACHELOR'S", "count": 690}, {"level": "TWO YEARS COLLEGE", "count": 235}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 197}, {"level": "POST-MASTER'S", "count": 196}, {"level": "ASSOCIATE DEGREE", "count": 173}, {"level": "THREE YEARS COLLEGE", "count": 166}, {"level": "ONE YEAR COLLEGE", "count": 157}, {"level": "POST-DOCTORATE", "count": 118}, {"level": "FOUR YEARS COLLEGE", "count": 105}, {"level": "No Data Reported", "count": 84}, {"level": "POST-FIRST PROFESSIONAL", "count": 60}, {"level": "SOME HIGH SCHOOL - DID NOT COMPLETE", "count": 48}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT", "count": 31}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE", "count": 20}, {"level": "SIXTH-YEAR DEGREE", "count": 18}, {"level": "POST-SIXTH YEAR", "count": 17}, {"level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE", "count": 5}]}
+{
+  "code": "EP",
+  "name": "Environmental Protection Agency",
+  "employees": 16275,
+  "avgSalary": 134522,
+  "topOccupations": [
+    {
+      "name": "General Physical Science",
+      "count": 2546,
+      "avgSalary": 132294
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "count": 2231,
+      "avgSalary": 123232
+    },
+    {
+      "name": "Environmental Protection Specialist",
+      "count": 1682,
+      "avgSalary": 136906
+    },
+    {
+      "name": "Environmental Engineering",
+      "count": 1404,
+      "avgSalary": 141288
+    },
+    {
+      "name": "Management and Program Analysis",
+      "count": 1268,
+      "avgSalary": 138019
+    },
+    {
+      "name": "General Attorney",
+      "count": 1109,
+      "avgSalary": 165634
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 707,
+      "avgSalary": 141227
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 546,
+      "avgSalary": 137500
+    },
+    {
+      "name": "Chemistry",
+      "count": 442,
+      "avgSalary": 130736
+    },
+    {
+      "name": "Contracting",
+      "count": 304,
+      "avgSalary": 126684
+    },
+    {
+      "name": "Program Management",
+      "count": 282,
+      "avgSalary": 211247
+    },
+    {
+      "name": "Public Affairs",
+      "count": 280,
+      "avgSalary": 130268
+    },
+    {
+      "name": "Human Resources Management",
+      "count": 247,
+      "avgSalary": 121983
+    },
+    {
+      "name": "Social Science",
+      "count": 195,
+      "avgSalary": 129949
+    },
+    {
+      "name": "General Engineering",
+      "count": 181,
+      "avgSalary": 129804
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 4034
+    },
+    {
+      "name": "North Carolina",
+      "code": "NC",
+      "count": 1492
+    },
+    {
+      "name": "Illinois",
+      "code": "IL",
+      "count": 1100
+    },
+    {
+      "name": "Georgia",
+      "code": "GA",
+      "count": 984
+    },
+    {
+      "name": "California",
+      "code": "CA",
+      "count": 941
+    },
+    {
+      "name": "Texas",
+      "code": "TX",
+      "count": 827
+    },
+    {
+      "name": "Pennsylvania",
+      "code": "PA",
+      "count": 747
+    },
+    {
+      "name": "Colorado",
+      "code": "CO",
+      "count": 706
+    },
+    {
+      "name": "New York",
+      "code": "NY",
+      "count": 671
+    },
+    {
+      "name": "Massachusetts",
+      "code": "MA",
+      "count": 624
+    },
+    {
+      "name": "Ohio",
+      "code": "OH",
+      "count": 577
+    },
+    {
+      "name": "Washington",
+      "code": "WA",
+      "count": 569
+    },
+    {
+      "name": "Kansas",
+      "code": "KS",
+      "count": 563
+    },
+    {
+      "name": "Maryland",
+      "code": "MD",
+      "count": 486
+    },
+    {
+      "name": "Redacted",
+      "code": "REDACTED",
+      "count": 381
+    }
+  ],
+  "education": [
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 5264
+    },
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 4933
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 1866
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 1197
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 977
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 690
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 235
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 197
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 196
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 173
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 166
+    },
+    {
+      "level": "ONE YEAR COLLEGE",
+      "count": 157
+    },
+    {
+      "level": "POST-DOCTORATE",
+      "count": 118
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 105
+    },
+    {
+      "level": "No Data Reported",
+      "count": 84
+    },
+    {
+      "level": "POST-FIRST PROFESSIONAL",
+      "count": 60
+    },
+    {
+      "level": "SOME HIGH SCHOOL - DID NOT COMPLETE",
+      "count": 48
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT",
+      "count": 31
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE",
+      "count": 20
+    },
+    {
+      "level": "SIXTH-YEAR DEGREE",
+      "count": 18
+    },
+    {
+      "level": "POST-SIXTH YEAR",
+      "count": 17
+    },
+    {
+      "level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE",
+      "count": 5
+    }
+  ]
+}

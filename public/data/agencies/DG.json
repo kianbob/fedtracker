@@ -1,1 +1,35 @@
-{"code": "DG", "name": "NORTHERN BORDER REGIONAL COMMISSION", "employees": 3, "avgSalary": 136700, "topOccupations": [{"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 2, "avgSalary": 149846}, {"name": "ADMINISTRATIVE OFFICER", "count": 1, "avgSalary": 110410}], "topStates": [{"name": "NEW HAMPSHIRE", "code": "NH", "count": 3}], "education": [{"level": "BACHELOR'S DEGREE", "count": 2}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 1}]}
+{
+  "code": "DG",
+  "name": "Northern Border Regional Commission",
+  "employees": 3,
+  "avgSalary": 136700,
+  "topOccupations": [
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 2,
+      "avgSalary": 149846
+    },
+    {
+      "name": "Administrative Officer",
+      "count": 1,
+      "avgSalary": 110410
+    }
+  ],
+  "topStates": [
+    {
+      "name": "New Hampshire",
+      "code": "NH",
+      "count": 3
+    }
+  ],
+  "education": [
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 2
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 1
+    }
+  ]
+}

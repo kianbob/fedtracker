@@ -1,1 +1,160 @@
-{"code": "MS", "name": "MISSISSIPPI", "employees": 4709, "avgSalary": 91542, "topAgencies": [{"name": "DEPARTMENT OF AGRICULTURE", "code": "AG", "employees": 1566}, {"name": "SOCIAL SECURITY ADMINISTRATION", "code": "SZ", "employees": 518}, {"name": "NAT AERONAUTICS AND SPACE ADMINISTRATION", "code": "NN", "employees": 451}, {"name": "DEPARTMENT OF JUSTICE", "code": "DJ", "employees": 431}, {"name": "DEPARTMENT OF INTERIOR", "code": "IN", "employees": 360}, {"name": "DEPARTMENT OF COMMERCE", "code": "CM", "employees": 337}, {"name": "DEPARTMENT OF TRANSPORTATION", "code": "TD", "employees": 191}, {"name": "DEPARTMENT OF TREASURY", "code": "TR", "employees": 176}, {"name": "GOVERNMENT PRINTING OFFICE", "code": "LP", "employees": 138}, {"name": "ARMED FORCES RETIREMENT HOME", "code": "RH", "employees": 135}, {"name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "code": "HE", "employees": 76}, {"name": "SMALL BUSINESS ADMINISTRATION", "code": "SB", "employees": 69}, {"name": "FEDERAL DEPOSIT INSURANCE CORPORATION", "code": "FD", "employees": 51}, {"name": "DEPARTMENT OF LABOR", "code": "DL", "employees": 49}, {"name": "GENERAL SERVICES ADMINISTRATION", "code": "GS", "employees": 34}], "topOccupations": [{"name": "SOCIAL INSURANCE ADMINISTRATION", "employees": 305, "avgSalary": 97559}, {"name": "CONSUMER SAFETY INSPECTION", "employees": 207, "avgSalary": 71293}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "employees": 177, "avgSalary": 47045}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "employees": 170, "avgSalary": 109748}, {"name": "BIOLOGICAL SCIENCE TECHNICIAN", "employees": 161, "avgSalary": 57382}, {"name": "CONTACT REPRESENTATIVE", "employees": 132, "avgSalary": 53451}, {"name": "GENERAL ENGINEERING", "employees": 132, "avgSalary": 150357}, {"name": "GENERAL NATURAL RESOURCES MANAGEMENT AND BIOLOGICAL SCIENCES", "employees": 126, "avgSalary": 106698}, {"name": "SOIL CONSERVATION", "employees": 126, "avgSalary": 82680}, {"name": "GENERAL BUSINESS AND INDUSTRY", "employees": 123, "avgSalary": 82162}, {"name": "CONTRACTING", "employees": 116, "avgSalary": 112729}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "employees": 115, "avgSalary": 113187}, {"name": "LOAN SPECIALIST", "employees": 105, "avgSalary": 83243}, {"name": "FORESTRY TECHNICIAN", "employees": 105, "avgSalary": 53409}, {"name": "HUMAN RESOURCES MANAGEMENT", "employees": 98, "avgSalary": 97039}]}
+{
+  "code": "MS",
+  "name": "MISSISSIPPI",
+  "employees": 4709,
+  "avgSalary": 91542,
+  "topAgencies": [
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 1566
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 518
+    },
+    {
+      "name": "National Aeronautics and Space Administration",
+      "code": "NN",
+      "employees": 451
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 431
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 360
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 337
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 191
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 176
+    },
+    {
+      "name": "Government Printing Office",
+      "code": "LP",
+      "employees": 138
+    },
+    {
+      "name": "Armed Forces Retirement Home",
+      "code": "RH",
+      "employees": 135
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 76
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 69
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 51
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 49
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 34
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Social Insurance Administration",
+      "employees": 305,
+      "avgSalary": 97559
+    },
+    {
+      "name": "Consumer Safety Inspection",
+      "employees": 207,
+      "avgSalary": 71293
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 177,
+      "avgSalary": 47045
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 170,
+      "avgSalary": 109748
+    },
+    {
+      "name": "Biological Science Technician",
+      "employees": 161,
+      "avgSalary": 57382
+    },
+    {
+      "name": "Contact Representative",
+      "employees": 132,
+      "avgSalary": 53451
+    },
+    {
+      "name": "General Engineering",
+      "employees": 132,
+      "avgSalary": 150357
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 126,
+      "avgSalary": 106698
+    },
+    {
+      "name": "Soil Conservation",
+      "employees": 126,
+      "avgSalary": 82680
+    },
+    {
+      "name": "General Business and Industry",
+      "employees": 123,
+      "avgSalary": 82162
+    },
+    {
+      "name": "Contracting",
+      "employees": 116,
+      "avgSalary": 112729
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 115,
+      "avgSalary": 113187
+    },
+    {
+      "name": "Loan Specialist",
+      "employees": 105,
+      "avgSalary": 83243
+    },
+    {
+      "name": "Forestry Technician",
+      "employees": 105,
+      "avgSalary": 53409
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 98,
+      "avgSalary": 97039
+    }
+  ]
+}

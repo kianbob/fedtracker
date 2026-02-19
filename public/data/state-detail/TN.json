@@ -1,1 +1,160 @@
-{"code": "TN", "name": "TENNESSEE", "employees": 11719, "avgSalary": 84208, "topAgencies": [{"name": "DEPARTMENT OF TREASURY", "code": "TR", "employees": 5481}, {"name": "DEPARTMENT OF AGRICULTURE", "code": "AG", "employees": 1587}, {"name": "DEPARTMENT OF TRANSPORTATION", "code": "TD", "employees": 1011}, {"name": "SOCIAL SECURITY ADMINISTRATION", "code": "SZ", "employees": 905}, {"name": "DEPARTMENT OF INTERIOR", "code": "IN", "employees": 680}, {"name": "DEPARTMENT OF ENERGY", "code": "DN", "employees": 496}, {"name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "code": "HE", "employees": 399}, {"name": "DEPARTMENT OF COMMERCE", "code": "CM", "employees": 290}, {"name": "DEPARTMENT OF JUSTICE", "code": "DJ", "employees": 235}, {"name": "FEDERAL DEPOSIT INSURANCE CORPORATION", "code": "FD", "employees": 94}, {"name": "GENERAL SERVICES ADMINISTRATION", "code": "GS", "employees": 88}, {"name": "DEPARTMENT OF LABOR", "code": "DL", "employees": 87}, {"name": "SMALL BUSINESS ADMINISTRATION", "code": "SB", "employees": 73}, {"name": "EQUAL EMPLOYMENT OPPORTUNITY COMMISSION", "code": "EE", "employees": 62}, {"name": "DEPARTMENT OF HOUSING AND URBAN DEVELOPM", "code": "HU", "employees": 57}], "topOccupations": [{"name": "CONTACT REPRESENTATIVE", "employees": 2547, "avgSalary": 54982}, {"name": "TAX EXAMINING", "employees": 1211, "avgSalary": 48916}, {"name": "AIR TRAFFIC CONTROL", "employees": 558, "avgSalary": 150927}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "employees": 541, "avgSalary": 118515}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "employees": 529, "avgSalary": 44900}, {"name": "SOCIAL INSURANCE ADMINISTRATION", "employees": 511, "avgSalary": 94310}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "employees": 350, "avgSalary": 114830}, {"name": "GENERAL BUSINESS AND INDUSTRY", "employees": 332, "avgSalary": 86160}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "employees": 263, "avgSalary": 106248}, {"name": "AGRICULTURAL COMMODITY AID", "employees": 219, "avgSalary": 36451}, {"name": "HUMAN RESOURCES MANAGEMENT", "employees": 210, "avgSalary": 94681}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "employees": 186, "avgSalary": 96460}, {"name": "GENERAL ATTORNEY", "employees": 176, "avgSalary": 140542}, {"name": "SOIL CONSERVATION", "employees": 150, "avgSalary": 79864}, {"name": "TRANSPORTATION SPECIALIST", "employees": 147, "avgSalary": 112831}]}
+{
+  "code": "TN",
+  "name": "TENNESSEE",
+  "employees": 11719,
+  "avgSalary": 84208,
+  "topAgencies": [
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 5481
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 1587
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 1011
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 905
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 680
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 496
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 399
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 290
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 235
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 94
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 88
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 87
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 73
+    },
+    {
+      "name": "Equal Employment Opportunity Commission",
+      "code": "EE",
+      "employees": 62
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 57
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Contact Representative",
+      "employees": 2547,
+      "avgSalary": 54982
+    },
+    {
+      "name": "Tax Examining",
+      "employees": 1211,
+      "avgSalary": 48916
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 558,
+      "avgSalary": 150927
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 541,
+      "avgSalary": 118515
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 529,
+      "avgSalary": 44900
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 511,
+      "avgSalary": 94310
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 350,
+      "avgSalary": 114830
+    },
+    {
+      "name": "General Business and Industry",
+      "employees": 332,
+      "avgSalary": 86160
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 263,
+      "avgSalary": 106248
+    },
+    {
+      "name": "Agricultural Commodity Aid",
+      "employees": 219,
+      "avgSalary": 36451
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 210,
+      "avgSalary": 94681
+    },
+    {
+      "name": "Financial Administration and Program",
+      "employees": 186,
+      "avgSalary": 96460
+    },
+    {
+      "name": "General Attorney",
+      "employees": 176,
+      "avgSalary": 140542
+    },
+    {
+      "name": "Soil Conservation",
+      "employees": 150,
+      "avgSalary": 79864
+    },
+    {
+      "name": "Transportation Specialist",
+      "employees": 147,
+      "avgSalary": 112831
+    }
+  ]
+}

@@ -1,1 +1,90 @@
-{"code": "IF", "name": "INTER-AMERICAN FOUNDATION", "employees": 36, "avgSalary": 142352, "topOccupations": [{"name": "SOCIAL SCIENCE", "count": 17, "avgSalary": 154198}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 9, "avgSalary": 150433}, {"name": "GRANTS MANAGEMENT", "count": 3, "avgSalary": 68778}, {"name": "GENERAL ATTORNEY", "count": 2, "avgSalary": 163304}, {"name": "PARALEGAL SPECIALIST", "count": 1, "avgSalary": 93059}, {"name": "GENERAL ARTS AND INFORMATION", "count": 1, "avgSalary": 104781}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "count": 1, "avgSalary": 104781}, {"name": "AUDITING", "count": 1, "avgSalary": 128619}, {"name": "FINANCIAL MANAGEMENT", "count": 1, "avgSalary": 185234}], "topStates": [{"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 36}], "education": [{"level": "MASTER'S DEGREE", "count": 14}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 9}, {"level": "DOCTORATE DEGREE", "count": 4}, {"level": "BACHELOR'S DEGREE", "count": 4}, {"level": "FIRST PROFESSIONAL", "count": 3}, {"level": "FOUR YEARS COLLEGE", "count": 1}, {"level": "SIXTH-YEAR DEGREE", "count": 1}]}
+{
+  "code": "IF",
+  "name": "Inter-American Foundation",
+  "employees": 36,
+  "avgSalary": 142352,
+  "topOccupations": [
+    {
+      "name": "Social Science",
+      "count": 17,
+      "avgSalary": 154198
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 9,
+      "avgSalary": 150433
+    },
+    {
+      "name": "Grants Management",
+      "count": 3,
+      "avgSalary": 68778
+    },
+    {
+      "name": "General Attorney",
+      "count": 2,
+      "avgSalary": 163304
+    },
+    {
+      "name": "Paralegal Specialist",
+      "count": 1,
+      "avgSalary": 93059
+    },
+    {
+      "name": "General Arts and Information",
+      "count": 1,
+      "avgSalary": 104781
+    },
+    {
+      "name": "Management and Program Analysis",
+      "count": 1,
+      "avgSalary": 104781
+    },
+    {
+      "name": "Auditing",
+      "count": 1,
+      "avgSalary": 128619
+    },
+    {
+      "name": "Financial Management",
+      "count": 1,
+      "avgSalary": 185234
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 36
+    }
+  ],
+  "education": [
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 14
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 9
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 4
+    },
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 4
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 3
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 1
+    },
+    {
+      "level": "SIXTH-YEAR DEGREE",
+      "count": 1
+    }
+  ]
+}

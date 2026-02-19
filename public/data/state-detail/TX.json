@@ -1,1 +1,160 @@
-{"code": "TX", "name": "TEXAS", "employees": 41414, "avgSalary": 107027, "topAgencies": [{"name": "DEPARTMENT OF TREASURY", "code": "TR", "employees": 10761}, {"name": "DEPARTMENT OF TRANSPORTATION", "code": "TD", "employees": 4663}, {"name": "DEPARTMENT OF AGRICULTURE", "code": "AG", "employees": 4329}, {"name": "NAT AERONAUTICS AND SPACE ADMINISTRATION", "code": "NN", "employees": 3208}, {"name": "SOCIAL SECURITY ADMINISTRATION", "code": "SZ", "employees": 3170}, {"name": "DEPARTMENT OF JUSTICE", "code": "DJ", "employees": 3057}, {"name": "SMALL BUSINESS ADMINISTRATION", "code": "SB", "employees": 1852}, {"name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "code": "HE", "employees": 1646}, {"name": "DEPARTMENT OF COMMERCE", "code": "CM", "employees": 1559}, {"name": "DEPARTMENT OF INTERIOR", "code": "IN", "employees": 1320}, {"name": "GENERAL SERVICES ADMINISTRATION", "code": "GS", "employees": 1165}, {"name": "ENVIRONMENTAL PROTECTION AGENCY", "code": "EP", "employees": 827}, {"name": "DEPARTMENT OF LABOR", "code": "DL", "employees": 824}, {"name": "FEDERAL DEPOSIT INSURANCE CORPORATION", "code": "FD", "employees": 664}, {"name": "DEPARTMENT OF HOUSING AND URBAN DEVELOPM", "code": "HU", "employees": 466}], "topOccupations": [{"name": "MISCELLANEOUS CLERK AND ASSISTANT", "employees": 2593, "avgSalary": 47138}, {"name": "CONTACT REPRESENTATIVE", "employees": 2546, "avgSalary": 61542}, {"name": "TAX EXAMINING", "employees": 2440, "avgSalary": 52075}, {"name": "SOCIAL INSURANCE ADMINISTRATION", "employees": 1823, "avgSalary": 101861}, {"name": "AIR TRAFFIC CONTROL", "employees": 1726, "avgSalary": 166763}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "employees": 1712, "avgSalary": 129365}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "employees": 1699, "avgSalary": 134355}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "employees": 1424, "avgSalary": 122409}, {"name": "GENERAL ENGINEERING", "employees": 1383, "avgSalary": 163095}, {"name": "GENERAL BUSINESS AND INDUSTRY", "employees": 1233, "avgSalary": 115025}, {"name": "GENERAL ATTORNEY", "employees": 1182, "avgSalary": 161654}, {"name": "AEROSPACE ENGINEERING", "employees": 1080, "avgSalary": 162477}, {"name": "HUMAN RESOURCES MANAGEMENT", "employees": 1025, "avgSalary": 114229}, {"name": "CONTRACTING", "employees": 793, "avgSalary": 125243}, {"name": "LOAN SPECIALIST", "employees": 777, "avgSalary": 85707}]}
+{
+  "code": "TX",
+  "name": "TEXAS",
+  "employees": 41414,
+  "avgSalary": 107027,
+  "topAgencies": [
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 10761
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 4663
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 4329
+    },
+    {
+      "name": "National Aeronautics and Space Administration",
+      "code": "NN",
+      "employees": 3208
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 3170
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 3057
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 1852
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 1646
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 1559
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 1320
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 1165
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 827
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 824
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 664
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 466
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 2593,
+      "avgSalary": 47138
+    },
+    {
+      "name": "Contact Representative",
+      "employees": 2546,
+      "avgSalary": 61542
+    },
+    {
+      "name": "Tax Examining",
+      "employees": 2440,
+      "avgSalary": 52075
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 1823,
+      "avgSalary": 101861
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 1726,
+      "avgSalary": 166763
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 1712,
+      "avgSalary": 129365
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 1699,
+      "avgSalary": 134355
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 1424,
+      "avgSalary": 122409
+    },
+    {
+      "name": "General Engineering",
+      "employees": 1383,
+      "avgSalary": 163095
+    },
+    {
+      "name": "General Business and Industry",
+      "employees": 1233,
+      "avgSalary": 115025
+    },
+    {
+      "name": "General Attorney",
+      "employees": 1182,
+      "avgSalary": 161654
+    },
+    {
+      "name": "Aerospace Engineering",
+      "employees": 1080,
+      "avgSalary": 162477
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 1025,
+      "avgSalary": 114229
+    },
+    {
+      "name": "Contracting",
+      "employees": 793,
+      "avgSalary": 125243
+    },
+    {
+      "name": "Loan Specialist",
+      "employees": 777,
+      "avgSalary": 85707
+    }
+  ]
+}

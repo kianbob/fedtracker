@@ -1,1 +1,160 @@
-{"code": "DE", "name": "DELAWARE", "employees": 951, "avgSalary": 118599, "topAgencies": [{"name": "DEPARTMENT OF AGRICULTURE", "code": "AG", "employees": 247}, {"name": "SOCIAL SECURITY ADMINISTRATION", "code": "SZ", "employees": 101}, {"name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "code": "HE", "employees": 95}, {"name": "DEPARTMENT OF COMMERCE", "code": "CM", "employees": 90}, {"name": "DEPARTMENT OF TRANSPORTATION", "code": "TD", "employees": 70}, {"name": "DEPARTMENT OF TREASURY", "code": "TR", "employees": 67}, {"name": "DEPARTMENT OF INTERIOR", "code": "IN", "employees": 51}, {"name": "DEPARTMENT OF JUSTICE", "code": "DJ", "employees": 37}, {"name": "GENERAL SERVICES ADMINISTRATION", "code": "GS", "employees": 33}, {"name": "DEPARTMENT OF LABOR", "code": "DL", "employees": 28}, {"name": "FEDERAL DEPOSIT INSURANCE CORPORATION", "code": "FD", "employees": 23}, {"name": "SMALL BUSINESS ADMINISTRATION", "code": "SB", "employees": 16}, {"name": "ENVIRONMENTAL PROTECTION AGENCY", "code": "EP", "employees": 12}, {"name": "DEPARTMENT OF EDUCATION", "code": "ED", "employees": 12}, {"name": "DEPARTMENT OF HOUSING AND URBAN DEVELOPM", "code": "HU", "employees": 10}], "topOccupations": [{"name": "CONSUMER SAFETY INSPECTION", "employees": 76, "avgSalary": 78145}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "employees": 64, "avgSalary": 142225}, {"name": "SOCIAL INSURANCE ADMINISTRATION", "employees": 53, "avgSalary": 105124}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "employees": 50, "avgSalary": 133389}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "employees": 49, "avgSalary": 140806}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "employees": 43, "avgSalary": 49148}, {"name": "GENERAL ATTORNEY", "employees": 34, "avgSalary": 160578}, {"name": "LOAN SPECIALIST", "employees": 34, "avgSalary": 85974}, {"name": "PATENT EXAMINING", "employees": 32, "avgSalary": 153158}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "employees": 30, "avgSalary": 109295}, {"name": "GENERAL NATURAL RESOURCES MANAGEMENT AND BIOLOGICAL SCIENCES", "employees": 29, "avgSalary": 113482}, {"name": "HUMAN RESOURCES MANAGEMENT", "employees": 26, "avgSalary": 131603}, {"name": "CONTRACTING", "employees": 21, "avgSalary": 139845}, {"name": "FINANCIAL INSTITUTION EXAMINING", "employees": 19, "avgSalary": 183720}, {"name": "AIR TRAFFIC CONTROL", "employees": 18, "avgSalary": 100943}]}
+{
+  "code": "DE",
+  "name": "DELAWARE",
+  "employees": 951,
+  "avgSalary": 118599,
+  "topAgencies": [
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 247
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 101
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 95
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 90
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 70
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 67
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 51
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 37
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 33
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 28
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 23
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 16
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 12
+    },
+    {
+      "name": "Department of Education",
+      "code": "ED",
+      "employees": 12
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 10
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Consumer Safety Inspection",
+      "employees": 76,
+      "avgSalary": 78145
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 64,
+      "avgSalary": 142225
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 53,
+      "avgSalary": 105124
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 50,
+      "avgSalary": 133389
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 49,
+      "avgSalary": 140806
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 43,
+      "avgSalary": 49148
+    },
+    {
+      "name": "General Attorney",
+      "employees": 34,
+      "avgSalary": 160578
+    },
+    {
+      "name": "Loan Specialist",
+      "employees": 34,
+      "avgSalary": 85974
+    },
+    {
+      "name": "Patent Examining",
+      "employees": 32,
+      "avgSalary": 153158
+    },
+    {
+      "name": "Financial Administration and Program",
+      "employees": 30,
+      "avgSalary": 109295
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 29,
+      "avgSalary": 113482
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 26,
+      "avgSalary": 131603
+    },
+    {
+      "name": "Contracting",
+      "employees": 21,
+      "avgSalary": 139845
+    },
+    {
+      "name": "Financial Institution Examining",
+      "employees": 19,
+      "avgSalary": 183720
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 18,
+      "avgSalary": 100943
+    }
+  ]
+}

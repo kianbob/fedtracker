@@ -1,1 +1,194 @@
-{"code": "FW", "name": "OFFICE OF SPECIAL COUNSEL", "employees": 121, "avgSalary": 155910, "topOccupations": [{"name": "GENERAL ATTORNEY", "count": 94, "avgSalary": 163326}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 10, "avgSalary": 112903}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "count": 5, "avgSalary": 153568}, {"name": "HUMAN RESOURCES MANAGEMENT", "count": 3, "avgSalary": 133917}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "count": 2, "avgSalary": 70792}, {"name": "BUDGET ANALYSIS", "count": 2, "avgSalary": 108581}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "count": 1, "avgSalary": 178776}, {"name": "SUPPORT SERVICES ADMINISTRATION", "count": 1, "avgSalary": 114923}, {"name": "ADMINISTRATIVE OFFICER", "count": 1, "avgSalary": 195200}, {"name": "PROGRAM MANAGEMENT", "count": 1, "avgSalary": 213568}, {"name": "RECORDS AND INFORMATION MANAGEMENT", "count": 1, "avgSalary": 152736}], "topStates": [{"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 82}, {"name": "MICHIGAN", "code": "MI", "count": 8}, {"name": "TEXAS", "code": "TX", "count": 7}, {"name": "CALIFORNIA", "code": "CA", "count": 7}, {"name": "FLORIDA", "code": "FL", "count": 3}, {"name": "GEORGIA", "code": "GA", "count": 2}, {"name": "NEW YORK", "code": "NY", "count": 2}, {"name": "MASSACHUSETTS", "code": "MA", "count": 2}, {"name": "OHIO", "code": "OH", "count": 2}, {"name": "REDACTED", "code": "REDACTED", "count": 2}, {"name": "RHODE ISLAND", "code": "RI", "count": 1}, {"name": "MONTANA", "code": "MT", "count": 1}, {"name": "COLORADO", "code": "CO", "count": 1}, {"name": "MAINE", "code": "ME", "count": 1}, {"name": "VIRGINIA", "code": "VA", "count": 1}], "education": [{"level": "FIRST PROFESSIONAL", "count": 82}, {"level": "MASTER'S DEGREE", "count": 9}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 6}, {"level": "BACHELOR'S DEGREE", "count": 6}, {"level": "TWO YEARS COLLEGE", "count": 6}, {"level": "DOCTORATE DEGREE", "count": 4}, {"level": "SIXTH-YEAR DEGREE", "count": 2}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 2}, {"level": "POST-MASTER'S", "count": 2}, {"level": "ASSOCIATE DEGREE", "count": 1}, {"level": "FOUR YEARS COLLEGE", "count": 1}, {"level": "POST-FIRST PROFESSIONAL", "count": 1}, {"level": "POST-BACHELOR'S", "count": 1}]}
+{
+  "code": "FW",
+  "name": "Office of Special Counsel",
+  "employees": 121,
+  "avgSalary": 155910,
+  "topOccupations": [
+    {
+      "name": "General Attorney",
+      "count": 94,
+      "avgSalary": 163326
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 10,
+      "avgSalary": 112903
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 5,
+      "avgSalary": 153568
+    },
+    {
+      "name": "Human Resources Management",
+      "count": 3,
+      "avgSalary": 133917
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "count": 2,
+      "avgSalary": 70792
+    },
+    {
+      "name": "Budget Analysis",
+      "count": 2,
+      "avgSalary": 108581
+    },
+    {
+      "name": "Financial Administration and Program",
+      "count": 1,
+      "avgSalary": 178776
+    },
+    {
+      "name": "Support Services Administration",
+      "count": 1,
+      "avgSalary": 114923
+    },
+    {
+      "name": "Administrative Officer",
+      "count": 1,
+      "avgSalary": 195200
+    },
+    {
+      "name": "Program Management",
+      "count": 1,
+      "avgSalary": 213568
+    },
+    {
+      "name": "Records and Information Management",
+      "count": 1,
+      "avgSalary": 152736
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 82
+    },
+    {
+      "name": "Michigan",
+      "code": "MI",
+      "count": 8
+    },
+    {
+      "name": "Texas",
+      "code": "TX",
+      "count": 7
+    },
+    {
+      "name": "California",
+      "code": "CA",
+      "count": 7
+    },
+    {
+      "name": "Florida",
+      "code": "FL",
+      "count": 3
+    },
+    {
+      "name": "Georgia",
+      "code": "GA",
+      "count": 2
+    },
+    {
+      "name": "New York",
+      "code": "NY",
+      "count": 2
+    },
+    {
+      "name": "Massachusetts",
+      "code": "MA",
+      "count": 2
+    },
+    {
+      "name": "Ohio",
+      "code": "OH",
+      "count": 2
+    },
+    {
+      "name": "Redacted",
+      "code": "REDACTED",
+      "count": 2
+    },
+    {
+      "name": "Rhode Island",
+      "code": "RI",
+      "count": 1
+    },
+    {
+      "name": "Montana",
+      "code": "MT",
+      "count": 1
+    },
+    {
+      "name": "Colorado",
+      "code": "CO",
+      "count": 1
+    },
+    {
+      "name": "Maine",
+      "code": "ME",
+      "count": 1
+    },
+    {
+      "name": "Virginia",
+      "code": "VA",
+      "count": 1
+    }
+  ],
+  "education": [
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 82
+    },
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 9
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 6
+    },
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 6
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 6
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 4
+    },
+    {
+      "level": "SIXTH-YEAR DEGREE",
+      "count": 2
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 2
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 2
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 1
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 1
+    },
+    {
+      "level": "POST-FIRST PROFESSIONAL",
+      "count": 1
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 1
+    }
+  ]
+}

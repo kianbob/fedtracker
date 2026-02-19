@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "About — FedTracker",
+  title: "About FedTracker — Data Sources & Methodology",
   description: "About FedTracker, data sources, and methodology.",
 };
 

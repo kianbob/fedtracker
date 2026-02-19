@@ -1,1 +1,160 @@
-{"code": "WI", "name": "WISCONSIN", "employees": 4566, "avgSalary": 95345, "topAgencies": [{"name": "DEPARTMENT OF AGRICULTURE", "code": "AG", "employees": 1772}, {"name": "DEPARTMENT OF INTERIOR", "code": "IN", "employees": 759}, {"name": "SOCIAL SECURITY ADMINISTRATION", "code": "SZ", "employees": 516}, {"name": "DEPARTMENT OF COMMERCE", "code": "CM", "employees": 284}, {"name": "DEPARTMENT OF TRANSPORTATION", "code": "TD", "employees": 248}, {"name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "code": "HE", "employees": 185}, {"name": "DEPARTMENT OF JUSTICE", "code": "DJ", "employees": 171}, {"name": "DEPARTMENT OF TREASURY", "code": "TR", "employees": 169}, {"name": "DEPARTMENT OF LABOR", "code": "DL", "employees": 96}, {"name": "FEDERAL DEPOSIT INSURANCE CORPORATION", "code": "FD", "employees": 93}, {"name": "GENERAL SERVICES ADMINISTRATION", "code": "GS", "employees": 62}, {"name": "DEPARTMENT OF HOUSING AND URBAN DEVELOPM", "code": "HU", "employees": 35}, {"name": "SMALL BUSINESS ADMINISTRATION", "code": "SB", "employees": 26}, {"name": "NATIONAL LABOR RELATIONS BOARD", "code": "NL", "employees": 22}, {"name": "EQUAL EMPLOYMENT OPPORTUNITY COMMISSION", "code": "EE", "employees": 20}], "topOccupations": [{"name": "SOCIAL INSURANCE ADMINISTRATION", "employees": 353, "avgSalary": 96981}, {"name": "GENERAL NATURAL RESOURCES MANAGEMENT AND BIOLOGICAL SCIENCES", "employees": 237, "avgSalary": 95663}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "employees": 200, "avgSalary": 46828}, {"name": "BIOLOGICAL SCIENCE TECHNICIAN", "employees": 195, "avgSalary": 52814}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "employees": 179, "avgSalary": 113253}, {"name": "SOIL CONSERVATION", "employees": 156, "avgSalary": 83406}, {"name": "CONSUMER SAFETY INSPECTION", "employees": 127, "avgSalary": 70242}, {"name": "FINANCIAL INSTITUTION EXAMINING", "employees": 123, "avgSalary": 130379}, {"name": "LOAN SPECIALIST", "employees": 115, "avgSalary": 80593}, {"name": "FORESTRY TECHNICIAN", "employees": 114, "avgSalary": 54271}, {"name": "GENERAL BUSINESS AND INDUSTRY", "employees": 110, "avgSalary": 100792}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "employees": 109, "avgSalary": 115430}, {"name": "GENERAL ATTORNEY", "employees": 97, "avgSalary": 142750}, {"name": "AIR TRAFFIC CONTROL", "employees": 91, "avgSalary": 122560}, {"name": "CONTACT REPRESENTATIVE", "employees": 80, "avgSalary": 63168}]}
+{
+  "code": "WI",
+  "name": "WISCONSIN",
+  "employees": 4566,
+  "avgSalary": 95345,
+  "topAgencies": [
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 1772
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 759
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 516
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 284
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 248
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 185
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 171
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 169
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 96
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 93
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 62
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 35
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 26
+    },
+    {
+      "name": "National Labor Relations Board",
+      "code": "NL",
+      "employees": 22
+    },
+    {
+      "name": "Equal Employment Opportunity Commission",
+      "code": "EE",
+      "employees": 20
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Social Insurance Administration",
+      "employees": 353,
+      "avgSalary": 96981
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 237,
+      "avgSalary": 95663
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 200,
+      "avgSalary": 46828
+    },
+    {
+      "name": "Biological Science Technician",
+      "employees": 195,
+      "avgSalary": 52814
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 179,
+      "avgSalary": 113253
+    },
+    {
+      "name": "Soil Conservation",
+      "employees": 156,
+      "avgSalary": 83406
+    },
+    {
+      "name": "Consumer Safety Inspection",
+      "employees": 127,
+      "avgSalary": 70242
+    },
+    {
+      "name": "Financial Institution Examining",
+      "employees": 123,
+      "avgSalary": 130379
+    },
+    {
+      "name": "Loan Specialist",
+      "employees": 115,
+      "avgSalary": 80593
+    },
+    {
+      "name": "Forestry Technician",
+      "employees": 114,
+      "avgSalary": 54271
+    },
+    {
+      "name": "General Business and Industry",
+      "employees": 110,
+      "avgSalary": 100792
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 109,
+      "avgSalary": 115430
+    },
+    {
+      "name": "General Attorney",
+      "employees": 97,
+      "avgSalary": 142750
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 91,
+      "avgSalary": 122560
+    },
+    {
+      "name": "Contact Representative",
+      "employees": 80,
+      "avgSalary": 63168
+    }
+  ]
+}

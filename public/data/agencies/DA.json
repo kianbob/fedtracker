@@ -1,1 +1,31 @@
-{"code": "DA", "name": "DELTA REGIONAL AUTHORITY", "employees": 2, "avgSalary": 157441, "topOccupations": [{"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 2, "avgSalary": 157441}], "topStates": [{"name": "MISSISSIPPI", "code": "MS", "count": 1}, {"name": "LOUISIANA", "code": "LA", "count": 1}], "education": [{"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 2}]}
+{
+  "code": "DA",
+  "name": "Delta Regional Authority",
+  "employees": 2,
+  "avgSalary": 157441,
+  "topOccupations": [
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 2,
+      "avgSalary": 157441
+    }
+  ],
+  "topStates": [
+    {
+      "name": "Mississippi",
+      "code": "MS",
+      "count": 1
+    },
+    {
+      "name": "Louisiana",
+      "code": "LA",
+      "count": 1
+    }
+  ],
+  "education": [
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 2
+    }
+  ]
+}

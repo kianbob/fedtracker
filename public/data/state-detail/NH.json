@@ -1,1 +1,160 @@
-{"code": "NH", "name": "NEW HAMPSHIRE", "employees": 2519, "avgSalary": 124118, "topAgencies": [{"name": "DEPARTMENT OF TRANSPORTATION", "code": "TD", "employees": 679}, {"name": "DEPARTMENT OF STATE", "code": "ST", "employees": 479}, {"name": "DEPARTMENT OF AGRICULTURE", "code": "AG", "employees": 380}, {"name": "DEPARTMENT OF JUSTICE", "code": "DJ", "employees": 153}, {"name": "SOCIAL SECURITY ADMINISTRATION", "code": "SZ", "employees": 135}, {"name": "DEPARTMENT OF TREASURY", "code": "TR", "employees": 119}, {"name": "DEPARTMENT OF COMMERCE", "code": "CM", "employees": 117}, {"name": "DEPARTMENT OF INTERIOR", "code": "IN", "employees": 111}, {"name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "code": "HE", "employees": 91}, {"name": "GENERAL SERVICES ADMINISTRATION", "code": "GS", "employees": 54}, {"name": "DEPARTMENT OF LABOR", "code": "DL", "employees": 52}, {"name": "FEDERAL DEPOSIT INSURANCE CORPORATION", "code": "FD", "employees": 41}, {"name": "CORP FOR NATIONAL AND COMMUNITY SERVICE", "code": "KS", "employees": 16}, {"name": "SMALL BUSINESS ADMINISTRATION", "code": "SB", "employees": 16}, {"name": "DEPARTMENT OF HOUSING AND URBAN DEVELOPM", "code": "HU", "employees": 12}], "topOccupations": [{"name": "PASSPORT AND VISA EXAMINING", "employees": 417, "avgSalary": 95319}, {"name": "AIR TRAFFIC CONTROL", "employees": 410, "avgSalary": 177264}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "employees": 112, "avgSalary": 127208}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "employees": 97, "avgSalary": 143818}, {"name": "GENERAL NATURAL RESOURCES MANAGEMENT AND BIOLOGICAL SCIENCES", "employees": 86, "avgSalary": 108737}, {"name": "TRANSPORTATION SPECIALIST", "employees": 85, "avgSalary": 131394}, {"name": "SOCIAL INSURANCE ADMINISTRATION", "employees": 66, "avgSalary": 111547}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "employees": 63, "avgSalary": 148323}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "employees": 48, "avgSalary": 52977}, {"name": "GENERAL BUSINESS AND INDUSTRY", "employees": 43, "avgSalary": 124070}, {"name": "FINANCIAL INSTITUTION EXAMINING", "employees": 40, "avgSalary": 169457}, {"name": "GENERAL ATTORNEY", "employees": 37, "avgSalary": 166164}, {"name": "FORESTRY TECHNICIAN", "employees": 36, "avgSalary": 59303}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "employees": 33, "avgSalary": 107084}, {"name": "PROGRAM MANAGEMENT", "employees": 33, "avgSalary": 170161}]}
+{
+  "code": "NH",
+  "name": "NEW HAMPSHIRE",
+  "employees": 2519,
+  "avgSalary": 124118,
+  "topAgencies": [
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 679
+    },
+    {
+      "name": "Department of State",
+      "code": "ST",
+      "employees": 479
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 380
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 153
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 135
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 119
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 117
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 111
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 91
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 54
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 52
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 41
+    },
+    {
+      "name": "Corp for National and Community Service",
+      "code": "KS",
+      "employees": 16
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 16
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 12
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Passport and Visa Examining",
+      "employees": 417,
+      "avgSalary": 95319
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 410,
+      "avgSalary": 177264
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 112,
+      "avgSalary": 127208
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 97,
+      "avgSalary": 143818
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 86,
+      "avgSalary": 108737
+    },
+    {
+      "name": "Transportation Specialist",
+      "employees": 85,
+      "avgSalary": 131394
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 66,
+      "avgSalary": 111547
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 63,
+      "avgSalary": 148323
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 48,
+      "avgSalary": 52977
+    },
+    {
+      "name": "General Business and Industry",
+      "employees": 43,
+      "avgSalary": 124070
+    },
+    {
+      "name": "Financial Institution Examining",
+      "employees": 40,
+      "avgSalary": 169457
+    },
+    {
+      "name": "General Attorney",
+      "employees": 37,
+      "avgSalary": 166164
+    },
+    {
+      "name": "Forestry Technician",
+      "employees": 36,
+      "avgSalary": 59303
+    },
+    {
+      "name": "Financial Administration and Program",
+      "employees": 33,
+      "avgSalary": 107084
+    },
+    {
+      "name": "Program Management",
+      "employees": 33,
+      "avgSalary": 170161
+    }
+  ]
+}

@@ -1,1 +1,180 @@
-{"code": "CT", "name": "COMMODITY FUTURES TRADING COMMISSION", "employees": 649, "avgSalary": 244273, "topOccupations": [{"name": "GENERAL ATTORNEY", "count": 247, "avgSalary": 260990}, {"name": "GENERAL BUSINESS AND INDUSTRY", "count": 115, "avgSalary": 247760}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "count": 66, "avgSalary": 243661}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 57, "avgSalary": 215690}, {"name": "AUDITING", "count": 42, "avgSalary": 259033}, {"name": "ECONOMIST", "count": 31, "avgSalary": 245318}, {"name": "HUMAN RESOURCES MANAGEMENT", "count": 17, "avgSalary": 241203}, {"name": "PARALEGAL SPECIALIST", "count": 10, "avgSalary": 145238}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "count": 9, "avgSalary": 244582}, {"name": "ACCOUNTING", "count": 7, "avgSalary": 224020}, {"name": "BUDGET ANALYSIS", "count": 6, "avgSalary": 229177}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "count": 6, "avgSalary": 119571}, {"name": "CONTRACTING", "count": 6, "avgSalary": 236049}, {"name": "LEGAL OCCUPATIONS STUDENT TRAINEE", "count": 5, "avgSalary": 0}, {"name": "TELECOMMUNICATIONS", "count": 4, "avgSalary": 241070}], "topStates": [{"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 437}, {"name": "ILLINOIS", "code": "IL", "count": 107}, {"name": "NEW YORK", "code": "NY", "count": 83}, {"name": "REDACTED", "code": "REDACTED", "count": 30}, {"name": "MISSOURI", "code": "MO", "count": 23}], "education": [{"level": "FIRST PROFESSIONAL", "count": 223}, {"level": "BACHELOR'S DEGREE", "count": 199}, {"level": "MASTER'S DEGREE", "count": 153}, {"level": "DOCTORATE DEGREE", "count": 36}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 18}, {"level": "ASSOCIATE DEGREE", "count": 8}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 7}, {"level": "TWO YEARS COLLEGE", "count": 6}, {"level": "ONE YEAR COLLEGE", "count": 6}, {"level": "POST-FIRST PROFESSIONAL", "count": 5}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT", "count": 5}, {"level": "THREE YEARS COLLEGE", "count": 5}, {"level": "POST-BACHELOR'S", "count": 3}, {"level": "POST-MASTER'S", "count": 2}, {"level": "POST-DOCTORATE", "count": 2}, {"level": "POST-SIXTH YEAR", "count": 1}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE", "count": 1}]}
+{
+  "code": "CT",
+  "name": "Commodity Futures Trading Commission",
+  "employees": 649,
+  "avgSalary": 244273,
+  "topOccupations": [
+    {
+      "name": "General Attorney",
+      "count": 247,
+      "avgSalary": 260990
+    },
+    {
+      "name": "General Business and Industry",
+      "count": 115,
+      "avgSalary": 247760
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 66,
+      "avgSalary": 243661
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 57,
+      "avgSalary": 215690
+    },
+    {
+      "name": "Auditing",
+      "count": 42,
+      "avgSalary": 259033
+    },
+    {
+      "name": "Economist",
+      "count": 31,
+      "avgSalary": 245318
+    },
+    {
+      "name": "Human Resources Management",
+      "count": 17,
+      "avgSalary": 241203
+    },
+    {
+      "name": "Paralegal Specialist",
+      "count": 10,
+      "avgSalary": 145238
+    },
+    {
+      "name": "Management and Program Analysis",
+      "count": 9,
+      "avgSalary": 244582
+    },
+    {
+      "name": "Accounting",
+      "count": 7,
+      "avgSalary": 224020
+    },
+    {
+      "name": "Budget Analysis",
+      "count": 6,
+      "avgSalary": 229177
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "count": 6,
+      "avgSalary": 119571
+    },
+    {
+      "name": "Contracting",
+      "count": 6,
+      "avgSalary": 236049
+    },
+    {
+      "name": "Legal Occupations Student Trainee",
+      "count": 5,
+      "avgSalary": 0
+    },
+    {
+      "name": "Telecommunications",
+      "count": 4,
+      "avgSalary": 241070
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 437
+    },
+    {
+      "name": "Illinois",
+      "code": "IL",
+      "count": 107
+    },
+    {
+      "name": "New York",
+      "code": "NY",
+      "count": 83
+    },
+    {
+      "name": "Redacted",
+      "code": "REDACTED",
+      "count": 30
+    },
+    {
+      "name": "Missouri",
+      "code": "MO",
+      "count": 23
+    }
+  ],
+  "education": [
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 223
+    },
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 199
+    },
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 153
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 36
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 18
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 8
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 7
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 6
+    },
+    {
+      "level": "ONE YEAR COLLEGE",
+      "count": 6
+    },
+    {
+      "level": "POST-FIRST PROFESSIONAL",
+      "count": 5
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT",
+      "count": 5
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 5
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 3
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 2
+    },
+    {
+      "level": "POST-DOCTORATE",
+      "count": 2
+    },
+    {
+      "level": "POST-SIXTH YEAR",
+      "count": 1
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE",
+      "count": 1
+    }
+  ]
+}

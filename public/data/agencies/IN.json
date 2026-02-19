@@ -1,1 +1,254 @@
-{"code": "IN", "name": "DEPARTMENT OF INTERIOR", "employees": 61460, "avgSalary": 95486, "topOccupations": [{"name": "GENERAL NATURAL RESOURCES MANAGEMENT AND BIOLOGICAL SCIENCES", "count": 4530, "avgSalary": 102638}, {"name": "PARK RANGER", "count": 3475, "avgSalary": 86673}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 2985, "avgSalary": 113761}, {"name": "MAINTENANCE MECHANIC", "count": 2803, "avgSalary": 67149}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "count": 2160, "avgSalary": 120542}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "count": 1909, "avgSalary": 55734}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "count": 1723, "avgSalary": 121243}, {"name": "HYDROLOGIC TECHNICIAN", "count": 1491, "avgSalary": 71891}, {"name": "WILDLAND FIRE MANAGEMENT", "count": 1469, "avgSalary": 63171}, {"name": "HYDROLOGY", "count": 1207, "avgSalary": 114574}, {"name": "CIVIL ENGINEERING", "count": 1188, "avgSalary": 123782}, {"name": "HUMAN RESOURCES MANAGEMENT", "count": 1176, "avgSalary": 112991}, {"name": "CONTRACTING", "count": 1082, "avgSalary": 118787}, {"name": "BUDGET ANALYSIS", "count": 1050, "avgSalary": 103895}, {"name": "BIOLOGICAL SCIENCE TECHNICIAN", "count": 1015, "avgSalary": 54448}], "topStates": [{"name": "COLORADO", "code": "CO", "count": 5949}, {"name": "CALIFORNIA", "code": "CA", "count": 5872}, {"name": "ARIZONA", "code": "AZ", "count": 3752}, {"name": "NEW MEXICO", "code": "NM", "count": 3361}, {"name": "VIRGINIA", "code": "VA", "count": 3147}, {"name": "REDACTED", "code": "REDACTED", "count": 2662}, {"name": "OREGON", "code": "OR", "count": 2475}, {"name": "WASHINGTON", "code": "WA", "count": 2322}, {"name": "IDAHO", "code": "ID", "count": 2106}, {"name": "ALASKA", "code": "AK", "count": 2012}, {"name": "NEVADA", "code": "NV", "count": 2006}, {"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 1979}, {"name": "UTAH", "code": "UT", "count": 1951}, {"name": "MONTANA", "code": "MT", "count": 1818}, {"name": "WYOMING", "code": "WY", "count": 1679}], "education": [{"level": "BACHELOR'S DEGREE", "count": 20859}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 15873}, {"level": "MASTER'S DEGREE", "count": 11605}, {"level": "DOCTORATE DEGREE", "count": 2852}, {"level": "ASSOCIATE DEGREE", "count": 2748}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 1880}, {"level": "TWO YEARS COLLEGE", "count": 1496}, {"level": "POST-BACHELOR'S", "count": 1271}, {"level": "ONE YEAR COLLEGE", "count": 1267}, {"level": "THREE YEARS COLLEGE", "count": 780}, {"level": "FOUR YEARS COLLEGE", "count": 753}, {"level": "FIRST PROFESSIONAL", "count": 670}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT", "count": 523}, {"level": "POST-MASTER'S", "count": 358}, {"level": "No Data Reported", "count": 228}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE", "count": 131}, {"level": "SOME HIGH SCHOOL - DID NOT COMPLETE", "count": 126}, {"level": "POST-FIRST PROFESSIONAL", "count": 112}, {"level": "POST-DOCTORATE", "count": 70}, {"level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE", "count": 60}, {"level": "POST-SIXTH YEAR", "count": 50}, {"level": "SIXTH-YEAR DEGREE", "count": 37}, {"level": "ELEMENTARY SCHOOL COMPLETED - NO HIGH SCHOOL", "count": 3}]}
+{
+  "code": "IN",
+  "name": "Department of Interior",
+  "employees": 61460,
+  "avgSalary": 95486,
+  "topOccupations": [
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "count": 4530,
+      "avgSalary": 102638
+    },
+    {
+      "name": "Park Ranger",
+      "count": 3475,
+      "avgSalary": 86673
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 2985,
+      "avgSalary": 113761
+    },
+    {
+      "name": "Maintenance Mechanic",
+      "count": 2803,
+      "avgSalary": 67149
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 2160,
+      "avgSalary": 120542
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "count": 1909,
+      "avgSalary": 55734
+    },
+    {
+      "name": "Management and Program Analysis",
+      "count": 1723,
+      "avgSalary": 121243
+    },
+    {
+      "name": "Hydrologic Technician",
+      "count": 1491,
+      "avgSalary": 71891
+    },
+    {
+      "name": "Wildland Fire Management",
+      "count": 1469,
+      "avgSalary": 63171
+    },
+    {
+      "name": "Hydrology",
+      "count": 1207,
+      "avgSalary": 114574
+    },
+    {
+      "name": "Civil Engineering",
+      "count": 1188,
+      "avgSalary": 123782
+    },
+    {
+      "name": "Human Resources Management",
+      "count": 1176,
+      "avgSalary": 112991
+    },
+    {
+      "name": "Contracting",
+      "count": 1082,
+      "avgSalary": 118787
+    },
+    {
+      "name": "Budget Analysis",
+      "count": 1050,
+      "avgSalary": 103895
+    },
+    {
+      "name": "Biological Science Technician",
+      "count": 1015,
+      "avgSalary": 54448
+    }
+  ],
+  "topStates": [
+    {
+      "name": "Colorado",
+      "code": "CO",
+      "count": 5949
+    },
+    {
+      "name": "California",
+      "code": "CA",
+      "count": 5872
+    },
+    {
+      "name": "Arizona",
+      "code": "AZ",
+      "count": 3752
+    },
+    {
+      "name": "New Mexico",
+      "code": "NM",
+      "count": 3361
+    },
+    {
+      "name": "Virginia",
+      "code": "VA",
+      "count": 3147
+    },
+    {
+      "name": "Redacted",
+      "code": "REDACTED",
+      "count": 2662
+    },
+    {
+      "name": "Oregon",
+      "code": "OR",
+      "count": 2475
+    },
+    {
+      "name": "Washington",
+      "code": "WA",
+      "count": 2322
+    },
+    {
+      "name": "Idaho",
+      "code": "ID",
+      "count": 2106
+    },
+    {
+      "name": "Alaska",
+      "code": "AK",
+      "count": 2012
+    },
+    {
+      "name": "Nevada",
+      "code": "NV",
+      "count": 2006
+    },
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 1979
+    },
+    {
+      "name": "Utah",
+      "code": "UT",
+      "count": 1951
+    },
+    {
+      "name": "Montana",
+      "code": "MT",
+      "count": 1818
+    },
+    {
+      "name": "Wyoming",
+      "code": "WY",
+      "count": 1679
+    }
+  ],
+  "education": [
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 20859
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 15873
+    },
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 11605
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 2852
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 2748
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 1880
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 1496
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 1271
+    },
+    {
+      "level": "ONE YEAR COLLEGE",
+      "count": 1267
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 780
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 753
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 670
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT",
+      "count": 523
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 358
+    },
+    {
+      "level": "No Data Reported",
+      "count": 228
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE",
+      "count": 131
+    },
+    {
+      "level": "SOME HIGH SCHOOL - DID NOT COMPLETE",
+      "count": 126
+    },
+    {
+      "level": "POST-FIRST PROFESSIONAL",
+      "count": 112
+    },
+    {
+      "level": "POST-DOCTORATE",
+      "count": 70
+    },
+    {
+      "level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE",
+      "count": 60
+    },
+    {
+      "level": "POST-SIXTH YEAR",
+      "count": 50
+    },
+    {
+      "level": "SIXTH-YEAR DEGREE",
+      "count": 37
+    },
+    {
+      "level": "ELEMENTARY SCHOOL COMPLETED - NO HIGH SCHOOL",
+      "count": 3
+    }
+  ]
+}

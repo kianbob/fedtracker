@@ -1,1 +1,238 @@
-{"code": "IB", "name": "U.S.AGENCY FOR GLOBAL MEDIA", "employees": 1159, "avgSalary": 141261, "topOccupations": [{"name": "GENERAL ARTS AND INFORMATION", "count": 609, "avgSalary": 136039}, {"name": "AUDIOVISUAL PRODUCTION", "count": 85, "avgSalary": 142743}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 74, "avgSalary": 157975}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "count": 70, "avgSalary": 160257}, {"name": "WRITING AND EDITING", "count": 41, "avgSalary": 158960}, {"name": "TELECOMMUNICATIONS", "count": 35, "avgSalary": 150083}, {"name": "BROADCASTING EQUIPMENT OPERATING", "count": 32, "avgSalary": 120660}, {"name": "HUMAN RESOURCES MANAGEMENT", "count": 29, "avgSalary": 142830}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "count": 25, "avgSalary": 120408}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "count": 24, "avgSalary": 130123}, {"name": "CONTRACTING", "count": 23, "avgSalary": 134179}, {"name": "ELECTRONICS TECHNICAL", "count": 18, "avgSalary": 158202}, {"name": "BUDGET ANALYSIS", "count": 11, "avgSalary": 165679}, {"name": "ADMINISTRATIVE OFFICER", "count": 10, "avgSalary": 122431}, {"name": "GENERAL ATTORNEY", "count": 9, "avgSalary": 174786}], "topStates": [{"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 937}, {"name": "MARYLAND", "code": "MD", "count": 66}, {"name": "FLORIDA", "code": "FL", "count": 44}, {"name": "VIRGINIA", "code": "VA", "count": 42}, {"name": "REDACTED", "code": "REDACTED", "count": 20}, {"name": "NEW YORK", "code": "NY", "count": 14}, {"name": "NORTH CAROLINA", "code": "NC", "count": 12}, {"name": "CALIFORNIA", "code": "CA", "count": 5}, {"name": "ILLINOIS", "code": "IL", "count": 3}, {"name": "TEXAS", "code": "TX", "count": 3}, {"name": "COLORADO", "code": "CO", "count": 2}, {"name": "INDIANA", "code": "IN", "count": 1}, {"name": "ARIZONA", "code": "AZ", "count": 1}, {"name": "SOUTH CAROLINA", "code": "SC", "count": 1}, {"name": "PENNSYLVANIA", "code": "PA", "count": 1}], "education": [{"level": "BACHELOR'S DEGREE", "count": 452}, {"level": "MASTER'S DEGREE", "count": 336}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 160}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 37}, {"level": "ASSOCIATE DEGREE", "count": 34}, {"level": "DOCTORATE DEGREE", "count": 29}, {"level": "TWO YEARS COLLEGE", "count": 29}, {"level": "POST-BACHELOR'S", "count": 22}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT", "count": 15}, {"level": "FIRST PROFESSIONAL", "count": 10}, {"level": "FOUR YEARS COLLEGE", "count": 9}, {"level": "ONE YEAR COLLEGE", "count": 7}, {"level": "POST-MASTER'S", "count": 7}, {"level": "THREE YEARS COLLEGE", "count": 6}, {"level": "SOME HIGH SCHOOL - DID NOT COMPLETE", "count": 2}, {"level": "No Data Reported", "count": 2}, {"level": "SIXTH-YEAR DEGREE", "count": 1}, {"level": "POST-FIRST PROFESSIONAL", "count": 1}, {"level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE", "count": 1}]}
+{
+  "code": "IB",
+  "name": "U.S.Agency for Global Media",
+  "employees": 1159,
+  "avgSalary": 141261,
+  "topOccupations": [
+    {
+      "name": "General Arts and Information",
+      "count": 609,
+      "avgSalary": 136039
+    },
+    {
+      "name": "Audiovisual Production",
+      "count": 85,
+      "avgSalary": 142743
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 74,
+      "avgSalary": 157975
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 70,
+      "avgSalary": 160257
+    },
+    {
+      "name": "Writing and Editing",
+      "count": 41,
+      "avgSalary": 158960
+    },
+    {
+      "name": "Telecommunications",
+      "count": 35,
+      "avgSalary": 150083
+    },
+    {
+      "name": "Broadcasting Equipment Operating",
+      "count": 32,
+      "avgSalary": 120660
+    },
+    {
+      "name": "Human Resources Management",
+      "count": 29,
+      "avgSalary": 142830
+    },
+    {
+      "name": "Management and Program Analysis",
+      "count": 25,
+      "avgSalary": 120408
+    },
+    {
+      "name": "Financial Administration and Program",
+      "count": 24,
+      "avgSalary": 130123
+    },
+    {
+      "name": "Contracting",
+      "count": 23,
+      "avgSalary": 134179
+    },
+    {
+      "name": "Electronics Technical",
+      "count": 18,
+      "avgSalary": 158202
+    },
+    {
+      "name": "Budget Analysis",
+      "count": 11,
+      "avgSalary": 165679
+    },
+    {
+      "name": "Administrative Officer",
+      "count": 10,
+      "avgSalary": 122431
+    },
+    {
+      "name": "General Attorney",
+      "count": 9,
+      "avgSalary": 174786
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 937
+    },
+    {
+      "name": "Maryland",
+      "code": "MD",
+      "count": 66
+    },
+    {
+      "name": "Florida",
+      "code": "FL",
+      "count": 44
+    },
+    {
+      "name": "Virginia",
+      "code": "VA",
+      "count": 42
+    },
+    {
+      "name": "Redacted",
+      "code": "REDACTED",
+      "count": 20
+    },
+    {
+      "name": "New York",
+      "code": "NY",
+      "count": 14
+    },
+    {
+      "name": "North Carolina",
+      "code": "NC",
+      "count": 12
+    },
+    {
+      "name": "California",
+      "code": "CA",
+      "count": 5
+    },
+    {
+      "name": "Illinois",
+      "code": "IL",
+      "count": 3
+    },
+    {
+      "name": "Texas",
+      "code": "TX",
+      "count": 3
+    },
+    {
+      "name": "Colorado",
+      "code": "CO",
+      "count": 2
+    },
+    {
+      "name": "Indiana",
+      "code": "IN",
+      "count": 1
+    },
+    {
+      "name": "Arizona",
+      "code": "AZ",
+      "count": 1
+    },
+    {
+      "name": "South Carolina",
+      "code": "SC",
+      "count": 1
+    },
+    {
+      "name": "Pennsylvania",
+      "code": "PA",
+      "count": 1
+    }
+  ],
+  "education": [
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 452
+    },
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 336
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 160
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 37
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 34
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 29
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 29
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 22
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT",
+      "count": 15
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 10
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 9
+    },
+    {
+      "level": "ONE YEAR COLLEGE",
+      "count": 7
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 7
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 6
+    },
+    {
+      "level": "SOME HIGH SCHOOL - DID NOT COMPLETE",
+      "count": 2
+    },
+    {
+      "level": "No Data Reported",
+      "count": 2
+    },
+    {
+      "level": "SIXTH-YEAR DEGREE",
+      "count": 1
+    },
+    {
+      "level": "POST-FIRST PROFESSIONAL",
+      "count": 1
+    },
+    {
+      "level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE",
+      "count": 1
+    }
+  ]
+}

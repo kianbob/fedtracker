@@ -1,30 +1,47 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { StatCard } from "@/components/StatCard";
 import { formatNumber, formatSalary, cleanAgencyName } from "@/lib/format";
 import siteStats from "../../public/data/site-stats.json";
 import agencyList from "../../public/data/agency-list.json";
+
+export const metadata: Metadata = {
+  title: "FedTracker — Track the Federal Workforce | 811K Employees, 124 Agencies",
+  description: "Explore data on 811K federal employees across 124 agencies. Salaries, layoffs, hiring trends, and separations — all from official OPM FedScope data.",
+};
 
 export default function Home() {
   const topAgencies = agencyList.slice(0, 12);
 
   return (
     <div>
+      {/* Data freshness banner */}
+      <div className="bg-amber-50 border-b border-amber-200 px-4 py-2 text-center text-sm text-amber-800">
+        📊 Data from OPM FedScope: Employment as of March 2025 · Separations &amp; Accessions FY2020–2024. <span className="font-medium">This data predates the 2025 DOGE-era workforce reductions.</span>
+      </div>
+
       {/* Hero */}
       <section className="accent-gradient text-white py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold mb-4">
             Track the Federal Workforce
           </h1>
-          <p className="text-lg sm:text-xl text-indigo-100 max-w-2xl mb-8">
+          <p className="text-lg sm:text-xl text-indigo-100 max-w-2xl mb-4">
             Explore data on {formatNumber(siteStats.totalEmployees)} federal employees across {siteStats.agencyCount} agencies.
             Salaries, layoffs, hiring trends — all from official OPM data.
           </p>
+          <p className="text-sm text-indigo-200 max-w-2xl mb-8">
+            Built for journalists, researchers, and anyone tracking government workforce changes.
+          </p>
           <div className="flex flex-wrap gap-3">
             <Link href="/layoffs" className="bg-white text-accent font-semibold px-6 py-3 rounded-lg hover:bg-indigo-50 transition-colors">
-              Explore Layoffs →
+              Explore Layoffs & Separations →
             </Link>
             <Link href="/agencies" className="border border-white/30 text-white px-6 py-3 rounded-lg hover:bg-white/10 transition-colors">
               Browse Agencies
+            </Link>
+            <Link href="/salaries" className="border border-white/30 text-white px-6 py-3 rounded-lg hover:bg-white/10 transition-colors">
+              Salary Data
             </Link>
           </div>
         </div>

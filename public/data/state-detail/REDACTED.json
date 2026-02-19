@@ -1,1 +1,160 @@
-{"code": "REDACTED", "name": "REDACTED", "employees": 10071, "avgSalary": 98235, "topAgencies": [{"name": "DEPARTMENT OF JUSTICE", "code": "DJ", "employees": 74975}, {"name": "DEPARTMENT OF TREASURY", "code": "TR", "employees": 24264}, {"name": "DEPARTMENT OF INTERIOR", "code": "IN", "employees": 2662}, {"name": "DEPARTMENT OF AGRICULTURE", "code": "AG", "employees": 2187}, {"name": "DEPARTMENT OF TRANSPORTATION", "code": "TD", "employees": 1789}, {"name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "code": "HE", "employees": 1598}, {"name": "U.S. AGENCY FOR INTERNATIONAL DEV", "code": "AM", "employees": 1572}, {"name": "DEPARTMENT OF LABOR", "code": "DL", "employees": 1550}, {"name": "DEPARTMENT OF COMMERCE", "code": "CM", "employees": 1202}, {"name": "DEPARTMENT OF STATE", "code": "ST", "employees": 872}, {"name": "DEPARTMENT OF ENERGY", "code": "DN", "employees": 793}, {"name": "SOCIAL SECURITY ADMINISTRATION", "code": "SZ", "employees": 730}, {"name": "ENVIRONMENTAL PROTECTION AGENCY", "code": "EP", "employees": 381}, {"name": "NUCLEAR REGULATORY COMMISSION", "code": "NU", "employees": 340}, {"name": "SMALL BUSINESS ADMINISTRATION", "code": "SB", "employees": 329}], "topOccupations": [{"name": "CONTACT REPRESENTATIVE", "employees": 2881, "avgSalary": 51522}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "employees": 645, "avgSalary": 140295}, {"name": "GENERAL BUSINESS AND INDUSTRY", "employees": 517, "avgSalary": 121685}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "employees": 423, "avgSalary": 127529}, {"name": "GENERAL NATURAL RESOURCES MANAGEMENT AND BIOLOGICAL SCIENCES", "employees": 338, "avgSalary": 109808}, {"name": "SOCIAL INSURANCE ADMINISTRATION", "employees": 281, "avgSalary": 95544}, {"name": "PROGRAM MANAGEMENT", "employees": 264, "avgSalary": 183247}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "employees": 261, "avgSalary": 101447}, {"name": "PUBLIC HEALTH PROGRAM SPECIALIST", "employees": 260, "avgSalary": 143207}, {"name": "GENERAL ATTORNEY", "employees": 227, "avgSalary": 151603}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "employees": 222, "avgSalary": 49400}, {"name": "CONTRACTING", "employees": 185, "avgSalary": 138708}, {"name": "GENERAL HEALTH SCIENCE", "employees": 175, "avgSalary": 154838}, {"name": "ADMINISTRATIVE OFFICER", "employees": 173, "avgSalary": 141116}, {"name": "AIR TRAFFIC CONTROL", "employees": 163, "avgSalary": 121983}]}
+{
+  "code": "REDACTED",
+  "name": "REDACTED",
+  "employees": 10071,
+  "avgSalary": 98235,
+  "topAgencies": [
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 74975
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 24264
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 2662
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 2187
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 1789
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 1598
+    },
+    {
+      "name": "U.S. Agency for International Dev",
+      "code": "AM",
+      "employees": 1572
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 1550
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 1202
+    },
+    {
+      "name": "Department of State",
+      "code": "ST",
+      "employees": 872
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 793
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 730
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 381
+    },
+    {
+      "name": "Nuclear Regulatory Commission",
+      "code": "NU",
+      "employees": 340
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 329
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Contact Representative",
+      "employees": 2881,
+      "avgSalary": 51522
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 645,
+      "avgSalary": 140295
+    },
+    {
+      "name": "General Business and Industry",
+      "employees": 517,
+      "avgSalary": 121685
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 423,
+      "avgSalary": 127529
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 338,
+      "avgSalary": 109808
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 281,
+      "avgSalary": 95544
+    },
+    {
+      "name": "Program Management",
+      "employees": 264,
+      "avgSalary": 183247
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 261,
+      "avgSalary": 101447
+    },
+    {
+      "name": "Public Health Program Specialist",
+      "employees": 260,
+      "avgSalary": 143207
+    },
+    {
+      "name": "General Attorney",
+      "employees": 227,
+      "avgSalary": 151603
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 222,
+      "avgSalary": 49400
+    },
+    {
+      "name": "Contracting",
+      "employees": 185,
+      "avgSalary": 138708
+    },
+    {
+      "name": "General Health Science",
+      "employees": 175,
+      "avgSalary": 154838
+    },
+    {
+      "name": "Administrative Officer",
+      "employees": 173,
+      "avgSalary": 141116
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 163,
+      "avgSalary": 121983
+    }
+  ]
+}

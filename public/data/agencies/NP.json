@@ -1,1 +1,104 @@
-{"code": "NP", "name": "NATIONAL CAPITAL PLANNING COMMISSION", "employees": 35, "avgSalary": 154237, "topOccupations": [{"name": "COMMUNITY PLANNING", "count": 18, "avgSalary": 152876}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 7, "avgSalary": 156933}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "count": 2, "avgSalary": 185234}, {"name": "GENERAL ARTS AND INFORMATION", "count": 1, "avgSalary": 124599}, {"name": "PUBLIC AFFAIRS", "count": 1, "avgSalary": 156755}, {"name": "ARCHITECTURE", "count": 1, "avgSalary": 175735}, {"name": "HUMAN RESOURCES MANAGEMENT", "count": 1, "avgSalary": 142488}, {"name": "ADMINISTRATIVE OFFICER", "count": 1, "avgSalary": 195200}, {"name": "GENERAL ATTORNEY", "count": 1, "avgSalary": 173190}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "count": 1, "avgSalary": 132638}, {"name": "MANAGEMENT AND PROGRAM CLERICAL AND ASSISTANCE", "count": 1, "avgSalary": 76915}], "topStates": [{"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 35}], "education": [{"level": "MASTER'S DEGREE", "count": 19}, {"level": "BACHELOR'S DEGREE", "count": 8}, {"level": "DOCTORATE DEGREE", "count": 2}, {"level": "POST-BACHELOR'S", "count": 2}, {"level": "POST-MASTER'S", "count": 1}, {"level": "THREE YEARS COLLEGE", "count": 1}, {"level": "FIRST PROFESSIONAL", "count": 1}, {"level": "POST-DOCTORATE", "count": 1}]}
+{
+  "code": "NP",
+  "name": "National Capital Planning Commission",
+  "employees": 35,
+  "avgSalary": 154237,
+  "topOccupations": [
+    {
+      "name": "Community Planning",
+      "count": 18,
+      "avgSalary": 152876
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 7,
+      "avgSalary": 156933
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 2,
+      "avgSalary": 185234
+    },
+    {
+      "name": "General Arts and Information",
+      "count": 1,
+      "avgSalary": 124599
+    },
+    {
+      "name": "Public Affairs",
+      "count": 1,
+      "avgSalary": 156755
+    },
+    {
+      "name": "Architecture",
+      "count": 1,
+      "avgSalary": 175735
+    },
+    {
+      "name": "Human Resources Management",
+      "count": 1,
+      "avgSalary": 142488
+    },
+    {
+      "name": "Administrative Officer",
+      "count": 1,
+      "avgSalary": 195200
+    },
+    {
+      "name": "General Attorney",
+      "count": 1,
+      "avgSalary": 173190
+    },
+    {
+      "name": "Financial Administration and Program",
+      "count": 1,
+      "avgSalary": 132638
+    },
+    {
+      "name": "Management and Program Clerical and Assistance",
+      "count": 1,
+      "avgSalary": 76915
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 35
+    }
+  ],
+  "education": [
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 19
+    },
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 8
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 2
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 2
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 1
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 1
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 1
+    },
+    {
+      "level": "POST-DOCTORATE",
+      "count": 1
+    }
+  ]
+}

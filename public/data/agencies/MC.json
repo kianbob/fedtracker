@@ -1,1 +1,141 @@
-{"code": "MC", "name": "FEDERAL MARITIME COMMISSION", "employees": 121, "avgSalary": 152105, "topOccupations": [{"name": "GENERAL ATTORNEY", "count": 32, "avgSalary": 174349}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 26, "avgSalary": 136558}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "count": 11, "avgSalary": 148999}, {"name": "TRANSPORTATION INDUSTRY ANALYSIS", "count": 8, "avgSalary": 148570}, {"name": "ECONOMIST", "count": 6, "avgSalary": 134021}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "count": 6, "avgSalary": 141955}, {"name": "PROGRAM MANAGEMENT", "count": 6, "avgSalary": 184996}, {"name": "HUMAN RESOURCES MANAGEMENT", "count": 6, "avgSalary": 156274}, {"name": "ADMINISTRATIVE LAW JUDGE", "count": 3, "avgSalary": 207500}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "count": 3, "avgSalary": 135893}, {"name": "CONTRACTING", "count": 2, "avgSalary": 190217}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "count": 2, "avgSalary": 78312}, {"name": "PARALEGAL SPECIALIST", "count": 2, "avgSalary": 82741}, {"name": "FINANCIAL MANAGEMENT", "count": 1, "avgSalary": 195200}, {"name": "FOREIGN AFFAIRS", "count": 1, "avgSalary": 120579}], "topStates": [{"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 121}, {"name": "REDACTED", "code": "REDACTED", "count": 10}], "education": [{"level": "BACHELOR'S DEGREE", "count": 34}, {"level": "FIRST PROFESSIONAL", "count": 34}, {"level": "MASTER'S DEGREE", "count": 29}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 16}, {"level": "ONE YEAR COLLEGE", "count": 5}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 3}, {"level": "ASSOCIATE DEGREE", "count": 3}, {"level": "POST-BACHELOR'S", "count": 2}, {"level": "DOCTORATE DEGREE", "count": 2}, {"level": "THREE YEARS COLLEGE", "count": 2}, {"level": "TWO YEARS COLLEGE", "count": 1}]}
+{
+  "code": "MC",
+  "name": "Federal Maritime Commission",
+  "employees": 121,
+  "avgSalary": 152105,
+  "topOccupations": [
+    {
+      "name": "General Attorney",
+      "count": 32,
+      "avgSalary": 174349
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 26,
+      "avgSalary": 136558
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 11,
+      "avgSalary": 148999
+    },
+    {
+      "name": "Transportation Industry Analysis",
+      "count": 8,
+      "avgSalary": 148570
+    },
+    {
+      "name": "Economist",
+      "count": 6,
+      "avgSalary": 134021
+    },
+    {
+      "name": "Management and Program Analysis",
+      "count": 6,
+      "avgSalary": 141955
+    },
+    {
+      "name": "Program Management",
+      "count": 6,
+      "avgSalary": 184996
+    },
+    {
+      "name": "Human Resources Management",
+      "count": 6,
+      "avgSalary": 156274
+    },
+    {
+      "name": "Administrative Law Judge",
+      "count": 3,
+      "avgSalary": 207500
+    },
+    {
+      "name": "Financial Administration and Program",
+      "count": 3,
+      "avgSalary": 135893
+    },
+    {
+      "name": "Contracting",
+      "count": 2,
+      "avgSalary": 190217
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "count": 2,
+      "avgSalary": 78312
+    },
+    {
+      "name": "Paralegal Specialist",
+      "count": 2,
+      "avgSalary": 82741
+    },
+    {
+      "name": "Financial Management",
+      "count": 1,
+      "avgSalary": 195200
+    },
+    {
+      "name": "Foreign Affairs",
+      "count": 1,
+      "avgSalary": 120579
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 121
+    },
+    {
+      "name": "Redacted",
+      "code": "REDACTED",
+      "count": 10
+    }
+  ],
+  "education": [
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 34
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 34
+    },
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 29
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 16
+    },
+    {
+      "level": "ONE YEAR COLLEGE",
+      "count": 5
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 3
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 3
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 2
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 2
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 2
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 1
+    }
+  ]
+}

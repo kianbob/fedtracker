@@ -1,1 +1,43 @@
-{"code": "HT", "name": "HARRY S. TRUMAN SCHOLARSHIP FOUNDATION", "employees": 5, "avgSalary": 126319, "topOccupations": [{"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 4, "avgSalary": 143132}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "count": 1, "avgSalary": 59070}], "topStates": [{"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 5}], "education": [{"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 2}, {"level": "No Data Reported", "count": 1}, {"level": "DOCTORATE DEGREE", "count": 1}, {"level": "BACHELOR'S DEGREE", "count": 1}]}
+{
+  "code": "HT",
+  "name": "Harry S. Truman Scholarship Foundation",
+  "employees": 5,
+  "avgSalary": 126319,
+  "topOccupations": [
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 4,
+      "avgSalary": 143132
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "count": 1,
+      "avgSalary": 59070
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 5
+    }
+  ],
+  "education": [
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 2
+    },
+    {
+      "level": "No Data Reported",
+      "count": 1
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 1
+    },
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 1
+    }
+  ]
+}

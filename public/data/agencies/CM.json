@@ -1,1 +1,254 @@
-{"code": "CM", "name": "DEPARTMENT OF COMMERCE", "employees": 46727, "avgSalary": 127852, "topOccupations": [{"name": "PATENT EXAMINING", "count": 9513, "avgSalary": 156161}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "count": 7316, "avgSalary": 45894}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "count": 3373, "avgSalary": 152561}, {"name": "METEOROLOGY", "count": 2354, "avgSalary": 121749}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "count": 2194, "avgSalary": 141911}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 1989, "avgSalary": 137578}, {"name": "GENERAL ATTORNEY", "count": 1567, "avgSalary": 163278}, {"name": "STATISTICS", "count": 1556, "avgSalary": 133440}, {"name": "GENERAL PHYSICAL SCIENCE", "count": 1235, "avgSalary": 155844}, {"name": "GENERAL NATURAL RESOURCES MANAGEMENT AND BIOLOGICAL SCIENCES", "count": 902, "avgSalary": 129469}, {"name": "FISH BIOLOGY", "count": 751, "avgSalary": 132300}, {"name": "GENERAL BUSINESS AND INDUSTRY", "count": 717, "avgSalary": 149708}, {"name": "TRADE SPECIALIST", "count": 565, "avgSalary": 140927}, {"name": "HUMAN RESOURCES MANAGEMENT", "count": 545, "avgSalary": 143900}, {"name": "ECONOMIST", "count": 533, "avgSalary": 151139}], "topStates": [{"name": "MARYLAND", "code": "MD", "count": 12957}, {"name": "VIRGINIA", "code": "VA", "count": 6916}, {"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 2796}, {"name": "CALIFORNIA", "code": "CA", "count": 2069}, {"name": "FLORIDA", "code": "FL", "count": 1851}, {"name": "COLORADO", "code": "CO", "count": 1628}, {"name": "TEXAS", "code": "TX", "count": 1559}, {"name": "WASHINGTON", "code": "WA", "count": 1231}, {"name": "REDACTED", "code": "REDACTED", "count": 1202}, {"name": "NEW YORK", "code": "NY", "count": 1006}, {"name": "INDIANA", "code": "IN", "count": 997}, {"name": "NORTH CAROLINA", "code": "NC", "count": 883}, {"name": "PENNSYLVANIA", "code": "PA", "count": 805}, {"name": "MASSACHUSETTS", "code": "MA", "count": 784}, {"name": "MICHIGAN", "code": "MI", "count": 663}], "education": [{"level": "BACHELOR'S DEGREE", "count": 14726}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 10176}, {"level": "MASTER'S DEGREE", "count": 9605}, {"level": "DOCTORATE DEGREE", "count": 3623}, {"level": "FIRST PROFESSIONAL", "count": 2194}, {"level": "POST-BACHELOR'S", "count": 1199}, {"level": "ASSOCIATE DEGREE", "count": 993}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 944}, {"level": "POST-DOCTORATE", "count": 889}, {"level": "ONE YEAR COLLEGE", "count": 560}, {"level": "TWO YEARS COLLEGE", "count": 532}, {"level": "POST-MASTER'S", "count": 484}, {"level": "THREE YEARS COLLEGE", "count": 418}, {"level": "FOUR YEARS COLLEGE", "count": 375}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT", "count": 288}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE", "count": 128}, {"level": "POST-FIRST PROFESSIONAL", "count": 98}, {"level": "SOME HIGH SCHOOL - DID NOT COMPLETE", "count": 85}, {"level": "POST-SIXTH YEAR", "count": 40}, {"level": "SIXTH-YEAR DEGREE", "count": 31}, {"level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE", "count": 11}, {"level": "Invalid", "count": 10}, {"level": "ELEMENTARY SCHOOL COMPLETED - NO HIGH SCHOOL", "count": 1}]}
+{
+  "code": "CM",
+  "name": "Department of Commerce",
+  "employees": 46727,
+  "avgSalary": 127852,
+  "topOccupations": [
+    {
+      "name": "Patent Examining",
+      "count": 9513,
+      "avgSalary": 156161
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "count": 7316,
+      "avgSalary": 45894
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 3373,
+      "avgSalary": 152561
+    },
+    {
+      "name": "Meteorology",
+      "count": 2354,
+      "avgSalary": 121749
+    },
+    {
+      "name": "Management and Program Analysis",
+      "count": 2194,
+      "avgSalary": 141911
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 1989,
+      "avgSalary": 137578
+    },
+    {
+      "name": "General Attorney",
+      "count": 1567,
+      "avgSalary": 163278
+    },
+    {
+      "name": "Statistics",
+      "count": 1556,
+      "avgSalary": 133440
+    },
+    {
+      "name": "General Physical Science",
+      "count": 1235,
+      "avgSalary": 155844
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "count": 902,
+      "avgSalary": 129469
+    },
+    {
+      "name": "Fish Biology",
+      "count": 751,
+      "avgSalary": 132300
+    },
+    {
+      "name": "General Business and Industry",
+      "count": 717,
+      "avgSalary": 149708
+    },
+    {
+      "name": "Trade Specialist",
+      "count": 565,
+      "avgSalary": 140927
+    },
+    {
+      "name": "Human Resources Management",
+      "count": 545,
+      "avgSalary": 143900
+    },
+    {
+      "name": "Economist",
+      "count": 533,
+      "avgSalary": 151139
+    }
+  ],
+  "topStates": [
+    {
+      "name": "Maryland",
+      "code": "MD",
+      "count": 12957
+    },
+    {
+      "name": "Virginia",
+      "code": "VA",
+      "count": 6916
+    },
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 2796
+    },
+    {
+      "name": "California",
+      "code": "CA",
+      "count": 2069
+    },
+    {
+      "name": "Florida",
+      "code": "FL",
+      "count": 1851
+    },
+    {
+      "name": "Colorado",
+      "code": "CO",
+      "count": 1628
+    },
+    {
+      "name": "Texas",
+      "code": "TX",
+      "count": 1559
+    },
+    {
+      "name": "Washington",
+      "code": "WA",
+      "count": 1231
+    },
+    {
+      "name": "Redacted",
+      "code": "REDACTED",
+      "count": 1202
+    },
+    {
+      "name": "New York",
+      "code": "NY",
+      "count": 1006
+    },
+    {
+      "name": "Indiana",
+      "code": "IN",
+      "count": 997
+    },
+    {
+      "name": "North Carolina",
+      "code": "NC",
+      "count": 883
+    },
+    {
+      "name": "Pennsylvania",
+      "code": "PA",
+      "count": 805
+    },
+    {
+      "name": "Massachusetts",
+      "code": "MA",
+      "count": 784
+    },
+    {
+      "name": "Michigan",
+      "code": "MI",
+      "count": 663
+    }
+  ],
+  "education": [
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 14726
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 10176
+    },
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 9605
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 3623
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 2194
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 1199
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 993
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 944
+    },
+    {
+      "level": "POST-DOCTORATE",
+      "count": 889
+    },
+    {
+      "level": "ONE YEAR COLLEGE",
+      "count": 560
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 532
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 484
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 418
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 375
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT",
+      "count": 288
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE",
+      "count": 128
+    },
+    {
+      "level": "POST-FIRST PROFESSIONAL",
+      "count": 98
+    },
+    {
+      "level": "SOME HIGH SCHOOL - DID NOT COMPLETE",
+      "count": 85
+    },
+    {
+      "level": "POST-SIXTH YEAR",
+      "count": 40
+    },
+    {
+      "level": "SIXTH-YEAR DEGREE",
+      "count": 31
+    },
+    {
+      "level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE",
+      "count": 11
+    },
+    {
+      "level": "Invalid",
+      "count": 10
+    },
+    {
+      "level": "ELEMENTARY SCHOOL COMPLETED - NO HIGH SCHOOL",
+      "count": 1
+    }
+  ]
+}

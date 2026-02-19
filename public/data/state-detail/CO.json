@@ -1,1 +1,160 @@
-{"code": "CO", "name": "COLORADO", "employees": 19501, "avgSalary": 119389, "topAgencies": [{"name": "DEPARTMENT OF INTERIOR", "code": "IN", "employees": 5949}, {"name": "DEPARTMENT OF AGRICULTURE", "code": "AG", "employees": 3415}, {"name": "DEPARTMENT OF COMMERCE", "code": "CM", "employees": 1628}, {"name": "DEPARTMENT OF TRANSPORTATION", "code": "TD", "employees": 1492}, {"name": "DEPARTMENT OF TREASURY", "code": "TR", "employees": 1079}, {"name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "code": "HE", "employees": 951}, {"name": "DEPARTMENT OF ENERGY", "code": "DN", "employees": 947}, {"name": "DEPARTMENT OF JUSTICE", "code": "DJ", "employees": 713}, {"name": "ENVIRONMENTAL PROTECTION AGENCY", "code": "EP", "employees": 706}, {"name": "SOCIAL SECURITY ADMINISTRATION", "code": "SZ", "employees": 594}, {"name": "GENERAL SERVICES ADMINISTRATION", "code": "GS", "employees": 468}, {"name": "DEPARTMENT OF HOUSING AND URBAN DEVELOPM", "code": "HU", "employees": 334}, {"name": "DEPARTMENT OF LABOR", "code": "DL", "employees": 291}, {"name": "SMALL BUSINESS ADMINISTRATION", "code": "SB", "employees": 170}, {"name": "SECURITIES AND EXCHANGE COMMISSION", "code": "SE", "employees": 126}], "topOccupations": [{"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "employees": 1125, "avgSalary": 120655}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "employees": 1019, "avgSalary": 139384}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "employees": 856, "avgSalary": 132239}, {"name": "GENERAL NATURAL RESOURCES MANAGEMENT AND BIOLOGICAL SCIENCES", "employees": 740, "avgSalary": 113707}, {"name": "CIVIL ENGINEERING", "employees": 660, "avgSalary": 128181}, {"name": "AIR TRAFFIC CONTROL", "employees": 622, "avgSalary": 170863}, {"name": "GENERAL BUSINESS AND INDUSTRY", "employees": 614, "avgSalary": 125531}, {"name": "GENERAL ATTORNEY", "employees": 595, "avgSalary": 175228}, {"name": "GENERAL PHYSICAL SCIENCE", "employees": 561, "avgSalary": 133323}, {"name": "FORESTRY TECHNICIAN", "employees": 464, "avgSalary": 55351}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "employees": 456, "avgSalary": 109012}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "employees": 435, "avgSalary": 63111}, {"name": "CONTRACTING", "employees": 417, "avgSalary": 128148}, {"name": "SOCIAL INSURANCE ADMINISTRATION", "employees": 394, "avgSalary": 102762}, {"name": "HUMAN RESOURCES MANAGEMENT", "employees": 385, "avgSalary": 121488}]}
+{
+  "code": "CO",
+  "name": "COLORADO",
+  "employees": 19501,
+  "avgSalary": 119389,
+  "topAgencies": [
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 5949
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 3415
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 1628
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 1492
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 1079
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 951
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 947
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 713
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 706
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 594
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 468
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 334
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 291
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 170
+    },
+    {
+      "name": "Securities and Exchange Commission",
+      "code": "SE",
+      "employees": 126
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 1125,
+      "avgSalary": 120655
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 1019,
+      "avgSalary": 139384
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 856,
+      "avgSalary": 132239
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 740,
+      "avgSalary": 113707
+    },
+    {
+      "name": "Civil Engineering",
+      "employees": 660,
+      "avgSalary": 128181
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 622,
+      "avgSalary": 170863
+    },
+    {
+      "name": "General Business and Industry",
+      "employees": 614,
+      "avgSalary": 125531
+    },
+    {
+      "name": "General Attorney",
+      "employees": 595,
+      "avgSalary": 175228
+    },
+    {
+      "name": "General Physical Science",
+      "employees": 561,
+      "avgSalary": 133323
+    },
+    {
+      "name": "Forestry Technician",
+      "employees": 464,
+      "avgSalary": 55351
+    },
+    {
+      "name": "Financial Administration and Program",
+      "employees": 456,
+      "avgSalary": 109012
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 435,
+      "avgSalary": 63111
+    },
+    {
+      "name": "Contracting",
+      "employees": 417,
+      "avgSalary": 128148
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 394,
+      "avgSalary": 102762
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 385,
+      "avgSalary": 121488
+    }
+  ]
+}

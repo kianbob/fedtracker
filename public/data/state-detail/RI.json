@@ -1,1 +1,160 @@
-{"code": "RI", "name": "RHODE ISLAND", "employees": 898, "avgSalary": 117098, "topAgencies": [{"name": "DEPARTMENT OF COMMERCE", "code": "CM", "employees": 155}, {"name": "SOCIAL SECURITY ADMINISTRATION", "code": "SZ", "employees": 140}, {"name": "DEPARTMENT OF AGRICULTURE", "code": "AG", "employees": 107}, {"name": "DEPARTMENT OF TRANSPORTATION", "code": "TD", "employees": 99}, {"name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "code": "HE", "employees": 83}, {"name": "ENVIRONMENTAL PROTECTION AGENCY", "code": "EP", "employees": 72}, {"name": "DEPARTMENT OF INTERIOR", "code": "IN", "employees": 62}, {"name": "DEPARTMENT OF TREASURY", "code": "TR", "employees": 56}, {"name": "DEPARTMENT OF LABOR", "code": "DL", "employees": 27}, {"name": "GENERAL SERVICES ADMINISTRATION", "code": "GS", "employees": 23}, {"name": "DEPARTMENT OF JUSTICE", "code": "DJ", "employees": 15}, {"name": "DEPARTMENT OF HOUSING AND URBAN DEVELOPM", "code": "HU", "employees": 14}, {"name": "SMALL BUSINESS ADMINISTRATION", "code": "SB", "employees": 8}, {"name": "DEPARTMENT OF ENERGY", "code": "DN", "employees": 6}, {"name": "FEDERAL DEPOSIT INSURANCE CORPORATION", "code": "FD", "employees": 5}], "topOccupations": [{"name": "SOCIAL INSURANCE ADMINISTRATION", "employees": 82, "avgSalary": 106727}, {"name": "GENERAL NATURAL RESOURCES MANAGEMENT AND BIOLOGICAL SCIENCES", "employees": 62, "avgSalary": 125159}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "employees": 45, "avgSalary": 51124}, {"name": "AIR TRAFFIC CONTROL", "employees": 41, "avgSalary": 125552}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "employees": 41, "avgSalary": 125520}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "employees": 33, "avgSalary": 136439}, {"name": "GENERAL ATTORNEY", "employees": 32, "avgSalary": 153189}, {"name": "TRANSPORTATION SPECIALIST", "employees": 22, "avgSalary": 132934}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "employees": 22, "avgSalary": 108114}, {"name": "GENERAL PHYSICAL SCIENCE", "employees": 21, "avgSalary": 137622}, {"name": "CONSUMER SAFETY", "employees": 17, "avgSalary": 134426}, {"name": "CONTACT REPRESENTATIVE", "employees": 17, "avgSalary": 69661}, {"name": "GENERAL BUSINESS AND INDUSTRY", "employees": 16, "avgSalary": 127382}, {"name": "SOIL CONSERVATION", "employees": 15, "avgSalary": 92276}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "employees": 14, "avgSalary": 139800}]}
+{
+  "code": "RI",
+  "name": "RHODE ISLAND",
+  "employees": 898,
+  "avgSalary": 117098,
+  "topAgencies": [
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 155
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 140
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 107
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 99
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 83
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 72
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 62
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 56
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 27
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 23
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 15
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 14
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 8
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 6
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 5
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Social Insurance Administration",
+      "employees": 82,
+      "avgSalary": 106727
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 62,
+      "avgSalary": 125159
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 45,
+      "avgSalary": 51124
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 41,
+      "avgSalary": 125552
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 41,
+      "avgSalary": 125520
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 33,
+      "avgSalary": 136439
+    },
+    {
+      "name": "General Attorney",
+      "employees": 32,
+      "avgSalary": 153189
+    },
+    {
+      "name": "Transportation Specialist",
+      "employees": 22,
+      "avgSalary": 132934
+    },
+    {
+      "name": "Financial Administration and Program",
+      "employees": 22,
+      "avgSalary": 108114
+    },
+    {
+      "name": "General Physical Science",
+      "employees": 21,
+      "avgSalary": 137622
+    },
+    {
+      "name": "Consumer Safety",
+      "employees": 17,
+      "avgSalary": 134426
+    },
+    {
+      "name": "Contact Representative",
+      "employees": 17,
+      "avgSalary": 69661
+    },
+    {
+      "name": "General Business and Industry",
+      "employees": 16,
+      "avgSalary": 127382
+    },
+    {
+      "name": "Soil Conservation",
+      "employees": 15,
+      "avgSalary": 92276
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 14,
+      "avgSalary": 139800
+    }
+  ]
+}

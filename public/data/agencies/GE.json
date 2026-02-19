@@ -1,1 +1,44 @@
-{"code": "GE", "name": "BARRY GOLDWATER SCHOL & EXCEL IN ED FOUN", "employees": 3, "avgSalary": 133443, "topOccupations": [{"name": "ADMINISTRATIVE OFFICER", "count": 2, "avgSalary": 101253}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 1, "avgSalary": 197825}], "topStates": [{"name": "VIRGINIA", "code": "VA", "count": 2}, {"name": "KENTUCKY", "code": "KY", "count": 1}], "education": [{"level": "MASTER'S DEGREE", "count": 1}, {"level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE", "count": 1}, {"level": "DOCTORATE DEGREE", "count": 1}]}
+{
+  "code": "GE",
+  "name": "Barry Goldwater Schol & Excel in Ed Foun",
+  "employees": 3,
+  "avgSalary": 133443,
+  "topOccupations": [
+    {
+      "name": "Administrative Officer",
+      "count": 2,
+      "avgSalary": 101253
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 1,
+      "avgSalary": 197825
+    }
+  ],
+  "topStates": [
+    {
+      "name": "Virginia",
+      "code": "VA",
+      "count": 2
+    },
+    {
+      "name": "Kentucky",
+      "code": "KY",
+      "count": 1
+    }
+  ],
+  "education": [
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 1
+    },
+    {
+      "level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE",
+      "count": 1
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 1
+    }
+  ]
+}

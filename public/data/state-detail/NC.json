@@ -1,1 +1,160 @@
-{"code": "NC", "name": "NORTH CAROLINA", "employees": 11254, "avgSalary": 111776, "topAgencies": [{"name": "DEPARTMENT OF AGRICULTURE", "code": "AG", "employees": 2171}, {"name": "ENVIRONMENTAL PROTECTION AGENCY", "code": "EP", "employees": 1492}, {"name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "code": "HE", "employees": 1423}, {"name": "SOCIAL SECURITY ADMINISTRATION", "code": "SZ", "employees": 1274}, {"name": "DEPARTMENT OF COMMERCE", "code": "CM", "employees": 883}, {"name": "DEPARTMENT OF JUSTICE", "code": "DJ", "employees": 839}, {"name": "DEPARTMENT OF TREASURY", "code": "TR", "employees": 709}, {"name": "DEPARTMENT OF TRANSPORTATION", "code": "TD", "employees": 687}, {"name": "DEPARTMENT OF INTERIOR", "code": "IN", "employees": 686}, {"name": "GENERAL SERVICES ADMINISTRATION", "code": "GS", "employees": 172}, {"name": "SMALL BUSINESS ADMINISTRATION", "code": "SB", "employees": 147}, {"name": "FEDERAL DEPOSIT INSURANCE CORPORATION", "code": "FD", "employees": 141}, {"name": "DEPARTMENT OF LABOR", "code": "DL", "employees": 114}, {"name": "EQUAL EMPLOYMENT OPPORTUNITY COMMISSION", "code": "EE", "employees": 76}, {"name": "DEPARTMENT OF HOUSING AND URBAN DEVELOPM", "code": "HU", "employees": 69}], "topOccupations": [{"name": "SOCIAL INSURANCE ADMINISTRATION", "employees": 763, "avgSalary": 93601}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "employees": 702, "avgSalary": 130547}, {"name": "GENERAL NATURAL RESOURCES MANAGEMENT AND BIOLOGICAL SCIENCES", "employees": 648, "avgSalary": 123567}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "employees": 524, "avgSalary": 112497}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "employees": 495, "avgSalary": 126303}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "employees": 361, "avgSalary": 47863}, {"name": "GENERAL PHYSICAL SCIENCE", "employees": 338, "avgSalary": 135717}, {"name": "AIR TRAFFIC CONTROL", "employees": 302, "avgSalary": 147113}, {"name": "CONSUMER SAFETY INSPECTION", "employees": 276, "avgSalary": 69602}, {"name": "HUMAN RESOURCES MANAGEMENT", "employees": 266, "avgSalary": 109650}, {"name": "PATENT EXAMINING", "employees": 264, "avgSalary": 153130}, {"name": "FINANCIAL INSTITUTION EXAMINING", "employees": 257, "avgSalary": 163804}, {"name": "GENERAL ATTORNEY", "employees": 248, "avgSalary": 143595}, {"name": "GENERAL BUSINESS AND INDUSTRY", "employees": 227, "avgSalary": 105120}, {"name": "GENERAL HEALTH SCIENCE", "employees": 210, "avgSalary": 147289}]}
+{
+  "code": "NC",
+  "name": "NORTH CAROLINA",
+  "employees": 11254,
+  "avgSalary": 111776,
+  "topAgencies": [
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 2171
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 1492
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 1423
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 1274
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 883
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 839
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 709
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 687
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 686
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 172
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 147
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 141
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 114
+    },
+    {
+      "name": "Equal Employment Opportunity Commission",
+      "code": "EE",
+      "employees": 76
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 69
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Social Insurance Administration",
+      "employees": 763,
+      "avgSalary": 93601
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 702,
+      "avgSalary": 130547
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 648,
+      "avgSalary": 123567
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 524,
+      "avgSalary": 112497
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 495,
+      "avgSalary": 126303
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 361,
+      "avgSalary": 47863
+    },
+    {
+      "name": "General Physical Science",
+      "employees": 338,
+      "avgSalary": 135717
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 302,
+      "avgSalary": 147113
+    },
+    {
+      "name": "Consumer Safety Inspection",
+      "employees": 276,
+      "avgSalary": 69602
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 266,
+      "avgSalary": 109650
+    },
+    {
+      "name": "Patent Examining",
+      "employees": 264,
+      "avgSalary": 153130
+    },
+    {
+      "name": "Financial Institution Examining",
+      "employees": 257,
+      "avgSalary": 163804
+    },
+    {
+      "name": "General Attorney",
+      "employees": 248,
+      "avgSalary": 143595
+    },
+    {
+      "name": "General Business and Industry",
+      "employees": 227,
+      "avgSalary": 105120
+    },
+    {
+      "name": "General Health Science",
+      "employees": 210,
+      "avgSalary": 147289
+    }
+  ]
+}

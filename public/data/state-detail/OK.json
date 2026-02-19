@@ -1,1 +1,160 @@
-{"code": "OK", "name": "OKLAHOMA", "employees": 9089, "avgSalary": 102305, "topAgencies": [{"name": "DEPARTMENT OF TRANSPORTATION", "code": "TD", "employees": 3455}, {"name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "code": "HE", "employees": 1773}, {"name": "DEPARTMENT OF INTERIOR", "code": "IN", "employees": 1009}, {"name": "DEPARTMENT OF AGRICULTURE", "code": "AG", "employees": 915}, {"name": "SOCIAL SECURITY ADMINISTRATION", "code": "SZ", "employees": 453}, {"name": "DEPARTMENT OF COMMERCE", "code": "CM", "employees": 393}, {"name": "DEPARTMENT OF JUSTICE", "code": "DJ", "employees": 328}, {"name": "DEPARTMENT OF TREASURY", "code": "TR", "employees": 205}, {"name": "DEPARTMENT OF HOUSING AND URBAN DEVELOPM", "code": "HU", "employees": 118}, {"name": "DEPARTMENT OF ENERGY", "code": "DN", "employees": 98}, {"name": "DEPARTMENT OF LABOR", "code": "DL", "employees": 66}, {"name": "SMALL BUSINESS ADMINISTRATION", "code": "SB", "employees": 59}, {"name": "GENERAL SERVICES ADMINISTRATION", "code": "GS", "employees": 52}, {"name": "FEDERAL DEPOSIT INSURANCE CORPORATION", "code": "FD", "employees": 45}, {"name": "ENVIRONMENTAL PROTECTION AGENCY", "code": "EP", "employees": 45}], "topOccupations": [{"name": "INFORMATION TECHNOLOGY MANAGEMENT", "employees": 540, "avgSalary": 125551}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "employees": 408, "avgSalary": 115093}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "employees": 394, "avgSalary": 113302}, {"name": "NURSE", "employees": 313, "avgSalary": 113253}, {"name": "SOCIAL INSURANCE ADMINISTRATION", "employees": 277, "avgSalary": 95376}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "employees": 242, "avgSalary": 48075}, {"name": "GENERAL BUSINESS AND INDUSTRY", "employees": 235, "avgSalary": 95622}, {"name": "TRANSPORTATION SPECIALIST", "employees": 231, "avgSalary": 123823}, {"name": "ENGINEERING TECHNICAL", "employees": 225, "avgSalary": 88702}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "employees": 211, "avgSalary": 92910}, {"name": "HUMAN RESOURCES MANAGEMENT", "employees": 203, "avgSalary": 99250}, {"name": "ELECTRONICS TECHNICAL", "employees": 178, "avgSalary": 99379}, {"name": "ACCOUNTING", "employees": 174, "avgSalary": 106355}, {"name": "NAVIGATIONAL INFORMATION", "employees": 173, "avgSalary": 132201}, {"name": "MEDICAL SUPPORT ASSISTANCE", "employees": 167, "avgSalary": 46811}]}
+{
+  "code": "OK",
+  "name": "OKLAHOMA",
+  "employees": 9089,
+  "avgSalary": 102305,
+  "topAgencies": [
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 3455
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 1773
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 1009
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 915
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 453
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 393
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 328
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 205
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 118
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 98
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 66
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 59
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 52
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 45
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 45
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Information Technology Management",
+      "employees": 540,
+      "avgSalary": 125551
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 408,
+      "avgSalary": 115093
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 394,
+      "avgSalary": 113302
+    },
+    {
+      "name": "Nurse",
+      "employees": 313,
+      "avgSalary": 113253
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 277,
+      "avgSalary": 95376
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 242,
+      "avgSalary": 48075
+    },
+    {
+      "name": "General Business and Industry",
+      "employees": 235,
+      "avgSalary": 95622
+    },
+    {
+      "name": "Transportation Specialist",
+      "employees": 231,
+      "avgSalary": 123823
+    },
+    {
+      "name": "Engineering Technical",
+      "employees": 225,
+      "avgSalary": 88702
+    },
+    {
+      "name": "Financial Administration and Program",
+      "employees": 211,
+      "avgSalary": 92910
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 203,
+      "avgSalary": 99250
+    },
+    {
+      "name": "Electronics Technical",
+      "employees": 178,
+      "avgSalary": 99379
+    },
+    {
+      "name": "Accounting",
+      "employees": 174,
+      "avgSalary": 106355
+    },
+    {
+      "name": "Navigational Information",
+      "employees": 173,
+      "avgSalary": 132201
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 167,
+      "avgSalary": 46811
+    }
+  ]
+}

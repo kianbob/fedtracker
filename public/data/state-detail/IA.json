@@ -1,1 +1,160 @@
-{"code": "IA", "name": "IOWA", "employees": 3442, "avgSalary": 89116, "topAgencies": [{"name": "DEPARTMENT OF AGRICULTURE", "code": "AG", "employees": 2027}, {"name": "DEPARTMENT OF TRANSPORTATION", "code": "TD", "employees": 236}, {"name": "SOCIAL SECURITY ADMINISTRATION", "code": "SZ", "employees": 235}, {"name": "DEPARTMENT OF TREASURY", "code": "TR", "employees": 226}, {"name": "DEPARTMENT OF COMMERCE", "code": "CM", "employees": 174}, {"name": "DEPARTMENT OF INTERIOR", "code": "IN", "employees": 135}, {"name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "code": "HE", "employees": 101}, {"name": "FEDERAL DEPOSIT INSURANCE CORPORATION", "code": "FD", "employees": 97}, {"name": "DEPARTMENT OF LABOR", "code": "DL", "employees": 36}, {"name": "GENERAL SERVICES ADMINISTRATION", "code": "GS", "employees": 27}, {"name": "CORP FOR NATIONAL AND COMMUNITY SERVICE", "code": "KS", "employees": 23}, {"name": "DEPARTMENT OF ENERGY", "code": "DN", "employees": 22}, {"name": "DEPARTMENT OF JUSTICE", "code": "DJ", "employees": 21}, {"name": "NAT ARCHIVES AND RECORDS ADMINISTRATION", "code": "NQ", "employees": 15}, {"name": "SMALL BUSINESS ADMINISTRATION", "code": "SB", "employees": 14}], "topOccupations": [{"name": "SOIL CONSERVATION", "employees": 277, "avgSalary": 79813}, {"name": "BIOLOGICAL SCIENCE TECHNICIAN", "employees": 218, "avgSalary": 56423}, {"name": "CONSUMER SAFETY INSPECTION", "employees": 200, "avgSalary": 70798}, {"name": "SOCIAL INSURANCE ADMINISTRATION", "employees": 162, "avgSalary": 94654}, {"name": "CONTACT REPRESENTATIVE", "employees": 158, "avgSalary": 54232}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "employees": 153, "avgSalary": 49831}, {"name": "LOAN SPECIALIST", "employees": 136, "avgSalary": 84550}, {"name": "GENERAL NATURAL RESOURCES MANAGEMENT AND BIOLOGICAL SCIENCES", "employees": 119, "avgSalary": 91893}, {"name": "GENERAL BUSINESS AND INDUSTRY", "employees": 98, "avgSalary": 91537}, {"name": "VETERINARY MEDICAL SCIENCE", "employees": 98, "avgSalary": 129611}, {"name": "FINANCIAL INSTITUTION EXAMINING", "employees": 98, "avgSalary": 143524}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "employees": 98, "avgSalary": 100685}, {"name": "AIR TRAFFIC CONTROL", "employees": 92, "avgSalary": 98389}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "employees": 86, "avgSalary": 112603}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "employees": 81, "avgSalary": 89798}]}
+{
+  "code": "IA",
+  "name": "IOWA",
+  "employees": 3442,
+  "avgSalary": 89116,
+  "topAgencies": [
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 2027
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 236
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 235
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 226
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 174
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 135
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 101
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 97
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 36
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 27
+    },
+    {
+      "name": "Corp for National and Community Service",
+      "code": "KS",
+      "employees": 23
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 22
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 21
+    },
+    {
+      "name": "National Archives and Records Administration",
+      "code": "NQ",
+      "employees": 15
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 14
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Soil Conservation",
+      "employees": 277,
+      "avgSalary": 79813
+    },
+    {
+      "name": "Biological Science Technician",
+      "employees": 218,
+      "avgSalary": 56423
+    },
+    {
+      "name": "Consumer Safety Inspection",
+      "employees": 200,
+      "avgSalary": 70798
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 162,
+      "avgSalary": 94654
+    },
+    {
+      "name": "Contact Representative",
+      "employees": 158,
+      "avgSalary": 54232
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 153,
+      "avgSalary": 49831
+    },
+    {
+      "name": "Loan Specialist",
+      "employees": 136,
+      "avgSalary": 84550
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 119,
+      "avgSalary": 91893
+    },
+    {
+      "name": "General Business and Industry",
+      "employees": 98,
+      "avgSalary": 91537
+    },
+    {
+      "name": "Veterinary Medical Science",
+      "employees": 98,
+      "avgSalary": 129611
+    },
+    {
+      "name": "Financial Institution Examining",
+      "employees": 98,
+      "avgSalary": 143524
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 98,
+      "avgSalary": 100685
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 92,
+      "avgSalary": 98389
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 86,
+      "avgSalary": 112603
+    },
+    {
+      "name": "Financial Administration and Program",
+      "employees": 81,
+      "avgSalary": 89798
+    }
+  ]
+}

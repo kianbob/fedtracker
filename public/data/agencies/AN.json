@@ -1,1 +1,91 @@
-{"code": "AN", "name": "AFRICAN DEVELOPMENT FOUNDATION", "employees": 32, "avgSalary": 114390, "topOccupations": [{"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 10, "avgSalary": 139262}, {"name": "GRANTS MANAGEMENT", "count": 8, "avgSalary": 88962}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "count": 3, "avgSalary": 85308}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "count": 3, "avgSalary": 80278}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "count": 2, "avgSalary": 121199}, {"name": "GENERAL ATTORNEY", "count": 2, "avgSalary": 155707}, {"name": "DATA SCIENCE SERIES", "count": 1, "avgSalary": 57164}, {"name": "CONTRACTING", "count": 1, "avgSalary": 132638}, {"name": "TRAINING INSTRUCTION", "count": 1, "avgSalary": 120579}, {"name": "FINANCIAL MANAGEMENT", "count": 1, "avgSalary": 195200}], "topStates": [{"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 32}], "education": [{"level": "BACHELOR'S DEGREE", "count": 12}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 10}, {"level": "MASTER'S DEGREE", "count": 7}, {"level": "DOCTORATE DEGREE", "count": 1}, {"level": "POST-BACHELOR'S", "count": 1}, {"level": "TWO YEARS COLLEGE", "count": 1}]}
+{
+  "code": "AN",
+  "name": "African Development Foundation",
+  "employees": 32,
+  "avgSalary": 114390,
+  "topOccupations": [
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 10,
+      "avgSalary": 139262
+    },
+    {
+      "name": "Grants Management",
+      "count": 8,
+      "avgSalary": 88962
+    },
+    {
+      "name": "Financial Administration and Program",
+      "count": 3,
+      "avgSalary": 85308
+    },
+    {
+      "name": "Management and Program Analysis",
+      "count": 3,
+      "avgSalary": 80278
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 2,
+      "avgSalary": 121199
+    },
+    {
+      "name": "General Attorney",
+      "count": 2,
+      "avgSalary": 155707
+    },
+    {
+      "name": "Data Science Series",
+      "count": 1,
+      "avgSalary": 57164
+    },
+    {
+      "name": "Contracting",
+      "count": 1,
+      "avgSalary": 132638
+    },
+    {
+      "name": "Training Instruction",
+      "count": 1,
+      "avgSalary": 120579
+    },
+    {
+      "name": "Financial Management",
+      "count": 1,
+      "avgSalary": 195200
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 32
+    }
+  ],
+  "education": [
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 12
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 10
+    },
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 7
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 1
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 1
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 1
+    }
+  ]
+}

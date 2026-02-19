@@ -1,1 +1,160 @@
-{"code": "ME", "name": "MAINE", "employees": 1329, "avgSalary": 106679, "topAgencies": [{"name": "DEPARTMENT OF AGRICULTURE", "code": "AG", "employees": 298}, {"name": "DEPARTMENT OF INTERIOR", "code": "IN", "employees": 255}, {"name": "DEPARTMENT OF TRANSPORTATION", "code": "TD", "employees": 178}, {"name": "SOCIAL SECURITY ADMINISTRATION", "code": "SZ", "employees": 169}, {"name": "DEPARTMENT OF COMMERCE", "code": "CM", "employees": 131}, {"name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "code": "HE", "employees": 95}, {"name": "DEPARTMENT OF TREASURY", "code": "TR", "employees": 40}, {"name": "GENERAL SERVICES ADMINISTRATION", "code": "GS", "employees": 30}, {"name": "DEPARTMENT OF LABOR", "code": "DL", "employees": 19}, {"name": "DEPARTMENT OF ENERGY", "code": "DN", "employees": 15}, {"name": "DEPARTMENT OF JUSTICE", "code": "DJ", "employees": 15}, {"name": "ENVIRONMENTAL PROTECTION AGENCY", "code": "EP", "employees": 14}, {"name": "DEPARTMENT OF STATE", "code": "ST", "employees": 12}, {"name": "NATIONAL CREDIT UNION ADMINISTRATION", "code": "CU", "employees": 11}, {"name": "SMALL BUSINESS ADMINISTRATION", "code": "SB", "employees": 10}], "topOccupations": [{"name": "SOCIAL INSURANCE ADMINISTRATION", "employees": 119, "avgSalary": 102711}, {"name": "GENERAL NATURAL RESOURCES MANAGEMENT AND BIOLOGICAL SCIENCES", "employees": 66, "avgSalary": 91495}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "employees": 63, "avgSalary": 119912}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "employees": 57, "avgSalary": 48162}, {"name": "AIR TRAFFIC CONTROL", "employees": 53, "avgSalary": 109223}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "employees": 50, "avgSalary": 137058}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "employees": 43, "avgSalary": 142468}, {"name": "TRANSPORTATION SPECIALIST", "employees": 42, "avgSalary": 119459}, {"name": "GENERAL BUSINESS AND INDUSTRY", "employees": 41, "avgSalary": 93294}, {"name": "LOAN SPECIALIST", "employees": 35, "avgSalary": 93429}, {"name": "AVIATION SAFETY", "employees": 32, "avgSalary": 144808}, {"name": "MAINTENANCE MECHANIC", "employees": 31, "avgSalary": 62319}, {"name": "METEOROLOGY", "employees": 30, "avgSalary": 124740}, {"name": "SOIL CONSERVATION", "employees": 30, "avgSalary": 87815}, {"name": "GENERAL ATTORNEY", "employees": 29, "avgSalary": 163916}]}
+{
+  "code": "ME",
+  "name": "MAINE",
+  "employees": 1329,
+  "avgSalary": 106679,
+  "topAgencies": [
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 298
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 255
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 178
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 169
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 131
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 95
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 40
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 30
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 19
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 15
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 15
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 14
+    },
+    {
+      "name": "Department of State",
+      "code": "ST",
+      "employees": 12
+    },
+    {
+      "name": "National Credit Union Administration",
+      "code": "CU",
+      "employees": 11
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 10
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Social Insurance Administration",
+      "employees": 119,
+      "avgSalary": 102711
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 66,
+      "avgSalary": 91495
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 63,
+      "avgSalary": 119912
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 57,
+      "avgSalary": 48162
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 53,
+      "avgSalary": 109223
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 50,
+      "avgSalary": 137058
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 43,
+      "avgSalary": 142468
+    },
+    {
+      "name": "Transportation Specialist",
+      "employees": 42,
+      "avgSalary": 119459
+    },
+    {
+      "name": "General Business and Industry",
+      "employees": 41,
+      "avgSalary": 93294
+    },
+    {
+      "name": "Loan Specialist",
+      "employees": 35,
+      "avgSalary": 93429
+    },
+    {
+      "name": "Aviation Safety",
+      "employees": 32,
+      "avgSalary": 144808
+    },
+    {
+      "name": "Maintenance Mechanic",
+      "employees": 31,
+      "avgSalary": 62319
+    },
+    {
+      "name": "Meteorology",
+      "employees": 30,
+      "avgSalary": 124740
+    },
+    {
+      "name": "Soil Conservation",
+      "employees": 30,
+      "avgSalary": 87815
+    },
+    {
+      "name": "General Attorney",
+      "employees": 29,
+      "avgSalary": 163916
+    }
+  ]
+}

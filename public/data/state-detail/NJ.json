@@ -1,1 +1,160 @@
-{"code": "NJ", "name": "NEW JERSEY", "employees": 6923, "avgSalary": 129874, "topAgencies": [{"name": "DEPARTMENT OF TRANSPORTATION", "code": "TD", "employees": 1791}, {"name": "SOCIAL SECURITY ADMINISTRATION", "code": "SZ", "employees": 814}, {"name": "DEPARTMENT OF JUSTICE", "code": "DJ", "employees": 594}, {"name": "DEPARTMENT OF TREASURY", "code": "TR", "employees": 578}, {"name": "DEPARTMENT OF AGRICULTURE", "code": "AG", "employees": 551}, {"name": "DEPARTMENT OF COMMERCE", "code": "CM", "employees": 532}, {"name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "code": "HE", "employees": 484}, {"name": "DEPARTMENT OF INTERIOR", "code": "IN", "employees": 301}, {"name": "GENERAL SERVICES ADMINISTRATION", "code": "GS", "employees": 259}, {"name": "ENVIRONMENTAL PROTECTION AGENCY", "code": "EP", "employees": 225}, {"name": "DEPARTMENT OF LABOR", "code": "DL", "employees": 197}, {"name": "DEPARTMENT OF HOUSING AND URBAN DEVELOPM", "code": "HU", "employees": 113}, {"name": "SMALL BUSINESS ADMINISTRATION", "code": "SB", "employees": 107}, {"name": "FEDERAL DEPOSIT INSURANCE CORPORATION", "code": "FD", "employees": 73}, {"name": "DEPARTMENT OF ENERGY", "code": "DN", "employees": 46}], "topOccupations": [{"name": "INFORMATION TECHNOLOGY MANAGEMENT", "employees": 619, "avgSalary": 157992}, {"name": "SOCIAL INSURANCE ADMINISTRATION", "employees": 574, "avgSalary": 107218}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "employees": 325, "avgSalary": 132996}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "employees": 294, "avgSalary": 140184}, {"name": "COMPUTER SCIENCE", "employees": 236, "avgSalary": 150684}, {"name": "GENERAL ENGINEERING", "employees": 231, "avgSalary": 152402}, {"name": "GENERAL ATTORNEY", "employees": 220, "avgSalary": 163299}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "employees": 207, "avgSalary": 55064}, {"name": "GENERAL BUSINESS AND INDUSTRY", "employees": 171, "avgSalary": 124537}, {"name": "CONTRACTING", "employees": 168, "avgSalary": 136835}, {"name": "FINANCIAL INSTITUTION EXAMINING", "employees": 166, "avgSalary": 193046}, {"name": "PATENT EXAMINING", "employees": 147, "avgSalary": 143422}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "employees": 141, "avgSalary": 111797}, {"name": "GENERAL PHYSICAL SCIENCE", "employees": 139, "avgSalary": 153425}, {"name": "AIR TRAFFIC CONTROL", "employees": 139, "avgSalary": 150644}]}
+{
+  "code": "NJ",
+  "name": "NEW JERSEY",
+  "employees": 6923,
+  "avgSalary": 129874,
+  "topAgencies": [
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 1791
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 814
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 594
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 578
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 551
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 532
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 484
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 301
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 259
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 225
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 197
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 113
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 107
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 73
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 46
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Information Technology Management",
+      "employees": 619,
+      "avgSalary": 157992
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 574,
+      "avgSalary": 107218
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 325,
+      "avgSalary": 132996
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 294,
+      "avgSalary": 140184
+    },
+    {
+      "name": "Computer Science",
+      "employees": 236,
+      "avgSalary": 150684
+    },
+    {
+      "name": "General Engineering",
+      "employees": 231,
+      "avgSalary": 152402
+    },
+    {
+      "name": "General Attorney",
+      "employees": 220,
+      "avgSalary": 163299
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 207,
+      "avgSalary": 55064
+    },
+    {
+      "name": "General Business and Industry",
+      "employees": 171,
+      "avgSalary": 124537
+    },
+    {
+      "name": "Contracting",
+      "employees": 168,
+      "avgSalary": 136835
+    },
+    {
+      "name": "Financial Institution Examining",
+      "employees": 166,
+      "avgSalary": 193046
+    },
+    {
+      "name": "Patent Examining",
+      "employees": 147,
+      "avgSalary": 143422
+    },
+    {
+      "name": "Financial Administration and Program",
+      "employees": 141,
+      "avgSalary": 111797
+    },
+    {
+      "name": "General Physical Science",
+      "employees": 139,
+      "avgSalary": 153425
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 139,
+      "avgSalary": 150644
+    }
+  ]
+}

@@ -1,1 +1,59 @@
-{"code": "KY", "name": "PUBLIC BUILDINGS REFORM BOARD", "employees": 7, "avgSalary": 167421, "topOccupations": [{"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 7, "avgSalary": 167421}], "topStates": [{"name": "VIRGINIA", "code": "VA", "count": 2}, {"name": "NEW YORK", "code": "NY", "count": 1}, {"name": "MARYLAND", "code": "MD", "count": 1}, {"name": "KENTUCKY", "code": "KY", "count": 1}, {"name": "FLORIDA", "code": "FL", "count": 1}, {"name": "MASSACHUSETTS", "code": "MA", "count": 1}], "education": [{"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 4}, {"level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE", "count": 2}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 1}]}
+{
+  "code": "KY",
+  "name": "Public Buildings Reform Board",
+  "employees": 7,
+  "avgSalary": 167421,
+  "topOccupations": [
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 7,
+      "avgSalary": 167421
+    }
+  ],
+  "topStates": [
+    {
+      "name": "Virginia",
+      "code": "VA",
+      "count": 2
+    },
+    {
+      "name": "New York",
+      "code": "NY",
+      "count": 1
+    },
+    {
+      "name": "Maryland",
+      "code": "MD",
+      "count": 1
+    },
+    {
+      "name": "Kentucky",
+      "code": "KY",
+      "count": 1
+    },
+    {
+      "name": "Florida",
+      "code": "FL",
+      "count": 1
+    },
+    {
+      "name": "Massachusetts",
+      "code": "MA",
+      "count": 1
+    }
+  ],
+  "education": [
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 4
+    },
+    {
+      "level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE",
+      "count": 2
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 1
+    }
+  ]
+}

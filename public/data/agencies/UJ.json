@@ -1,1 +1,62 @@
-{"code": "UJ", "name": "JAPAN-UNITED STATES FRIENDSHIP CMSN", "employees": 12, "avgSalary": 149079, "topOccupations": [{"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 11, "avgSalary": 151670}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "count": 1, "avgSalary": 120579}], "topStates": [{"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 9}, {"name": "TEXAS", "code": "TX", "count": 1}, {"name": "PENNSYLVANIA", "code": "PA", "count": 1}, {"name": "MASSACHUSETTS", "code": "MA", "count": 1}], "education": [{"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 6}, {"level": "DOCTORATE DEGREE", "count": 2}, {"level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE", "count": 2}, {"level": "POST-SIXTH YEAR", "count": 1}, {"level": "FIRST PROFESSIONAL", "count": 1}]}
+{
+  "code": "UJ",
+  "name": "Japan-United States Friendship Cmsn",
+  "employees": 12,
+  "avgSalary": 149079,
+  "topOccupations": [
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 11,
+      "avgSalary": 151670
+    },
+    {
+      "name": "Management and Program Analysis",
+      "count": 1,
+      "avgSalary": 120579
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 9
+    },
+    {
+      "name": "Texas",
+      "code": "TX",
+      "count": 1
+    },
+    {
+      "name": "Pennsylvania",
+      "code": "PA",
+      "count": 1
+    },
+    {
+      "name": "Massachusetts",
+      "code": "MA",
+      "count": 1
+    }
+  ],
+  "education": [
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 6
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 2
+    },
+    {
+      "level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE",
+      "count": 2
+    },
+    {
+      "level": "POST-SIXTH YEAR",
+      "count": 1
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 1
+    }
+  ]
+}

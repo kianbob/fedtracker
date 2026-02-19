@@ -1,1 +1,212 @@
-{"code": "GJ", "name": "PRESIDIO TRUST", "employees": 332, "avgSalary": 128800, "topOccupations": [{"name": "EQUIPMENT FACILITIES, AND SERVICES", "count": 29, "avgSalary": 123830}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 25, "avgSalary": 147539}, {"name": "MISC GENERAL MAINTENANCE & OPERATIONS WORK", "count": 16, "avgSalary": 103064}, {"name": "PUBLIC AFFAIRS", "count": 14, "avgSalary": 144263}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "count": 13, "avgSalary": 88211}, {"name": "ACCOUNTING", "count": 12, "avgSalary": 138067}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "count": 11, "avgSalary": 166924}, {"name": "BIOLOGICAL SCIENCE TECHNICIAN", "count": 10, "avgSalary": 72006}, {"name": "GARDENING", "count": 10, "avgSalary": 86187}, {"name": "TREE TRIMMING AND REMOVING", "count": 9, "avgSalary": 114903}, {"name": "PLUMBING", "count": 8, "avgSalary": 119836}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "count": 8, "avgSalary": 142795}, {"name": "HUMAN RESOURCES MANAGEMENT", "count": 7, "avgSalary": 171669}, {"name": "SECRETARY", "count": 7, "avgSalary": 110294}, {"name": "REALTY", "count": 7, "avgSalary": 192935}], "topStates": [{"name": "CALIFORNIA", "code": "CA", "count": 318}, {"name": "GEORGIA", "code": "GA", "count": 2}, {"name": "IDAHO", "code": "ID", "count": 2}, {"name": "MARYLAND", "code": "MD", "count": 1}, {"name": "TENNESSEE", "code": "TN", "count": 1}, {"name": "ARIZONA", "code": "AZ", "count": 1}, {"name": "NEW JERSEY", "code": "NJ", "count": 1}, {"name": "TEXAS", "code": "TX", "count": 1}, {"name": "UTAH", "code": "UT", "count": 1}, {"name": "WYOMING", "code": "WY", "count": 1}, {"name": "OKLAHOMA", "code": "OK", "count": 1}, {"name": "VIRGINIA", "code": "VA", "count": 1}, {"name": "HAWAII", "code": "HI", "count": 1}], "education": [{"level": "BACHELOR'S DEGREE", "count": 121}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 101}, {"level": "MASTER'S DEGREE", "count": 46}, {"level": "ONE YEAR COLLEGE", "count": 14}, {"level": "ASSOCIATE DEGREE", "count": 10}, {"level": "TWO YEARS COLLEGE", "count": 8}, {"level": "FOUR YEARS COLLEGE", "count": 7}, {"level": "DOCTORATE DEGREE", "count": 7}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 4}, {"level": "SOME HIGH SCHOOL - DID NOT COMPLETE", "count": 3}, {"level": "THREE YEARS COLLEGE", "count": 3}, {"level": "FIRST PROFESSIONAL", "count": 3}, {"level": "POST-MASTER'S", "count": 2}, {"level": "POST-BACHELOR'S", "count": 2}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT", "count": 1}]}
+{
+  "code": "GJ",
+  "name": "Presidio Trust",
+  "employees": 332,
+  "avgSalary": 128800,
+  "topOccupations": [
+    {
+      "name": "Equipment Facilities, and Services",
+      "count": 29,
+      "avgSalary": 123830
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 25,
+      "avgSalary": 147539
+    },
+    {
+      "name": "Misc General Maintenance & Operations Work",
+      "count": 16,
+      "avgSalary": 103064
+    },
+    {
+      "name": "Public Affairs",
+      "count": 14,
+      "avgSalary": 144263
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "count": 13,
+      "avgSalary": 88211
+    },
+    {
+      "name": "Accounting",
+      "count": 12,
+      "avgSalary": 138067
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 11,
+      "avgSalary": 166924
+    },
+    {
+      "name": "Biological Science Technician",
+      "count": 10,
+      "avgSalary": 72006
+    },
+    {
+      "name": "Gardening",
+      "count": 10,
+      "avgSalary": 86187
+    },
+    {
+      "name": "Tree Trimming and Removing",
+      "count": 9,
+      "avgSalary": 114903
+    },
+    {
+      "name": "Plumbing",
+      "count": 8,
+      "avgSalary": 119836
+    },
+    {
+      "name": "Management and Program Analysis",
+      "count": 8,
+      "avgSalary": 142795
+    },
+    {
+      "name": "Human Resources Management",
+      "count": 7,
+      "avgSalary": 171669
+    },
+    {
+      "name": "Secretary",
+      "count": 7,
+      "avgSalary": 110294
+    },
+    {
+      "name": "Realty",
+      "count": 7,
+      "avgSalary": 192935
+    }
+  ],
+  "topStates": [
+    {
+      "name": "California",
+      "code": "CA",
+      "count": 318
+    },
+    {
+      "name": "Georgia",
+      "code": "GA",
+      "count": 2
+    },
+    {
+      "name": "Idaho",
+      "code": "ID",
+      "count": 2
+    },
+    {
+      "name": "Maryland",
+      "code": "MD",
+      "count": 1
+    },
+    {
+      "name": "Tennessee",
+      "code": "TN",
+      "count": 1
+    },
+    {
+      "name": "Arizona",
+      "code": "AZ",
+      "count": 1
+    },
+    {
+      "name": "New Jersey",
+      "code": "NJ",
+      "count": 1
+    },
+    {
+      "name": "Texas",
+      "code": "TX",
+      "count": 1
+    },
+    {
+      "name": "Utah",
+      "code": "UT",
+      "count": 1
+    },
+    {
+      "name": "Wyoming",
+      "code": "WY",
+      "count": 1
+    },
+    {
+      "name": "Oklahoma",
+      "code": "OK",
+      "count": 1
+    },
+    {
+      "name": "Virginia",
+      "code": "VA",
+      "count": 1
+    },
+    {
+      "name": "Hawaii",
+      "code": "HI",
+      "count": 1
+    }
+  ],
+  "education": [
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 121
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 101
+    },
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 46
+    },
+    {
+      "level": "ONE YEAR COLLEGE",
+      "count": 14
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 10
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 8
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 7
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 7
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 4
+    },
+    {
+      "level": "SOME HIGH SCHOOL - DID NOT COMPLETE",
+      "count": 3
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 3
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 3
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 2
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 2
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT",
+      "count": 1
+    }
+  ]
+}

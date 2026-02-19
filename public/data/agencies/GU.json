@@ -1,1 +1,62 @@
-{"code": "GU", "name": "THE US SEMIQUINCENTENNIAL COMMISSION", "employees": 8, "avgSalary": 121814, "topOccupations": [{"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 7, "avgSalary": 113732}, {"name": "PROGRAM MANAGEMENT", "count": 1, "avgSalary": 178392}], "topStates": [{"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 4}, {"name": "PENNSYLVANIA", "code": "PA", "count": 2}, {"name": "VIRGINIA", "code": "VA", "count": 1}, {"name": "NORTH CAROLINA", "code": "NC", "count": 1}], "education": [{"level": "BACHELOR'S DEGREE", "count": 3}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 2}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 1}, {"level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE", "count": 1}, {"level": "MASTER'S DEGREE", "count": 1}]}
+{
+  "code": "GU",
+  "name": "The Us Semiquincentennial Commission",
+  "employees": 8,
+  "avgSalary": 121814,
+  "topOccupations": [
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 7,
+      "avgSalary": 113732
+    },
+    {
+      "name": "Program Management",
+      "count": 1,
+      "avgSalary": 178392
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 4
+    },
+    {
+      "name": "Pennsylvania",
+      "code": "PA",
+      "count": 2
+    },
+    {
+      "name": "Virginia",
+      "code": "VA",
+      "count": 1
+    },
+    {
+      "name": "North Carolina",
+      "code": "NC",
+      "count": 1
+    }
+  ],
+  "education": [
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 3
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 2
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 1
+    },
+    {
+      "level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE",
+      "count": 1
+    },
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 1
+    }
+  ]
+}

@@ -1,1 +1,160 @@
-{"code": "SD", "name": "SOUTH DAKOTA", "employees": 4246, "avgSalary": 88015, "topAgencies": [{"name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "code": "HE", "employees": 1378}, {"name": "DEPARTMENT OF INTERIOR", "code": "IN", "employees": 1118}, {"name": "DEPARTMENT OF AGRICULTURE", "code": "AG", "employees": 1026}, {"name": "DEPARTMENT OF ENERGY", "code": "DN", "employees": 205}, {"name": "DEPARTMENT OF COMMERCE", "code": "CM", "employees": 100}, {"name": "DEPARTMENT OF TRANSPORTATION", "code": "TD", "employees": 97}, {"name": "DEPARTMENT OF JUSTICE", "code": "DJ", "employees": 79}, {"name": "SOCIAL SECURITY ADMINISTRATION", "code": "SZ", "employees": 77}, {"name": "DEPARTMENT OF TREASURY", "code": "TR", "employees": 60}, {"name": "FEDERAL DEPOSIT INSURANCE CORPORATION", "code": "FD", "employees": 38}, {"name": "DEPARTMENT OF LABOR", "code": "DL", "employees": 26}, {"name": "GENERAL SERVICES ADMINISTRATION", "code": "GS", "employees": 11}, {"name": "SMALL BUSINESS ADMINISTRATION", "code": "SB", "employees": 10}, {"name": "null", "code": "HU", "employees": 4}, {"name": "DEPARTMENT OF EDUCATION", "code": "ED", "employees": 3}], "topOccupations": [{"name": "NURSE", "employees": 227, "avgSalary": 115792}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "employees": 165, "avgSalary": 69495}, {"name": "GENERAL NATURAL RESOURCES MANAGEMENT AND BIOLOGICAL SCIENCES", "employees": 146, "avgSalary": 85713}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "employees": 138, "avgSalary": 96498}, {"name": "SOIL CONSERVATION", "employees": 132, "avgSalary": 83122}, {"name": "FORESTRY TECHNICIAN", "employees": 122, "avgSalary": 56338}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "employees": 107, "avgSalary": 106105}, {"name": "EDUCATION AND VOCATIONAL TRAINING", "employees": 102, "avgSalary": 86487}, {"name": "MAINTENANCE MECHANIC", "employees": 100, "avgSalary": 63128}, {"name": "GENERAL BUSINESS AND INDUSTRY", "employees": 89, "avgSalary": 83418}, {"name": "MEDICAL SUPPORT ASSISTANCE", "employees": 87, "avgSalary": 48520}, {"name": "LOAN SPECIALIST", "employees": 81, "avgSalary": 85707}, {"name": "EDUCATION AND TRAINING TECHNICIAN", "employees": 79, "avgSalary": 49070}, {"name": "HEALTH AID AND TECHNICIAN", "employees": 66, "avgSalary": 52604}, {"name": "CUSTODIAL WORKING", "employees": 62, "avgSalary": 42948}]}
+{
+  "code": "SD",
+  "name": "SOUTH DAKOTA",
+  "employees": 4246,
+  "avgSalary": 88015,
+  "topAgencies": [
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 1378
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 1118
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 1026
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 205
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 100
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 97
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 79
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 77
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 60
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 38
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 26
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 11
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 10
+    },
+    {
+      "name": "Null",
+      "code": "HU",
+      "employees": 4
+    },
+    {
+      "name": "Department of Education",
+      "code": "ED",
+      "employees": 3
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Nurse",
+      "employees": 227,
+      "avgSalary": 115792
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 165,
+      "avgSalary": 69495
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 146,
+      "avgSalary": 85713
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 138,
+      "avgSalary": 96498
+    },
+    {
+      "name": "Soil Conservation",
+      "employees": 132,
+      "avgSalary": 83122
+    },
+    {
+      "name": "Forestry Technician",
+      "employees": 122,
+      "avgSalary": 56338
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 107,
+      "avgSalary": 106105
+    },
+    {
+      "name": "Education and Vocational Training",
+      "employees": 102,
+      "avgSalary": 86487
+    },
+    {
+      "name": "Maintenance Mechanic",
+      "employees": 100,
+      "avgSalary": 63128
+    },
+    {
+      "name": "General Business and Industry",
+      "employees": 89,
+      "avgSalary": 83418
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 87,
+      "avgSalary": 48520
+    },
+    {
+      "name": "Loan Specialist",
+      "employees": 81,
+      "avgSalary": 85707
+    },
+    {
+      "name": "Education and Training Technician",
+      "employees": 79,
+      "avgSalary": 49070
+    },
+    {
+      "name": "Health Aid and Technician",
+      "employees": 66,
+      "avgSalary": 52604
+    },
+    {
+      "name": "Custodial Working",
+      "employees": 62,
+      "avgSalary": 42948
+    }
+  ]
+}

@@ -1,1 +1,169 @@
-{"code": "TN", "name": "OFFICE OF THE U.S. TRADE REPRESENTATIVE", "employees": 236, "avgSalary": 168194, "topOccupations": [{"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 164, "avgSalary": 168487}, {"name": "GENERAL ATTORNEY", "count": 49, "avgSalary": 180168}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "count": 4, "avgSalary": 94502}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "count": 4, "avgSalary": 185351}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "count": 3, "avgSalary": 148878}, {"name": "SECURITY ADMINISTRATION", "count": 2, "avgSalary": 157839}, {"name": "SUPPORT SERVICES ADMINISTRATION", "count": 2, "avgSalary": 102676}, {"name": "ECONOMIST", "count": 2, "avgSalary": 168594}, {"name": "FINANCIAL CLERICAL AND ASSISTANCE", "count": 1, "avgSalary": 88568}, {"name": "PARALEGAL SPECIALIST", "count": 1, "avgSalary": 107156}, {"name": "ACCOUNTING", "count": 1, "avgSalary": 148716}, {"name": "RECORDS AND INFORMATION MANAGEMENT", "count": 1, "avgSalary": 195200}, {"name": "TELECOMMUNICATIONS", "count": 1, "avgSalary": 185234}, {"name": "PUBLIC AFFAIRS", "count": 1, "avgSalary": 84601}], "topStates": [{"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 220}, {"name": "REDACTED", "code": "REDACTED", "count": 13}, {"name": "NEW YORK", "code": "NY", "count": 1}, {"name": "FLORIDA", "code": "FL", "count": 1}, {"name": "MASSACHUSETTS", "code": "MA", "count": 1}, {"name": "MONTANA", "code": "MT", "count": 1}, {"name": "VIRGINIA", "code": "VA", "count": 1}], "education": [{"level": "MASTER'S DEGREE", "count": 97}, {"level": "FIRST PROFESSIONAL", "count": 53}, {"level": "BACHELOR'S DEGREE", "count": 32}, {"level": "DOCTORATE DEGREE", "count": 21}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 11}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 5}, {"level": "POST-MASTER'S", "count": 4}, {"level": "THREE YEARS COLLEGE", "count": 4}, {"level": "TWO YEARS COLLEGE", "count": 4}, {"level": "POST-BACHELOR'S", "count": 3}, {"level": "POST-FIRST PROFESSIONAL", "count": 2}, {"level": "ASSOCIATE DEGREE", "count": 1}, {"level": "FOUR YEARS COLLEGE", "count": 1}]}
+{
+  "code": "TN",
+  "name": "Office of the U.S. Trade Representative",
+  "employees": 236,
+  "avgSalary": 168194,
+  "topOccupations": [
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 164,
+      "avgSalary": 168487
+    },
+    {
+      "name": "General Attorney",
+      "count": 49,
+      "avgSalary": 180168
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "count": 4,
+      "avgSalary": 94502
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 4,
+      "avgSalary": 185351
+    },
+    {
+      "name": "Financial Administration and Program",
+      "count": 3,
+      "avgSalary": 148878
+    },
+    {
+      "name": "Security Administration",
+      "count": 2,
+      "avgSalary": 157839
+    },
+    {
+      "name": "Support Services Administration",
+      "count": 2,
+      "avgSalary": 102676
+    },
+    {
+      "name": "Economist",
+      "count": 2,
+      "avgSalary": 168594
+    },
+    {
+      "name": "Financial Clerical and Assistance",
+      "count": 1,
+      "avgSalary": 88568
+    },
+    {
+      "name": "Paralegal Specialist",
+      "count": 1,
+      "avgSalary": 107156
+    },
+    {
+      "name": "Accounting",
+      "count": 1,
+      "avgSalary": 148716
+    },
+    {
+      "name": "Records and Information Management",
+      "count": 1,
+      "avgSalary": 195200
+    },
+    {
+      "name": "Telecommunications",
+      "count": 1,
+      "avgSalary": 185234
+    },
+    {
+      "name": "Public Affairs",
+      "count": 1,
+      "avgSalary": 84601
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 220
+    },
+    {
+      "name": "Redacted",
+      "code": "REDACTED",
+      "count": 13
+    },
+    {
+      "name": "New York",
+      "code": "NY",
+      "count": 1
+    },
+    {
+      "name": "Florida",
+      "code": "FL",
+      "count": 1
+    },
+    {
+      "name": "Massachusetts",
+      "code": "MA",
+      "count": 1
+    },
+    {
+      "name": "Montana",
+      "code": "MT",
+      "count": 1
+    },
+    {
+      "name": "Virginia",
+      "code": "VA",
+      "count": 1
+    }
+  ],
+  "education": [
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 97
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 53
+    },
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 32
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 21
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 11
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 5
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 4
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 4
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 4
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 3
+    },
+    {
+      "level": "POST-FIRST PROFESSIONAL",
+      "count": 2
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 1
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 1
+    }
+  ]
+}

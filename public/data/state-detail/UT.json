@@ -1,1 +1,160 @@
-{"code": "UT", "name": "UTAH", "employees": 13518, "avgSalary": 74150, "topAgencies": [{"name": "DEPARTMENT OF TREASURY", "code": "TR", "employees": 8213}, {"name": "DEPARTMENT OF INTERIOR", "code": "IN", "employees": 1951}, {"name": "DEPARTMENT OF AGRICULTURE", "code": "AG", "employees": 1724}, {"name": "DEPARTMENT OF TRANSPORTATION", "code": "TD", "employees": 620}, {"name": "DEPARTMENT OF COMMERCE", "code": "CM", "employees": 213}, {"name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "code": "HE", "employees": 194}, {"name": "SOCIAL SECURITY ADMINISTRATION", "code": "SZ", "employees": 166}, {"name": "DEPARTMENT OF LABOR", "code": "DL", "employees": 112}, {"name": "FEDERAL DEPOSIT INSURANCE CORPORATION", "code": "FD", "employees": 86}, {"name": "GENERAL SERVICES ADMINISTRATION", "code": "GS", "employees": 40}, {"name": "DEPARTMENT OF JUSTICE", "code": "DJ", "employees": 33}, {"name": "SMALL BUSINESS ADMINISTRATION", "code": "SB", "employees": 30}, {"name": "DEPARTMENT OF ENERGY", "code": "DN", "employees": 28}, {"name": "ENVIRONMENTAL PROTECTION AGENCY", "code": "EP", "employees": 18}, {"name": "SECURITIES AND EXCHANGE COMMISSION", "code": "SE", "employees": 17}], "topOccupations": [{"name": "TAX EXAMINING", "employees": 3216, "avgSalary": 50172}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "employees": 2054, "avgSalary": 43211}, {"name": "CONTACT REPRESENTATIVE", "employees": 911, "avgSalary": 57359}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "employees": 506, "avgSalary": 114808}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "employees": 456, "avgSalary": 118116}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "employees": 432, "avgSalary": 103581}, {"name": "FORESTRY TECHNICIAN", "employees": 371, "avgSalary": 52375}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "employees": 346, "avgSalary": 104586}, {"name": "HUMAN RESOURCES MANAGEMENT", "employees": 330, "avgSalary": 92324}, {"name": "AIR TRAFFIC CONTROL", "employees": 317, "avgSalary": 154162}, {"name": "GENERAL NATURAL RESOURCES MANAGEMENT AND BIOLOGICAL SCIENCES", "employees": 253, "avgSalary": 94483}, {"name": "FINANCIAL CLERICAL AND ASSISTANCE", "employees": 204, "avgSalary": 51708}, {"name": "PARK RANGER", "employees": 163, "avgSalary": 71124}, {"name": "PROGRAM MANAGEMENT", "employees": 156, "avgSalary": 133632}, {"name": "TRANSPORTATION SPECIALIST", "employees": 146, "avgSalary": 110928}]}
+{
+  "code": "UT",
+  "name": "UTAH",
+  "employees": 13518,
+  "avgSalary": 74150,
+  "topAgencies": [
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 8213
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 1951
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 1724
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 620
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 213
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 194
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 166
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 112
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 86
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 40
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 33
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 30
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 28
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 18
+    },
+    {
+      "name": "Securities and Exchange Commission",
+      "code": "SE",
+      "employees": 17
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Tax Examining",
+      "employees": 3216,
+      "avgSalary": 50172
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 2054,
+      "avgSalary": 43211
+    },
+    {
+      "name": "Contact Representative",
+      "employees": 911,
+      "avgSalary": 57359
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 506,
+      "avgSalary": 114808
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 456,
+      "avgSalary": 118116
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 432,
+      "avgSalary": 103581
+    },
+    {
+      "name": "Forestry Technician",
+      "employees": 371,
+      "avgSalary": 52375
+    },
+    {
+      "name": "Financial Administration and Program",
+      "employees": 346,
+      "avgSalary": 104586
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 330,
+      "avgSalary": 92324
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 317,
+      "avgSalary": 154162
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 253,
+      "avgSalary": 94483
+    },
+    {
+      "name": "Financial Clerical and Assistance",
+      "employees": 204,
+      "avgSalary": 51708
+    },
+    {
+      "name": "Park Ranger",
+      "employees": 163,
+      "avgSalary": 71124
+    },
+    {
+      "name": "Program Management",
+      "employees": 156,
+      "avgSalary": 133632
+    },
+    {
+      "name": "Transportation Specialist",
+      "employees": 146,
+      "avgSalary": 110928
+    }
+  ]
+}

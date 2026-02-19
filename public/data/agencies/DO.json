@@ -1,1 +1,66 @@
-{"code": "DO", "name": "OFC OF THE NAT CYBER DIR", "employees": 31, "avgSalary": 172953, "topOccupations": [{"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 23, "avgSalary": 172120}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "count": 4, "avgSalary": 189698}, {"name": "GENERAL ATTORNEY", "count": 2, "avgSalary": 160511}, {"name": "BUDGET ANALYSIS", "count": 1, "avgSalary": 156737}, {"name": "RECORDS AND INFORMATION MANAGEMENT", "count": 1, "avgSalary": 166236}], "topStates": [{"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 31}], "education": [{"level": "MASTER'S DEGREE", "count": 20}, {"level": "BACHELOR'S DEGREE", "count": 5}, {"level": "DOCTORATE DEGREE", "count": 3}, {"level": "POST-MASTER'S", "count": 1}, {"level": "SIXTH-YEAR DEGREE", "count": 1}, {"level": "FIRST PROFESSIONAL", "count": 1}]}
+{
+  "code": "DO",
+  "name": "Ofc of the National Cyber Dir",
+  "employees": 31,
+  "avgSalary": 172953,
+  "topOccupations": [
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 23,
+      "avgSalary": 172120
+    },
+    {
+      "name": "Financial Administration and Program",
+      "count": 4,
+      "avgSalary": 189698
+    },
+    {
+      "name": "General Attorney",
+      "count": 2,
+      "avgSalary": 160511
+    },
+    {
+      "name": "Budget Analysis",
+      "count": 1,
+      "avgSalary": 156737
+    },
+    {
+      "name": "Records and Information Management",
+      "count": 1,
+      "avgSalary": 166236
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 31
+    }
+  ],
+  "education": [
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 20
+    },
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 5
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 3
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 1
+    },
+    {
+      "level": "SIXTH-YEAR DEGREE",
+      "count": 1
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 1
+    }
+  ]
+}

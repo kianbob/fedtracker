@@ -1,1 +1,3579 @@
-[{"code": "0301", "name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "family": "GENERAL ADMINISTRATIVE, CLERICAL, AND OFFICE SERVICES GROUP", "employees": 40690, "avgSalary": 131909}, {"code": "0343", "name": "MANAGEMENT AND PROGRAM ANALYSIS", "family": "GENERAL ADMINISTRATIVE, CLERICAL, AND OFFICE SERVICES GROUP", "employees": 39483, "avgSalary": 136247}, {"code": "2210", "name": "INFORMATION TECHNOLOGY MANAGEMENT", "family": "INFORMATION TECHNOLOGY GROUP", "employees": 38875, "avgSalary": 145797}, {"code": "0962", "name": "CONTACT REPRESENTATIVE", "family": "LEGAL AND KINDRED GROUP", "employees": 34873, "avgSalary": 60378}, {"code": "0905", "name": "GENERAL ATTORNEY", "family": "LEGAL AND KINDRED GROUP", "employees": 27837, "avgSalary": 175696}, {"code": "0105", "name": "SOCIAL INSURANCE ADMINISTRATION", "family": "SOCIAL SCIENCE, PSYCHOLOGY, AND WELFARE GROUP", "employees": 26336, "avgSalary": 102350}, {"code": "0303", "name": "MISCELLANEOUS CLERK AND ASSISTANT", "family": "GENERAL ADMINISTRATIVE, CLERICAL, AND OFFICE SERVICES GROUP", "employees": 21873, "avgSalary": 51589}, {"code": "0401", "name": "GENERAL NATURAL RESOURCES MANAGEMENT AND BIOLOGICAL SCIENCES", "family": "BIOLOGICAL SCIENCES GROUP", "employees": 20022, "avgSalary": 118346}, {"code": "2152", "name": "AIR TRAFFIC CONTROL", "family": "TRANSPORTATION GROUP", "employees": 18817, "avgSalary": 154315}, {"code": "1101", "name": "GENERAL BUSINESS AND INDUSTRY", "family": "BUSINESS AND INDUSTRY GROUP", "employees": 15366, "avgSalary": 121349}, {"code": "0592", "name": "TAX EXAMINING", "family": "ACCOUNTING AND BUDGET GROUP", "employees": 15210, "avgSalary": 54105}, {"code": "0201", "name": "HUMAN RESOURCES MANAGEMENT", "family": "HUMAN RESOURCES MANAGEMENT GROUP", "employees": 13934, "avgSalary": 123931}, {"code": "0501", "name": "FINANCIAL ADMINISTRATION AND PROGRAM", "family": "ACCOUNTING AND BUDGET GROUP", "employees": 11954, "avgSalary": 116282}, {"code": "0462", "name": "FORESTRY TECHNICIAN", "family": "BIOLOGICAL SCIENCES GROUP", "employees": 11304, "avgSalary": 55003}, {"code": "1102", "name": "CONTRACTING", "family": "BUSINESS AND INDUSTRY GROUP", "employees": 11164, "avgSalary": 132471}, {"code": "0801", "name": "GENERAL ENGINEERING", "family": "ENGINEERING AND ARCHITECTURE GROUP", "employees": 10495, "avgSalary": 159435}, {"code": "0601", "name": "GENERAL HEALTH SCIENCE", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 10265, "avgSalary": 152839}, {"code": "1224", "name": "PATENT EXAMINING", "family": "COPYRIGHT, PATENT, AND TRADEMARK GROUP", "employees": 9513, "avgSalary": 156161}, {"code": "0340", "name": "PROGRAM MANAGEMENT", "family": "GENERAL ADMINISTRATIVE, CLERICAL, AND OFFICE SERVICES GROUP", "employees": 7948, "avgSalary": 180722}, {"code": "2101", "name": "TRANSPORTATION SPECIALIST", "family": "TRANSPORTATION GROUP", "employees": 7076, "avgSalary": 123521}, {"code": "1301", "name": "GENERAL PHYSICAL SCIENCE", "family": "PHYSICAL SCIENCES GROUP", "employees": 7062, "avgSalary": 141730}, {"code": "0101", "name": "SOCIAL SCIENCE", "family": "SOCIAL SCIENCE, PSYCHOLOGY, AND WELFARE GROUP", "employees": 6147, "avgSalary": 119098}, {"code": "0610", "name": "NURSE", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 5994, "avgSalary": 111613}, {"code": "0560", "name": "BUDGET ANALYSIS", "family": "ACCOUNTING AND BUDGET GROUP", "employees": 5952, "avgSalary": 130844}, {"code": "0510", "name": "ACCOUNTING", "family": "ACCOUNTING AND BUDGET GROUP", "employees": 5927, "avgSalary": 148971}, {"code": "0570", "name": "FINANCIAL INSTITUTION EXAMINING", "family": "ACCOUNTING AND BUDGET GROUP", "employees": 5835, "avgSalary": 165009}, {"code": "1165", "name": "LOAN SPECIALIST", "family": "BUSINESS AND INDUSTRY GROUP", "employees": 5527, "avgSalary": 88324}, {"code": "0602", "name": "MEDICAL OFFICER", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 5493, "avgSalary": 211149}, {"code": "1862", "name": "CONSUMER SAFETY INSPECTION", "family": "INVESTIGATION GROUP", "employees": 5336, "avgSalary": 72705}, {"code": "0861", "name": "AEROSPACE ENGINEERING", "family": "ENGINEERING AND ARCHITECTURE GROUP", "employees": 5302, "avgSalary": 155245}, {"code": "0404", "name": "BIOLOGICAL SCIENCE TECHNICIAN", "family": "BIOLOGICAL SCIENCES GROUP", "employees": 5224, "avgSalary": 54046}, {"code": "0901", "name": "GENERAL LEGAL AND KINDRED ADMINISTRATION", "family": "LEGAL AND KINDRED GROUP", "employees": 5163, "avgSalary": 85759}, {"code": "0457", "name": "SOIL CONSERVATION", "family": "BIOLOGICAL SCIENCES GROUP", "employees": 4880, "avgSalary": 84988}, {"code": "0685", "name": "PUBLIC HEALTH PROGRAM SPECIALIST", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 4812, "avgSalary": 135695}, {"code": "4749", "name": "MAINTENANCE MECHANIC", "family": "GENERAL MAINTENANCE AND OPERATIONS WORK FAMILY", "employees": 4544, "avgSalary": 72256}, {"code": "0110", "name": "ECONOMIST", "family": "SOCIAL SCIENCE, PSYCHOLOGY, AND WELFARE GROUP", "employees": 4541, "avgSalary": 152227}, {"code": "0810", "name": "CIVIL ENGINEERING", "family": "ENGINEERING AND ARCHITECTURE GROUP", "employees": 4328, "avgSalary": 120646}, {"code": "1825", "name": "AVIATION SAFETY", "family": "INVESTIGATION GROUP", "employees": 4267, "avgSalary": 143073}, {"code": "0341", "name": "ADMINISTRATIVE OFFICER", "family": "GENERAL ADMINISTRATIVE, CLERICAL, AND OFFICE SERVICES GROUP", "employees": 4155, "avgSalary": 126603}, {"code": "0080", "name": "SECURITY ADMINISTRATION", "family": "MISCELLANEOUS OCCUPATIONS GROUP", "employees": 3942, "avgSalary": 128514}, {"code": "0511", "name": "AUDITING", "family": "ACCOUNTING AND BUDGET GROUP", "employees": 3848, "avgSalary": 142000}, {"code": "1035", "name": "PUBLIC AFFAIRS", "family": "INFORMATION AND ARTS GROUP", "employees": 3650, "avgSalary": 129587}, {"code": "0696", "name": "CONSUMER SAFETY", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 3625, "avgSalary": 135792}, {"code": "1109", "name": "GRANTS MANAGEMENT", "family": "BUSINESS AND INDUSTRY GROUP", "employees": 3592, "avgSalary": 124180}, {"code": "0025", "name": "PARK RANGER", "family": "MISCELLANEOUS OCCUPATIONS GROUP", "employees": 3493, "avgSalary": 86458}, {"code": "1530", "name": "STATISTICS", "family": "MATHEMATICS AND STATISTICS GROUP", "employees": 3327, "avgSalary": 136481}, {"code": "1320", "name": "CHEMISTRY", "family": "PHYSICAL SCIENCES GROUP", "employees": 3179, "avgSalary": 144738}, {"code": "0028", "name": "ENVIRONMENTAL PROTECTION SPECIALIST", "family": "MISCELLANEOUS OCCUPATIONS GROUP", "employees": 3127, "avgSalary": 133601}, {"code": "0130", "name": "FOREIGN AFFAIRS", "family": "SOCIAL SCIENCE, PSYCHOLOGY, AND WELFARE GROUP", "employees": 3098, "avgSalary": 149720}, {"code": "0950", "name": "PARALEGAL SPECIALIST", "family": "LEGAL AND KINDRED GROUP", "employees": 3069, "avgSalary": 103896}, {"code": "1001", "name": "GENERAL ARTS AND INFORMATION", "family": "INFORMATION AND ARTS GROUP", "employees": 3057, "avgSalary": 126880}, {"code": "0802", "name": "ENGINEERING TECHNICAL", "family": "ENGINEERING AND ARCHITECTURE GROUP", "employees": 2940, "avgSalary": 90971}, {"code": "0107", "name": "HEALTH INSURANCE ADMINISTRATION", "family": "SOCIAL SCIENCE, PSYCHOLOGY, AND WELFARE GROUP", "employees": 2878, "avgSalary": 145397}, {"code": "0986", "name": "LEGAL ASSISTANCE", "family": "LEGAL AND KINDRED GROUP", "employees": 2820, "avgSalary": 66635}, {"code": "0318", "name": "SECRETARY", "family": "GENERAL ADMINISTRATIVE, CLERICAL, AND OFFICE SERVICES GROUP", "employees": 2747, "avgSalary": 68538}, {"code": "0503", "name": "FINANCIAL CLERICAL AND ASSISTANCE", "family": "ACCOUNTING AND BUDGET GROUP", "employees": 2699, "avgSalary": 58717}, {"code": "1340", "name": "METEOROLOGY", "family": "PHYSICAL SCIENCES GROUP", "employees": 2453, "avgSalary": 122739}, {"code": "0344", "name": "MANAGEMENT AND PROGRAM CLERICAL AND ASSISTANCE", "family": "GENERAL ADMINISTRATIVE, CLERICAL, AND OFFICE SERVICES GROUP", "employees": 2306, "avgSalary": 64751}, {"code": "1170", "name": "REALTY", "family": "BUSINESS AND INDUSTRY GROUP", "employees": 2270, "avgSalary": 107019}, {"code": "0018", "name": "SAFETY AND OCCUPATIONAL HEALTH MANAGEMENT", "family": "MISCELLANEOUS OCCUPATIONS GROUP", "employees": 2232, "avgSalary": 117770}, {"code": "0855", "name": "ELECTRONICS ENGINEERING", "family": "ENGINEERING AND ARCHITECTURE GROUP", "employees": 2131, "avgSalary": 154295}, {"code": "0967", "name": "PASSPORT AND VISA EXAMINING", "family": "LEGAL AND KINDRED GROUP", "employees": 2064, "avgSalary": 88730}, {"code": "0486", "name": "WILDLIFE BIOLOGY", "family": "BIOLOGICAL SCIENCES GROUP", "employees": 1954, "avgSalary": 95437}, {"code": "0482", "name": "FISH BIOLOGY", "family": "BIOLOGICAL SCIENCES GROUP", "employees": 1911, "avgSalary": 114432}, {"code": "0456", "name": "WILDLAND FIRE MANAGEMENT", "family": "BIOLOGICAL SCIENCES GROUP", "employees": 1908, "avgSalary": 69817}, {"code": "1315", "name": "HYDROLOGY", "family": "PHYSICAL SCIENCES GROUP", "employees": 1858, "avgSalary": 114258}, {"code": "0701", "name": "VETERINARY MEDICAL SCIENCE", "family": "VETERINARY MEDICAL SCIENCE GROUP", "employees": 1791, "avgSalary": 129600}, {"code": "0006", "name": "CORRECTIONAL INSTITUTION ADMINISTRATION", "family": "MISCELLANEOUS OCCUPATIONS GROUP", "employees": 1765, "avgSalary": 123377}, {"code": "0460", "name": "FORESTRY", "family": "BIOLOGICAL SCIENCES GROUP", "employees": 1759, "avgSalary": 86336}, {"code": "0819", "name": "ENVIRONMENTAL ENGINEERING", "family": "ENGINEERING AND ARCHITECTURE GROUP", "employees": 1721, "avgSalary": 138161}, {"code": "0640", "name": "HEALTH AID AND TECHNICIAN", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 1674, "avgSalary": 60586}, {"code": "1980", "name": "AGRICULTURAL COMMODITY GRADING", "family": "QUALITY ASSURANCE, INSPECTION, AND GRADING GROUP", "employees": 1664, "avgSalary": 69114}, {"code": "7404", "name": "COOKING", "family": "FOOD PREPARATION AND SERVING FAMILY", "employees": 1655, "avgSalary": 80460}, {"code": "0403", "name": "MICROBIOLOGY", "family": "BIOLOGICAL SCIENCES GROUP", "employees": 1654, "avgSalary": 139799}, {"code": "1710", "name": "EDUCATION AND VOCATIONAL TRAINING", "family": "EDUCATION GROUP", "employees": 1647, "avgSalary": 93828}, {"code": "1316", "name": "HYDROLOGIC TECHNICIAN", "family": "PHYSICAL SCIENCES GROUP", "employees": 1567, "avgSalary": 71461}, {"code": "0856", "name": "ELECTRONICS TECHNICAL", "family": "ENGINEERING AND ARCHITECTURE GROUP", "employees": 1548, "avgSalary": 104571}, {"code": "1529", "name": "MATHEMATICAL STATISTICS", "family": "MATHEMATICS AND STATISTICS GROUP", "employees": 1527, "avgSalary": 152775}, {"code": "0306", "name": "GOVERNMENT INFORMATION SPECIALIST", "family": "GENERAL ADMINISTRATIVE, CLERICAL, AND OFFICE SERVICES GROUP", "employees": 1522, "avgSalary": 126795}, {"code": "0342", "name": "SUPPORT SERVICES ADMINISTRATION", "family": "GENERAL ADMINISTRATIVE, CLERICAL, AND OFFICE SERVICES GROUP", "employees": 1491, "avgSalary": 99657}, {"code": "6907", "name": "MATERIALS HANDLER", "family": "WAREHOUSING AND STOCK HANDLING FAMILY", "employees": 1478, "avgSalary": 299651}, {"code": "0850", "name": "ELECTRICAL ENGINEERING", "family": "ENGINEERING AND ARCHITECTURE GROUP", "employees": 1474, "avgSalary": 140521}, {"code": "1712", "name": "TRAINING INSTRUCTION", "family": "EDUCATION GROUP", "employees": 1438, "avgSalary": 111169}, {"code": "1421", "name": "ARCHIVES TECHNICIAN", "family": "LIBRARY AND ARCHIVES GROUP", "employees": 1436, "avgSalary": 65279}, {"code": "1550", "name": "COMPUTER SCIENCE", "family": "MATHEMATICS AND STATISTICS GROUP", "employees": 1386, "avgSalary": 156862}, {"code": "0935", "name": "ADMINISTRATIVE LAW JUDGE", "family": "LEGAL AND KINDRED GROUP", "employees": 1378, "avgSalary": 205898}, {"code": "1640", "name": "FACILITY OPERATIONS SERVICES", "family": "EQUIPMENT, FACILITIES, AND SERVICES GROUP", "employees": 1368, "avgSalary": 112971}, {"code": "0203", "name": "HUMAN RESOURCES ASSISTANCE", "family": "HUMAN RESOURCES MANAGEMENT GROUP", "employees": 1361, "avgSalary": 58841}, {"code": "0193", "name": "ARCHEOLOGY", "family": "SOCIAL SCIENCE, PSYCHOLOGY, AND WELFARE GROUP", "employees": 1352, "avgSalary": 88505}, {"code": "1160", "name": "FINANCIAL ANALYSIS", "family": "BUSINESS AND INDUSTRY GROUP", "employees": 1291, "avgSalary": 168165}, {"code": "5716", "name": "ENGINEERING EQUIPMENT OPERATING", "family": "TRANSPORTATION/MOBILE EQUIPMENT OPERATION FAMILY", "employees": 1268, "avgSalary": 73088}, {"code": "0408", "name": "ECOLOGY", "family": "BIOLOGICAL SCIENCES GROUP", "employees": 1188, "avgSalary": 118335}, {"code": "0260", "name": "EQUAL EMPLOYMENT OPPORTUNITY", "family": "HUMAN RESOURCES MANAGEMENT GROUP", "employees": 1185, "avgSalary": 140659}, {"code": "1702", "name": "EDUCATION AND TRAINING TECHNICIAN", "family": "EDUCATION GROUP", "employees": 1173, "avgSalary": 63824}, {"code": "0085", "name": "SECURITY GUARD", "family": "MISCELLANEOUS OCCUPATIONS GROUP", "employees": 1166, "avgSalary": 56243}, {"code": "1176", "name": "BUILDING MANAGEMENT", "family": "BUSINESS AND INDUSTRY GROUP", "employees": 1152, "avgSalary": 114735}, {"code": "0660", "name": "PHARMACIST", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 1144, "avgSalary": 143589}, {"code": "0180", "name": "PSYCHOLOGY", "family": "SOCIAL SCIENCE, PSYCHOLOGY, AND WELFARE GROUP", "employees": 1128, "avgSalary": 134645}, {"code": "0830", "name": "MECHANICAL ENGINEERING", "family": "ENGINEERING AND ARCHITECTURE GROUP", "employees": 1123, "avgSalary": 134575}, {"code": "0991", "name": "WORKER'S COMPENSATION CLAIMS EXAMINING", "family": "LEGAL AND KINDRED GROUP", "employees": 1105, "avgSalary": 116386}, {"code": "0399", "name": "ADMINISTRATION AND OFFICE SUPPORT STUDENT TRAINEE", "family": "GENERAL ADMINISTRATIVE, CLERICAL, AND OFFICE SERVICES GROUP", "employees": 1045, "avgSalary": 45102}, {"code": "0679", "name": "MEDICAL SUPPORT ASSISTANCE", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 1042, "avgSalary": 50110}, {"code": "1822", "name": "MINE SAFETY AND HEALTH INSPECTION SERIES", "family": "INVESTIGATION GROUP", "employees": 1025, "avgSalary": 108367}, {"code": "4742", "name": "UTILITY SYSTEMS REPAIRING-OPERATING", "family": "GENERAL MAINTENANCE AND OPERATIONS WORK FAMILY", "employees": 1023, "avgSalary": 84157}, {"code": "1350", "name": "GEOLOGY", "family": "PHYSICAL SCIENCES GROUP", "employees": 1020, "avgSalary": 120348}, {"code": "1849", "name": "WAGE AND HOUR INVESTIGATION SERIES", "family": "INVESTIGATION GROUP", "employees": 1009, "avgSalary": 117103}, {"code": "0089", "name": "EMERGENCY MANAGEMENT SPECIALIST", "family": "MISCELLANEOUS OCCUPATIONS GROUP", "employees": 944, "avgSalary": 136852}, {"code": "1701", "name": "GENERAL EDUCATION AND TRAINING", "family": "EDUCATION GROUP", "employees": 932, "avgSalary": 133197}, {"code": "1981", "name": "AGRICULTURAL COMMODITY AID", "family": "QUALITY ASSURANCE, INSPECTION, AND GRADING GROUP", "employees": 895, "avgSalary": 37577}, {"code": "0525", "name": "ACCOUNTING TECHNICIAN", "family": "ACCOUNTING AND BUDGET GROUP", "employees": 888, "avgSalary": 60857}, {"code": "2810", "name": "HIGH VOLTAGE ELECTRICIAN", "family": "ELECTRICAL INSTALLATION AND MAINTENANCE FAMILY", "employees": 874, "avgSalary": 130107}, {"code": "0421", "name": "PLANT PROTECTION TECHNICIAN", "family": "BIOLOGICAL SCIENCES GROUP", "employees": 847, "avgSalary": 44760}, {"code": "3566", "name": "CUSTODIAL WORKING", "family": "GENERAL SERVICES AND SUPPORT WORK FAMILY", "employees": 836, "avgSalary": 47172}, {"code": "0454", "name": "RANGELAND MANAGEMENT", "family": "BIOLOGICAL SCIENCES GROUP", "employees": 819, "avgSalary": 84228}, {"code": "0854", "name": "COMPUTER ENGINEERING", "family": "ENGINEERING AND ARCHITECTURE GROUP", "employees": 816, "avgSalary": 158434}, {"code": "0458", "name": "SOIL CONSERVATION TECHNICIAN", "family": "BIOLOGICAL SCIENCES GROUP", "employees": 807, "avgSalary": 54187}, {"code": "0526", "name": "TAX SPECIALIST", "family": "ACCOUNTING AND BUDGET GROUP", "employees": 796, "avgSalary": 84249}, {"code": "0828", "name": "CONSTRUCTION ANALYST", "family": "ENGINEERING AND ARCHITECTURE GROUP", "employees": 795, "avgSalary": 84534}, {"code": "0360", "name": "EQUAL OPPORTUNITY COMPLIANCE", "family": "GENERAL ADMINISTRATIVE, CLERICAL, AND OFFICE SERVICES GROUP", "employees": 795, "avgSalary": 129518}, {"code": "2186", "name": "TECHNICAL SYSTEMS PROGRAM MANAGER", "family": "TRANSPORTATION GROUP", "employees": 792, "avgSalary": 188489}, {"code": "1863", "name": "FOOD INSPECTION", "family": "INVESTIGATION GROUP", "employees": 791, "avgSalary": 57353}, {"code": "0470", "name": "SOIL SCIENCE", "family": "BIOLOGICAL SCIENCES GROUP", "employees": 775, "avgSalary": 105205}, {"code": "1515", "name": "OPERATIONS RESEARCH", "family": "MATHEMATICS AND STATISTICS GROUP", "employees": 768, "avgSalary": 159243}, {"code": "0675", "name": "MEDICAL RECORDS TECHNICIAN", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 753, "avgSalary": 59016}, {"code": "1560", "name": "DATA SCIENCE SERIES", "family": "MATHEMATICS AND STATISTICS GROUP", "employees": 747, "avgSalary": 135857}, {"code": "0998", "name": "CLAIMS ASSISTANCE AND EXAMINING", "family": "LEGAL AND KINDRED GROUP", "employees": 747, "avgSalary": 67318}, {"code": "0391", "name": "TELECOMMUNICATIONS", "family": "GENERAL ADMINISTRATIVE, CLERICAL, AND OFFICE SERVICES GROUP", "employees": 733, "avgSalary": 128946}, {"code": "1310", "name": "PHYSICS", "family": "PHYSICAL SCIENCES GROUP", "employees": 717, "avgSalary": 170277}, {"code": "1084", "name": "VISUAL INFORMATION", "family": "INFORMATION AND ARTS GROUP", "employees": 717, "avgSalary": 111123}, {"code": "3502", "name": "LABORING", "family": "GENERAL SERVICES AND SUPPORT WORK FAMILY", "employees": 714, "avgSalary": 46725}, {"code": "0090", "name": "GUIDE", "family": "MISCELLANEOUS OCCUPATIONS GROUP", "employees": 709, "avgSalary": 46318}, {"code": "1860", "name": "EQUAL OPPORTUNITY INVESTIGATION", "family": "INVESTIGATION GROUP", "employees": 704, "avgSalary": 106214}, {"code": "0346", "name": "LOGISTICS MANAGEMENT", "family": "GENERAL ADMINISTRATIVE, CLERICAL, AND OFFICE SERVICES GROUP", "employees": 700, "avgSalary": 115132}, {"code": "1140", "name": "TRADE SPECIALIST", "family": "BUSINESS AND INDUSTRY GROUP", "employees": 698, "avgSalary": 141215}, {"code": "1082", "name": "WRITING AND EDITING", "family": "INFORMATION AND ARTS GROUP", "employees": 688, "avgSalary": 133488}, {"code": "0150", "name": "GEOGRAPHY", "family": "SOCIAL SCIENCE, PSYCHOLOGY, AND WELFARE GROUP", "employees": 668, "avgSalary": 115848}, {"code": "0405", "name": "PHARMACOLOGY", "family": "BIOLOGICAL SCIENCES GROUP", "employees": 666, "avgSalary": 177232}, {"code": "0808", "name": "ARCHITECTURE", "family": "ENGINEERING AND ARCHITECTURE GROUP", "employees": 643, "avgSalary": 138626}, {"code": "0188", "name": "RECREATION SPECIALIST", "family": "SOCIAL SCIENCE, PSYCHOLOGY, AND WELFARE GROUP", "employees": 630, "avgSalary": 81714}, {"code": "0308", "name": "RECORDS AND INFORMATION MANAGEMENT", "family": "GENERAL ADMINISTRATIVE, CLERICAL, AND OFFICE SERVICES GROUP", "employees": 583, "avgSalary": 126921}, {"code": "1601", "name": "EQUIPMENT FACILITIES, AND SERVICES", "family": "EQUIPMENT, FACILITIES, AND SERVICES GROUP", "employees": 581, "avgSalary": 108814}, {"code": "0690", "name": "INDUSTRIAL HYGIENE", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 571, "avgSalary": 127546}, {"code": "0963", "name": "LEGAL INSTRUMENTS EXAMINING", "family": "LEGAL AND KINDRED GROUP", "employees": 568, "avgSalary": 72370}, {"code": "1311", "name": "PHYSICAL SCIENCE TECHNICIAN", "family": "PHYSICAL SCIENCES GROUP", "employees": 565, "avgSalary": 77165}, {"code": "5703", "name": "MOTOR VEHICLE OPERATING", "family": "TRANSPORTATION/MOBILE EQUIPMENT OPERATION FAMILY", "employees": 564, "avgSalary": 59078}, {"code": "2150", "name": "TRANSPORTATION OPERATIONS", "family": "TRANSPORTATION GROUP", "employees": 563, "avgSalary": 102623}, {"code": "1016", "name": "MUSEUM SPECIALIST AND TECHNICIAN", "family": "INFORMATION AND ARTS GROUP", "employees": 551, "avgSalary": 93201}, {"code": "2121", "name": "RAILROAD SAFETY", "family": "TRANSPORTATION GROUP", "employees": 543, "avgSalary": 117611}, {"code": "1531", "name": "STATISTICAL ASSISTANT", "family": "MATHEMATICS AND STATISTICS GROUP", "employees": 520, "avgSalary": 50630}, {"code": "1420", "name": "ARCHIVIST", "family": "LIBRARY AND ARCHIVES GROUP", "employees": 516, "avgSalary": 115507}, {"code": "2123", "name": "MOTOR CARRIER SAFETY", "family": "TRANSPORTATION GROUP", "employees": 511, "avgSalary": 89300}, {"code": "1146", "name": "AGRICULTURAL MARKETING", "family": "BUSINESS AND INDUSTRY GROUP", "employees": 489, "avgSalary": 122422}, {"code": "1130", "name": "PUBLIC UTILITIES SPECIALIST", "family": "BUSINESS AND INDUSTRY GROUP", "employees": 481, "avgSalary": 127480}, {"code": "0440", "name": "GENETICS", "family": "BIOLOGICAL SCIENCES GROUP", "employees": 478, "avgSalary": 136313}, {"code": "1910", "name": "QUALITY ASSURANCE", "family": "QUALITY ASSURANCE, INSPECTION, AND GRADING GROUP", "employees": 477, "avgSalary": 126923}, {"code": "0644", "name": "MEDICAL TECHNOLOGIST", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 477, "avgSalary": 118638}, {"code": "0485", "name": "WILDLIFE REFUGE MANAGEMENT", "family": "BIOLOGICAL SCIENCES GROUP", "employees": 463, "avgSalary": 112814}, {"code": "1361", "name": "NAVIGATIONAL INFORMATION", "family": "PHYSICAL SCIENCES GROUP", "employees": 460, "avgSalary": 148540}, {"code": "0020", "name": "COMMUNITY PLANNING", "family": "MISCELLANEOUS OCCUPATIONS GROUP", "employees": 458, "avgSalary": 127575}, {"code": "2005", "name": "SUPPLY CLERICAL AND TECHNICIAN", "family": "SUPPLY GROUP", "employees": 453, "avgSalary": 57782}, {"code": "0414", "name": "ENTOMOLOGY", "family": "BIOLOGICAL SCIENCES GROUP", "employees": 452, "avgSalary": 130197}, {"code": "0415", "name": "TOXICOLOGY", "family": "BIOLOGICAL SCIENCES GROUP", "employees": 447, "avgSalary": 144681}, {"code": "1412", "name": "TECHNICAL INFORMATION SERVICES", "family": "LIBRARY AND ARCHIVES GROUP", "employees": 447, "avgSalary": 127976}, {"code": "0023", "name": "OUTDOOR RECREATION PLANNING", "family": "MISCELLANEOUS OCCUPATIONS GROUP", "employees": 445, "avgSalary": 92664}, {"code": "1220", "name": "PATENT ADMINISTRATION", "family": "COPYRIGHT, PATENT, AND TRADEMARK GROUP", "employees": 445, "avgSalary": 197193}, {"code": "2805", "name": "ELECTRICIAN", "family": "ELECTRICAL INSTALLATION AND MAINTENANCE FAMILY", "employees": 443, "avgSalary": 88815}, {"code": "0806", "name": "MATERIALS ENGINEERING", "family": "ENGINEERING AND ARCHITECTURE GROUP", "employees": 440, "avgSalary": 152237}, {"code": "0809", "name": "CONSTRUCTION CONTROL TECHNICAL", "family": "ENGINEERING AND ARCHITECTURE GROUP", "employees": 437, "avgSalary": 102246}, {"code": "1083", "name": "TECHNICAL WRITING AND EDITING", "family": "INFORMATION AND ARTS GROUP", "employees": 436, "avgSalary": 127042}, {"code": "0987", "name": "TAX LAW SPECIALIST", "family": "LEGAL AND KINDRED GROUP", "employees": 434, "avgSalary": 147721}, {"code": "1831", "name": "SECURITIES COMPLIANCE EXAMINING", "family": "INVESTIGATION GROUP", "employees": 432, "avgSalary": 234477}, {"code": "0899", "name": "ENGINEERING AND ARCHITECTURE STUDENT TRAINEE", "family": "ENGINEERING AND ARCHITECTURE GROUP", "employees": 427, "avgSalary": 53175}, {"code": "0681", "name": "DENTAL ASSISTANT", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 424, "avgSalary": 58125}, {"code": "0621", "name": "NURSING ASSISTANT", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 422, "avgSalary": 48534}, {"code": "0499", "name": "BIOLOGICAL SCIENCE STUDENT TRAINEE", "family": "BIOLOGICAL SCIENCES GROUP", "employees": 421, "avgSalary": 41354}, {"code": "0680", "name": "DENTAL OFFICER", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 419, "avgSalary": 210638}, {"code": "1410", "name": "LIBRARIAN", "family": "LIBRARY AND ARCHIVES GROUP", "employees": 417, "avgSalary": 130844}, {"code": "1370", "name": "CARTOGRAPHY", "family": "PHYSICAL SCIENCES GROUP", "employees": 416, "avgSalary": 116921}, {"code": "1330", "name": "ASTRONOMY AND SPACE SCIENCE", "family": "PHYSICAL SCIENCES GROUP", "employees": 411, "avgSalary": 174048}, {"code": "0661", "name": "PHARMACY TECHNICIAN", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 410, "avgSalary": 69485}, {"code": "0704", "name": "ANIMAL HEALTH TECHNICIAN", "family": "VETERINARY MEDICAL SCIENCE GROUP", "employees": 409, "avgSalary": 65695}, {"code": "2003", "name": "SUPPLY PROGRAM MANAGEMENT", "family": "SUPPLY GROUP", "employees": 401, "avgSalary": 109260}, {"code": "1720", "name": "EDUCATION PROGRAM", "family": "EDUCATION GROUP", "employees": 398, "avgSalary": 140810}, {"code": "1670", "name": "EQUIPMENT SERVICES", "family": "EQUIPMENT, FACILITIES, AND SERVICES GROUP", "employees": 395, "avgSalary": 106590}, {"code": "1226", "name": "DESIGN PATENT EXAMINING", "family": "COPYRIGHT, PATENT, AND TRADEMARK GROUP", "employees": 392, "avgSalary": 124327}, {"code": "0326", "name": "OFFICE AUTOMATION CLERICAL AND ASSISTANCE", "family": "GENERAL ADMINISTRATIVE, CLERICAL, AND OFFICE SERVICES GROUP", "employees": 391, "avgSalary": 51707}, {"code": "0480", "name": "FISH AND WILDLIFE ADMINISTRATION", "family": "BIOLOGICAL SCIENCES GROUP", "employees": 383, "avgSalary": 166378}, {"code": "1222", "name": "PATENT ATTORNEY", "family": "COPYRIGHT, PATENT, AND TRADEMARK GROUP", "employees": 380, "avgSalary": 197908}, {"code": "1145", "name": "AGRICULTURAL PROGRAM SPECIALIST", "family": "BUSINESS AND INDUSTRY GROUP", "employees": 377, "avgSalary": 111718}, {"code": "1071", "name": "AUDIOVISUAL PRODUCTION", "family": "INFORMATION AND ARTS GROUP", "employees": 369, "avgSalary": 130030}, {"code": "1105", "name": "PURCHASING", "family": "BUSINESS AND INDUSTRY GROUP", "employees": 357, "avgSalary": 68987}, {"code": "0505", "name": "FINANCIAL MANAGEMENT", "family": "ACCOUNTING AND BUDGET GROUP", "employees": 355, "avgSalary": 183219}, {"code": "1171", "name": "APPRAISING", "family": "BUSINESS AND INDUSTRY GROUP", "employees": 354, "avgSalary": 141786}, {"code": "1015", "name": "MUSEUM CURATOR", "family": "INFORMATION AND ARTS GROUP", "employees": 353, "avgSalary": 122587}, {"code": "0858", "name": "BIOENGINEERING & BIOMEDICAL ENGINEERING", "family": "ENGINEERING AND ARCHITECTURE GROUP", "employees": 347, "avgSalary": 160372}, {"code": "5407", "name": "ELECTRICAL POWER CONTROLLING", "family": "INDUSTRIAL EQUIPMENT OPERATION FAMILY", "employees": 345, "avgSalary": 145005}, {"code": "2151", "name": "DISPATCHING", "family": "TRANSPORTATION GROUP", "employees": 333, "avgSalary": 58627}, {"code": "0305", "name": "MAIL AND FILE", "family": "GENERAL ADMINISTRATIVE, CLERICAL, AND OFFICE SERVICES GROUP", "employees": 331, "avgSalary": 55841}, {"code": "0119", "name": "ECONOMICS ASSISTANT", "family": "SOCIAL SCIENCE, PSYCHOLOGY, AND WELFARE GROUP", "employees": 331, "avgSalary": 56502}, {"code": "5701", "name": "MISC TRANSPORTATION/MOBILE EQUIPMENT OPER", "family": "TRANSPORTATION/MOBILE EQUIPMENT OPERATION FAMILY", "employees": 330, "avgSalary": 479655}, {"code": "0186", "name": "SOCIAL SERVICES AID AND ASSISTANT", "family": "SOCIAL SCIENCE, PSYCHOLOGY, AND WELFARE GROUP", "employees": 327, "avgSalary": 56339}, {"code": "0993", "name": "RAILROAD RETIREMENT CLAIMS EXAMINING", "family": "LEGAL AND KINDRED GROUP", "employees": 327, "avgSalary": 90632}, {"code": "1313", "name": "GEOPHYSICS", "family": "PHYSICAL SCIENCES GROUP", "employees": 325, "avgSalary": 144461}, {"code": "1750", "name": "INSTRUCTIONAL SYSTEMS", "family": "EDUCATION GROUP", "employees": 323, "avgSalary": 138155}, {"code": "0881", "name": "PETROLEUM ENGINEERING", "family": "ENGINEERING AND ARCHITECTURE GROUP", "employees": 317, "avgSalary": 134222}, {"code": "0890", "name": "AGRICULTURAL ENGINEERING", "family": "ENGINEERING AND ARCHITECTURE GROUP", "employees": 317, "avgSalary": 107421}, {"code": "5306", "name": "AIR CONDITIONING EQUIPMENT MECHANIC", "family": "INDUSTRIAL EQUIPMENT MAINTENANCE FAMILY", "employees": 317, "avgSalary": 87568}, {"code": "0603", "name": "PHYSICIAN ASSISTANT", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 309, "avgSalary": 116157}, {"code": "1373", "name": "LAND SURVEYING", "family": "PHYSICAL SCIENCES GROUP", "employees": 301, "avgSalary": 105119}, {"code": "1603", "name": "EQUIPMENT, FACILITIES, AND SERVICES ASSISTANCE", "family": "EQUIPMENT, FACILITIES, AND SERVICES GROUP", "employees": 297, "avgSalary": 67049}, {"code": "0335", "name": "COMPUTER CLERK AND ASSISTANT", "family": "GENERAL ADMINISTRATIVE, CLERICAL, AND OFFICE SERVICES GROUP", "employees": 297, "avgSalary": 69379}, {"code": "0430", "name": "BOTANY", "family": "BIOLOGICAL SCIENCES GROUP", "employees": 295, "avgSalary": 92330}, {"code": "1306", "name": "HEALTH PHYSICS", "family": "PHYSICAL SCIENCES GROUP", "employees": 294, "avgSalary": 147571}, {"code": "2181", "name": "AIRCRAFT OPERATION", "family": "TRANSPORTATION GROUP", "employees": 293, "avgSalary": 149749}, {"code": "1654", "name": "PRINTING SERVICES", "family": "EQUIPMENT, FACILITIES, AND SERVICES GROUP", "employees": 292, "avgSalary": 128249}, {"code": "0620", "name": "PRACTICAL NURSE", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 288, "avgSalary": 67037}, {"code": "1040", "name": "LANGUAGE SPECIALIST", "family": "INFORMATION AND ARTS GROUP", "employees": 288, "avgSalary": 116551}, {"code": "0670", "name": "HEALTH SYSTEM ADMINISTRATION", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 286, "avgSalary": 124098}, {"code": "0185", "name": "SOCIAL WORK", "family": "SOCIAL SCIENCE, PSYCHOLOGY, AND WELFARE GROUP", "employees": 284, "avgSalary": 105720}, {"code": "0671", "name": "HEALTH SYSTEM SPECIALIST", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 282, "avgSalary": 99691}, {"code": "5352", "name": "INDUSTRIAL EQUIPMENT MECHANIC", "family": "INDUSTRIAL EQUIPMENT MAINTENANCE FAMILY", "employees": 277, "avgSalary": 119660}, {"code": "2010", "name": "INVENTORY MANAGEMENT", "family": "SUPPLY GROUP", "employees": 274, "avgSalary": 97596}, {"code": "0060", "name": "CHAPLAIN", "family": "MISCELLANEOUS OCCUPATIONS GROUP", "employees": 273, "avgSalary": 116795}, {"code": "3869", "name": "METAL FORMING MACHINE OPERATING", "family": "METAL WORK FAMILY", "employees": 270, "avgSalary": 69115}, {"code": "0170", "name": "HISTORY", "family": "SOCIAL SCIENCE, PSYCHOLOGY, AND WELFARE GROUP", "employees": 266, "avgSalary": 123805}, {"code": "2001", "name": "GENERAL SUPPLY", "family": "SUPPLY GROUP", "employees": 264, "avgSalary": 100550}, {"code": "1510", "name": "ACTUARIAL SCIENCE", "family": "MATHEMATICS AND STATISTICS GROUP", "employees": 262, "avgSalary": 165279}, {"code": "0647", "name": "DIAGNOSTIC RADIOLOGIC TECHNOLOGIST", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 258, "avgSalary": 85475}, {"code": "*", "name": "Invalid", "family": "Invalid", "employees": 256, "avgSalary": 123436}, {"code": "0893", "name": "CHEMICAL ENGINEERING", "family": "ENGINEERING AND ARCHITECTURE GROUP", "employees": 252, "avgSalary": 142805}, {"code": "0030", "name": "SPORTS SPECIALIST", "family": "MISCELLANEOUS OCCUPATIONS GROUP", "employees": 250, "avgSalary": 82845}, {"code": "0142", "name": "WORKFORCE DEVELOPMENT", "family": "SOCIAL SCIENCE, PSYCHOLOGY, AND WELFARE GROUP", "employees": 249, "avgSalary": 129942}, {"code": "4402", "name": "BINDERY WORKING", "family": "PRINTING FAMILY", "employees": 248, "avgSalary": 99430}, {"code": "2125", "name": "HIGHWAY SAFETY", "family": "TRANSPORTATION GROUP", "employees": 248, "avgSalary": 132075}, {"code": "5823", "name": "AUTOMOTIVE MECHANIC", "family": "TRANSPORTATION/MOBILE EQUIPMENT MAINTENANCE FAMILY", "employees": 243, "avgSalary": 80759}, {"code": "0434", "name": "PLANT PATHOLOGY", "family": "BIOLOGICAL SCIENCES GROUP", "employees": 243, "avgSalary": 135102}, {"code": "0807", "name": "LANDSCAPE ARCHITECTURE", "family": "ENGINEERING AND ARCHITECTURE GROUP", "employees": 236, "avgSalary": 115375}, {"code": "1010", "name": "EXHIBITS SPECIALIST", "family": "INFORMATION AND ARTS GROUP", "employees": 236, "avgSalary": 99954}, {"code": "0131", "name": "INTERNATIONAL RELATIONS", "family": "SOCIAL SCIENCE, PSYCHOLOGY, AND WELFARE GROUP", "employees": 233, "avgSalary": 152280}, {"code": "4206", "name": "PLUMBING", "family": "PLUMBING AND PIPEFITTING FAMILY", "employees": 230, "avgSalary": 88262}, {"code": "0904", "name": "LAW CLERK", "family": "LEGAL AND KINDRED GROUP", "employees": 230, "avgSalary": 94984}, {"code": "0630", "name": "DIETITIAN AND NUTRITIONIST", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 227, "avgSalary": 124555}, {"code": "1360", "name": "OCEANOGRAPHY", "family": "PHYSICAL SCIENCES GROUP", "employees": 225, "avgSalary": 153338}, {"code": "2606", "name": "ELECTRONIC INDUSTRIAL CONTROLS MECHANIC", "family": "ELECTRONIC EQUIPMENT INSTALLATION AND MAINTENANCE FAMILY", "employees": 223, "avgSalary": 127911}, {"code": "5001", "name": "MISCELLANEOUS PLANT AND ANIMAL WORK", "family": "PLANT AND ANIMAL WORK FAMILY", "employees": 223, "avgSalary": 67969}, {"code": "4406", "name": "LETTERPRESS OPERATING", "family": "PRINTING FAMILY", "employees": 216, "avgSalary": 135881}, {"code": "0244", "name": "LABOR-MANAGEMENT RELATIONS EXAMINING", "family": "HUMAN RESOURCES MANAGEMENT GROUP", "employees": 214, "avgSalary": 143914}, {"code": "1399", "name": "PHYSICAL SCIENCE STUDENT TRAINEE", "family": "PHYSICAL SCIENCES GROUP", "employees": 212, "avgSalary": 46579}, {"code": "0965", "name": "LAND LAW EXAMINING", "family": "LEGAL AND KINDRED GROUP", "employees": 212, "avgSalary": 77641}, {"code": "0471", "name": "AGRONOMY", "family": "BIOLOGICAL SCIENCES GROUP", "employees": 207, "avgSalary": 107716}, {"code": "0455", "name": "RANGE TECHNICIAN", "family": "BIOLOGICAL SCIENCES GROUP", "employees": 205, "avgSalary": 58216}, {"code": "1199", "name": "BUSINESS AND INDUSTRY STUDENT TRAINEE", "family": "BUSINESS AND INDUSTRY GROUP", "employees": 205, "avgSalary": 40999}, {"code": "2110", "name": "TRANSPORTATION INDUSTRY ANALYSIS", "family": "TRANSPORTATION GROUP", "employees": 202, "avgSalary": 143285}, {"code": "6941", "name": "BULK MONEY HANDLING", "family": "WAREHOUSING AND STOCK HANDLING FAMILY", "employees": 193, "avgSalary": 68512}, {"code": "1667", "name": "FOOD SERVICES", "family": "EQUIPMENT, FACILITIES, AND SERVICES GROUP", "employees": 192, "avgSalary": 107806}, {"code": "2154", "name": "AIR TRAFFIC ASSISTANCE", "family": "TRANSPORTATION GROUP", "employees": 190, "avgSalary": 83274}, {"code": "0086", "name": "SECURITY CLERICAL AND ASSISTANCE", "family": "MISCELLANEOUS OCCUPATIONS GROUP", "employees": 182, "avgSalary": 59960}, {"code": "1341", "name": "METEOROLOGICAL TECHNICIAN", "family": "PHYSICAL SCIENCES GROUP", "employees": 176, "avgSalary": 96974}, {"code": "0199", "name": "SOCIAL SCIENCE STUDENT TRAINEE", "family": "SOCIAL SCIENCE, PSYCHOLOGY, AND WELFARE GROUP", "employees": 175, "avgSalary": 57760}, {"code": "0645", "name": "MEDICAL TECHNICIAN", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 175, "avgSalary": 54143}, {"code": "0099", "name": "GENERAL STUDENT TRAINEE", "family": "MISCELLANEOUS OCCUPATIONS GROUP", "employees": 174, "avgSalary": 44122}, {"code": "4701", "name": "MISC GENERAL MAINTENANCE & OPERATIONS WORK", "family": "GENERAL MAINTENANCE AND OPERATIONS WORK FAMILY", "employees": 169, "avgSalary": 86880}, {"code": "0102", "name": "SOCIAL SCIENCE AID AND TECHNICIAN", "family": "SOCIAL SCIENCE, PSYCHOLOGY, AND WELFARE GROUP", "employees": 169, "avgSalary": 56620}, {"code": "0135", "name": "FOREIGN AGRICULTURAL AFFAIRS", "family": "SOCIAL SCIENCE, PSYCHOLOGY, AND WELFARE GROUP", "employees": 162, "avgSalary": 153421}, {"code": "0544", "name": "CIVILIAN PAY", "family": "ACCOUNTING AND BUDGET GROUP", "employees": 153, "avgSalary": 55800}, {"code": "4401", "name": "MISCELLANEOUS PRINTING AND REPRODUCTION", "family": "PRINTING FAMILY", "employees": 152, "avgSalary": 84341}, {"code": "1371", "name": "CARTOGRAPHIC TECHNICIAN", "family": "PHYSICAL SCIENCES GROUP", "employees": 152, "avgSalary": 69237}, {"code": "5048", "name": "ANIMAL CARETAKING", "family": "PLANT AND ANIMAL WORK FAMILY", "employees": 151, "avgSalary": 55490}, {"code": "0241", "name": "MEDIATION", "family": "HUMAN RESOURCES MANAGEMENT GROUP", "employees": 148, "avgSalary": 151943}, {"code": "1520", "name": "MATHEMATICS", "family": "MATHEMATICS AND STATISTICS GROUP", "employees": 147, "avgSalary": 175081}, {"code": "1147", "name": "AGRICULTURAL MARKET REPORTING", "family": "BUSINESS AND INDUSTRY GROUP", "employees": 146, "avgSalary": 98882}, {"code": "1104", "name": "PROPERTY DISPOSAL", "family": "BUSINESS AND INDUSTRY GROUP", "employees": 145, "avgSalary": 116256}, {"code": "5003", "name": "GARDENING", "family": "PLANT AND ANIMAL WORK FAMILY", "employees": 144, "avgSalary": 72308}, {"code": "5803", "name": "HEAVY MOBILE EQUIPMENT MECHANIC", "family": "TRANSPORTATION/MOBILE EQUIPMENT MAINTENANCE FAMILY", "employees": 144, "avgSalary": 92031}, {"code": "4403", "name": "HAND COMPOSING", "family": "PRINTING FAMILY", "employees": 140, "avgSalary": 101590}, {"code": "0561", "name": "BUDGET CLERICAL AND ASSISTANCE", "family": "ACCOUNTING AND BUDGET GROUP", "employees": 138, "avgSalary": 59484}, {"code": "0332", "name": "COMPUTER OPERATION", "family": "GENERAL ADMINISTRATIVE, CLERICAL, AND OFFICE SERVICES GROUP", "employees": 138, "avgSalary": 65935}, {"code": "2610", "name": "ELECTRONIC INTEGRATED SYSTEMS MECHANIC", "family": "ELECTRONIC EQUIPMENT INSTALLATION AND MAINTENANCE FAMILY", "employees": 136, "avgSalary": 149518}, {"code": "0599", "name": "FINANCIAL MANAGEMENT STUDENT TRAINEE", "family": "ACCOUNTING AND BUDGET GROUP", "employees": 135, "avgSalary": 48603}, {"code": "0804", "name": "FIRE PROTECTION ENGINEERING", "family": "ENGINEERING AND ARCHITECTURE GROUP", "employees": 132, "avgSalary": 156201}, {"code": "5705", "name": "TRACTOR OPERATING", "family": "TRANSPORTATION/MOBILE EQUIPMENT OPERATION FAMILY", "employees": 130, "avgSalary": 58701}, {"code": "2130", "name": "TRAFFIC MANAGEMENT", "family": "TRANSPORTATION GROUP", "employees": 129, "avgSalary": 121119}, {"code": "3359", "name": "INSTRUMENT MECHANIC", "family": "INSTRUMENT WORK FAMILY", "employees": 128, "avgSalary": 57966}, {"code": "4454", "name": "INTAGLIO PRESS OPERATING", "family": "PRINTING FAMILY", "employees": 128, "avgSalary": 139573}, {"code": "0050", "name": "FUNERAL DIRECTING", "family": "MISCELLANEOUS OCCUPATIONS GROUP", "employees": 126, "avgSalary": 92471}, {"code": "4607", "name": "CARPENTRY", "family": "WOOD WORK FAMILY", "employees": 124, "avgSalary": 82915}, {"code": "3603", "name": "MASONRY", "family": "STRUCTURAL AND FINISHING WORK FAMILY", "employees": 122, "avgSalary": 67993}, {"code": "1106", "name": "PROCUREMENT CLERICAL AND TECHNICIAN", "family": "BUSINESS AND INDUSTRY GROUP", "employees": 121, "avgSalary": 62305}, {"code": "0803", "name": "SAFETY ENGINEERING", "family": "ENGINEERING AND ARCHITECTURE GROUP", "employees": 120, "avgSalary": 133536}, {"code": "0669", "name": "MEDICAL RECORDS ADMINISTRATION", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 119, "avgSalary": 92508}, {"code": "4204", "name": "PIPEFITTING", "family": "PLUMBING AND PIPEFITTING FAMILY", "employees": 118, "avgSalary": 92309}, {"code": "2299", "name": "INFORMATION TECHNOLOGY STUDENT TRAINEE", "family": "INFORMATION TECHNOLOGY GROUP", "employees": 118, "avgSalary": 50156}, {"code": "0817", "name": "SURVEY TECHNICAL", "family": "ENGINEERING AND ARCHITECTURE GROUP", "employees": 113, "avgSalary": 60822}, {"code": "1008", "name": "INTERIOR DESIGN", "family": "INFORMATION AND ARTS GROUP", "employees": 110, "avgSalary": 134279}, {"code": "0437", "name": "HORTICULTURE", "family": "BIOLOGICAL SCIENCES GROUP", "employees": 109, "avgSalary": 108793}, {"code": "0682", "name": "DENTAL HYGIENE", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 109, "avgSalary": 82375}, {"code": "0350", "name": "EQUIPMENT OPERATOR", "family": "GENERAL ADMINISTRATIVE, CLERICAL, AND OFFICE SERVICES GROUP", "employees": 106, "avgSalary": 51342}, {"code": "0651", "name": "RESPIRATORY THERAPIST", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 106, "avgSalary": 70740}, {"code": "0081", "name": "FIRE PROTECTION AND PREVENTION", "family": "MISCELLANEOUS OCCUPATIONS GROUP", "employees": 105, "avgSalary": 95281}, {"code": "2604", "name": "ELECTRONICS MECHANIC", "family": "ELECTRONIC EQUIPMENT INSTALLATION AND MAINTENANCE FAMILY", "employees": 101, "avgSalary": 130274}, {"code": "1730", "name": "EDUCATION RESEARCH", "family": "EDUCATION GROUP", "employees": 97, "avgSalary": 146502}, {"code": "3414", "name": "MACHINING", "family": "MACHINE TOOL WORK FAMILY", "employees": 96, "avgSalary": 91320}, {"code": "1382", "name": "FOOD TECHNOLOGY", "family": "PHYSICAL SCIENCES GROUP", "employees": 96, "avgSalary": 143664}, {"code": "0190", "name": "GENERAL ANTHROPOLOGY", "family": "SOCIAL SCIENCE, PSYCHOLOGY, AND WELFARE GROUP", "employees": 95, "avgSalary": 116388}, {"code": "5031", "name": "INSECTS PRODUCTION WORKING", "family": "PLANT AND ANIMAL WORK FAMILY", "employees": 94, "avgSalary": 52612}, {"code": "0106", "name": "UNEMPLOYMENT INSURANCE", "family": "SOCIAL SCIENCE, PSYCHOLOGY, AND WELFARE GROUP", "employees": 89, "avgSalary": 128772}, {"code": "0413", "name": "PHYSIOLOGY", "family": "BIOLOGICAL SCIENCES GROUP", "employees": 89, "avgSalary": 153275}, {"code": "7002", "name": "PACKING", "family": "PACKING AND PROCESSING FAMILY", "employees": 89, "avgSalary": 61417}, {"code": "3105", "name": "FABRIC WORKING", "family": "FABRIC AND LEATHER WORK FAMILY", "employees": 88, "avgSalary": 81526}, {"code": "1411", "name": "LIBRARY TECHNICIAN", "family": "LIBRARY AND ARCHIVES GROUP", "employees": 88, "avgSalary": 73431}, {"code": "0435", "name": "PLANT PHYSIOLOGY", "family": "BIOLOGICAL SCIENCES GROUP", "employees": 85, "avgSalary": 139365}, {"code": "4102", "name": "PAINTING", "family": "PAINTING AND PAPERHANGING FAMILY", "employees": 82, "avgSalary": 87584}, {"code": "0958", "name": "EMPLOYEE BENEFITS LAW", "family": "LEGAL AND KINDRED GROUP", "employees": 75, "avgSalary": 150482}, {"code": "9901", "name": "MISCELLANEOUS VESSEL JOBS", "family": "VESSEL JOBS FAMILY (EXCLUDED FROM THE FEDERAL WAGE SYSTEM)", "employees": 75, "avgSalary": 55580}, {"code": "0181", "name": "PSYCHOLOGY AID AND TECHNICIAN", "family": "SOCIAL SCIENCE, PSYCHOLOGY, AND WELFARE GROUP", "employees": 73, "avgSalary": 65339}, {"code": "0136", "name": "INTERNATIONAL COOPERATION", "family": "SOCIAL SCIENCE, PSYCHOLOGY, AND WELFARE GROUP", "employees": 73, "avgSalary": 151301}, {"code": "5786", "name": "SMALL CRAFT OPERATING", "family": "TRANSPORTATION/MOBILE EQUIPMENT OPERATION FAMILY", "employees": 72, "avgSalary": 74317}, {"code": "7408", "name": "FOOD SERVICE WORKING", "family": "FOOD PREPARATION AND SERVING FAMILY", "employees": 72, "avgSalary": 48571}, {"code": "0487", "name": "ANIMAL SCIENCE", "family": "BIOLOGICAL SCIENCES GROUP", "employees": 71, "avgSalary": 131711}, {"code": "0459", "name": "IRRIGATION SYSTEM OPERATION", "family": "BIOLOGICAL SCIENCES GROUP", "employees": 70, "avgSalary": 53491}, {"code": "0662", "name": "OPTOMETRIST", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 70, "avgSalary": 149801}, {"code": "2199", "name": "TRANSPORTATION STUDENT TRAINEE", "family": "TRANSPORTATION GROUP", "employees": 67, "avgSalary": 46911}, {"code": "0999", "name": "LEGAL OCCUPATIONS STUDENT TRAINEE", "family": "LEGAL AND KINDRED GROUP", "employees": 66, "avgSalary": 54474}, {"code": "5350", "name": "PRODUCTION MACHINERY MECHANIC", "family": "INDUSTRIAL EQUIPMENT MAINTENANCE FAMILY", "employees": 66, "avgSalary": 77590}, {"code": "1599", "name": "MATHEMATICS AND STATISTICS STUDENT TRAINEE", "family": "MATHEMATICS AND STATISTICS GROUP", "employees": 64, "avgSalary": 50997}, {"code": "0633", "name": "PHYSICAL THERAPIST", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 64, "avgSalary": 101121}, {"code": "4417", "name": "OFFSET PRESS OPERATING", "family": "PRINTING FAMILY", "employees": 63, "avgSalary": 114553}, {"code": "3703", "name": "WELDING", "family": "METAL PROCESSING FAMILY", "employees": 63, "avgSalary": 90177}, {"code": "0622", "name": "MEDICAL SUPPLY AIDE AND TECHNICIAN", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 63, "avgSalary": 55069}, {"code": "0896", "name": "INDUSTRIAL ENGINEERING", "family": "ENGINEERING AND ARCHITECTURE GROUP", "employees": 63, "avgSalary": 154364}, {"code": "0540", "name": "VOUCHER EXAMINING", "family": "ACCOUNTING AND BUDGET GROUP", "employees": 63, "avgSalary": 56913}, {"code": "0140", "name": "WORKFORCE RESEARCH AND ANALYSIS", "family": "SOCIAL SCIENCE, PSYCHOLOGY, AND WELFARE GROUP", "employees": 61, "avgSalary": 138241}, {"code": "0880", "name": "MINING ENGINEERING", "family": "ENGINEERING AND ARCHITECTURE GROUP", "employees": 59, "avgSalary": 127381}, {"code": "1372", "name": "GEODESY", "family": "PHYSICAL SCIENCES GROUP", "employees": 58, "avgSalary": 153582}, {"code": "0299", "name": "HUMAN RESOURCES MANAGEMENT STUDENT TRAINEE", "family": "HUMAN RESOURCES MANAGEMENT GROUP", "employees": 57, "avgSalary": 51645}, {"code": "4441", "name": "BOOKBINDING", "family": "PRINTING FAMILY", "employees": 57, "avgSalary": 121222}, {"code": "2102", "name": "TRANSPORTATION CLERK AND ASSISTANT", "family": "TRANSPORTATION GROUP", "employees": 56, "avgSalary": 67719}, {"code": "9924", "name": "ABLE SEAMAN", "family": "VESSEL JOBS FAMILY (EXCLUDED FROM THE FEDERAL WAGE SYSTEM)", "employees": 56, "avgSalary": 51570}, {"code": "2030", "name": "DISTRIBUTION FACILITIES & STORAGE MANAGEMENT", "family": "SUPPLY GROUP", "employees": 55, "avgSalary": 111816}, {"code": "5301", "name": "MISC INDUSTRIAL EQUIPMENT MAINTENANCE", "family": "INDUSTRIAL EQUIPMENT MAINTENANCE FAMILY", "employees": 54, "avgSalary": 96140}, {"code": "3501", "name": "MISC GENERAL SERVICES AND SUPPORT WORK", "family": "GENERAL SERVICES AND SUPPORT WORK FAMILY", "employees": 53, "avgSalary": 56504}, {"code": "1103", "name": "INDUSTRIAL PROPERTY MANAGEMENT", "family": "BUSINESS AND INDUSTRY GROUP", "employees": 53, "avgSalary": 127878}, {"code": "0361", "name": "EQUAL OPPORTUNITY ASSISTANCE", "family": "GENERAL ADMINISTRATIVE, CLERICAL, AND OFFICE SERVICES GROUP", "employees": 52, "avgSalary": 69462}, {"code": "0160", "name": "CIVIL RIGHTS ANALYSIS", "family": "SOCIAL SCIENCE, PSYCHOLOGY, AND WELFARE GROUP", "employees": 51, "avgSalary": 149087}, {"code": "0189", "name": "RECREATION AID AND ASSISTANT", "family": "SOCIAL SCIENCE, PSYCHOLOGY, AND WELFARE GROUP", "employees": 51, "avgSalary": 51129}, {"code": "1152", "name": "PRODUCTION CONTROL", "family": "BUSINESS AND INDUSTRY GROUP", "employees": 50, "avgSalary": 99352}, {"code": "5042", "name": "TREE TRIMMING AND REMOVING", "family": "PLANT AND ANIMAL WORK FAMILY", "employees": 50, "avgSalary": 81029}, {"code": "5406", "name": "UTILITY SYSTEMS OPERATING", "family": "INDUSTRIAL EQUIPMENT OPERATION FAMILY", "employees": 49, "avgSalary": 76419}, {"code": "0382", "name": "TELEPHONE OPERATING", "family": "GENERAL ADMINISTRATIVE, CLERICAL, AND OFFICE SERVICES GROUP", "employees": 47, "avgSalary": 42580}, {"code": "5334", "name": "MARINE MACHINERY MECHANIC", "family": "INDUSTRIAL EQUIPMENT MAINTENANCE FAMILY", "employees": 47, "avgSalary": 81425}, {"code": "1060", "name": "PHOTOGRAPHY", "family": "INFORMATION AND ARTS GROUP", "employees": 47, "avgSalary": 105079}, {"code": "1501", "name": "GENERAL MATHEMATICS AND STATISTICS", "family": "MATHEMATICS AND STATISTICS GROUP", "employees": 45, "avgSalary": 208581}, {"code": "1850", "name": "AGRICULTURAL WAREHOUSE INSPECTION SERIES", "family": "INVESTIGATION GROUP", "employees": 45, "avgSalary": 96065}, {"code": "5401", "name": "MISC INDUSTRIAL EQUIPMENT OPERATION", "family": "INDUSTRIAL EQUIPMENT OPERATION FAMILY", "employees": 45, "avgSalary": 94968}, {"code": "5409", "name": "WATER TREATMENT PLANT OPERATING", "family": "INDUSTRIAL EQUIPMENT OPERATION FAMILY", "employees": 44, "avgSalary": 90335}, {"code": "3806", "name": "SHEET METAL MECHANIC", "family": "METAL WORK FAMILY", "employees": 44, "avgSalary": 93297}, {"code": "0688", "name": "SANITARIAN", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 43, "avgSalary": 93005}, {"code": "0649", "name": "MEDICAL INSTRUMENT TECHNICIAN", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 43, "avgSalary": 86100}, {"code": "1223", "name": "PATENT CLASSIFYING", "family": "COPYRIGHT, PATENT, AND TRADEMARK GROUP", "employees": 43, "avgSalary": 186949}, {"code": "5729", "name": "DRILL RIG OPERATING", "family": "TRANSPORTATION/MOBILE EQUIPMENT OPERATION FAMILY", "employees": 42, "avgSalary": 72723}, {"code": "0410", "name": "ZOOLOGY", "family": "BIOLOGICAL SCIENCES GROUP", "employees": 41, "avgSalary": 155897}, {"code": "0665", "name": "SPEECH PATHOLOGY AND AUDIOLOGY", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 39, "avgSalary": 117160}, {"code": "0873", "name": "MARINE SURVEY TECHNICAL", "family": "ENGINEERING AND ARCHITECTURE GROUP", "employees": 39, "avgSalary": 140574}, {"code": "9927", "name": "SEAMAN-FISHERMAN", "family": "VESSEL JOBS FAMILY (EXCLUDED FROM THE FEDERAL WAGE SYSTEM)", "employees": 39, "avgSalary": 60314}, {"code": "0304", "name": "INFORMATION RECEPTIONIST", "family": "GENERAL ADMINISTRATIVE, CLERICAL, AND OFFICE SERVICES GROUP", "employees": 38, "avgSalary": 52635}, {"code": "1150", "name": "INDUSTRIAL SPECIALIST", "family": "BUSINESS AND INDUSTRY GROUP", "employees": 38, "avgSalary": 142199}, {"code": "1740", "name": "EDUCATION SERVICES", "family": "EDUCATION GROUP", "employees": 37, "avgSalary": 77405}, {"code": "5408", "name": "SEWAGE DISPOSAL PLANT OPERATING", "family": "INDUSTRIAL EQUIPMENT OPERATION FAMILY", "employees": 36, "avgSalary": 75418}, {"code": "1397", "name": "DOCUMENT ANALYSIS", "family": "PHYSICAL SCIENCES GROUP", "employees": 35, "avgSalary": 145331}, {"code": "0187", "name": "SOCIAL SERVICES", "family": "SOCIAL SCIENCE, PSYCHOLOGY, AND WELFARE GROUP", "employees": 34, "avgSalary": 68817}, {"code": "4741", "name": "GENERAL EQUIPMENT OPERATING", "family": "GENERAL MAINTENANCE AND OPERATIONS WORK FAMILY", "employees": 34, "avgSalary": 76048}, {"code": "0668", "name": "PODIATRIST", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 34, "avgSalary": 253229}, {"code": "2601", "name": "MISC ELECTRONIC EQUIPMT INSTALL & MAINTNE", "family": "ELECTRONIC EQUIPMENT INSTALLATION AND MAINTENANCE FAMILY", "employees": 34, "avgSalary": 142211}, {"code": "5026", "name": "PEST CONTROLLING", "family": "PLANT AND ANIMAL WORK FAMILY", "employees": 33, "avgSalary": 69562}, {"code": "1630", "name": "CEMETERY ADMINISTRATION SERVICES", "family": "EQUIPMENT, FACILITIES, AND SERVICES GROUP", "employees": 32, "avgSalary": 88436}, {"code": "5440", "name": "PACKAGING MACHINE OPERATING", "family": "INDUSTRIAL EQUIPMENT OPERATION FAMILY", "employees": 32, "avgSalary": 73714}, {"code": "4605", "name": "WOOD CRAFTING", "family": "WOOD WORK FAMILY", "employees": 32, "avgSalary": 81270}, {"code": "3940", "name": "BROADCASTING EQUIPMENT OPERATING", "family": "MOTION PICTURE, RADIO, TELEVISION, AND SOUND EQUIPMENT OPERATING FAMILY", "employees": 32, "avgSalary": 120660}, {"code": "4601", "name": "MISCELLANEOUS WOODWORK", "family": "WOOD WORK FAMILY", "employees": 31, "avgSalary": 84731}, {"code": "9932", "name": "FIRST ASSISTANT ENGINEER", "family": "VESSEL JOBS FAMILY (EXCLUDED FROM THE FEDERAL WAGE SYSTEM)", "employees": 31, "avgSalary": 117467}, {"code": "1173", "name": "HOUSING MANAGEMENT", "family": "BUSINESS AND INDUSTRY GROUP", "employees": 31, "avgSalary": 74978}, {"code": "0356", "name": "DATA TRANSCRIBER", "family": "GENERAL ADMINISTRATIVE, CLERICAL, AND OFFICE SERVICES GROUP", "employees": 29, "avgSalary": 44312}, {"code": "1815", "name": "AIR SAFETY INVESTIGATING", "family": "INVESTIGATION GROUP", "employees": 29, "avgSalary": 151162}, {"code": "9973", "name": "SECOND COOK", "family": "VESSEL JOBS FAMILY (EXCLUDED FROM THE FEDERAL WAGE SYSTEM)", "employees": 29, "avgSalary": 47389}, {"code": "9934", "name": "THIRD ASSISTANT ENGINEER", "family": "VESSEL JOBS FAMILY (EXCLUDED FROM THE FEDERAL WAGE SYSTEM)", "employees": 28, "avgSalary": 95333}, {"code": "3416", "name": "TOOLMAKING", "family": "MACHINE TOOL WORK FAMILY", "employees": 28, "avgSalary": 85665}, {"code": "1725", "name": "PUBLIC HEALTH EDUCATOR", "family": "EDUCATION GROUP", "employees": 27, "avgSalary": 121417}, {"code": "1087", "name": "EDITORIAL ASSISTANCE", "family": "INFORMATION AND ARTS GROUP", "employees": 27, "avgSalary": 60051}, {"code": "9933", "name": "SECOND ASSISTANT ENGINEER", "family": "VESSEL JOBS FAMILY (EXCLUDED FROM THE FEDERAL WAGE SYSTEM)", "employees": 26, "avgSalary": 106948}, {"code": "5419", "name": "STATIONARY-ENGINE OPERATING", "family": "INDUSTRIAL EQUIPMENT OPERATION FAMILY", "employees": 26, "avgSalary": 116566}, {"code": "0019", "name": "SAFETY TECHNICIAN", "family": "MISCELLANEOUS OCCUPATIONS GROUP", "employees": 26, "avgSalary": 75843}, {"code": "1099", "name": "INFORMATION AND ARTS STUDENT TRAINEE", "family": "INFORMATION AND ARTS GROUP", "employees": 24, "avgSalary": 52095}, {"code": "9954", "name": "UNLICENSED JUNIOR ENGINEER", "family": "VESSEL JOBS FAMILY (EXCLUDED FROM THE FEDERAL WAGE SYSTEM)", "employees": 24, "avgSalary": 57774}, {"code": "0530", "name": "CASH PROCESSING", "family": "ACCOUNTING AND BUDGET GROUP", "employees": 24, "avgSalary": 54670}, {"code": "0638", "name": "RECREATION/CREATIVE ARTS THERAPIST", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 24, "avgSalary": 92457}, {"code": "5426", "name": "LOCK AND DAM OPERATING", "family": "INDUSTRIAL EQUIPMENT OPERATION FAMILY", "employees": 23, "avgSalary": 67798}, {"code": "0072", "name": "FINGERPRINT IDENTIFICATION", "family": "MISCELLANEOUS OCCUPATIONS GROUP", "employees": 23, "avgSalary": 115906}, {"code": "1715", "name": "VOCATIONAL REHABILITATION", "family": "EDUCATION GROUP", "employees": 22, "avgSalary": 82269}, {"code": "0631", "name": "OCCUPATIONAL THERAPIST", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 22, "avgSalary": 106591}, {"code": "2854", "name": "ELECTRICAL EQUIPMENT REPAIRER", "family": "ELECTRICAL INSTALLATION AND MAINTENANCE FAMILY", "employees": 21, "avgSalary": 99677}, {"code": "5210", "name": "RIGGING", "family": "MISCELLANEOUS OCCUPATIONS FAMILY", "employees": 21, "avgSalary": 85150}, {"code": "3801", "name": "MISCELLANEOUS METAL WORK", "family": "METAL WORK FAMILY", "employees": 21, "avgSalary": 92161}, {"code": "8610", "name": "SMALL ENGINE MECHANIC", "family": "ENGINE OVERHAUL FAMILY", "employees": 21, "avgSalary": 68208}, {"code": "5782", "name": "SHIP OPERATING", "family": "TRANSPORTATION/MOBILE EQUIPMENT OPERATION FAMILY", "employees": 21, "avgSalary": 99331}, {"code": "0636", "name": "REHABILITATION THERAPY ASSISTANT", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 21, "avgSalary": 60705}, {"code": "6912", "name": "MATERIALS EXAMINING AND IDENTIFYING", "family": "WAREHOUSING AND STOCK HANDLING FAMILY", "employees": 20, "avgSalary": 59422}, {"code": "3511", "name": "LABORATORY WORKING", "family": "GENERAL SERVICES AND SUPPORT WORK FAMILY", "employees": 20, "avgSalary": 48752}, {"code": "0699", "name": "MEDICAL AND HEALTH STUDENT TRAINEE", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 19, "avgSalary": 54828}, {"code": "3401", "name": "MISCELLANEOUS MACHINE TOOL WORK", "family": "MACHINE TOOL WORK FAMILY", "employees": 19, "avgSalary": 89439}, {"code": "9931", "name": "CHIEF ENGINEER", "family": "VESSEL JOBS FAMILY (EXCLUDED FROM THE FEDERAL WAGE SYSTEM)", "employees": 19, "avgSalary": 184351}, {"code": "4804", "name": "LOCKSMITHING", "family": "GENERAL EQUIPMENT MAINTENANCE FAMILY", "employees": 18, "avgSalary": 86982}, {"code": "2091", "name": "SALES STORE CLERICAL", "family": "SUPPLY GROUP", "employees": 18, "avgSalary": 40832}, {"code": "4449", "name": "ELECTROLYTIC INTAGLIO PLATEMAKING", "family": "PRINTING FAMILY", "employees": 18, "avgSalary": 137990}, {"code": "4416", "name": "PLATEMAKING", "family": "PRINTING FAMILY", "employees": 18, "avgSalary": 107242}, {"code": "4104", "name": "SIGN PAINTING", "family": "PAINTING AND PAPERHANGING FAMILY", "employees": 18, "avgSalary": 74816}, {"code": "9960", "name": "OILER", "family": "VESSEL JOBS FAMILY (EXCLUDED FROM THE FEDERAL WAGE SYSTEM)", "employees": 17, "avgSalary": 49191}, {"code": "0799", "name": "VETERINARY STUDENT TRAINEE", "family": "VETERINARY MEDICAL SCIENCE GROUP", "employees": 17, "avgSalary": 56611}, {"code": "7305", "name": "LAUNDRY MACHINE OPERATING", "family": "LAUNDRY, DRY CLEANING, AND PRESSING FAMILY", "employees": 17, "avgSalary": 67095}, {"code": "1380", "name": "FOREST PRODUCTS TECHNOLOGY", "family": "PHYSICAL SCIENCES GROUP", "employees": 16, "avgSalary": 135698}, {"code": "7006", "name": "PRESERVATION SERVICING", "family": "PACKING AND PROCESSING FAMILY", "employees": 16, "avgSalary": 64769}, {"code": "5725", "name": "CRANE OPERATING", "family": "TRANSPORTATION/MOBILE EQUIPMENT OPERATION FAMILY", "employees": 15, "avgSalary": 88030}, {"code": "0392", "name": "GENERAL TELECOMMUNICATIONS", "family": "GENERAL ADMINISTRATIVE, CLERICAL, AND OFFICE SERVICES GROUP", "employees": 15, "avgSalary": 75109}, {"code": "3712", "name": "HEAT TREATING", "family": "METAL PROCESSING FAMILY", "employees": 14, "avgSalary": 75755}, {"code": "5801", "name": "MISC TRANSPORTATION/MOBILE EQUIPMT MAINTNE", "family": "TRANSPORTATION/MOBILE EQUIPMENT MAINTENANCE FAMILY", "employees": 13, "avgSalary": 95737}, {"code": "9968", "name": "CHIEF STEWARD", "family": "VESSEL JOBS FAMILY (EXCLUDED FROM THE FEDERAL WAGE SYSTEM)", "employees": 13, "avgSalary": 68902}, {"code": "6904", "name": "TOOLS AND PARTS ATTENDING", "family": "WAREHOUSING AND STOCK HANDLING FAMILY", "employees": 13, "avgSalary": 66450}, {"code": "8852", "name": "AIRCRAFT MECHANIC", "family": "AIRCRAFT OVERHAUL FAMILY", "employees": 12, "avgSalary": 116879}, {"code": "1107", "name": "PROPERTY DISPOSAL CLERICAL AND TECHNICIAN", "family": "BUSINESS AND INDUSTRY GROUP", "employees": 12, "avgSalary": 69248}, {"code": "2801", "name": "MISC ELECTRICAL INSTALLATION & MAINTENANCE", "family": "ELECTRICAL INSTALLATION AND MAINTENANCE FAMILY", "employees": 12, "avgSalary": 115336}, {"code": "5318", "name": "LOCK AND DAM REPAIRING", "family": "INDUSTRIAL EQUIPMENT MAINTENANCE FAMILY", "employees": 11, "avgSalary": 113668}, {"code": "1321", "name": "METALLURGY", "family": "PHYSICAL SCIENCES GROUP", "employees": 11, "avgSalary": 165277}, {"code": "0029", "name": "ENVIRONMENTAL PROTECTION ASSISTANT", "family": "MISCELLANEOUS OCCUPATIONS GROUP", "employees": 11, "avgSalary": 68028}, {"code": "9965", "name": "WIPER", "family": "VESSEL JOBS FAMILY (EXCLUDED FROM THE FEDERAL WAGE SYSTEM)", "employees": 11, "avgSalary": 42887}, {"code": "5704", "name": "FORK LIFT OPERATING", "family": "TRANSPORTATION/MOBILE EQUIPMENT OPERATION FAMILY", "employees": 11, "avgSalary": 66993}, {"code": "9928", "name": "ORDINARY SEAMAN", "family": "VESSEL JOBS FAMILY (EXCLUDED FROM THE FEDERAL WAGE SYSTEM)", "employees": 10, "avgSalary": 42600}, {"code": "6910", "name": "MATERIALS EXPEDITING", "family": "WAREHOUSING AND STOCK HANDLING FAMILY", "employees": 10, "avgSalary": 59073}, {"code": "2131", "name": "FREIGHT RATE", "family": "TRANSPORTATION GROUP", "employees": 9, "avgSalary": 68021}, {"code": "4714", "name": "MODEL MAKING", "family": "GENERAL MAINTENANCE AND OPERATIONS WORK FAMILY", "employees": 9, "avgSalary": 83642}, {"code": "9920", "name": "BOATSWAIN", "family": "VESSEL JOBS FAMILY (EXCLUDED FROM THE FEDERAL WAGE SYSTEM)", "employees": 9, "avgSalary": 76968}, {"code": "5402", "name": "BOILER PLANT OPERATING", "family": "INDUSTRIAL EQUIPMENT OPERATION FAMILY", "employees": 9, "avgSalary": 86965}, {"code": "4737", "name": "GENERAL EQUIPMENT MECHANIC", "family": "GENERAL MAINTENANCE AND OPERATIONS WORK FAMILY", "employees": 9, "avgSalary": 69634}, {"code": "0646", "name": "PATHOLOGY TECHNICIAN", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 9, "avgSalary": 81862}, {"code": "1221", "name": "PATENT ADVISER", "family": "COPYRIGHT, PATENT, AND TRADEMARK GROUP", "employees": 9, "avgSalary": 153160}, {"code": "0642", "name": "NUCLEAR MEDICINE TECHNICIAN", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 9, "avgSalary": 104440}, {"code": "0184", "name": "SOCIOLOGY", "family": "SOCIAL SCIENCE, PSYCHOLOGY, AND WELFARE GROUP", "employees": 8, "avgSalary": 133256}, {"code": "0673", "name": "HOSPITAL HOUSEKEEPING MANAGEMENT", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 8, "avgSalary": 87104}, {"code": "1020", "name": "ILLUSTRATING", "family": "INFORMATION AND ARTS GROUP", "employees": 8, "avgSalary": 105911}, {"code": "9923", "name": "BOATSWAIN'S MATE", "family": "VESSEL JOBS FAMILY (EXCLUDED FROM THE FEDERAL WAGE SYSTEM)", "employees": 7, "avgSalary": 59763}, {"code": "5201", "name": "MISCELLANEOUS OCCUPATIONS", "family": "MISCELLANEOUS OCCUPATIONS FAMILY", "employees": 7, "avgSalary": 93334}, {"code": "3727", "name": "BUFFING AND POLISHING", "family": "METAL PROCESSING FAMILY", "employees": 7, "avgSalary": 81641}, {"code": "5309", "name": "HEATING & BOILER PLANT EQUIPMT MECHANIC", "family": "INDUSTRIAL EQUIPMENT MAINTENANCE FAMILY", "employees": 6, "avgSalary": 92447}, {"code": "2501", "name": "MISC WIRE COMMUNCA EQUIPMT INSTALL & MAINT", "family": "WIRE COMMUNICATIONS EQUIPMENT INSTALLATION AND MAINTENANCE FAMILY", "employees": 6, "avgSalary": 131502}, {"code": "0871", "name": "NAVAL ARCHITECTURE", "family": "ENGINEERING AND ARCHITECTURE GROUP", "employees": 6, "avgSalary": 183169}, {"code": "0017", "name": "EXPLOSIVES SAFETY", "family": "MISCELLANEOUS OCCUPATIONS GROUP", "employees": 6, "avgSalary": 143946}, {"code": "5413", "name": "FUEL DISTRIBUTION SYSTEM OPERATING", "family": "INDUSTRIAL EQUIPMENT OPERATION FAMILY", "employees": 6, "avgSalary": 80895}, {"code": "2032", "name": "PACKAGING", "family": "SUPPLY GROUP", "employees": 6, "avgSalary": 114135}, {"code": "6901", "name": "MISC WAREHOUSING AND STOCK HANDLING", "family": "WAREHOUSING AND STOCK HANDLING FAMILY", "employees": 6, "avgSalary": 72255}, {"code": "5313", "name": "ELEVATOR MECHANIC", "family": "INDUSTRIAL EQUIPMENT MAINTENANCE FAMILY", "employees": 5, "avgSalary": 97321}, {"code": "1384", "name": "TEXTILE TECHNOLOGY", "family": "PHYSICAL SCIENCES GROUP", "employees": 5, "avgSalary": 117082}, {"code": "0313", "name": "WORK UNIT SUPERVISING", "family": "GENERAL ADMINISTRATIVE, CLERICAL, AND OFFICE SERVICES GROUP", "employees": 5, "avgSalary": 74315}, {"code": "5806", "name": "MOBILE EQUIPMENT SERVICING", "family": "TRANSPORTATION/MOBILE EQUIPMENT MAINTENANCE FAMILY", "employees": 5, "avgSalary": 54525}, {"code": "1202", "name": "PATENT TECHNICIAN", "family": "COPYRIGHT, PATENT, AND TRADEMARK GROUP", "employees": 5, "avgSalary": 94247}, {"code": "1658", "name": "LAUNDRY OPERATIONS SERVICES", "family": "EQUIPMENT, FACILITIES, AND SERVICES GROUP", "employees": 4, "avgSalary": 85936}, {"code": "9971", "name": "CHIEF COOK", "family": "VESSEL JOBS FAMILY (EXCLUDED FROM THE FEDERAL WAGE SYSTEM)", "employees": 4, "avgSalary": 57667}, {"code": "5876", "name": "ELECTROMOTIVE EQUIPMENT MECHANIC", "family": "TRANSPORTATION/MOBILE EQUIPMENT MAINTENANCE FAMILY", "employees": 4, "avgSalary": 83418}, {"code": "1999", "name": "QUALITY INSPECTION STUDENT TRAINEE", "family": "QUALITY ASSURANCE, INSPECTION, AND GRADING GROUP", "employees": 4, "avgSalary": 40343}, {"code": "3606", "name": "ROOFING", "family": "STRUCTURAL AND FINISHING WORK FAMILY", "employees": 4, "avgSalary": 75706}, {"code": "3106", "name": "UPHOLSTERING", "family": "FABRIC AND LEATHER WORK FAMILY", "employees": 4, "avgSalary": 86778}, {"code": "0322", "name": "CLERK-TYPIST", "family": "GENERAL ADMINISTRATIVE, CLERICAL, AND OFFICE SERVICES GROUP", "employees": 4, "avgSalary": 46170}, {"code": "4745", "name": "RESEARCH LABORATORY MECHANIC", "family": "GENERAL MAINTENANCE AND OPERATIONS WORK FAMILY", "employees": 4, "avgSalary": 85765}, {"code": "1899", "name": "INVESTIGATION STUDENT TRAINEE", "family": "INVESTIGATION GROUP", "employees": 4, "avgSalary": 55670}, {"code": "8862", "name": "AIRCRAFT ATTENDING", "family": "AIRCRAFT OVERHAUL FAMILY", "employees": 4, "avgSalary": 65303}, {"code": "2602", "name": "ELECTRONIC MEASUREMENT EQUIPMENT MECHANIC", "family": "ELECTRONIC EQUIPMENT INSTALLATION AND MAINTENANCE FAMILY", "employees": 4, "avgSalary": 154887}, {"code": "3610", "name": "INSULATING", "family": "STRUCTURAL AND FINISHING WORK FAMILY", "employees": 4, "avgSalary": 102931}, {"code": "9902", "name": "MASTER", "family": "VESSEL JOBS FAMILY (EXCLUDED FROM THE FEDERAL WAGE SYSTEM)", "employees": 3, "avgSalary": 131077}, {"code": "4604", "name": "WOOD WORKING", "family": "WOOD WORK FAMILY", "employees": 3, "avgSalary": 63988}, {"code": "0394", "name": "COMMUNICATIONS CLERICAL", "family": "GENERAL ADMINISTRATIVE, CLERICAL, AND OFFICE SERVICES GROUP", "employees": 3, "avgSalary": 91827}, {"code": "3301", "name": "MISCELLANEOUS INSTRUMENT WORK", "family": "INSTRUMENT WORK FAMILY", "employees": 3, "avgSalary": 81609}, {"code": "3725", "name": "BATTERY REPAIRING", "family": "METAL PROCESSING FAMILY", "employees": 3, "avgSalary": 71542}, {"code": "1799", "name": "EDUCATION STUDENT TRAINEE", "family": "EDUCATION GROUP", "employees": 3, "avgSalary": 53459}, {"code": "5737", "name": "LOCOMOTIVE ENGINEERING", "family": "TRANSPORTATION/MOBILE EQUIPMENT OPERATION FAMILY", "employees": 3, "avgSalary": 58561}, {"code": "3601", "name": "MISCELLANEOUS STRUCTURAL & FINISHING WORK", "family": "STRUCTURAL AND FINISHING WORK FAMILY", "employees": 3, "avgSalary": 82826}, {"code": "5788", "name": "DECKHAND", "family": "TRANSPORTATION/MOBILE EQUIPMENT OPERATION FAMILY", "employees": 3, "avgSalary": 64175}, {"code": "0390", "name": "TELECOMMUNICATIONS PROCESSING", "family": "GENERAL ADMINISTRATIVE, CLERICAL, AND OFFICE SERVICES GROUP", "employees": 2, "avgSalary": 82595}, {"code": "5738", "name": "RAILROAD MAINTENANCE VEHICLE OPERATING", "family": "TRANSPORTATION/MOBILE EQUIPMENT OPERATION FAMILY", "employees": 2, "avgSalary": 74715}, {"code": "1051", "name": "MUSIC SPECIALIST", "family": "INFORMATION AND ARTS GROUP", "employees": 2, "avgSalary": 102573}, {"code": "4201", "name": "MISCELLANEOUS PLUMBING AND PIPEFITTING", "family": "PLUMBING AND PIPEFITTING FAMILY", "employees": 2, "avgSalary": 145777}, {"code": "0302", "name": "MESSENGER", "family": "GENERAL ADMINISTRATIVE, CLERICAL, AND OFFICE SERVICES GROUP", "employees": 2, "avgSalary": 38234}, {"code": "9944", "name": "ELECTRONICS TECHNICIAN", "family": "VESSEL JOBS FAMILY (EXCLUDED FROM THE FEDERAL WAGE SYSTEM)", "employees": 2, "avgSalary": 89968}, {"code": "1056", "name": "ART SPECIALIST", "family": "INFORMATION AND ARTS GROUP", "employees": 2, "avgSalary": 60345}, {"code": "5220", "name": "SHIPWRIGHT", "family": "MISCELLANEOUS OCCUPATIONS FAMILY", "employees": 2, "avgSalary": 88875}, {"code": "0698", "name": "ENVIRONMENTAL HEALTH TECHNICIAN", "family": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP", "employees": 2, "avgSalary": 54672}, {"code": "9905", "name": "FIRST OFFICER", "family": "VESSEL JOBS FAMILY (EXCLUDED FROM THE FEDERAL WAGE SYSTEM)", "employees": 2, "avgSalary": 85508}, {"code": "1046", "name": "LANGUAGE CLERICAL", "family": "INFORMATION AND ARTS GROUP", "employees": 2, "avgSalary": 44939}, {"code": "1374", "name": "GEODETIC TECHNICIAN", "family": "PHYSICAL SCIENCES GROUP", "employees": 1, "avgSalary": 131826}, {"code": "2608", "name": "ELECTRONIC DIGITAL COMPUTER MECHANIC", "family": "ELECTRONIC EQUIPMENT INSTALLATION AND MAINTENANCE FAMILY", "employees": 1, "avgSalary": 138305}, {"code": "9957", "name": "ENGINE UTILITYMAN", "family": "VESSEL JOBS FAMILY (EXCLUDED FROM THE FEDERAL WAGE SYSTEM)", "employees": 1, "avgSalary": 52222}, {"code": "4805", "name": "MEDICAL EQUIPMENT REPAIRING", "family": "GENERAL EQUIPMENT MAINTENANCE FAMILY", "employees": 1, "avgSalary": 81664}, {"code": "1541", "name": "CRYPTANALYSIS", "family": "MATHEMATICS AND STATISTICS GROUP", "employees": 1, "avgSalary": 156755}, {"code": "4801", "name": "MISC GENERAL EQUIPMENT MAINTENANCE", "family": "GENERAL EQUIPMENT MAINTENANCE FAMILY", "employees": 1, "avgSalary": 57914}, {"code": "5002", "name": "FARMING", "family": "PLANT AND ANIMAL WORK FAMILY", "employees": 1, "avgSalary": 69038}, {"code": "3604", "name": "TILE SETTING", "family": "STRUCTURAL AND FINISHING WORK FAMILY", "employees": 1, "avgSalary": 117895}, {"code": "3513", "name": "COIN/CURRENCY CHECKING", "family": "GENERAL SERVICES AND SUPPORT WORK FAMILY", "employees": 1, "avgSalary": 110569}, {"code": "9916", "name": "MASTER-MATE (FISHING VESSEL)", "family": "VESSEL JOBS FAMILY (EXCLUDED FROM THE FEDERAL WAGE SYSTEM)", "employees": 1, "avgSalary": 95398}, {"code": "3605", "name": "PLASTERING", "family": "STRUCTURAL AND FINISHING WORK FAMILY", "employees": 1, "avgSalary": 83772}, {"code": "3314", "name": "INSTRUMENT MAKING", "family": "INSTRUMENT WORK FAMILY", "employees": 1, "avgSalary": 86673}, {"code": "9984", "name": "MESSMAN", "family": "VESSEL JOBS FAMILY (EXCLUDED FROM THE FEDERAL WAGE SYSTEM)", "employees": 1, "avgSalary": 42010}, {"code": "7304", "name": "LAUNDRY WORKING", "family": "LAUNDRY, DRY CLEANING, AND PRESSING FAMILY", "employees": 1, "avgSalary": 47104}, {"code": "3101", "name": "MISC FABRIC AND LEATHER WORK", "family": "FABRIC AND LEATHER WORK FAMILY", "employees": 1, "avgSalary": 78429}, {"code": "4010", "name": "PRESCRIPTION EYEGLASS MAKING", "family": "LENS AND CRYSTAL WORK FAMILY", "employees": 1, "avgSalary": 76113}, {"code": "3809", "name": "MOBILE EQUIPMENT METAL MECHANIC", "family": "METAL WORK FAMILY", "employees": 1, "avgSalary": 95000}]
+[
+  {
+    "code": "0301",
+    "name": "Miscellaneous Administration and Program",
+    "family": "General Administrative, Clerical, and Office Services Group",
+    "employees": 40690,
+    "avgSalary": 131909
+  },
+  {
+    "code": "0343",
+    "name": "Management and Program Analysis",
+    "family": "General Administrative, Clerical, and Office Services Group",
+    "employees": 39483,
+    "avgSalary": 136247
+  },
+  {
+    "code": "2210",
+    "name": "Information Technology Management",
+    "family": "Information Technology Group",
+    "employees": 38875,
+    "avgSalary": 145797
+  },
+  {
+    "code": "0962",
+    "name": "Contact Representative",
+    "family": "Legal and Kindred Group",
+    "employees": 34873,
+    "avgSalary": 60378
+  },
+  {
+    "code": "0905",
+    "name": "General Attorney",
+    "family": "Legal and Kindred Group",
+    "employees": 27837,
+    "avgSalary": 175696
+  },
+  {
+    "code": "0105",
+    "name": "Social Insurance Administration",
+    "family": "Social Science, Psychology, and Welfare Group",
+    "employees": 26336,
+    "avgSalary": 102350
+  },
+  {
+    "code": "0303",
+    "name": "Miscellaneous Clerk and Assistant",
+    "family": "General Administrative, Clerical, and Office Services Group",
+    "employees": 21873,
+    "avgSalary": 51589
+  },
+  {
+    "code": "0401",
+    "name": "General Natural Resources Management and Biological Sciences",
+    "family": "Biological Sciences Group",
+    "employees": 20022,
+    "avgSalary": 118346
+  },
+  {
+    "code": "2152",
+    "name": "Air Traffic Control",
+    "family": "Transportation Group",
+    "employees": 18817,
+    "avgSalary": 154315
+  },
+  {
+    "code": "1101",
+    "name": "General Business and Industry",
+    "family": "Business and Industry Group",
+    "employees": 15366,
+    "avgSalary": 121349
+  },
+  {
+    "code": "0592",
+    "name": "Tax Examining",
+    "family": "Accounting and Budget Group",
+    "employees": 15210,
+    "avgSalary": 54105
+  },
+  {
+    "code": "0201",
+    "name": "Human Resources Management",
+    "family": "Human Resources Management Group",
+    "employees": 13934,
+    "avgSalary": 123931
+  },
+  {
+    "code": "0501",
+    "name": "Financial Administration and Program",
+    "family": "Accounting and Budget Group",
+    "employees": 11954,
+    "avgSalary": 116282
+  },
+  {
+    "code": "0462",
+    "name": "Forestry Technician",
+    "family": "Biological Sciences Group",
+    "employees": 11304,
+    "avgSalary": 55003
+  },
+  {
+    "code": "1102",
+    "name": "Contracting",
+    "family": "Business and Industry Group",
+    "employees": 11164,
+    "avgSalary": 132471
+  },
+  {
+    "code": "0801",
+    "name": "General Engineering",
+    "family": "Engineering and Architecture Group",
+    "employees": 10495,
+    "avgSalary": 159435
+  },
+  {
+    "code": "0601",
+    "name": "General Health Science",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 10265,
+    "avgSalary": 152839
+  },
+  {
+    "code": "1224",
+    "name": "Patent Examining",
+    "family": "Copyright, Patent, and Trademark Group",
+    "employees": 9513,
+    "avgSalary": 156161
+  },
+  {
+    "code": "0340",
+    "name": "Program Management",
+    "family": "General Administrative, Clerical, and Office Services Group",
+    "employees": 7948,
+    "avgSalary": 180722
+  },
+  {
+    "code": "2101",
+    "name": "Transportation Specialist",
+    "family": "Transportation Group",
+    "employees": 7076,
+    "avgSalary": 123521
+  },
+  {
+    "code": "1301",
+    "name": "General Physical Science",
+    "family": "Physical Sciences Group",
+    "employees": 7062,
+    "avgSalary": 141730
+  },
+  {
+    "code": "0101",
+    "name": "Social Science",
+    "family": "Social Science, Psychology, and Welfare Group",
+    "employees": 6147,
+    "avgSalary": 119098
+  },
+  {
+    "code": "0610",
+    "name": "Nurse",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 5994,
+    "avgSalary": 111613
+  },
+  {
+    "code": "0560",
+    "name": "Budget Analysis",
+    "family": "Accounting and Budget Group",
+    "employees": 5952,
+    "avgSalary": 130844
+  },
+  {
+    "code": "0510",
+    "name": "Accounting",
+    "family": "Accounting and Budget Group",
+    "employees": 5927,
+    "avgSalary": 148971
+  },
+  {
+    "code": "0570",
+    "name": "Financial Institution Examining",
+    "family": "Accounting and Budget Group",
+    "employees": 5835,
+    "avgSalary": 165009
+  },
+  {
+    "code": "1165",
+    "name": "Loan Specialist",
+    "family": "Business and Industry Group",
+    "employees": 5527,
+    "avgSalary": 88324
+  },
+  {
+    "code": "0602",
+    "name": "Medical Officer",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 5493,
+    "avgSalary": 211149
+  },
+  {
+    "code": "1862",
+    "name": "Consumer Safety Inspection",
+    "family": "Investigation Group",
+    "employees": 5336,
+    "avgSalary": 72705
+  },
+  {
+    "code": "0861",
+    "name": "Aerospace Engineering",
+    "family": "Engineering and Architecture Group",
+    "employees": 5302,
+    "avgSalary": 155245
+  },
+  {
+    "code": "0404",
+    "name": "Biological Science Technician",
+    "family": "Biological Sciences Group",
+    "employees": 5224,
+    "avgSalary": 54046
+  },
+  {
+    "code": "0901",
+    "name": "General Legal and Kindred Administration",
+    "family": "Legal and Kindred Group",
+    "employees": 5163,
+    "avgSalary": 85759
+  },
+  {
+    "code": "0457",
+    "name": "Soil Conservation",
+    "family": "Biological Sciences Group",
+    "employees": 4880,
+    "avgSalary": 84988
+  },
+  {
+    "code": "0685",
+    "name": "Public Health Program Specialist",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 4812,
+    "avgSalary": 135695
+  },
+  {
+    "code": "4749",
+    "name": "Maintenance Mechanic",
+    "family": "General Maintenance and Operations Work Family",
+    "employees": 4544,
+    "avgSalary": 72256
+  },
+  {
+    "code": "0110",
+    "name": "Economist",
+    "family": "Social Science, Psychology, and Welfare Group",
+    "employees": 4541,
+    "avgSalary": 152227
+  },
+  {
+    "code": "0810",
+    "name": "Civil Engineering",
+    "family": "Engineering and Architecture Group",
+    "employees": 4328,
+    "avgSalary": 120646
+  },
+  {
+    "code": "1825",
+    "name": "Aviation Safety",
+    "family": "Investigation Group",
+    "employees": 4267,
+    "avgSalary": 143073
+  },
+  {
+    "code": "0341",
+    "name": "Administrative Officer",
+    "family": "General Administrative, Clerical, and Office Services Group",
+    "employees": 4155,
+    "avgSalary": 126603
+  },
+  {
+    "code": "0080",
+    "name": "Security Administration",
+    "family": "Miscellaneous Occupations Group",
+    "employees": 3942,
+    "avgSalary": 128514
+  },
+  {
+    "code": "0511",
+    "name": "Auditing",
+    "family": "Accounting and Budget Group",
+    "employees": 3848,
+    "avgSalary": 142000
+  },
+  {
+    "code": "1035",
+    "name": "Public Affairs",
+    "family": "Information and Arts Group",
+    "employees": 3650,
+    "avgSalary": 129587
+  },
+  {
+    "code": "0696",
+    "name": "Consumer Safety",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 3625,
+    "avgSalary": 135792
+  },
+  {
+    "code": "1109",
+    "name": "Grants Management",
+    "family": "Business and Industry Group",
+    "employees": 3592,
+    "avgSalary": 124180
+  },
+  {
+    "code": "0025",
+    "name": "Park Ranger",
+    "family": "Miscellaneous Occupations Group",
+    "employees": 3493,
+    "avgSalary": 86458
+  },
+  {
+    "code": "1530",
+    "name": "Statistics",
+    "family": "Mathematics and Statistics Group",
+    "employees": 3327,
+    "avgSalary": 136481
+  },
+  {
+    "code": "1320",
+    "name": "Chemistry",
+    "family": "Physical Sciences Group",
+    "employees": 3179,
+    "avgSalary": 144738
+  },
+  {
+    "code": "0028",
+    "name": "Environmental Protection Specialist",
+    "family": "Miscellaneous Occupations Group",
+    "employees": 3127,
+    "avgSalary": 133601
+  },
+  {
+    "code": "0130",
+    "name": "Foreign Affairs",
+    "family": "Social Science, Psychology, and Welfare Group",
+    "employees": 3098,
+    "avgSalary": 149720
+  },
+  {
+    "code": "0950",
+    "name": "Paralegal Specialist",
+    "family": "Legal and Kindred Group",
+    "employees": 3069,
+    "avgSalary": 103896
+  },
+  {
+    "code": "1001",
+    "name": "General Arts and Information",
+    "family": "Information and Arts Group",
+    "employees": 3057,
+    "avgSalary": 126880
+  },
+  {
+    "code": "0802",
+    "name": "Engineering Technical",
+    "family": "Engineering and Architecture Group",
+    "employees": 2940,
+    "avgSalary": 90971
+  },
+  {
+    "code": "0107",
+    "name": "Health Insurance Administration",
+    "family": "Social Science, Psychology, and Welfare Group",
+    "employees": 2878,
+    "avgSalary": 145397
+  },
+  {
+    "code": "0986",
+    "name": "Legal Assistance",
+    "family": "Legal and Kindred Group",
+    "employees": 2820,
+    "avgSalary": 66635
+  },
+  {
+    "code": "0318",
+    "name": "Secretary",
+    "family": "General Administrative, Clerical, and Office Services Group",
+    "employees": 2747,
+    "avgSalary": 68538
+  },
+  {
+    "code": "0503",
+    "name": "Financial Clerical and Assistance",
+    "family": "Accounting and Budget Group",
+    "employees": 2699,
+    "avgSalary": 58717
+  },
+  {
+    "code": "1340",
+    "name": "Meteorology",
+    "family": "Physical Sciences Group",
+    "employees": 2453,
+    "avgSalary": 122739
+  },
+  {
+    "code": "0344",
+    "name": "Management and Program Clerical and Assistance",
+    "family": "General Administrative, Clerical, and Office Services Group",
+    "employees": 2306,
+    "avgSalary": 64751
+  },
+  {
+    "code": "1170",
+    "name": "Realty",
+    "family": "Business and Industry Group",
+    "employees": 2270,
+    "avgSalary": 107019
+  },
+  {
+    "code": "0018",
+    "name": "Safety and Occupational Health Management",
+    "family": "Miscellaneous Occupations Group",
+    "employees": 2232,
+    "avgSalary": 117770
+  },
+  {
+    "code": "0855",
+    "name": "Electronics Engineering",
+    "family": "Engineering and Architecture Group",
+    "employees": 2131,
+    "avgSalary": 154295
+  },
+  {
+    "code": "0967",
+    "name": "Passport and Visa Examining",
+    "family": "Legal and Kindred Group",
+    "employees": 2064,
+    "avgSalary": 88730
+  },
+  {
+    "code": "0486",
+    "name": "Wildlife Biology",
+    "family": "Biological Sciences Group",
+    "employees": 1954,
+    "avgSalary": 95437
+  },
+  {
+    "code": "0482",
+    "name": "Fish Biology",
+    "family": "Biological Sciences Group",
+    "employees": 1911,
+    "avgSalary": 114432
+  },
+  {
+    "code": "0456",
+    "name": "Wildland Fire Management",
+    "family": "Biological Sciences Group",
+    "employees": 1908,
+    "avgSalary": 69817
+  },
+  {
+    "code": "1315",
+    "name": "Hydrology",
+    "family": "Physical Sciences Group",
+    "employees": 1858,
+    "avgSalary": 114258
+  },
+  {
+    "code": "0701",
+    "name": "Veterinary Medical Science",
+    "family": "Veterinary Medical Science Group",
+    "employees": 1791,
+    "avgSalary": 129600
+  },
+  {
+    "code": "0006",
+    "name": "Correctional Institution Administration",
+    "family": "Miscellaneous Occupations Group",
+    "employees": 1765,
+    "avgSalary": 123377
+  },
+  {
+    "code": "0460",
+    "name": "Forestry",
+    "family": "Biological Sciences Group",
+    "employees": 1759,
+    "avgSalary": 86336
+  },
+  {
+    "code": "0819",
+    "name": "Environmental Engineering",
+    "family": "Engineering and Architecture Group",
+    "employees": 1721,
+    "avgSalary": 138161
+  },
+  {
+    "code": "0640",
+    "name": "Health Aid and Technician",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 1674,
+    "avgSalary": 60586
+  },
+  {
+    "code": "1980",
+    "name": "Agricultural Commodity Grading",
+    "family": "Quality Assurance, Inspection, and Grading Group",
+    "employees": 1664,
+    "avgSalary": 69114
+  },
+  {
+    "code": "7404",
+    "name": "Cooking",
+    "family": "Food Preparation and Serving Family",
+    "employees": 1655,
+    "avgSalary": 80460
+  },
+  {
+    "code": "0403",
+    "name": "Microbiology",
+    "family": "Biological Sciences Group",
+    "employees": 1654,
+    "avgSalary": 139799
+  },
+  {
+    "code": "1710",
+    "name": "Education and Vocational Training",
+    "family": "Education Group",
+    "employees": 1647,
+    "avgSalary": 93828
+  },
+  {
+    "code": "1316",
+    "name": "Hydrologic Technician",
+    "family": "Physical Sciences Group",
+    "employees": 1567,
+    "avgSalary": 71461
+  },
+  {
+    "code": "0856",
+    "name": "Electronics Technical",
+    "family": "Engineering and Architecture Group",
+    "employees": 1548,
+    "avgSalary": 104571
+  },
+  {
+    "code": "1529",
+    "name": "Mathematical Statistics",
+    "family": "Mathematics and Statistics Group",
+    "employees": 1527,
+    "avgSalary": 152775
+  },
+  {
+    "code": "0306",
+    "name": "Government Information Specialist",
+    "family": "General Administrative, Clerical, and Office Services Group",
+    "employees": 1522,
+    "avgSalary": 126795
+  },
+  {
+    "code": "0342",
+    "name": "Support Services Administration",
+    "family": "General Administrative, Clerical, and Office Services Group",
+    "employees": 1491,
+    "avgSalary": 99657
+  },
+  {
+    "code": "6907",
+    "name": "Materials Handler",
+    "family": "Warehousing and Stock Handling Family",
+    "employees": 1478,
+    "avgSalary": 299651
+  },
+  {
+    "code": "0850",
+    "name": "Electrical Engineering",
+    "family": "Engineering and Architecture Group",
+    "employees": 1474,
+    "avgSalary": 140521
+  },
+  {
+    "code": "1712",
+    "name": "Training Instruction",
+    "family": "Education Group",
+    "employees": 1438,
+    "avgSalary": 111169
+  },
+  {
+    "code": "1421",
+    "name": "Archives Technician",
+    "family": "Library and Archives Group",
+    "employees": 1436,
+    "avgSalary": 65279
+  },
+  {
+    "code": "1550",
+    "name": "Computer Science",
+    "family": "Mathematics and Statistics Group",
+    "employees": 1386,
+    "avgSalary": 156862
+  },
+  {
+    "code": "0935",
+    "name": "Administrative Law Judge",
+    "family": "Legal and Kindred Group",
+    "employees": 1378,
+    "avgSalary": 205898
+  },
+  {
+    "code": "1640",
+    "name": "Facility Operations Services",
+    "family": "Equipment, Facilities, and Services Group",
+    "employees": 1368,
+    "avgSalary": 112971
+  },
+  {
+    "code": "0203",
+    "name": "Human Resources Assistance",
+    "family": "Human Resources Management Group",
+    "employees": 1361,
+    "avgSalary": 58841
+  },
+  {
+    "code": "0193",
+    "name": "Archeology",
+    "family": "Social Science, Psychology, and Welfare Group",
+    "employees": 1352,
+    "avgSalary": 88505
+  },
+  {
+    "code": "1160",
+    "name": "Financial Analysis",
+    "family": "Business and Industry Group",
+    "employees": 1291,
+    "avgSalary": 168165
+  },
+  {
+    "code": "5716",
+    "name": "Engineering Equipment Operating",
+    "family": "Transportation/Mobile Equipment Operation Family",
+    "employees": 1268,
+    "avgSalary": 73088
+  },
+  {
+    "code": "0408",
+    "name": "Ecology",
+    "family": "Biological Sciences Group",
+    "employees": 1188,
+    "avgSalary": 118335
+  },
+  {
+    "code": "0260",
+    "name": "Equal Employment Opportunity",
+    "family": "Human Resources Management Group",
+    "employees": 1185,
+    "avgSalary": 140659
+  },
+  {
+    "code": "1702",
+    "name": "Education and Training Technician",
+    "family": "Education Group",
+    "employees": 1173,
+    "avgSalary": 63824
+  },
+  {
+    "code": "0085",
+    "name": "Security Guard",
+    "family": "Miscellaneous Occupations Group",
+    "employees": 1166,
+    "avgSalary": 56243
+  },
+  {
+    "code": "1176",
+    "name": "Building Management",
+    "family": "Business and Industry Group",
+    "employees": 1152,
+    "avgSalary": 114735
+  },
+  {
+    "code": "0660",
+    "name": "Pharmacist",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 1144,
+    "avgSalary": 143589
+  },
+  {
+    "code": "0180",
+    "name": "Psychology",
+    "family": "Social Science, Psychology, and Welfare Group",
+    "employees": 1128,
+    "avgSalary": 134645
+  },
+  {
+    "code": "0830",
+    "name": "Mechanical Engineering",
+    "family": "Engineering and Architecture Group",
+    "employees": 1123,
+    "avgSalary": 134575
+  },
+  {
+    "code": "0991",
+    "name": "Worker'S Compensation Claims Examining",
+    "family": "Legal and Kindred Group",
+    "employees": 1105,
+    "avgSalary": 116386
+  },
+  {
+    "code": "0399",
+    "name": "Administration and Office Support Student Trainee",
+    "family": "General Administrative, Clerical, and Office Services Group",
+    "employees": 1045,
+    "avgSalary": 45102
+  },
+  {
+    "code": "0679",
+    "name": "Medical Support Assistance",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 1042,
+    "avgSalary": 50110
+  },
+  {
+    "code": "1822",
+    "name": "Mine Safety and Health Inspection Series",
+    "family": "Investigation Group",
+    "employees": 1025,
+    "avgSalary": 108367
+  },
+  {
+    "code": "4742",
+    "name": "Utility Systems Repairing-Operating",
+    "family": "General Maintenance and Operations Work Family",
+    "employees": 1023,
+    "avgSalary": 84157
+  },
+  {
+    "code": "1350",
+    "name": "Geology",
+    "family": "Physical Sciences Group",
+    "employees": 1020,
+    "avgSalary": 120348
+  },
+  {
+    "code": "1849",
+    "name": "Wage and Hour Investigation Series",
+    "family": "Investigation Group",
+    "employees": 1009,
+    "avgSalary": 117103
+  },
+  {
+    "code": "0089",
+    "name": "Emergency Management Specialist",
+    "family": "Miscellaneous Occupations Group",
+    "employees": 944,
+    "avgSalary": 136852
+  },
+  {
+    "code": "1701",
+    "name": "General Education and Training",
+    "family": "Education Group",
+    "employees": 932,
+    "avgSalary": 133197
+  },
+  {
+    "code": "1981",
+    "name": "Agricultural Commodity Aid",
+    "family": "Quality Assurance, Inspection, and Grading Group",
+    "employees": 895,
+    "avgSalary": 37577
+  },
+  {
+    "code": "0525",
+    "name": "Accounting Technician",
+    "family": "Accounting and Budget Group",
+    "employees": 888,
+    "avgSalary": 60857
+  },
+  {
+    "code": "2810",
+    "name": "High Voltage Electrician",
+    "family": "Electrical Installation and Maintenance Family",
+    "employees": 874,
+    "avgSalary": 130107
+  },
+  {
+    "code": "0421",
+    "name": "Plant Protection Technician",
+    "family": "Biological Sciences Group",
+    "employees": 847,
+    "avgSalary": 44760
+  },
+  {
+    "code": "3566",
+    "name": "Custodial Working",
+    "family": "General Services and Support Work Family",
+    "employees": 836,
+    "avgSalary": 47172
+  },
+  {
+    "code": "0454",
+    "name": "Rangeland Management",
+    "family": "Biological Sciences Group",
+    "employees": 819,
+    "avgSalary": 84228
+  },
+  {
+    "code": "0854",
+    "name": "Computer Engineering",
+    "family": "Engineering and Architecture Group",
+    "employees": 816,
+    "avgSalary": 158434
+  },
+  {
+    "code": "0458",
+    "name": "Soil Conservation Technician",
+    "family": "Biological Sciences Group",
+    "employees": 807,
+    "avgSalary": 54187
+  },
+  {
+    "code": "0526",
+    "name": "Tax Specialist",
+    "family": "Accounting and Budget Group",
+    "employees": 796,
+    "avgSalary": 84249
+  },
+  {
+    "code": "0828",
+    "name": "Construction Analyst",
+    "family": "Engineering and Architecture Group",
+    "employees": 795,
+    "avgSalary": 84534
+  },
+  {
+    "code": "0360",
+    "name": "Equal Opportunity Compliance",
+    "family": "General Administrative, Clerical, and Office Services Group",
+    "employees": 795,
+    "avgSalary": 129518
+  },
+  {
+    "code": "2186",
+    "name": "Technical Systems Program Manager",
+    "family": "Transportation Group",
+    "employees": 792,
+    "avgSalary": 188489
+  },
+  {
+    "code": "1863",
+    "name": "Food Inspection",
+    "family": "Investigation Group",
+    "employees": 791,
+    "avgSalary": 57353
+  },
+  {
+    "code": "0470",
+    "name": "Soil Science",
+    "family": "Biological Sciences Group",
+    "employees": 775,
+    "avgSalary": 105205
+  },
+  {
+    "code": "1515",
+    "name": "Operations Research",
+    "family": "Mathematics and Statistics Group",
+    "employees": 768,
+    "avgSalary": 159243
+  },
+  {
+    "code": "0675",
+    "name": "Medical Records Technician",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 753,
+    "avgSalary": 59016
+  },
+  {
+    "code": "1560",
+    "name": "Data Science Series",
+    "family": "Mathematics and Statistics Group",
+    "employees": 747,
+    "avgSalary": 135857
+  },
+  {
+    "code": "0998",
+    "name": "Claims Assistance and Examining",
+    "family": "Legal and Kindred Group",
+    "employees": 747,
+    "avgSalary": 67318
+  },
+  {
+    "code": "0391",
+    "name": "Telecommunications",
+    "family": "General Administrative, Clerical, and Office Services Group",
+    "employees": 733,
+    "avgSalary": 128946
+  },
+  {
+    "code": "1310",
+    "name": "Physics",
+    "family": "Physical Sciences Group",
+    "employees": 717,
+    "avgSalary": 170277
+  },
+  {
+    "code": "1084",
+    "name": "Visual Information",
+    "family": "Information and Arts Group",
+    "employees": 717,
+    "avgSalary": 111123
+  },
+  {
+    "code": "3502",
+    "name": "Laboring",
+    "family": "General Services and Support Work Family",
+    "employees": 714,
+    "avgSalary": 46725
+  },
+  {
+    "code": "0090",
+    "name": "Guide",
+    "family": "Miscellaneous Occupations Group",
+    "employees": 709,
+    "avgSalary": 46318
+  },
+  {
+    "code": "1860",
+    "name": "Equal Opportunity Investigation",
+    "family": "Investigation Group",
+    "employees": 704,
+    "avgSalary": 106214
+  },
+  {
+    "code": "0346",
+    "name": "Logistics Management",
+    "family": "General Administrative, Clerical, and Office Services Group",
+    "employees": 700,
+    "avgSalary": 115132
+  },
+  {
+    "code": "1140",
+    "name": "Trade Specialist",
+    "family": "Business and Industry Group",
+    "employees": 698,
+    "avgSalary": 141215
+  },
+  {
+    "code": "1082",
+    "name": "Writing and Editing",
+    "family": "Information and Arts Group",
+    "employees": 688,
+    "avgSalary": 133488
+  },
+  {
+    "code": "0150",
+    "name": "Geography",
+    "family": "Social Science, Psychology, and Welfare Group",
+    "employees": 668,
+    "avgSalary": 115848
+  },
+  {
+    "code": "0405",
+    "name": "Pharmacology",
+    "family": "Biological Sciences Group",
+    "employees": 666,
+    "avgSalary": 177232
+  },
+  {
+    "code": "0808",
+    "name": "Architecture",
+    "family": "Engineering and Architecture Group",
+    "employees": 643,
+    "avgSalary": 138626
+  },
+  {
+    "code": "0188",
+    "name": "Recreation Specialist",
+    "family": "Social Science, Psychology, and Welfare Group",
+    "employees": 630,
+    "avgSalary": 81714
+  },
+  {
+    "code": "0308",
+    "name": "Records and Information Management",
+    "family": "General Administrative, Clerical, and Office Services Group",
+    "employees": 583,
+    "avgSalary": 126921
+  },
+  {
+    "code": "1601",
+    "name": "Equipment Facilities, and Services",
+    "family": "Equipment, Facilities, and Services Group",
+    "employees": 581,
+    "avgSalary": 108814
+  },
+  {
+    "code": "0690",
+    "name": "Industrial Hygiene",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 571,
+    "avgSalary": 127546
+  },
+  {
+    "code": "0963",
+    "name": "Legal Instruments Examining",
+    "family": "Legal and Kindred Group",
+    "employees": 568,
+    "avgSalary": 72370
+  },
+  {
+    "code": "1311",
+    "name": "Physical Science Technician",
+    "family": "Physical Sciences Group",
+    "employees": 565,
+    "avgSalary": 77165
+  },
+  {
+    "code": "5703",
+    "name": "Motor Vehicle Operating",
+    "family": "Transportation/Mobile Equipment Operation Family",
+    "employees": 564,
+    "avgSalary": 59078
+  },
+  {
+    "code": "2150",
+    "name": "Transportation Operations",
+    "family": "Transportation Group",
+    "employees": 563,
+    "avgSalary": 102623
+  },
+  {
+    "code": "1016",
+    "name": "Museum Specialist and Technician",
+    "family": "Information and Arts Group",
+    "employees": 551,
+    "avgSalary": 93201
+  },
+  {
+    "code": "2121",
+    "name": "Railroad Safety",
+    "family": "Transportation Group",
+    "employees": 543,
+    "avgSalary": 117611
+  },
+  {
+    "code": "1531",
+    "name": "Statistical Assistant",
+    "family": "Mathematics and Statistics Group",
+    "employees": 520,
+    "avgSalary": 50630
+  },
+  {
+    "code": "1420",
+    "name": "Archivist",
+    "family": "Library and Archives Group",
+    "employees": 516,
+    "avgSalary": 115507
+  },
+  {
+    "code": "2123",
+    "name": "Motor Carrier Safety",
+    "family": "Transportation Group",
+    "employees": 511,
+    "avgSalary": 89300
+  },
+  {
+    "code": "1146",
+    "name": "Agricultural Marketing",
+    "family": "Business and Industry Group",
+    "employees": 489,
+    "avgSalary": 122422
+  },
+  {
+    "code": "1130",
+    "name": "Public Utilities Specialist",
+    "family": "Business and Industry Group",
+    "employees": 481,
+    "avgSalary": 127480
+  },
+  {
+    "code": "0440",
+    "name": "Genetics",
+    "family": "Biological Sciences Group",
+    "employees": 478,
+    "avgSalary": 136313
+  },
+  {
+    "code": "1910",
+    "name": "Quality Assurance",
+    "family": "Quality Assurance, Inspection, and Grading Group",
+    "employees": 477,
+    "avgSalary": 126923
+  },
+  {
+    "code": "0644",
+    "name": "Medical Technologist",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 477,
+    "avgSalary": 118638
+  },
+  {
+    "code": "0485",
+    "name": "Wildlife Refuge Management",
+    "family": "Biological Sciences Group",
+    "employees": 463,
+    "avgSalary": 112814
+  },
+  {
+    "code": "1361",
+    "name": "Navigational Information",
+    "family": "Physical Sciences Group",
+    "employees": 460,
+    "avgSalary": 148540
+  },
+  {
+    "code": "0020",
+    "name": "Community Planning",
+    "family": "Miscellaneous Occupations Group",
+    "employees": 458,
+    "avgSalary": 127575
+  },
+  {
+    "code": "2005",
+    "name": "Supply Clerical and Technician",
+    "family": "Supply Group",
+    "employees": 453,
+    "avgSalary": 57782
+  },
+  {
+    "code": "0414",
+    "name": "Entomology",
+    "family": "Biological Sciences Group",
+    "employees": 452,
+    "avgSalary": 130197
+  },
+  {
+    "code": "0415",
+    "name": "Toxicology",
+    "family": "Biological Sciences Group",
+    "employees": 447,
+    "avgSalary": 144681
+  },
+  {
+    "code": "1412",
+    "name": "Technical Information Services",
+    "family": "Library and Archives Group",
+    "employees": 447,
+    "avgSalary": 127976
+  },
+  {
+    "code": "0023",
+    "name": "Outdoor Recreation Planning",
+    "family": "Miscellaneous Occupations Group",
+    "employees": 445,
+    "avgSalary": 92664
+  },
+  {
+    "code": "1220",
+    "name": "Patent Administration",
+    "family": "Copyright, Patent, and Trademark Group",
+    "employees": 445,
+    "avgSalary": 197193
+  },
+  {
+    "code": "2805",
+    "name": "Electrician",
+    "family": "Electrical Installation and Maintenance Family",
+    "employees": 443,
+    "avgSalary": 88815
+  },
+  {
+    "code": "0806",
+    "name": "Materials Engineering",
+    "family": "Engineering and Architecture Group",
+    "employees": 440,
+    "avgSalary": 152237
+  },
+  {
+    "code": "0809",
+    "name": "Construction Control Technical",
+    "family": "Engineering and Architecture Group",
+    "employees": 437,
+    "avgSalary": 102246
+  },
+  {
+    "code": "1083",
+    "name": "Technical Writing and Editing",
+    "family": "Information and Arts Group",
+    "employees": 436,
+    "avgSalary": 127042
+  },
+  {
+    "code": "0987",
+    "name": "Tax Law Specialist",
+    "family": "Legal and Kindred Group",
+    "employees": 434,
+    "avgSalary": 147721
+  },
+  {
+    "code": "1831",
+    "name": "Securities Compliance Examining",
+    "family": "Investigation Group",
+    "employees": 432,
+    "avgSalary": 234477
+  },
+  {
+    "code": "0899",
+    "name": "Engineering and Architecture Student Trainee",
+    "family": "Engineering and Architecture Group",
+    "employees": 427,
+    "avgSalary": 53175
+  },
+  {
+    "code": "0681",
+    "name": "Dental Assistant",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 424,
+    "avgSalary": 58125
+  },
+  {
+    "code": "0621",
+    "name": "Nursing Assistant",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 422,
+    "avgSalary": 48534
+  },
+  {
+    "code": "0499",
+    "name": "Biological Science Student Trainee",
+    "family": "Biological Sciences Group",
+    "employees": 421,
+    "avgSalary": 41354
+  },
+  {
+    "code": "0680",
+    "name": "Dental Officer",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 419,
+    "avgSalary": 210638
+  },
+  {
+    "code": "1410",
+    "name": "Librarian",
+    "family": "Library and Archives Group",
+    "employees": 417,
+    "avgSalary": 130844
+  },
+  {
+    "code": "1370",
+    "name": "Cartography",
+    "family": "Physical Sciences Group",
+    "employees": 416,
+    "avgSalary": 116921
+  },
+  {
+    "code": "1330",
+    "name": "Astronomy and Space Science",
+    "family": "Physical Sciences Group",
+    "employees": 411,
+    "avgSalary": 174048
+  },
+  {
+    "code": "0661",
+    "name": "Pharmacy Technician",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 410,
+    "avgSalary": 69485
+  },
+  {
+    "code": "0704",
+    "name": "Animal Health Technician",
+    "family": "Veterinary Medical Science Group",
+    "employees": 409,
+    "avgSalary": 65695
+  },
+  {
+    "code": "2003",
+    "name": "Supply Program Management",
+    "family": "Supply Group",
+    "employees": 401,
+    "avgSalary": 109260
+  },
+  {
+    "code": "1720",
+    "name": "Education Program",
+    "family": "Education Group",
+    "employees": 398,
+    "avgSalary": 140810
+  },
+  {
+    "code": "1670",
+    "name": "Equipment Services",
+    "family": "Equipment, Facilities, and Services Group",
+    "employees": 395,
+    "avgSalary": 106590
+  },
+  {
+    "code": "1226",
+    "name": "Design Patent Examining",
+    "family": "Copyright, Patent, and Trademark Group",
+    "employees": 392,
+    "avgSalary": 124327
+  },
+  {
+    "code": "0326",
+    "name": "Office Automation Clerical and Assistance",
+    "family": "General Administrative, Clerical, and Office Services Group",
+    "employees": 391,
+    "avgSalary": 51707
+  },
+  {
+    "code": "0480",
+    "name": "Fish and Wildlife Administration",
+    "family": "Biological Sciences Group",
+    "employees": 383,
+    "avgSalary": 166378
+  },
+  {
+    "code": "1222",
+    "name": "Patent Attorney",
+    "family": "Copyright, Patent, and Trademark Group",
+    "employees": 380,
+    "avgSalary": 197908
+  },
+  {
+    "code": "1145",
+    "name": "Agricultural Program Specialist",
+    "family": "Business and Industry Group",
+    "employees": 377,
+    "avgSalary": 111718
+  },
+  {
+    "code": "1071",
+    "name": "Audiovisual Production",
+    "family": "Information and Arts Group",
+    "employees": 369,
+    "avgSalary": 130030
+  },
+  {
+    "code": "1105",
+    "name": "Purchasing",
+    "family": "Business and Industry Group",
+    "employees": 357,
+    "avgSalary": 68987
+  },
+  {
+    "code": "0505",
+    "name": "Financial Management",
+    "family": "Accounting and Budget Group",
+    "employees": 355,
+    "avgSalary": 183219
+  },
+  {
+    "code": "1171",
+    "name": "Appraising",
+    "family": "Business and Industry Group",
+    "employees": 354,
+    "avgSalary": 141786
+  },
+  {
+    "code": "1015",
+    "name": "Museum Curator",
+    "family": "Information and Arts Group",
+    "employees": 353,
+    "avgSalary": 122587
+  },
+  {
+    "code": "0858",
+    "name": "Bioengineering & Biomedical Engineering",
+    "family": "Engineering and Architecture Group",
+    "employees": 347,
+    "avgSalary": 160372
+  },
+  {
+    "code": "5407",
+    "name": "Electrical Power Controlling",
+    "family": "Industrial Equipment Operation Family",
+    "employees": 345,
+    "avgSalary": 145005
+  },
+  {
+    "code": "2151",
+    "name": "Dispatching",
+    "family": "Transportation Group",
+    "employees": 333,
+    "avgSalary": 58627
+  },
+  {
+    "code": "0305",
+    "name": "Mail and File",
+    "family": "General Administrative, Clerical, and Office Services Group",
+    "employees": 331,
+    "avgSalary": 55841
+  },
+  {
+    "code": "0119",
+    "name": "Economics Assistant",
+    "family": "Social Science, Psychology, and Welfare Group",
+    "employees": 331,
+    "avgSalary": 56502
+  },
+  {
+    "code": "5701",
+    "name": "Misc Transportation/Mobile Equipment Oper",
+    "family": "Transportation/Mobile Equipment Operation Family",
+    "employees": 330,
+    "avgSalary": 479655
+  },
+  {
+    "code": "0186",
+    "name": "Social Services Aid and Assistant",
+    "family": "Social Science, Psychology, and Welfare Group",
+    "employees": 327,
+    "avgSalary": 56339
+  },
+  {
+    "code": "0993",
+    "name": "Railroad Retirement Claims Examining",
+    "family": "Legal and Kindred Group",
+    "employees": 327,
+    "avgSalary": 90632
+  },
+  {
+    "code": "1313",
+    "name": "Geophysics",
+    "family": "Physical Sciences Group",
+    "employees": 325,
+    "avgSalary": 144461
+  },
+  {
+    "code": "1750",
+    "name": "Instructional Systems",
+    "family": "Education Group",
+    "employees": 323,
+    "avgSalary": 138155
+  },
+  {
+    "code": "0881",
+    "name": "Petroleum Engineering",
+    "family": "Engineering and Architecture Group",
+    "employees": 317,
+    "avgSalary": 134222
+  },
+  {
+    "code": "0890",
+    "name": "Agricultural Engineering",
+    "family": "Engineering and Architecture Group",
+    "employees": 317,
+    "avgSalary": 107421
+  },
+  {
+    "code": "5306",
+    "name": "Air Conditioning Equipment Mechanic",
+    "family": "Industrial Equipment Maintenance Family",
+    "employees": 317,
+    "avgSalary": 87568
+  },
+  {
+    "code": "0603",
+    "name": "Physician Assistant",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 309,
+    "avgSalary": 116157
+  },
+  {
+    "code": "1373",
+    "name": "Land Surveying",
+    "family": "Physical Sciences Group",
+    "employees": 301,
+    "avgSalary": 105119
+  },
+  {
+    "code": "1603",
+    "name": "Equipment, Facilities, and Services Assistance",
+    "family": "Equipment, Facilities, and Services Group",
+    "employees": 297,
+    "avgSalary": 67049
+  },
+  {
+    "code": "0335",
+    "name": "Computer Clerk and Assistant",
+    "family": "General Administrative, Clerical, and Office Services Group",
+    "employees": 297,
+    "avgSalary": 69379
+  },
+  {
+    "code": "0430",
+    "name": "Botany",
+    "family": "Biological Sciences Group",
+    "employees": 295,
+    "avgSalary": 92330
+  },
+  {
+    "code": "1306",
+    "name": "Health Physics",
+    "family": "Physical Sciences Group",
+    "employees": 294,
+    "avgSalary": 147571
+  },
+  {
+    "code": "2181",
+    "name": "Aircraft Operation",
+    "family": "Transportation Group",
+    "employees": 293,
+    "avgSalary": 149749
+  },
+  {
+    "code": "1654",
+    "name": "Printing Services",
+    "family": "Equipment, Facilities, and Services Group",
+    "employees": 292,
+    "avgSalary": 128249
+  },
+  {
+    "code": "0620",
+    "name": "Practical Nurse",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 288,
+    "avgSalary": 67037
+  },
+  {
+    "code": "1040",
+    "name": "Language Specialist",
+    "family": "Information and Arts Group",
+    "employees": 288,
+    "avgSalary": 116551
+  },
+  {
+    "code": "0670",
+    "name": "Health System Administration",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 286,
+    "avgSalary": 124098
+  },
+  {
+    "code": "0185",
+    "name": "Social Work",
+    "family": "Social Science, Psychology, and Welfare Group",
+    "employees": 284,
+    "avgSalary": 105720
+  },
+  {
+    "code": "0671",
+    "name": "Health System Specialist",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 282,
+    "avgSalary": 99691
+  },
+  {
+    "code": "5352",
+    "name": "Industrial Equipment Mechanic",
+    "family": "Industrial Equipment Maintenance Family",
+    "employees": 277,
+    "avgSalary": 119660
+  },
+  {
+    "code": "2010",
+    "name": "Inventory Management",
+    "family": "Supply Group",
+    "employees": 274,
+    "avgSalary": 97596
+  },
+  {
+    "code": "0060",
+    "name": "Chaplain",
+    "family": "Miscellaneous Occupations Group",
+    "employees": 273,
+    "avgSalary": 116795
+  },
+  {
+    "code": "3869",
+    "name": "Metal Forming Machine Operating",
+    "family": "Metal Work Family",
+    "employees": 270,
+    "avgSalary": 69115
+  },
+  {
+    "code": "0170",
+    "name": "History",
+    "family": "Social Science, Psychology, and Welfare Group",
+    "employees": 266,
+    "avgSalary": 123805
+  },
+  {
+    "code": "2001",
+    "name": "General Supply",
+    "family": "Supply Group",
+    "employees": 264,
+    "avgSalary": 100550
+  },
+  {
+    "code": "1510",
+    "name": "Actuarial Science",
+    "family": "Mathematics and Statistics Group",
+    "employees": 262,
+    "avgSalary": 165279
+  },
+  {
+    "code": "0647",
+    "name": "Diagnostic Radiologic Technologist",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 258,
+    "avgSalary": 85475
+  },
+  {
+    "code": "*",
+    "name": "Invalid",
+    "family": "Invalid",
+    "employees": 256,
+    "avgSalary": 123436
+  },
+  {
+    "code": "0893",
+    "name": "Chemical Engineering",
+    "family": "Engineering and Architecture Group",
+    "employees": 252,
+    "avgSalary": 142805
+  },
+  {
+    "code": "0030",
+    "name": "Sports Specialist",
+    "family": "Miscellaneous Occupations Group",
+    "employees": 250,
+    "avgSalary": 82845
+  },
+  {
+    "code": "0142",
+    "name": "Workforce Development",
+    "family": "Social Science, Psychology, and Welfare Group",
+    "employees": 249,
+    "avgSalary": 129942
+  },
+  {
+    "code": "4402",
+    "name": "Bindery Working",
+    "family": "Printing Family",
+    "employees": 248,
+    "avgSalary": 99430
+  },
+  {
+    "code": "2125",
+    "name": "Highway Safety",
+    "family": "Transportation Group",
+    "employees": 248,
+    "avgSalary": 132075
+  },
+  {
+    "code": "5823",
+    "name": "Automotive Mechanic",
+    "family": "Transportation/Mobile Equipment Maintenance Family",
+    "employees": 243,
+    "avgSalary": 80759
+  },
+  {
+    "code": "0434",
+    "name": "Plant Pathology",
+    "family": "Biological Sciences Group",
+    "employees": 243,
+    "avgSalary": 135102
+  },
+  {
+    "code": "0807",
+    "name": "Landscape Architecture",
+    "family": "Engineering and Architecture Group",
+    "employees": 236,
+    "avgSalary": 115375
+  },
+  {
+    "code": "1010",
+    "name": "Exhibits Specialist",
+    "family": "Information and Arts Group",
+    "employees": 236,
+    "avgSalary": 99954
+  },
+  {
+    "code": "0131",
+    "name": "International Relations",
+    "family": "Social Science, Psychology, and Welfare Group",
+    "employees": 233,
+    "avgSalary": 152280
+  },
+  {
+    "code": "4206",
+    "name": "Plumbing",
+    "family": "Plumbing and Pipefitting Family",
+    "employees": 230,
+    "avgSalary": 88262
+  },
+  {
+    "code": "0904",
+    "name": "Law Clerk",
+    "family": "Legal and Kindred Group",
+    "employees": 230,
+    "avgSalary": 94984
+  },
+  {
+    "code": "0630",
+    "name": "Dietitian and Nutritionist",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 227,
+    "avgSalary": 124555
+  },
+  {
+    "code": "1360",
+    "name": "Oceanography",
+    "family": "Physical Sciences Group",
+    "employees": 225,
+    "avgSalary": 153338
+  },
+  {
+    "code": "2606",
+    "name": "Electronic Industrial Controls Mechanic",
+    "family": "Electronic Equipment Installation and Maintenance Family",
+    "employees": 223,
+    "avgSalary": 127911
+  },
+  {
+    "code": "5001",
+    "name": "Miscellaneous Plant and Animal Work",
+    "family": "Plant and Animal Work Family",
+    "employees": 223,
+    "avgSalary": 67969
+  },
+  {
+    "code": "4406",
+    "name": "Letterpress Operating",
+    "family": "Printing Family",
+    "employees": 216,
+    "avgSalary": 135881
+  },
+  {
+    "code": "0244",
+    "name": "Labor-Management Relations Examining",
+    "family": "Human Resources Management Group",
+    "employees": 214,
+    "avgSalary": 143914
+  },
+  {
+    "code": "1399",
+    "name": "Physical Science Student Trainee",
+    "family": "Physical Sciences Group",
+    "employees": 212,
+    "avgSalary": 46579
+  },
+  {
+    "code": "0965",
+    "name": "Land Law Examining",
+    "family": "Legal and Kindred Group",
+    "employees": 212,
+    "avgSalary": 77641
+  },
+  {
+    "code": "0471",
+    "name": "Agronomy",
+    "family": "Biological Sciences Group",
+    "employees": 207,
+    "avgSalary": 107716
+  },
+  {
+    "code": "0455",
+    "name": "Range Technician",
+    "family": "Biological Sciences Group",
+    "employees": 205,
+    "avgSalary": 58216
+  },
+  {
+    "code": "1199",
+    "name": "Business and Industry Student Trainee",
+    "family": "Business and Industry Group",
+    "employees": 205,
+    "avgSalary": 40999
+  },
+  {
+    "code": "2110",
+    "name": "Transportation Industry Analysis",
+    "family": "Transportation Group",
+    "employees": 202,
+    "avgSalary": 143285
+  },
+  {
+    "code": "6941",
+    "name": "Bulk Money Handling",
+    "family": "Warehousing and Stock Handling Family",
+    "employees": 193,
+    "avgSalary": 68512
+  },
+  {
+    "code": "1667",
+    "name": "Food Services",
+    "family": "Equipment, Facilities, and Services Group",
+    "employees": 192,
+    "avgSalary": 107806
+  },
+  {
+    "code": "2154",
+    "name": "Air Traffic Assistance",
+    "family": "Transportation Group",
+    "employees": 190,
+    "avgSalary": 83274
+  },
+  {
+    "code": "0086",
+    "name": "Security Clerical and Assistance",
+    "family": "Miscellaneous Occupations Group",
+    "employees": 182,
+    "avgSalary": 59960
+  },
+  {
+    "code": "1341",
+    "name": "Meteorological Technician",
+    "family": "Physical Sciences Group",
+    "employees": 176,
+    "avgSalary": 96974
+  },
+  {
+    "code": "0199",
+    "name": "Social Science Student Trainee",
+    "family": "Social Science, Psychology, and Welfare Group",
+    "employees": 175,
+    "avgSalary": 57760
+  },
+  {
+    "code": "0645",
+    "name": "Medical Technician",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 175,
+    "avgSalary": 54143
+  },
+  {
+    "code": "0099",
+    "name": "General Student Trainee",
+    "family": "Miscellaneous Occupations Group",
+    "employees": 174,
+    "avgSalary": 44122
+  },
+  {
+    "code": "4701",
+    "name": "Misc General Maintenance & Operations Work",
+    "family": "General Maintenance and Operations Work Family",
+    "employees": 169,
+    "avgSalary": 86880
+  },
+  {
+    "code": "0102",
+    "name": "Social Science Aid and Technician",
+    "family": "Social Science, Psychology, and Welfare Group",
+    "employees": 169,
+    "avgSalary": 56620
+  },
+  {
+    "code": "0135",
+    "name": "Foreign Agricultural Affairs",
+    "family": "Social Science, Psychology, and Welfare Group",
+    "employees": 162,
+    "avgSalary": 153421
+  },
+  {
+    "code": "0544",
+    "name": "Civilian Pay",
+    "family": "Accounting and Budget Group",
+    "employees": 153,
+    "avgSalary": 55800
+  },
+  {
+    "code": "4401",
+    "name": "Miscellaneous Printing and Reproduction",
+    "family": "Printing Family",
+    "employees": 152,
+    "avgSalary": 84341
+  },
+  {
+    "code": "1371",
+    "name": "Cartographic Technician",
+    "family": "Physical Sciences Group",
+    "employees": 152,
+    "avgSalary": 69237
+  },
+  {
+    "code": "5048",
+    "name": "Animal Caretaking",
+    "family": "Plant and Animal Work Family",
+    "employees": 151,
+    "avgSalary": 55490
+  },
+  {
+    "code": "0241",
+    "name": "Mediation",
+    "family": "Human Resources Management Group",
+    "employees": 148,
+    "avgSalary": 151943
+  },
+  {
+    "code": "1520",
+    "name": "Mathematics",
+    "family": "Mathematics and Statistics Group",
+    "employees": 147,
+    "avgSalary": 175081
+  },
+  {
+    "code": "1147",
+    "name": "Agricultural Market Reporting",
+    "family": "Business and Industry Group",
+    "employees": 146,
+    "avgSalary": 98882
+  },
+  {
+    "code": "1104",
+    "name": "Property Disposal",
+    "family": "Business and Industry Group",
+    "employees": 145,
+    "avgSalary": 116256
+  },
+  {
+    "code": "5003",
+    "name": "Gardening",
+    "family": "Plant and Animal Work Family",
+    "employees": 144,
+    "avgSalary": 72308
+  },
+  {
+    "code": "5803",
+    "name": "Heavy Mobile Equipment Mechanic",
+    "family": "Transportation/Mobile Equipment Maintenance Family",
+    "employees": 144,
+    "avgSalary": 92031
+  },
+  {
+    "code": "4403",
+    "name": "Hand Composing",
+    "family": "Printing Family",
+    "employees": 140,
+    "avgSalary": 101590
+  },
+  {
+    "code": "0561",
+    "name": "Budget Clerical and Assistance",
+    "family": "Accounting and Budget Group",
+    "employees": 138,
+    "avgSalary": 59484
+  },
+  {
+    "code": "0332",
+    "name": "Computer Operation",
+    "family": "General Administrative, Clerical, and Office Services Group",
+    "employees": 138,
+    "avgSalary": 65935
+  },
+  {
+    "code": "2610",
+    "name": "Electronic Integrated Systems Mechanic",
+    "family": "Electronic Equipment Installation and Maintenance Family",
+    "employees": 136,
+    "avgSalary": 149518
+  },
+  {
+    "code": "0599",
+    "name": "Financial Management Student Trainee",
+    "family": "Accounting and Budget Group",
+    "employees": 135,
+    "avgSalary": 48603
+  },
+  {
+    "code": "0804",
+    "name": "Fire Protection Engineering",
+    "family": "Engineering and Architecture Group",
+    "employees": 132,
+    "avgSalary": 156201
+  },
+  {
+    "code": "5705",
+    "name": "Tractor Operating",
+    "family": "Transportation/Mobile Equipment Operation Family",
+    "employees": 130,
+    "avgSalary": 58701
+  },
+  {
+    "code": "2130",
+    "name": "Traffic Management",
+    "family": "Transportation Group",
+    "employees": 129,
+    "avgSalary": 121119
+  },
+  {
+    "code": "3359",
+    "name": "Instrument Mechanic",
+    "family": "Instrument Work Family",
+    "employees": 128,
+    "avgSalary": 57966
+  },
+  {
+    "code": "4454",
+    "name": "Intaglio Press Operating",
+    "family": "Printing Family",
+    "employees": 128,
+    "avgSalary": 139573
+  },
+  {
+    "code": "0050",
+    "name": "Funeral Directing",
+    "family": "Miscellaneous Occupations Group",
+    "employees": 126,
+    "avgSalary": 92471
+  },
+  {
+    "code": "4607",
+    "name": "Carpentry",
+    "family": "Wood Work Family",
+    "employees": 124,
+    "avgSalary": 82915
+  },
+  {
+    "code": "3603",
+    "name": "Masonry",
+    "family": "Structural and Finishing Work Family",
+    "employees": 122,
+    "avgSalary": 67993
+  },
+  {
+    "code": "1106",
+    "name": "Procurement Clerical and Technician",
+    "family": "Business and Industry Group",
+    "employees": 121,
+    "avgSalary": 62305
+  },
+  {
+    "code": "0803",
+    "name": "Safety Engineering",
+    "family": "Engineering and Architecture Group",
+    "employees": 120,
+    "avgSalary": 133536
+  },
+  {
+    "code": "0669",
+    "name": "Medical Records Administration",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 119,
+    "avgSalary": 92508
+  },
+  {
+    "code": "4204",
+    "name": "Pipefitting",
+    "family": "Plumbing and Pipefitting Family",
+    "employees": 118,
+    "avgSalary": 92309
+  },
+  {
+    "code": "2299",
+    "name": "Information Technology Student Trainee",
+    "family": "Information Technology Group",
+    "employees": 118,
+    "avgSalary": 50156
+  },
+  {
+    "code": "0817",
+    "name": "Survey Technical",
+    "family": "Engineering and Architecture Group",
+    "employees": 113,
+    "avgSalary": 60822
+  },
+  {
+    "code": "1008",
+    "name": "Interior Design",
+    "family": "Information and Arts Group",
+    "employees": 110,
+    "avgSalary": 134279
+  },
+  {
+    "code": "0437",
+    "name": "Horticulture",
+    "family": "Biological Sciences Group",
+    "employees": 109,
+    "avgSalary": 108793
+  },
+  {
+    "code": "0682",
+    "name": "Dental Hygiene",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 109,
+    "avgSalary": 82375
+  },
+  {
+    "code": "0350",
+    "name": "Equipment Operator",
+    "family": "General Administrative, Clerical, and Office Services Group",
+    "employees": 106,
+    "avgSalary": 51342
+  },
+  {
+    "code": "0651",
+    "name": "Respiratory Therapist",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 106,
+    "avgSalary": 70740
+  },
+  {
+    "code": "0081",
+    "name": "Fire Protection and Prevention",
+    "family": "Miscellaneous Occupations Group",
+    "employees": 105,
+    "avgSalary": 95281
+  },
+  {
+    "code": "2604",
+    "name": "Electronics Mechanic",
+    "family": "Electronic Equipment Installation and Maintenance Family",
+    "employees": 101,
+    "avgSalary": 130274
+  },
+  {
+    "code": "1730",
+    "name": "Education Research",
+    "family": "Education Group",
+    "employees": 97,
+    "avgSalary": 146502
+  },
+  {
+    "code": "3414",
+    "name": "Machining",
+    "family": "Machine Tool Work Family",
+    "employees": 96,
+    "avgSalary": 91320
+  },
+  {
+    "code": "1382",
+    "name": "Food Technology",
+    "family": "Physical Sciences Group",
+    "employees": 96,
+    "avgSalary": 143664
+  },
+  {
+    "code": "0190",
+    "name": "General Anthropology",
+    "family": "Social Science, Psychology, and Welfare Group",
+    "employees": 95,
+    "avgSalary": 116388
+  },
+  {
+    "code": "5031",
+    "name": "Insects Production Working",
+    "family": "Plant and Animal Work Family",
+    "employees": 94,
+    "avgSalary": 52612
+  },
+  {
+    "code": "0106",
+    "name": "Unemployment Insurance",
+    "family": "Social Science, Psychology, and Welfare Group",
+    "employees": 89,
+    "avgSalary": 128772
+  },
+  {
+    "code": "0413",
+    "name": "Physiology",
+    "family": "Biological Sciences Group",
+    "employees": 89,
+    "avgSalary": 153275
+  },
+  {
+    "code": "7002",
+    "name": "Packing",
+    "family": "Packing and Processing Family",
+    "employees": 89,
+    "avgSalary": 61417
+  },
+  {
+    "code": "3105",
+    "name": "Fabric Working",
+    "family": "Fabric and Leather Work Family",
+    "employees": 88,
+    "avgSalary": 81526
+  },
+  {
+    "code": "1411",
+    "name": "Library Technician",
+    "family": "Library and Archives Group",
+    "employees": 88,
+    "avgSalary": 73431
+  },
+  {
+    "code": "0435",
+    "name": "Plant Physiology",
+    "family": "Biological Sciences Group",
+    "employees": 85,
+    "avgSalary": 139365
+  },
+  {
+    "code": "4102",
+    "name": "Painting",
+    "family": "Painting and Paperhanging Family",
+    "employees": 82,
+    "avgSalary": 87584
+  },
+  {
+    "code": "0958",
+    "name": "Employee Benefits Law",
+    "family": "Legal and Kindred Group",
+    "employees": 75,
+    "avgSalary": 150482
+  },
+  {
+    "code": "9901",
+    "name": "Miscellaneous Vessel Jobs",
+    "family": "Vessel Jobs Family (Excluded From the Federal Wage System)",
+    "employees": 75,
+    "avgSalary": 55580
+  },
+  {
+    "code": "0181",
+    "name": "Psychology Aid and Technician",
+    "family": "Social Science, Psychology, and Welfare Group",
+    "employees": 73,
+    "avgSalary": 65339
+  },
+  {
+    "code": "0136",
+    "name": "International Cooperation",
+    "family": "Social Science, Psychology, and Welfare Group",
+    "employees": 73,
+    "avgSalary": 151301
+  },
+  {
+    "code": "5786",
+    "name": "Small Craft Operating",
+    "family": "Transportation/Mobile Equipment Operation Family",
+    "employees": 72,
+    "avgSalary": 74317
+  },
+  {
+    "code": "7408",
+    "name": "Food Service Working",
+    "family": "Food Preparation and Serving Family",
+    "employees": 72,
+    "avgSalary": 48571
+  },
+  {
+    "code": "0487",
+    "name": "Animal Science",
+    "family": "Biological Sciences Group",
+    "employees": 71,
+    "avgSalary": 131711
+  },
+  {
+    "code": "0459",
+    "name": "Irrigation System Operation",
+    "family": "Biological Sciences Group",
+    "employees": 70,
+    "avgSalary": 53491
+  },
+  {
+    "code": "0662",
+    "name": "Optometrist",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 70,
+    "avgSalary": 149801
+  },
+  {
+    "code": "2199",
+    "name": "Transportation Student Trainee",
+    "family": "Transportation Group",
+    "employees": 67,
+    "avgSalary": 46911
+  },
+  {
+    "code": "0999",
+    "name": "Legal Occupations Student Trainee",
+    "family": "Legal and Kindred Group",
+    "employees": 66,
+    "avgSalary": 54474
+  },
+  {
+    "code": "5350",
+    "name": "Production Machinery Mechanic",
+    "family": "Industrial Equipment Maintenance Family",
+    "employees": 66,
+    "avgSalary": 77590
+  },
+  {
+    "code": "1599",
+    "name": "Mathematics and Statistics Student Trainee",
+    "family": "Mathematics and Statistics Group",
+    "employees": 64,
+    "avgSalary": 50997
+  },
+  {
+    "code": "0633",
+    "name": "Physical Therapist",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 64,
+    "avgSalary": 101121
+  },
+  {
+    "code": "4417",
+    "name": "Offset Press Operating",
+    "family": "Printing Family",
+    "employees": 63,
+    "avgSalary": 114553
+  },
+  {
+    "code": "3703",
+    "name": "Welding",
+    "family": "Metal Processing Family",
+    "employees": 63,
+    "avgSalary": 90177
+  },
+  {
+    "code": "0622",
+    "name": "Medical Supply Aide and Technician",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 63,
+    "avgSalary": 55069
+  },
+  {
+    "code": "0896",
+    "name": "Industrial Engineering",
+    "family": "Engineering and Architecture Group",
+    "employees": 63,
+    "avgSalary": 154364
+  },
+  {
+    "code": "0540",
+    "name": "Voucher Examining",
+    "family": "Accounting and Budget Group",
+    "employees": 63,
+    "avgSalary": 56913
+  },
+  {
+    "code": "0140",
+    "name": "Workforce Research and Analysis",
+    "family": "Social Science, Psychology, and Welfare Group",
+    "employees": 61,
+    "avgSalary": 138241
+  },
+  {
+    "code": "0880",
+    "name": "Mining Engineering",
+    "family": "Engineering and Architecture Group",
+    "employees": 59,
+    "avgSalary": 127381
+  },
+  {
+    "code": "1372",
+    "name": "Geodesy",
+    "family": "Physical Sciences Group",
+    "employees": 58,
+    "avgSalary": 153582
+  },
+  {
+    "code": "0299",
+    "name": "Human Resources Management Student Trainee",
+    "family": "Human Resources Management Group",
+    "employees": 57,
+    "avgSalary": 51645
+  },
+  {
+    "code": "4441",
+    "name": "Bookbinding",
+    "family": "Printing Family",
+    "employees": 57,
+    "avgSalary": 121222
+  },
+  {
+    "code": "2102",
+    "name": "Transportation Clerk and Assistant",
+    "family": "Transportation Group",
+    "employees": 56,
+    "avgSalary": 67719
+  },
+  {
+    "code": "9924",
+    "name": "Able Seaman",
+    "family": "Vessel Jobs Family (Excluded From the Federal Wage System)",
+    "employees": 56,
+    "avgSalary": 51570
+  },
+  {
+    "code": "2030",
+    "name": "Distribution Facilities & Storage Management",
+    "family": "Supply Group",
+    "employees": 55,
+    "avgSalary": 111816
+  },
+  {
+    "code": "5301",
+    "name": "Misc Industrial Equipment Maintenance",
+    "family": "Industrial Equipment Maintenance Family",
+    "employees": 54,
+    "avgSalary": 96140
+  },
+  {
+    "code": "3501",
+    "name": "Misc General Services and Support Work",
+    "family": "General Services and Support Work Family",
+    "employees": 53,
+    "avgSalary": 56504
+  },
+  {
+    "code": "1103",
+    "name": "Industrial Property Management",
+    "family": "Business and Industry Group",
+    "employees": 53,
+    "avgSalary": 127878
+  },
+  {
+    "code": "0361",
+    "name": "Equal Opportunity Assistance",
+    "family": "General Administrative, Clerical, and Office Services Group",
+    "employees": 52,
+    "avgSalary": 69462
+  },
+  {
+    "code": "0160",
+    "name": "Civil Rights Analysis",
+    "family": "Social Science, Psychology, and Welfare Group",
+    "employees": 51,
+    "avgSalary": 149087
+  },
+  {
+    "code": "0189",
+    "name": "Recreation Aid and Assistant",
+    "family": "Social Science, Psychology, and Welfare Group",
+    "employees": 51,
+    "avgSalary": 51129
+  },
+  {
+    "code": "1152",
+    "name": "Production Control",
+    "family": "Business and Industry Group",
+    "employees": 50,
+    "avgSalary": 99352
+  },
+  {
+    "code": "5042",
+    "name": "Tree Trimming and Removing",
+    "family": "Plant and Animal Work Family",
+    "employees": 50,
+    "avgSalary": 81029
+  },
+  {
+    "code": "5406",
+    "name": "Utility Systems Operating",
+    "family": "Industrial Equipment Operation Family",
+    "employees": 49,
+    "avgSalary": 76419
+  },
+  {
+    "code": "0382",
+    "name": "Telephone Operating",
+    "family": "General Administrative, Clerical, and Office Services Group",
+    "employees": 47,
+    "avgSalary": 42580
+  },
+  {
+    "code": "5334",
+    "name": "Marine Machinery Mechanic",
+    "family": "Industrial Equipment Maintenance Family",
+    "employees": 47,
+    "avgSalary": 81425
+  },
+  {
+    "code": "1060",
+    "name": "Photography",
+    "family": "Information and Arts Group",
+    "employees": 47,
+    "avgSalary": 105079
+  },
+  {
+    "code": "1501",
+    "name": "General Mathematics and Statistics",
+    "family": "Mathematics and Statistics Group",
+    "employees": 45,
+    "avgSalary": 208581
+  },
+  {
+    "code": "1850",
+    "name": "Agricultural Warehouse Inspection Series",
+    "family": "Investigation Group",
+    "employees": 45,
+    "avgSalary": 96065
+  },
+  {
+    "code": "5401",
+    "name": "Misc Industrial Equipment Operation",
+    "family": "Industrial Equipment Operation Family",
+    "employees": 45,
+    "avgSalary": 94968
+  },
+  {
+    "code": "5409",
+    "name": "Water Treatment Plant Operating",
+    "family": "Industrial Equipment Operation Family",
+    "employees": 44,
+    "avgSalary": 90335
+  },
+  {
+    "code": "3806",
+    "name": "Sheet Metal Mechanic",
+    "family": "Metal Work Family",
+    "employees": 44,
+    "avgSalary": 93297
+  },
+  {
+    "code": "0688",
+    "name": "Sanitarian",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 43,
+    "avgSalary": 93005
+  },
+  {
+    "code": "0649",
+    "name": "Medical Instrument Technician",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 43,
+    "avgSalary": 86100
+  },
+  {
+    "code": "1223",
+    "name": "Patent Classifying",
+    "family": "Copyright, Patent, and Trademark Group",
+    "employees": 43,
+    "avgSalary": 186949
+  },
+  {
+    "code": "5729",
+    "name": "Drill Rig Operating",
+    "family": "Transportation/Mobile Equipment Operation Family",
+    "employees": 42,
+    "avgSalary": 72723
+  },
+  {
+    "code": "0410",
+    "name": "Zoology",
+    "family": "Biological Sciences Group",
+    "employees": 41,
+    "avgSalary": 155897
+  },
+  {
+    "code": "0665",
+    "name": "Speech Pathology and Audiology",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 39,
+    "avgSalary": 117160
+  },
+  {
+    "code": "0873",
+    "name": "Marine Survey Technical",
+    "family": "Engineering and Architecture Group",
+    "employees": 39,
+    "avgSalary": 140574
+  },
+  {
+    "code": "9927",
+    "name": "Seaman-Fisherman",
+    "family": "Vessel Jobs Family (Excluded From the Federal Wage System)",
+    "employees": 39,
+    "avgSalary": 60314
+  },
+  {
+    "code": "0304",
+    "name": "Information Receptionist",
+    "family": "General Administrative, Clerical, and Office Services Group",
+    "employees": 38,
+    "avgSalary": 52635
+  },
+  {
+    "code": "1150",
+    "name": "Industrial Specialist",
+    "family": "Business and Industry Group",
+    "employees": 38,
+    "avgSalary": 142199
+  },
+  {
+    "code": "1740",
+    "name": "Education Services",
+    "family": "Education Group",
+    "employees": 37,
+    "avgSalary": 77405
+  },
+  {
+    "code": "5408",
+    "name": "Sewage Disposal Plant Operating",
+    "family": "Industrial Equipment Operation Family",
+    "employees": 36,
+    "avgSalary": 75418
+  },
+  {
+    "code": "1397",
+    "name": "Document Analysis",
+    "family": "Physical Sciences Group",
+    "employees": 35,
+    "avgSalary": 145331
+  },
+  {
+    "code": "0187",
+    "name": "Social Services",
+    "family": "Social Science, Psychology, and Welfare Group",
+    "employees": 34,
+    "avgSalary": 68817
+  },
+  {
+    "code": "4741",
+    "name": "General Equipment Operating",
+    "family": "General Maintenance and Operations Work Family",
+    "employees": 34,
+    "avgSalary": 76048
+  },
+  {
+    "code": "0668",
+    "name": "Podiatrist",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 34,
+    "avgSalary": 253229
+  },
+  {
+    "code": "2601",
+    "name": "Misc Electronic Equipmt Install & Maintne",
+    "family": "Electronic Equipment Installation and Maintenance Family",
+    "employees": 34,
+    "avgSalary": 142211
+  },
+  {
+    "code": "5026",
+    "name": "Pest Controlling",
+    "family": "Plant and Animal Work Family",
+    "employees": 33,
+    "avgSalary": 69562
+  },
+  {
+    "code": "1630",
+    "name": "Cemetery Administration Services",
+    "family": "Equipment, Facilities, and Services Group",
+    "employees": 32,
+    "avgSalary": 88436
+  },
+  {
+    "code": "5440",
+    "name": "Packaging Machine Operating",
+    "family": "Industrial Equipment Operation Family",
+    "employees": 32,
+    "avgSalary": 73714
+  },
+  {
+    "code": "4605",
+    "name": "Wood Crafting",
+    "family": "Wood Work Family",
+    "employees": 32,
+    "avgSalary": 81270
+  },
+  {
+    "code": "3940",
+    "name": "Broadcasting Equipment Operating",
+    "family": "Motion Picture, Radio, Television, and Sound Equipment Operating Family",
+    "employees": 32,
+    "avgSalary": 120660
+  },
+  {
+    "code": "4601",
+    "name": "Miscellaneous Woodwork",
+    "family": "Wood Work Family",
+    "employees": 31,
+    "avgSalary": 84731
+  },
+  {
+    "code": "9932",
+    "name": "First Assistant Engineer",
+    "family": "Vessel Jobs Family (Excluded From the Federal Wage System)",
+    "employees": 31,
+    "avgSalary": 117467
+  },
+  {
+    "code": "1173",
+    "name": "Housing Management",
+    "family": "Business and Industry Group",
+    "employees": 31,
+    "avgSalary": 74978
+  },
+  {
+    "code": "0356",
+    "name": "Data Transcriber",
+    "family": "General Administrative, Clerical, and Office Services Group",
+    "employees": 29,
+    "avgSalary": 44312
+  },
+  {
+    "code": "1815",
+    "name": "Air Safety Investigating",
+    "family": "Investigation Group",
+    "employees": 29,
+    "avgSalary": 151162
+  },
+  {
+    "code": "9973",
+    "name": "Second Cook",
+    "family": "Vessel Jobs Family (Excluded From the Federal Wage System)",
+    "employees": 29,
+    "avgSalary": 47389
+  },
+  {
+    "code": "9934",
+    "name": "Third Assistant Engineer",
+    "family": "Vessel Jobs Family (Excluded From the Federal Wage System)",
+    "employees": 28,
+    "avgSalary": 95333
+  },
+  {
+    "code": "3416",
+    "name": "Toolmaking",
+    "family": "Machine Tool Work Family",
+    "employees": 28,
+    "avgSalary": 85665
+  },
+  {
+    "code": "1725",
+    "name": "Public Health Educator",
+    "family": "Education Group",
+    "employees": 27,
+    "avgSalary": 121417
+  },
+  {
+    "code": "1087",
+    "name": "Editorial Assistance",
+    "family": "Information and Arts Group",
+    "employees": 27,
+    "avgSalary": 60051
+  },
+  {
+    "code": "9933",
+    "name": "Second Assistant Engineer",
+    "family": "Vessel Jobs Family (Excluded From the Federal Wage System)",
+    "employees": 26,
+    "avgSalary": 106948
+  },
+  {
+    "code": "5419",
+    "name": "Stationary-Engine Operating",
+    "family": "Industrial Equipment Operation Family",
+    "employees": 26,
+    "avgSalary": 116566
+  },
+  {
+    "code": "0019",
+    "name": "Safety Technician",
+    "family": "Miscellaneous Occupations Group",
+    "employees": 26,
+    "avgSalary": 75843
+  },
+  {
+    "code": "1099",
+    "name": "Information and Arts Student Trainee",
+    "family": "Information and Arts Group",
+    "employees": 24,
+    "avgSalary": 52095
+  },
+  {
+    "code": "9954",
+    "name": "Unlicensed Junior Engineer",
+    "family": "Vessel Jobs Family (Excluded From the Federal Wage System)",
+    "employees": 24,
+    "avgSalary": 57774
+  },
+  {
+    "code": "0530",
+    "name": "Cash Processing",
+    "family": "Accounting and Budget Group",
+    "employees": 24,
+    "avgSalary": 54670
+  },
+  {
+    "code": "0638",
+    "name": "Recreation/Creative Arts Therapist",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 24,
+    "avgSalary": 92457
+  },
+  {
+    "code": "5426",
+    "name": "Lock and Dam Operating",
+    "family": "Industrial Equipment Operation Family",
+    "employees": 23,
+    "avgSalary": 67798
+  },
+  {
+    "code": "0072",
+    "name": "Fingerprint Identification",
+    "family": "Miscellaneous Occupations Group",
+    "employees": 23,
+    "avgSalary": 115906
+  },
+  {
+    "code": "1715",
+    "name": "Vocational Rehabilitation",
+    "family": "Education Group",
+    "employees": 22,
+    "avgSalary": 82269
+  },
+  {
+    "code": "0631",
+    "name": "Occupational Therapist",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 22,
+    "avgSalary": 106591
+  },
+  {
+    "code": "2854",
+    "name": "Electrical Equipment Repairer",
+    "family": "Electrical Installation and Maintenance Family",
+    "employees": 21,
+    "avgSalary": 99677
+  },
+  {
+    "code": "5210",
+    "name": "Rigging",
+    "family": "Miscellaneous Occupations Family",
+    "employees": 21,
+    "avgSalary": 85150
+  },
+  {
+    "code": "3801",
+    "name": "Miscellaneous Metal Work",
+    "family": "Metal Work Family",
+    "employees": 21,
+    "avgSalary": 92161
+  },
+  {
+    "code": "8610",
+    "name": "Small Engine Mechanic",
+    "family": "Engine Overhaul Family",
+    "employees": 21,
+    "avgSalary": 68208
+  },
+  {
+    "code": "5782",
+    "name": "Ship Operating",
+    "family": "Transportation/Mobile Equipment Operation Family",
+    "employees": 21,
+    "avgSalary": 99331
+  },
+  {
+    "code": "0636",
+    "name": "Rehabilitation Therapy Assistant",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 21,
+    "avgSalary": 60705
+  },
+  {
+    "code": "6912",
+    "name": "Materials Examining and Identifying",
+    "family": "Warehousing and Stock Handling Family",
+    "employees": 20,
+    "avgSalary": 59422
+  },
+  {
+    "code": "3511",
+    "name": "Laboratory Working",
+    "family": "General Services and Support Work Family",
+    "employees": 20,
+    "avgSalary": 48752
+  },
+  {
+    "code": "0699",
+    "name": "Medical and Health Student Trainee",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 19,
+    "avgSalary": 54828
+  },
+  {
+    "code": "3401",
+    "name": "Miscellaneous Machine Tool Work",
+    "family": "Machine Tool Work Family",
+    "employees": 19,
+    "avgSalary": 89439
+  },
+  {
+    "code": "9931",
+    "name": "Chief Engineer",
+    "family": "Vessel Jobs Family (Excluded From the Federal Wage System)",
+    "employees": 19,
+    "avgSalary": 184351
+  },
+  {
+    "code": "4804",
+    "name": "Locksmithing",
+    "family": "General Equipment Maintenance Family",
+    "employees": 18,
+    "avgSalary": 86982
+  },
+  {
+    "code": "2091",
+    "name": "Sales Store Clerical",
+    "family": "Supply Group",
+    "employees": 18,
+    "avgSalary": 40832
+  },
+  {
+    "code": "4449",
+    "name": "Electrolytic Intaglio Platemaking",
+    "family": "Printing Family",
+    "employees": 18,
+    "avgSalary": 137990
+  },
+  {
+    "code": "4416",
+    "name": "Platemaking",
+    "family": "Printing Family",
+    "employees": 18,
+    "avgSalary": 107242
+  },
+  {
+    "code": "4104",
+    "name": "Sign Painting",
+    "family": "Painting and Paperhanging Family",
+    "employees": 18,
+    "avgSalary": 74816
+  },
+  {
+    "code": "9960",
+    "name": "Oiler",
+    "family": "Vessel Jobs Family (Excluded From the Federal Wage System)",
+    "employees": 17,
+    "avgSalary": 49191
+  },
+  {
+    "code": "0799",
+    "name": "Veterinary Student Trainee",
+    "family": "Veterinary Medical Science Group",
+    "employees": 17,
+    "avgSalary": 56611
+  },
+  {
+    "code": "7305",
+    "name": "Laundry Machine Operating",
+    "family": "Laundry, Dry Cleaning, and Pressing Family",
+    "employees": 17,
+    "avgSalary": 67095
+  },
+  {
+    "code": "1380",
+    "name": "Forest Products Technology",
+    "family": "Physical Sciences Group",
+    "employees": 16,
+    "avgSalary": 135698
+  },
+  {
+    "code": "7006",
+    "name": "Preservation Servicing",
+    "family": "Packing and Processing Family",
+    "employees": 16,
+    "avgSalary": 64769
+  },
+  {
+    "code": "5725",
+    "name": "Crane Operating",
+    "family": "Transportation/Mobile Equipment Operation Family",
+    "employees": 15,
+    "avgSalary": 88030
+  },
+  {
+    "code": "0392",
+    "name": "General Telecommunications",
+    "family": "General Administrative, Clerical, and Office Services Group",
+    "employees": 15,
+    "avgSalary": 75109
+  },
+  {
+    "code": "3712",
+    "name": "Heat Treating",
+    "family": "Metal Processing Family",
+    "employees": 14,
+    "avgSalary": 75755
+  },
+  {
+    "code": "5801",
+    "name": "Misc Transportation/Mobile Equipmt Maintne",
+    "family": "Transportation/Mobile Equipment Maintenance Family",
+    "employees": 13,
+    "avgSalary": 95737
+  },
+  {
+    "code": "9968",
+    "name": "Chief Steward",
+    "family": "Vessel Jobs Family (Excluded From the Federal Wage System)",
+    "employees": 13,
+    "avgSalary": 68902
+  },
+  {
+    "code": "6904",
+    "name": "Tools and Parts Attending",
+    "family": "Warehousing and Stock Handling Family",
+    "employees": 13,
+    "avgSalary": 66450
+  },
+  {
+    "code": "8852",
+    "name": "Aircraft Mechanic",
+    "family": "Aircraft Overhaul Family",
+    "employees": 12,
+    "avgSalary": 116879
+  },
+  {
+    "code": "1107",
+    "name": "Property Disposal Clerical and Technician",
+    "family": "Business and Industry Group",
+    "employees": 12,
+    "avgSalary": 69248
+  },
+  {
+    "code": "2801",
+    "name": "Misc Electrical Installation & Maintenance",
+    "family": "Electrical Installation and Maintenance Family",
+    "employees": 12,
+    "avgSalary": 115336
+  },
+  {
+    "code": "5318",
+    "name": "Lock and Dam Repairing",
+    "family": "Industrial Equipment Maintenance Family",
+    "employees": 11,
+    "avgSalary": 113668
+  },
+  {
+    "code": "1321",
+    "name": "Metallurgy",
+    "family": "Physical Sciences Group",
+    "employees": 11,
+    "avgSalary": 165277
+  },
+  {
+    "code": "0029",
+    "name": "Environmental Protection Assistant",
+    "family": "Miscellaneous Occupations Group",
+    "employees": 11,
+    "avgSalary": 68028
+  },
+  {
+    "code": "9965",
+    "name": "Wiper",
+    "family": "Vessel Jobs Family (Excluded From the Federal Wage System)",
+    "employees": 11,
+    "avgSalary": 42887
+  },
+  {
+    "code": "5704",
+    "name": "Fork Lift Operating",
+    "family": "Transportation/Mobile Equipment Operation Family",
+    "employees": 11,
+    "avgSalary": 66993
+  },
+  {
+    "code": "9928",
+    "name": "Ordinary Seaman",
+    "family": "Vessel Jobs Family (Excluded From the Federal Wage System)",
+    "employees": 10,
+    "avgSalary": 42600
+  },
+  {
+    "code": "6910",
+    "name": "Materials Expediting",
+    "family": "Warehousing and Stock Handling Family",
+    "employees": 10,
+    "avgSalary": 59073
+  },
+  {
+    "code": "2131",
+    "name": "Freight Rate",
+    "family": "Transportation Group",
+    "employees": 9,
+    "avgSalary": 68021
+  },
+  {
+    "code": "4714",
+    "name": "Model Making",
+    "family": "General Maintenance and Operations Work Family",
+    "employees": 9,
+    "avgSalary": 83642
+  },
+  {
+    "code": "9920",
+    "name": "Boatswain",
+    "family": "Vessel Jobs Family (Excluded From the Federal Wage System)",
+    "employees": 9,
+    "avgSalary": 76968
+  },
+  {
+    "code": "5402",
+    "name": "Boiler Plant Operating",
+    "family": "Industrial Equipment Operation Family",
+    "employees": 9,
+    "avgSalary": 86965
+  },
+  {
+    "code": "4737",
+    "name": "General Equipment Mechanic",
+    "family": "General Maintenance and Operations Work Family",
+    "employees": 9,
+    "avgSalary": 69634
+  },
+  {
+    "code": "0646",
+    "name": "Pathology Technician",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 9,
+    "avgSalary": 81862
+  },
+  {
+    "code": "1221",
+    "name": "Patent Adviser",
+    "family": "Copyright, Patent, and Trademark Group",
+    "employees": 9,
+    "avgSalary": 153160
+  },
+  {
+    "code": "0642",
+    "name": "Nuclear Medicine Technician",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 9,
+    "avgSalary": 104440
+  },
+  {
+    "code": "0184",
+    "name": "Sociology",
+    "family": "Social Science, Psychology, and Welfare Group",
+    "employees": 8,
+    "avgSalary": 133256
+  },
+  {
+    "code": "0673",
+    "name": "Hospital Housekeeping Management",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 8,
+    "avgSalary": 87104
+  },
+  {
+    "code": "1020",
+    "name": "Illustrating",
+    "family": "Information and Arts Group",
+    "employees": 8,
+    "avgSalary": 105911
+  },
+  {
+    "code": "9923",
+    "name": "Boatswain'S Mate",
+    "family": "Vessel Jobs Family (Excluded From the Federal Wage System)",
+    "employees": 7,
+    "avgSalary": 59763
+  },
+  {
+    "code": "5201",
+    "name": "Miscellaneous Occupations",
+    "family": "Miscellaneous Occupations Family",
+    "employees": 7,
+    "avgSalary": 93334
+  },
+  {
+    "code": "3727",
+    "name": "Buffing and Polishing",
+    "family": "Metal Processing Family",
+    "employees": 7,
+    "avgSalary": 81641
+  },
+  {
+    "code": "5309",
+    "name": "Heating & Boiler Plant Equipmt Mechanic",
+    "family": "Industrial Equipment Maintenance Family",
+    "employees": 6,
+    "avgSalary": 92447
+  },
+  {
+    "code": "2501",
+    "name": "Misc Wire Communca Equipmt Install & Maint",
+    "family": "Wire Communications Equipment Installation and Maintenance Family",
+    "employees": 6,
+    "avgSalary": 131502
+  },
+  {
+    "code": "0871",
+    "name": "Naval Architecture",
+    "family": "Engineering and Architecture Group",
+    "employees": 6,
+    "avgSalary": 183169
+  },
+  {
+    "code": "0017",
+    "name": "Explosives Safety",
+    "family": "Miscellaneous Occupations Group",
+    "employees": 6,
+    "avgSalary": 143946
+  },
+  {
+    "code": "5413",
+    "name": "Fuel Distribution System Operating",
+    "family": "Industrial Equipment Operation Family",
+    "employees": 6,
+    "avgSalary": 80895
+  },
+  {
+    "code": "2032",
+    "name": "Packaging",
+    "family": "Supply Group",
+    "employees": 6,
+    "avgSalary": 114135
+  },
+  {
+    "code": "6901",
+    "name": "Misc Warehousing and Stock Handling",
+    "family": "Warehousing and Stock Handling Family",
+    "employees": 6,
+    "avgSalary": 72255
+  },
+  {
+    "code": "5313",
+    "name": "Elevator Mechanic",
+    "family": "Industrial Equipment Maintenance Family",
+    "employees": 5,
+    "avgSalary": 97321
+  },
+  {
+    "code": "1384",
+    "name": "Textile Technology",
+    "family": "Physical Sciences Group",
+    "employees": 5,
+    "avgSalary": 117082
+  },
+  {
+    "code": "0313",
+    "name": "Work Unit Supervising",
+    "family": "General Administrative, Clerical, and Office Services Group",
+    "employees": 5,
+    "avgSalary": 74315
+  },
+  {
+    "code": "5806",
+    "name": "Mobile Equipment Servicing",
+    "family": "Transportation/Mobile Equipment Maintenance Family",
+    "employees": 5,
+    "avgSalary": 54525
+  },
+  {
+    "code": "1202",
+    "name": "Patent Technician",
+    "family": "Copyright, Patent, and Trademark Group",
+    "employees": 5,
+    "avgSalary": 94247
+  },
+  {
+    "code": "1658",
+    "name": "Laundry Operations Services",
+    "family": "Equipment, Facilities, and Services Group",
+    "employees": 4,
+    "avgSalary": 85936
+  },
+  {
+    "code": "9971",
+    "name": "Chief Cook",
+    "family": "Vessel Jobs Family (Excluded From the Federal Wage System)",
+    "employees": 4,
+    "avgSalary": 57667
+  },
+  {
+    "code": "5876",
+    "name": "Electromotive Equipment Mechanic",
+    "family": "Transportation/Mobile Equipment Maintenance Family",
+    "employees": 4,
+    "avgSalary": 83418
+  },
+  {
+    "code": "1999",
+    "name": "Quality Inspection Student Trainee",
+    "family": "Quality Assurance, Inspection, and Grading Group",
+    "employees": 4,
+    "avgSalary": 40343
+  },
+  {
+    "code": "3606",
+    "name": "Roofing",
+    "family": "Structural and Finishing Work Family",
+    "employees": 4,
+    "avgSalary": 75706
+  },
+  {
+    "code": "3106",
+    "name": "Upholstering",
+    "family": "Fabric and Leather Work Family",
+    "employees": 4,
+    "avgSalary": 86778
+  },
+  {
+    "code": "0322",
+    "name": "Clerk-Typist",
+    "family": "General Administrative, Clerical, and Office Services Group",
+    "employees": 4,
+    "avgSalary": 46170
+  },
+  {
+    "code": "4745",
+    "name": "Research Laboratory Mechanic",
+    "family": "General Maintenance and Operations Work Family",
+    "employees": 4,
+    "avgSalary": 85765
+  },
+  {
+    "code": "1899",
+    "name": "Investigation Student Trainee",
+    "family": "Investigation Group",
+    "employees": 4,
+    "avgSalary": 55670
+  },
+  {
+    "code": "8862",
+    "name": "Aircraft Attending",
+    "family": "Aircraft Overhaul Family",
+    "employees": 4,
+    "avgSalary": 65303
+  },
+  {
+    "code": "2602",
+    "name": "Electronic Measurement Equipment Mechanic",
+    "family": "Electronic Equipment Installation and Maintenance Family",
+    "employees": 4,
+    "avgSalary": 154887
+  },
+  {
+    "code": "3610",
+    "name": "Insulating",
+    "family": "Structural and Finishing Work Family",
+    "employees": 4,
+    "avgSalary": 102931
+  },
+  {
+    "code": "9902",
+    "name": "Master",
+    "family": "Vessel Jobs Family (Excluded From the Federal Wage System)",
+    "employees": 3,
+    "avgSalary": 131077
+  },
+  {
+    "code": "4604",
+    "name": "Wood Working",
+    "family": "Wood Work Family",
+    "employees": 3,
+    "avgSalary": 63988
+  },
+  {
+    "code": "0394",
+    "name": "Communications Clerical",
+    "family": "General Administrative, Clerical, and Office Services Group",
+    "employees": 3,
+    "avgSalary": 91827
+  },
+  {
+    "code": "3301",
+    "name": "Miscellaneous Instrument Work",
+    "family": "Instrument Work Family",
+    "employees": 3,
+    "avgSalary": 81609
+  },
+  {
+    "code": "3725",
+    "name": "Battery Repairing",
+    "family": "Metal Processing Family",
+    "employees": 3,
+    "avgSalary": 71542
+  },
+  {
+    "code": "1799",
+    "name": "Education Student Trainee",
+    "family": "Education Group",
+    "employees": 3,
+    "avgSalary": 53459
+  },
+  {
+    "code": "5737",
+    "name": "Locomotive Engineering",
+    "family": "Transportation/Mobile Equipment Operation Family",
+    "employees": 3,
+    "avgSalary": 58561
+  },
+  {
+    "code": "3601",
+    "name": "Miscellaneous Structural & Finishing Work",
+    "family": "Structural and Finishing Work Family",
+    "employees": 3,
+    "avgSalary": 82826
+  },
+  {
+    "code": "5788",
+    "name": "Deckhand",
+    "family": "Transportation/Mobile Equipment Operation Family",
+    "employees": 3,
+    "avgSalary": 64175
+  },
+  {
+    "code": "0390",
+    "name": "Telecommunications Processing",
+    "family": "General Administrative, Clerical, and Office Services Group",
+    "employees": 2,
+    "avgSalary": 82595
+  },
+  {
+    "code": "5738",
+    "name": "Railroad Maintenance Vehicle Operating",
+    "family": "Transportation/Mobile Equipment Operation Family",
+    "employees": 2,
+    "avgSalary": 74715
+  },
+  {
+    "code": "1051",
+    "name": "Music Specialist",
+    "family": "Information and Arts Group",
+    "employees": 2,
+    "avgSalary": 102573
+  },
+  {
+    "code": "4201",
+    "name": "Miscellaneous Plumbing and Pipefitting",
+    "family": "Plumbing and Pipefitting Family",
+    "employees": 2,
+    "avgSalary": 145777
+  },
+  {
+    "code": "0302",
+    "name": "Messenger",
+    "family": "General Administrative, Clerical, and Office Services Group",
+    "employees": 2,
+    "avgSalary": 38234
+  },
+  {
+    "code": "9944",
+    "name": "Electronics Technician",
+    "family": "Vessel Jobs Family (Excluded From the Federal Wage System)",
+    "employees": 2,
+    "avgSalary": 89968
+  },
+  {
+    "code": "1056",
+    "name": "Art Specialist",
+    "family": "Information and Arts Group",
+    "employees": 2,
+    "avgSalary": 60345
+  },
+  {
+    "code": "5220",
+    "name": "Shipwright",
+    "family": "Miscellaneous Occupations Family",
+    "employees": 2,
+    "avgSalary": 88875
+  },
+  {
+    "code": "0698",
+    "name": "Environmental Health Technician",
+    "family": "Medical, Hospital, Dental, and Public Health Group",
+    "employees": 2,
+    "avgSalary": 54672
+  },
+  {
+    "code": "9905",
+    "name": "First Officer",
+    "family": "Vessel Jobs Family (Excluded From the Federal Wage System)",
+    "employees": 2,
+    "avgSalary": 85508
+  },
+  {
+    "code": "1046",
+    "name": "Language Clerical",
+    "family": "Information and Arts Group",
+    "employees": 2,
+    "avgSalary": 44939
+  },
+  {
+    "code": "1374",
+    "name": "Geodetic Technician",
+    "family": "Physical Sciences Group",
+    "employees": 1,
+    "avgSalary": 131826
+  },
+  {
+    "code": "2608",
+    "name": "Electronic Digital Computer Mechanic",
+    "family": "Electronic Equipment Installation and Maintenance Family",
+    "employees": 1,
+    "avgSalary": 138305
+  },
+  {
+    "code": "9957",
+    "name": "Engine Utilityman",
+    "family": "Vessel Jobs Family (Excluded From the Federal Wage System)",
+    "employees": 1,
+    "avgSalary": 52222
+  },
+  {
+    "code": "4805",
+    "name": "Medical Equipment Repairing",
+    "family": "General Equipment Maintenance Family",
+    "employees": 1,
+    "avgSalary": 81664
+  },
+  {
+    "code": "1541",
+    "name": "Cryptanalysis",
+    "family": "Mathematics and Statistics Group",
+    "employees": 1,
+    "avgSalary": 156755
+  },
+  {
+    "code": "4801",
+    "name": "Misc General Equipment Maintenance",
+    "family": "General Equipment Maintenance Family",
+    "employees": 1,
+    "avgSalary": 57914
+  },
+  {
+    "code": "5002",
+    "name": "Farming",
+    "family": "Plant and Animal Work Family",
+    "employees": 1,
+    "avgSalary": 69038
+  },
+  {
+    "code": "3604",
+    "name": "Tile Setting",
+    "family": "Structural and Finishing Work Family",
+    "employees": 1,
+    "avgSalary": 117895
+  },
+  {
+    "code": "3513",
+    "name": "Coin/Currency Checking",
+    "family": "General Services and Support Work Family",
+    "employees": 1,
+    "avgSalary": 110569
+  },
+  {
+    "code": "9916",
+    "name": "Master-Mate (Fishing Vessel)",
+    "family": "Vessel Jobs Family (Excluded From the Federal Wage System)",
+    "employees": 1,
+    "avgSalary": 95398
+  },
+  {
+    "code": "3605",
+    "name": "Plastering",
+    "family": "Structural and Finishing Work Family",
+    "employees": 1,
+    "avgSalary": 83772
+  },
+  {
+    "code": "3314",
+    "name": "Instrument Making",
+    "family": "Instrument Work Family",
+    "employees": 1,
+    "avgSalary": 86673
+  },
+  {
+    "code": "9984",
+    "name": "Messman",
+    "family": "Vessel Jobs Family (Excluded From the Federal Wage System)",
+    "employees": 1,
+    "avgSalary": 42010
+  },
+  {
+    "code": "7304",
+    "name": "Laundry Working",
+    "family": "Laundry, Dry Cleaning, and Pressing Family",
+    "employees": 1,
+    "avgSalary": 47104
+  },
+  {
+    "code": "3101",
+    "name": "Misc Fabric and Leather Work",
+    "family": "Fabric and Leather Work Family",
+    "employees": 1,
+    "avgSalary": 78429
+  },
+  {
+    "code": "4010",
+    "name": "Prescription Eyeglass Making",
+    "family": "Lens and Crystal Work Family",
+    "employees": 1,
+    "avgSalary": 76113
+  },
+  {
+    "code": "3809",
+    "name": "Mobile Equipment Metal Mechanic",
+    "family": "Metal Work Family",
+    "employees": 1,
+    "avgSalary": 95000
+  }
+]

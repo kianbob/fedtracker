@@ -1,1 +1,246 @@
-{"code": "SB", "name": "SMALL BUSINESS ADMINISTRATION", "employees": 8065, "avgSalary": 94657, "topOccupations": [{"name": "GENERAL BUSINESS AND INDUSTRY", "count": 2367, "avgSalary": 85474}, {"name": "LOAN SPECIALIST", "count": 2056, "avgSalary": 82062}, {"name": "CONSTRUCTION ANALYST", "count": 659, "avgSalary": 76169}, {"name": "GENERAL ATTORNEY", "count": 588, "avgSalary": 110839}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 435, "avgSalary": 106620}, {"name": "PARALEGAL SPECIALIST", "count": 279, "avgSalary": 78443}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "count": 270, "avgSalary": 118731}, {"name": "PROGRAM MANAGEMENT", "count": 209, "avgSalary": 178282}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "count": 190, "avgSalary": 136714}, {"name": "PUBLIC AFFAIRS", "count": 187, "avgSalary": 93024}, {"name": "HUMAN RESOURCES MANAGEMENT", "count": 163, "avgSalary": 113936}, {"name": "LEGAL ASSISTANCE", "count": 83, "avgSalary": 59286}, {"name": "FINANCIAL ANALYSIS", "count": 79, "avgSalary": 143520}, {"name": "CONTRACTING", "count": 75, "avgSalary": 136564}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "count": 68, "avgSalary": 62632}], "topStates": [{"name": "TEXAS", "code": "TX", "count": 1852}, {"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 857}, {"name": "CALIFORNIA", "code": "CA", "count": 830}, {"name": "GEORGIA", "code": "GA", "count": 597}, {"name": "FLORIDA", "code": "FL", "count": 590}, {"name": "VIRGINIA", "code": "VA", "count": 373}, {"name": "REDACTED", "code": "REDACTED", "count": 329}, {"name": "NEW YORK", "code": "NY", "count": 321}, {"name": "MARYLAND", "code": "MD", "count": 207}, {"name": "ALABAMA", "code": "AL", "count": 174}, {"name": "COLORADO", "code": "CO", "count": 170}, {"name": "NORTH CAROLINA", "code": "NC", "count": 147}, {"name": "ILLINOIS", "code": "IL", "count": 134}, {"name": "LOUISIANA", "code": "LA", "count": 125}, {"name": "PENNSYLVANIA", "code": "PA", "count": 121}], "education": [{"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 4044}, {"level": "BACHELOR'S DEGREE", "count": 1387}, {"level": "MASTER'S DEGREE", "count": 1155}, {"level": "FIRST PROFESSIONAL", "count": 503}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 486}, {"level": "ASSOCIATE DEGREE", "count": 185}, {"level": "DOCTORATE DEGREE", "count": 91}, {"level": "TWO YEARS COLLEGE", "count": 71}, {"level": "ONE YEAR COLLEGE", "count": 59}, {"level": "POST-BACHELOR'S", "count": 40}, {"level": "THREE YEARS COLLEGE", "count": 40}, {"level": "FOUR YEARS COLLEGE", "count": 34}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT", "count": 20}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE", "count": 11}, {"level": "POST-MASTER'S", "count": 9}, {"level": "POST-FIRST PROFESSIONAL", "count": 9}, {"level": "SOME HIGH SCHOOL - DID NOT COMPLETE", "count": 9}, {"level": "POST-DOCTORATE", "count": 6}, {"level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE", "count": 2}, {"level": "SIXTH-YEAR DEGREE", "count": 2}, {"level": "POST-SIXTH YEAR", "count": 1}]}
+{
+  "code": "SB",
+  "name": "Small Business Administration",
+  "employees": 8065,
+  "avgSalary": 94657,
+  "topOccupations": [
+    {
+      "name": "General Business and Industry",
+      "count": 2367,
+      "avgSalary": 85474
+    },
+    {
+      "name": "Loan Specialist",
+      "count": 2056,
+      "avgSalary": 82062
+    },
+    {
+      "name": "Construction Analyst",
+      "count": 659,
+      "avgSalary": 76169
+    },
+    {
+      "name": "General Attorney",
+      "count": 588,
+      "avgSalary": 110839
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 435,
+      "avgSalary": 106620
+    },
+    {
+      "name": "Paralegal Specialist",
+      "count": 279,
+      "avgSalary": 78443
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 270,
+      "avgSalary": 118731
+    },
+    {
+      "name": "Program Management",
+      "count": 209,
+      "avgSalary": 178282
+    },
+    {
+      "name": "Management and Program Analysis",
+      "count": 190,
+      "avgSalary": 136714
+    },
+    {
+      "name": "Public Affairs",
+      "count": 187,
+      "avgSalary": 93024
+    },
+    {
+      "name": "Human Resources Management",
+      "count": 163,
+      "avgSalary": 113936
+    },
+    {
+      "name": "Legal Assistance",
+      "count": 83,
+      "avgSalary": 59286
+    },
+    {
+      "name": "Financial Analysis",
+      "count": 79,
+      "avgSalary": 143520
+    },
+    {
+      "name": "Contracting",
+      "count": 75,
+      "avgSalary": 136564
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "count": 68,
+      "avgSalary": 62632
+    }
+  ],
+  "topStates": [
+    {
+      "name": "Texas",
+      "code": "TX",
+      "count": 1852
+    },
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 857
+    },
+    {
+      "name": "California",
+      "code": "CA",
+      "count": 830
+    },
+    {
+      "name": "Georgia",
+      "code": "GA",
+      "count": 597
+    },
+    {
+      "name": "Florida",
+      "code": "FL",
+      "count": 590
+    },
+    {
+      "name": "Virginia",
+      "code": "VA",
+      "count": 373
+    },
+    {
+      "name": "Redacted",
+      "code": "REDACTED",
+      "count": 329
+    },
+    {
+      "name": "New York",
+      "code": "NY",
+      "count": 321
+    },
+    {
+      "name": "Maryland",
+      "code": "MD",
+      "count": 207
+    },
+    {
+      "name": "Alabama",
+      "code": "AL",
+      "count": 174
+    },
+    {
+      "name": "Colorado",
+      "code": "CO",
+      "count": 170
+    },
+    {
+      "name": "North Carolina",
+      "code": "NC",
+      "count": 147
+    },
+    {
+      "name": "Illinois",
+      "code": "IL",
+      "count": 134
+    },
+    {
+      "name": "Louisiana",
+      "code": "LA",
+      "count": 125
+    },
+    {
+      "name": "Pennsylvania",
+      "code": "PA",
+      "count": 121
+    }
+  ],
+  "education": [
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 4044
+    },
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 1387
+    },
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 1155
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 503
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 486
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 185
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 91
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 71
+    },
+    {
+      "level": "ONE YEAR COLLEGE",
+      "count": 59
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 40
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 40
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 34
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT",
+      "count": 20
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE",
+      "count": 11
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 9
+    },
+    {
+      "level": "POST-FIRST PROFESSIONAL",
+      "count": 9
+    },
+    {
+      "level": "SOME HIGH SCHOOL - DID NOT COMPLETE",
+      "count": 9
+    },
+    {
+      "level": "POST-DOCTORATE",
+      "count": 6
+    },
+    {
+      "level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE",
+      "count": 2
+    },
+    {
+      "level": "SIXTH-YEAR DEGREE",
+      "count": 2
+    },
+    {
+      "level": "POST-SIXTH YEAR",
+      "count": 1
+    }
+  ]
+}

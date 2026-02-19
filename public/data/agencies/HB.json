@@ -1,1 +1,168 @@
-{"code": "HB", "name": "CMTE FOR PURCH FRM PPLE BLIND OR SEV DIS", "employees": 41, "avgSalary": 156920, "topOccupations": [{"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 14, "avgSalary": 161939}, {"name": "GENERAL ATTORNEY", "count": 7, "avgSalary": 143745}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "count": 4, "avgSalary": 173154}, {"name": "CONTRACTING", "count": 3, "avgSalary": 148312}, {"name": "GENERAL BUSINESS AND INDUSTRY", "count": 3, "avgSalary": 171249}, {"name": "AUDITING", "count": 2, "avgSalary": 143727}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "count": 2, "avgSalary": 165929}, {"name": "PROGRAM MANAGEMENT", "count": 2, "avgSalary": 173216}, {"name": "ADMINISTRATIVE OFFICER", "count": 2, "avgSalary": 114649}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "count": 1, "avgSalary": 151305}, {"name": "BUDGET ANALYSIS", "count": 1, "avgSalary": 162719}], "topStates": [{"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 20}, {"name": "CALIFORNIA", "code": "CA", "count": 4}, {"name": "REDACTED", "code": "REDACTED", "count": 4}, {"name": "FLORIDA", "code": "FL", "count": 3}, {"name": "TEXAS", "code": "TX", "count": 3}, {"name": "NEW YORK", "code": "NY", "count": 2}, {"name": "ALABAMA", "code": "AL", "count": 2}, {"name": "MICHIGAN", "code": "MI", "count": 2}, {"name": "SOUTH CAROLINA", "code": "SC", "count": 1}, {"name": "OHIO", "code": "OH", "count": 1}, {"name": "MASSACHUSETTS", "code": "MA", "count": 1}, {"name": "WASHINGTON", "code": "WA", "count": 1}, {"name": "GEORGIA", "code": "GA", "count": 1}], "education": [{"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 17}, {"level": "MASTER'S DEGREE", "count": 12}, {"level": "BACHELOR'S DEGREE", "count": 6}, {"level": "FIRST PROFESSIONAL", "count": 4}, {"level": "THREE YEARS COLLEGE", "count": 2}, {"level": "POST-MASTER'S", "count": 1}, {"level": "POST-FIRST PROFESSIONAL", "count": 1}, {"level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE", "count": 1}, {"level": "FOUR YEARS COLLEGE", "count": 1}]}
+{
+  "code": "HB",
+  "name": "Cmte for Purch Frm Pple Blind Or Sev Dis",
+  "employees": 41,
+  "avgSalary": 156920,
+  "topOccupations": [
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 14,
+      "avgSalary": 161939
+    },
+    {
+      "name": "General Attorney",
+      "count": 7,
+      "avgSalary": 143745
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 4,
+      "avgSalary": 173154
+    },
+    {
+      "name": "Contracting",
+      "count": 3,
+      "avgSalary": 148312
+    },
+    {
+      "name": "General Business and Industry",
+      "count": 3,
+      "avgSalary": 171249
+    },
+    {
+      "name": "Auditing",
+      "count": 2,
+      "avgSalary": 143727
+    },
+    {
+      "name": "Management and Program Analysis",
+      "count": 2,
+      "avgSalary": 165929
+    },
+    {
+      "name": "Program Management",
+      "count": 2,
+      "avgSalary": 173216
+    },
+    {
+      "name": "Administrative Officer",
+      "count": 2,
+      "avgSalary": 114649
+    },
+    {
+      "name": "Financial Administration and Program",
+      "count": 1,
+      "avgSalary": 151305
+    },
+    {
+      "name": "Budget Analysis",
+      "count": 1,
+      "avgSalary": 162719
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 20
+    },
+    {
+      "name": "California",
+      "code": "CA",
+      "count": 4
+    },
+    {
+      "name": "Redacted",
+      "code": "REDACTED",
+      "count": 4
+    },
+    {
+      "name": "Florida",
+      "code": "FL",
+      "count": 3
+    },
+    {
+      "name": "Texas",
+      "code": "TX",
+      "count": 3
+    },
+    {
+      "name": "New York",
+      "code": "NY",
+      "count": 2
+    },
+    {
+      "name": "Alabama",
+      "code": "AL",
+      "count": 2
+    },
+    {
+      "name": "Michigan",
+      "code": "MI",
+      "count": 2
+    },
+    {
+      "name": "South Carolina",
+      "code": "SC",
+      "count": 1
+    },
+    {
+      "name": "Ohio",
+      "code": "OH",
+      "count": 1
+    },
+    {
+      "name": "Massachusetts",
+      "code": "MA",
+      "count": 1
+    },
+    {
+      "name": "Washington",
+      "code": "WA",
+      "count": 1
+    },
+    {
+      "name": "Georgia",
+      "code": "GA",
+      "count": 1
+    }
+  ],
+  "education": [
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 17
+    },
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 12
+    },
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 6
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 4
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 2
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 1
+    },
+    {
+      "level": "POST-FIRST PROFESSIONAL",
+      "count": 1
+    },
+    {
+      "level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE",
+      "count": 1
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 1
+    }
+  ]
+}

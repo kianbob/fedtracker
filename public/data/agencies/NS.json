@@ -1,1 +1,88 @@
-{"code": "NS", "name": "NATIONAL SECURITY COUNCIL", "employees": 76, "avgSalary": 141507, "topOccupations": [{"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 74, "avgSalary": 142333}, {"name": "ADMINISTRATIVE OFFICER", "count": 1, "avgSalary": 175735}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "count": 1, "avgSalary": 46148}], "topStates": [{"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 76}], "education": [{"level": "MASTER'S DEGREE", "count": 26}, {"level": "BACHELOR'S DEGREE", "count": 23}, {"level": "FIRST PROFESSIONAL", "count": 5}, {"level": "DOCTORATE DEGREE", "count": 5}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 4}, {"level": "POST-BACHELOR'S", "count": 3}, {"level": "POST-MASTER'S", "count": 2}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 2}, {"level": "FOUR YEARS COLLEGE", "count": 1}, {"level": "SIXTH-YEAR DEGREE", "count": 1}, {"level": "ONE YEAR COLLEGE", "count": 1}, {"level": "POST-DOCTORATE", "count": 1}, {"level": "TWO YEARS COLLEGE", "count": 1}, {"level": "No Data Reported", "count": 1}]}
+{
+  "code": "NS",
+  "name": "National Security Council",
+  "employees": 76,
+  "avgSalary": 141507,
+  "topOccupations": [
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 74,
+      "avgSalary": 142333
+    },
+    {
+      "name": "Administrative Officer",
+      "count": 1,
+      "avgSalary": 175735
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "count": 1,
+      "avgSalary": 46148
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 76
+    }
+  ],
+  "education": [
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 26
+    },
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 23
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 5
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 5
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 4
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 3
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 2
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 2
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 1
+    },
+    {
+      "level": "SIXTH-YEAR DEGREE",
+      "count": 1
+    },
+    {
+      "level": "ONE YEAR COLLEGE",
+      "count": 1
+    },
+    {
+      "level": "POST-DOCTORATE",
+      "count": 1
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 1
+    },
+    {
+      "level": "No Data Reported",
+      "count": 1
+    }
+  ]
+}

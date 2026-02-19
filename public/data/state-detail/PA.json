@@ -1,1 +1,160 @@
-{"code": "PA", "name": "PENNSYLVANIA", "employees": 22122, "avgSalary": 99021, "topAgencies": [{"name": "DEPARTMENT OF TREASURY", "code": "TR", "employees": 6580}, {"name": "SOCIAL SECURITY ADMINISTRATION", "code": "SZ", "employees": 3643}, {"name": "DEPARTMENT OF JUSTICE", "code": "DJ", "employees": 1562}, {"name": "DEPARTMENT OF AGRICULTURE", "code": "AG", "employees": 1494}, {"name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "code": "HE", "employees": 1303}, {"name": "DEPARTMENT OF INTERIOR", "code": "IN", "employees": 981}, {"name": "DEPARTMENT OF TRANSPORTATION", "code": "TD", "employees": 899}, {"name": "OFFICE OF PERSONNEL MANAGEMENT", "code": "OM", "employees": 811}, {"name": "DEPARTMENT OF COMMERCE", "code": "CM", "employees": 805}, {"name": "ENVIRONMENTAL PROTECTION AGENCY", "code": "EP", "employees": 747}, {"name": "DEPARTMENT OF LABOR", "code": "DL", "employees": 715}, {"name": "GENERAL SERVICES ADMINISTRATION", "code": "GS", "employees": 679}, {"name": "DEPARTMENT OF ENERGY", "code": "DN", "employees": 494}, {"name": "DEPARTMENT OF HOUSING AND URBAN DEVELOPM", "code": "HU", "employees": 259}, {"name": "SECURITIES AND EXCHANGE COMMISSION", "code": "SE", "employees": 158}], "topOccupations": [{"name": "CONTACT REPRESENTATIVE", "employees": 4203, "avgSalary": 61116}, {"name": "TAX EXAMINING", "employees": 1471, "avgSalary": 57608}, {"name": "SOCIAL INSURANCE ADMINISTRATION", "employees": 1276, "avgSalary": 101583}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "employees": 842, "avgSalary": 128717}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "employees": 822, "avgSalary": 53034}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "employees": 671, "avgSalary": 119577}, {"name": "GENERAL ATTORNEY", "employees": 632, "avgSalary": 161135}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "employees": 548, "avgSalary": 132040}, {"name": "GENERAL LEGAL AND KINDRED ADMINISTRATION", "employees": 525, "avgSalary": 81337}, {"name": "GENERAL BUSINESS AND INDUSTRY", "employees": 432, "avgSalary": 123798}, {"name": "HUMAN RESOURCES MANAGEMENT", "employees": 423, "avgSalary": 118924}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "employees": 423, "avgSalary": 108234}, {"name": "AIR TRAFFIC CONTROL", "employees": 388, "avgSalary": 151050}, {"name": "GENERAL ENGINEERING", "employees": 355, "avgSalary": 142969}, {"name": "CONTRACTING", "employees": 348, "avgSalary": 125205}]}
+{
+  "code": "PA",
+  "name": "PENNSYLVANIA",
+  "employees": 22122,
+  "avgSalary": 99021,
+  "topAgencies": [
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 6580
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 3643
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 1562
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 1494
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 1303
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 981
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 899
+    },
+    {
+      "name": "Office of Personnel Management",
+      "code": "OM",
+      "employees": 811
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 805
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 747
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 715
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 679
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 494
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 259
+    },
+    {
+      "name": "Securities and Exchange Commission",
+      "code": "SE",
+      "employees": 158
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Contact Representative",
+      "employees": 4203,
+      "avgSalary": 61116
+    },
+    {
+      "name": "Tax Examining",
+      "employees": 1471,
+      "avgSalary": 57608
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 1276,
+      "avgSalary": 101583
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 842,
+      "avgSalary": 128717
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 822,
+      "avgSalary": 53034
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 671,
+      "avgSalary": 119577
+    },
+    {
+      "name": "General Attorney",
+      "employees": 632,
+      "avgSalary": 161135
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 548,
+      "avgSalary": 132040
+    },
+    {
+      "name": "General Legal and Kindred Administration",
+      "employees": 525,
+      "avgSalary": 81337
+    },
+    {
+      "name": "General Business and Industry",
+      "employees": 432,
+      "avgSalary": 123798
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 423,
+      "avgSalary": 118924
+    },
+    {
+      "name": "Financial Administration and Program",
+      "employees": 423,
+      "avgSalary": 108234
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 388,
+      "avgSalary": 151050
+    },
+    {
+      "name": "General Engineering",
+      "employees": 355,
+      "avgSalary": 142969
+    },
+    {
+      "name": "Contracting",
+      "employees": 348,
+      "avgSalary": 125205
+    }
+  ]
+}

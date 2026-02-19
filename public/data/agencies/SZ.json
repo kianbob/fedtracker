@@ -1,1 +1,254 @@
-{"code": "SZ", "name": "SOCIAL SECURITY ADMINISTRATION", "employees": 56016, "avgSalary": 101435, "topOccupations": [{"name": "SOCIAL INSURANCE ADMINISTRATION", "count": 26336, "avgSalary": 102350}, {"name": "CONTACT REPRESENTATIVE", "count": 9391, "avgSalary": 65339}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "count": 3862, "avgSalary": 138281}, {"name": "GENERAL LEGAL AND KINDRED ADMINISTRATION", "count": 3443, "avgSalary": 76232}, {"name": "GENERAL ATTORNEY", "count": 3124, "avgSalary": 133973}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "count": 2086, "avgSalary": 135601}, {"name": "LEGAL ASSISTANCE", "count": 1687, "avgSalary": 66832}, {"name": "ADMINISTRATIVE LAW JUDGE", "count": 1091, "avgSalary": 205941}, {"name": "HUMAN RESOURCES MANAGEMENT", "count": 787, "avgSalary": 126945}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 698, "avgSalary": 116860}, {"name": "CLAIMS ASSISTANCE AND EXAMINING", "count": 676, "avgSalary": 67747}, {"name": "PARALEGAL SPECIALIST", "count": 647, "avgSalary": 126979}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "count": 462, "avgSalary": 57036}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "count": 173, "avgSalary": 139905}, {"name": "PUBLIC AFFAIRS", "count": 139, "avgSalary": 135613}], "topStates": [{"name": "MARYLAND", "code": "MD", "count": 9464}, {"name": "CALIFORNIA", "code": "CA", "count": 5579}, {"name": "PENNSYLVANIA", "code": "PA", "count": 3643}, {"name": "NEW YORK", "code": "NY", "count": 3369}, {"name": "TEXAS", "code": "TX", "count": 3170}, {"name": "FLORIDA", "code": "FL", "count": 2607}, {"name": "ALABAMA", "code": "AL", "count": 2456}, {"name": "ILLINOIS", "code": "IL", "count": 2447}, {"name": "MISSOURI", "code": "MO", "count": 2299}, {"name": "GEORGIA", "code": "GA", "count": 1597}, {"name": "OHIO", "code": "OH", "count": 1277}, {"name": "NORTH CAROLINA", "code": "NC", "count": 1274}, {"name": "MICHIGAN", "code": "MI", "count": 1192}, {"name": "WASHINGTON", "code": "WA", "count": 1104}, {"name": "MASSACHUSETTS", "code": "MA", "count": 946}], "education": [{"level": "BACHELOR'S DEGREE", "count": 23041}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 11958}, {"level": "MASTER'S DEGREE", "count": 6638}, {"level": "FIRST PROFESSIONAL", "count": 4252}, {"level": "ASSOCIATE DEGREE", "count": 2594}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 2057}, {"level": "TWO YEARS COLLEGE", "count": 1289}, {"level": "ONE YEAR COLLEGE", "count": 1287}, {"level": "POST-BACHELOR'S", "count": 780}, {"level": "THREE YEARS COLLEGE", "count": 600}, {"level": "FOUR YEARS COLLEGE", "count": 542}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT", "count": 394}, {"level": "DOCTORATE DEGREE", "count": 303}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE", "count": 160}, {"level": "SOME HIGH SCHOOL - DID NOT COMPLETE", "count": 127}, {"level": "POST-MASTER'S", "count": 83}, {"level": "POST-FIRST PROFESSIONAL", "count": 71}, {"level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE", "count": 39}, {"level": "SIXTH-YEAR DEGREE", "count": 26}, {"level": "No Data Reported", "count": 8}, {"level": "POST-SIXTH YEAR", "count": 7}, {"level": "POST-DOCTORATE", "count": 5}, {"level": "ELEMENTARY SCHOOL COMPLETED - NO HIGH SCHOOL", "count": 2}]}
+{
+  "code": "SZ",
+  "name": "Social Security Administration",
+  "employees": 56016,
+  "avgSalary": 101435,
+  "topOccupations": [
+    {
+      "name": "Social Insurance Administration",
+      "count": 26336,
+      "avgSalary": 102350
+    },
+    {
+      "name": "Contact Representative",
+      "count": 9391,
+      "avgSalary": 65339
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 3862,
+      "avgSalary": 138281
+    },
+    {
+      "name": "General Legal and Kindred Administration",
+      "count": 3443,
+      "avgSalary": 76232
+    },
+    {
+      "name": "General Attorney",
+      "count": 3124,
+      "avgSalary": 133973
+    },
+    {
+      "name": "Management and Program Analysis",
+      "count": 2086,
+      "avgSalary": 135601
+    },
+    {
+      "name": "Legal Assistance",
+      "count": 1687,
+      "avgSalary": 66832
+    },
+    {
+      "name": "Administrative Law Judge",
+      "count": 1091,
+      "avgSalary": 205941
+    },
+    {
+      "name": "Human Resources Management",
+      "count": 787,
+      "avgSalary": 126945
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 698,
+      "avgSalary": 116860
+    },
+    {
+      "name": "Claims Assistance and Examining",
+      "count": 676,
+      "avgSalary": 67747
+    },
+    {
+      "name": "Paralegal Specialist",
+      "count": 647,
+      "avgSalary": 126979
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "count": 462,
+      "avgSalary": 57036
+    },
+    {
+      "name": "Financial Administration and Program",
+      "count": 173,
+      "avgSalary": 139905
+    },
+    {
+      "name": "Public Affairs",
+      "count": 139,
+      "avgSalary": 135613
+    }
+  ],
+  "topStates": [
+    {
+      "name": "Maryland",
+      "code": "MD",
+      "count": 9464
+    },
+    {
+      "name": "California",
+      "code": "CA",
+      "count": 5579
+    },
+    {
+      "name": "Pennsylvania",
+      "code": "PA",
+      "count": 3643
+    },
+    {
+      "name": "New York",
+      "code": "NY",
+      "count": 3369
+    },
+    {
+      "name": "Texas",
+      "code": "TX",
+      "count": 3170
+    },
+    {
+      "name": "Florida",
+      "code": "FL",
+      "count": 2607
+    },
+    {
+      "name": "Alabama",
+      "code": "AL",
+      "count": 2456
+    },
+    {
+      "name": "Illinois",
+      "code": "IL",
+      "count": 2447
+    },
+    {
+      "name": "Missouri",
+      "code": "MO",
+      "count": 2299
+    },
+    {
+      "name": "Georgia",
+      "code": "GA",
+      "count": 1597
+    },
+    {
+      "name": "Ohio",
+      "code": "OH",
+      "count": 1277
+    },
+    {
+      "name": "North Carolina",
+      "code": "NC",
+      "count": 1274
+    },
+    {
+      "name": "Michigan",
+      "code": "MI",
+      "count": 1192
+    },
+    {
+      "name": "Washington",
+      "code": "WA",
+      "count": 1104
+    },
+    {
+      "name": "Massachusetts",
+      "code": "MA",
+      "count": 946
+    }
+  ],
+  "education": [
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 23041
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 11958
+    },
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 6638
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 4252
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 2594
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 2057
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 1289
+    },
+    {
+      "level": "ONE YEAR COLLEGE",
+      "count": 1287
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 780
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 600
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 542
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT",
+      "count": 394
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 303
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE",
+      "count": 160
+    },
+    {
+      "level": "SOME HIGH SCHOOL - DID NOT COMPLETE",
+      "count": 127
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 83
+    },
+    {
+      "level": "POST-FIRST PROFESSIONAL",
+      "count": 71
+    },
+    {
+      "level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE",
+      "count": 39
+    },
+    {
+      "level": "SIXTH-YEAR DEGREE",
+      "count": 26
+    },
+    {
+      "level": "No Data Reported",
+      "count": 8
+    },
+    {
+      "level": "POST-SIXTH YEAR",
+      "count": 7
+    },
+    {
+      "level": "POST-DOCTORATE",
+      "count": 5
+    },
+    {
+      "level": "ELEMENTARY SCHOOL COMPLETED - NO HIGH SCHOOL",
+      "count": 2
+    }
+  ]
+}

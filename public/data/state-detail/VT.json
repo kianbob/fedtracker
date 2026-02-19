@@ -1,1 +1,160 @@
-{"code": "VT", "name": "VERMONT", "employees": 807, "avgSalary": 96968, "topAgencies": [{"name": "DEPARTMENT OF AGRICULTURE", "code": "AG", "employees": 325}, {"name": "DEPARTMENT OF INTERIOR", "code": "IN", "employees": 91}, {"name": "DEPARTMENT OF COMMERCE", "code": "CM", "employees": 80}, {"name": "DEPARTMENT OF TRANSPORTATION", "code": "TD", "employees": 72}, {"name": "SOCIAL SECURITY ADMINISTRATION", "code": "SZ", "employees": 55}, {"name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "code": "HE", "employees": 51}, {"name": "DEPARTMENT OF STATE", "code": "ST", "employees": 32}, {"name": "DEPARTMENT OF TREASURY", "code": "TR", "employees": 28}, {"name": "GENERAL SERVICES ADMINISTRATION", "code": "GS", "employees": 13}, {"name": "SMALL BUSINESS ADMINISTRATION", "code": "SB", "employees": 11}, {"name": "DEPARTMENT OF LABOR", "code": "DL", "employees": 8}, {"name": "DEPARTMENT OF JUSTICE", "code": "DJ", "employees": 6}, {"name": "DEPARTMENT OF ENERGY", "code": "DN", "employees": 6}, {"name": "ENVIRONMENTAL PROTECTION AGENCY", "code": "EP", "employees": 5}, {"name": "U.S. AGENCY FOR INTERNATIONAL DEV", "code": "AM", "employees": 4}], "topOccupations": [{"name": "GENERAL NATURAL RESOURCES MANAGEMENT AND BIOLOGICAL SCIENCES", "employees": 66, "avgSalary": 98860}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "employees": 51, "avgSalary": 44459}, {"name": "SOCIAL INSURANCE ADMINISTRATION", "employees": 43, "avgSalary": 94630}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "employees": 41, "avgSalary": 113150}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "employees": 36, "avgSalary": 119081}, {"name": "SOIL CONSERVATION", "employees": 29, "avgSalary": 81985}, {"name": "AIR TRAFFIC CONTROL", "employees": 28, "avgSalary": 114608}, {"name": "LOAN SPECIALIST", "employees": 27, "avgSalary": 86114}, {"name": "PASSPORT AND VISA EXAMINING", "employees": 26, "avgSalary": 76646}, {"name": "BIOLOGICAL SCIENCE TECHNICIAN", "employees": 22, "avgSalary": 56309}, {"name": "FORESTRY TECHNICIAN", "employees": 21, "avgSalary": 57177}, {"name": "GENERAL BUSINESS AND INDUSTRY", "employees": 21, "avgSalary": 108468}, {"name": "CIVIL ENGINEERING", "employees": 20, "avgSalary": 106445}, {"name": "TRANSPORTATION SPECIALIST", "employees": 16, "avgSalary": 118426}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "employees": 16, "avgSalary": 137736}]}
+{
+  "code": "VT",
+  "name": "VERMONT",
+  "employees": 807,
+  "avgSalary": 96968,
+  "topAgencies": [
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 325
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 91
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 80
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 72
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 55
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 51
+    },
+    {
+      "name": "Department of State",
+      "code": "ST",
+      "employees": 32
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 28
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 13
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 11
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 8
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 6
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 6
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 5
+    },
+    {
+      "name": "U.S. Agency for International Dev",
+      "code": "AM",
+      "employees": 4
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 66,
+      "avgSalary": 98860
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 51,
+      "avgSalary": 44459
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 43,
+      "avgSalary": 94630
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 41,
+      "avgSalary": 113150
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 36,
+      "avgSalary": 119081
+    },
+    {
+      "name": "Soil Conservation",
+      "employees": 29,
+      "avgSalary": 81985
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 28,
+      "avgSalary": 114608
+    },
+    {
+      "name": "Loan Specialist",
+      "employees": 27,
+      "avgSalary": 86114
+    },
+    {
+      "name": "Passport and Visa Examining",
+      "employees": 26,
+      "avgSalary": 76646
+    },
+    {
+      "name": "Biological Science Technician",
+      "employees": 22,
+      "avgSalary": 56309
+    },
+    {
+      "name": "Forestry Technician",
+      "employees": 21,
+      "avgSalary": 57177
+    },
+    {
+      "name": "General Business and Industry",
+      "employees": 21,
+      "avgSalary": 108468
+    },
+    {
+      "name": "Civil Engineering",
+      "employees": 20,
+      "avgSalary": 106445
+    },
+    {
+      "name": "Transportation Specialist",
+      "employees": 16,
+      "avgSalary": 118426
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 16,
+      "avgSalary": 137736
+    }
+  ]
+}

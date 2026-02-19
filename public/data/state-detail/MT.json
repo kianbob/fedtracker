@@ -1,1 +1,160 @@
-{"code": "MT", "name": "MONTANA", "employees": 6780, "avgSalary": 88179, "topAgencies": [{"name": "DEPARTMENT OF AGRICULTURE", "code": "AG", "employees": 2942}, {"name": "DEPARTMENT OF INTERIOR", "code": "IN", "employees": 1818}, {"name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "code": "HE", "employees": 1168}, {"name": "DEPARTMENT OF TRANSPORTATION", "code": "TD", "employees": 227}, {"name": "DEPARTMENT OF ENERGY", "code": "DN", "employees": 154}, {"name": "DEPARTMENT OF COMMERCE", "code": "CM", "employees": 151}, {"name": "SOCIAL SECURITY ADMINISTRATION", "code": "SZ", "employees": 99}, {"name": "ENVIRONMENTAL PROTECTION AGENCY", "code": "EP", "employees": 43}, {"name": "DEPARTMENT OF TREASURY", "code": "TR", "employees": 42}, {"name": "DEPARTMENT OF LABOR", "code": "DL", "employees": 28}, {"name": "FEDERAL DEPOSIT INSURANCE CORPORATION", "code": "FD", "employees": 27}, {"name": "GENERAL SERVICES ADMINISTRATION", "code": "GS", "employees": 26}, {"name": "SMALL BUSINESS ADMINISTRATION", "code": "SB", "employees": 11}, {"name": "DEPARTMENT OF JUSTICE", "code": "DJ", "employees": 10}, {"name": "null", "code": "HU", "employees": 4}], "topOccupations": [{"name": "FORESTRY TECHNICIAN", "employees": 797, "avgSalary": 54798}, {"name": "GENERAL NATURAL RESOURCES MANAGEMENT AND BIOLOGICAL SCIENCES", "employees": 462, "avgSalary": 99063}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "employees": 380, "avgSalary": 99746}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "employees": 241, "avgSalary": 49388}, {"name": "CIVIL ENGINEERING", "employees": 172, "avgSalary": 107089}, {"name": "NURSE", "employees": 161, "avgSalary": 113096}, {"name": "FORESTRY", "employees": 135, "avgSalary": 83502}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "employees": 129, "avgSalary": 104564}, {"name": "MAINTENANCE MECHANIC", "employees": 127, "avgSalary": 76830}, {"name": "WILDLAND FIRE MANAGEMENT", "employees": 124, "avgSalary": 74297}, {"name": "GENERAL BUSINESS AND INDUSTRY", "employees": 119, "avgSalary": 89525}, {"name": "SOIL CONSERVATION", "employees": 110, "avgSalary": 86148}, {"name": "BIOLOGICAL SCIENCE TECHNICIAN", "employees": 109, "avgSalary": 53322}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "employees": 103, "avgSalary": 108608}, {"name": "PROGRAM MANAGEMENT", "employees": 94, "avgSalary": 139308}]}
+{
+  "code": "MT",
+  "name": "MONTANA",
+  "employees": 6780,
+  "avgSalary": 88179,
+  "topAgencies": [
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 2942
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 1818
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 1168
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 227
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 154
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 151
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 99
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 43
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 42
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 28
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 27
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 26
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 11
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 10
+    },
+    {
+      "name": "Null",
+      "code": "HU",
+      "employees": 4
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Forestry Technician",
+      "employees": 797,
+      "avgSalary": 54798
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 462,
+      "avgSalary": 99063
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 380,
+      "avgSalary": 99746
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 241,
+      "avgSalary": 49388
+    },
+    {
+      "name": "Civil Engineering",
+      "employees": 172,
+      "avgSalary": 107089
+    },
+    {
+      "name": "Nurse",
+      "employees": 161,
+      "avgSalary": 113096
+    },
+    {
+      "name": "Forestry",
+      "employees": 135,
+      "avgSalary": 83502
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 129,
+      "avgSalary": 104564
+    },
+    {
+      "name": "Maintenance Mechanic",
+      "employees": 127,
+      "avgSalary": 76830
+    },
+    {
+      "name": "Wildland Fire Management",
+      "employees": 124,
+      "avgSalary": 74297
+    },
+    {
+      "name": "General Business and Industry",
+      "employees": 119,
+      "avgSalary": 89525
+    },
+    {
+      "name": "Soil Conservation",
+      "employees": 110,
+      "avgSalary": 86148
+    },
+    {
+      "name": "Biological Science Technician",
+      "employees": 109,
+      "avgSalary": 53322
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 103,
+      "avgSalary": 108608
+    },
+    {
+      "name": "Program Management",
+      "employees": 94,
+      "avgSalary": 139308
+    }
+  ]
+}

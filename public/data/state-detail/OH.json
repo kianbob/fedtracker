@@ -1,1 +1,160 @@
-{"code": "OH", "name": "OHIO", "employees": 10585, "avgSalary": 113495, "topAgencies": [{"name": "DEPARTMENT OF TREASURY", "code": "TR", "employees": 1516}, {"name": "NAT AERONAUTICS AND SPACE ADMINISTRATION", "code": "NN", "employees": 1515}, {"name": "SOCIAL SECURITY ADMINISTRATION", "code": "SZ", "employees": 1277}, {"name": "DEPARTMENT OF TRANSPORTATION", "code": "TD", "employees": 1197}, {"name": "DEPARTMENT OF AGRICULTURE", "code": "AG", "employees": 1095}, {"name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "code": "HE", "employees": 929}, {"name": "ENVIRONMENTAL PROTECTION AGENCY", "code": "EP", "employees": 577}, {"name": "DEPARTMENT OF COMMERCE", "code": "CM", "employees": 457}, {"name": "DEPARTMENT OF INTERIOR", "code": "IN", "employees": 394}, {"name": "DEPARTMENT OF LABOR", "code": "DL", "employees": 357}, {"name": "DEPARTMENT OF JUSTICE", "code": "DJ", "employees": 307}, {"name": "DEPARTMENT OF ENERGY", "code": "DN", "employees": 176}, {"name": "GENERAL SERVICES ADMINISTRATION", "code": "GS", "employees": 161}, {"name": "DEPARTMENT OF HOUSING AND URBAN DEVELOPM", "code": "HU", "employees": 103}, {"name": "SMALL BUSINESS ADMINISTRATION", "code": "SB", "employees": 101}], "topOccupations": [{"name": "SOCIAL INSURANCE ADMINISTRATION", "employees": 798, "avgSalary": 98338}, {"name": "AIR TRAFFIC CONTROL", "employees": 670, "avgSalary": 155393}, {"name": "CONTACT REPRESENTATIVE", "employees": 483, "avgSalary": 62739}, {"name": "GENERAL ENGINEERING", "employees": 447, "avgSalary": 156064}, {"name": "GENERAL ATTORNEY", "employees": 394, "avgSalary": 141058}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "employees": 388, "avgSalary": 123278}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "employees": 351, "avgSalary": 124240}, {"name": "AEROSPACE ENGINEERING", "employees": 332, "avgSalary": 145619}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "employees": 293, "avgSalary": 50248}, {"name": "HUMAN RESOURCES MANAGEMENT", "employees": 278, "avgSalary": 111643}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "employees": 248, "avgSalary": 123993}, {"name": "CONTRACTING", "employees": 244, "avgSalary": 121579}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "employees": 221, "avgSalary": 100546}, {"name": "GENERAL NATURAL RESOURCES MANAGEMENT AND BIOLOGICAL SCIENCES", "employees": 214, "avgSalary": 111587}, {"name": "GENERAL BUSINESS AND INDUSTRY", "employees": 175, "avgSalary": 107693}]}
+{
+  "code": "OH",
+  "name": "OHIO",
+  "employees": 10585,
+  "avgSalary": 113495,
+  "topAgencies": [
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 1516
+    },
+    {
+      "name": "National Aeronautics and Space Administration",
+      "code": "NN",
+      "employees": 1515
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 1277
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 1197
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 1095
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 929
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 577
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 457
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 394
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 357
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 307
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 176
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 161
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 103
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 101
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Social Insurance Administration",
+      "employees": 798,
+      "avgSalary": 98338
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 670,
+      "avgSalary": 155393
+    },
+    {
+      "name": "Contact Representative",
+      "employees": 483,
+      "avgSalary": 62739
+    },
+    {
+      "name": "General Engineering",
+      "employees": 447,
+      "avgSalary": 156064
+    },
+    {
+      "name": "General Attorney",
+      "employees": 394,
+      "avgSalary": 141058
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 388,
+      "avgSalary": 123278
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 351,
+      "avgSalary": 124240
+    },
+    {
+      "name": "Aerospace Engineering",
+      "employees": 332,
+      "avgSalary": 145619
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 293,
+      "avgSalary": 50248
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 278,
+      "avgSalary": 111643
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 248,
+      "avgSalary": 123993
+    },
+    {
+      "name": "Contracting",
+      "employees": 244,
+      "avgSalary": 121579
+    },
+    {
+      "name": "Financial Administration and Program",
+      "employees": 221,
+      "avgSalary": 100546
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 214,
+      "avgSalary": 111587
+    },
+    {
+      "name": "General Business and Industry",
+      "employees": 175,
+      "avgSalary": 107693
+    }
+  ]
+}

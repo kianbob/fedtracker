@@ -1,1 +1,250 @@
-{"code": "TR", "name": "DEPARTMENT OF TREASURY", "employees": 95287, "avgSalary": 90480, "topOccupations": [{"name": "CONTACT REPRESENTATIVE", "count": 24716, "avgSalary": 58601}, {"name": "TAX EXAMINING", "count": 15210, "avgSalary": 54105}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "count": 9426, "avgSalary": 141475}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "count": 7172, "avgSalary": 45970}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "count": 5696, "avgSalary": 103171}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "count": 5661, "avgSalary": 136713}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 2752, "avgSalary": 134927}, {"name": "HUMAN RESOURCES MANAGEMENT", "count": 2714, "avgSalary": 109833}, {"name": "GENERAL ATTORNEY", "count": 2384, "avgSalary": 171797}, {"name": "FINANCIAL INSTITUTION EXAMINING", "count": 2364, "avgSalary": 166809}, {"name": "FINANCIAL CLERICAL AND ASSISTANCE", "count": 1722, "avgSalary": 61997}, {"name": "PROGRAM MANAGEMENT", "count": 1325, "avgSalary": 163793}, {"name": "GENERAL BUSINESS AND INDUSTRY", "count": 957, "avgSalary": 100451}, {"name": "MANAGEMENT AND PROGRAM CLERICAL AND ASSISTANCE", "count": 885, "avgSalary": 59360}, {"name": "TAX SPECIALIST", "count": 796, "avgSalary": 84249}], "topStates": [{"name": "REDACTED", "code": "REDACTED", "count": 24264}, {"name": "TEXAS", "code": "TX", "count": 10761}, {"name": "UTAH", "code": "UT", "count": 8213}, {"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 7246}, {"name": "CALIFORNIA", "code": "CA", "count": 6942}, {"name": "PENNSYLVANIA", "code": "PA", "count": 6580}, {"name": "GEORGIA", "code": "GA", "count": 6344}, {"name": "MISSOURI", "code": "MO", "count": 6175}, {"name": "NEW YORK", "code": "NY", "count": 6052}, {"name": "TENNESSEE", "code": "TN", "count": 5481}, {"name": "MARYLAND", "code": "MD", "count": 5113}, {"name": "KENTUCKY", "code": "KY", "count": 3296}, {"name": "WEST VIRGINIA", "code": "WV", "count": 3282}, {"name": "FLORIDA", "code": "FL", "count": 2526}, {"name": "MASSACHUSETTS", "code": "MA", "count": 1943}], "education": [{"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 72575}, {"level": "BACHELOR'S DEGREE", "count": 20342}, {"level": "MASTER'S DEGREE", "count": 9731}, {"level": "ASSOCIATE DEGREE", "count": 3001}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 2155}, {"level": "TWO YEARS COLLEGE", "count": 1430}, {"level": "FIRST PROFESSIONAL", "count": 1416}, {"level": "DOCTORATE DEGREE", "count": 1065}, {"level": "ONE YEAR COLLEGE", "count": 995}, {"level": "FOUR YEARS COLLEGE", "count": 820}, {"level": "THREE YEARS COLLEGE", "count": 679}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT", "count": 463}, {"level": "POST-BACHELOR'S", "count": 462}, {"level": "SOME HIGH SCHOOL - DID NOT COMPLETE", "count": 266}, {"level": "POST-MASTER'S", "count": 194}, {"level": "POST-FIRST PROFESSIONAL", "count": 194}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE", "count": 172}, {"level": "POST-DOCTORATE", "count": 56}, {"level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE", "count": 22}, {"level": "SIXTH-YEAR DEGREE", "count": 16}, {"level": "POST-SIXTH YEAR", "count": 15}, {"level": "ELEMENTARY SCHOOL COMPLETED - NO HIGH SCHOOL", "count": 4}]}
+{
+  "code": "TR",
+  "name": "Department of Treasury",
+  "employees": 95287,
+  "avgSalary": 90480,
+  "topOccupations": [
+    {
+      "name": "Contact Representative",
+      "count": 24716,
+      "avgSalary": 58601
+    },
+    {
+      "name": "Tax Examining",
+      "count": 15210,
+      "avgSalary": 54105
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 9426,
+      "avgSalary": 141475
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "count": 7172,
+      "avgSalary": 45970
+    },
+    {
+      "name": "Financial Administration and Program",
+      "count": 5696,
+      "avgSalary": 103171
+    },
+    {
+      "name": "Management and Program Analysis",
+      "count": 5661,
+      "avgSalary": 136713
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 2752,
+      "avgSalary": 134927
+    },
+    {
+      "name": "Human Resources Management",
+      "count": 2714,
+      "avgSalary": 109833
+    },
+    {
+      "name": "General Attorney",
+      "count": 2384,
+      "avgSalary": 171797
+    },
+    {
+      "name": "Financial Institution Examining",
+      "count": 2364,
+      "avgSalary": 166809
+    },
+    {
+      "name": "Financial Clerical and Assistance",
+      "count": 1722,
+      "avgSalary": 61997
+    },
+    {
+      "name": "Program Management",
+      "count": 1325,
+      "avgSalary": 163793
+    },
+    {
+      "name": "General Business and Industry",
+      "count": 957,
+      "avgSalary": 100451
+    },
+    {
+      "name": "Management and Program Clerical and Assistance",
+      "count": 885,
+      "avgSalary": 59360
+    },
+    {
+      "name": "Tax Specialist",
+      "count": 796,
+      "avgSalary": 84249
+    }
+  ],
+  "topStates": [
+    {
+      "name": "Redacted",
+      "code": "REDACTED",
+      "count": 24264
+    },
+    {
+      "name": "Texas",
+      "code": "TX",
+      "count": 10761
+    },
+    {
+      "name": "Utah",
+      "code": "UT",
+      "count": 8213
+    },
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 7246
+    },
+    {
+      "name": "California",
+      "code": "CA",
+      "count": 6942
+    },
+    {
+      "name": "Pennsylvania",
+      "code": "PA",
+      "count": 6580
+    },
+    {
+      "name": "Georgia",
+      "code": "GA",
+      "count": 6344
+    },
+    {
+      "name": "Missouri",
+      "code": "MO",
+      "count": 6175
+    },
+    {
+      "name": "New York",
+      "code": "NY",
+      "count": 6052
+    },
+    {
+      "name": "Tennessee",
+      "code": "TN",
+      "count": 5481
+    },
+    {
+      "name": "Maryland",
+      "code": "MD",
+      "count": 5113
+    },
+    {
+      "name": "Kentucky",
+      "code": "KY",
+      "count": 3296
+    },
+    {
+      "name": "West Virginia",
+      "code": "WV",
+      "count": 3282
+    },
+    {
+      "name": "Florida",
+      "code": "FL",
+      "count": 2526
+    },
+    {
+      "name": "Massachusetts",
+      "code": "MA",
+      "count": 1943
+    }
+  ],
+  "education": [
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 72575
+    },
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 20342
+    },
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 9731
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 3001
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 2155
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 1430
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 1416
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 1065
+    },
+    {
+      "level": "ONE YEAR COLLEGE",
+      "count": 995
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 820
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 679
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT",
+      "count": 463
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 462
+    },
+    {
+      "level": "SOME HIGH SCHOOL - DID NOT COMPLETE",
+      "count": 266
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 194
+    },
+    {
+      "level": "POST-FIRST PROFESSIONAL",
+      "count": 194
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE",
+      "count": 172
+    },
+    {
+      "level": "POST-DOCTORATE",
+      "count": 56
+    },
+    {
+      "level": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE",
+      "count": 22
+    },
+    {
+      "level": "SIXTH-YEAR DEGREE",
+      "count": 16
+    },
+    {
+      "level": "POST-SIXTH YEAR",
+      "count": 15
+    },
+    {
+      "level": "ELEMENTARY SCHOOL COMPLETED - NO HIGH SCHOOL",
+      "count": 4
+    }
+  ]
+}

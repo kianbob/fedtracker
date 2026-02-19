@@ -1,1 +1,160 @@
-{"code": "SC", "name": "SOUTH CAROLINA", "employees": 5307, "avgSalary": 99266, "topAgencies": [{"name": "DEPARTMENT OF AGRICULTURE", "code": "AG", "employees": 1105}, {"name": "DEPARTMENT OF STATE", "code": "ST", "employees": 656}, {"name": "DEPARTMENT OF JUSTICE", "code": "DJ", "employees": 621}, {"name": "SOCIAL SECURITY ADMINISTRATION", "code": "SZ", "employees": 580}, {"name": "DEPARTMENT OF COMMERCE", "code": "CM", "employees": 504}, {"name": "DEPARTMENT OF TRANSPORTATION", "code": "TD", "employees": 340}, {"name": "DEPARTMENT OF ENERGY", "code": "DN", "employees": 325}, {"name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "code": "HE", "employees": 300}, {"name": "DEPARTMENT OF INTERIOR", "code": "IN", "employees": 278}, {"name": "DEPARTMENT OF TREASURY", "code": "TR", "employees": 167}, {"name": "SMALL BUSINESS ADMINISTRATION", "code": "SB", "employees": 88}, {"name": "GENERAL SERVICES ADMINISTRATION", "code": "GS", "employees": 82}, {"name": "DEPARTMENT OF LABOR", "code": "DL", "employees": 54}, {"name": "DEPARTMENT OF HOUSING AND URBAN DEVELOPM", "code": "HU", "employees": 41}, {"name": "FEDERAL DEPOSIT INSURANCE CORPORATION", "code": "FD", "employees": 27}], "topOccupations": [{"name": "SOCIAL INSURANCE ADMINISTRATION", "employees": 344, "avgSalary": 93761}, {"name": "PASSPORT AND VISA EXAMINING", "employees": 216, "avgSalary": 84699}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "employees": 203, "avgSalary": 106852}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "employees": 202, "avgSalary": 130380}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "employees": 188, "avgSalary": 111958}, {"name": "HUMAN RESOURCES MANAGEMENT", "employees": 168, "avgSalary": 100748}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "employees": 165, "avgSalary": 123130}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "employees": 163, "avgSalary": 45142}, {"name": "AIR TRAFFIC CONTROL", "employees": 139, "avgSalary": 110119}, {"name": "GENERAL BUSINESS AND INDUSTRY", "employees": 132, "avgSalary": 88601}, {"name": "CONTRACTING", "employees": 119, "avgSalary": 118277}, {"name": "GENERAL NATURAL RESOURCES MANAGEMENT AND BIOLOGICAL SCIENCES", "employees": 119, "avgSalary": 104470}, {"name": "ACCOUNTING", "employees": 118, "avgSalary": 117017}, {"name": "GENERAL ENGINEERING", "employees": 116, "avgSalary": 158100}, {"name": "FORESTRY TECHNICIAN", "employees": 103, "avgSalary": 55164}]}
+{
+  "code": "SC",
+  "name": "SOUTH CAROLINA",
+  "employees": 5307,
+  "avgSalary": 99266,
+  "topAgencies": [
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 1105
+    },
+    {
+      "name": "Department of State",
+      "code": "ST",
+      "employees": 656
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 621
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 580
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 504
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 340
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 325
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 300
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 278
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 167
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 88
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 82
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 54
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 41
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 27
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Social Insurance Administration",
+      "employees": 344,
+      "avgSalary": 93761
+    },
+    {
+      "name": "Passport and Visa Examining",
+      "employees": 216,
+      "avgSalary": 84699
+    },
+    {
+      "name": "Financial Administration and Program",
+      "employees": 203,
+      "avgSalary": 106852
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 202,
+      "avgSalary": 130380
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 188,
+      "avgSalary": 111958
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 168,
+      "avgSalary": 100748
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 165,
+      "avgSalary": 123130
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 163,
+      "avgSalary": 45142
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 139,
+      "avgSalary": 110119
+    },
+    {
+      "name": "General Business and Industry",
+      "employees": 132,
+      "avgSalary": 88601
+    },
+    {
+      "name": "Contracting",
+      "employees": 119,
+      "avgSalary": 118277
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 119,
+      "avgSalary": 104470
+    },
+    {
+      "name": "Accounting",
+      "employees": 118,
+      "avgSalary": 117017
+    },
+    {
+      "name": "General Engineering",
+      "employees": 116,
+      "avgSalary": 158100
+    },
+    {
+      "name": "Forestry Technician",
+      "employees": 103,
+      "avgSalary": 55164
+    }
+  ]
+}

@@ -1,1 +1,314 @@
-[{"code": "DC", "name": "DISTRICT OF COLUMBIA", "employees": 99727, "avgSalary": 153909}, {"code": "MD", "name": "MARYLAND", "employees": 85624, "avgSalary": 145199}, {"code": "CA", "name": "CALIFORNIA", "employees": 45465, "avgSalary": 109866}, {"code": "TX", "name": "TEXAS", "employees": 41414, "avgSalary": 107027}, {"code": "GA", "name": "GEORGIA", "employees": 30656, "avgSalary": 112612}, {"code": "VA", "name": "VIRGINIA", "employees": 28419, "avgSalary": 155630}, {"code": "PA", "name": "PENNSYLVANIA", "employees": 22122, "avgSalary": 99021}, {"code": "FL", "name": "FLORIDA", "employees": 21601, "avgSalary": 110448}, {"code": "NY", "name": "NEW YORK", "employees": 21412, "avgSalary": 115704}, {"code": "CO", "name": "COLORADO", "employees": 19501, "avgSalary": 119389}, {"code": "MO", "name": "MISSOURI", "employees": 16892, "avgSalary": 85717}, {"code": "WA", "name": "WASHINGTON", "employees": 15242, "avgSalary": 116635}, {"code": "IL", "name": "ILLINOIS", "employees": 14919, "avgSalary": 120666}, {"code": "AZ", "name": "ARIZONA", "employees": 14186, "avgSalary": 91733}, {"code": "UT", "name": "UTAH", "employees": 13518, "avgSalary": 74150}, {"code": "NM", "name": "NEW MEXICO", "employees": 11971, "avgSalary": 94301}, {"code": "TN", "name": "TENNESSEE", "employees": 11719, "avgSalary": 84208}, {"code": "NC", "name": "NORTH CAROLINA", "employees": 11254, "avgSalary": 111776}, {"code": "OH", "name": "OHIO", "employees": 10585, "avgSalary": 113495}, {"code": "OR", "name": "OREGON", "employees": 10316, "avgSalary": 96080}, {"code": "REDACTED", "name": "REDACTED", "employees": 10071, "avgSalary": 98235}, {"code": "MA", "name": "MASSACHUSETTS", "employees": 9425, "avgSalary": 119513}, {"code": "OK", "name": "OKLAHOMA", "employees": 9089, "avgSalary": 102305}, {"code": "AL", "name": "ALABAMA", "employees": 8427, "avgSalary": 105322}, {"code": "KY", "name": "KENTUCKY", "employees": 7814, "avgSalary": 84017}, {"code": "WV", "name": "WEST VIRGINIA", "employees": 7714, "avgSalary": 107062}, {"code": "MI", "name": "MICHIGAN", "employees": 7359, "avgSalary": 106429}, {"code": "NJ", "name": "NEW JERSEY", "employees": 6923, "avgSalary": 129874}, {"code": "MT", "name": "MONTANA", "employees": 6780, "avgSalary": 88179}, {"code": "MN", "name": "MINNESOTA", "employees": 6623, "avgSalary": 109354}, {"code": "LA", "name": "LOUISIANA", "employees": 5977, "avgSalary": 96099}, {"code": "ID", "name": "IDAHO", "employees": 5976, "avgSalary": 86841}, {"code": "SC", "name": "SOUTH CAROLINA", "employees": 5307, "avgSalary": 99266}, {"code": "IN", "name": "INDIANA", "employees": 5113, "avgSalary": 98299}, {"code": "KS", "name": "KANSAS", "employees": 5096, "avgSalary": 104843}, {"code": "AK", "name": "ALASKA", "employees": 4873, "avgSalary": 111178}, {"code": "MS", "name": "MISSISSIPPI", "employees": 4709, "avgSalary": 91542}, {"code": "WI", "name": "WISCONSIN", "employees": 4566, "avgSalary": 95345}, {"code": "SD", "name": "SOUTH DAKOTA", "employees": 4246, "avgSalary": 88015}, {"code": "NV", "name": "NEVADA", "employees": 4105, "avgSalary": 96971}, {"code": "AR", "name": "ARKANSAS", "employees": 3969, "avgSalary": 90302}, {"code": "IA", "name": "IOWA", "employees": 3442, "avgSalary": 89116}, {"code": "WY", "name": "WYOMING", "employees": 3006, "avgSalary": 83814}, {"code": "HI", "name": "HAWAII", "employees": 2893, "avgSalary": 96313}, {"code": "NE", "name": "NEBRASKA", "employees": 2574, "avgSalary": 92233}, {"code": "NH", "name": "NEW HAMPSHIRE", "employees": 2519, "avgSalary": 124118}, {"code": "ND", "name": "NORTH DAKOTA", "employees": 2427, "avgSalary": 88471}, {"code": "CT", "name": "CONNECTICUT", "employees": 1573, "avgSalary": 120217}, {"code": "ME", "name": "MAINE", "employees": 1329, "avgSalary": 106679}, {"code": "DE", "name": "DELAWARE", "employees": 951, "avgSalary": 118599}, {"code": "RI", "name": "RHODE ISLAND", "employees": 898, "avgSalary": 117098}, {"code": "VT", "name": "VERMONT", "employees": 807, "avgSalary": 96968}]
+[
+  {
+    "code": "DC",
+    "name": "District of Columbia",
+    "employees": 99727,
+    "avgSalary": 153909
+  },
+  {
+    "code": "MD",
+    "name": "Maryland",
+    "employees": 85624,
+    "avgSalary": 145199
+  },
+  {
+    "code": "CA",
+    "name": "California",
+    "employees": 45465,
+    "avgSalary": 109866
+  },
+  {
+    "code": "TX",
+    "name": "Texas",
+    "employees": 41414,
+    "avgSalary": 107027
+  },
+  {
+    "code": "GA",
+    "name": "Georgia",
+    "employees": 30656,
+    "avgSalary": 112612
+  },
+  {
+    "code": "VA",
+    "name": "Virginia",
+    "employees": 28419,
+    "avgSalary": 155630
+  },
+  {
+    "code": "PA",
+    "name": "Pennsylvania",
+    "employees": 22122,
+    "avgSalary": 99021
+  },
+  {
+    "code": "FL",
+    "name": "Florida",
+    "employees": 21601,
+    "avgSalary": 110448
+  },
+  {
+    "code": "NY",
+    "name": "New York",
+    "employees": 21412,
+    "avgSalary": 115704
+  },
+  {
+    "code": "CO",
+    "name": "Colorado",
+    "employees": 19501,
+    "avgSalary": 119389
+  },
+  {
+    "code": "MO",
+    "name": "Missouri",
+    "employees": 16892,
+    "avgSalary": 85717
+  },
+  {
+    "code": "WA",
+    "name": "Washington",
+    "employees": 15242,
+    "avgSalary": 116635
+  },
+  {
+    "code": "IL",
+    "name": "Illinois",
+    "employees": 14919,
+    "avgSalary": 120666
+  },
+  {
+    "code": "AZ",
+    "name": "Arizona",
+    "employees": 14186,
+    "avgSalary": 91733
+  },
+  {
+    "code": "UT",
+    "name": "Utah",
+    "employees": 13518,
+    "avgSalary": 74150
+  },
+  {
+    "code": "NM",
+    "name": "New Mexico",
+    "employees": 11971,
+    "avgSalary": 94301
+  },
+  {
+    "code": "TN",
+    "name": "Tennessee",
+    "employees": 11719,
+    "avgSalary": 84208
+  },
+  {
+    "code": "NC",
+    "name": "North Carolina",
+    "employees": 11254,
+    "avgSalary": 111776
+  },
+  {
+    "code": "OH",
+    "name": "Ohio",
+    "employees": 10585,
+    "avgSalary": 113495
+  },
+  {
+    "code": "OR",
+    "name": "Oregon",
+    "employees": 10316,
+    "avgSalary": 96080
+  },
+  {
+    "code": "REDACTED",
+    "name": "Redacted",
+    "employees": 10071,
+    "avgSalary": 98235
+  },
+  {
+    "code": "MA",
+    "name": "Massachusetts",
+    "employees": 9425,
+    "avgSalary": 119513
+  },
+  {
+    "code": "OK",
+    "name": "Oklahoma",
+    "employees": 9089,
+    "avgSalary": 102305
+  },
+  {
+    "code": "AL",
+    "name": "Alabama",
+    "employees": 8427,
+    "avgSalary": 105322
+  },
+  {
+    "code": "KY",
+    "name": "Kentucky",
+    "employees": 7814,
+    "avgSalary": 84017
+  },
+  {
+    "code": "WV",
+    "name": "West Virginia",
+    "employees": 7714,
+    "avgSalary": 107062
+  },
+  {
+    "code": "MI",
+    "name": "Michigan",
+    "employees": 7359,
+    "avgSalary": 106429
+  },
+  {
+    "code": "NJ",
+    "name": "New Jersey",
+    "employees": 6923,
+    "avgSalary": 129874
+  },
+  {
+    "code": "MT",
+    "name": "Montana",
+    "employees": 6780,
+    "avgSalary": 88179
+  },
+  {
+    "code": "MN",
+    "name": "Minnesota",
+    "employees": 6623,
+    "avgSalary": 109354
+  },
+  {
+    "code": "LA",
+    "name": "Louisiana",
+    "employees": 5977,
+    "avgSalary": 96099
+  },
+  {
+    "code": "ID",
+    "name": "Idaho",
+    "employees": 5976,
+    "avgSalary": 86841
+  },
+  {
+    "code": "SC",
+    "name": "South Carolina",
+    "employees": 5307,
+    "avgSalary": 99266
+  },
+  {
+    "code": "IN",
+    "name": "Indiana",
+    "employees": 5113,
+    "avgSalary": 98299
+  },
+  {
+    "code": "KS",
+    "name": "Kansas",
+    "employees": 5096,
+    "avgSalary": 104843
+  },
+  {
+    "code": "AK",
+    "name": "Alaska",
+    "employees": 4873,
+    "avgSalary": 111178
+  },
+  {
+    "code": "MS",
+    "name": "Mississippi",
+    "employees": 4709,
+    "avgSalary": 91542
+  },
+  {
+    "code": "WI",
+    "name": "Wisconsin",
+    "employees": 4566,
+    "avgSalary": 95345
+  },
+  {
+    "code": "SD",
+    "name": "South Dakota",
+    "employees": 4246,
+    "avgSalary": 88015
+  },
+  {
+    "code": "NV",
+    "name": "Nevada",
+    "employees": 4105,
+    "avgSalary": 96971
+  },
+  {
+    "code": "AR",
+    "name": "Arkansas",
+    "employees": 3969,
+    "avgSalary": 90302
+  },
+  {
+    "code": "IA",
+    "name": "Iowa",
+    "employees": 3442,
+    "avgSalary": 89116
+  },
+  {
+    "code": "WY",
+    "name": "Wyoming",
+    "employees": 3006,
+    "avgSalary": 83814
+  },
+  {
+    "code": "HI",
+    "name": "Hawaii",
+    "employees": 2893,
+    "avgSalary": 96313
+  },
+  {
+    "code": "NE",
+    "name": "Nebraska",
+    "employees": 2574,
+    "avgSalary": 92233
+  },
+  {
+    "code": "NH",
+    "name": "New Hampshire",
+    "employees": 2519,
+    "avgSalary": 124118
+  },
+  {
+    "code": "ND",
+    "name": "North Dakota",
+    "employees": 2427,
+    "avgSalary": 88471
+  },
+  {
+    "code": "CT",
+    "name": "Connecticut",
+    "employees": 1573,
+    "avgSalary": 120217
+  },
+  {
+    "code": "ME",
+    "name": "Maine",
+    "employees": 1329,
+    "avgSalary": 106679
+  },
+  {
+    "code": "DE",
+    "name": "Delaware",
+    "employees": 951,
+    "avgSalary": 118599
+  },
+  {
+    "code": "RI",
+    "name": "Rhode Island",
+    "employees": 898,
+    "avgSalary": 117098
+  },
+  {
+    "code": "VT",
+    "name": "Vermont",
+    "employees": 807,
+    "avgSalary": 96968
+  }
+]

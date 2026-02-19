@@ -1,1 +1,181 @@
-{"code": "AB", "name": "AMERICAN BATTLE MONUMENTS COMMISSION", "employees": 80, "avgSalary": 119641, "topOccupations": [{"name": "CEMETERY ADMINISTRATION SERVICES", "count": 31, "avgSalary": 88989}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "count": 5, "avgSalary": 156660}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 5, "avgSalary": 173026}, {"name": "HUMAN RESOURCES MANAGEMENT", "count": 5, "avgSalary": 134244}, {"name": "CONTRACTING", "count": 4, "avgSalary": 127781}, {"name": "GENERAL ENGINEERING", "count": 3, "avgSalary": 120911}, {"name": "PUBLIC AFFAIRS", "count": 3, "avgSalary": 146973}, {"name": "ACCOUNTING", "count": 3, "avgSalary": 145905}, {"name": "HISTORY", "count": 3, "avgSalary": 144964}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "count": 2, "avgSalary": 129821}, {"name": "Invalid", "count": 2, "avgSalary": 87741}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "count": 2, "avgSalary": 106948}, {"name": "SECURITY ADMINISTRATION", "count": 2, "avgSalary": 128139}, {"name": "AUDIOVISUAL PRODUCTION", "count": 1, "avgSalary": 121684}, {"name": "EQUAL EMPLOYMENT OPPORTUNITY", "count": 1, "avgSalary": 170704}], "topStates": [{"name": "REDACTED", "code": "REDACTED", "count": 42}, {"name": "VIRGINIA", "code": "VA", "count": 29}, {"name": "OHIO", "code": "OH", "count": 2}, {"name": "MINNESOTA", "code": "MN", "count": 1}, {"name": "MISSOURI", "code": "MO", "count": 1}, {"name": "IOWA", "code": "IA", "count": 1}, {"name": "TEXAS", "code": "TX", "count": 1}, {"name": "ARIZONA", "code": "AZ", "count": 1}, {"name": "CALIFORNIA", "code": "CA", "count": 1}, {"name": "FLORIDA", "code": "FL", "count": 1}], "education": [{"level": "MASTER'S DEGREE", "count": 38}, {"level": "BACHELOR'S DEGREE", "count": 25}, {"level": "ONE YEAR COLLEGE", "count": 4}, {"level": "TWO YEARS COLLEGE", "count": 3}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 2}, {"level": "ASSOCIATE DEGREE", "count": 2}, {"level": "DOCTORATE DEGREE", "count": 2}, {"level": "POST-MASTER'S", "count": 1}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 1}, {"level": "POST-SIXTH YEAR", "count": 1}, {"level": "FIRST PROFESSIONAL", "count": 1}]}
+{
+  "code": "AB",
+  "name": "American Battle Monuments Commission",
+  "employees": 80,
+  "avgSalary": 119641,
+  "topOccupations": [
+    {
+      "name": "Cemetery Administration Services",
+      "count": 31,
+      "avgSalary": 88989
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 5,
+      "avgSalary": 156660
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 5,
+      "avgSalary": 173026
+    },
+    {
+      "name": "Human Resources Management",
+      "count": 5,
+      "avgSalary": 134244
+    },
+    {
+      "name": "Contracting",
+      "count": 4,
+      "avgSalary": 127781
+    },
+    {
+      "name": "General Engineering",
+      "count": 3,
+      "avgSalary": 120911
+    },
+    {
+      "name": "Public Affairs",
+      "count": 3,
+      "avgSalary": 146973
+    },
+    {
+      "name": "Accounting",
+      "count": 3,
+      "avgSalary": 145905
+    },
+    {
+      "name": "History",
+      "count": 3,
+      "avgSalary": 144964
+    },
+    {
+      "name": "Management and Program Analysis",
+      "count": 2,
+      "avgSalary": 129821
+    },
+    {
+      "name": "Invalid",
+      "count": 2,
+      "avgSalary": 87741
+    },
+    {
+      "name": "Financial Administration and Program",
+      "count": 2,
+      "avgSalary": 106948
+    },
+    {
+      "name": "Security Administration",
+      "count": 2,
+      "avgSalary": 128139
+    },
+    {
+      "name": "Audiovisual Production",
+      "count": 1,
+      "avgSalary": 121684
+    },
+    {
+      "name": "Equal Employment Opportunity",
+      "count": 1,
+      "avgSalary": 170704
+    }
+  ],
+  "topStates": [
+    {
+      "name": "Redacted",
+      "code": "REDACTED",
+      "count": 42
+    },
+    {
+      "name": "Virginia",
+      "code": "VA",
+      "count": 29
+    },
+    {
+      "name": "Ohio",
+      "code": "OH",
+      "count": 2
+    },
+    {
+      "name": "Minnesota",
+      "code": "MN",
+      "count": 1
+    },
+    {
+      "name": "Missouri",
+      "code": "MO",
+      "count": 1
+    },
+    {
+      "name": "Iowa",
+      "code": "IA",
+      "count": 1
+    },
+    {
+      "name": "Texas",
+      "code": "TX",
+      "count": 1
+    },
+    {
+      "name": "Arizona",
+      "code": "AZ",
+      "count": 1
+    },
+    {
+      "name": "California",
+      "code": "CA",
+      "count": 1
+    },
+    {
+      "name": "Florida",
+      "code": "FL",
+      "count": 1
+    }
+  ],
+  "education": [
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 38
+    },
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 25
+    },
+    {
+      "level": "ONE YEAR COLLEGE",
+      "count": 4
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 3
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 2
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 2
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 2
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 1
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 1
+    },
+    {
+      "level": "POST-SIXTH YEAR",
+      "count": 1
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 1
+    }
+  ]
+}

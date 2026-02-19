@@ -1,1 +1,72 @@
-{"code": "HW", "name": "U.S. INTERAGENCY COUNCIL ON HOMELESSNESS", "employees": 13, "avgSalary": 151419, "topOccupations": [{"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 13, "avgSalary": 151419}], "topStates": [{"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 5}, {"name": "VIRGINIA", "code": "VA", "count": 2}, {"name": "CALIFORNIA", "code": "CA", "count": 2}, {"name": "MICHIGAN", "code": "MI", "count": 1}, {"name": "ARIZONA", "code": "AZ", "count": 1}, {"name": "DELAWARE", "code": "DE", "count": 1}, {"name": "WASHINGTON", "code": "WA", "count": 1}], "education": [{"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 7}, {"level": "MASTER'S DEGREE", "count": 2}, {"level": "BACHELOR'S DEGREE", "count": 2}, {"level": "POST-MASTER'S", "count": 1}, {"level": "FOUR YEARS COLLEGE", "count": 1}]}
+{
+  "code": "HW",
+  "name": "U.S. Interagency Council on Homelessness",
+  "employees": 13,
+  "avgSalary": 151419,
+  "topOccupations": [
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 13,
+      "avgSalary": 151419
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 5
+    },
+    {
+      "name": "Virginia",
+      "code": "VA",
+      "count": 2
+    },
+    {
+      "name": "California",
+      "code": "CA",
+      "count": 2
+    },
+    {
+      "name": "Michigan",
+      "code": "MI",
+      "count": 1
+    },
+    {
+      "name": "Arizona",
+      "code": "AZ",
+      "count": 1
+    },
+    {
+      "name": "Delaware",
+      "code": "DE",
+      "count": 1
+    },
+    {
+      "name": "Washington",
+      "code": "WA",
+      "count": 1
+    }
+  ],
+  "education": [
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 7
+    },
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 2
+    },
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 2
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 1
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 1
+    }
+  ]
+}

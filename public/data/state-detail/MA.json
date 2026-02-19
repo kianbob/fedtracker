@@ -1,1 +1,160 @@
-{"code": "MA", "name": "MASSACHUSETTS", "employees": 9425, "avgSalary": 119513, "topAgencies": [{"name": "DEPARTMENT OF TREASURY", "code": "TR", "employees": 1943}, {"name": "DEPARTMENT OF TRANSPORTATION", "code": "TD", "employees": 1009}, {"name": "SOCIAL SECURITY ADMINISTRATION", "code": "SZ", "employees": 946}, {"name": "DEPARTMENT OF INTERIOR", "code": "IN", "employees": 898}, {"name": "DEPARTMENT OF COMMERCE", "code": "CM", "employees": 784}, {"name": "DEPARTMENT OF HEALTH AND HUMAN SERVICES", "code": "HE", "employees": 779}, {"name": "ENVIRONMENTAL PROTECTION AGENCY", "code": "EP", "employees": 624}, {"name": "DEPARTMENT OF AGRICULTURE", "code": "AG", "employees": 470}, {"name": "DEPARTMENT OF JUSTICE", "code": "DJ", "employees": 358}, {"name": "DEPARTMENT OF LABOR", "code": "DL", "employees": 346}, {"name": "GENERAL SERVICES ADMINISTRATION", "code": "GS", "employees": 268}, {"name": "SECURITIES AND EXCHANGE COMMISSION", "code": "SE", "employees": 189}, {"name": "DEPARTMENT OF HOUSING AND URBAN DEVELOPM", "code": "HU", "employees": 171}, {"name": "FEDERAL DEPOSIT INSURANCE CORPORATION", "code": "FD", "employees": 165}, {"name": "DEPARTMENT OF STATE", "code": "ST", "employees": 62}], "topOccupations": [{"name": "SOCIAL INSURANCE ADMINISTRATION", "employees": 652, "avgSalary": 110007}, {"name": "CONTACT REPRESENTATIVE", "employees": 542, "avgSalary": 69459}, {"name": "TAX EXAMINING", "employees": 529, "avgSalary": 63608}, {"name": "GENERAL ATTORNEY", "employees": 485, "avgSalary": 177726}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "employees": 423, "avgSalary": 131531}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "employees": 397, "avgSalary": 137022}, {"name": "GENERAL NATURAL RESOURCES MANAGEMENT AND BIOLOGICAL SCIENCES", "employees": 369, "avgSalary": 116721}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "employees": 283, "avgSalary": 56083}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "employees": 258, "avgSalary": 140445}, {"name": "GENERAL BUSINESS AND INDUSTRY", "employees": 201, "avgSalary": 135712}, {"name": "FINANCIAL INSTITUTION EXAMINING", "employees": 191, "avgSalary": 176281}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "employees": 188, "avgSalary": 106106}, {"name": "GENERAL ENGINEERING", "employees": 152, "avgSalary": 152047}, {"name": "GENERAL PHYSICAL SCIENCE", "employees": 146, "avgSalary": 131178}, {"name": "FINANCIAL CLERICAL AND ASSISTANCE", "employees": 135, "avgSalary": 69172}]}
+{
+  "code": "MA",
+  "name": "MASSACHUSETTS",
+  "employees": 9425,
+  "avgSalary": 119513,
+  "topAgencies": [
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 1943
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 1009
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 946
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 898
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 784
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 779
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 624
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 470
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 358
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 346
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 268
+    },
+    {
+      "name": "Securities and Exchange Commission",
+      "code": "SE",
+      "employees": 189
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 171
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 165
+    },
+    {
+      "name": "Department of State",
+      "code": "ST",
+      "employees": 62
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Social Insurance Administration",
+      "employees": 652,
+      "avgSalary": 110007
+    },
+    {
+      "name": "Contact Representative",
+      "employees": 542,
+      "avgSalary": 69459
+    },
+    {
+      "name": "Tax Examining",
+      "employees": 529,
+      "avgSalary": 63608
+    },
+    {
+      "name": "General Attorney",
+      "employees": 485,
+      "avgSalary": 177726
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 423,
+      "avgSalary": 131531
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 397,
+      "avgSalary": 137022
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 369,
+      "avgSalary": 116721
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 283,
+      "avgSalary": 56083
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 258,
+      "avgSalary": 140445
+    },
+    {
+      "name": "General Business and Industry",
+      "employees": 201,
+      "avgSalary": 135712
+    },
+    {
+      "name": "Financial Institution Examining",
+      "employees": 191,
+      "avgSalary": 176281
+    },
+    {
+      "name": "Financial Administration and Program",
+      "employees": 188,
+      "avgSalary": 106106
+    },
+    {
+      "name": "General Engineering",
+      "employees": 152,
+      "avgSalary": 152047
+    },
+    {
+      "name": "General Physical Science",
+      "employees": 146,
+      "avgSalary": 131178
+    },
+    {
+      "name": "Financial Clerical and Assistance",
+      "employees": 135,
+      "avgSalary": 69172
+    }
+  ]
+}

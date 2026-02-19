@@ -1,1 +1,222 @@
-{"code": "EB", "name": "EXPORT-IMPORT BANK OF THE UNITED STATES", "employees": 370, "avgSalary": 151700, "topOccupations": [{"name": "LOAN SPECIALIST", "count": 90, "avgSalary": 163293}, {"name": "GENERAL BUSINESS AND INDUSTRY", "count": 56, "avgSalary": 141979}, {"name": "MISCELLANEOUS ADMINISTRATION AND PROGRAM", "count": 33, "avgSalary": 152700}, {"name": "GENERAL ATTORNEY", "count": 33, "avgSalary": 185520}, {"name": "INFORMATION TECHNOLOGY MANAGEMENT", "count": 20, "avgSalary": 173169}, {"name": "MANAGEMENT AND PROGRAM ANALYSIS", "count": 18, "avgSalary": 144782}, {"name": "ACCOUNTING", "count": 15, "avgSalary": 144712}, {"name": "HUMAN RESOURCES MANAGEMENT", "count": 12, "avgSalary": 142388}, {"name": "FINANCIAL ADMINISTRATION AND PROGRAM", "count": 11, "avgSalary": 162630}, {"name": "OPERATIONS RESEARCH", "count": 9, "avgSalary": 83706}, {"name": "ECONOMIST", "count": 7, "avgSalary": 153713}, {"name": "CONTRACTING", "count": 6, "avgSalary": 150812}, {"name": "AUDITING", "count": 6, "avgSalary": 171830}, {"name": "MISCELLANEOUS CLERK AND ASSISTANT", "count": 5, "avgSalary": 94941}, {"name": "PUBLIC AFFAIRS", "count": 5, "avgSalary": 131360}], "topStates": [{"name": "DISTRICT OF COLUMBIA", "code": "DC", "count": 321}, {"name": "REDACTED", "code": "REDACTED", "count": 8}, {"name": "CALIFORNIA", "code": "CA", "count": 6}, {"name": "TEXAS", "code": "TX", "count": 6}, {"name": "VIRGINIA", "code": "VA", "count": 5}, {"name": "FLORIDA", "code": "FL", "count": 5}, {"name": "NEW YORK", "code": "NY", "count": 4}, {"name": "COLORADO", "code": "CO", "count": 3}, {"name": "GEORGIA", "code": "GA", "count": 2}, {"name": "ILLINOIS", "code": "IL", "count": 2}, {"name": "NORTH CAROLINA", "code": "NC", "count": 2}, {"name": "MISSISSIPPI", "code": "MS", "count": 1}, {"name": "ARIZONA", "code": "AZ", "count": 1}, {"name": "SOUTH CAROLINA", "code": "SC", "count": 1}, {"name": "WASHINGTON", "code": "WA", "count": 1}], "education": [{"level": "MASTER'S DEGREE", "count": 150}, {"level": "BACHELOR'S DEGREE", "count": 109}, {"level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY", "count": 40}, {"level": "FIRST PROFESSIONAL", "count": 27}, {"level": "DOCTORATE DEGREE", "count": 12}, {"level": "ASSOCIATE DEGREE", "count": 8}, {"level": "SOME COLLEGE - LESS THAN ONE YEAR", "count": 6}, {"level": "POST-BACHELOR'S", "count": 5}, {"level": "FOUR YEARS COLLEGE", "count": 5}, {"level": "POST-MASTER'S", "count": 3}, {"level": "THREE YEARS COLLEGE", "count": 3}, {"level": "ONE YEAR COLLEGE", "count": 3}, {"level": "TWO YEARS COLLEGE", "count": 3}, {"level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT", "count": 2}, {"level": "No Data Reported", "count": 1}]}
+{
+  "code": "EB",
+  "name": "Export-Import Bank of the United States",
+  "employees": 370,
+  "avgSalary": 151700,
+  "topOccupations": [
+    {
+      "name": "Loan Specialist",
+      "count": 90,
+      "avgSalary": 163293
+    },
+    {
+      "name": "General Business and Industry",
+      "count": 56,
+      "avgSalary": 141979
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "count": 33,
+      "avgSalary": 152700
+    },
+    {
+      "name": "General Attorney",
+      "count": 33,
+      "avgSalary": 185520
+    },
+    {
+      "name": "Information Technology Management",
+      "count": 20,
+      "avgSalary": 173169
+    },
+    {
+      "name": "Management and Program Analysis",
+      "count": 18,
+      "avgSalary": 144782
+    },
+    {
+      "name": "Accounting",
+      "count": 15,
+      "avgSalary": 144712
+    },
+    {
+      "name": "Human Resources Management",
+      "count": 12,
+      "avgSalary": 142388
+    },
+    {
+      "name": "Financial Administration and Program",
+      "count": 11,
+      "avgSalary": 162630
+    },
+    {
+      "name": "Operations Research",
+      "count": 9,
+      "avgSalary": 83706
+    },
+    {
+      "name": "Economist",
+      "count": 7,
+      "avgSalary": 153713
+    },
+    {
+      "name": "Contracting",
+      "count": 6,
+      "avgSalary": 150812
+    },
+    {
+      "name": "Auditing",
+      "count": 6,
+      "avgSalary": 171830
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "count": 5,
+      "avgSalary": 94941
+    },
+    {
+      "name": "Public Affairs",
+      "count": 5,
+      "avgSalary": 131360
+    }
+  ],
+  "topStates": [
+    {
+      "name": "District of Columbia",
+      "code": "DC",
+      "count": 321
+    },
+    {
+      "name": "Redacted",
+      "code": "REDACTED",
+      "count": 8
+    },
+    {
+      "name": "California",
+      "code": "CA",
+      "count": 6
+    },
+    {
+      "name": "Texas",
+      "code": "TX",
+      "count": 6
+    },
+    {
+      "name": "Virginia",
+      "code": "VA",
+      "count": 5
+    },
+    {
+      "name": "Florida",
+      "code": "FL",
+      "count": 5
+    },
+    {
+      "name": "New York",
+      "code": "NY",
+      "count": 4
+    },
+    {
+      "name": "Colorado",
+      "code": "CO",
+      "count": 3
+    },
+    {
+      "name": "Georgia",
+      "code": "GA",
+      "count": 2
+    },
+    {
+      "name": "Illinois",
+      "code": "IL",
+      "count": 2
+    },
+    {
+      "name": "North Carolina",
+      "code": "NC",
+      "count": 2
+    },
+    {
+      "name": "Mississippi",
+      "code": "MS",
+      "count": 1
+    },
+    {
+      "name": "Arizona",
+      "code": "AZ",
+      "count": 1
+    },
+    {
+      "name": "South Carolina",
+      "code": "SC",
+      "count": 1
+    },
+    {
+      "name": "Washington",
+      "code": "WA",
+      "count": 1
+    }
+  ],
+  "education": [
+    {
+      "level": "MASTER'S DEGREE",
+      "count": 150
+    },
+    {
+      "level": "BACHELOR'S DEGREE",
+      "count": 109
+    },
+    {
+      "level": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 40
+    },
+    {
+      "level": "FIRST PROFESSIONAL",
+      "count": 27
+    },
+    {
+      "level": "DOCTORATE DEGREE",
+      "count": 12
+    },
+    {
+      "level": "ASSOCIATE DEGREE",
+      "count": 8
+    },
+    {
+      "level": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 6
+    },
+    {
+      "level": "POST-BACHELOR'S",
+      "count": 5
+    },
+    {
+      "level": "FOUR YEARS COLLEGE",
+      "count": 5
+    },
+    {
+      "level": "POST-MASTER'S",
+      "count": 3
+    },
+    {
+      "level": "THREE YEARS COLLEGE",
+      "count": 3
+    },
+    {
+      "level": "ONE YEAR COLLEGE",
+      "count": 3
+    },
+    {
+      "level": "TWO YEARS COLLEGE",
+      "count": 3
+    },
+    {
+      "level": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT",
+      "count": 2
+    },
+    {
+      "level": "No Data Reported",
+      "count": 1
+    }
+  ]
+}

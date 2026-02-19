@@ -1,7 +1,7 @@
 "use client";
 import { SimpleBarChart } from "@/components/Charts";
 import { StatCard } from "@/components/StatCard";
-import { formatNumber, formatSalary, cleanAgencyName, toTitleCase } from "@/lib/format";
+import { formatNumber, formatSalary, cleanAgencyName, toTitleCase, fixAgencyName } from "@/lib/format";
 import Link from "next/link";
 
 function Section({ title, subtitle, children }: { title: string; subtitle?: string; children: React.ReactNode }) {
@@ -164,7 +164,7 @@ export function AnalysisClient({ whosLeaving, retirementRisk, stemAnalysis, mana
               <div className="bg-white border border-gray-200 rounded-xl p-4">
                 <SimpleBarChart
                   data={whosLeaving.year2025.topOccupations.slice(0, 15).map((o: any) => ({
-                    name: toTitleCase(o.name).slice(0, 30), count: o.count,
+                    name: toTitleCase(o.name), count: o.count,
                   }))}
                   dataKey="count" nameKey="name" color="#ef4444"
                 />
@@ -217,7 +217,7 @@ export function AnalysisClient({ whosLeaving, retirementRisk, stemAnalysis, mana
               <div className="bg-white border border-gray-200 rounded-xl p-4">
                 <SimpleBarChart
                   data={stemAnalysis.byAgency.slice(0, 12).map((a: any) => ({
-                    name: cleanAgencyName(a.name || a.agency || "").slice(0, 25),
+                    name: fixAgencyName(a.name || a.agency || ""),
                     count: a.stemCount || a.employees || 0,
                   }))}
                   dataKey="count" nameKey="name" color="#10b981"

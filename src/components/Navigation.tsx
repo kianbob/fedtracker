@@ -11,6 +11,7 @@ const links = [
   { href: "/states", label: "States" },
   { href: "/salaries", label: "Salaries" },
   { href: "/trends", label: "Trends" },
+  { href: "/demographics", label: "Demographics" },
   { href: "/about", label: "About" },
 ];
 

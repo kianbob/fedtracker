@@ -1,0 +1,129 @@
+code,name,employees,avg_salary
+VA,Department of Veterans Affairs,451121,112960
+HS,Department of Homeland Security,227584,118849
+NV,Department of the Navy,205643,
+AR,Department of the Army,198448,
+AF,Department of the Air Force,156678,
+DD,Department of Defense,146609,
+DJ,Department of Justice,107415,122246
+TR,Department of Treasury,89881,92769
+HE,Department of Health and Human Services,75134,135367
+AG,Department of Agriculture,72049,90877
+IN,Department of Interior,56872,98133
+TD,Department of Transportation,53512,142093
+SZ,Social Security Administration,50718,102368
+CM,Department of Commerce,42084,127654
+NN,National Aeronautics and Space Administration,16869,153161
+DN,Department of Energy,14955,148316
+EP,Environmental Protection Agency,14661,139384
+DL,Department of Labor,12421,129070
+ST,Department of State,11713,135661
+GS,General Services Administration,10346,135047
+HU,Department of Housing and Urban Developm,6299,143557
+SB,Small Business Administration,5779,99973
+FD,Federal Deposit Insurance Corporation,5626,181640
+SM,Smithsonian Institution,4228,104601
+SE,Securities and Exchange Commission,3992,235928
+NU,Nuclear Regulatory Commission,2646,158298
+ED,Department of Education,2453,146059
+NQ,National Archives and Records Administration,2435,93734
+OM,Office of Personnel Management,2284,122275
+EE,Equal Employment Opportunity Commission,1771,126003
+LP,Government Publishing Office,1645,114151
+FC,Federal Communications Commission,1252,170522
+FR,Federal Reserve System,1248,198114
+NF,National Science Foundation,1198,165257
+CU,National Credit Union Administration,1186,315000
+NL,National Labor Relations Board,1108,147974
+FT,Federal Trade Commission,1012,174403
+FQ,Court Services and Offendr Supervsn Agy,952,127419
+BG,Pension Benefit Guaranty Corporation,863,157044
+IB,U.s.agency for Global Media,822,140599
+PU,Peace Corps,709,146313
+RR,Railroad Retirement Board,706,111277
+HF,Federal Housing Finance Agency,618,208687
+CT,Commodity Futures Trading Commission,548,245155
+GB,U.S. International Development Finance Corporation,531,157917
+BO,Office of Management and Budget,523,167688
+SK,Consumer Product Safety Commission,443,152755
+TC,U.s. International Trade Commission,413,159406
+KS,Corp for National and Community Service,412,122914
+TB,National Transportation Safety Board,411,162510
+AM,U.S. Agency for International Development,370,160598
+EB,Export-import Bank of the United States,335,156792
+GJ,Presidio Trust,316,129522
+FL,Farm Credit Administration,306,304274
+RH,Armed Forces Retirement Home,281,79436
+EC,Office of Administration,258,133044
+LF,Federal Election Commission,252,144496
+GW,Inter Bound and Water Comm U.s. Section,251,87133
+RF,Fed Retirement Thrift Investment Board,241,160810
+MI,Millennium Challenge Corporation,235,181314
+TN,Office of the U.s. Trade Representative,226,170112
+AH,National Foundation on the Arts and Humanities,209,139716
+JL,Judicial Branch,168,125924
+BD,Merit Systems Protection Board,162,166440
+SS,Selective Service System,145,126424
+FW,Office of Special Counsel,116,153702
+MC,Federal Maritime Commission,112,155724
+TW,Surface Transportation Board,107,170758
+HD,U.s. Holocaust Memorial Museum,100,136142
+BF,Defense Nuclear Facilities Safety Board,100,189704
+FM,Fed Mediation and Conciliation Service,91,152416
+AU,Federal Labor Relations Authority,84,170187
+AB,American Battle Monuments Commission,79,117488
+GQ,Election Assistance Commission,70,127779
+GG,Office of Government Ethics,63,154562
+QQ,Office of National Drug Control Policy,57,160787
+CC,Commission on Civil Rights,54,136628
+EW,Trade and Development Agency,51,151709
+RO,Medicaid & Chip Payment & Access Comm,50,149783
+RS,Fed Mine Safety and Health Review Cmsn,48,138535
+OS,Occupational Safety & Health Review Cmsn,43,161765
+FJ,Chemical Safety/hazard Investigation Bd,43,160778
+HB,Cmte for Purch Frm Pple Blind Or Sev Dis,39,155156
+BT,Architectl & Trans Barrier Compliance Bd,35,166888
+NM,National Mediation Board,35,151531
+DO,Office of the National Cyber Director,33,163311
+ZS,U.s.-china Economic & Security Rev Cmsn,32,139606
+HP,Adv Council on Historic Preservation,32,137646
+EO,Morris K. Udall & Stewart L. Udall Found,30,98621
+NP,National Capital Planning Commission,29,152695
+VD,Privacy and Civil Liberties Oversight,29,170931
+NS,National Security Council,27,145295
+IG,Council of Insp. Gen. on Integ.& Effic.,27,172506
+ZP,U.s. Cmsn on Internatl Religious Freedom,24,107468
+MA,Marine Mammal Commission,24,162223
+IF,Inter-american Foundation,24,142045
+TS,Office of Science and Technology Policy,24,131538
+GC,Gulf Coast Ecosystem Restoration Council,23,150432
+AN,African Development Foundation,23,122022
+EQ,Council on Envir Qual/ofc of Envir Qual,23,154729
+CE,Council of Economic Advisers,23,89478
+WK,Federal Permitting Improvement Steer,19,155718
+GY,International Joint Cmsn: U.s. & Canada,18,164967
+BH,Cmsn for Pres of America's Heritage Abrd,18,10844
+NK,National Council on Disability,18,157928
+CX,National Commission on Libraries and Information Science,17,120785
+FI,Federal Financial Inst. Exam. Council,14,154241
+GX,Internat Boundary Cmsn: U.s. and Canada,13,92581
+BW,Nuclear Waste Technical Review Board,13,164213
+DQ,Denali Commission,13,152193
+HW,U.s. Interagency Council on Homelessness,13,152690
+UJ,Japan-united States Friendship Cmsn,12,149941
+UT,Utah Reclamatn Mitigatn & Conservtn Cmsn,11,107735
+AA,Admin Conference of the United States,10,158362
+RJ,Civil Rights Cold Case Review Board,10,152029
+FK,Farm Credit System Insurance Corporation,10,301024
+DB,Public Interest Declassification Board,9,133476
+CF,Commission of Fine Arts,8,159149
+GU,The Us Semiquincentennial Commission,8,121814
+KY,Public Buildings Reform Board,7,167421
+BK,James Madison Memorial Fellowship Found,5,123667
+HT,Harry S. Truman Scholarship Foundation,5,126700
+AP,Appalachian Regional Commission,5,138176
+AW,Arctic Research Commission,2,195275
+GE,Barry Goldwater Schol & Excel in Ed Foun,2,159755
+DG,Northern Border Regional Commission,2,124513
+DA,Delta Regional Authority,1,151363
+WU,Southwest Border Regional Commission,1,167603

@@ -1,0 +1,543 @@
+code,name,family,employees,avg_salary
+0610,Nurse,"Medical, Hospital, Dental, and Public Health Group",97118,130337
+0301,Miscellaneous Administration and Program,"General Administrative, Clerical, and Office Services Group",47327,124289
+0343,Management and Program Analysis,"General Administrative, Clerical, and Office Services Group",46120,133107
+2210,Information Technology Management,Information Technology Group,42390,145038
+0679,Medical Support Assistance,"Medical, Hospital, Dental, and Public Health Group",36819,57411
+0602,Medical Officer,"Medical, Hospital, Dental, and Public Health Group",33816,296932
+0962,Contact Representative,Legal and Kindred Group,30438,63021
+0905,General Attorney,Legal and Kindred Group,26147,175397
+0303,Miscellaneous Clerk and Assistant,"General Administrative, Clerical, and Office Services Group",25677,53180
+0105,Social Insurance Administration,"Social Science, Psychology, and Welfare Group",25436,104859
+0185,Social Work,"Social Science, Psychology, and Welfare Group",21120,108850
+0201,Human Resources Management,Human Resources Management Group,20803,122790
+2152,Air Traffic Control,Transportation Group,19344,152431
+0996,Veterans Claims Examining,Legal and Kindred Group,18856,89889
+0401,General Natural Resources Management and Biological Sciences,Biological Sciences Group,16928,122177
+0601,General Health Science,"Medical, Hospital, Dental, and Public Health Group",16418,131819
+0620,Practical Nurse,"Medical, Hospital, Dental, and Public Health Group",14613,74848
+0621,Nursing Assistant,"Medical, Hospital, Dental, and Public Health Group",14094,55212
+0660,Pharmacist,"Medical, Hospital, Dental, and Public Health Group",13468,165040
+1101,General Business and Industry,Business and Industry Group,13222,122095
+0501,Financial Administration and Program,Accounting and Budget Group,12667,114100
+1102,Contracting,Business and Industry Group,12395,130051
+3566,Custodial Working,General Services and Support Work Family,11980,46505
+0089,Emergency Management Specialist,Miscellaneous Occupations Group,11657,96376
+0592,Tax Examining,Accounting and Budget Group,10866,56378
+0801,General Engineering,Engineering and Architecture Group,10581,157158
+0640,Health Aid and Technician,"Medical, Hospital, Dental, and Public Health Group",9973,60398
+1224,Patent Examining,"Copyright, Patent, and Trademark Group",9257,157418
+0462,Forestry Technician,Biological Sciences Group,9218,67474
+0101,Social Science,"Social Science, Psychology, and Welfare Group",9128,108544
+0180,Psychology,"Social Science, Psychology, and Welfare Group",9112,141226
+0340,Program Management,"General Administrative, Clerical, and Office Services Group",8466,178312
+0901,General Legal and Kindred Administration,Legal and Kindred Group,7834,80790
+2101,Transportation Specialist,Transportation Group,7199,122153
+0661,Pharmacy Technician,"Medical, Hospital, Dental, and Public Health Group",6308,69687
+0510,Accounting,Accounting and Budget Group,6248,143545
+0341,Administrative Officer,"General Administrative, Clerical, and Office Services Group",6149,109653
+4749,Maintenance Mechanic,General Maintenance and Operations Work Family,6146,74140
+0560,Budget Analysis,Accounting and Budget Group,6142,130363
+1301,General Physical Science,Physical Sciences Group,5991,143187
+0080,Security Administration,Miscellaneous Occupations Group,5959,123295
+0647,Diagnostic Radiologic Technologist,"Medical, Hospital, Dental, and Public Health Group",5294,100503
+7408,Food Service Working,Food Preparation and Serving Family,5285,48262
+0671,Health System Specialist,"Medical, Hospital, Dental, and Public Health Group",5275,109156
+0644,Medical Technologist,"Medical, Hospital, Dental, and Public Health Group",5253,116119
+1862,Consumer Safety Inspection,Investigation Group,5252,73086
+0570,Financial Institution Examining,Accounting and Budget Group,4950,166549
+0861,Aerospace Engineering,Engineering and Architecture Group,4930,154582
+0404,Biological Science Technician,Biological Sciences Group,4214,57955
+0457,Soil Conservation,Biological Sciences Group,4199,87864
+1825,Aviation Safety,Investigation Group,4164,142693
+1165,Loan Specialist,Business and Industry Group,4160,93978
+0511,Auditing,Accounting and Budget Group,4002,142352
+0649,Medical Instrument Technician,"Medical, Hospital, Dental, and Public Health Group",3819,79997
+0675,Medical Records Technician,"Medical, Hospital, Dental, and Public Health Group",3792,64317
+0810,Civil Engineering,Engineering and Architecture Group,3747,122797
+0110,Economist,"Social Science, Psychology, and Welfare Group",3730,154464
+0503,Financial Clerical and Assistance,Accounting and Budget Group,3693,58033
+0028,Environmental Protection Specialist,Miscellaneous Occupations Group,3409,126483
+0603,Physician Assistant,"Medical, Hospital, Dental, and Public Health Group",3373,166870
+1035,Public Affairs,Information and Arts Group,3370,127464
+7404,Cooking,Food Preparation and Serving Family,3358,70749
+0696,Consumer Safety,"Medical, Hospital, Dental, and Public Health Group",3312,136851
+0685,Public Health Program Specialist,"Medical, Hospital, Dental, and Public Health Group",3294,138585
+0633,Physical Therapist,"Medical, Hospital, Dental, and Public Health Group",3271,122530
+0025,Park Ranger,Miscellaneous Occupations Group,3268,86045
+0318,Secretary,"General Administrative, Clerical, and Office Services Group",3197,66079
+0622,Medical Supply Aide and Technician,"Medical, Hospital, Dental, and Public Health Group",3080,68067
+0630,Dietitian and Nutritionist,"Medical, Hospital, Dental, and Public Health Group",3079,98778
+1109,Grants Management,Business and Industry Group,3043,126759
+1530,Statistics,Mathematics and Statistics Group,2953,137831
+0802,Engineering Technical,Engineering and Architecture Group,2931,92146
+1320,Chemistry,Physical Sciences Group,2887,146912
+0950,Paralegal Specialist,Legal and Kindred Group,2745,107116
+2010,Inventory Management,Supply Group,2731,77421
+6907,Materials Handler,Warehousing and Stock Handling Family,2693,66316
+2005,Supply Clerical and Technician,Supply Group,2597,51544
+0344,Management and Program Clerical and Assistance,"General Administrative, Clerical, and Office Services Group",2571,67012
+0018,Safety and Occupational Health Management,Miscellaneous Occupations Group,2567,116252
+1712,Training Instruction,Education Group,2536,104561
+1001,General Arts and Information,Information and Arts Group,2525,125615
+0986,Legal Assistance,Legal and Kindred Group,2495,67676
+5703,Motor Vehicle Operating,Transportation/mobile Equipment Operation Family,2335,61741
+0681,Dental Assistant,"Medical, Hospital, Dental, and Public Health Group",2328,60727
+0107,Health Insurance Administration,"Social Science, Psychology, and Welfare Group",2301,145147
+0665,Speech Pathology and Audiology,"Medical, Hospital, Dental, and Public Health Group",2272,113818
+1340,Meteorology,Physical Sciences Group,2220,123985
+0086,Security Clerical and Assistance,Miscellaneous Occupations Group,2200,64965
+0203,Human Resources Assistance,Human Resources Management Group,2193,64012
+0456,Wildland Fire Management,Biological Sciences Group,2192,83117
+1601,"Equipment Facilities, and Services","Equipment, Facilities, and Services Group",2183,108473
+0130,Foreign Affairs,"Social Science, Psychology, and Welfare Group",2098,151581
+0967,Passport and Visa Examining,Legal and Kindred Group,2035,90679
+0680,Dental Officer,"Medical, Hospital, Dental, and Public Health Group",2019,226072
+1170,Realty,Business and Industry Group,1997,111414
+0855,Electronics Engineering,Engineering and Architecture Group,1954,153768
+0631,Occupational Therapist,"Medical, Hospital, Dental, and Public Health Group",1946,117873
+0306,Government Information Specialist,"General Administrative, Clerical, and Office Services Group",1922,122484
+0645,Medical Technician,"Medical, Hospital, Dental, and Public Health Group",1856,56517
+0486,Wildlife Biology,Biological Sciences Group,1821,95771
+1105,Purchasing,Business and Industry Group,1818,58790
+0856,Electronics Technical,Engineering and Architecture Group,1661,102932
+1315,Hydrology,Physical Sciences Group,1642,116221
+0482,Fish Biology,Biological Sciences Group,1640,114482
+0006,Correctional Institution Administration,Miscellaneous Occupations Group,1626,122300
+0346,Logistics Management,"General Administrative, Clerical, and Office Services Group",1606,115903
+0701,Veterinary Medical Science,Veterinary Medical Science Group,1600,129767
+0819,Environmental Engineering,Engineering and Architecture Group,1588,140188
+0460,Forestry,Biological Sciences Group,1582,87654
+1980,Agricultural Commodity Grading,"Quality Assurance, Inspection, and Grading Group",1565,68894
+1710,Education and Vocational Training,Education Group,1528,105445
+2003,Supply Program Management,Supply Group,1501,93266
+0403,Microbiology,Biological Sciences Group,1490,141220
+0102,Social Science Aid and Technician,"Social Science, Psychology, and Welfare Group",1459,67668
+0342,Support Services Administration,"General Administrative, Clerical, and Office Services Group",1422,99118
+0850,Electrical Engineering,Engineering and Architecture Group,1420,141205
+0525,Accounting Technician,Accounting and Budget Group,1420,60662
+4742,Utility Systems Repairing-operating,General Maintenance and Operations Work Family,1405,83169
+5716,Engineering Equipment Operating,Transportation/mobile Equipment Operation Family,1396,76519
+1640,Facility Operations Services,"Equipment, Facilities, and Services Group",1388,113335
+1316,Hydrologic Technician,Physical Sciences Group,1378,73701
+0662,Optometrist,"Medical, Hospital, Dental, and Public Health Group",1360,150141
+2805,Electrician,Electrical Installation and Maintenance Family,1352,80616
+0260,Equal Employment Opportunity,Human Resources Management Group,1328,131390
+1421,Archives Technician,Library and Archives Group,1303,67237
+1529,Mathematical Statistics,Mathematics and Statistics Group,1293,156015
+1702,Education and Training Technician,Education Group,1254,68471
+0935,Administrative Law Judge,Legal and Kindred Group,1241,206455
+1550,Computer Science,Mathematics and Statistics Group,1238,155340
+5306,Air Conditioning Equipment Mechanic,Industrial Equipment Maintenance Family,1180,80034
+0305,Mail and File,"General Administrative, Clerical, and Office Services Group",1176,48623
+0193,Archeology,"Social Science, Psychology, and Welfare Group",1173,90688
+2102,Transportation Clerk and Assistant,Transportation Group,1137,55414
+0060,Chaplain,Miscellaneous Occupations Group,1118,102475
+0085,Security Guard,Miscellaneous Occupations Group,1097,57480
+0830,Mechanical Engineering,Engineering and Architecture Group,1065,135389
+0391,Telecommunications,"General Administrative, Clerical, and Office Services Group",1064,126159
+0638,Recreation/creative Arts Therapist,"Medical, Hospital, Dental, and Public Health Group",1023,94042
+3502,Laboring,General Services and Support Work Family,1021,47448
+0408,Ecology,Biological Sciences Group,1002,121042
+1160,Financial Analysis,Business and Industry Group,1002,170966
+0991,Worker's Compensation Claims Examining,Legal and Kindred Group,977,119744
+1849,Wage and Hour Investigation Series,Investigation Group,973,119357
+0858,Bioengineering & Biomedical Engineering,Engineering and Architecture Group,948,142937
+1176,Building Management,Business and Industry Group,942,118486
+0636,Rehabilitation Therapy Assistant,"Medical, Hospital, Dental, and Public Health Group",936,69462
+1350,Geology,Physical Sciences Group,926,122589
+1822,Mine Safety and Health Inspection Series,Investigation Group,925,110636
+1981,Agricultural Commodity Aid,"Quality Assurance, Inspection, and Grading Group",905,37488
+0998,Claims Assistance and Examining,Legal and Kindred Group,901,66306
+1701,General Education and Training,Education Group,889,129258
+0668,Podiatrist,"Medical, Hospital, Dental, and Public Health Group",886,206009
+2810,High Voltage Electrician,Electrical Installation and Maintenance Family,865,133484
+1515,Operations Research,Mathematics and Statistics Group,830,159626
+1084,Visual Information,Information and Arts Group,781,108762
+4204,Pipefitting,Plumbing and Pipefitting Family,781,79157
+1715,Vocational Rehabilitation,Education Group,771,87460
+0854,Computer Engineering,Engineering and Architecture Group,755,158701
+0308,Records and Information Management,"General Administrative, Clerical, and Office Services Group",737,119188
+2186,Technical Systems Program Manager,Transportation Group,726,188810
+0454,Rangeland Management,Biological Sciences Group,726,86364
+0186,Social Services Aid and Assistant,"Social Science, Psychology, and Welfare Group",721,59030
+0672,Prosthetic Representative,"Medical, Hospital, Dental, and Public Health Group",721,94687
+0828,Construction Analyst,Engineering and Architecture Group,718,94146
+0690,Industrial Hygiene,"Medical, Hospital, Dental, and Public Health Group",716,121786
+0090,Guide,Miscellaneous Occupations Group,671,46999
+0682,Dental Hygiene,"Medical, Hospital, Dental, and Public Health Group",669,87831
+0670,Health System Administration,"Medical, Hospital, Dental, and Public Health Group",667,162835
+2150,Transportation Operations,Transportation Group,664,103820
+0963,Legal Instruments Examining,Legal and Kindred Group,658,72129
+0421,Plant Protection Technician,Biological Sciences Group,646,45391
+0188,Recreation Specialist,"Social Science, Psychology, and Welfare Group",639,81852
+1560,Data Science Series,Mathematics and Statistics Group,639,142812
+1310,Physics,Physical Sciences Group,634,171725
+4754,Cemetery Caretaking,General Maintenance and Operations Work Family,625,62771
+0808,Architecture,Engineering and Architecture Group,622,140697
+0544,Civilian Pay,Accounting and Budget Group,622,55900
+1860,Equal Opportunity Investigation,Investigation Group,613,111235
+0470,Soil Science,Biological Sciences Group,612,107420
+0405,Pharmacology,Biological Sciences Group,599,182277
+4607,Carpentry,Wood Work Family,594,75156
+4102,Painting,Painting and Paperhanging Family,594,75361
+4701,Misc General Maintenance & Operations Work,General Maintenance and Operations Work Family,586,92789
+0150,Geography,"Social Science, Psychology, and Welfare Group",577,118161
+1082,Writing and Editing,Information and Arts Group,574,135733
+1140,Trade Specialist,Business and Industry Group,570,145589
+0526,Tax Specialist,Accounting and Budget Group,560,87783
+7304,Laundry Working,"Laundry, Dry Cleaning, and Pressing Family",559,45301
+0458,Soil Conservation Technician,Biological Sciences Group,534,57644
+2121,Railroad Safety,Transportation Group,515,118100
+1016,Museum Specialist and Technician,Information and Arts Group,512,94498
+1910,Quality Assurance,"Quality Assurance, Inspection, and Grading Group",510,119311
+1863,Food Inspection,Investigation Group,509,59053
+0360,Equal Opportunity Compliance,"General Administrative, Clerical, and Office Services Group",502,134242
+0505,Financial Management,Accounting and Budget Group,502,168118
+2123,Motor Carrier Safety,Transportation Group,494,92688
+1420,Archivist,Library and Archives Group,486,117942
+0809,Construction Control Technical,Engineering and Architecture Group,470,101472
+1750,Instructional Systems,Education Group,463,131023
+1670,Equipment Services,"Equipment, Facilities, and Services Group",460,108059
+0081,Fire Protection and Prevention,Miscellaneous Occupations Group,460,73712
+0669,Medical Records Administration,"Medical, Hospital, Dental, and Public Health Group",458,101876
+1130,Public Utilities Specialist,Business and Industry Group,452,129249
+1311,Physical Science Technician,Physical Sciences Group,446,78473
+0485,Wildlife Refuge Management,Biological Sciences Group,432,113297
+1361,Navigational Information,Physical Sciences Group,430,146873
+1410,Librarian,Library and Archives Group,427,127333
+0806,Materials Engineering,Engineering and Architecture Group,415,153559
+5402,Boiler Plant Operating,Industrial Equipment Operation Family,413,75602
+0540,Voucher Examining,Accounting and Budget Group,413,59150
+1071,Audiovisual Production,Information and Arts Group,409,125408
+0440,Genetics,Biological Sciences Group,406,139871
+0667,Orthotist and Prosthetist,"Medical, Hospital, Dental, and Public Health Group",398,104914
+0326,Office Automation Clerical and Assistance,"General Administrative, Clerical, and Office Services Group",391,52785
+0023,Outdoor Recreation Planning,Miscellaneous Occupations Group,390,94488
+1831,Securities Compliance Examining,Investigation Group,384,239459
+0415,Toxicology,Biological Sciences Group,377,149670
+2091,Sales Store Clerical,Supply Group,377,41152
+1226,Design Patent Examining,"Copyright, Patent, and Trademark Group",375,131984
+0704,Animal Health Technician,Veterinary Medical Science Group,373,66667
+1412,Technical Information Services,Library and Archives Group,370,126351
+0414,Entomology,Biological Sciences Group,366,133198
+5003,Gardening,Plant and Animal Work Family,365,66938
+1330,Astronomy and Space Science,Physical Sciences Group,364,175175
+1146,Agricultural Marketing,Business and Industry Group,364,124026
+5352,Industrial Equipment Mechanic,Industrial Equipment Maintenance Family,363,110778
+1630,Cemetery Administration Services,"Equipment, Facilities, and Services Group",361,85960
+1531,Statistical Assistant,Mathematics and Statistics Group,358,51060
+1720,Education Program,Education Group,356,137363
+1370,Cartography,Physical Sciences Group,355,119265
+0987,Tax Law Specialist,Legal and Kindred Group,354,150672
+1171,Appraising,Business and Industry Group,352,134651
+1306,Health Physics,Physical Sciences Group,350,145743
+0382,Telephone Operating,"General Administrative, Clerical, and Office Services Group",349,44787
+2151,Dispatching,Transportation Group,346,58828
+0020,Community Planning,Miscellaneous Occupations Group,345,130275
+2606,Electronic Industrial Controls Mechanic,Electronic Equipment Installation and Maintenance Family,345,110426
+5407,Electrical Power Controlling,Industrial Equipment Operation Family,344,151729
+0480,Fish and Wildlife Administration,Biological Sciences Group,340,166673
+4206,Plumbing,Plumbing and Pipefitting Family,340,81795
+0181,Psychology Aid and Technician,"Social Science, Psychology, and Welfare Group",337,65958
+1040,Language Specialist,Information and Arts Group,333,115382
+1015,Museum Curator,Information and Arts Group,332,124166
+1083,Technical Writing and Editing,Information and Arts Group,331,125828
+5823,Automotive Mechanic,Transportation/mobile Equipment Maintenance Family,328,80212
+2001,General Supply,Supply Group,326,96920
+1220,Patent Administration,"Copyright, Patent, and Trademark Group",321,197945
+1603,"Equipment, Facilities, and Services Assistance","Equipment, Facilities, and Services Group",319,65072
+1222,Patent Attorney,"Copyright, Patent, and Trademark Group",319,199941
+1145,Agricultural Program Specialist,Business and Industry Group,319,111785
+0699,Medical and Health Student Trainee,"Medical, Hospital, Dental, and Public Health Group",315,52817
+5701,Misc Transportation/mobile Equipment Oper,Transportation/mobile Equipment Operation Family,315,58323
+0648,Therapeutic Radiologic Technologist,"Medical, Hospital, Dental, and Public Health Group",311,120726
+0993,Railroad Retirement Claims Examining,Legal and Kindred Group,302,92367
+0881,Petroleum Engineering,Engineering and Architecture Group,297,137511
+0399,Administration and Office Support Student Trainee,"General Administrative, Clerical, and Office Services Group",290,45350
+1313,Geophysics,Physical Sciences Group,289,148948
+1654,Printing Services,"Equipment, Facilities, and Services Group",287,129132
+2604,Electronics Mechanic,Electronic Equipment Installation and Maintenance Family,283,99912
+0119,Economics Assistant,"Social Science, Psychology, and Welfare Group",277,58245
+0335,Computer Clerk and Assistant,"General Administrative, Clerical, and Office Services Group",277,69561
+5406,Utility Systems Operating,Industrial Equipment Operation Family,276,74973
+2181,Aircraft Operation,Transportation Group,275,149405
+1008,Interior Design,Information and Arts Group,269,104551
+0673,Hospital Housekeeping Management,"Medical, Hospital, Dental, and Public Health Group",267,107556
+0430,Botany,Biological Sciences Group,266,94195
+0646,Pathology Technician,"Medical, Hospital, Dental, and Public Health Group",263,71416
+1373,Land Surveying,Physical Sciences Group,258,106733
+0683,Dental Laboratory Aid and Technician,"Medical, Hospital, Dental, and Public Health Group",253,73811
+0635,Kinesiotherapy,"Medical, Hospital, Dental, and Public Health Group",252,98652
+4402,Bindery Working,Printing Family,249,101216
+5705,Tractor Operating,Transportation/mobile Equipment Operation Family,243,60909
+0131,International Relations,"Social Science, Psychology, and Welfare Group",242,156277
+0030,Sports Specialist,Miscellaneous Occupations Group,241,83334
+0170,History,"Social Science, Psychology, and Welfare Group",241,126213
+3869,Metal Forming Machine Operating,Metal Work Family,235,70435
+0890,Agricultural Engineering,Engineering and Architecture Group,233,111839
+0561,Budget Clerical and Assistance,Accounting and Budget Group,231,59430
+1510,Actuarial Science,Mathematics and Statistics Group,231,165104
+0187,Social Services,"Social Science, Psychology, and Welfare Group",223,64265
+0893,Chemical Engineering,Engineering and Architecture Group,221,147599
+1106,Procurement Clerical and Technician,Business and Industry Group,221,62479
+1010,Exhibits Specialist,Information and Arts Group,219,102896
+0530,Cash Processing,Accounting and Budget Group,217,55575
+1667,Food Services,"Equipment, Facilities, and Services Group",213,105746
+0304,Information Receptionist,"General Administrative, Clerical, and Office Services Group",211,44380
+0142,Workforce Development,"Social Science, Psychology, and Welfare Group",206,134618
+0434,Plant Pathology,Biological Sciences Group,205,135492
+5001,Miscellaneous Plant and Animal Work,Plant and Animal Work Family,203,69743
+0807,Landscape Architecture,Engineering and Architecture Group,196,119518
+4406,Letterpress Operating,Printing Family,195,135842
+0244,Labor-management Relations Examining,Human Resources Management Group,195,146492
+1360,Oceanography,Physical Sciences Group,193,153499
+0965,Land Law Examining,Legal and Kindred Group,189,80471
+0499,Biological Science Student Trainee,Biological Sciences Group,187,43512
+0413,Physiology,Biological Sciences Group,184,131150
+0189,Recreation Aid and Assistant,"Social Science, Psychology, and Welfare Group",178,53532
+5803,Heavy Mobile Equipment Mechanic,Transportation/mobile Equipment Maintenance Family,178,91992
+2125,Highway Safety,Transportation Group,173,135339
+2154,Air Traffic Assistance,Transportation Group,172,82756
+7305,Laundry Machine Operating,"Laundry, Dry Cleaning, and Pressing Family",169,53378
+5048,Animal Caretaking,Plant and Animal Work Family,169,57158
+0471,Agronomy,Biological Sciences Group,164,112051
+6941,Bulk Money Handling,Warehousing and Stock Handling Family,160,68659
+0455,Range Technician,Biological Sciences Group,159,60593
+0135,Foreign Agricultural Affairs,"Social Science, Psychology, and Welfare Group",149,153831
+0899,Engineering and Architecture Student Trainee,Engineering and Architecture Group,148,60380
+3603,Masonry,Structural and Finishing Work Family,148,72364
+4401,Miscellaneous Printing and Reproduction,Printing Family,148,85832
+3414,Machining,Machine Tool Work Family,145,89674
+2230,Dhs Cybersecurity Specialist (for Dhs Use Only),Information Technology Group,144,157790
+3359,Instrument Mechanic,Instrument Work Family,144,57260
+5334,Marine Machinery Mechanic,Industrial Equipment Maintenance Family,144,79578
+1341,Meteorological Technician,Physical Sciences Group,144,95629
+2610,Electronic Integrated Systems Mechanic,Electronic Equipment Installation and Maintenance Family,143,145511
+1173,Housing Management,Business and Industry Group,140,88719
+2110,Transportation Industry Analysis,Transportation Group,139,149029
+8852,Aircraft Mechanic,Aircraft Overhaul Family,137,94640
+4403,Hand Composing,Printing Family,136,101887
+3703,Welding,Metal Processing Family,134,86415
+4804,Locksmithing,General Equipment Maintenance Family,131,73949
+1104,Property Disposal,Business and Industry Group,131,116683
+0332,Computer Operation,"General Administrative, Clerical, and Office Services Group",131,66096
+2130,Traffic Management,Transportation Group,128,117634
+5415,Air Conditioning Equipment Operating,Industrial Equipment Operation Family,126,76208
+0050,Funeral Directing,Miscellaneous Occupations Group,125,92469
+1371,Cartographic Technician,Physical Sciences Group,125,70207
+1147,Agricultural Market Reporting,Business and Industry Group,120,98628
+2030,Distribution Facilities & Storage Management,Supply Group,120,102725
+3806,Sheet Metal Mechanic,Metal Work Family,119,89843
+4454,Intaglio Press Operating,Printing Family,118,137961
+0160,Civil Rights Analysis,"Social Science, Psychology, and Welfare Group",115,126297
+1520,Mathematics,Mathematics and Statistics Group,113,175554
+5026,Pest Controlling,Plant and Animal Work Family,111,71359
+0350,Equipment Operator,"General Administrative, Clerical, and Office Services Group",107,50821
+0804,Fire Protection Engineering,Engineering and Architecture Group,105,158109
+0803,Safety Engineering,Engineering and Architecture Group,104,134493
+0651,Respiratory Therapist,"Medical, Hospital, Dental, and Public Health Group",100,70450
+1411,Library Technician,Library and Archives Group,98,69942
+0437,Horticulture,Biological Sciences Group,97,110155
+0199,Social Science Student Trainee,"Social Science, Psychology, and Welfare Group",96,62108
+1399,Physical Science Student Trainee,Physical Sciences Group,89,48770
+0817,Survey Technical,Engineering and Architecture Group,87,64308
+0190,General Anthropology,"Social Science, Psychology, and Welfare Group",87,116919
+3105,Fabric Working,Fabric and Leather Work Family,85,81843
+1060,Photography,Information and Arts Group,83,104764
+2299,Information Technology Student Trainee,Information Technology Group,80,46895
+7002,Packing,Packing and Processing Family,80,62258
+0904,Law Clerk,Legal and Kindred Group,79,103838
+5031,Insects Production Working,Plant and Animal Work Family,78,54286
+0896,Industrial Engineering,Engineering and Architecture Group,74,149756
+0361,Equal Opportunity Assistance,"General Administrative, Clerical, and Office Services Group",74,66601
+1382,Food Technology,Physical Sciences Group,74,146188
+0241,Mediation,Human Resources Management Group,69,154713
+1152,Production Control,Business and Industry Group,67,97723
+9901,Miscellaneous Vessel Jobs,Vessel Jobs Family (excluded From the Federal Wage System),64,58550
+5786,Small Craft Operating,Transportation/mobile Equipment Operation Family,64,76518
+0435,Plant Physiology,Biological Sciences Group,64,140107
+0106,Unemployment Insurance,"Social Science, Psychology, and Welfare Group",63,133213
+0958,Employee Benefits Law,Legal and Kindred Group,62,153268
+5350,Production Machinery Mechanic,Industrial Equipment Maintenance Family,61,78179
+4417,Offset Press Operating,Printing Family,61,116237
+5409,Water Treatment Plant Operating,Industrial Equipment Operation Family,60,86547
+3501,Misc General Services and Support Work,General Services and Support Work Family,60,57397
+1740,Education Services,Education Group,57,85882
+0487,Animal Science,Biological Sciences Group,57,142832
+2854,Electrical Equipment Repairer,Electrical Installation and Maintenance Family,56,82727
+9924,Able Seaman,Vessel Jobs Family (excluded From the Federal Wage System),56,51426
+1501,General Mathematics and Statistics,Mathematics and Statistics Group,55,210220
+0599,Financial Management Student Trainee,Accounting and Budget Group,55,48030
+0459,Irrigation System Operation,Biological Sciences Group,55,55450
+0140,Workforce Research and Analysis,"Social Science, Psychology, and Welfare Group",54,140005
+0880,Mining Engineering,Engineering and Architecture Group,54,127109
+5042,Tree Trimming and Removing,Plant and Animal Work Family,53,78605
+0545,Military Pay,Accounting and Budget Group,53,62416
+0871,Naval Architecture,Engineering and Architecture Group,51,154529
+7601,Miscellaneous Personal Services,Personal Services Family,50,43512
+4441,Bookbinding,Printing Family,50,121487
+5301,Misc Industrial Equipment Maintenance,Industrial Equipment Maintenance Family,50,96439
+4010,Prescription Eyeglass Making,Lens and Crystal Work Family,50,66634
+1199,Business and Industry Student Trainee,Business and Industry Group,49,41322
+3801,Miscellaneous Metal Work,Metal Work Family,49,81414
+1103,Industrial Property Management,Business and Industry Group,48,129503
+1397,Document Analysis,Physical Sciences Group,48,151134
+3111,Sewing Machine Operating,Fabric and Leather Work Family,46,50683
+0019,Safety Technician,Miscellaneous Occupations Group,44,69188
+0099,General Student Trainee,Miscellaneous Occupations Group,44,41966
+4605,Wood Crafting,Wood Work Family,43,79730
+0688,Sanitarian,"Medical, Hospital, Dental, and Public Health Group",43,93959
+5725,Crane Operating,Transportation/mobile Equipment Operation Family,42,86135
+5401,Misc Industrial Equipment Operation,Industrial Equipment Operation Family,42,93495
+1372,Geodesy,Physical Sciences Group,41,153784
+5210,Rigging,Miscellaneous Occupations Family,40,82111
+0390,Telecommunications Processing,"General Administrative, Clerical, and Office Services Group",39,51626
+5408,Sewage Disposal Plant Operating,Industrial Equipment Operation Family,38,77510
+7301,"Misc Laundry, Dry Cleaning, and Pressing","Laundry, Dry Cleaning, and Pressing Family",37,69037
+0072,Fingerprint Identification,Miscellaneous Occupations Group,36,130049
+9927,Seaman-fisherman,Vessel Jobs Family (excluded From the Federal Wage System),36,61579
+1163,Insurance Examining,Business and Industry Group,36,142671
+5729,Drill Rig Operating,Transportation/mobile Equipment Operation Family,35,75351
+1150,Industrial Specialist,Business and Industry Group,35,140424
+4737,General Equipment Mechanic,General Maintenance and Operations Work Family,35,74005
+2601,Misc Electronic Equipmt Install & Maintne,Electronic Equipment Installation and Maintenance Family,34,152759
+5309,Heating & Boiler Plant Equipmt Mechanic,Industrial Equipment Maintenance Family,34,78139
+2199,Transportation Student Trainee,Transportation Group,34,45860
+1850,Agricultural Warehouse Inspection Series,Investigation Group,34,98236
+4104,Sign Painting,Painting and Paperhanging Family,34,73414
+0873,Marine Survey Technical,Engineering and Architecture Group,33,141338
+1223,Patent Classifying,"Copyright, Patent, and Trademark Group",33,187211
+0410,Zoology,Biological Sciences Group,33,154911
+5378,Powered Support Systems Mechanic,Industrial Equipment Maintenance Family,32,78548
+4805,Medical Equipment Repairing,General Equipment Maintenance Family,32,75960
+0392,General Telecommunications,"General Administrative, Clerical, and Office Services Group",31,67394
+4601,Miscellaneous Woodwork,Wood Work Family,31,87247
+1730,Education Research,Education Group,31,157395
+2892,Aircraft Electrician,Electrical Installation and Maintenance Family,30,87200
+3820,Shipfitting,Metal Work Family,29,80594
+4741,General Equipment Operating,General Maintenance and Operations Work Family,29,77763
+1815,Air Safety Investigating,Investigation Group,28,142624
+9973,Second Cook,Vessel Jobs Family (excluded From the Federal Wage System),27,47500
+5440,Packaging Machine Operating,Industrial Equipment Operation Family,26,74407
+9931,Chief Engineer,Vessel Jobs Family (excluded From the Federal Wage System),26,186950
+9933,Second Assistant Engineer,Vessel Jobs Family (excluded From the Federal Wage System),25,106877
+9954,Unlicensed Junior Engineer,Vessel Jobs Family (excluded From the Federal Wage System),25,57750
+1658,Laundry Operations Services,"Equipment, Facilities, and Services Group",24,87108
+0356,Data Transcriber,"General Administrative, Clerical, and Office Services Group",24,44472
+5419,Stationary-engine Operating,Industrial Equipment Operation Family,24,116911
+0299,Human Resources Management Student Trainee,Human Resources Management Group,23,52537
+4801,Misc General Equipment Maintenance,General Equipment Maintenance Family,23,65950
+6904,Tools and Parts Attending,Warehousing and Stock Handling Family,23,64057
+5426,Lock and Dam Operating,Industrial Equipment Operation Family,23,67934
+9932,First Assistant Engineer,Vessel Jobs Family (excluded From the Federal Wage System),23,117694
+9934,Third Assistant Engineer,Vessel Jobs Family (excluded From the Federal Wage System),21,94268
+1087,Editorial Assistance,Information and Arts Group,21,61352
+5317,Laundry & Dry Cleaning Equipmt Repairing,Industrial Equipment Maintenance Family,20,76530
+3416,Toolmaking,Machine Tool Work Family,20,86354
+0999,Legal Occupations Student Trainee,Legal and Kindred Group,19,45959
+2502,Telecommunications Mechanic,Wire Communications Equipment Installation and Maintenance Family,19,73656
+3940,Broadcasting Equipment Operating,"Motion Picture, Radio, Television, and Sound Equipment Operating Family",19,122311
+5782,Ship Operating,Transportation/mobile Equipment Operation Family,19,101728
+4352,Composite/plastic Fabricating,Pliable Materials Work Family,19,86246
+3511,Laboratory Working,General Services and Support Work Family,19,48684
+3610,Insulating,Structural and Finishing Work Family,18,76655
+8610,Small Engine Mechanic,Engine Overhaul Family,18,69927
+6913,Hazardous Waste Disposing,Warehousing and Stock Handling Family,17,58344
+9960,Oiler,Vessel Jobs Family (excluded From the Federal Wage System),17,49495
+1599,Mathematics and Statistics Student Trainee,Mathematics and Statistics Group,17,54892
+3401,Miscellaneous Machine Tool Work,Machine Tool Work Family,17,90903
+4416,Platemaking,Printing Family,17,114057
+5413,Fuel Distribution System Operating,Industrial Equipment Operation Family,17,77186
+6641,Ordnance Equipment Mechanic,Armament Work Family,16,82288
+0799,Veterinary Student Trainee,Veterinary Medical Science Group,16,57958
+5423,Sandblasting,Industrial Equipment Operation Family,16,66963
+7006,Preservation Servicing,Packing and Processing Family,16,66778
+6912,Materials Examining and Identifying,Warehousing and Stock Handling Family,15,61027
+4717,Boat Building and Repairing,General Maintenance and Operations Work Family,15,72335
+9968,Chief Steward,Vessel Jobs Family (excluded From the Federal Wage System),15,68994
+2801,Misc Electrical Installation & Maintenance,Electrical Installation and Maintenance Family,15,121906
+4449,Electrolytic Intaglio Platemaking,Printing Family,15,141229
+0029,Environmental Protection Assistant,Miscellaneous Occupations Group,14,66757
+5801,Misc Transportation/mobile Equipmt Maintne,Transportation/mobile Equipment Maintenance Family,14,98909
+1020,Illustrating,Information and Arts Group,14,86904
+9928,Ordinary Seaman,Vessel Jobs Family (excluded From the Federal Wage System),13,42409
+1725,Public Health Educator,Education Group,13,105386
+1380,Forest Products Technology,Physical Sciences Group,13,134507
+1107,Property Disposal Clerical and Technician,Business and Industry Group,12,64696
+2131,Freight Rate,Transportation Group,11,67364
+9920,Boatswain,Vessel Jobs Family (excluded From the Federal Wage System),11,76699
+5318,Lock and Dam Repairing,Industrial Equipment Maintenance Family,10,117922
+4714,Model Making,General Maintenance and Operations Work Family,10,88900
+8602,Aircraft Engine Mechanic,Engine Overhaul Family,10,91736
+3712,Heat Treating,Metal Processing Family,10,77878
+5704,Fork Lift Operating,Transportation/mobile Equipment Operation Family,9,67473
+9923,Boatswain's Mate,Vessel Jobs Family (excluded From the Federal Wage System),9,60014
+5220,Shipwright,Miscellaneous Occupations Family,9,81947
+6910,Materials Expediting,Warehousing and Stock Handling Family,8,60580
+0017,Explosives Safety,Miscellaneous Occupations Group,8,136893
+4604,Wood Working,Wood Work Family,8,68415
+0136,International Cooperation,"Social Science, Psychology, and Welfare Group",8,170248
+1321,Metallurgy,Physical Sciences Group,8,167316
+0184,Sociology,"Social Science, Psychology, and Welfare Group",7,135111
+3605,Plastering,Structural and Finishing Work Family,7,71113
+3727,Buffing and Polishing,Metal Processing Family,7,81641
+9971,Chief Cook,Vessel Jobs Family (excluded From the Federal Wage System),6,58342
+5201,Miscellaneous Occupations,Miscellaneous Occupations Family,6,92475
+1221,Patent Adviser,"Copyright, Patent, and Trademark Group",6,154700
+2501,Misc Wire Communca Equipmt Install & Maint,Wire Communications Equipment Installation and Maintenance Family,6,135905
+0698,Environmental Health Technician,"Medical, Hospital, Dental, and Public Health Group",6,72875
+5313,Elevator Mechanic,Industrial Equipment Maintenance Family,6,80495
+1384,Textile Technology,Physical Sciences Group,6,126447
+1202,Patent Technician,"Copyright, Patent, and Trademark Group",5,94713
+9965,Wiper,Vessel Jobs Family (excluded From the Federal Wage System),5,42010
+0642,Nuclear Medicine Technician,"Medical, Hospital, Dental, and Public Health Group",5,106502
+3705,Non-destructive Testing,Metal Processing Family,5,97968
+0313,Work Unit Supervising,"General Administrative, Clerical, and Office Services Group",5,90549
+9902,Master,Vessel Jobs Family (excluded From the Federal Wage System),4,126032
+1899,Investigation Student Trainee,Investigation Group,4,52320
+0302,Messenger,"General Administrative, Clerical, and Office Services Group",4,40464
+4745,Research Laboratory Mechanic,General Maintenance and Operations Work Family,4,86647
+3106,Upholstering,Fabric and Leather Work Family,4,88536
+0322,Clerk-typist,"General Administrative, Clerical, and Office Services Group",4,48237
+1099,Information and Arts Student Trainee,Information and Arts Group,4,63198
+2608,Electronic Digital Computer Mechanic,Electronic Equipment Installation and Maintenance Family,4,93701
+8862,Aircraft Attending,Aircraft Overhaul Family,4,64843
+5788,Deckhand,Transportation/mobile Equipment Operation Family,4,63862
+2602,Electronic Measurement Equipment Mechanic,Electronic Equipment Installation and Maintenance Family,4,163318
+2032,Packaging,Supply Group,4,107340
+5806,Mobile Equipment Servicing,Transportation/mobile Equipment Maintenance Family,4,55410
+3606,Roofing,Structural and Finishing Work Family,4,80172
+5876,Electromotive Equipment Mechanic,Transportation/mobile Equipment Maintenance Family,3,87132
+0062,Clothing Design,Miscellaneous Occupations Group,3,154554
+0394,Communications Clerical,"General Administrative, Clerical, and Office Services Group",3,60506
+9905,First Officer,Vessel Jobs Family (excluded From the Federal Wage System),3,84943
+3601,Miscellaneous Structural & Finishing Work,Structural and Finishing Work Family,3,94054
+5737,Locomotive Engineering,Transportation/mobile Equipment Operation Family,3,58561
+3725,Battery Repairing,Metal Processing Family,3,71542
+6901,Misc Warehousing and Stock Handling,Warehousing and Stock Handling Family,3,72648
+3301,Miscellaneous Instrument Work,Instrument Work Family,3,85233
+1046,Language Clerical,Information and Arts Group,2,45396
+5738,Railroad Maintenance Vehicle Operating,Transportation/mobile Equipment Operation Family,2,76134
+1051,Music Specialist,Information and Arts Group,2,102573
+4840,Tool and Equipment Repairing,General Equipment Maintenance Family,2,73254
+5323,Oiling and Greasing,Industrial Equipment Maintenance Family,2,70343
+1894,Customs Entry and Liquidating,Investigation Group,2,113233
+9944,Electronics Technician,Vessel Jobs Family (excluded From the Federal Wage System),2,89968
+1056,Art Specialist,Information and Arts Group,2,61298
+3604,Tile Setting,Structural and Finishing Work Family,2,97192
+1889,Import Compliance Series,Investigation Group,2,125065
+6914,Store Working,Warehousing and Stock Handling Family,2,50714
+7603,Barbering,Personal Services Family,1,0
+3378,Precision Measurement Equipment Calibrating,Instrument Work Family,1,84043
+5002,Farming,Plant and Animal Work Family,1,70374
+8601,Miscellaneous Engine Overhaul,Engine Overhaul Family,1,62714
+3101,Misc Fabric and Leather Work,Fabric and Leather Work Family,1,78429
+3802,Metal Forging,Metal Work Family,1,75549
+7402,Baking,Food Preparation and Serving Family,1,63987
+3513,Coin/currency Checking,General Services and Support Work Family,1,110569
+3809,Mobile Equipment Metal Mechanic,Metal Work Family,1,95000
+1541,Cryptanalysis,Mathematics and Statistics Group,1,156755
+4201,Miscellaneous Plumbing and Pipefitting,Plumbing and Pipefitting Family,1,148636
+9916,Master-mate (fishing Vessel),Vessel Jobs Family (excluded From the Federal Wage System),1,95398
+1999,Quality Inspection Student Trainee,"Quality Assurance, Inspection, and Grading Group",1,40528

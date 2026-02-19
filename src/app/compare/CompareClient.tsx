@@ -1,5 +1,6 @@
 "use client";
-import { useState, useMemo, useRef, useEffect } from "react";
+import { useState, useMemo, useRef, useEffect, useCallback } from "react";
+import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import { formatNumber, formatSalary, cleanAgencyName } from "@/lib/format";
 import agencyRisk from "../../../public/data/agency-risk.json";
 
@@ -89,8 +90,32 @@ function SearchableSelect({ value, onChange, exclude }: { value: string; onChang
 }
 
 export function CompareClient() {
-  const [leftCode, setLeftCode] = useState("VA");
-  const [rightCode, setRightCode] = useState("HE");
+  const searchParams = useSearchParams();
+  const router = useRouter();
+  const pathname = usePathname();
+
+  const initialLeft = agencyRisk.find((a) => a.code === searchParams.get("a")) ? searchParams.get("a")! : "VA";
+  const initialRight = agencyRisk.find((a) => a.code === searchParams.get("b")) ? searchParams.get("b")! : "HE";
+
+  const [leftCode, setLeftCode] = useState(initialLeft);
+  const [rightCode, setRightCode] = useState(initialRight);
+
+  const updateUrl = useCallback((left: string, right: string) => {
+    const params = new URLSearchParams();
+    params.set("a", left);
+    params.set("b", right);
+    router.replace(`${pathname}?${params.toString()}`, { scroll: false });
+  }, [router, pathname]);
+
+  const handleLeftChange = (code: string) => {
+    setLeftCode(code);
+    updateUrl(code, rightCode);
+  };
+
+  const handleRightChange = (code: string) => {
+    setRightCode(code);
+    updateUrl(leftCode, code);
+  };
 
   const left = agencyRisk.find((a) => a.code === leftCode)!;
   const right = agencyRisk.find((a) => a.code === rightCode)!;
@@ -110,8 +135,8 @@ export function CompareClient() {
       <p className="text-gray-600 mb-8">Select two federal agencies to compare side-by-side on key workforce metrics.</p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-10">
-        <SearchableSelect value={leftCode} onChange={setLeftCode} exclude={rightCode} />
-        <SearchableSelect value={rightCode} onChange={setRightCode} exclude={leftCode} />
+        <SearchableSelect value={leftCode} onChange={handleLeftChange} exclude={rightCode} />
+        <SearchableSelect value={rightCode} onChange={handleRightChange} exclude={leftCode} />
       </div>
 
       {left && right && (

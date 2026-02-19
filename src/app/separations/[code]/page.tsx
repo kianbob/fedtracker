@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { formatNumber, toTitleCase } from "@/lib/format";
+import { formatNumber, toTitleCase, cleanAgencyName } from "@/lib/format";
 import { StatCard } from "@/components/StatCard";
 import { SeparationCharts } from "./SeparationCharts";
 import fs from "fs";

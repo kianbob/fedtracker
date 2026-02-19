@@ -186,6 +186,48 @@ export default async function AgencyDetailPage({ params }: { params: { code: str
         </section>
       )}
 
+      {/* Separations Breakdown */}
+      {seps?.monthly?.length > 0 && (() => {
+        const SEP_NAMES: Record<string, string> = {
+          SA: "Transfer Out", SB: "Death", SC: "Quit", SD: "Retirement",
+          SE: "Termination for Cause", SF: "Involuntary Resignation", SG: "Other",
+          SH: "RIF", SJ: "Termination", SK: "Disability", SL: "Early Retirement",
+        };
+        const totals: Record<string, number> = {};
+        for (const m of seps.monthly) {
+          for (const key of Object.keys(SEP_NAMES)) {
+            totals[key] = (totals[key] || 0) + (m[key] || 0);
+          }
+        }
+        const sorted = Object.entries(totals)
+          .filter(([, v]) => v > 0)
+          .sort(([, a], [, b]) => b - a);
+        const total = sorted.reduce((s, [, v]) => s + v, 0);
+        if (sorted.length === 0) return null;
+        return (
+          <section className="mb-12">
+            <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4">Separations Breakdown</h2>
+            <p className="text-sm text-gray-500 mb-4">{formatNumber(total)} total separations (FY2020–2025)</p>
+            <div className="bg-white border border-gray-200 rounded-xl overflow-hidden divide-y divide-gray-100">
+              {sorted.map(([code, count]) => (
+                <Link key={code} href={`/separations/${code}`} className="flex items-center justify-between px-6 py-3 hover:bg-gray-50 transition-colors">
+                  <div className="flex items-center gap-3">
+                    <span className="text-xs font-mono text-gray-400 w-6">{code}</span>
+                    <span className="text-gray-800">{SEP_NAMES[code]}</span>
+                  </div>
+                  <div className="flex items-center gap-4">
+                    <div className="w-24 h-2 bg-gray-100 rounded-full overflow-hidden hidden sm:block">
+                      <div className="h-full bg-indigo-400 rounded-full" style={{ width: `${(count / sorted[0][1]) * 100}%` }} />
+                    </div>
+                    <span className="text-sm text-gray-600 font-semibold w-16 text-right">{formatNumber(count)}</span>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </section>
+        );
+      })()}
+
       {/* Separations chart */}
       {seps && <AgencyCharts seps={seps} />}
     </div>

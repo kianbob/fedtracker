@@ -1,0 +1,2582 @@
+{
+  "byGrade": [
+    {
+      "grade": "12",
+      "count": 303230
+    },
+    {
+      "grade": "13",
+      "count": 270188
+    },
+    {
+      "grade": "11",
+      "count": 210794
+    },
+    {
+      "grade": "14",
+      "count": 146777
+    },
+    {
+      "grade": "09",
+      "count": 139112
+    },
+    {
+      "grade": "03",
+      "count": 111321
+    },
+    {
+      "grade": "07",
+      "count": 104582
+    },
+    {
+      "grade": "06",
+      "count": 103119
+    },
+    {
+      "grade": "02",
+      "count": 88175
+    },
+    {
+      "grade": "05",
+      "count": 85527
+    },
+    {
+      "grade": "04",
+      "count": 84234
+    },
+    {
+      "grade": "08",
+      "count": 77378
+    },
+    {
+      "grade": "10",
+      "count": 66736
+    },
+    {
+      "grade": "15",
+      "count": 63815
+    },
+    {
+      "grade": "F",
+      "count": 37599
+    },
+    {
+      "grade": "00",
+      "count": 36860
+    },
+    {
+      "grade": "PH",
+      "count": 28851
+    },
+    {
+      "grade": "01",
+      "count": 16594
+    },
+    {
+      "grade": "I",
+      "count": 8997
+    },
+    {
+      "grade": "J",
+      "count": 8382
+    },
+    {
+      "grade": "G",
+      "count": 8210
+    },
+    {
+      "grade": "H",
+      "count": 7884
+    },
+    {
+      "grade": "E",
+      "count": 5591
+    },
+    {
+      "grade": "FM",
+      "count": 5009
+    },
+    {
+      "grade": "D",
+      "count": 4282
+    },
+    {
+      "grade": "LH",
+      "count": 4208
+    },
+    {
+      "grade": "29",
+      "count": 3499
+    },
+    {
+      "grade": "K",
+      "count": 2838
+    },
+    {
+      "grade": "16",
+      "count": 2264
+    },
+    {
+      "grade": "AA",
+      "count": 2243
+    },
+    {
+      "grade": "KH",
+      "count": 2176
+    },
+    {
+      "grade": "REDACTED",
+      "count": 2115
+    },
+    {
+      "grade": "CE",
+      "count": 1504
+    },
+    {
+      "grade": "DE",
+      "count": 1461
+    },
+    {
+      "grade": "JH",
+      "count": 1306
+    },
+    {
+      "grade": "SM",
+      "count": 1220
+    },
+    {
+      "grade": "HH",
+      "count": 1077
+    },
+    {
+      "grade": "D2",
+      "count": 1050
+    },
+    {
+      "grade": "CD",
+      "count": 1011
+    },
+    {
+      "grade": "GH",
+      "count": 957
+    },
+    {
+      "grade": "IH",
+      "count": 913
+    },
+    {
+      "grade": "FH",
+      "count": 817
+    },
+    {
+      "grade": "D3",
+      "count": 766
+    },
+    {
+      "grade": "17",
+      "count": 720
+    },
+    {
+      "grade": "26",
+      "count": 714
+    },
+    {
+      "grade": "EH",
+      "count": 646
+    },
+    {
+      "grade": "C2",
+      "count": 620
+    },
+    {
+      "grade": "28",
+      "count": 541
+    },
+    {
+      "grade": "LJ",
+      "count": 523
+    },
+    {
+      "grade": "33",
+      "count": 521
+    },
+    {
+      "grade": "27",
+      "count": 515
+    },
+    {
+      "grade": "25",
+      "count": 431
+    },
+    {
+      "grade": "CM",
+      "count": 404
+    },
+    {
+      "grade": "37",
+      "count": 374
+    },
+    {
+      "grade": "CB",
+      "count": 368
+    },
+    {
+      "grade": "E2",
+      "count": 368
+    },
+    {
+      "grade": "60",
+      "count": 359
+    },
+    {
+      "grade": "L",
+      "count": 346
+    },
+    {
+      "grade": "DM",
+      "count": 340
+    },
+    {
+      "grade": "LC",
+      "count": 336
+    },
+    {
+      "grade": "23",
+      "count": 323
+    },
+    {
+      "grade": "LI",
+      "count": 306
+    },
+    {
+      "grade": "D1",
+      "count": 293
+    },
+    {
+      "grade": "21",
+      "count": 292
+    },
+    {
+      "grade": "18",
+      "count": 292
+    },
+    {
+      "grade": "KJ",
+      "count": 288
+    },
+    {
+      "grade": "C1",
+      "count": 288
+    },
+    {
+      "grade": "53",
+      "count": 279
+    },
+    {
+      "grade": "C3",
+      "count": 272
+    },
+    {
+      "grade": "LF",
+      "count": 224
+    },
+    {
+      "grade": "LK",
+      "count": 219
+    },
+    {
+      "grade": "E3",
+      "count": 211
+    },
+    {
+      "grade": "DH",
+      "count": 208
+    },
+    {
+      "grade": "CL",
+      "count": 194
+    },
+    {
+      "grade": "CG",
+      "count": 190
+    },
+    {
+      "grade": "JJ",
+      "count": 188
+    },
+    {
+      "grade": "71",
+      "count": 183
+    },
+    {
+      "grade": "KC",
+      "count": 182
+    },
+    {
+      "grade": "22",
+      "count": 178
+    },
+    {
+      "grade": "F2",
+      "count": 171
+    },
+    {
+      "grade": "35",
+      "count": 163
+    },
+    {
+      "grade": "GJ",
+      "count": 157
+    },
+    {
+      "grade": "HJ",
+      "count": 150
+    },
+    {
+      "grade": "LG",
+      "count": 150
+    },
+    {
+      "grade": "31",
+      "count": 148
+    },
+    {
+      "grade": "GC",
+      "count": 148
+    },
+    {
+      "grade": "HC",
+      "count": 145
+    },
+    {
+      "grade": "F1",
+      "count": 139
+    },
+    {
+      "grade": "CC",
+      "count": 138
+    },
+    {
+      "grade": "B1",
+      "count": 135
+    },
+    {
+      "grade": "IJ",
+      "count": 135
+    },
+    {
+      "grade": "FJ",
+      "count": 130
+    },
+    {
+      "grade": "52",
+      "count": 125
+    },
+    {
+      "grade": "EG",
+      "count": 125
+    },
+    {
+      "grade": "AH",
+      "count": 119
+    },
+    {
+      "grade": "39",
+      "count": 119
+    },
+    {
+      "grade": "51",
+      "count": 118
+    },
+    {
+      "grade": "KG",
+      "count": 118
+    },
+    {
+      "grade": "40",
+      "count": 117
+    },
+    {
+      "grade": "FG",
+      "count": 117
+    },
+    {
+      "grade": "LD",
+      "count": 116
+    },
+    {
+      "grade": "*",
+      "count": 112
+    },
+    {
+      "grade": "24",
+      "count": 111
+    },
+    {
+      "grade": "C",
+      "count": 111
+    },
+    {
+      "grade": "JC",
+      "count": 110
+    },
+    {
+      "grade": "KF",
+      "count": 108
+    },
+    {
+      "grade": "72",
+      "count": 108
+    },
+    {
+      "grade": "KK",
+      "count": 107
+    },
+    {
+      "grade": "FC",
+      "count": 104
+    },
+    {
+      "grade": "GG",
+      "count": 103
+    },
+    {
+      "grade": "KI",
+      "count": 102
+    },
+    {
+      "grade": "F3",
+      "count": 100
+    },
+    {
+      "grade": "EJ",
+      "count": 100
+    },
+    {
+      "grade": "GF",
+      "count": 98
+    },
+    {
+      "grade": "EE",
+      "count": 97
+    },
+    {
+      "grade": "OE",
+      "count": 96
+    },
+    {
+      "grade": "KD",
+      "count": 96
+    },
+    {
+      "grade": "61",
+      "count": 94
+    },
+    {
+      "grade": "EC",
+      "count": 86
+    },
+    {
+      "grade": "JI",
+      "count": 81
+    },
+    {
+      "grade": "JF",
+      "count": 76
+    },
+    {
+      "grade": "3A",
+      "count": 75
+    },
+    {
+      "grade": "JK",
+      "count": 70
+    },
+    {
+      "grade": "IC",
+      "count": 65
+    },
+    {
+      "grade": "KE",
+      "count": 64
+    },
+    {
+      "grade": "LL",
+      "count": 62
+    },
+    {
+      "grade": "FF",
+      "count": 62
+    },
+    {
+      "grade": "E1",
+      "count": 57
+    },
+    {
+      "grade": "GL",
+      "count": 56
+    },
+    {
+      "grade": "HI",
+      "count": 54
+    },
+    {
+      "grade": "HF",
+      "count": 51
+    },
+    {
+      "grade": "FL",
+      "count": 50
+    },
+    {
+      "grade": "HL",
+      "count": 50
+    },
+    {
+      "grade": "II",
+      "count": 50
+    },
+    {
+      "grade": "EL",
+      "count": 49
+    },
+    {
+      "grade": "JD",
+      "count": 47
+    },
+    {
+      "grade": "3B",
+      "count": 46
+    },
+    {
+      "grade": "ED",
+      "count": 45
+    },
+    {
+      "grade": "A1",
+      "count": 45
+    },
+    {
+      "grade": "2D",
+      "count": 43
+    },
+    {
+      "grade": "B2",
+      "count": 42
+    },
+    {
+      "grade": "JG",
+      "count": 42
+    },
+    {
+      "grade": "38",
+      "count": 42
+    },
+    {
+      "grade": "41",
+      "count": 41
+    },
+    {
+      "grade": "GI",
+      "count": 40
+    },
+    {
+      "grade": "LE",
+      "count": 40
+    },
+    {
+      "grade": "B",
+      "count": 40
+    },
+    {
+      "grade": "DD",
+      "count": 38
+    },
+    {
+      "grade": "DG",
+      "count": 38
+    },
+    {
+      "grade": "FE",
+      "count": 36
+    },
+    {
+      "grade": "DJ",
+      "count": 35
+    },
+    {
+      "grade": "KL",
+      "count": 33
+    },
+    {
+      "grade": "OG",
+      "count": 33
+    },
+    {
+      "grade": "IK",
+      "count": 32
+    },
+    {
+      "grade": "DC",
+      "count": 31
+    },
+    {
+      "grade": "30",
+      "count": 29
+    },
+    {
+      "grade": "IL",
+      "count": 28
+    },
+    {
+      "grade": "4A",
+      "count": 27
+    },
+    {
+      "grade": "81",
+      "count": 25
+    },
+    {
+      "grade": "JL",
+      "count": 25
+    },
+    {
+      "grade": "FI",
+      "count": 24
+    },
+    {
+      "grade": "M",
+      "count": 23
+    },
+    {
+      "grade": "A",
+      "count": 23
+    },
+    {
+      "grade": "HG",
+      "count": 22
+    },
+    {
+      "grade": "EM",
+      "count": 22
+    },
+    {
+      "grade": "44",
+      "count": 21
+    },
+    {
+      "grade": "DL",
+      "count": 21
+    },
+    {
+      "grade": "IF",
+      "count": 20
+    },
+    {
+      "grade": "OM",
+      "count": 19
+    },
+    {
+      "grade": "A2",
+      "count": 19
+    },
+    {
+      "grade": "2C",
+      "count": 18
+    },
+    {
+      "grade": "42",
+      "count": 18
+    },
+    {
+      "grade": "70",
+      "count": 17
+    },
+    {
+      "grade": "AG",
+      "count": 17
+    },
+    {
+      "grade": "43",
+      "count": 15
+    },
+    {
+      "grade": "4B",
+      "count": 14
+    },
+    {
+      "grade": "OD",
+      "count": 13
+    },
+    {
+      "grade": "B3",
+      "count": 12
+    },
+    {
+      "grade": "34",
+      "count": 12
+    },
+    {
+      "grade": "EI",
+      "count": 11
+    },
+    {
+      "grade": "20",
+      "count": 10
+    },
+    {
+      "grade": "ID",
+      "count": 10
+    },
+    {
+      "grade": "HK",
+      "count": 10
+    },
+    {
+      "grade": "Y1",
+      "count": 10
+    },
+    {
+      "grade": "82",
+      "count": 9
+    },
+    {
+      "grade": "36",
+      "count": 7
+    },
+    {
+      "grade": "W1",
+      "count": 7
+    },
+    {
+      "grade": "T2",
+      "count": 6
+    },
+    {
+      "grade": "FD",
+      "count": 6
+    },
+    {
+      "grade": "19",
+      "count": 6
+    },
+    {
+      "grade": "S6",
+      "count": 6
+    },
+    {
+      "grade": "S5",
+      "count": 5
+    },
+    {
+      "grade": "4C",
+      "count": 5
+    },
+    {
+      "grade": "S3",
+      "count": 5
+    },
+    {
+      "grade": "S4",
+      "count": 5
+    },
+    {
+      "grade": "AQ",
+      "count": 4
+    },
+    {
+      "grade": "2B",
+      "count": 4
+    },
+    {
+      "grade": "A3",
+      "count": 4
+    },
+    {
+      "grade": "90",
+      "count": 3
+    },
+    {
+      "grade": "IG",
+      "count": 3
+    },
+    {
+      "grade": "H2",
+      "count": 3
+    },
+    {
+      "grade": "HD",
+      "count": 3
+    },
+    {
+      "grade": "45",
+      "count": 3
+    },
+    {
+      "grade": "80",
+      "count": 2
+    },
+    {
+      "grade": "W3",
+      "count": 2
+    },
+    {
+      "grade": "G2",
+      "count": 2
+    },
+    {
+      "grade": "EK",
+      "count": 2
+    },
+    {
+      "grade": "W2",
+      "count": 2
+    },
+    {
+      "grade": "5A",
+      "count": 1
+    },
+    {
+      "grade": null,
+      "count": 1
+    },
+    {
+      "grade": "GD",
+      "count": 1
+    },
+    {
+      "grade": "1A",
+      "count": 1
+    },
+    {
+      "grade": "G3",
+      "count": 1
+    },
+    {
+      "grade": "S1",
+      "count": 1
+    },
+    {
+      "grade": "GK",
+      "count": 1
+    },
+    {
+      "grade": "DI",
+      "count": 1
+    },
+    {
+      "grade": "H3",
+      "count": 1
+    },
+    {
+      "grade": "OC",
+      "count": 1
+    },
+    {
+      "grade": "T3",
+      "count": 1
+    },
+    {
+      "grade": "H1",
+      "count": 1
+    },
+    {
+      "grade": "AC",
+      "count": 1
+    },
+    {
+      "grade": "S2",
+      "count": 1
+    },
+    {
+      "grade": "G1",
+      "count": 1
+    }
+  ],
+  "avgSalaryByGrade": [
+    {
+      "grade": "12",
+      "avgSalary": 112787,
+      "count": 135775
+    },
+    {
+      "grade": "13",
+      "avgSalary": 137706,
+      "count": 135730
+    },
+    {
+      "grade": "11",
+      "avgSalary": 91197,
+      "count": 105470
+    },
+    {
+      "grade": "14",
+      "avgSalary": 166684,
+      "count": 92752
+    },
+    {
+      "grade": "06",
+      "avgSalary": 61881,
+      "count": 74537
+    },
+    {
+      "grade": "02",
+      "avgSalary": 103431,
+      "count": 71228
+    },
+    {
+      "grade": "09",
+      "avgSalary": 75212,
+      "count": 70964
+    },
+    {
+      "grade": "07",
+      "avgSalary": 63804,
+      "count": 55308
+    },
+    {
+      "grade": "05",
+      "avgSalary": 59405,
+      "count": 45825
+    },
+    {
+      "grade": "03",
+      "avgSalary": 140098,
+      "count": 44231
+    },
+    {
+      "grade": "15",
+      "avgSalary": 192974,
+      "count": 43804
+    },
+    {
+      "grade": "08",
+      "avgSalary": 70605,
+      "count": 41735
+    },
+    {
+      "grade": "PH",
+      "avgSalary": 312632,
+      "count": 28851
+    },
+    {
+      "grade": "00",
+      "avgSalary": 150771,
+      "count": 26451
+    },
+    {
+      "grade": "04",
+      "avgSalary": 85537,
+      "count": 23146
+    },
+    {
+      "grade": "10",
+      "avgSalary": 82579,
+      "count": 18290
+    },
+    {
+      "grade": "01",
+      "avgSalary": 89717,
+      "count": 13663
+    },
+    {
+      "grade": "J",
+      "avgSalary": 166713,
+      "count": 7146
+    },
+    {
+      "grade": "I",
+      "avgSalary": 131232,
+      "count": 5630
+    },
+    {
+      "grade": "H",
+      "avgSalary": 109633,
+      "count": 5297
+    },
+    {
+      "grade": "LH",
+      "avgSalary": 193004,
+      "count": 4208
+    },
+    {
+      "grade": "FM",
+      "avgSalary": 110058,
+      "count": 3612
+    },
+    {
+      "grade": "F",
+      "avgSalary": 79830,
+      "count": 2625
+    },
+    {
+      "grade": "K",
+      "avgSalary": 200863,
+      "count": 2355
+    },
+    {
+      "grade": "G",
+      "avgSalary": 98850,
+      "count": 2293
+    },
+    {
+      "grade": "KH",
+      "avgSalary": 184835,
+      "count": 2176
+    },
+    {
+      "grade": "DE",
+      "avgSalary": 252390,
+      "count": 1408
+    },
+    {
+      "grade": "JH",
+      "avgSalary": 172649,
+      "count": 1306
+    },
+    {
+      "grade": "HH",
+      "avgSalary": 131045,
+      "count": 1077
+    },
+    {
+      "grade": "D2",
+      "avgSalary": 182429,
+      "count": 1050
+    },
+    {
+      "grade": "SM",
+      "avgSalary": 182166,
+      "count": 1009
+    },
+    {
+      "grade": "GH",
+      "avgSalary": 117945,
+      "count": 957
+    },
+    {
+      "grade": "IH",
+      "avgSalary": 146685,
+      "count": 913
+    },
+    {
+      "grade": "FH",
+      "avgSalary": 108273,
+      "count": 817
+    },
+    {
+      "grade": "D3",
+      "avgSalary": 206261,
+      "count": 766
+    },
+    {
+      "grade": "16",
+      "avgSalary": 249770,
+      "count": 668
+    },
+    {
+      "grade": "EH",
+      "avgSalary": 98344,
+      "count": 646
+    },
+    {
+      "grade": "C2",
+      "avgSalary": 159932,
+      "count": 620
+    },
+    {
+      "grade": "LJ",
+      "avgSalary": 212113,
+      "count": 523
+    },
+    {
+      "grade": "17",
+      "avgSalary": 271628,
+      "count": 382
+    },
+    {
+      "grade": "E2",
+      "avgSalary": 208426,
+      "count": 368
+    },
+    {
+      "grade": "60",
+      "avgSalary": 212603,
+      "count": 354
+    },
+    {
+      "grade": "LC",
+      "avgSalary": 60668,
+      "count": 336
+    },
+    {
+      "grade": "L",
+      "avgSalary": 219481,
+      "count": 329
+    },
+    {
+      "grade": "DM",
+      "avgSalary": 106033,
+      "count": 326
+    },
+    {
+      "grade": "LI",
+      "avgSalary": 205341,
+      "count": 306
+    },
+    {
+      "grade": "D1",
+      "avgSalary": 158281,
+      "count": 293
+    },
+    {
+      "grade": "KJ",
+      "avgSalary": 208210,
+      "count": 288
+    },
+    {
+      "grade": "C1",
+      "avgSalary": 138786,
+      "count": 288
+    },
+    {
+      "grade": "E",
+      "avgSalary": 77376,
+      "count": 279
+    },
+    {
+      "grade": "53",
+      "avgSalary": 178548,
+      "count": 275
+    },
+    {
+      "grade": "C3",
+      "avgSalary": 186467,
+      "count": 272
+    },
+    {
+      "grade": "LF",
+      "avgSalary": 116317,
+      "count": 224
+    },
+    {
+      "grade": "LK",
+      "avgSalary": 222572,
+      "count": 219
+    },
+    {
+      "grade": "E3",
+      "avgSalary": 246078,
+      "count": 211
+    },
+    {
+      "grade": "DH",
+      "avgSalary": 92878,
+      "count": 208
+    },
+    {
+      "grade": "29",
+      "avgSalary": 177590,
+      "count": 196
+    },
+    {
+      "grade": "JJ",
+      "avgSalary": 197104,
+      "count": 188
+    },
+    {
+      "grade": "71",
+      "avgSalary": 238947,
+      "count": 183
+    },
+    {
+      "grade": "KC",
+      "avgSalary": 60629,
+      "count": 182
+    },
+    {
+      "grade": "F2",
+      "avgSalary": 239815,
+      "count": 170
+    },
+    {
+      "grade": "GJ",
+      "avgSalary": 138387,
+      "count": 157
+    },
+    {
+      "grade": "HJ",
+      "avgSalary": 149251,
+      "count": 150
+    },
+    {
+      "grade": "GC",
+      "avgSalary": 63412,
+      "count": 148
+    },
+    {
+      "grade": "HC",
+      "avgSalary": 64205,
+      "count": 145
+    },
+    {
+      "grade": "F1",
+      "avgSalary": 210721,
+      "count": 139
+    },
+    {
+      "grade": "B1",
+      "avgSalary": 104971,
+      "count": 135
+    },
+    {
+      "grade": "IJ",
+      "avgSalary": 168972,
+      "count": 135
+    },
+    {
+      "grade": "FJ",
+      "avgSalary": 130174,
+      "count": 130
+    },
+    {
+      "grade": "52",
+      "avgSalary": 158067,
+      "count": 125
+    },
+    {
+      "grade": "AH",
+      "avgSalary": 99478,
+      "count": 119
+    },
+    {
+      "grade": "LG",
+      "avgSalary": 141499,
+      "count": 119
+    },
+    {
+      "grade": "51",
+      "avgSalary": 126354,
+      "count": 118
+    },
+    {
+      "grade": "C",
+      "avgSalary": 85477,
+      "count": 111
+    },
+    {
+      "grade": "JC",
+      "avgSalary": 59594,
+      "count": 110
+    },
+    {
+      "grade": "KF",
+      "avgSalary": 110058,
+      "count": 108
+    },
+    {
+      "grade": "LD",
+      "avgSalary": 87410,
+      "count": 107
+    },
+    {
+      "grade": "72",
+      "avgSalary": 248127,
+      "count": 107
+    },
+    {
+      "grade": "KK",
+      "avgSalary": 217709,
+      "count": 107
+    },
+    {
+      "grade": "EG",
+      "avgSalary": 81975,
+      "count": 106
+    },
+    {
+      "grade": "FC",
+      "avgSalary": 61325,
+      "count": 104
+    },
+    {
+      "grade": "GG",
+      "avgSalary": 96181,
+      "count": 103
+    },
+    {
+      "grade": "KI",
+      "avgSalary": 197917,
+      "count": 102
+    },
+    {
+      "grade": "FG",
+      "avgSalary": 89876,
+      "count": 101
+    },
+    {
+      "grade": "F3",
+      "avgSalary": 291380,
+      "count": 100
+    },
+    {
+      "grade": "EJ",
+      "avgSalary": 118674,
+      "count": 100
+    },
+    {
+      "grade": "GF",
+      "avgSalary": 81025,
+      "count": 98
+    },
+    {
+      "grade": "61",
+      "avgSalary": 230298,
+      "count": 93
+    },
+    {
+      "grade": "KG",
+      "avgSalary": 138405,
+      "count": 88
+    },
+    {
+      "grade": "EC",
+      "avgSalary": 60196,
+      "count": 86
+    },
+    {
+      "grade": "JI",
+      "avgSalary": 180064,
+      "count": 81
+    },
+    {
+      "grade": "KD",
+      "avgSalary": 83709,
+      "count": 78
+    },
+    {
+      "grade": "JF",
+      "avgSalary": 104867,
+      "count": 76
+    },
+    {
+      "grade": "3A",
+      "avgSalary": 197204,
+      "count": 75
+    },
+    {
+      "grade": "D",
+      "avgSalary": 119507,
+      "count": 71
+    },
+    {
+      "grade": "JK",
+      "avgSalary": 213038,
+      "count": 70
+    },
+    {
+      "grade": "IC",
+      "avgSalary": 64823,
+      "count": 65
+    },
+    {
+      "grade": "FF",
+      "avgSalary": 77235,
+      "count": 62
+    },
+    {
+      "grade": "LL",
+      "avgSalary": 223627,
+      "count": 62
+    },
+    {
+      "grade": "21",
+      "avgSalary": 111259,
+      "count": 59
+    },
+    {
+      "grade": "E1",
+      "avgSalary": 184349,
+      "count": 57
+    },
+    {
+      "grade": "GL",
+      "avgSalary": 167940,
+      "count": 56
+    },
+    {
+      "grade": "HI",
+      "avgSalary": 145572,
+      "count": 54
+    },
+    {
+      "grade": "33",
+      "avgSalary": 185307,
+      "count": 52
+    },
+    {
+      "grade": "HF",
+      "avgSalary": 88127,
+      "count": 51
+    },
+    {
+      "grade": "II",
+      "avgSalary": 158901,
+      "count": 50
+    },
+    {
+      "grade": "FL",
+      "avgSalary": 154969,
+      "count": 50
+    },
+    {
+      "grade": "HL",
+      "avgSalary": 176594,
+      "count": 50
+    },
+    {
+      "grade": "EL",
+      "avgSalary": 152740,
+      "count": 49
+    },
+    {
+      "grade": "JD",
+      "avgSalary": 79520,
+      "count": 47
+    },
+    {
+      "grade": "3B",
+      "avgSalary": 163686,
+      "count": 46
+    },
+    {
+      "grade": "A1",
+      "avgSalary": 87626,
+      "count": 45
+    },
+    {
+      "grade": "2D",
+      "avgSalary": 214338,
+      "count": 43
+    },
+    {
+      "grade": "JG",
+      "avgSalary": 127767,
+      "count": 42
+    },
+    {
+      "grade": "23",
+      "avgSalary": 118550,
+      "count": 42
+    },
+    {
+      "grade": "B2",
+      "avgSalary": 119905,
+      "count": 42
+    },
+    {
+      "grade": "B",
+      "avgSalary": 100181,
+      "count": 40
+    },
+    {
+      "grade": "GI",
+      "avgSalary": 127821,
+      "count": 40
+    },
+    {
+      "grade": "DG",
+      "avgSalary": 73236,
+      "count": 37
+    },
+    {
+      "grade": "28",
+      "avgSalary": 118369,
+      "count": 36
+    },
+    {
+      "grade": "DJ",
+      "avgSalary": 113139,
+      "count": 35
+    },
+    {
+      "grade": "KL",
+      "avgSalary": 216688,
+      "count": 33
+    },
+    {
+      "grade": "IK",
+      "avgSalary": 183907,
+      "count": 32
+    },
+    {
+      "grade": "DC",
+      "avgSalary": 58674,
+      "count": 31
+    },
+    {
+      "grade": "IL",
+      "avgSalary": 195462,
+      "count": 28
+    },
+    {
+      "grade": "27",
+      "avgSalary": 137100,
+      "count": 28
+    },
+    {
+      "grade": "4A",
+      "avgSalary": 136172,
+      "count": 27
+    },
+    {
+      "grade": "40",
+      "avgSalary": 88201,
+      "count": 26
+    },
+    {
+      "grade": "JL",
+      "avgSalary": 218024,
+      "count": 25
+    },
+    {
+      "grade": "81",
+      "avgSalary": 256936,
+      "count": 25
+    },
+    {
+      "grade": "FI",
+      "avgSalary": 118177,
+      "count": 24
+    },
+    {
+      "grade": "M",
+      "avgSalary": 223981,
+      "count": 23
+    },
+    {
+      "grade": "A",
+      "avgSalary": 115264,
+      "count": 23
+    },
+    {
+      "grade": "HG",
+      "avgSalary": 106071,
+      "count": 22
+    },
+    {
+      "grade": "44",
+      "avgSalary": 209893,
+      "count": 21
+    },
+    {
+      "grade": "DL",
+      "avgSalary": 152089,
+      "count": 21
+    },
+    {
+      "grade": "26",
+      "avgSalary": 142978,
+      "count": 20
+    },
+    {
+      "grade": "IF",
+      "avgSalary": 92112,
+      "count": 20
+    },
+    {
+      "grade": "25",
+      "avgSalary": 131807,
+      "count": 20
+    },
+    {
+      "grade": "A2",
+      "avgSalary": 98300,
+      "count": 19
+    },
+    {
+      "grade": "18",
+      "avgSalary": 134233,
+      "count": 18
+    },
+    {
+      "grade": "42",
+      "avgSalary": 209255,
+      "count": 18
+    },
+    {
+      "grade": "2C",
+      "avgSalary": 221142,
+      "count": 18
+    },
+    {
+      "grade": "70",
+      "avgSalary": 278938,
+      "count": 17
+    },
+    {
+      "grade": "AG",
+      "avgSalary": 84018,
+      "count": 17
+    },
+    {
+      "grade": "43",
+      "avgSalary": 240767,
+      "count": 15
+    },
+    {
+      "grade": "35",
+      "avgSalary": 195100,
+      "count": 15
+    },
+    {
+      "grade": "4B",
+      "avgSalary": 117079,
+      "count": 14
+    },
+    {
+      "grade": "B3",
+      "avgSalary": 131152,
+      "count": 12
+    },
+    {
+      "grade": "37",
+      "avgSalary": 195100,
+      "count": 11
+    },
+    {
+      "grade": "EI",
+      "avgSalary": 111747,
+      "count": 11
+    },
+    {
+      "grade": "Y1",
+      "avgSalary": 72487,
+      "count": 10
+    },
+    {
+      "grade": "20",
+      "avgSalary": 170740,
+      "count": 10
+    },
+    {
+      "grade": "HK",
+      "avgSalary": 171842,
+      "count": 10
+    },
+    {
+      "grade": "ID",
+      "avgSalary": 73409,
+      "count": 10
+    },
+    {
+      "grade": "82",
+      "avgSalary": 267758,
+      "count": 9
+    },
+    {
+      "grade": "W1",
+      "avgSalary": 88913,
+      "count": 7
+    },
+    {
+      "grade": "T2",
+      "avgSalary": 127669,
+      "count": 6
+    },
+    {
+      "grade": "19",
+      "avgSalary": 141582,
+      "count": 6
+    },
+    {
+      "grade": "S6",
+      "avgSalary": 195432,
+      "count": 6
+    },
+    {
+      "grade": "S5",
+      "avgSalary": 165235,
+      "count": 5
+    },
+    {
+      "grade": "S4",
+      "avgSalary": 133293,
+      "count": 5
+    },
+    {
+      "grade": "S3",
+      "avgSalary": 126280,
+      "count": 5
+    },
+    {
+      "grade": "4C",
+      "avgSalary": 89617,
+      "count": 5
+    },
+    {
+      "grade": "A3",
+      "avgSalary": 105532,
+      "count": 4
+    },
+    {
+      "grade": "AQ",
+      "avgSalary": 45603,
+      "count": 4
+    },
+    {
+      "grade": "22",
+      "avgSalary": 117081,
+      "count": 4
+    },
+    {
+      "grade": "*",
+      "avgSalary": 83887,
+      "count": 4
+    },
+    {
+      "grade": "2B",
+      "avgSalary": 221973,
+      "count": 4
+    },
+    {
+      "grade": "HD",
+      "avgSalary": 68014,
+      "count": 3
+    },
+    {
+      "grade": "H2",
+      "avgSalary": 139711,
+      "count": 3
+    },
+    {
+      "grade": "IG",
+      "avgSalary": 104136,
+      "count": 3
+    },
+    {
+      "grade": "90",
+      "avgSalary": 269000,
+      "count": 3
+    },
+    {
+      "grade": "34",
+      "avgSalary": 78592,
+      "count": 3
+    },
+    {
+      "grade": "45",
+      "avgSalary": 233898,
+      "count": 3
+    },
+    {
+      "grade": "W2",
+      "avgSalary": 126139,
+      "count": 2
+    },
+    {
+      "grade": "W3",
+      "avgSalary": 143293,
+      "count": 2
+    },
+    {
+      "grade": "EK",
+      "avgSalary": 170772,
+      "count": 2
+    },
+    {
+      "grade": "31",
+      "avgSalary": 191896,
+      "count": 2
+    },
+    {
+      "grade": "G2",
+      "avgSalary": 289979,
+      "count": 2
+    },
+    {
+      "grade": "80",
+      "avgSalary": 316600,
+      "count": 2
+    },
+    {
+      "grade": "24",
+      "avgSalary": 134674,
+      "count": 2
+    },
+    {
+      "grade": "OC",
+      "avgSalary": 210124,
+      "count": 1
+    },
+    {
+      "grade": "AC",
+      "avgSalary": 61627,
+      "count": 1
+    },
+    {
+      "grade": "H3",
+      "avgSalary": 178981,
+      "count": 1
+    },
+    {
+      "grade": "T3",
+      "avgSalary": 137679,
+      "count": 1
+    },
+    {
+      "grade": "H1",
+      "avgSalary": 85650,
+      "count": 1
+    },
+    {
+      "grade": "30",
+      "avgSalary": 77208,
+      "count": 1
+    },
+    {
+      "grade": "GD",
+      "avgSalary": 74010,
+      "count": 1
+    },
+    {
+      "grade": "GK",
+      "avgSalary": 194472,
+      "count": 1
+    },
+    {
+      "grade": "DI",
+      "avgSalary": 105538,
+      "count": 1
+    },
+    {
+      "grade": "39",
+      "avgSalary": 195200,
+      "count": 1
+    },
+    {
+      "grade": "1A",
+      "avgSalary": 252001,
+      "count": 1
+    },
+    {
+      "grade": "5A",
+      "avgSalary": 102660,
+      "count": 1
+    },
+    {
+      "grade": "S1",
+      "avgSalary": 94936,
+      "count": 1
+    },
+    {
+      "grade": "G3",
+      "avgSalary": 310000,
+      "count": 1
+    },
+    {
+      "grade": "S2",
+      "avgSalary": 121678,
+      "count": 1
+    },
+    {
+      "grade": "G1",
+      "avgSalary": 232634,
+      "count": 1
+    }
+  ],
+  "byPayPlan": [
+    {
+      "payPlan": "GENERAL SCHEDULE",
+      "count": 1318420
+    },
+    {
+      "payPlan": "NONSUPERVISORY PAY SCHEDULES - FEDERAL WAGE SYSTEM",
+      "count": 116398
+    },
+    {
+      "payPlan": "NURSING",
+      "count": 89263
+    },
+    {
+      "payPlan": "BUSINESS MANAGEMENT AND TECHNICAL MANAGEMENT PROFESSIONAL",
+      "count": 72618
+    },
+    {
+      "payPlan": "TRANSPORTATION SECURITY ADMINISTRATION EMPLOYEES OTHER THAN EXECUTIVES",
+      "count": 62890
+    },
+    {
+      "payPlan": "ADMINISTRATIVELY DETERMINED RATES, NOT ELSEWHERE SPECIFIED",
+      "count": 42470
+    },
+    {
+      "payPlan": "GRADES SIMILAR TO GENERAL SCHEDULE",
+      "count": 38135
+    },
+    {
+      "payPlan": "GENERAL SCHEDULE EMPLOYEES IN GRADES 3 THROUGH 10 PAID A LAW ENFORCEMENT OFFICER SPECIAL BASE RATE UNDER SECTION 403 OF THE FEDERAL LAW ENFORCEMENT PAY REFORM ACT OF 1990.",
+      "count": 33237
+    },
+    {
+      "payPlan": "MEDICAL AND DENTAL",
+      "count": 21808
+    },
+    {
+      "payPlan": "FEDERAL AVIATION ADMINISTRATION CORE COMPENSATION PLAN",
+      "count": 20994
+    },
+    {
+      "payPlan": "SUPERVISORY PAY SCHEDULES - FEDERAL WAGE SYSTEM",
+      "count": 20516
+    },
+    {
+      "payPlan": "FEDERAL AVIATION ADMINISTRATION AIR TRAFFIC CONTROLLER COMPENSATION PLAN",
+      "count": 18352
+    },
+    {
+      "payPlan": "DEMONSTRATION SCIENTIFIC AND ENGINEERING",
+      "count": 16878
+    },
+    {
+      "payPlan": "LEADER PAY SCHEDULE - FEDERAL WAGE SYSTEM",
+      "count": 12423
+    },
+    {
+      "payPlan": "DEMONSTRATION ENGINEERS AND SCIENTISTS",
+      "count": 11314
+    },
+    {
+      "payPlan": "DEMONSTRATION ADMINISTRATIVE AND TECHNICAL",
+      "count": 10683
+    },
+    {
+      "payPlan": "GS EMPLOYEES IN GRADES 1-15 PAID A WILDLAND FIREFIGHTER SPECIAL BASE RATE UNDER 5 U.S.C. 5332A ON OR AFTER 3/23/2025.",
+      "count": 10447
+    },
+    {
+      "payPlan": "EMPLOYEES HOLDING INCIDENT MANAGEMENT CADRE OF ON-CALL RESPONSE/RECOVERY EMPLOYEES(CORE)POSITIONS",
+      "count": 9711
+    },
+    {
+      "payPlan": "SENIOR EXECUTIVE SERVICE",
+      "count": 7271
+    },
+    {
+      "payPlan": "DEMONSTRATION PROFESSIONAL",
+      "count": 6985
+    },
+    {
+      "payPlan": "EMPLOYEES HOLDING INCIDENT MANAGEMENT POSITIONS AND APPOINTED AND COMPENSATED UNDER SECTION 306(B)(1)",
+      "count": 6917
+    },
+    {
+      "payPlan": "TEACHING POSITIONS",
+      "count": 6754
+    },
+    {
+      "payPlan": "MARITIME PAY SCHEDULES--5 U.S.C. 5348",
+      "count": 6584
+    },
+    {
+      "payPlan": "INTERNAL REVENUE SERVICE BROADBAND CLASSIFICATION AND PAY SYSTEM POSITIONS ONLY",
+      "count": 6553
+    },
+    {
+      "payPlan": "SCIENTIFIC AND ENGINEERING PROFESSIONAL",
+      "count": 5607
+    },
+    {
+      "payPlan": "SIMILAR TO THE GENERAL SCHEDULE",
+      "count": 5280
+    },
+    {
+      "payPlan": "CORPORATE GRADED",
+      "count": 4827
+    },
+    {
+      "payPlan": "ADMINISTRATIVE SPECIALIST/PROFESSIONAL",
+      "count": 4754
+    },
+    {
+      "payPlan": "DEMONSTRATION ENGINEERS AND SCIENTISTS TECHNICIANS",
+      "count": 4346
+    },
+    {
+      "payPlan": "TECHNICAL MANAGEMENT SUPPORT",
+      "count": 4065
+    },
+    {
+      "payPlan": "NON-SUPERVISORY POSITIONS EMPLOYED BY THE SECURITIES AND EXCHANGE COMMISSION (SEC) AND FORMERLY UNDER GS PAY",
+      "count": 3844
+    },
+    {
+      "payPlan": "GS PHYSICIANS, PODIATRISTS, AND DENTISTS PAID MARKET PAY UNDER 38 U.S.C. 7431 (C)",
+      "count": 3816
+    },
+    {
+      "payPlan": "SCIENTISTS APPOINTED AS FELLOWS AND COMPENSATED UNDER 42 U.S.C. 209(G). INCLUDES NON-CITIZENS WHOSE EMPLOYMENT",
+      "count": 3724
+    },
+    {
+      "payPlan": "DEMONSTRATION ADMINISTRATIVE",
+      "count": 3327
+    },
+    {
+      "payPlan": "DEMONSTRATIION AIR FORCE SCIENTIST AND ENGINEER",
+      "count": 3180
+    },
+    {
+      "payPlan": "ADMINISTRATIVE",
+      "count": 3102
+    },
+    {
+      "payPlan": "OFFICE OF THE COMPTROLLER OF THE CURRENCY ONLY",
+      "count": 2782
+    },
+    {
+      "payPlan": null,
+      "count": 2340
+    },
+    {
+      "payPlan": "ADVISORY COMMITTEE MEMBER (OTHER)",
+      "count": 2271
+    },
+    {
+      "payPlan": "APPRENTICES AND SHOP TRAINEES - FEDERAL WAGE SYSTEM",
+      "count": 2241
+    },
+    {
+      "payPlan": "SUPERVISORS AND MANAGERS",
+      "count": 2125
+    },
+    {
+      "payPlan": "BUSINESS MANAGEMENT AND PROFESSIONAL CAREER PATH, AIR FORCE RESEARCH LABORATORY",
+      "count": 2090
+    },
+    {
+      "payPlan": "SCIENCE AND ENGINEERING PROFESSIONAL",
+      "count": 1684
+    },
+    {
+      "payPlan": "CONSULTANT (5 U.S.C. 3109)",
+      "count": 1629
+    },
+    {
+      "payPlan": "WAGE POSITIONS UNDER THE FEDERAL WAGE SYSTEM NOT OTHERWISE DESIGNATED",
+      "count": 1602
+    },
+    {
+      "payPlan": "UNITED STATES SECRET SERVICE UNIFORM DIVISION",
+      "count": 1577
+    },
+    {
+      "payPlan": "DEMONSTRATION SPECIALIST",
+      "count": 1509
+    },
+    {
+      "payPlan": "NONSUPERVISORY - NEGOTIATED PAY EMPLOYEES",
+      "count": 1475
+    },
+    {
+      "payPlan": "NAVIGATIONAL LOCK & DAM OPERATION & MAINTENANCE POSITIONS IN U.S. ARMY CORPS OF ENGINEERS, NONSUPERVISORY, FWS",
+      "count": 1388
+    },
+    {
+      "payPlan": "EMPLOYEES APPOINTED AND COMPENSATED AS SPECIAL CONSULTANTS UNDER 42 U.S.C. 209(F). INCLUDES NON-CITIZENS WHOSE",
+      "count": 1382
+    },
+    {
+      "payPlan": "ADMINISTRATIVE LAW JUDGES",
+      "count": 1369
+    },
+    {
+      "payPlan": "CLINICAL PODIATRISTS AND OPTOMETRISTS SCHEDULE",
+      "count": 1340
+    },
+    {
+      "payPlan": "PRODUCTION FACILITATING NON-SUPERVISORY - FEDERAL WAGE SYSTEM",
+      "count": 1259
+    },
+    {
+      "payPlan": "BUREAU OF CONSUMER FINANCIAL PROTECT(CFPB) INDEPENDENT AGCY WITHIN THE FED RES SYST(USE BY CFPB ONLY)",
+      "count": 1247
+    },
+    {
+      "payPlan": "ADMINISTRATION SUPPORT",
+      "count": 1242
+    },
+    {
+      "payPlan": "NONAPPROPRIATED FUNDS - NONSUPERVISORY AND NONLEADER - FEDERAL WAGE SYSTEM",
+      "count": 1226
+    },
+    {
+      "payPlan": "EMPLOYEES IN THE NATIONAL NUCLEAR SECUIRTY ADMINISTRATION'S PROFESSIONAL, TECHNICAL, AND ADMIN CAREER PATH",
+      "count": 1170
+    },
+    {
+      "payPlan": "CREDIT UNION EMPLOYEES",
+      "count": 1126
+    },
+    {
+      "payPlan": "CANTEEN SERVICE",
+      "count": 1079
+    },
+    {
+      "payPlan": "SENIOR LEVEL POSITIONS",
+      "count": 996
+    },
+    {
+      "payPlan": "FOREIGN SERVICE PERSONNEL",
+      "count": 839
+    },
+    {
+      "payPlan": "PRINTING OFFICE GRADES",
+      "count": 751
+    },
+    {
+      "payPlan": "NATIONAL NUCLEAR SECURITY ADMINISTRATION EXCEPTED SERVICE ONLY",
+      "count": 699
+    },
+    {
+      "payPlan": "DEMONSTRATION GENERAL SUPPORT",
+      "count": 666
+    },
+    {
+      "payPlan": "FDIC SUPERVISORY AND MANAGERIAL POSITIONS BELOW THE EXECUTIVE LEVEL ONLY",
+      "count": 657
+    },
+    {
+      "payPlan": "EMPLOYEES APPOINTED AND COMPENSATED UNDER SECTION 306(B)(1) OF THE ROBERT T STAFFORD DISASTER RELIEF",
+      "count": 657
+    },
+    {
+      "payPlan": "SCIENCE AND ENGINEERING TECHNICAL",
+      "count": 633
+    },
+    {
+      "payPlan": "PARK POLICE",
+      "count": 610
+    },
+    {
+      "payPlan": "CURRENCY MANUFACTURING",
+      "count": 594
+    },
+    {
+      "payPlan": "IMMIGRATION JUDGE SCHEDULE",
+      "count": 581
+    },
+    {
+      "payPlan": "FLOATING PLANT SCHEDULE (OTHER THAN HOPPER DREDGE) SCHEDULE--NONSUPERVISORY--FEDERAL WAGE SYSTEM",
+      "count": 576
+    },
+    {
+      "payPlan": "DEMONSTRATION TECHNICIAN",
+      "count": 572
+    },
+    {
+      "payPlan": "NON-EXECUTIVE POSITIONS AT THE FEDERAL HOUSING FINANCE AGENCY",
+      "count": 567
+    },
+    {
+      "payPlan": "NONSUPERVISORY EMPLOYEES AT COMMODITY FUTURES TRADING COMMISSION OTHER THAN CONSULTANTS UNDER 5 U.S.C. 3109",
+      "count": 542
+    },
+    {
+      "payPlan": "ADMINISTRATIVE SUPPORT",
+      "count": 442
+    },
+    {
+      "payPlan": "POLICE FORCES OF THE U.S. MINT AND BUREAU OF ENGRAVING AND PRINTING",
+      "count": 430
+    },
+    {
+      "payPlan": "SCIENTIFIC AND ENGINEERING TECHNICIAN",
+      "count": 373
+    },
+    {
+      "payPlan": "SCIENTIFIC AND PROFESSIONAL",
+      "count": 367
+    },
+    {
+      "payPlan": "ALL OTHER POSITIONS IN THE CORPORATION FOR NATIONAL AND COMMUNITY SERVICE, P.L. 103-82, SUBTITLE G, SECTION",
+      "count": 355
+    },
+    {
+      "payPlan": "FLOATING PLANT (OTHER THAN HOPPER DREDGE) SCHEDULE--FEDERAL WAGE SYSTEM",
+      "count": 342
+    },
+    {
+      "payPlan": "EMPLOYEES IN THE NATIONAL NUCLEAR SECURITY ADMINISTRATION'S ENGINEERING AND SCIENTIFIC CAREER PATH",
+      "count": 335
+    },
+    {
+      "payPlan": "PROFESSIONAL, ADMINISTRATIVE, AND MANAGERIAL",
+      "count": 314
+    },
+    {
+      "payPlan": "EXECUTIVE PAY",
+      "count": 310
+    },
+    {
+      "payPlan": "FOREIGN SERVICE OFFICERS",
+      "count": 278
+    },
+    {
+      "payPlan": "EMPLOYEES IN THE NATIONAL NUCLEAR SECURITY ADMINISTRATION'S NUCLEAR MATERIALS COURIER CAREER PATH",
+      "count": 255
+    },
+    {
+      "payPlan": "DEMONSTRATION GENERAL",
+      "count": 253
+    },
+    {
+      "payPlan": "EXPERT (OTHER)",
+      "count": 236
+    },
+    {
+      "payPlan": "EMPLOYEES OF THE MILLENNIUM CHALLENGE CORPORATION APPOINTED UNDER PUBLIC LAW 108-199 ONLY.",
+      "count": 233
+    },
+    {
+      "payPlan": "GOVERNMENT PRINTING OFFICE NEGOTIATED RATES FOR BOOKBINDERS",
+      "count": 219
+    },
+    {
+      "payPlan": "NON-CRAFT NON-SUPERVISORY",
+      "count": 211
+    },
+    {
+      "payPlan": "TEMPORARY EMPLOYEES HIRED IN RESPONSE TO A DISASTER OR EMERGENCY FROM AN IMPACTED COMMUNITY (LOCAL HIRES).",
+      "count": 203
+    },
+    {
+      "payPlan": "NAVIGATIONAL LOCK AND DAM OPERATIONS AND MAINTENANCE IN U.S. ARMY CORPS OF ENGINEERS-SUPERVISORY, FED WAGE SYS",
+      "count": 200
+    },
+    {
+      "payPlan": "ADVISORY COMMITTEE MEMBER (5 U.S.C. 3109)",
+      "count": 184
+    },
+    {
+      "payPlan": "GOVERNMENT PRINTING OFFICE NEGOTIATED RATES FOR PRINTING PLANT WORKERS, 100%",
+      "count": 177
+    },
+    {
+      "payPlan": "SENIOR INTELLIGENCE PROFESSIONAL (SIP) PROGRAM",
+      "count": 162
+    },
+    {
+      "payPlan": "MISSION SUPPORT CAREER PATH, AIR FORCE RESEARCH LABORATORY",
+      "count": 159
+    },
+    {
+      "payPlan": "GOVERNMENT PRINTING OFFICE NEGOTIATED RATES FOR COMPOSITORS",
+      "count": 148
+    },
+    {
+      "payPlan": "EXPERT (5 U.S.C. 3109)",
+      "count": 146
+    },
+    {
+      "payPlan": "FEDERAL AVIATION ADMINISTRATION EXECUTIVE COMPENSATION PLAN",
+      "count": 140
+    },
+    {
+      "payPlan": "EXECUTIVE POSITIONS EMPLOYED BY THE SECURITIES AND EXCHANGE COMMISSION (SEC) AND FORMERLY UNDER THE ES PAY PLA",
+      "count": 140
+    },
+    {
+      "payPlan": "EMPLOYEES IN THE NAVAL NUCLEAR PROPULSION PROGRAM ENGINEERING AND SCIENTIFIC CAREER PATH UNDER NATIONAL NUCLEA",
+      "count": 140
+    },
+    {
+      "payPlan": "STATUTORY RATES NOT ELSEWHERE SPECIFIED",
+      "count": 138
+    },
+    {
+      "payPlan": "SPECIAL OVERLAP AREA RATE SCHEDULE - NONSUPERVISORY - FEDERAL WAGE SYSTEM",
+      "count": 137
+    },
+    {
+      "payPlan": "NONAPPLICABLE",
+      "count": 122
+    },
+    {
+      "payPlan": "FDIC EXECUTIVE-LEVEL POSITIONS ONLY",
+      "count": 117
+    },
+    {
+      "payPlan": "TRANSPORTATION SECURITY ADMINISTRATION EXECUTIVES",
+      "count": 115
+    },
+    {
+      "payPlan": "SENIOR BIOMEDICAL RESEARCH SERVICE",
+      "count": 114
+    },
+    {
+      "payPlan": "TECHNICIAN CAREER PATH, AIR FORCE RESEARCH LABORATORY",
+      "count": 114
+    },
+    {
+      "payPlan": "SUPERVISORY - NEGOTIATED PAY EMPLOYEES",
+      "count": 111
+    },
+    {
+      "payPlan": "LEADER - NEGOTIATED PAY EMPLOYEES",
+      "count": 110
+    },
+    {
+      "payPlan": "THE NATIONAL DEFENSE AUTHORIZATION ACT OF 1995 DEPARTMENT OF ENERGY EXCEPTED SERVICE",
+      "count": 110
+    },
+    {
+      "payPlan": "EMPLOYEES OF THE OFFICE OF FINANCIAL RESEARCH (OFR) WITHIN THE DEPARTMENT OF THE TREASURY",
+      "count": 109
+    },
+    {
+      "payPlan": "POSITIONS DESIGNATED AND PAID RATES OF BASIC PAY UNDER 6 U.S.C. 658 IN WHICH INCUMBENT PERFORMS, MANAGES, OR",
+      "count": 106
+    },
+    {
+      "payPlan": "THE DEPARTMENT OF ENERGY ORGANIZATION ACT EXCEPTED SERVICE",
+      "count": 86
+    },
+    {
+      "payPlan": "HOPPER DREDGE SCHEDULE--FEDERAL WAGE SYSTEM",
+      "count": 85
+    },
+    {
+      "payPlan": "PRODUCTION FACILITATING SUPERVISORY FEDERAL WAGE SYSTEM",
+      "count": 84
+    },
+    {
+      "payPlan": "SENIOR FOREIGN SERVICE",
+      "count": 81
+    },
+    {
+      "payPlan": "WAGE GRADE (SIMILAR TO THE NONSUPERVISORY PAY SCHEDULE UNDER THE FEDERAL WAGE SYSTEM)",
+      "count": 78
+    },
+    {
+      "payPlan": "SUPERVISORS OF NEGOTIATED RATE EMPLOYEES--FEDERAL WAGE SYSTEM",
+      "count": 78
+    },
+    {
+      "payPlan": "ADMINISTRATIVE APPEALS JUDGES",
+      "count": 72
+    },
+    {
+      "payPlan": "SENIOR INTELLIGENCE EXECUTIVE SERVICE (SIES) PROGRAM",
+      "count": 71
+    },
+    {
+      "payPlan": "EMPLOYEES IN NAVAL NUCLEAR PROPULSION PROGRAM PROFESSIONAL, TECHNICAL, AND ADMINISTRATIVE CAREER PATH UNDER",
+      "count": 67
+    },
+    {
+      "payPlan": "GOVERNMENT PRINTING OFFICE, WHITE-COLLAR, 10% NIGHT RATE",
+      "count": 63
+    },
+    {
+      "payPlan": "DEFENSE NUCLEAR FACILITIES SAFETY BOARD EXCEPTED SERVICE EMPLOYEES",
+      "count": 60
+    },
+    {
+      "payPlan": "GOVERNMENT PRINTING OFFICE NEGOTIATED RATES FOR PRESSPERSONS",
+      "count": 60
+    },
+    {
+      "payPlan": "SENIOR STAFF POSITIONS",
+      "count": 59
+    },
+    {
+      "payPlan": "EXECUTIVE-LEVEL AND MANAGERIAL POSITIONS IN THE CORPORATION FOR NATIONAL AND COMMUNITY SERVICE, P.L. 103-82",
+      "count": 56
+    },
+    {
+      "payPlan": "NONAPPROPRIATED FUNDS - SUPERVISORY - FEDERAL WAGE SYSTEM",
+      "count": 52
+    },
+    {
+      "payPlan": "EXECUTIVES AT THE FEDERAL HOUSING FINANCE AGENCY",
+      "count": 50
+    },
+    {
+      "payPlan": "NONAPPROPRIATED FUNDS - LEADER - FEDERAL WAGE SYSTEM",
+      "count": 47
+    },
+    {
+      "payPlan": "HOPPER DREDGE SCHEDULE, NONSUPERVISORY",
+      "count": 46
+    },
+    {
+      "payPlan": "GOVERNMENT PRINTING OFFICE NEGOTIATED RATES FOR ELECTRICIANS",
+      "count": 45
+    },
+    {
+      "payPlan": "FLOATING PLANT (OTHER THAN HOPPER DREDGE) SCHEDULE--LEADER--FEDERAL WAGE SYSTEM",
+      "count": 44
+    },
+    {
+      "payPlan": "EMPLOYEES COVERED BY THE PERFORMANCE MANAGEMENT AND RECOGNITION SYSTEM (PMRS) TERMINATION PROVISIONS",
+      "count": 41
+    },
+    {
+      "payPlan": "POSITIONS DESIGNATED AND PAID RATES OF BASIC PAY UNDER 6 U.S.C. 658 IN WHICH THE INCUMBENT IS A SENIOR LEADER",
+      "count": 38
+    },
+    {
+      "payPlan": "GOVERNMENT PRINTING OFFICE NEGOTIATED RATES FOR ENGINEERING JOURNEYPERSONS",
+      "count": 35
+    },
+    {
+      "payPlan": "BOARD OF CONTRACT APPEALS",
+      "count": 35
+    },
+    {
+      "payPlan": "AIRCRAFT, ELECTRONIC EQUIPMENT, AND OPTICAL INSTRUMENT OVERHAUL AND REPAIR IN PUERTO RICO - NONSUPERVISORY - F",
+      "count": 33
+    },
+    {
+      "payPlan": "NATIONAL ZOOLOGICAL PARK POLICE",
+      "count": 29
+    },
+    {
+      "payPlan": "SENIOR LEVEL SYSTEM",
+      "count": 28
+    },
+    {
+      "payPlan": "GOVERNMENT PRINTING OFFICE, POLICE, DAY RATE",
+      "count": 27
+    },
+    {
+      "payPlan": "NON-SUPERVISORY U.S. ARMY CORPS OF ENGINEERS PREVAILING RATE SYSTEM POSITIONS AT THE FOUR FLOOD CONTROL DAMS",
+      "count": 25
+    },
+    {
+      "payPlan": "KIESS ACT",
+      "count": 25
+    },
+    {
+      "payPlan": "GOVERNMENT PRINTING OFFICE NEGOTIATED RATES FOR MACHINISTS",
+      "count": 23
+    },
+    {
+      "payPlan": "CONSULTANT (OTHER)",
+      "count": 21
+    },
+    {
+      "payPlan": "SPECIAL OVERLAP AREA RATE SCHEDULE - SUPERVISORY - FEDERAL WAGE SYSTEM",
+      "count": 21
+    },
+    {
+      "payPlan": "SENIOR EXPERT POSITIONS IN THE FEDERAL DEPOSIT INSURANCE CORPORATION",
+      "count": 21
+    },
+    {
+      "payPlan": "VETERANS CANTEEN SERVICE EXECUTIVES ONLY",
+      "count": 20
+    },
+    {
+      "payPlan": "DEPARTMENT OF AGRICULTURE POSITIONS IN THE SENIOR SCIENTIFIC RESEARCH SERVICE",
+      "count": 19
+    },
+    {
+      "payPlan": "NAVIGATIONAL LOCK AND DAM OPERATION AND MAINTENANCE POSITIONS IN THE U.S. ARMY CORPS OF ENGINEERS - LEADER - F",
+      "count": 17
+    },
+    {
+      "payPlan": "U.S. GOVERNMENT PRINTING OFFICE EMPLOYEES FORMERLY UNDER PAY PLAN SL (SENIOR LEVEL POSITIONS)",
+      "count": 17
+    },
+    {
+      "payPlan": "GOVERNMENT PRINTING OFFICE NEGOTIATED RATES FOR PRINTING PLANT WORKERS, EQUITY PAY",
+      "count": 16
+    },
+    {
+      "payPlan": "GOVERNMENT PRINTING OFFICE NEGOTIATED RATES FOR OFFSET PLATEMAKER STRIPPERS",
+      "count": 16
+    },
+    {
+      "payPlan": "SCIENTIFIC, ENGINEERING & PROFESSONAL PERS OF THE ADV  RESEARCH PROJ AGCY-EN",
+      "count": 13
+    },
+    {
+      "payPlan": "NON-CRAFT - SUPERVISORY",
+      "count": 13
+    },
+    {
+      "payPlan": "EMPLOYEES IN THE NATIONAL NUCLEAR SECURITY ADMINISTRATION'S TECHNICIAN AND ADMINISTRATIVE SUPPORT CAREER PATH",
+      "count": 12
+    },
+    {
+      "payPlan": "GOVERNMENT PRINTING OFFICE, POLICE, 10% NIGHT RATE",
+      "count": 11
+    },
+    {
+      "payPlan": "SPECIAL OVERLAP AREA RATE SCHEDULE - LEADER - FEDERAL WAGE SYSTEM",
+      "count": 10
+    },
+    {
+      "payPlan": "ADMINISTRATIVE JUDGES",
+      "count": 10
+    },
+    {
+      "payPlan": "EMPLOYEES IN THE NAVAL NUCLEAR PROPULSION PROGRAM TECHNICIAN AND ADMINISTRATIVE SUPPORT CAREER PATH UNDER",
+      "count": 8
+    },
+    {
+      "payPlan": "PROGRAM DIRECTOR OF THE ADVANCED RESEARCH PROJECTS     AGENCY-ENGERY",
+      "count": 6
+    },
+    {
+      "payPlan": "U.S. GOVERNMENT PRINTING OFFICE CRIMINAL INVESTIGATORS",
+      "count": 5
+    },
+    {
+      "payPlan": "WAGE LEADERS (SIMILAR TO THE LEADER PAY SCHEDULE UNDER THE FEDERAL WAGE SYSTEM)",
+      "count": 4
+    },
+    {
+      "payPlan": "GM PHYSICIANS, PODIATRISTS, AND DENTISTS PAID MARKET PAY UNDER 38 U.S.C. 7431 (C)",
+      "count": 4
+    },
+    {
+      "payPlan": "OFFICIALS ON NONCAREER APPOINTMENTS",
+      "count": 4
+    },
+    {
+      "payPlan": "AIRCRAFT, ELECTRONIC EQUIPMENT, AND OPTICAL INSTRUMENT OVERHAUL AND REPAIR IN PUERTO RICO - SUPERVISORY - FEDE",
+      "count": 4
+    },
+    {
+      "payPlan": "INSPECTORS GENERAL WHOSE RATE OF BASIC PAY IS SET AT LEVEL III OF THE EXECUTIVE SCHEDULE PLUS 3 PERCENT",
+      "count": 4
+    },
+    {
+      "payPlan": "NON-CRAFT - LEADER",
+      "count": 2
+    },
+    {
+      "payPlan": "INVALID",
+      "count": 2
+    },
+    {
+      "payPlan": "WAGE SUPERVISORS (SIMILAR TO THE SUPERVISORY PAY SCHEDULE UNDER THE FEDERAL WAGE SYSTEM)",
+      "count": 2
+    },
+    {
+      "payPlan": "EXCEPTED SERVICE POSITIONS DESIGNATED AND PAID RATES OF BASIC PAY UNDER THE DEPARTMENT OF ENERGY'S (DOE)",
+      "count": 1
+    },
+    {
+      "payPlan": "PHYSICIANS/DENTISTS UNDER SCI & PROF (ST) PAY SYSTEM WHO RECEIVE MARKET PAY UNDER 38 U.S.C. 7431(C)",
+      "count": 1
+    },
+    {
+      "payPlan": "NO DATA REPORTED",
+      "count": 1
+    }
+  ]
+}

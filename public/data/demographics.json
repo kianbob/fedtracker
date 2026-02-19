@@ -1,0 +1,674 @@
+{
+  "age_bracket": [
+    {
+      "label": "40-44",
+      "count": 311458
+    },
+    {
+      "label": "45-49",
+      "count": 305628
+    },
+    {
+      "label": "50-54",
+      "count": 274783
+    },
+    {
+      "label": "55-59",
+      "count": 268140
+    },
+    {
+      "label": "35-39",
+      "count": 252203
+    },
+    {
+      "label": "60-64",
+      "count": 197678
+    },
+    {
+      "label": "30-34",
+      "count": 184996
+    },
+    {
+      "label": "25-29",
+      "count": 121232
+    },
+    {
+      "label": "65 OR MORE",
+      "count": 117183
+    },
+    {
+      "label": "20-24",
+      "count": 40539
+    },
+    {
+      "label": "LESS THAN 20",
+      "count": 809
+    }
+  ],
+  "education_level": [
+    {
+      "label": "HIGH SCHOOL GRADUATE OR CERTIFICATE OF EQUIVALENCY",
+      "count": 563376
+    },
+    {
+      "label": "BACHELOR'S DEGREE",
+      "count": 554312
+    },
+    {
+      "label": "MASTER'S DEGREE",
+      "count": 359647
+    },
+    {
+      "label": "ASSOCIATE DEGREE",
+      "count": 130519
+    },
+    {
+      "label": "DOCTORATE DEGREE",
+      "count": 80724
+    },
+    {
+      "label": "FIRST PROFESSIONAL",
+      "count": 78256
+    },
+    {
+      "label": "SOME COLLEGE - LESS THAN ONE YEAR",
+      "count": 61780
+    },
+    {
+      "label": "ONE YEAR COLLEGE",
+      "count": 44413
+    },
+    {
+      "label": "TWO YEARS COLLEGE",
+      "count": 44259
+    },
+    {
+      "label": "TERMINAL OCCUPATIONAL PROGRAM - CERTIFICATE OF COMPLETION, DIPLOMA OR EQUIVALENT",
+      "count": 29881
+    },
+    {
+      "label": "NO FORMAL EDUCATION OR SOME ELEMENTARY SCHOOL - DID NOT COMPLETE",
+      "count": 26187
+    },
+    {
+      "label": "FOUR YEARS COLLEGE",
+      "count": 21778
+    },
+    {
+      "label": "POST-BACHELOR'S",
+      "count": 20062
+    },
+    {
+      "label": "THREE YEARS COLLEGE",
+      "count": 19899
+    },
+    {
+      "label": "POST-MASTER'S",
+      "count": 9922
+    },
+    {
+      "label": "POST-DOCTORATE",
+      "count": 7437
+    },
+    {
+      "label": "SOME HIGH SCHOOL - DID NOT COMPLETE",
+      "count": 7375
+    },
+    {
+      "label": "TERMINAL OCCUPATIONAL PROGRAM - DID NOT COMPLETE",
+      "count": 6765
+    },
+    {
+      "label": "INVALID",
+      "count": 2797
+    },
+    {
+      "label": "POST-FIRST PROFESSIONAL",
+      "count": 2224
+    },
+    {
+      "label": "SIXTH-YEAR DEGREE",
+      "count": 1157
+    },
+    {
+      "label": "NO DATA REPORTED",
+      "count": 941
+    },
+    {
+      "label": "POST-SIXTH YEAR",
+      "count": 570
+    },
+    {
+      "label": "ELEMENTARY SCHOOL COMPLETED - NO HIGH SCHOOL",
+      "count": 368
+    }
+  ],
+  "work_schedule": [
+    {
+      "label": "FULL-TIME",
+      "count": 1977623
+    },
+    {
+      "label": "PART-TIME",
+      "count": 37568
+    },
+    {
+      "label": "INTERMITTENT",
+      "count": 31532
+    },
+    {
+      "label": "FULL-TIME SEASONAL",
+      "count": 22246
+    },
+    {
+      "label": "INTERMITTENT SEASONAL",
+      "count": 3071
+    },
+    {
+      "label": "PART-TIME SEASONAL",
+      "count": 2348
+    },
+    {
+      "label": "PART-TIME JOB SHARER",
+      "count": 153
+    },
+    {
+      "label": "A SCHEDULE REQUIRED WHEN AN EMPLOYEE HAS ELECTED PHASED EMPLOYMENT/PHASED RETIREMENT STATUS AND HAS A LESS THA",
+      "count": 90
+    },
+    {
+      "label": "INVALID",
+      "count": 11
+    },
+    {
+      "label": "NO DATA REPORTED",
+      "count": 5
+    },
+    {
+      "label": "PART-TIME SEASONAL JOB SHARER",
+      "count": 1
+    },
+    {
+      "label": "BAYLOR PLAN",
+      "count": 1
+    }
+  ],
+  "supervisory_status": [
+    {
+      "label": "ALL OTHER POSITIONS",
+      "count": 1726110
+    },
+    {
+      "label": "SUPERVISOR OR MANAGER",
+      "count": 254333
+    },
+    {
+      "label": "LEADER",
+      "count": 35463
+    },
+    {
+      "label": "SUPERVISOR (CSRA)",
+      "count": 28733
+    },
+    {
+      "label": "TEAM LEADER",
+      "count": 15983
+    },
+    {
+      "label": "MANAGEMENT OFFICIAL (CSRA)",
+      "count": 13999
+    },
+    {
+      "label": "INVALID",
+      "count": 28
+    }
+  ],
+  "stem_occupation_type": [
+    {
+      "label": "ALL OTHER OCCUPATIONS",
+      "count": 1520967
+    },
+    {
+      "label": "HEALTH OCCUPATIONS",
+      "count": 217435
+    },
+    {
+      "label": "SCIENCE OCCUPATIONS",
+      "count": 121014
+    },
+    {
+      "label": "ENGINEERING OCCUPATIONS",
+      "count": 103231
+    },
+    {
+      "label": "TECHNOLOGY OCCUPATIONS",
+      "count": 88099
+    },
+    {
+      "label": "MATHEMATICS OCCUPATIONS",
+      "count": 22561
+    },
+    {
+      "label": "UNSPECIFIED",
+      "count": 1342
+    }
+  ],
+  "appointment_type": [
+    {
+      "label": "CAREER (COMPETITIVE SERVICE PERMANENT)",
+      "count": 1155030
+    },
+    {
+      "label": "OTHER (EXCEPTED SERVICE PERMANENT)",
+      "count": 520203
+    },
+    {
+      "label": "CAREER-CONDITIONAL (COMPETITIVE SERVICE PERMANENT)",
+      "count": 219488
+    },
+    {
+      "label": "SCHEDULE A (EXCEPTED SERVICE PERMANENT)",
+      "count": 59991
+    },
+    {
+      "label": "OTHER (EXCEPTED SERVICE NONPERMANENT)",
+      "count": 54409
+    },
+    {
+      "label": "NONPERMANENT (COMPETITTIVE SERVICE NONPERMANENT)",
+      "count": 25751
+    },
+    {
+      "label": "SCHEDULE A (EXCEPTED SERVICE NONPERMANENT)",
+      "count": 21300
+    },
+    {
+      "label": "CAREER (SENIOR EXECUTIVE SERVICE PERMANENT)",
+      "count": 6459
+    },
+    {
+      "label": "SCHEDULE B (EXCEPTED SERVICE PERMANENT)",
+      "count": 3626
+    },
+    {
+      "label": "SCHEDULE B (EXCEPTED SERVICE NONPERMANENT)",
+      "count": 2700
+    },
+    {
+      "label": "SCHEDULE D (EXCEPTED SERVICE PERMANENT)",
+      "count": 1843
+    },
+    {
+      "label": "SCHEDULE C (EXCEPTED SERVICE NONPERMANENT)",
+      "count": 1805
+    },
+    {
+      "label": "NONCAREER (SENIOR EXECUTIVE SERVICE PERMANENT)",
+      "count": 766
+    },
+    {
+      "label": "EXECUTIVE (EXCEPTED SERVICE NONPERMANENT)",
+      "count": 475
+    },
+    {
+      "label": "SCHEDULE D (EXCEPTED SERVICE NONPERMANENT)",
+      "count": 380
+    },
+    {
+      "label": "INVALID",
+      "count": 351
+    },
+    {
+      "label": "LIMITED TERM (SENIOR EXECUTIVE SERVICE NONPERMANENT)",
+      "count": 44
+    },
+    {
+      "label": "EXECUTIVE (EXCEPTED SERVICE PERMANENT)",
+      "count": 28
+    }
+  ],
+  "duty_station_state": [
+    {
+      "label": "REDACTED",
+      "count": 981186
+    },
+    {
+      "label": "DISTRICT OF COLUMBIA",
+      "count": 103634
+    },
+    {
+      "label": "CALIFORNIA",
+      "count": 78934
+    },
+    {
+      "label": "MARYLAND",
+      "count": 78673
+    },
+    {
+      "label": "TEXAS",
+      "count": 74997
+    },
+    {
+      "label": "FLORIDA",
+      "count": 56620
+    },
+    {
+      "label": "VIRGINIA",
+      "count": 43877
+    },
+    {
+      "label": "GEORGIA",
+      "count": 41303
+    },
+    {
+      "label": "PENNSYLVANIA",
+      "count": 37478
+    },
+    {
+      "label": "NEW YORK",
+      "count": 37035
+    },
+    {
+      "label": "ILLINOIS",
+      "count": 28285
+    },
+    {
+      "label": "NORTH CAROLINA",
+      "count": 27361
+    },
+    {
+      "label": "OHIO",
+      "count": 26609
+    },
+    {
+      "label": "MISSOURI",
+      "count": 25895
+    },
+    {
+      "label": "COLORADO",
+      "count": 24786
+    },
+    {
+      "label": "ARIZONA",
+      "count": 23603
+    },
+    {
+      "label": "WASHINGTON",
+      "count": 23305
+    },
+    {
+      "label": "TENNESSEE",
+      "count": 23026
+    },
+    {
+      "label": "MICHIGAN",
+      "count": 18374
+    },
+    {
+      "label": "MASSACHUSETTS",
+      "count": 16770
+    },
+    {
+      "label": "ALABAMA",
+      "count": 15654
+    },
+    {
+      "label": "OKLAHOMA",
+      "count": 15064
+    },
+    {
+      "label": "OREGON",
+      "count": 14878
+    },
+    {
+      "label": "UTAH",
+      "count": 14688
+    },
+    {
+      "label": "NO DATA REPORTED",
+      "count": 14518
+    }
+  ],
+  "occupational_group": [
+    {
+      "label": "MEDICAL, HOSPITAL, DENTAL, AND PUBLIC HEALTH GROUP",
+      "count": 342098
+    },
+    {
+      "label": "GENERAL ADMINISTRATIVE, CLERICAL, AND OFFICE SERVICES GROUP",
+      "count": 286931
+    },
+    {
+      "label": "INVESTIGATION GROUP",
+      "count": 212253
+    },
+    {
+      "label": "ENGINEERING AND ARCHITECTURE GROUP",
+      "count": 129407
+    },
+    {
+      "label": "LEGAL AND KINDRED GROUP",
+      "count": 116753
+    },
+    {
+      "label": "SOCIAL SCIENCE, PSYCHOLOGY, AND WELFARE GROUP",
+      "count": 104928
+    },
+    {
+      "label": "ACCOUNTING AND BUDGET GROUP",
+      "count": 103654
+    },
+    {
+      "label": "BUSINESS AND INDUSTRY GROUP",
+      "count": 97599
+    },
+    {
+      "label": "MISCELLANEOUS OCCUPATIONS GROUP",
+      "count": 97427
+    },
+    {
+      "label": "INFORMATION TECHNOLOGY GROUP",
+      "count": 88371
+    },
+    {
+      "label": "BIOLOGICAL SCIENCES GROUP",
+      "count": 59573
+    },
+    {
+      "label": "HUMAN RESOURCES MANAGEMENT GROUP",
+      "count": 46391
+    },
+    {
+      "label": "TRANSPORTATION GROUP",
+      "count": 43227
+    },
+    {
+      "label": "EDUCATION GROUP",
+      "count": 37630
+    },
+    {
+      "label": "PHYSICAL SCIENCES GROUP",
+      "count": 28690
+    },
+    {
+      "label": "SUPPLY GROUP",
+      "count": 25466
+    },
+    {
+      "label": "MATHEMATICS AND STATISTICS GROUP",
+      "count": 23073
+    },
+    {
+      "label": "EQUIPMENT, FACILITIES, AND SERVICES GROUP",
+      "count": 16799
+    },
+    {
+      "label": "INFORMATION AND ARTS GROUP",
+      "count": 16065
+    },
+    {
+      "label": "GENERAL MAINTENANCE AND OPERATIONS WORK FAMILY",
+      "count": 15517
+    },
+    {
+      "label": "GENERAL SERVICES AND SUPPORT WORK FAMILY",
+      "count": 14118
+    },
+    {
+      "label": "WAREHOUSING AND STOCK HANDLING FAMILY",
+      "count": 13893
+    },
+    {
+      "label": "TRANSPORTATION/MOBILE EQUIPMENT MAINTENANCE FAMILY",
+      "count": 12033
+    },
+    {
+      "label": "QUALITY ASSURANCE, INSPECTION, AND GRADING GROUP",
+      "count": 11433
+    },
+    {
+      "label": "FOOD PREPARATION AND SERVING FAMILY",
+      "count": 10812
+    },
+    {
+      "label": "AIRCRAFT OVERHAUL FAMILY",
+      "count": 10708
+    },
+    {
+      "label": "COPYRIGHT, PATENT, AND TRADEMARK GROUP",
+      "count": 10500
+    },
+    {
+      "label": "INDUSTRIAL EQUIPMENT MAINTENANCE FAMILY",
+      "count": 10142
+    },
+    {
+      "label": "TRANSPORTATION/MOBILE EQUIPMENT OPERATION FAMILY",
+      "count": 9864
+    },
+    {
+      "label": "ELECTRONIC EQUIPMENT INSTALLATION AND MAINTENANCE FAMILY",
+      "count": 8587
+    },
+    {
+      "label": "ELECTRICAL INSTALLATION AND MAINTENANCE FAMILY",
+      "count": 8368
+    },
+    {
+      "label": "METAL WORK FAMILY",
+      "count": 7462
+    },
+    {
+      "label": "VESSEL JOBS FAMILY (EXCLUDED FROM THE FEDERAL WAGE SYSTEM)",
+      "count": 6590
+    },
+    {
+      "label": "INDUSTRIAL EQUIPMENT OPERATION FAMILY",
+      "count": 4866
+    },
+    {
+      "label": "PLUMBING AND PIPEFITTING FAMILY",
+      "count": 4504
+    },
+    {
+      "label": "METAL PROCESSING FAMILY",
+      "count": 3826
+    },
+    {
+      "label": "PAINTING AND PAPERHANGING FAMILY",
+      "count": 3726
+    },
+    {
+      "label": "MACHINE TOOL WORK FAMILY",
+      "count": 3646
+    },
+    {
+      "label": "LIBRARY AND ARCHIVES GROUP",
+      "count": 3449
+    },
+    {
+      "label": "MISCELLANEOUS OCCUPATIONS FAMILY",
+      "count": 2882
+    },
+    {
+      "label": "VETERINARY MEDICAL SCIENCE GROUP",
+      "count": 2086
+    },
+    {
+      "label": "ARMAMENT WORK FAMILY",
+      "count": 2009
+    },
+    {
+      "label": "ENGINE OVERHAUL FAMILY",
+      "count": 1965
+    },
+    {
+      "label": "WOOD WORK FAMILY",
+      "count": 1845
+    },
+    {
+      "label": "FLUID SYSTEMS MAINTENANCE FAMILY",
+      "count": 1554
+    },
+    {
+      "label": "PLANT AND ANIMAL WORK FAMILY",
+      "count": 1409
+    },
+    {
+      "label": "PLIABLE MATERIALS WORK FAMILY",
+      "count": 1379
+    },
+    {
+      "label": "INVALID",
+      "count": 1342
+    },
+    {
+      "label": "AMMUNITION, EXPLOSIVES, AND TOXIC MATERIALS WORK FAMILY",
+      "count": 1241
+    },
+    {
+      "label": "GENERAL EQUIPMENT MAINTENANCE FAMILY",
+      "count": 1186
+    },
+    {
+      "label": "PRINTING FAMILY",
+      "count": 999
+    },
+    {
+      "label": "STRUCTURAL AND FINISHING WORK FAMILY",
+      "count": 931
+    },
+    {
+      "label": "LAUNDRY, DRY CLEANING, AND PRESSING FAMILY",
+      "count": 844
+    },
+    {
+      "label": "INSTRUMENT WORK FAMILY",
+      "count": 777
+    },
+    {
+      "label": "FABRIC AND LEATHER WORK FAMILY",
+      "count": 643
+    },
+    {
+      "label": "PACKING AND PROCESSING FAMILY",
+      "count": 629
+    },
+    {
+      "label": "WIRE COMMUNICATIONS EQUIPMENT INSTALLATION AND MAINTENANCE FAMILY",
+      "count": 335
+    },
+    {
+      "label": "LENS AND CRYSTAL WORK FAMILY",
+      "count": 122
+    },
+    {
+      "label": "PERSONAL SERVICES FAMILY",
+      "count": 69
+    },
+    {
+      "label": "MOTION PICTURE, RADIO, TELEVISION, AND SOUND EQUIPMENT OPERATING FAMILY",
+      "count": 23
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "comparisonPeriod": "Jan-Nov (2025 vs 2024)",
+  "separations2025": 335192,
+  "separations2024": 201140,
+  "separationChange": 134052,
+  "separationChangePct": 66.6,
+  "accessions2025": 118015,
+  "accessions2024": 258318,
+  "accessionChange": -140303,
+  "accessionChangePct": -54.3,
+  "netChangeSinceJan2025": -217177,
+  "monthlyBreakdown2025": [
+    {
+      "month": "202501",
+      "separations": 22312,
+      "accessions": 22681,
+      "net": 369
+    },
+    {
+      "month": "202502",
+      "separations": 15643,
+      "accessions": 9891,
+      "net": -5752
+    },
+    {
+      "month": "202503",
+      "separations": 22153,
+      "accessions": 4992,
+      "net": -17161
+    },
+    {
+      "month": "202504",
+      "separations": 24288,
+      "accessions": 7469,
+      "net": -16819
+    },
+    {
+      "month": "202505",
+      "separations": 26886,
+      "accessions": 9619,
+      "net": -17267
+    },
+    {
+      "month": "202506",
+      "separations": 20276,
+      "accessions": 10686,
+      "net": -9590
+    },
+    {
+      "month": "202507",
+      "separations": 23298,
+      "accessions": 8336,
+      "net": -14962
+    },
+    {
+      "month": "202508",
+      "separations": 18990,
+      "accessions": 9123,
+      "net": -9867
+    },
+    {
+      "month": "202509",
+      "separations": 125589,
+      "accessions": 13290,
+      "net": -112299
+    },
+    {
+      "month": "202510",
+      "separations": 14781,
+      "accessions": 8090,
+      "net": -6691
+    },
+    {
+      "month": "202511",
+      "separations": 20976,
+      "accessions": 13838,
+      "net": -7138
+    }
+  ],
+  "topAgenciesByNetLoss": [
+    {
+      "code": "TR",
+      "name": "Department of Treasury",
+      "netChange": -25469,
+      "separations": 28858,
+      "accessions": 3389
+    },
+    {
+      "code": "VA",
+      "name": "Department of Veterans Affairs",
+      "netChange": -22812,
+      "separations": 49622,
+      "accessions": 26810
+    },
+    {
+      "code": "AR",
+      "name": "AR",
+      "netChange": -21665,
+      "separations": 28308,
+      "accessions": 6643
+    },
+    {
+      "code": "AG",
+      "name": "Department of Agriculture",
+      "netChange": -18624,
+      "separations": 24692,
+      "accessions": 6068
+    },
+    {
+      "code": "AF",
+      "name": "AF",
+      "netChange": -17192,
+      "separations": 23300,
+      "accessions": 6108
+    },
+    {
+      "code": "HE",
+      "name": "Department of Health and Human Services",
+      "netChange": -16960,
+      "separations": 19286,
+      "accessions": 2326
+    },
+    {
+      "code": "NV",
+      "name": "NV",
+      "netChange": -14826,
+      "separations": 23399,
+      "accessions": 8573
+    },
+    {
+      "code": "DD",
+      "name": "DD",
+      "netChange": -11427,
+      "separations": 21845,
+      "accessions": 10418
+    },
+    {
+      "code": "DJ",
+      "name": "Department of Justice",
+      "netChange": -8904,
+      "separations": 13880,
+      "accessions": 4976
+    },
+    {
+      "code": "SZ",
+      "name": "Social Security Administration",
+      "netChange": -6855,
+      "separations": 6940,
+      "accessions": 85
+    }
+  ],
+  "rifByAgency2025": [
+    {
+      "code": "HE",
+      "name": "Department of Health and Human Services",
+      "rifCount": 4453
+    },
+    {
+      "code": "AM",
+      "name": "U.s. Agency for International Dev",
+      "rifCount": 3716
+    },
+    {
+      "code": "ST",
+      "name": "Department of State",
+      "rifCount": 872
+    },
+    {
+      "code": "ED",
+      "name": "Department of Education",
+      "rifCount": 698
+    },
+    {
+      "code": "GS",
+      "name": "General Services Administration",
+      "rifCount": 252
+    },
+    {
+      "code": "HS",
+      "name": "Department of Homeland Security",
+      "rifCount": 178
+    },
+    {
+      "code": "OM",
+      "name": "Office of Personnel Management",
+      "rifCount": 127
+    },
+    {
+      "code": "DJ",
+      "name": "Department of Justice",
+      "rifCount": 96
+    },
+    {
+      "code": "AH",
+      "name": "Nat Foundation on Arts and Humanities",
+      "rifCount": 91
+    },
+    {
+      "code": "SB",
+      "name": "Small Business Administration",
+      "rifCount": 59
+    },
+    {
+      "code": "NQ",
+      "name": "Nat Archives and Records Administration",
+      "rifCount": 30
+    },
+    {
+      "code": "EP",
+      "name": "Environmental Protection Agency",
+      "rifCount": 28
+    },
+    {
+      "code": "HF",
+      "name": "Federal Housing Finance Agency",
+      "rifCount": 17
+    },
+    {
+      "code": "DD",
+      "name": "DD",
+      "rifCount": 14
+    },
+    {
+      "code": "NN",
+      "name": "Nat Aeronautics and Space Administration",
+      "rifCount": 13
+    }
+  ],
+  "rifByYear": {
+    "2023": 6,
+    "2024": 46,
+    "2025": 10721
+  },
+  "drpIdentifiable": false,
+  "generatedAt": "2026-02-18",
+  "separationCodes": {
+    "SA": "Transfer Out",
+    "SB": "Mass Transfer",
+    "SC": "Quit",
+    "SD": "Retirement (Voluntary)",
+    "SE": "Retirement (Early)",
+    "SG": "Retirement (Other)",
+    "SH": "RIF",
+    "SJ": "Termination",
+    "SL": "Other"
+  }
+}

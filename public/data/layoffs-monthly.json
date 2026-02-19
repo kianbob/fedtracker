@@ -1,0 +1,668 @@
+[
+  {
+    "month": "201910",
+    "rif": 9,
+    "quit": 6357,
+    "termination": 7219,
+    "retirement": 3405,
+    "transfer": 2808,
+    "other": 545
+  },
+  {
+    "month": "201911",
+    "rif": 12,
+    "quit": 5749,
+    "termination": 5379,
+    "retirement": 2960,
+    "transfer": 2442,
+    "other": 519
+  },
+  {
+    "month": "201912",
+    "rif": 11,
+    "quit": 5471,
+    "termination": 2473,
+    "retirement": 11856,
+    "transfer": 1855,
+    "other": 571
+  },
+  {
+    "month": "202001",
+    "rif": 20,
+    "quit": 7069,
+    "termination": 1356,
+    "retirement": 7439,
+    "transfer": 2796,
+    "other": 650
+  },
+  {
+    "month": "202002",
+    "rif": 1,
+    "quit": 5961,
+    "termination": 1286,
+    "retirement": 4087,
+    "transfer": 3600,
+    "other": 575
+  },
+  {
+    "month": "202003",
+    "rif": 3,
+    "quit": 5448,
+    "termination": 2227,
+    "retirement": 3961,
+    "transfer": 2254,
+    "other": 578
+  },
+  {
+    "month": "202004",
+    "rif": 0,
+    "quit": 4062,
+    "termination": 1432,
+    "retirement": 3525,
+    "transfer": 1773,
+    "other": 629
+  },
+  {
+    "month": "202005",
+    "rif": 1,
+    "quit": 4944,
+    "termination": 1796,
+    "retirement": 3772,
+    "transfer": 2242,
+    "other": 538
+  },
+  {
+    "month": "202006",
+    "rif": 6,
+    "quit": 6048,
+    "termination": 2688,
+    "retirement": 4403,
+    "transfer": 2468,
+    "other": 571
+  },
+  {
+    "month": "202007",
+    "rif": 4,
+    "quit": 6986,
+    "termination": 2236,
+    "retirement": 4919,
+    "transfer": 2620,
+    "other": 609
+  },
+  {
+    "month": "202008",
+    "rif": 5,
+    "quit": 8963,
+    "termination": 3230,
+    "retirement": 4356,
+    "transfer": 3843,
+    "other": 612
+  },
+  {
+    "month": "202009",
+    "rif": 13,
+    "quit": 6747,
+    "termination": 7214,
+    "retirement": 4524,
+    "transfer": 3210,
+    "other": 494
+  },
+  {
+    "month": "202010",
+    "rif": 5,
+    "quit": 6165,
+    "termination": 7294,
+    "retirement": 3555,
+    "transfer": 3451,
+    "other": 495
+  },
+  {
+    "month": "202011",
+    "rif": 7,
+    "quit": 4836,
+    "termination": 6307,
+    "retirement": 2874,
+    "transfer": 1916,
+    "other": 517
+  },
+  {
+    "month": "202012",
+    "rif": 4,
+    "quit": 5138,
+    "termination": 3046,
+    "retirement": 13093,
+    "transfer": 1890,
+    "other": 624
+  },
+  {
+    "month": "202101",
+    "rif": 9,
+    "quit": 8972,
+    "termination": 2264,
+    "retirement": 6431,
+    "transfer": 3216,
+    "other": 664
+  },
+  {
+    "month": "202102",
+    "rif": 3,
+    "quit": 5869,
+    "termination": 1739,
+    "retirement": 3211,
+    "transfer": 2079,
+    "other": 498
+  },
+  {
+    "month": "202103",
+    "rif": 2,
+    "quit": 6947,
+    "termination": 2262,
+    "retirement": 4087,
+    "transfer": 2126,
+    "other": 556
+  },
+  {
+    "month": "202104",
+    "rif": 4,
+    "quit": 7880,
+    "termination": 2006,
+    "retirement": 4383,
+    "transfer": 2595,
+    "other": 513
+  },
+  {
+    "month": "202105",
+    "rif": 1,
+    "quit": 8069,
+    "termination": 2035,
+    "retirement": 4636,
+    "transfer": 2207,
+    "other": 515
+  },
+  {
+    "month": "202106",
+    "rif": 13,
+    "quit": 9119,
+    "termination": 3355,
+    "retirement": 5309,
+    "transfer": 2370,
+    "other": 512
+  },
+  {
+    "month": "202107",
+    "rif": 11,
+    "quit": 10459,
+    "termination": 2606,
+    "retirement": 6948,
+    "transfer": 3473,
+    "other": 595
+  },
+  {
+    "month": "202108",
+    "rif": 12,
+    "quit": 11219,
+    "termination": 3276,
+    "retirement": 4619,
+    "transfer": 2751,
+    "other": 706
+  },
+  {
+    "month": "202109",
+    "rif": 128,
+    "quit": 9864,
+    "termination": 7269,
+    "retirement": 5006,
+    "transfer": 2734,
+    "other": 648
+  },
+  {
+    "month": "202110",
+    "rif": 4,
+    "quit": 10185,
+    "termination": 7211,
+    "retirement": 4663,
+    "transfer": 2637,
+    "other": 565
+  },
+  {
+    "month": "202111",
+    "rif": 1,
+    "quit": 9604,
+    "termination": 4310,
+    "retirement": 4439,
+    "transfer": 2274,
+    "other": 543
+  },
+  {
+    "month": "202112",
+    "rif": 1,
+    "quit": 9290,
+    "termination": 2390,
+    "retirement": 18948,
+    "transfer": 2220,
+    "other": 525
+  },
+  {
+    "month": "202201",
+    "rif": 3,
+    "quit": 9729,
+    "termination": 1684,
+    "retirement": 6075,
+    "transfer": 3788,
+    "other": 602
+  },
+  {
+    "month": "202202",
+    "rif": 14,
+    "quit": 8286,
+    "termination": 1493,
+    "retirement": 4018,
+    "transfer": 2671,
+    "other": 486
+  },
+  {
+    "month": "202203",
+    "rif": 8,
+    "quit": 9300,
+    "termination": 2419,
+    "retirement": 4554,
+    "transfer": 2693,
+    "other": 556
+  },
+  {
+    "month": "202204",
+    "rif": 2,
+    "quit": 9334,
+    "termination": 1710,
+    "retirement": 4403,
+    "transfer": 2895,
+    "other": 484
+  },
+  {
+    "month": "202205",
+    "rif": 0,
+    "quit": 8876,
+    "termination": 4745,
+    "retirement": 4512,
+    "transfer": 3248,
+    "other": 529
+  },
+  {
+    "month": "202206",
+    "rif": 6,
+    "quit": 9377,
+    "termination": 2350,
+    "retirement": 5226,
+    "transfer": 3016,
+    "other": 495
+  },
+  {
+    "month": "202207",
+    "rif": 3,
+    "quit": 10597,
+    "termination": 2847,
+    "retirement": 6095,
+    "transfer": 8379,
+    "other": 545
+  },
+  {
+    "month": "202208",
+    "rif": 0,
+    "quit": 10400,
+    "termination": 2478,
+    "retirement": 3795,
+    "transfer": 7184,
+    "other": 555
+  },
+  {
+    "month": "202209",
+    "rif": 5,
+    "quit": 9429,
+    "termination": 5657,
+    "retirement": 4805,
+    "transfer": 6837,
+    "other": 568
+  },
+  {
+    "month": "202210",
+    "rif": 7,
+    "quit": 8023,
+    "termination": 5392,
+    "retirement": 3522,
+    "transfer": 3524,
+    "other": 532
+  },
+  {
+    "month": "202211",
+    "rif": 2,
+    "quit": 6666,
+    "termination": 3736,
+    "retirement": 2646,
+    "transfer": 2764,
+    "other": 505
+  },
+  {
+    "month": "202212",
+    "rif": 6,
+    "quit": 7566,
+    "termination": 2164,
+    "retirement": 14034,
+    "transfer": 3693,
+    "other": 596
+  },
+  {
+    "month": "202301",
+    "rif": 0,
+    "quit": 7178,
+    "termination": 1001,
+    "retirement": 3860,
+    "transfer": 3262,
+    "other": 548
+  },
+  {
+    "month": "202302",
+    "rif": 3,
+    "quit": 6296,
+    "termination": 888,
+    "retirement": 3205,
+    "transfer": 3205,
+    "other": 449
+  },
+  {
+    "month": "202303",
+    "rif": 5,
+    "quit": 7399,
+    "termination": 1252,
+    "retirement": 4150,
+    "transfer": 2879,
+    "other": 490
+  },
+  {
+    "month": "202304",
+    "rif": 5,
+    "quit": 6898,
+    "termination": 1501,
+    "retirement": 3771,
+    "transfer": 3195,
+    "other": 474
+  },
+  {
+    "month": "202305",
+    "rif": 1,
+    "quit": 7377,
+    "termination": 1554,
+    "retirement": 3727,
+    "transfer": 3156,
+    "other": 539
+  },
+  {
+    "month": "202306",
+    "rif": 4,
+    "quit": 8322,
+    "termination": 2890,
+    "retirement": 5127,
+    "transfer": 3330,
+    "other": 503
+  },
+  {
+    "month": "202307",
+    "rif": 3,
+    "quit": 7937,
+    "termination": 2661,
+    "retirement": 4014,
+    "transfer": 4679,
+    "other": 514
+  },
+  {
+    "month": "202308",
+    "rif": 0,
+    "quit": 9252,
+    "termination": 3429,
+    "retirement": 3301,
+    "transfer": 3013,
+    "other": 515
+  },
+  {
+    "month": "202309",
+    "rif": 14,
+    "quit": 7569,
+    "termination": 5429,
+    "retirement": 4199,
+    "transfer": 3010,
+    "other": 474
+  },
+  {
+    "month": "202310",
+    "rif": 2,
+    "quit": 7190,
+    "termination": 5365,
+    "retirement": 3415,
+    "transfer": 3534,
+    "other": 1428
+  },
+  {
+    "month": "202311",
+    "rif": 2,
+    "quit": 5653,
+    "termination": 3774,
+    "retirement": 2850,
+    "transfer": 2657,
+    "other": 1183
+  },
+  {
+    "month": "202312",
+    "rif": 2,
+    "quit": 6442,
+    "termination": 1982,
+    "retirement": 12902,
+    "transfer": 3260,
+    "other": 1175
+  },
+  {
+    "month": "202401",
+    "rif": 0,
+    "quit": 6959,
+    "termination": 1494,
+    "retirement": 5884,
+    "transfer": 3293,
+    "other": 1489
+  },
+  {
+    "month": "202402",
+    "rif": 0,
+    "quit": 5582,
+    "termination": 982,
+    "retirement": 3245,
+    "transfer": 2609,
+    "other": 1260
+  },
+  {
+    "month": "202403",
+    "rif": 0,
+    "quit": 5972,
+    "termination": 1290,
+    "retirement": 4428,
+    "transfer": 2193,
+    "other": 1353
+  },
+  {
+    "month": "202404",
+    "rif": 1,
+    "quit": 7172,
+    "termination": 1949,
+    "retirement": 4040,
+    "transfer": 3113,
+    "other": 1547
+  },
+  {
+    "month": "202405",
+    "rif": 1,
+    "quit": 7430,
+    "termination": 2177,
+    "retirement": 4864,
+    "transfer": 2390,
+    "other": 1553
+  },
+  {
+    "month": "202406",
+    "rif": 14,
+    "quit": 7391,
+    "termination": 2783,
+    "retirement": 5596,
+    "transfer": 3926,
+    "other": 1403
+  },
+  {
+    "month": "202407",
+    "rif": 1,
+    "quit": 7209,
+    "termination": 2572,
+    "retirement": 4094,
+    "transfer": 2437,
+    "other": 1427
+  },
+  {
+    "month": "202408",
+    "rif": 1,
+    "quit": 9737,
+    "termination": 3557,
+    "retirement": 3816,
+    "transfer": 2484,
+    "other": 1468
+  },
+  {
+    "month": "202409",
+    "rif": 10,
+    "quit": 7010,
+    "termination": 4931,
+    "retirement": 4469,
+    "transfer": 2620,
+    "other": 1293
+  },
+  {
+    "month": "202410",
+    "rif": 4,
+    "quit": 6286,
+    "termination": 4705,
+    "retirement": 3637,
+    "transfer": 2596,
+    "other": 1397
+  },
+  {
+    "month": "202411",
+    "rif": 2,
+    "quit": 6028,
+    "termination": 3537,
+    "retirement": 4043,
+    "transfer": 3111,
+    "other": 1275
+  },
+  {
+    "month": "202412",
+    "rif": 12,
+    "quit": 5641,
+    "termination": 1877,
+    "retirement": 13516,
+    "transfer": 1677,
+    "other": 1225
+  },
+  {
+    "month": "202501",
+    "rif": 1,
+    "quit": 9148,
+    "termination": 1858,
+    "retirement": 6876,
+    "transfer": 3052,
+    "other": 1377
+  },
+  {
+    "month": "202502",
+    "rif": 1,
+    "quit": 5778,
+    "termination": 1728,
+    "retirement": 5009,
+    "transfer": 1235,
+    "other": 1892
+  },
+  {
+    "month": "202503",
+    "rif": 24,
+    "quit": 9685,
+    "termination": 2922,
+    "retirement": 7187,
+    "transfer": 392,
+    "other": 1943
+  },
+  {
+    "month": "202504",
+    "rif": 182,
+    "quit": 8879,
+    "termination": 3334,
+    "retirement": 9985,
+    "transfer": 473,
+    "other": 1435
+  },
+  {
+    "month": "202505",
+    "rif": 256,
+    "quit": 10501,
+    "termination": 4778,
+    "retirement": 9161,
+    "transfer": 676,
+    "other": 1514
+  },
+  {
+    "month": "202506",
+    "rif": 521,
+    "quit": 8623,
+    "termination": 3077,
+    "retirement": 6245,
+    "transfer": 532,
+    "other": 1278
+  },
+  {
+    "month": "202507",
+    "rif": 5474,
+    "quit": 7958,
+    "termination": 2895,
+    "retirement": 5050,
+    "transfer": 562,
+    "other": 1359
+  },
+  {
+    "month": "202508",
+    "rif": 1400,
+    "quit": 8549,
+    "termination": 2458,
+    "retirement": 4615,
+    "transfer": 661,
+    "other": 1307
+  },
+  {
+    "month": "202509",
+    "rif": 2484,
+    "quit": 70553,
+    "termination": 3805,
+    "retirement": 46205,
+    "transfer": 1113,
+    "other": 1429
+  },
+  {
+    "month": "202510",
+    "rif": 205,
+    "quit": 6994,
+    "termination": 2915,
+    "retirement": 3230,
+    "transfer": 478,
+    "other": 959
+  },
+  {
+    "month": "202511",
+    "rif": 173,
+    "quit": 7803,
+    "termination": 4803,
+    "retirement": 5878,
+    "transfer": 1100,
+    "other": 1219
+  }
+]

@@ -1,10 +1,21 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import type { Metadata } from "next";
 import { formatNumber, formatSalary, cleanAgencyName } from "@/lib/format";
 import { AgencyCharts } from "./AgencyCharts";
 import agencyList from "../../../../public/data/agency-list.json";
 import fs from "fs";
 import path from "path";
+
+export async function generateMetadata({ params }: { params: { code: string } }): Promise<Metadata> {
+  const data = await getAgencyData(params.code);
+  if (!data) return { title: "Agency Not Found — FedTracker" };
+  const name = cleanAgencyName(data.name);
+  return {
+    title: `${name} — ${formatNumber(data.employees)} Employees, Avg ${formatSalary(data.avgSalary)} — FedTracker`,
+    description: `Federal workforce data for ${name}: ${formatNumber(data.employees)} employees, average salary ${formatSalary(data.avgSalary)}. Top occupations, locations, and separation trends.`,
+  };
+}
 
 export const dynamicParams = true;
 
@@ -33,9 +44,15 @@ export default async function AgencyDetailPage({ params }: { params: { code: str
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
-      <Link href="/agencies" className="text-accent text-sm hover:underline mb-4 inline-block">← All Agencies</Link>
-      <h1 className="font-serif text-4xl font-bold text-gray-900 mb-2">{cleanAgencyName(data.name)}</h1>
-      <p className="text-gray-500 mb-8">Agency Code: {data.code}</p>
+      <nav className="text-xs text-gray-400 mb-6">
+        <Link href="/" className="hover:text-accent">Home</Link>
+        <span className="mx-1.5">/</span>
+        <Link href="/agencies" className="hover:text-accent">Agencies</Link>
+        <span className="mx-1.5">/</span>
+        <span className="text-gray-700">{cleanAgencyName(data.name)}</span>
+      </nav>
+      <h1 className="font-serif text-3xl sm:text-4xl font-bold text-gray-900 mb-2">{cleanAgencyName(data.name)}</h1>
+      <p className="text-gray-500 mb-8">Agency Code: {data.code} · {formatNumber(data.employees)} employees · March 2025</p>
 
       <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 mb-12">
         <div className="bg-white border border-gray-200 rounded-xl p-6">

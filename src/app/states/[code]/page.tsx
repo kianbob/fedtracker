@@ -1,9 +1,19 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import type { Metadata } from "next";
 import { formatNumber, formatSalary, cleanAgencyName } from "@/lib/format";
 import states from "../../../../public/data/states.json";
 import fs from "fs";
 import path from "path";
+
+export async function generateMetadata({ params }: { params: { code: string } }): Promise<Metadata> {
+  const data = await getStateData(params.code);
+  if (!data) return { title: "State Not Found — FedTracker" };
+  return {
+    title: `Federal Employees in ${data.name} — ${formatNumber(data.employees)} Workers — FedTracker`,
+    description: `${formatNumber(data.employees)} federal employees in ${data.name}. Average salary ${formatSalary(data.avgSalary)}. Top agencies and occupations.`,
+  };
+}
 
 export const dynamicParams = true;
 
@@ -23,8 +33,14 @@ export default async function StateDetailPage({ params }: { params: { code: stri
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
-      <Link href="/states" className="text-accent text-sm hover:underline mb-4 inline-block">← All States</Link>
-      <h1 className="font-serif text-4xl font-bold text-gray-900 mb-2">{data.name}</h1>
+      <nav className="text-xs text-gray-400 mb-6">
+        <Link href="/" className="hover:text-accent">Home</Link>
+        <span className="mx-1.5">/</span>
+        <Link href="/states" className="hover:text-accent">States</Link>
+        <span className="mx-1.5">/</span>
+        <span className="text-gray-700">{data.name}</span>
+      </nav>
+      <h1 className="font-serif text-3xl sm:text-4xl font-bold text-gray-900 mb-2">Federal Employees in {data.name}</h1>
 
       <div className="grid grid-cols-2 gap-4 mb-12">
         <div className="bg-white border border-gray-200 rounded-xl p-6">

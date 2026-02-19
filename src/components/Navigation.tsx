@@ -22,6 +22,9 @@ const moreLinks = [
   { href: "/states", label: "States" },
   { href: "/subagencies", label: "Subagencies" },
   { href: "/compare", label: "Compare Agencies" },
+  { href: "/timeline", label: "Timeline" },
+  { href: "/occupation-impact", label: "Occupation Impact" },
+  { href: "/appointments", label: "Appointments" },
 ];
 
 const mobileMainLinks = [

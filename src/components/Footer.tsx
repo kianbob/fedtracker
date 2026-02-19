@@ -35,6 +35,9 @@ export function Footer() {
               <Link href="/demographics" className="block text-gray-600 hover:text-accent">Demographics</Link>
               <Link href="/subagencies" className="block text-gray-600 hover:text-accent">Subagencies</Link>
               <Link href="/findings" className="block text-gray-600 hover:text-accent">Key Findings</Link>
+              <Link href="/timeline" className="block text-gray-600 hover:text-accent">DOGE Timeline</Link>
+              <Link href="/occupation-impact" className="block text-gray-600 hover:text-accent">Occupation Impact</Link>
+              <Link href="/appointments" className="block text-gray-600 hover:text-accent">Appointment Types</Link>
               <Link href="/about" className="block text-gray-600 hover:text-accent">About & Methodology</Link>
             </div>
             <h4 className="font-semibold text-gray-900 mb-3 mt-6">Data Sources</h4>

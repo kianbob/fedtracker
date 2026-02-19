@@ -24,6 +24,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/impact`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${base}/education`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/compare`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${base}/timeline`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${base}/occupation-impact`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${base}/appointments`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
   ];
 
   // Separation type pages

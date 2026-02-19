@@ -87,7 +87,7 @@ export default async function OccupationDetailPage({ params }: { params: { code:
                 <div key={g.grade} className="grid grid-cols-3 px-5 py-2.5 text-sm">
                   <span className="font-medium text-gray-900">{g.grade}</span>
                   <span className="text-right text-gray-700">{formatNumber(g.count)}</span>
-                  <span className="text-right text-gray-700">{formatSalary(g.avgSalary)}</span>
+                  <span className={`text-right ${g.avgSalary === 0 ? "text-gray-400" : "text-gray-700"}`}>{g.avgSalary === 0 ? "N/A" : formatSalary(g.avgSalary)}</span>
                 </div>
               ))}
             </div>

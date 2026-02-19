@@ -6,16 +6,16 @@ const topLinks = [
   { href: "/agencies", label: "Agencies" },
   { href: "/doge", label: "DOGE Impact" },
   { href: "/layoffs", label: "Separations" },
+  { href: "/trends", label: "Trends" },
   { href: "/findings", label: "Key Findings" },
+  { href: "/occupations", label: "Occupations" },
+  { href: "/salaries", label: "Salaries" },
   { href: "/about", label: "About" },
 ];
 
 const moreLinks = [
-  { href: "/trends", label: "Trends" },
   { href: "/workforce-analysis", label: "Deep Dive" },
-  { href: "/occupations", label: "Occupations" },
   { href: "/demographics", label: "Demographics" },
-  { href: "/salaries", label: "Salaries" },
   { href: "/states", label: "States" },
   { href: "/subagencies", label: "Subagencies" },
 ];
@@ -25,7 +25,10 @@ const mobileMainLinks = [
   { href: "/agencies", label: "Agencies" },
   { href: "/doge", label: "DOGE Impact" },
   { href: "/layoffs", label: "Separations" },
+  { href: "/trends", label: "Trends" },
   { href: "/findings", label: "Key Findings" },
+  { href: "/occupations", label: "Occupations" },
+  { href: "/salaries", label: "Salaries" },
   { href: "/about", label: "About" },
 ];
 

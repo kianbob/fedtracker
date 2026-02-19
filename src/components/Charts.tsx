@@ -38,14 +38,15 @@ export function SimpleBarChart({ data, dataKey, nameKey, color = "#3730a3" }: { 
 
 export function SimplePieChart({ data, dataKey, nameKey }: { data: any[]; dataKey: string; nameKey: string }) {
   return (
-    <ResponsiveContainer width="100%" height={300}>
+    <ResponsiveContainer width="100%" height={380}>
       <PieChart>
-        <Pie data={data} dataKey={dataKey} nameKey={nameKey} cx="50%" cy="50%" outerRadius={100} label={(e: any) => e[nameKey]}>
+        <Pie data={data} dataKey={dataKey} nameKey={nameKey} cx="50%" cy="40%" outerRadius={100} label={false}>
           {data.map((_, i) => (
             <Cell key={i} fill={COLORS[i % COLORS.length]} />
           ))}
         </Pie>
         <Tooltip formatter={(v: any) => Number(v).toLocaleString()} />
+        <Legend layout="horizontal" verticalAlign="bottom" align="center" wrapperStyle={{ fontSize: 12, paddingTop: 8 }} />
       </PieChart>
     </ResponsiveContainer>
   );

@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import fs from "fs";
 import path from "path";
+import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "Data Downloads — FedTracker",
+  title: "Data Downloads — OpenFeds",
   description: "Download federal workforce data as JSON or CSV. Agency lists, DOGE impact, risk scores, demographics, and more.",
 };
 
@@ -74,10 +75,11 @@ export default function DownloadsPage() {
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-12">
+      <Breadcrumb items={[{ label: 'About', href: '/downloads' }, { label: 'Downloads' }]} />
       <div className="text-center mb-12">
         <h1 className="font-serif text-4xl font-bold text-gray-900 mb-3">Data Downloads</h1>
         <p className="text-lg text-gray-600">
-          Download the raw data behind FedTracker in JSON or CSV format.
+          Download the raw data behind OpenFeds in JSON or CSV format.
         </p>
       </div>
 

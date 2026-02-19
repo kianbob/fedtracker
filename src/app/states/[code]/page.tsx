@@ -24,9 +24,9 @@ function toTitleCase(str: string) {
 
 export async function generateMetadata({ params }: { params: { code: string } }): Promise<Metadata> {
   const data = await getStateData(params.code);
-  if (!data) return { title: "State Not Found — FedTracker" };
+  if (!data) return { title: "State Not Found — OpenFeds" };
   return {
-    title: `Federal Employees in ${data.name} — ${formatNumber(data.employees)} Workers — FedTracker`,
+    title: `Federal Employees in ${data.name} — ${formatNumber(data.employees)} Workers — OpenFeds`,
     description: `${formatNumber(data.employees)} federal employees in ${data.name}. Average salary ${formatSalary(data.avgSalary)}. Top agencies and occupations.`,
   };
 }

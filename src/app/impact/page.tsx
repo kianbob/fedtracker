@@ -3,12 +3,13 @@ import Link from "next/link";
 import { formatNumber, formatSalary, toTitleCase } from "@/lib/format";
 import { ImpactChart } from "./ImpactChart";
 import stateImpact from "../../../public/data/state-impact.json";
+import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "DOGE Impact by State — State-by-State Federal Workforce Reductions — FedTracker",
+  title: "DOGE Impact by State — State-by-State Federal Workforce Reductions — OpenFeds",
   description: "See how DOGE-driven federal workforce reductions impact each state. DC, Maryland, and Virginia hit hardest.",
   openGraph: {
-    title: "DOGE Impact by State - FedTracker",
+    title: "DOGE Impact by State - OpenFeds",
     description: "State-by-state breakdown of federal workforce reductions. See which states are hit hardest by DOGE-driven cuts.",
   },
 };
@@ -28,6 +29,7 @@ export default function ImpactPage() {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
+      <Breadcrumb items={[{ label: 'DOGE & Cuts', href: '/impact' }, { label: 'Geographic Impact' }]} />
       {/* Hero */}
       <header className="mb-12">
         <p className="text-sm font-semibold text-accent uppercase tracking-wide mb-3">State-by-State Analysis</p>

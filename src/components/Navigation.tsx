@@ -72,7 +72,7 @@ const categories: NavCategory[] = [
     label: "About",
     hubHref: "/about",
     items: [
-      { href: "/about", title: "About", description: "About FedTracker" },
+      { href: "/about", title: "About", description: "About OpenFeds" },
       { href: "/downloads", title: "Downloads", description: "Download data files" },
       { href: "/updates", title: "Updates", description: "Latest changes" },
       { href: "/compare", title: "Compare", description: "Side-by-side comparison" },
@@ -265,12 +265,12 @@ export function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 shrink-0" aria-label="FedTracker home">
+          <Link href="/" className="flex items-center gap-2 shrink-0" aria-label="OpenFeds home">
             <div className="w-8 h-8 accent-gradient rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">FT</span>
+              <span className="text-white font-bold text-sm">OF</span>
             </div>
             <span className="font-serif text-xl font-bold text-gray-900 dark:text-gray-100">
-              FedTracker
+              OpenFeds
             </span>
           </Link>
 

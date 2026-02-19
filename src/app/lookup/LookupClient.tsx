@@ -4,6 +4,7 @@ import { useState, useEffect, useRef, useMemo } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import Link from "next/link";
 import { formatNumber, formatSalary } from "@/lib/format";
+import Breadcrumb from "@/components/Breadcrumb";
 
 interface Agency {
   code: string;
@@ -126,10 +127,11 @@ export function LookupClient() {
   const shareText = selected
     ? `${selected.name}: Risk Score ${selected.riskScore}/100, ${formatNumber(selected.seps2025)} separations in 2025 (${selected.sepChange > 0 ? "+" : ""}${selected.sepChange}% YoY). Check your agency at`
     : "";
-  const shareUrl = typeof window !== "undefined" ? window.location.href : "https://fedtracker.vercel.app/lookup";
+  const shareUrl = typeof window !== "undefined" ? window.location.href : "https://openfeds.org/lookup";
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
+      <Breadcrumb items={[{ label: 'Explore', href: '/lookup' }, { label: 'Agency Lookup' }]} />
       <div className="text-center mb-10">
         <h1 className="font-serif text-4xl font-bold text-gray-900 mb-3">
           What Happened to My Agency?

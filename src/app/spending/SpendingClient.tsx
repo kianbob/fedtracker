@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { formatNumber, fixAgencyName } from "@/lib/format";
+import Breadcrumb from "@/components/Breadcrumb";
 import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell, ScatterChart, Scatter, ZAxis,
 } from "recharts";
@@ -92,6 +93,7 @@ export function SpendingClient() {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
+      <Breadcrumb items={[{ label: 'Workforce', href: '/spending' }, { label: 'Spending' }]} />
       {/* Hero */}
       <header className="mb-12">
         <p className="text-sm font-semibold text-accent uppercase tracking-wide mb-3">Federal Budget Analysis</p>

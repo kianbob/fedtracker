@@ -5,7 +5,7 @@ import { EducationChart } from "./EducationChart";
 import educationData from "../../../public/data/education-salary.json";
 
 export const metadata: Metadata = {
-  title: "Education & Salary Analysis — Federal Pay by Degree Level — FedTracker",
+  title: "Education & Salary Analysis — Federal Pay by Degree Level — OpenFeds",
   description: "How does education level affect federal salary? Analysis of pay by degree from high school to doctorate across 2M+ federal employees.",
 };
 

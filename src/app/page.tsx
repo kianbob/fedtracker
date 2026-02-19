@@ -12,7 +12,7 @@ import statesData from "../../public/data/states.json";
 import trends from "../../public/data/trends.json";
 
 export const metadata: Metadata = {
-  title: "FedTracker — Track the Federal Workforce | 2M+ Employees, 128 Agencies",
+  title: "OpenFeds — Track the Federal Workforce | 2M+ Employees, 128 Agencies",
   description: "Explore data on 2M+ federal employees across 128 agencies. Salaries, layoffs, hiring trends, and separations — all from official OPM FedScope data.",
 };
 

@@ -3,6 +3,6 @@ import type { MetadataRoute } from "next";
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: { userAgent: "*", allow: "/" },
-    sitemap: "https://fedtracker.vercel.app/sitemap.xml",
+    sitemap: "https://openfeds.org/sitemap.xml",
   };
 }

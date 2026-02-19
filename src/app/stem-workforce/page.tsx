@@ -7,7 +7,7 @@ import { STEMCategoryChart } from "./STEMCategoryChart";
 
 export const metadata: Metadata = {
   title:
-    "The STEM Brain Drain: Are We Losing America's Technical Workforce? — FedTracker",
+    "The STEM Brain Drain: Are We Losing America's Technical Workforce? — OpenFeds",
   description:
     "Federal STEM workforce analysis: engineers, scientists, technologists, and healthcare professionals across 128 agencies. Who employs them, what they earn, and why it matters for national security.",
 };
@@ -110,7 +110,7 @@ export default function STEMWorkforcePage() {
 
       <header className="mb-16">
         <p className="text-sm font-semibold text-accent uppercase tracking-wide mb-3">
-          FedTracker Editorial
+          OpenFeds Editorial
         </p>
         <h1 className="font-serif text-4xl sm:text-5xl font-bold text-gray-900 mb-4 leading-tight">
           The STEM Brain Drain: Are We Losing America&apos;s Technical

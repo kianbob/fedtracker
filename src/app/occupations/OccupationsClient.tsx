@@ -77,7 +77,7 @@ export function OccupationsClient() {
                 <span className="font-medium text-gray-900">{o.name}</span>
                 <span className="ml-2 text-xs text-gray-400">{o.code}</span>
               </div>
-              <div className="col-span-3 text-sm text-gray-500 truncate">{o.family}</div>
+              <div className="col-span-3 text-sm text-gray-500 truncate" title={o.family}>{o.family}</div>
               <div className="col-span-2 text-right text-gray-700">{formatNumber(o.employees)}</div>
               <div className="col-span-2 text-right text-gray-700">{formatSalary(o.avgSalary)}</div>
             </Link>

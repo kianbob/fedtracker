@@ -3,8 +3,8 @@ import Link from "next/link";
 
 
 export const metadata: Metadata = {
-  title: "Updates — FedTracker",
-  description: "Data updates and changelog for FedTracker federal workforce data.",
+  title: "Updates — OpenFeds",
+  description: "Data updates and changelog for OpenFeds federal workforce data.",
 };
 
 const updates = [
@@ -18,7 +18,7 @@ const updates = [
     date: "January 2025",
     title: "Initial launch with Oct 2023 – Nov 2025 data",
     details:
-      "Launched FedTracker with OPM FedScope employment snapshots and separation/accession flow data covering FY2020–2025. Includes agency profiles, occupation explorer, state breakdowns, salary analysis, and editorial analysis pages.",
+      "Launched OpenFeds with OPM FedScope employment snapshots and separation/accession flow data covering FY2020–2025. Includes agency profiles, occupation explorer, state breakdowns, salary analysis, and editorial analysis pages.",
   },
   {
     date: "January 2025",
@@ -52,7 +52,7 @@ export default function UpdatesPage() {
 
       <div className="mt-12 pt-8 border-t border-gray-200">
         <p className="text-sm text-gray-500">
-          FedTracker updates after each new OPM FedScope data release. See{" "}
+          OpenFeds updates after each new OPM FedScope data release. See{" "}
           <Link href="/about" className="text-indigo-600 hover:underline">About</Link> for data sources and methodology.
         </p>
       </div>

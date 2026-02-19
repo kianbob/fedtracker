@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "FedTracker — Federal Workforce Data";
+export const alt = "OpenFeds — Federal Workforce Data";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -41,7 +41,7 @@ export default async function Image() {
               fontWeight: 700,
             }}
           >
-            FT
+            OF
           </div>
           <span
             style={{
@@ -50,7 +50,7 @@ export default async function Image() {
               fontWeight: 600,
             }}
           >
-            FedTracker
+            OpenFeds
           </span>
         </div>
         <div

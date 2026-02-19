@@ -16,9 +16,9 @@ function getOccData(code: string) {
 
 export async function generateMetadata({ params }: { params: { code: string } }): Promise<Metadata> {
   const data = getOccData(params.code);
-  if (!data) return { title: "Occupation Not Found — FedTracker" };
+  if (!data) return { title: "Occupation Not Found — OpenFeds" };
   return {
-    title: `${toTitleCase(data.name)} (${data.code}) — ${formatNumber(data.employees)} Employees — FedTracker`,
+    title: `${toTitleCase(data.name)} (${data.code}) — ${formatNumber(data.employees)} Employees — OpenFeds`,
     description: `Federal ${toTitleCase(data.name)} workforce data: ${formatNumber(data.employees)} employees, average salary ${formatSalary(data.avgSalary)}.`,
   };
 }

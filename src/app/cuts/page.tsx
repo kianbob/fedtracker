@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "DOGE & Cuts — FedTracker",
+  title: "DOGE & Cuts — OpenFeds",
   description: "Track federal workforce reductions, DOGE impact, separations, geographic effects, and risk analysis.",
 };
 
@@ -20,7 +20,7 @@ export default function CutsPage() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-12">
       <header className="mb-12">
-        <p className="text-sm font-semibold text-accent uppercase tracking-wide mb-3">FedTracker</p>
+        <p className="text-sm font-semibold text-accent uppercase tracking-wide mb-3">OpenFeds</p>
         <h1 className="font-serif text-4xl sm:text-5xl font-bold text-gray-900 dark:text-gray-100 mb-4">
           ⚠️ DOGE & Cuts
         </h1>

@@ -90,10 +90,11 @@ export default function WhoGotCutPage() {
           <span>&middot;</span>
           <span>Accessions: FY2025</span>
         </div>
+        <p className="text-xs text-gray-400 mt-2">Last updated: February 2026</p>
       </header>
 
       {/* TOC */}
-      <nav className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-16">
+      <nav className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-10">
         <h3 className="font-semibold text-gray-900 mb-3">In This Analysis</h3>
         <ol className="space-y-2 text-gray-700">
           <li>

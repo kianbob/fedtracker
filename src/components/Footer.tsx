@@ -58,11 +58,11 @@ export function Footer() {
               <a href="https://www.opm.gov/data/datasets/" target="_blank" rel="noopener noreferrer" aria-label="OPM FedScope datasets (external)" className="block text-gray-600 hover:text-accent">OPM FedScope ↗</a>
             </div>
             <div className="mt-6">
-              <Link href="/about" aria-label="About FedTracker and methodology" className="text-sm text-gray-600 hover:text-accent font-medium">About & Methodology</Link>
+              <Link href="/about" aria-label="About OpenFeds and methodology" className="text-sm text-gray-600 hover:text-accent font-medium">About & Methodology</Link>
             </div>
 
             <div className="mt-6">
-              <h4 className="font-serif text-lg font-bold text-gray-900 mb-1">FedTracker</h4>
+              <h4 className="font-serif text-lg font-bold text-gray-900 mb-1">OpenFeds</h4>
               <p className="text-xs text-gray-500">
                 Tracking the federal workforce with data from OPM FedScope.
                 Open data, open source.

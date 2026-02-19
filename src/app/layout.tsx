@@ -17,15 +17,15 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://fedtracker.vercel.app"),
+  metadataBase: new URL("https://openfeds.org"),
   alternates: {
     canonical: "./",
   },
-  title: "FedTracker — Federal Workforce Data",
+  title: "OpenFeds — Federal Workforce Data",
   description:
     "Track the federal workforce: employees, salaries, layoffs, and hiring across all agencies. Built from OPM FedScope data.",
   openGraph: {
-    title: "FedTracker — Federal Workforce Data",
+    title: "OpenFeds — Federal Workforce Data",
     description: "Track the federal workforce with real data from OPM FedScope.",
     type: "website",
   },
@@ -34,8 +34,8 @@ export const metadata: Metadata = {
 const jsonLdWebSite = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "FedTracker",
-  "url": "https://fedtracker.vercel.app",
+  "name": "OpenFeds",
+  "url": "https://openfeds.org",
   "description": "Track the federal workforce with data from OPM FedScope. 2.07M employees, 128 agencies, salaries, layoffs, hiring trends, and DOGE impact analysis.",
   "publisher": {
     "@type": "Organization",
@@ -49,7 +49,7 @@ const jsonLdDataset = {
   "@type": "Dataset",
   "name": "Federal Workforce Analysis (FY2020–2025)",
   "description": "Analysis of OPM FedScope employment, separations, and accessions data covering 2.07 million federal employees across 128 agencies, including 2025 DOGE workforce reduction impact.",
-  "url": "https://fedtracker.vercel.app",
+  "url": "https://openfeds.org",
   "creator": {
     "@type": "Organization",
     "name": "TheDataProject.ai"
@@ -84,7 +84,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${playfair.variable} ${inter.variable}`}>
       <head>
-        <link rel="alternate" type="application/rss+xml" title="FedTracker" href="/feed.xml" />
+        <link rel="alternate" type="application/rss+xml" title="OpenFeds" href="/feed.xml" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdWebSite, null, 2) }}

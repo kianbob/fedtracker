@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Explore — FedTracker",
-  description: "Browse all FedTracker data: agencies, occupations, states, workforce trends, DOGE impact, and analysis.",
+  title: "Explore — OpenFeds",
+  description: "Browse all OpenFeds data: agencies, occupations, states, workforce trends, DOGE impact, and analysis.",
 };
 
 const sections = [
@@ -66,12 +66,12 @@ export default function ExplorePage() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-12">
       <header className="mb-12">
-        <p className="text-sm font-semibold text-accent uppercase tracking-wide mb-3">FedTracker</p>
+        <p className="text-sm font-semibold text-accent uppercase tracking-wide mb-3">OpenFeds</p>
         <h1 className="font-serif text-4xl sm:text-5xl font-bold text-gray-900 dark:text-gray-100 mb-4">
           Explore the Data
         </h1>
         <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl">
-          Everything FedTracker offers in one place. Browse federal workforce data across agencies, occupations, states, and more.
+          Everything OpenFeds offers in one place. Browse federal workforce data across agencies, occupations, states, and more.
         </p>
       </header>
 

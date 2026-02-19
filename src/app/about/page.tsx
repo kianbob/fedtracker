@@ -1,20 +1,20 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "About FedTracker — Data Sources & Methodology — FedTracker",
-  description: "About FedTracker, data sources, and methodology.",
+  title: "About OpenFeds — Data Sources & Methodology — OpenFeds",
+  description: "About OpenFeds, data sources, and methodology.",
 };
 
 export default function AboutPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-12">
-      <h1 className="font-serif text-4xl font-bold text-gray-900 mb-8">About FedTracker</h1>
+      <h1 className="font-serif text-4xl font-bold text-gray-900 mb-8">About OpenFeds</h1>
 
       <div className="prose prose-gray max-w-none">
         <section className="mb-10">
           <h2 className="font-serif text-2xl font-bold text-gray-900 mb-3">What is this?</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            FedTracker is a data journalism project that makes federal workforce data accessible and explorable.
+            OpenFeds is a data journalism project that makes federal workforce data accessible and explorable.
             We process raw data from the Office of Personnel Management (OPM) FedScope dataset to reveal
             patterns in federal employment, salaries, hiring, and separations.
           </p>
@@ -23,7 +23,7 @@ export default function AboutPage() {
         <section className="mb-10">
           <h2 className="font-serif text-2xl font-bold text-gray-900 mb-3">Data Sources</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            FedTracker uses two distinct types of OPM FedScope data: <strong>employment snapshots</strong> and <strong>flow data</strong>.
+            OpenFeds uses two distinct types of OPM FedScope data: <strong>employment snapshots</strong> and <strong>flow data</strong>.
             Employment snapshots capture the state of the federal workforce at a single point in time — who works where,
             in what occupation, at what salary. Flow data (separations and accessions) tracks employees entering and
             leaving federal service over time, enabling trend analysis.
@@ -68,7 +68,7 @@ export default function AboutPage() {
         <section className="mb-10">
           <h2 className="font-serif text-2xl font-bold text-gray-900 mb-3">Update Schedule</h2>
           <p className="text-gray-700 leading-relaxed mb-3">
-            OPM publishes FedScope data on a monthly basis. FedTracker currently reflects:
+            OPM publishes FedScope data on a monthly basis. OpenFeds currently reflects:
           </p>
           <div className="bg-gray-50 rounded-xl p-6">
             <ul className="list-none space-y-2 text-sm text-gray-700">
@@ -78,7 +78,7 @@ export default function AboutPage() {
             </ul>
           </div>
           <p className="mt-3 text-sm text-gray-500">
-            We update FedTracker after each new OPM data release. There is typically a 1–2 month lag between
+            We update OpenFeds after each new OPM data release. There is typically a 1–2 month lag between
             the end of a reporting period and when OPM publishes the corresponding data.
           </p>
         </section>
@@ -157,7 +157,7 @@ export default function AboutPage() {
         <section className="mb-10">
           <h2 className="font-serif text-2xl font-bold text-gray-900 mb-3">Embeddable Charts</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            FedTracker offers embeddable charts that you can include on your own website via iframe.
+            OpenFeds offers embeddable charts that you can include on your own website via iframe.
             Each embed is a self-contained HTML page with no external dependencies.
           </p>
           <div className="bg-gray-50 rounded-xl p-6 space-y-3">
@@ -180,7 +180,7 @@ export default function AboutPage() {
           <h2 className="font-serif text-2xl font-bold text-gray-900 mb-3">Open Source</h2>
           <p className="text-gray-700 leading-relaxed">
             This project is open source. The code and data processing scripts are available on{" "}
-            <a href="https://github.com/kianbob/fedtracker" target="_blank" rel="noopener" className="text-accent hover:underline">
+            <a href="https://github.com/kianbob/openfeds" target="_blank" rel="noopener" className="text-accent hover:underline">
               GitHub
             </a>.
           </p>

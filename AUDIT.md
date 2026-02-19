@@ -1,4 +1,4 @@
-# FedTracker Site Audit — Feb 18, 2026
+# OpenFeds Site Audit — Feb 18, 2026
 
 ## Critical Bugs
 1. **Agencies page renders empty** — web_fetch only returns footer. Likely client component not rendering or data loading issue.
@@ -8,7 +8,7 @@
 5. **Suspicious salary data** — MATERIALS HANDLER at $299K, MISC TRANSPORTATION at $479K. Likely data quality issue (outliers or calculation errors in weighted avg).
 
 ## Design/UX Issues
-6. **No page-specific titles** — All pages show "FedTracker — Federal Workforce Data" (the layout default). Need unique titles per page.
+6. **No page-specific titles** — All pages show "OpenFeds — Federal Workforce Data" (the layout default). Need unique titles per page.
 7. **No sitemap.ts** — Missing sitemap for SEO
 8. **No robots.ts** — Missing robots.txt
 9. **No OG image** — No social preview image

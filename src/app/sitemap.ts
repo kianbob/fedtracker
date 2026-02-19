@@ -3,7 +3,7 @@ import fs from "fs";
 import path from "path";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = "https://fedtracker.vercel.app";
+  const base = "https://openfeds.org";
   const now = new Date();
 
   const pages: MetadataRoute.Sitemap = [

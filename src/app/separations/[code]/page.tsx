@@ -18,9 +18,9 @@ function getSepData(code: string) {
 
 export async function generateMetadata({ params }: { params: { code: string } }): Promise<Metadata> {
   const data = getSepData(params.code.toUpperCase());
-  if (!data) return { title: "Separation Type Not Found — FedTracker" };
+  if (!data) return { title: "Separation Type Not Found — OpenFeds" };
   return {
-    title: `${data.name} (${data.code}) — ${formatNumber(data.totalCount)} Separations — FedTracker`,
+    title: `${data.name} (${data.code}) — ${formatNumber(data.totalCount)} Separations — OpenFeds`,
     description: `${data.description}. ${formatNumber(data.totalCount)} federal employees separated under this category from FY2020-2025.`,
   };
 }

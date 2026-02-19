@@ -55,6 +55,7 @@ export default function FindingsPage() {
           <span>·</span>
           <span>Separations: FY2020-2025</span>
         </div>
+        <p className="text-xs text-gray-400 mt-2">Last updated: February 2026</p>
         <div className="flex gap-3 mt-4">
           <a
             href="https://twitter.com/intent/tweet?text=Key%20Findings%3A%20The%20Federal%20Workforce%20in%202025&url=https%3A%2F%2Ffedtracker.vercel.app%2Ffindings"
@@ -78,9 +79,9 @@ export default function FindingsPage() {
       </header>
 
       {/* TABLE OF CONTENTS */}
-      <nav className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-16">
+      <nav className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-10">
         <h3 className="font-semibold text-gray-900 mb-3">In This Report</h3>
-        <ol className="space-y-2 text-gray-700">
+        <ol className="space-y-2 text-gray-700 list-none">
           <li><a href="#doge" className="hover:text-accent">1. The DOGE Effect: -217K Employees</a></li>
           <li><a href="#retirement" className="hover:text-accent">2. The Retirement Cliff</a></li>
           <li><a href="#experience" className="hover:text-accent">3. The Experience Drain</a></li>

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { SimpleBarChart, SimplePieChart } from "@/components/Charts";
 import { StatCard } from "@/components/StatCard";
 import { formatNumber, toTitleCase } from "@/lib/format";
+import Breadcrumb from "@/components/Breadcrumb";
 
 interface Entry {
   label: string;
@@ -24,6 +25,7 @@ export function DemographicsClient({ data }: { data: DemographicsData | null }) 
   if (!data) {
     return (
       <div className="max-w-7xl mx-auto px-4 py-12">
+        <Breadcrumb items={[{ label: 'Workforce', href: '/demographics' }, { label: 'Demographics' }]} />
         <h1 className="font-serif text-4xl font-bold text-gray-900 mb-4">
           Federal Workforce Demographics
         </h1>
@@ -98,6 +100,7 @@ export function DemographicsClient({ data }: { data: DemographicsData | null }) 
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
+      <Breadcrumb items={[{ label: 'Workforce', href: '/demographics' }, { label: 'Demographics' }]} />
       <h1 className="font-serif text-4xl font-bold text-gray-900 mb-2">
         Federal Workforce Demographics
       </h1>

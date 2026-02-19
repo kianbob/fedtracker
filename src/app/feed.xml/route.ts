@@ -1,4 +1,4 @@
-const SITE_URL = "https://fedtracker.vercel.app";
+const SITE_URL = "https://openfeds.org";
 
 const pages = [
   {
@@ -63,7 +63,7 @@ export function GET() {
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>FedTracker — Federal Workforce Data</title>
+    <title>OpenFeds — Federal Workforce Data</title>
     <link>${SITE_URL}</link>
     <description>Data-driven analysis of the federal workforce: employees, salaries, layoffs, and hiring across all agencies.</description>
     <language>en-us</language>

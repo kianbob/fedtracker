@@ -16,10 +16,10 @@ for (const o of occupationList as { code: string; name: string }[]) {
 
 export async function generateMetadata({ params }: { params: { code: string } }): Promise<Metadata> {
   const data = await getAgencyData(params.code);
-  if (!data) return { title: "Agency Not Found — FedTracker" };
+  if (!data) return { title: "Agency Not Found — OpenFeds" };
   const name = cleanAgencyName(data.name);
   return {
-    title: `${name} — ${formatNumber(data.employees)} Employees, Avg ${formatSalary(data.avgSalary)} — FedTracker`,
+    title: `${name} — ${formatNumber(data.employees)} Employees, Avg ${formatSalary(data.avgSalary)} — OpenFeds`,
     description: `Federal workforce data for ${name}: ${formatNumber(data.employees)} employees, average salary ${formatSalary(data.avgSalary)}. Top occupations, locations, and separation trends.`,
   };
 }

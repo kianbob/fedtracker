@@ -4,7 +4,7 @@ import fs from "fs";
 import path from "path";
 
 export const metadata: Metadata = {
-  title: "Appointment Type Impact — Career vs Temporary: Who Got Cut — FedTracker",
+  title: "Appointment Type Impact — Career vs Temporary: Who Got Cut — OpenFeds",
   description: "How DOGE cuts affected different federal appointment types: career, career-conditional, excepted service, SES, and temporary employees.",
 };
 

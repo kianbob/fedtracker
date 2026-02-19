@@ -2,6 +2,7 @@
 import { SimpleBarChart, SimplePieChart } from "@/components/Charts";
 import { formatNumber, formatSalary, cleanAgencyName } from "@/lib/format";
 import Link from "next/link";
+import Breadcrumb from "@/components/Breadcrumb";
 
 export function SalariesClient({ data }: { data: any }) {
   const distOrder = ["Under $30K", "$30K-$50K", "$50K-$75K", "$75K-$100K", "$100K-$125K", "$125K-$150K", "$150K-$200K", "$200K+"];
@@ -9,6 +10,7 @@ export function SalariesClient({ data }: { data: any }) {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
+      <Breadcrumb items={[{ label: 'Workforce', href: '/salaries' }, { label: 'Salaries' }]} />
       <h1 className="font-serif text-4xl font-bold text-gray-900 mb-2">Federal Salary Analysis</h1>
       <p className="text-gray-600 mb-8">Pay distribution, highest-paid agencies, occupations, and grade levels.</p>
 

@@ -4,7 +4,7 @@ import fs from "fs";
 import path from "path";
 
 export const metadata: Metadata = {
-  title: "DOGE Impact Dashboard — 217K Federal Positions Restructured — FedTracker",
+  title: "DOGE Impact Dashboard — 217K Federal Positions Restructured — OpenFeds",
   description:
     "Data-driven analysis of the 2025 federal workforce restructuring under DOGE: 217,177 net positions reduced, 10,721 RIFs, hiring reduced 54%. Agency-by-agency breakdown and monthly trends from OPM data.",
   openGraph: {

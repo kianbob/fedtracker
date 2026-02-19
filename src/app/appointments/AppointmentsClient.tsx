@@ -5,6 +5,7 @@ import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer,
 } from "recharts";
 import { formatSalary } from "@/lib/format";
+import Breadcrumb from "@/components/Breadcrumb";
 
 interface AppointmentData {
   name: string;
@@ -62,6 +63,7 @@ export function AppointmentsClient({ data }: { data: AppointmentData[] | null })
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-10">
+      <Breadcrumb items={[{ label: 'Workforce', href: '/appointments' }, { label: 'Appointments' }]} />
       <h1 className="font-serif text-4xl md:text-5xl font-bold text-gray-900 mb-4">
         Career vs Temporary: Who Got Cut?
       </h1>

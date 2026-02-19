@@ -3,7 +3,7 @@ import Link from "next/link";
 import { SalaryExplorerClient } from "./SalaryExplorerClient";
 
 export const metadata: Metadata = {
-  title: "Federal Salary Explorer: What Does Government Pay? — FedTracker",
+  title: "Federal Salary Explorer: What Does Government Pay? — OpenFeds",
   description:
     "Interactive tool to explore federal salaries by agency and grade. Compare pay across 128 agencies, see GS grade distributions, and find out what government jobs really pay.",
 };

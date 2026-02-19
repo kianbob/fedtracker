@@ -1,4 +1,4 @@
-# CLAUDE.md — FedTracker
+# CLAUDE.md — OpenFeds
 
 Next.js 14 App Router project with TypeScript + Tailwind. Federal workforce data site.
 

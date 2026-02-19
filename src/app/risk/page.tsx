@@ -3,12 +3,13 @@ import Link from "next/link";
 import { formatNumber, formatSalary, fixAgencyName } from "@/lib/format";
 import { RiskTable } from "./RiskTable";
 import agencyRisk from "../../../public/data/agency-risk.json";
+import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "Agency Risk Dashboard — Which Agencies Are Most At Risk? — FedTracker",
+  title: "Agency Risk Dashboard — Which Agencies Are Most At Risk? — OpenFeds",
   description: "Risk scores for every federal agency based on workforce reduction, retirement eligibility, separation rates, and more.",
   openGraph: {
-    title: "Agency Risk Dashboard - FedTracker",
+    title: "Agency Risk Dashboard - OpenFeds",
     description: "Risk scores for every federal agency based on workforce reduction, retirement eligibility, and separation rates.",
   },
 };
@@ -21,6 +22,7 @@ export default function RiskPage() {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
+      <Breadcrumb items={[{ label: 'DOGE & Cuts', href: '/risk' }, { label: 'Risk Dashboard' }]} />
       {/* Hero */}
       <header className="mb-12">
         <p className="text-sm font-semibold text-accent uppercase tracking-wide mb-3">Agency Risk Analysis</p>

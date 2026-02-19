@@ -28,7 +28,7 @@ function wrapHtml(title: string, body: string) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="Cache-Control" content="public, max-age=3600">
   <meta http-equiv="Expires" content="${new Date(Date.now() + 3600000).toUTCString()}">
-  <title>${title} — FedTracker</title>
+  <title>${title} — OpenFeds</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #fff; color: #1f2937; padding: 20px; position: relative; min-height: 100vh; }
@@ -48,7 +48,7 @@ function wrapHtml(title: string, body: string) {
 </head>
 <body>
   ${body}
-  <a href="https://fedtracker.vercel.app" target="_blank" rel="noopener" class="watermark">FedTracker</a>
+  <a href="https://openfeds.org" target="_blank" rel="noopener" class="watermark">OpenFeds</a>
 </body>
 </html>`;
 }

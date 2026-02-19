@@ -13,13 +13,13 @@ export default function Breadcrumb({ items }: { items: BreadcrumbItem[] }) {
       </Link>
       {items.map((item, i) => (
         <span key={i}>
-          <span className="mx-1.5">&gt;</span>
+          <span className="mx-1.5">/</span>
           {item.href ? (
             <Link href={item.href} className="hover:text-accent">
               {item.label}
             </Link>
           ) : (
-            <span className="text-gray-700">{item.label}</span>
+            <span className="text-gray-500">{item.label}</span>
           )}
         </span>
       ))}

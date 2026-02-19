@@ -3,7 +3,7 @@ import Link from "next/link";
 import { MonthlyTimelineClient } from "./MonthlyTimelineClient";
 
 export const metadata: Metadata = {
-  title: "Month by Month: How the Federal Workforce Changed (FY2020-2024) — FedTracker",
+  title: "Month by Month: How the Federal Workforce Changed (FY2020-2024) — OpenFeds",
   description:
     "48 months of federal workforce data: separations, accessions, quits, retirements, RIFs, and net change. See the patterns the annual numbers hide.",
 };
@@ -20,7 +20,7 @@ export default function MonthlyTimelinePage() {
       </nav>
       <header className="mb-12">
         <p className="text-sm font-semibold text-accent uppercase tracking-wide mb-3">
-          FedTracker Analysis
+          OpenFeds Analysis
         </p>
         <h1 className="font-serif text-4xl sm:text-5xl font-bold text-gray-900 mb-4 leading-tight">
           Month by Month: How the Federal Workforce Changed

@@ -88,6 +88,7 @@ export default function SalaryAnalysisPage() {
           <span>·</span>
           <span>{formatNumber(totalEmployees)} employees analyzed</span>
         </div>
+        <p className="text-xs text-gray-400 mt-2">Last updated: February 2026</p>
       </header>
 
       {/* TABLE OF CONTENTS */}

@@ -54,6 +54,21 @@ export default async function SeparationDetailPage({ params }: { params: { code:
 
       <SeparationCharts data={data} />
 
+      {/* Top Agencies */}
+      {data.topAgencies?.length > 0 && (
+        <section className="mt-12">
+          <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4">Top Agencies</h2>
+          <div className="bg-white border border-gray-200 rounded-xl overflow-hidden divide-y divide-gray-100">
+            {data.topAgencies.slice(0, 15).map((a: any, i: number) => (
+              <Link key={i} href={`/agencies/${a.code}`} className="flex justify-between px-6 py-3 hover:bg-gray-50 transition-colors">
+                <span className="text-gray-800 truncate mr-4">{cleanAgencyName(a.name || a.code)}</span>
+                <span className="text-gray-700 font-semibold text-sm shrink-0">{formatNumber(a.count)}</span>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
+
       {/* Top Occupations */}
       {data.topOccupations?.length > 0 && (
         <section className="mt-12">

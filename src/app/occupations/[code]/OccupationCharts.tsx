@@ -1,6 +1,6 @@
 "use client";
 import { SimpleBarChart, SimplePieChart } from "@/components/Charts";
-import { toTitleCase } from "@/lib/format";
+import { toTitleCase, fixAgencyName } from "@/lib/format";
 
 function shortenEd(s: string): string {
   return s
@@ -23,7 +23,7 @@ export function OccupationCharts({ data }: { data: any }) {
           <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4">Top Agencies</h2>
           <div className="bg-white border border-gray-200 rounded-xl p-4">
             <SimpleBarChart
-              data={data.topAgencies.slice(0, 10).map((a: any) => ({ name: toTitleCase(a.name || a.code).slice(0, 35), count: a.count }))}
+              data={data.topAgencies.slice(0, 10).map((a: any) => ({ name: fixAgencyName(a.name || a.code), count: a.count }))}
               dataKey="count" nameKey="name" color="#3730a3"
             />
           </div>

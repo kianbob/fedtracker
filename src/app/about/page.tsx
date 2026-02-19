@@ -22,26 +22,37 @@ export default function AboutPage() {
 
         <section className="mb-10">
           <h2 className="font-serif text-2xl font-bold text-gray-900 mb-3">Data Sources</h2>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            FedTracker uses two distinct types of OPM FedScope data: <strong>employment snapshots</strong> and <strong>flow data</strong>.
+            Employment snapshots capture the state of the federal workforce at a single point in time — who works where,
+            in what occupation, at what salary. Flow data (separations and accessions) tracks employees entering and
+            leaving federal service over time, enabling trend analysis.
+          </p>
           <div className="bg-gray-50 rounded-xl p-6 space-y-4">
             <div>
-              <h3 className="font-semibold text-gray-900">Employment Data (December 2025)</h3>
+              <h3 className="font-semibold text-gray-900">Employment Snapshot (December 2025)</h3>
               <p className="text-sm text-gray-600">
-                Current federal workforce snapshot with ~2.07M employee records. Includes agency, occupation,
-                location, salary, education level, and work schedule.
+                Point-in-time federal workforce snapshot with ~2.07M employee records. Each record represents
+                one or more employees sharing identical characteristics. Includes agency, sub-agency, occupation series,
+                duty location (state), salary, pay plan and grade, education level, age bracket, supervisory status,
+                and work schedule. This powers agency profiles, occupation pages, state pages, and salary analysis.
               </p>
             </div>
             <div>
-              <h3 className="font-semibold text-gray-900">Separations Data (FY2020-2025)</h3>
+              <h3 className="font-semibold text-gray-900">Separations (FY2020–2025)</h3>
               <p className="text-sm text-gray-600">
-                ~953K records of employees leaving federal service. Includes separation type (quit, retirement,
-                RIF, termination, etc.), effective date, and salary at separation.
+                ~953K records of employees leaving federal service. Each record includes the separation type
+                (coded SA through SL — covering transfers, quits, retirements, RIFs, terminations, and more),
+                effective date, agency, occupation, and salary at separation. This flow data enables tracking of
+                monthly separation trends by type, agency, and occupation.
               </p>
             </div>
             <div>
-              <h3 className="font-semibold text-gray-900">Accessions Data (FY2020-2025)</h3>
+              <h3 className="font-semibold text-gray-900">Accessions (FY2020–2025)</h3>
               <p className="text-sm text-gray-600">
                 ~1.17M records of new hires entering federal service. Includes accession type (new hire,
-                transfer), effective date, and starting salary.
+                transfer in, reinstatement), effective date, agency, and starting salary. Combined with
+                separations data, this powers net workforce change analysis.
               </p>
             </div>
           </div>
@@ -55,22 +66,90 @@ export default function AboutPage() {
         </section>
 
         <section className="mb-10">
+          <h2 className="font-serif text-2xl font-bold text-gray-900 mb-3">Update Schedule</h2>
+          <p className="text-gray-700 leading-relaxed mb-3">
+            OPM publishes FedScope data on a monthly basis. FedTracker currently reflects:
+          </p>
+          <div className="bg-gray-50 rounded-xl p-6">
+            <ul className="list-none space-y-2 text-sm text-gray-700">
+              <li><strong>Employment snapshot:</strong> December 2025</li>
+              <li><strong>Separations data:</strong> October 2019 through November 2025</li>
+              <li><strong>Accessions data:</strong> October 2019 through November 2025</li>
+            </ul>
+          </div>
+          <p className="mt-3 text-sm text-gray-500">
+            We update FedTracker after each new OPM data release. There is typically a 1–2 month lag between
+            the end of a reporting period and when OPM publishes the corresponding data.
+          </p>
+        </section>
+
+        <section className="mb-10">
           <h2 className="font-serif text-2xl font-bold text-gray-900 mb-3">Methodology</h2>
-          <ul className="list-disc pl-5 space-y-2 text-gray-700">
-            <li>Employee counts are summed from individual records (each representing one or more employees with identical characteristics).</li>
-            <li>Average salaries are weighted averages based on employee counts per record.</li>
-            <li>Records with redacted or null salary values are excluded from salary calculations but included in headcounts.</li>
-            <li>Separation types follow OPM definitions: RIF (Reduction in Force) is code SH, Termination is SJ, Quit is SC.</li>
-            <li>Net workforce change = accessions minus separations for a given period.</li>
-          </ul>
+          <div className="space-y-4 text-gray-700">
+            <div>
+              <h3 className="font-semibold text-gray-900 mb-1">Employee Counts</h3>
+              <p className="text-sm">
+                Employee counts are summed from individual FedScope records. Each record may represent one or
+                more employees sharing identical characteristics (agency, occupation, location, salary, etc.).
+                The &quot;count&quot; field in each record is summed to produce totals by agency, occupation, state, and other dimensions.
+              </p>
+            </div>
+            <div>
+              <h3 className="font-semibold text-gray-900 mb-1">Average Salaries</h3>
+              <p className="text-sm">
+                Average salaries are weighted averages based on employee counts per record. Records with redacted,
+                null, or zero salary values are excluded from salary calculations but still included in headcounts.
+                Salary figures represent adjusted basic pay as reported by OPM.
+              </p>
+            </div>
+            <div>
+              <h3 className="font-semibold text-gray-900 mb-1">Separation Types</h3>
+              <p className="text-sm">
+                Separation types follow OPM&apos;s standard coding: SA (Transfer Out), SB (Death), SC (Quit),
+                SD (Retirement), SE (Termination for Cause), SF (Involuntary Resignation), SG (Other Separation),
+                SH (RIF — Reduction in Force), SJ (Termination), SK (Disability), and SL (Early Retirement).
+                Monthly separation counts are aggregated by type to produce trend charts and breakdowns.
+              </p>
+            </div>
+            <div>
+              <h3 className="font-semibold text-gray-900 mb-1">Net Workforce Change</h3>
+              <p className="text-sm">
+                Net workforce change is computed as accessions minus separations for a given month or period.
+                A negative value indicates the workforce shrank (more departures than hires).
+              </p>
+            </div>
+          </div>
         </section>
 
         <section className="mb-10">
           <h2 className="font-serif text-2xl font-bold text-gray-900 mb-3">Limitations</h2>
           <ul className="list-disc pl-5 space-y-2 text-gray-700">
-            <li>This covers civilian federal employees only — not military, contractors, or postal workers (USPS has its own data).</li>
-            <li>Some records have redacted values (marked as &quot;REDACTED&quot; or &quot;*&quot;) for privacy. These are excluded from salary calculations.</li>
-            <li>The employment snapshot is a point-in-time view (December 2025), while separations and accessions span FY2020-2025.</li>
+            <li>
+              <strong>Civilian only.</strong> FedScope covers civilian federal employees only. Active-duty military
+              personnel, federal contractors, and U.S. Postal Service employees are not included (USPS publishes
+              its own workforce data separately).
+            </li>
+            <li>
+              <strong>Military agency salary redaction.</strong> Salary data for Department of Defense military
+              agencies (DD, AR, AF, NV) is redacted by OPM. These agencies show &quot;N/A&quot; for salary
+              figures rather than misleading $0 values. Employee counts for these agencies are still accurate.
+            </li>
+            <li>
+              <strong>Privacy redactions.</strong> Some records have values marked as &quot;REDACTED&quot; or
+              &quot;*&quot; to protect individual privacy, typically when a combination of attributes would identify
+              a specific person. These records are excluded from salary and demographic calculations but included
+              in headcounts.
+            </li>
+            <li>
+              <strong>Snapshot vs. flow data.</strong> The employment snapshot is a point-in-time view (December 2025),
+              while separations and accessions data spans FY2020–2025. An agency&apos;s current employee count may
+              not match the net of historical accessions and separations due to agency reorganizations, reclassifications,
+              and data corrections.
+            </li>
+            <li>
+              <strong>OPM reporting lag.</strong> There is a 1–2 month lag between events and their appearance in
+              FedScope data. Recent months may undercount separations or accessions that have not yet been processed.
+            </li>
           </ul>
         </section>
 

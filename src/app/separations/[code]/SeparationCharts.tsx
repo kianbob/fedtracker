@@ -1,6 +1,6 @@
 "use client";
 import { TrendAreaChart, SimpleBarChart } from "@/components/Charts";
-import { formatMonth, toTitleCase } from "@/lib/format";
+import { formatMonth, toTitleCase, fixAgencyName } from "@/lib/format";
 
 export function SeparationCharts({ data }: { data: any }) {
   const trendData = (data.monthlyTrend || []).map((m: any) => ({

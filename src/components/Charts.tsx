@@ -25,10 +25,10 @@ export function TrendAreaChart({ data, lines }: { data: any[]; lines: { key: str
 export function SimpleBarChart({ data, dataKey, nameKey, color = "#3730a3" }: { data: any[]; dataKey: string; nameKey: string; color?: string }) {
   return (
     <ResponsiveContainer width="100%" height={350}>
-      <BarChart data={data} layout="vertical" margin={{ top: 5, right: 30, bottom: 5, left: 150 }}>
+      <BarChart data={data} layout="vertical" margin={{ top: 5, right: 30, bottom: 5, left: 190 }}>
         <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
         <XAxis type="number" tick={{ fontSize: 12 }} tickFormatter={(v) => v >= 1000 ? `${(v / 1000).toFixed(0)}K` : v} />
-        <YAxis type="category" dataKey={nameKey} tick={{ fontSize: 11 }} width={140} />
+        <YAxis type="category" dataKey={nameKey} tick={{ fontSize: 11 }} width={180} />
         <Tooltip formatter={(v: any) => Number(v).toLocaleString()} />
         <Bar dataKey={dataKey} fill={color} radius={[0, 4, 4, 0]} />
       </BarChart>

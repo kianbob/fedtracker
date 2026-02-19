@@ -41,3 +41,28 @@ export function cleanAgencyName(name: string): string {
   // Remove "XX-" prefix from agency names, then title-case
   return toTitleCase(name.replace(/^[A-Z0-9]+-/, ""));
 }
+
+// OPM agency name corrections (abbreviations/truncations in source data)
+const AGENCY_NAME_FIXES: Record<string, string> = {
+  'Dfc': 'U.S. International Development Finance Corporation',
+  'Nat Aeronautics And Space Administration': 'NASA (National Aeronautics and Space Administration)',
+  'Nat Archives And Records Administration': 'National Archives and Records Administration',
+  'U.S. Agency For International Dev': 'U.S. Agency for International Development',
+  'Court Services And Offendr Supervsn Agy': 'Court Services and Offender Supervision Agency',
+  'Fed Mediation And Conciliation Service': 'Federal Mediation and Conciliation Service',
+  'Corp For National And Community Service': 'Corporation for National and Community Service',
+  'U.S. Cmsn On Internatl Religious Freedom': 'U.S. Commission on International Religious Freedom',
+  'U.S.-China Economic & Security Rev Cmsn': 'U.S.-China Economic and Security Review Commission',
+  'Internat Boundary Cmsn: U.S. And Canada': 'International Boundary Commission: U.S. and Canada',
+  'Inter Bound And Water Comm U.S. Section': 'International Boundary and Water Commission U.S. Section',
+  'International Joint Cmsn: U.S. & Canada': 'International Joint Commission: U.S. and Canada',
+};
+
+export function fixAgencyName(name: string): string {
+  // Check exact match first
+  if (AGENCY_NAME_FIXES[name]) return AGENCY_NAME_FIXES[name];
+  // Check title-cased version
+  const tc = toTitleCase(name);
+  if (AGENCY_NAME_FIXES[tc]) return AGENCY_NAME_FIXES[tc];
+  return tc;
+}

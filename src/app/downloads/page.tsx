@@ -27,7 +27,7 @@ function getFileSize(filename: string): string {
     const stats = fs.statSync(p);
     const kb = stats.size / 1024;
     if (kb >= 1024) return `${(kb / 1024).toFixed(1)} MB`;
-    return `${Math.round(kb)} KB`;
+    return `${Math.max(1, Math.round(kb))} KB`;
   } catch {
     return "—";
   }

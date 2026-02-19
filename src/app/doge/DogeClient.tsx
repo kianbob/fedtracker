@@ -1,7 +1,7 @@
 "use client";
 import { TrendAreaChart, SimpleBarChart } from "@/components/Charts";
 import { StatCard } from "@/components/StatCard";
-import { formatNumber, formatMonth, cleanAgencyName, fixAgencyName } from "@/lib/format";
+import { formatNumber, formatMonth, fixAgencyName } from "@/lib/format";
 import Link from "next/link";
 
 interface MonthlyEntry {
@@ -81,7 +81,7 @@ export function DogeClient({
 
   // Top 10 agencies bar chart data
   const agencyBarData = data.topAgenciesByNetLoss.slice(0, 10).map((a) => ({
-    name: cleanAgencyName(a.name),
+    name: fixAgencyName(a.name),
     netLoss: Math.abs(a.netChange),
     code: a.code,
   }));
@@ -303,7 +303,7 @@ export function DogeClient({
                 className="flex items-center justify-between px-6 py-3 hover:bg-red-50 transition-colors"
               >
                 <span className="text-gray-800 mr-4">
-                  {cleanAgencyName(a.name)}
+                  {fixAgencyName(a.name)}
                 </span>
                 <div className="flex items-center gap-4 text-sm whitespace-nowrap shrink-0">
                   <span className="text-gray-400">
@@ -397,7 +397,7 @@ export function DogeClient({
                     className="flex items-center justify-between px-5 py-2.5 hover:bg-red-50 transition-colors"
                   >
                     <span className="text-gray-800 text-sm truncate mr-3">
-                      {cleanAgencyName(a.name)}
+                      {fixAgencyName(a.name)}
                     </span>
                     <span className="text-red-600 font-semibold text-sm whitespace-nowrap">
                       {formatNumber(a.rifCount)} RIFs

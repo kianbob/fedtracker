@@ -56,7 +56,7 @@ export default function ImpactPage() {
 
       {/* Chart */}
       <section className="bg-white border border-gray-200 rounded-xl p-6 mb-12">
-        <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4">Top 15 States by 2025 Separations</h2>
+        <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4">All States by 2025 Separations</h2>
         <ImpactChart data={top15} />
       </section>
 

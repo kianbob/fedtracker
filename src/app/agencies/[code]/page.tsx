@@ -70,29 +70,42 @@ export default async function AgencyDetailPage({ params }: { params: { code: str
       </div>
 
       {/* Top Occupations */}
-      <section className="mb-12">
-        <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4">Top Occupations</h2>
-        <div className="bg-white border border-gray-200 rounded-xl overflow-hidden">
-          <div className="divide-y divide-gray-100">
-            {data.topOccupations?.slice(0, 10).map((o: any, i: number) => {
-              const occCode = occCodeByName[o.name.toUpperCase()];
-              return (
-                <div key={i} className="flex justify-between px-6 py-3">
-                  {occCode ? (
-                    <Link href={`/occupations/${occCode}`} className="text-indigo-700 hover:underline truncate mr-4">{toTitleCase(o.name)}</Link>
-                  ) : (
-                    <span className="text-gray-800 truncate mr-4">{toTitleCase(o.name)}</span>
-                  )}
-                  <div className="flex gap-6 text-sm text-gray-500 whitespace-nowrap">
-                    <span>{formatNumber(o.count)} employees</span>
-                    <span>{formatSalary(o.avgSalary)}</span>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
+      {data.topOccupations?.length > 0 && (() => {
+        const isMilitary = ['DD', 'AR', 'AF', 'NV'].includes(data.code);
+        const hasRealCounts = data.topOccupations.some((o: any) => (o.count || o.employees) > 0);
+        if (!hasRealCounts) return null;
+        return (
+          <section className="mb-12">
+            <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4">Top Occupations</h2>
+            {isMilitary && (
+              <p className="text-sm text-amber-700 bg-amber-50 border border-amber-200 rounded-lg px-4 py-2 mb-4">
+                Salary data is not available for military departments. Employee counts are shown below.
+              </p>
+            )}
+            <div className="bg-white border border-gray-200 rounded-xl overflow-hidden">
+              <div className="divide-y divide-gray-100">
+                {data.topOccupations.slice(0, 10).map((o: any, i: number) => {
+                  const occCode = occCodeByName[o.name.toUpperCase()];
+                  const empCount = o.count || o.employees;
+                  return (
+                    <div key={i} className="flex justify-between px-6 py-3">
+                      {occCode ? (
+                        <Link href={`/occupations/${occCode}`} className="text-indigo-700 hover:underline truncate mr-4">{toTitleCase(o.name)}</Link>
+                      ) : (
+                        <span className="text-gray-800 truncate mr-4">{toTitleCase(o.name)}</span>
+                      )}
+                      <div className="flex gap-6 text-sm text-gray-500 whitespace-nowrap">
+                        <span>{formatNumber(empCount)} employees</span>
+                        <span>{formatSalary(isMilitary ? null : o.avgSalary)}</span>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          </section>
+        );
+      })()}
 
       {/* Top States */}
       <section className="mb-12">
@@ -285,9 +298,10 @@ export default async function AgencyDetailPage({ params }: { params: { code: str
       {/* Separations Breakdown */}
       {seps?.monthly?.length > 0 && (() => {
         const SEP_NAMES: Record<string, string> = {
-          SA: "Transfer Out", SB: "Death", SC: "Quit", SD: "Retirement",
-          SE: "Termination for Cause", SF: "Involuntary Resignation", SG: "Other",
-          SH: "RIF", SJ: "Termination", SK: "Disability", SL: "Early Retirement",
+          SA: "Transfer Out", SB: "Transfer Out (Mass)", SC: "Quit", SD: "Retirement",
+          SE: "Early Retirement", SF: "Disability Retirement", SG: "Termination",
+          SH: "RIF (Reduction in Force)", SI: "Resignation (In Lieu of Termination)",
+          SK: "Death", SL: "Other",
         };
         const totals: Record<string, number> = {};
         for (const m of seps.monthly) {

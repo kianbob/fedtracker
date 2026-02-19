@@ -162,6 +162,7 @@ const AGENCY_NAME_FIXES: Record<string, string> = {
   'U.S. Agency For International Dev': 'U.S. Agency for International Development',
   'Court Services And Offendr Supervsn Agy': 'Court Services and Offender Supervision Agency',
   'Fed Mediation And Conciliation Service': 'Federal Mediation and Conciliation Service',
+  'Fed Mediation and Conciliation Service': 'Federal Mediation and Conciliation Service',
   'Corp For National And Community Service': 'Corporation for National and Community Service',
   'U.S. Cmsn On Internatl Religious Freedom': 'U.S. Commission on International Religious Freedom',
   'U.S.-China Economic & Security Rev Cmsn': 'U.S.-China Economic and Security Review Commission',
@@ -184,11 +185,22 @@ const AGENCY_NAME_FIXES: Record<string, string> = {
   'Department Of Interior': 'Department of the Interior',
 };
 
+// Pre-compute lowercase lookup map for case-insensitive matching
+const AGENCY_NAME_FIXES_LOWER: Record<string, string> = {};
+for (const [k, v] of Object.entries(AGENCY_NAME_FIXES)) {
+  AGENCY_NAME_FIXES_LOWER[k.toLowerCase()] = v;
+}
+
 export function fixAgencyName(name: string): string {
   // Check exact match first
   if (AGENCY_NAME_FIXES[name]) return AGENCY_NAME_FIXES[name];
+  // Check case-insensitive
+  const lower = name.toLowerCase();
+  if (AGENCY_NAME_FIXES_LOWER[lower]) return AGENCY_NAME_FIXES_LOWER[lower];
   // Check title-cased version
   const tc = toTitleCase(name);
   if (AGENCY_NAME_FIXES[tc]) return AGENCY_NAME_FIXES[tc];
+  const tcLower = tc.toLowerCase();
+  if (AGENCY_NAME_FIXES_LOWER[tcLower]) return AGENCY_NAME_FIXES_LOWER[tcLower];
   return tc;
 }

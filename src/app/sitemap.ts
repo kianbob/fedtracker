@@ -17,6 +17,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/doge`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     { url: `${base}/demographics`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/workforce-analysis`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${base}/lookup`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${base}/downloads`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/subagencies`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/about`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
     { url: `${base}/findings`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },

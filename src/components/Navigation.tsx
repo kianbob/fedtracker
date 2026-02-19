@@ -1,14 +1,15 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
+import { DarkModeToggle } from "./DarkModeToggle";
 
 const topLinks = [
   { href: "/agencies", label: "Agencies" },
   { href: "/doge", label: "DOGE Impact" },
   { href: "/layoffs", label: "Separations" },
   { href: "/trends", label: "Trends" },
+  { href: "/lookup", label: "Agency Lookup" },
   { href: "/findings", label: "Key Findings" },
-  { href: "/occupations", label: "Occupations" },
   { href: "/salaries", label: "Salaries" },
   { href: "/about", label: "About" },
 ];
@@ -25,6 +26,7 @@ const moreLinks = [
   { href: "/timeline", label: "Timeline" },
   { href: "/occupation-impact", label: "Occupation Impact" },
   { href: "/appointments", label: "Appointments" },
+  { href: "/downloads", label: "Downloads" },
 ];
 
 const mobileMainLinks = [
@@ -97,7 +99,9 @@ export function Navigation() {
             </div>
           </div>
 
-          {/* Mobile toggle */}
+          {/* Dark mode + Mobile toggle */}
+          <div className="flex items-center gap-1">
+          <DarkModeToggle />
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
             className="md:hidden p-2 rounded-md text-gray-600 hover:bg-gray-100"
@@ -110,6 +114,7 @@ export function Navigation() {
               )}
             </svg>
           </button>
+          </div>
         </div>
       </div>
 

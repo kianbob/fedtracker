@@ -153,6 +153,28 @@ export default function AboutPage() {
           </ul>
         </section>
 
+        <section className="mb-10">
+          <h2 className="font-serif text-2xl font-bold text-gray-900 mb-3">Embeddable Charts</h2>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            FedTracker offers embeddable charts that you can include on your own website via iframe.
+            Each embed is a self-contained HTML page with no external dependencies.
+          </p>
+          <div className="bg-gray-50 rounded-xl p-6 space-y-3">
+            <div>
+              <h3 className="font-semibold text-gray-900 text-sm">DOGE Timeline — Monthly Separations</h3>
+              <code className="text-xs text-indigo-600 break-all">&lt;iframe src=&quot;/api/embed/doge-timeline&quot; width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;</code>
+            </div>
+            <div>
+              <h3 className="font-semibold text-gray-900 text-sm">Agency Risk Scores — Top 20</h3>
+              <code className="text-xs text-indigo-600 break-all">&lt;iframe src=&quot;/api/embed/risk-scores&quot; width=&quot;100%&quot; height=&quot;600&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;</code>
+            </div>
+            <div>
+              <h3 className="font-semibold text-gray-900 text-sm">State Impact — Top 15 by Job Losses</h3>
+              <code className="text-xs text-indigo-600 break-all">&lt;iframe src=&quot;/api/embed/state-impact&quot; width=&quot;100%&quot; height=&quot;500&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;</code>
+            </div>
+          </div>
+        </section>
+
         <section>
           <h2 className="font-serif text-2xl font-bold text-gray-900 mb-3">Open Source</h2>
           <p className="text-gray-700 leading-relaxed">

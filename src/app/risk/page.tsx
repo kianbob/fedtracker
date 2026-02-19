@@ -7,6 +7,10 @@ import agencyRisk from "../../../public/data/agency-risk.json";
 export const metadata: Metadata = {
   title: "Agency Risk Dashboard — Which Agencies Are Most At Risk? — FedTracker",
   description: "Risk scores for every federal agency based on workforce reduction, retirement eligibility, separation rates, and more.",
+  openGraph: {
+    title: "Agency Risk Dashboard - FedTracker",
+    description: "Risk scores for every federal agency based on workforce reduction, retirement eligibility, and separation rates.",
+  },
 };
 
 export default function RiskPage() {

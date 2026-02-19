@@ -17,7 +17,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://fedtracker.org"),
+  metadataBase: new URL("https://fedtracker.vercel.app"),
+  alternates: {
+    canonical: "./",
+  },
   title: "FedTracker — Federal Workforce Data",
   description:
     "Track the federal workforce: employees, salaries, layoffs, and hiring across all agencies. Built from OPM FedScope data.",
@@ -33,7 +36,7 @@ const jsonLd = {
   "@type": "Organization",
   name: "FedTracker",
   description: "Federal workforce data from OPM FedScope — employees, salaries, layoffs, and hiring trends across all agencies.",
-  url: "https://fedtracker.org",
+  url: "https://fedtracker.vercel.app",
 };
 
 export default function RootLayout({

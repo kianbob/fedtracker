@@ -7,6 +7,10 @@ import stateImpact from "../../../public/data/state-impact.json";
 export const metadata: Metadata = {
   title: "DOGE Impact by State — State-by-State Federal Workforce Reductions — FedTracker",
   description: "See how DOGE-driven federal workforce reductions impact each state. DC, Maryland, and Virginia hit hardest.",
+  openGraph: {
+    title: "DOGE Impact by State - FedTracker",
+    description: "State-by-state breakdown of federal workforce reductions. See which states are hit hardest by DOGE-driven cuts.",
+  },
 };
 
 export default function ImpactPage() {

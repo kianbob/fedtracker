@@ -206,10 +206,13 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-sm font-semibold text-gray-900 group-hover:text-accent leading-tight">{fixAgencyName(a.name)}</p>
-              <p className="text-xs text-gray-500">{a.reductionPct > 100 ? '>100' : a.reductionPct}% workforce reduction</p>
+              <p className="text-xs text-gray-500">{a.reductionPct > 100 ? '>100%*' : `${a.reductionPct}%`} workforce reduction</p>
             </Link>
           ))}
         </div>
+        <p className="mt-3 text-xs text-gray-400">
+          * &gt;100% reduction means separations exceeded current headcount (e.g. due to prior hiring freezes or transfers).
+        </p>
       </section>
 
       {/* Featured Analysis */}

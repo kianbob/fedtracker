@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { formatNumber, formatSalary, toTitleCase, explainGrade, fixAgencyName } from "@/lib/format";
+import { formatNumber, formatSalary, toTitleCase, explainGrade, fixAgencyName, stateFullName } from "@/lib/format";
 import Breadcrumb from "@/components/Breadcrumb";
 import { StatCard } from "@/components/StatCard";
 import { OccupationCharts } from "./OccupationCharts";
@@ -52,7 +52,7 @@ export default async function OccupationDetailPage({ params }: { params: { code:
         <StatCard label="Total Employees" value={formatNumber(data.employees)} />
         <StatCard label="Average Salary" value={formatSalary(data.avgSalary)} />
         {topAgency && <StatCard label="Top Agency" value={fixAgencyName(topAgency.name || topAgency.code)} sub={`${formatNumber(topAgency.count)} employees`} />}
-        {data.topStates?.[0] && <StatCard label="Top State" value={data.topStates[0].state} sub={`${formatNumber(data.topStates[0].count)} employees`} />}
+        {data.topStates?.[0] && <StatCard label="Top State" value={stateFullName(data.topStates[0].state)} sub={`${formatNumber(data.topStates[0].count)} employees`} />}
       </div>
 
       <OccupationCharts data={data} />
@@ -64,7 +64,7 @@ export default async function OccupationDetailPage({ params }: { params: { code:
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
             {data.topStates.slice(0, 10).map((s: any) => (
               <div key={s.state} className="bg-white border border-gray-200 rounded-lg p-4 text-center">
-                <p className="font-semibold text-gray-900">{s.state}</p>
+                <p className="font-semibold text-gray-900">{stateFullName(s.state)}</p>
                 <p className="text-sm text-gray-500">{formatNumber(s.count)}</p>
               </div>
             ))}

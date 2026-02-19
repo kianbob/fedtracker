@@ -11,6 +11,7 @@ const topLinks = [
   { href: "/lookup", label: "Agency Lookup" },
   { href: "/findings", label: "Key Findings" },
   { href: "/salaries", label: "Salaries" },
+  { href: "/states", label: "States" },
   { href: "/about", label: "About" },
 ];
 
@@ -21,7 +22,6 @@ const moreLinks = [
   { href: "/workforce-analysis", label: "Deep Dive" },
   { href: "/demographics", label: "Demographics" },
   { href: "/occupations", label: "Occupations" },
-  { href: "/states", label: "States" },
   { href: "/subagencies", label: "Subagencies" },
   { href: "/compare", label: "Compare Agencies" },
   { href: "/timeline", label: "Timeline" },
@@ -42,6 +42,7 @@ const mobileMainLinks = [
   { href: "/trends", label: "Trends" },
   { href: "/findings", label: "Key Findings" },
   { href: "/salaries", label: "Salaries" },
+  { href: "/states", label: "States" },
   { href: "/about", label: "About" },
 ];
 

@@ -101,10 +101,10 @@ export function AgenciesClient() {
               href={`/agencies/${a.code}`}
               className="block md:grid md:grid-cols-12 gap-4 px-6 py-4 hover:bg-accent-50 transition-colors"
             >
-              <div className="md:col-span-4 flex items-center">
+              <div className="md:col-span-4 flex items-center min-w-0">
                 <RiskDot score={a.riskScore ?? undefined} />
-                <span className="font-medium text-gray-900">{cleanAgencyName(a.name)}</span>
-                <span className="ml-2 text-xs text-gray-400">{a.code}</span>
+                <span className="font-medium text-gray-900 truncate" title={cleanAgencyName(a.name)}>{cleanAgencyName(a.name)}</span>
+                <span className="ml-2 text-xs text-gray-400 shrink-0">{a.code}</span>
               </div>
               <div className="md:col-span-2 text-right text-gray-700 hidden md:block">{formatNumber(a.employees)}</div>
               <div className="md:col-span-2 text-right text-gray-700 hidden md:block">{formatSalary(a.avgSalary)}</div>

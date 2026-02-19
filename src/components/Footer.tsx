@@ -72,7 +72,8 @@ export function Footer() {
         </div>
 
         <div className="mt-8 pt-8 border-t border-gray-200 text-sm text-gray-500">
-          Data: OPM FedScope (December 2025 Employment, FY2020-2025 Separations &amp; Accessions) | USASpending.gov (FY2025 Budget Authority).
+          <p className="font-medium text-gray-600 mb-1">Data as of December 2025</p>
+          <p>Sources: OPM FedScope (December 2025 Employment, FY2020–2025 Separations &amp; Accessions) | USASpending.gov (FY2025 Budget Authority).</p>
         </div>
       </div>
     </footer>

@@ -84,6 +84,12 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${playfair.variable} ${inter.variable}`}>
       <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-2LHTNSRWPK" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-2LHTNSRWPK');`,
+          }}
+        />
         <link rel="alternate" type="application/rss+xml" title="OpenFeds" href="/feed.xml" />
         <script
           type="application/ld+json"

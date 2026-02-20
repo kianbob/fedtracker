@@ -63,6 +63,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   } catch {}
 
+  // Occupation families
+  pages.push({ url: `${base}/occupations/families`, lastModified: now, changeFrequency: "monthly", priority: 0.8 });
+  try {
+    const familiesPath = path.join(process.cwd(), "public", "data", "occupation-families.json");
+    const families: { slug: string }[] = JSON.parse(fs.readFileSync(familiesPath, "utf-8"));
+    families.forEach(f => {
+      pages.push({ url: `${base}/occupations/families/${f.slug}`, lastModified: now, changeFrequency: "monthly", priority: 0.7 });
+    });
+  } catch {}
+
   // Occupation detail pages
   try {
     const occupationsPath = path.join(process.cwd(), "public", "data", "occupations.json");
@@ -71,6 +81,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       if (occ.code && occ.code !== "*") {
         pages.push({ url: `${base}/occupations/${occ.code}`, lastModified: now, changeFrequency: "monthly", priority: 0.6 });
       }
+    });
+  } catch {}
+
+  // Subagency detail pages
+  try {
+    const subagenciesPath = path.join(process.cwd(), "public", "data", "subagencies.json");
+    const subagencies: { code: string }[] = JSON.parse(fs.readFileSync(subagenciesPath, "utf-8"));
+    subagencies.forEach(sub => {
+      pages.push({ url: `${base}/subagencies/${sub.code}`, lastModified: now, changeFrequency: "monthly", priority: 0.6 });
     });
   } catch {}
 

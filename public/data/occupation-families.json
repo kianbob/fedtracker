@@ -1,0 +1,5987 @@
+[
+  {
+    "slug": "medical-hospital-dental-and-public-health-group",
+    "name": "Medical, Hospital, Dental, and Public Health Group",
+    "totalEmployees": 305539,
+    "avgSalary": 127890,
+    "occupationCount": 45,
+    "topOccupations": [
+      {
+        "code": "0610",
+        "name": "Nurse",
+        "employees": 97118,
+        "avgSalary": 130337
+      },
+      {
+        "code": "0679",
+        "name": "Medical Support Assistance",
+        "employees": 36819,
+        "avgSalary": 57411
+      },
+      {
+        "code": "0602",
+        "name": "Medical Officer",
+        "employees": 33816,
+        "avgSalary": 296932
+      },
+      {
+        "code": "0601",
+        "name": "General Health Science",
+        "employees": 16418,
+        "avgSalary": 131819
+      },
+      {
+        "code": "0620",
+        "name": "Practical Nurse",
+        "employees": 14613,
+        "avgSalary": 74848
+      },
+      {
+        "code": "0621",
+        "name": "Nursing Assistant",
+        "employees": 14094,
+        "avgSalary": 55212
+      },
+      {
+        "code": "0660",
+        "name": "Pharmacist",
+        "employees": 13468,
+        "avgSalary": 165040
+      },
+      {
+        "code": "0640",
+        "name": "Health Aid and Technician",
+        "employees": 9973,
+        "avgSalary": 60398
+      },
+      {
+        "code": "0661",
+        "name": "Pharmacy Technician",
+        "employees": 6308,
+        "avgSalary": 69687
+      },
+      {
+        "code": "0647",
+        "name": "Diagnostic Radiologic Technologist",
+        "employees": 5294,
+        "avgSalary": 100503
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "0610",
+        "name": "Nurse",
+        "employees": 97118,
+        "avgSalary": 130337
+      },
+      {
+        "code": "0679",
+        "name": "Medical Support Assistance",
+        "employees": 36819,
+        "avgSalary": 57411
+      },
+      {
+        "code": "0602",
+        "name": "Medical Officer",
+        "employees": 33816,
+        "avgSalary": 296932
+      },
+      {
+        "code": "0601",
+        "name": "General Health Science",
+        "employees": 16418,
+        "avgSalary": 131819
+      },
+      {
+        "code": "0620",
+        "name": "Practical Nurse",
+        "employees": 14613,
+        "avgSalary": 74848
+      },
+      {
+        "code": "0621",
+        "name": "Nursing Assistant",
+        "employees": 14094,
+        "avgSalary": 55212
+      },
+      {
+        "code": "0660",
+        "name": "Pharmacist",
+        "employees": 13468,
+        "avgSalary": 165040
+      },
+      {
+        "code": "0640",
+        "name": "Health Aid and Technician",
+        "employees": 9973,
+        "avgSalary": 60398
+      },
+      {
+        "code": "0661",
+        "name": "Pharmacy Technician",
+        "employees": 6308,
+        "avgSalary": 69687
+      },
+      {
+        "code": "0647",
+        "name": "Diagnostic Radiologic Technologist",
+        "employees": 5294,
+        "avgSalary": 100503
+      },
+      {
+        "code": "0671",
+        "name": "Health System Specialist",
+        "employees": 5275,
+        "avgSalary": 109156
+      },
+      {
+        "code": "0644",
+        "name": "Medical Technologist",
+        "employees": 5253,
+        "avgSalary": 116119
+      },
+      {
+        "code": "0649",
+        "name": "Medical Instrument Technician",
+        "employees": 3819,
+        "avgSalary": 79997
+      },
+      {
+        "code": "0675",
+        "name": "Medical Records Technician",
+        "employees": 3792,
+        "avgSalary": 64317
+      },
+      {
+        "code": "0603",
+        "name": "Physician Assistant",
+        "employees": 3373,
+        "avgSalary": 166870
+      },
+      {
+        "code": "0696",
+        "name": "Consumer Safety",
+        "employees": 3312,
+        "avgSalary": 136851
+      },
+      {
+        "code": "0685",
+        "name": "Public Health Program Specialist",
+        "employees": 3294,
+        "avgSalary": 138585
+      },
+      {
+        "code": "0633",
+        "name": "Physical Therapist",
+        "employees": 3271,
+        "avgSalary": 122530
+      },
+      {
+        "code": "0622",
+        "name": "Medical Supply Aide and Technician",
+        "employees": 3080,
+        "avgSalary": 68067
+      },
+      {
+        "code": "0630",
+        "name": "Dietitian and Nutritionist",
+        "employees": 3079,
+        "avgSalary": 98778
+      },
+      {
+        "code": "0681",
+        "name": "Dental Assistant",
+        "employees": 2328,
+        "avgSalary": 60727
+      },
+      {
+        "code": "0665",
+        "name": "Speech Pathology and Audiology",
+        "employees": 2272,
+        "avgSalary": 113818
+      },
+      {
+        "code": "0680",
+        "name": "Dental Officer",
+        "employees": 2019,
+        "avgSalary": 226072
+      },
+      {
+        "code": "0631",
+        "name": "Occupational Therapist",
+        "employees": 1946,
+        "avgSalary": 117873
+      },
+      {
+        "code": "0645",
+        "name": "Medical Technician",
+        "employees": 1856,
+        "avgSalary": 56517
+      },
+      {
+        "code": "0662",
+        "name": "Optometrist",
+        "employees": 1360,
+        "avgSalary": 150141
+      },
+      {
+        "code": "0638",
+        "name": "Recreation/creative Arts Therapist",
+        "employees": 1023,
+        "avgSalary": 94042
+      },
+      {
+        "code": "0636",
+        "name": "Rehabilitation Therapy Assistant",
+        "employees": 936,
+        "avgSalary": 69462
+      },
+      {
+        "code": "0668",
+        "name": "Podiatrist",
+        "employees": 886,
+        "avgSalary": 206009
+      },
+      {
+        "code": "0672",
+        "name": "Prosthetic Representative",
+        "employees": 721,
+        "avgSalary": 94687
+      },
+      {
+        "code": "0690",
+        "name": "Industrial Hygiene",
+        "employees": 716,
+        "avgSalary": 121786
+      },
+      {
+        "code": "0682",
+        "name": "Dental Hygiene",
+        "employees": 669,
+        "avgSalary": 87831
+      },
+      {
+        "code": "0670",
+        "name": "Health System Administration",
+        "employees": 667,
+        "avgSalary": 162835
+      },
+      {
+        "code": "0669",
+        "name": "Medical Records Administration",
+        "employees": 458,
+        "avgSalary": 101876
+      },
+      {
+        "code": "0667",
+        "name": "Orthotist and Prosthetist",
+        "employees": 398,
+        "avgSalary": 104914
+      },
+      {
+        "code": "0699",
+        "name": "Medical and Health Student Trainee",
+        "employees": 315,
+        "avgSalary": 52817
+      },
+      {
+        "code": "0648",
+        "name": "Therapeutic Radiologic Technologist",
+        "employees": 311,
+        "avgSalary": 120726
+      },
+      {
+        "code": "0673",
+        "name": "Hospital Housekeeping Management",
+        "employees": 267,
+        "avgSalary": 107556
+      },
+      {
+        "code": "0646",
+        "name": "Pathology Technician",
+        "employees": 263,
+        "avgSalary": 71416
+      },
+      {
+        "code": "0683",
+        "name": "Dental Laboratory Aid and Technician",
+        "employees": 253,
+        "avgSalary": 73811
+      },
+      {
+        "code": "0635",
+        "name": "Kinesiotherapy",
+        "employees": 252,
+        "avgSalary": 98652
+      },
+      {
+        "code": "0651",
+        "name": "Respiratory Therapist",
+        "employees": 100,
+        "avgSalary": 70450
+      },
+      {
+        "code": "0688",
+        "name": "Sanitarian",
+        "employees": 43,
+        "avgSalary": 93959
+      },
+      {
+        "code": "0698",
+        "name": "Environmental Health Technician",
+        "employees": 6,
+        "avgSalary": 72875
+      },
+      {
+        "code": "0642",
+        "name": "Nuclear Medicine Technician",
+        "employees": 5,
+        "avgSalary": 106502
+      }
+    ]
+  },
+  {
+    "slug": "general-administrative-clerical-and-office-services-group",
+    "name": "General Administrative, Clerical, and Office Services Group",
+    "totalEmployees": 149876,
+    "avgSalary": 113203,
+    "occupationCount": 29,
+    "topOccupations": [
+      {
+        "code": "0301",
+        "name": "Miscellaneous Administration and Program",
+        "employees": 47327,
+        "avgSalary": 124289
+      },
+      {
+        "code": "0343",
+        "name": "Management and Program Analysis",
+        "employees": 46120,
+        "avgSalary": 133107
+      },
+      {
+        "code": "0303",
+        "name": "Miscellaneous Clerk and Assistant",
+        "employees": 25677,
+        "avgSalary": 53180
+      },
+      {
+        "code": "0340",
+        "name": "Program Management",
+        "employees": 8466,
+        "avgSalary": 178312
+      },
+      {
+        "code": "0341",
+        "name": "Administrative Officer",
+        "employees": 6149,
+        "avgSalary": 109653
+      },
+      {
+        "code": "0318",
+        "name": "Secretary",
+        "employees": 3197,
+        "avgSalary": 66079
+      },
+      {
+        "code": "0344",
+        "name": "Management and Program Clerical and Assistance",
+        "employees": 2571,
+        "avgSalary": 67012
+      },
+      {
+        "code": "0306",
+        "name": "Government Information Specialist",
+        "employees": 1922,
+        "avgSalary": 122484
+      },
+      {
+        "code": "0346",
+        "name": "Logistics Management",
+        "employees": 1606,
+        "avgSalary": 115903
+      },
+      {
+        "code": "0342",
+        "name": "Support Services Administration",
+        "employees": 1422,
+        "avgSalary": 99118
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "0301",
+        "name": "Miscellaneous Administration and Program",
+        "employees": 47327,
+        "avgSalary": 124289
+      },
+      {
+        "code": "0343",
+        "name": "Management and Program Analysis",
+        "employees": 46120,
+        "avgSalary": 133107
+      },
+      {
+        "code": "0303",
+        "name": "Miscellaneous Clerk and Assistant",
+        "employees": 25677,
+        "avgSalary": 53180
+      },
+      {
+        "code": "0340",
+        "name": "Program Management",
+        "employees": 8466,
+        "avgSalary": 178312
+      },
+      {
+        "code": "0341",
+        "name": "Administrative Officer",
+        "employees": 6149,
+        "avgSalary": 109653
+      },
+      {
+        "code": "0318",
+        "name": "Secretary",
+        "employees": 3197,
+        "avgSalary": 66079
+      },
+      {
+        "code": "0344",
+        "name": "Management and Program Clerical and Assistance",
+        "employees": 2571,
+        "avgSalary": 67012
+      },
+      {
+        "code": "0306",
+        "name": "Government Information Specialist",
+        "employees": 1922,
+        "avgSalary": 122484
+      },
+      {
+        "code": "0346",
+        "name": "Logistics Management",
+        "employees": 1606,
+        "avgSalary": 115903
+      },
+      {
+        "code": "0342",
+        "name": "Support Services Administration",
+        "employees": 1422,
+        "avgSalary": 99118
+      },
+      {
+        "code": "0305",
+        "name": "Mail and File",
+        "employees": 1176,
+        "avgSalary": 48623
+      },
+      {
+        "code": "0391",
+        "name": "Telecommunications",
+        "employees": 1064,
+        "avgSalary": 126159
+      },
+      {
+        "code": "0308",
+        "name": "Records and Information Management",
+        "employees": 737,
+        "avgSalary": 119188
+      },
+      {
+        "code": "0360",
+        "name": "Equal Opportunity Compliance",
+        "employees": 502,
+        "avgSalary": 134242
+      },
+      {
+        "code": "0326",
+        "name": "Office Automation Clerical and Assistance",
+        "employees": 391,
+        "avgSalary": 52785
+      },
+      {
+        "code": "0382",
+        "name": "Telephone Operating",
+        "employees": 349,
+        "avgSalary": 44787
+      },
+      {
+        "code": "0399",
+        "name": "Administration and Office Support Student Trainee",
+        "employees": 290,
+        "avgSalary": 45350
+      },
+      {
+        "code": "0335",
+        "name": "Computer Clerk and Assistant",
+        "employees": 277,
+        "avgSalary": 69561
+      },
+      {
+        "code": "0304",
+        "name": "Information Receptionist",
+        "employees": 211,
+        "avgSalary": 44380
+      },
+      {
+        "code": "0332",
+        "name": "Computer Operation",
+        "employees": 131,
+        "avgSalary": 66096
+      },
+      {
+        "code": "0350",
+        "name": "Equipment Operator",
+        "employees": 107,
+        "avgSalary": 50821
+      },
+      {
+        "code": "0361",
+        "name": "Equal Opportunity Assistance",
+        "employees": 74,
+        "avgSalary": 66601
+      },
+      {
+        "code": "0390",
+        "name": "Telecommunications Processing",
+        "employees": 39,
+        "avgSalary": 51626
+      },
+      {
+        "code": "0392",
+        "name": "General Telecommunications",
+        "employees": 31,
+        "avgSalary": 67394
+      },
+      {
+        "code": "0356",
+        "name": "Data Transcriber",
+        "employees": 24,
+        "avgSalary": 44472
+      },
+      {
+        "code": "0313",
+        "name": "Work Unit Supervising",
+        "employees": 5,
+        "avgSalary": 90549
+      },
+      {
+        "code": "0302",
+        "name": "Messenger",
+        "employees": 4,
+        "avgSalary": 40464
+      },
+      {
+        "code": "0322",
+        "name": "Clerk-typist",
+        "employees": 4,
+        "avgSalary": 48237
+      },
+      {
+        "code": "0394",
+        "name": "Communications Clerical",
+        "employees": 3,
+        "avgSalary": 60506
+      }
+    ]
+  },
+  {
+    "slug": "legal-and-kindred-group",
+    "name": "Legal and Kindred Group",
+    "totalEmployees": 95332,
+    "avgSalary": 105684,
+    "occupationCount": 17,
+    "topOccupations": [
+      {
+        "code": "0962",
+        "name": "Contact Representative",
+        "employees": 30438,
+        "avgSalary": 63021
+      },
+      {
+        "code": "0905",
+        "name": "General Attorney",
+        "employees": 26147,
+        "avgSalary": 175397
+      },
+      {
+        "code": "0996",
+        "name": "Veterans Claims Examining",
+        "employees": 18856,
+        "avgSalary": 89889
+      },
+      {
+        "code": "0901",
+        "name": "General Legal and Kindred Administration",
+        "employees": 7834,
+        "avgSalary": 80790
+      },
+      {
+        "code": "0950",
+        "name": "Paralegal Specialist",
+        "employees": 2745,
+        "avgSalary": 107116
+      },
+      {
+        "code": "0986",
+        "name": "Legal Assistance",
+        "employees": 2495,
+        "avgSalary": 67676
+      },
+      {
+        "code": "0967",
+        "name": "Passport and Visa Examining",
+        "employees": 2035,
+        "avgSalary": 90679
+      },
+      {
+        "code": "0935",
+        "name": "Administrative Law Judge",
+        "employees": 1241,
+        "avgSalary": 206455
+      },
+      {
+        "code": "0991",
+        "name": "Worker's Compensation Claims Examining",
+        "employees": 977,
+        "avgSalary": 119744
+      },
+      {
+        "code": "0998",
+        "name": "Claims Assistance and Examining",
+        "employees": 901,
+        "avgSalary": 66306
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "0962",
+        "name": "Contact Representative",
+        "employees": 30438,
+        "avgSalary": 63021
+      },
+      {
+        "code": "0905",
+        "name": "General Attorney",
+        "employees": 26147,
+        "avgSalary": 175397
+      },
+      {
+        "code": "0996",
+        "name": "Veterans Claims Examining",
+        "employees": 18856,
+        "avgSalary": 89889
+      },
+      {
+        "code": "0901",
+        "name": "General Legal and Kindred Administration",
+        "employees": 7834,
+        "avgSalary": 80790
+      },
+      {
+        "code": "0950",
+        "name": "Paralegal Specialist",
+        "employees": 2745,
+        "avgSalary": 107116
+      },
+      {
+        "code": "0986",
+        "name": "Legal Assistance",
+        "employees": 2495,
+        "avgSalary": 67676
+      },
+      {
+        "code": "0967",
+        "name": "Passport and Visa Examining",
+        "employees": 2035,
+        "avgSalary": 90679
+      },
+      {
+        "code": "0935",
+        "name": "Administrative Law Judge",
+        "employees": 1241,
+        "avgSalary": 206455
+      },
+      {
+        "code": "0991",
+        "name": "Worker's Compensation Claims Examining",
+        "employees": 977,
+        "avgSalary": 119744
+      },
+      {
+        "code": "0998",
+        "name": "Claims Assistance and Examining",
+        "employees": 901,
+        "avgSalary": 66306
+      },
+      {
+        "code": "0963",
+        "name": "Legal Instruments Examining",
+        "employees": 658,
+        "avgSalary": 72129
+      },
+      {
+        "code": "0987",
+        "name": "Tax Law Specialist",
+        "employees": 354,
+        "avgSalary": 150672
+      },
+      {
+        "code": "0993",
+        "name": "Railroad Retirement Claims Examining",
+        "employees": 302,
+        "avgSalary": 92367
+      },
+      {
+        "code": "0965",
+        "name": "Land Law Examining",
+        "employees": 189,
+        "avgSalary": 80471
+      },
+      {
+        "code": "0904",
+        "name": "Law Clerk",
+        "employees": 79,
+        "avgSalary": 103838
+      },
+      {
+        "code": "0958",
+        "name": "Employee Benefits Law",
+        "employees": 62,
+        "avgSalary": 153268
+      },
+      {
+        "code": "0999",
+        "name": "Legal Occupations Student Trainee",
+        "employees": 19,
+        "avgSalary": 45959
+      }
+    ]
+  },
+  {
+    "slug": "social-science-psychology-and-welfare-group",
+    "name": "Social Science, Psychology, and Welfare Group",
+    "totalEmployees": 79777,
+    "avgSalary": 113693,
+    "occupationCount": 27,
+    "topOccupations": [
+      {
+        "code": "0105",
+        "name": "Social Insurance Administration",
+        "employees": 25436,
+        "avgSalary": 104859
+      },
+      {
+        "code": "0185",
+        "name": "Social Work",
+        "employees": 21120,
+        "avgSalary": 108850
+      },
+      {
+        "code": "0101",
+        "name": "Social Science",
+        "employees": 9128,
+        "avgSalary": 108544
+      },
+      {
+        "code": "0180",
+        "name": "Psychology",
+        "employees": 9112,
+        "avgSalary": 141226
+      },
+      {
+        "code": "0110",
+        "name": "Economist",
+        "employees": 3730,
+        "avgSalary": 154464
+      },
+      {
+        "code": "0107",
+        "name": "Health Insurance Administration",
+        "employees": 2301,
+        "avgSalary": 145147
+      },
+      {
+        "code": "0130",
+        "name": "Foreign Affairs",
+        "employees": 2098,
+        "avgSalary": 151581
+      },
+      {
+        "code": "0102",
+        "name": "Social Science Aid and Technician",
+        "employees": 1459,
+        "avgSalary": 67668
+      },
+      {
+        "code": "0193",
+        "name": "Archeology",
+        "employees": 1173,
+        "avgSalary": 90688
+      },
+      {
+        "code": "0186",
+        "name": "Social Services Aid and Assistant",
+        "employees": 721,
+        "avgSalary": 59030
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "0105",
+        "name": "Social Insurance Administration",
+        "employees": 25436,
+        "avgSalary": 104859
+      },
+      {
+        "code": "0185",
+        "name": "Social Work",
+        "employees": 21120,
+        "avgSalary": 108850
+      },
+      {
+        "code": "0101",
+        "name": "Social Science",
+        "employees": 9128,
+        "avgSalary": 108544
+      },
+      {
+        "code": "0180",
+        "name": "Psychology",
+        "employees": 9112,
+        "avgSalary": 141226
+      },
+      {
+        "code": "0110",
+        "name": "Economist",
+        "employees": 3730,
+        "avgSalary": 154464
+      },
+      {
+        "code": "0107",
+        "name": "Health Insurance Administration",
+        "employees": 2301,
+        "avgSalary": 145147
+      },
+      {
+        "code": "0130",
+        "name": "Foreign Affairs",
+        "employees": 2098,
+        "avgSalary": 151581
+      },
+      {
+        "code": "0102",
+        "name": "Social Science Aid and Technician",
+        "employees": 1459,
+        "avgSalary": 67668
+      },
+      {
+        "code": "0193",
+        "name": "Archeology",
+        "employees": 1173,
+        "avgSalary": 90688
+      },
+      {
+        "code": "0186",
+        "name": "Social Services Aid and Assistant",
+        "employees": 721,
+        "avgSalary": 59030
+      },
+      {
+        "code": "0188",
+        "name": "Recreation Specialist",
+        "employees": 639,
+        "avgSalary": 81852
+      },
+      {
+        "code": "0150",
+        "name": "Geography",
+        "employees": 577,
+        "avgSalary": 118161
+      },
+      {
+        "code": "0181",
+        "name": "Psychology Aid and Technician",
+        "employees": 337,
+        "avgSalary": 65958
+      },
+      {
+        "code": "0119",
+        "name": "Economics Assistant",
+        "employees": 277,
+        "avgSalary": 58245
+      },
+      {
+        "code": "0131",
+        "name": "International Relations",
+        "employees": 242,
+        "avgSalary": 156277
+      },
+      {
+        "code": "0170",
+        "name": "History",
+        "employees": 241,
+        "avgSalary": 126213
+      },
+      {
+        "code": "0187",
+        "name": "Social Services",
+        "employees": 223,
+        "avgSalary": 64265
+      },
+      {
+        "code": "0142",
+        "name": "Workforce Development",
+        "employees": 206,
+        "avgSalary": 134618
+      },
+      {
+        "code": "0189",
+        "name": "Recreation Aid and Assistant",
+        "employees": 178,
+        "avgSalary": 53532
+      },
+      {
+        "code": "0135",
+        "name": "Foreign Agricultural Affairs",
+        "employees": 149,
+        "avgSalary": 153831
+      },
+      {
+        "code": "0160",
+        "name": "Civil Rights Analysis",
+        "employees": 115,
+        "avgSalary": 126297
+      },
+      {
+        "code": "0199",
+        "name": "Social Science Student Trainee",
+        "employees": 96,
+        "avgSalary": 62108
+      },
+      {
+        "code": "0190",
+        "name": "General Anthropology",
+        "employees": 87,
+        "avgSalary": 116919
+      },
+      {
+        "code": "0106",
+        "name": "Unemployment Insurance",
+        "employees": 63,
+        "avgSalary": 133213
+      },
+      {
+        "code": "0140",
+        "name": "Workforce Research and Analysis",
+        "employees": 54,
+        "avgSalary": 140005
+      },
+      {
+        "code": "0136",
+        "name": "International Cooperation",
+        "employees": 8,
+        "avgSalary": 170248
+      },
+      {
+        "code": "0184",
+        "name": "Sociology",
+        "employees": 7,
+        "avgSalary": 135111
+      }
+    ]
+  },
+  {
+    "slug": "accounting-and-budget-group",
+    "name": "Accounting and Budget Group",
+    "totalEmployees": 52641,
+    "avgSalary": 107797,
+    "occupationCount": 16,
+    "topOccupations": [
+      {
+        "code": "0501",
+        "name": "Financial Administration and Program",
+        "employees": 12667,
+        "avgSalary": 114100
+      },
+      {
+        "code": "0592",
+        "name": "Tax Examining",
+        "employees": 10866,
+        "avgSalary": 56378
+      },
+      {
+        "code": "0510",
+        "name": "Accounting",
+        "employees": 6248,
+        "avgSalary": 143545
+      },
+      {
+        "code": "0560",
+        "name": "Budget Analysis",
+        "employees": 6142,
+        "avgSalary": 130363
+      },
+      {
+        "code": "0570",
+        "name": "Financial Institution Examining",
+        "employees": 4950,
+        "avgSalary": 166549
+      },
+      {
+        "code": "0511",
+        "name": "Auditing",
+        "employees": 4002,
+        "avgSalary": 142352
+      },
+      {
+        "code": "0503",
+        "name": "Financial Clerical and Assistance",
+        "employees": 3693,
+        "avgSalary": 58033
+      },
+      {
+        "code": "0525",
+        "name": "Accounting Technician",
+        "employees": 1420,
+        "avgSalary": 60662
+      },
+      {
+        "code": "0544",
+        "name": "Civilian Pay",
+        "employees": 622,
+        "avgSalary": 55900
+      },
+      {
+        "code": "0526",
+        "name": "Tax Specialist",
+        "employees": 560,
+        "avgSalary": 87783
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "0501",
+        "name": "Financial Administration and Program",
+        "employees": 12667,
+        "avgSalary": 114100
+      },
+      {
+        "code": "0592",
+        "name": "Tax Examining",
+        "employees": 10866,
+        "avgSalary": 56378
+      },
+      {
+        "code": "0510",
+        "name": "Accounting",
+        "employees": 6248,
+        "avgSalary": 143545
+      },
+      {
+        "code": "0560",
+        "name": "Budget Analysis",
+        "employees": 6142,
+        "avgSalary": 130363
+      },
+      {
+        "code": "0570",
+        "name": "Financial Institution Examining",
+        "employees": 4950,
+        "avgSalary": 166549
+      },
+      {
+        "code": "0511",
+        "name": "Auditing",
+        "employees": 4002,
+        "avgSalary": 142352
+      },
+      {
+        "code": "0503",
+        "name": "Financial Clerical and Assistance",
+        "employees": 3693,
+        "avgSalary": 58033
+      },
+      {
+        "code": "0525",
+        "name": "Accounting Technician",
+        "employees": 1420,
+        "avgSalary": 60662
+      },
+      {
+        "code": "0544",
+        "name": "Civilian Pay",
+        "employees": 622,
+        "avgSalary": 55900
+      },
+      {
+        "code": "0526",
+        "name": "Tax Specialist",
+        "employees": 560,
+        "avgSalary": 87783
+      },
+      {
+        "code": "0505",
+        "name": "Financial Management",
+        "employees": 502,
+        "avgSalary": 168118
+      },
+      {
+        "code": "0540",
+        "name": "Voucher Examining",
+        "employees": 413,
+        "avgSalary": 59150
+      },
+      {
+        "code": "0561",
+        "name": "Budget Clerical and Assistance",
+        "employees": 231,
+        "avgSalary": 59430
+      },
+      {
+        "code": "0530",
+        "name": "Cash Processing",
+        "employees": 217,
+        "avgSalary": 55575
+      },
+      {
+        "code": "0599",
+        "name": "Financial Management Student Trainee",
+        "employees": 55,
+        "avgSalary": 48030
+      },
+      {
+        "code": "0545",
+        "name": "Military Pay",
+        "employees": 53,
+        "avgSalary": 62416
+      }
+    ]
+  },
+  {
+    "slug": "biological-sciences-group",
+    "name": "Biological Sciences Group",
+    "totalEmployees": 50795,
+    "avgSalary": 99073,
+    "occupationCount": 31,
+    "topOccupations": [
+      {
+        "code": "0401",
+        "name": "General Natural Resources Management and Biological Sciences",
+        "employees": 16928,
+        "avgSalary": 122177
+      },
+      {
+        "code": "0462",
+        "name": "Forestry Technician",
+        "employees": 9218,
+        "avgSalary": 67474
+      },
+      {
+        "code": "0404",
+        "name": "Biological Science Technician",
+        "employees": 4214,
+        "avgSalary": 57955
+      },
+      {
+        "code": "0457",
+        "name": "Soil Conservation",
+        "employees": 4199,
+        "avgSalary": 87864
+      },
+      {
+        "code": "0456",
+        "name": "Wildland Fire Management",
+        "employees": 2192,
+        "avgSalary": 83117
+      },
+      {
+        "code": "0486",
+        "name": "Wildlife Biology",
+        "employees": 1821,
+        "avgSalary": 95771
+      },
+      {
+        "code": "0482",
+        "name": "Fish Biology",
+        "employees": 1640,
+        "avgSalary": 114482
+      },
+      {
+        "code": "0460",
+        "name": "Forestry",
+        "employees": 1582,
+        "avgSalary": 87654
+      },
+      {
+        "code": "0403",
+        "name": "Microbiology",
+        "employees": 1490,
+        "avgSalary": 141220
+      },
+      {
+        "code": "0408",
+        "name": "Ecology",
+        "employees": 1002,
+        "avgSalary": 121042
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "0401",
+        "name": "General Natural Resources Management and Biological Sciences",
+        "employees": 16928,
+        "avgSalary": 122177
+      },
+      {
+        "code": "0462",
+        "name": "Forestry Technician",
+        "employees": 9218,
+        "avgSalary": 67474
+      },
+      {
+        "code": "0404",
+        "name": "Biological Science Technician",
+        "employees": 4214,
+        "avgSalary": 57955
+      },
+      {
+        "code": "0457",
+        "name": "Soil Conservation",
+        "employees": 4199,
+        "avgSalary": 87864
+      },
+      {
+        "code": "0456",
+        "name": "Wildland Fire Management",
+        "employees": 2192,
+        "avgSalary": 83117
+      },
+      {
+        "code": "0486",
+        "name": "Wildlife Biology",
+        "employees": 1821,
+        "avgSalary": 95771
+      },
+      {
+        "code": "0482",
+        "name": "Fish Biology",
+        "employees": 1640,
+        "avgSalary": 114482
+      },
+      {
+        "code": "0460",
+        "name": "Forestry",
+        "employees": 1582,
+        "avgSalary": 87654
+      },
+      {
+        "code": "0403",
+        "name": "Microbiology",
+        "employees": 1490,
+        "avgSalary": 141220
+      },
+      {
+        "code": "0408",
+        "name": "Ecology",
+        "employees": 1002,
+        "avgSalary": 121042
+      },
+      {
+        "code": "0454",
+        "name": "Rangeland Management",
+        "employees": 726,
+        "avgSalary": 86364
+      },
+      {
+        "code": "0421",
+        "name": "Plant Protection Technician",
+        "employees": 646,
+        "avgSalary": 45391
+      },
+      {
+        "code": "0470",
+        "name": "Soil Science",
+        "employees": 612,
+        "avgSalary": 107420
+      },
+      {
+        "code": "0405",
+        "name": "Pharmacology",
+        "employees": 599,
+        "avgSalary": 182277
+      },
+      {
+        "code": "0458",
+        "name": "Soil Conservation Technician",
+        "employees": 534,
+        "avgSalary": 57644
+      },
+      {
+        "code": "0485",
+        "name": "Wildlife Refuge Management",
+        "employees": 432,
+        "avgSalary": 113297
+      },
+      {
+        "code": "0440",
+        "name": "Genetics",
+        "employees": 406,
+        "avgSalary": 139871
+      },
+      {
+        "code": "0415",
+        "name": "Toxicology",
+        "employees": 377,
+        "avgSalary": 149670
+      },
+      {
+        "code": "0414",
+        "name": "Entomology",
+        "employees": 366,
+        "avgSalary": 133198
+      },
+      {
+        "code": "0480",
+        "name": "Fish and Wildlife Administration",
+        "employees": 340,
+        "avgSalary": 166673
+      },
+      {
+        "code": "0430",
+        "name": "Botany",
+        "employees": 266,
+        "avgSalary": 94195
+      },
+      {
+        "code": "0434",
+        "name": "Plant Pathology",
+        "employees": 205,
+        "avgSalary": 135492
+      },
+      {
+        "code": "0499",
+        "name": "Biological Science Student Trainee",
+        "employees": 187,
+        "avgSalary": 43512
+      },
+      {
+        "code": "0413",
+        "name": "Physiology",
+        "employees": 184,
+        "avgSalary": 131150
+      },
+      {
+        "code": "0471",
+        "name": "Agronomy",
+        "employees": 164,
+        "avgSalary": 112051
+      },
+      {
+        "code": "0455",
+        "name": "Range Technician",
+        "employees": 159,
+        "avgSalary": 60593
+      },
+      {
+        "code": "0437",
+        "name": "Horticulture",
+        "employees": 97,
+        "avgSalary": 110155
+      },
+      {
+        "code": "0435",
+        "name": "Plant Physiology",
+        "employees": 64,
+        "avgSalary": 140107
+      },
+      {
+        "code": "0487",
+        "name": "Animal Science",
+        "employees": 57,
+        "avgSalary": 142832
+      },
+      {
+        "code": "0459",
+        "name": "Irrigation System Operation",
+        "employees": 55,
+        "avgSalary": 55450
+      },
+      {
+        "code": "0410",
+        "name": "Zoology",
+        "employees": 33,
+        "avgSalary": 154911
+      }
+    ]
+  },
+  {
+    "slug": "information-technology-group",
+    "name": "Information Technology Group",
+    "totalEmployees": 42614,
+    "avgSalary": 144897,
+    "occupationCount": 3,
+    "topOccupations": [
+      {
+        "code": "2210",
+        "name": "Information Technology Management",
+        "employees": 42390,
+        "avgSalary": 145038
+      },
+      {
+        "code": "2230",
+        "name": "Dhs Cybersecurity Specialist (for Dhs Use Only)",
+        "employees": 144,
+        "avgSalary": 157790
+      },
+      {
+        "code": "2299",
+        "name": "Information Technology Student Trainee",
+        "employees": 80,
+        "avgSalary": 46895
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "2210",
+        "name": "Information Technology Management",
+        "employees": 42390,
+        "avgSalary": 145038
+      },
+      {
+        "code": "2230",
+        "name": "Dhs Cybersecurity Specialist (for Dhs Use Only)",
+        "employees": 144,
+        "avgSalary": 157790
+      },
+      {
+        "code": "2299",
+        "name": "Information Technology Student Trainee",
+        "employees": 80,
+        "avgSalary": 46895
+      }
+    ]
+  },
+  {
+    "slug": "business-and-industry-group",
+    "name": "Business and Industry Group",
+    "totalEmployees": 41495,
+    "avgSalary": 119626,
+    "occupationCount": 23,
+    "topOccupations": [
+      {
+        "code": "1101",
+        "name": "General Business and Industry",
+        "employees": 13222,
+        "avgSalary": 122095
+      },
+      {
+        "code": "1102",
+        "name": "Contracting",
+        "employees": 12395,
+        "avgSalary": 130051
+      },
+      {
+        "code": "1165",
+        "name": "Loan Specialist",
+        "employees": 4160,
+        "avgSalary": 93978
+      },
+      {
+        "code": "1109",
+        "name": "Grants Management",
+        "employees": 3043,
+        "avgSalary": 126759
+      },
+      {
+        "code": "1170",
+        "name": "Realty",
+        "employees": 1997,
+        "avgSalary": 111414
+      },
+      {
+        "code": "1105",
+        "name": "Purchasing",
+        "employees": 1818,
+        "avgSalary": 58790
+      },
+      {
+        "code": "1160",
+        "name": "Financial Analysis",
+        "employees": 1002,
+        "avgSalary": 170966
+      },
+      {
+        "code": "1176",
+        "name": "Building Management",
+        "employees": 942,
+        "avgSalary": 118486
+      },
+      {
+        "code": "1140",
+        "name": "Trade Specialist",
+        "employees": 570,
+        "avgSalary": 145589
+      },
+      {
+        "code": "1130",
+        "name": "Public Utilities Specialist",
+        "employees": 452,
+        "avgSalary": 129249
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "1101",
+        "name": "General Business and Industry",
+        "employees": 13222,
+        "avgSalary": 122095
+      },
+      {
+        "code": "1102",
+        "name": "Contracting",
+        "employees": 12395,
+        "avgSalary": 130051
+      },
+      {
+        "code": "1165",
+        "name": "Loan Specialist",
+        "employees": 4160,
+        "avgSalary": 93978
+      },
+      {
+        "code": "1109",
+        "name": "Grants Management",
+        "employees": 3043,
+        "avgSalary": 126759
+      },
+      {
+        "code": "1170",
+        "name": "Realty",
+        "employees": 1997,
+        "avgSalary": 111414
+      },
+      {
+        "code": "1105",
+        "name": "Purchasing",
+        "employees": 1818,
+        "avgSalary": 58790
+      },
+      {
+        "code": "1160",
+        "name": "Financial Analysis",
+        "employees": 1002,
+        "avgSalary": 170966
+      },
+      {
+        "code": "1176",
+        "name": "Building Management",
+        "employees": 942,
+        "avgSalary": 118486
+      },
+      {
+        "code": "1140",
+        "name": "Trade Specialist",
+        "employees": 570,
+        "avgSalary": 145589
+      },
+      {
+        "code": "1130",
+        "name": "Public Utilities Specialist",
+        "employees": 452,
+        "avgSalary": 129249
+      },
+      {
+        "code": "1146",
+        "name": "Agricultural Marketing",
+        "employees": 364,
+        "avgSalary": 124026
+      },
+      {
+        "code": "1171",
+        "name": "Appraising",
+        "employees": 352,
+        "avgSalary": 134651
+      },
+      {
+        "code": "1145",
+        "name": "Agricultural Program Specialist",
+        "employees": 319,
+        "avgSalary": 111785
+      },
+      {
+        "code": "1106",
+        "name": "Procurement Clerical and Technician",
+        "employees": 221,
+        "avgSalary": 62479
+      },
+      {
+        "code": "1173",
+        "name": "Housing Management",
+        "employees": 140,
+        "avgSalary": 88719
+      },
+      {
+        "code": "1104",
+        "name": "Property Disposal",
+        "employees": 131,
+        "avgSalary": 116683
+      },
+      {
+        "code": "1147",
+        "name": "Agricultural Market Reporting",
+        "employees": 120,
+        "avgSalary": 98628
+      },
+      {
+        "code": "1152",
+        "name": "Production Control",
+        "employees": 67,
+        "avgSalary": 97723
+      },
+      {
+        "code": "1199",
+        "name": "Business and Industry Student Trainee",
+        "employees": 49,
+        "avgSalary": 41322
+      },
+      {
+        "code": "1103",
+        "name": "Industrial Property Management",
+        "employees": 48,
+        "avgSalary": 129503
+      },
+      {
+        "code": "1163",
+        "name": "Insurance Examining",
+        "employees": 36,
+        "avgSalary": 142671
+      },
+      {
+        "code": "1150",
+        "name": "Industrial Specialist",
+        "employees": 35,
+        "avgSalary": 140424
+      },
+      {
+        "code": "1107",
+        "name": "Property Disposal Clerical and Technician",
+        "employees": 12,
+        "avgSalary": 64696
+      }
+    ]
+  },
+  {
+    "slug": "engineering-and-architecture-group",
+    "name": "Engineering and Architecture Group",
+    "totalEmployees": 35408,
+    "avgSalary": 138792,
+    "occupationCount": 27,
+    "topOccupations": [
+      {
+        "code": "0801",
+        "name": "General Engineering",
+        "employees": 10581,
+        "avgSalary": 157158
+      },
+      {
+        "code": "0861",
+        "name": "Aerospace Engineering",
+        "employees": 4930,
+        "avgSalary": 154582
+      },
+      {
+        "code": "0810",
+        "name": "Civil Engineering",
+        "employees": 3747,
+        "avgSalary": 122797
+      },
+      {
+        "code": "0802",
+        "name": "Engineering Technical",
+        "employees": 2931,
+        "avgSalary": 92146
+      },
+      {
+        "code": "0855",
+        "name": "Electronics Engineering",
+        "employees": 1954,
+        "avgSalary": 153768
+      },
+      {
+        "code": "0856",
+        "name": "Electronics Technical",
+        "employees": 1661,
+        "avgSalary": 102932
+      },
+      {
+        "code": "0819",
+        "name": "Environmental Engineering",
+        "employees": 1588,
+        "avgSalary": 140188
+      },
+      {
+        "code": "0850",
+        "name": "Electrical Engineering",
+        "employees": 1420,
+        "avgSalary": 141205
+      },
+      {
+        "code": "0830",
+        "name": "Mechanical Engineering",
+        "employees": 1065,
+        "avgSalary": 135389
+      },
+      {
+        "code": "0858",
+        "name": "Bioengineering & Biomedical Engineering",
+        "employees": 948,
+        "avgSalary": 142937
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "0801",
+        "name": "General Engineering",
+        "employees": 10581,
+        "avgSalary": 157158
+      },
+      {
+        "code": "0861",
+        "name": "Aerospace Engineering",
+        "employees": 4930,
+        "avgSalary": 154582
+      },
+      {
+        "code": "0810",
+        "name": "Civil Engineering",
+        "employees": 3747,
+        "avgSalary": 122797
+      },
+      {
+        "code": "0802",
+        "name": "Engineering Technical",
+        "employees": 2931,
+        "avgSalary": 92146
+      },
+      {
+        "code": "0855",
+        "name": "Electronics Engineering",
+        "employees": 1954,
+        "avgSalary": 153768
+      },
+      {
+        "code": "0856",
+        "name": "Electronics Technical",
+        "employees": 1661,
+        "avgSalary": 102932
+      },
+      {
+        "code": "0819",
+        "name": "Environmental Engineering",
+        "employees": 1588,
+        "avgSalary": 140188
+      },
+      {
+        "code": "0850",
+        "name": "Electrical Engineering",
+        "employees": 1420,
+        "avgSalary": 141205
+      },
+      {
+        "code": "0830",
+        "name": "Mechanical Engineering",
+        "employees": 1065,
+        "avgSalary": 135389
+      },
+      {
+        "code": "0858",
+        "name": "Bioengineering & Biomedical Engineering",
+        "employees": 948,
+        "avgSalary": 142937
+      },
+      {
+        "code": "0854",
+        "name": "Computer Engineering",
+        "employees": 755,
+        "avgSalary": 158701
+      },
+      {
+        "code": "0828",
+        "name": "Construction Analyst",
+        "employees": 718,
+        "avgSalary": 94146
+      },
+      {
+        "code": "0808",
+        "name": "Architecture",
+        "employees": 622,
+        "avgSalary": 140697
+      },
+      {
+        "code": "0809",
+        "name": "Construction Control Technical",
+        "employees": 470,
+        "avgSalary": 101472
+      },
+      {
+        "code": "0806",
+        "name": "Materials Engineering",
+        "employees": 415,
+        "avgSalary": 153559
+      },
+      {
+        "code": "0881",
+        "name": "Petroleum Engineering",
+        "employees": 297,
+        "avgSalary": 137511
+      },
+      {
+        "code": "0890",
+        "name": "Agricultural Engineering",
+        "employees": 233,
+        "avgSalary": 111839
+      },
+      {
+        "code": "0893",
+        "name": "Chemical Engineering",
+        "employees": 221,
+        "avgSalary": 147599
+      },
+      {
+        "code": "0807",
+        "name": "Landscape Architecture",
+        "employees": 196,
+        "avgSalary": 119518
+      },
+      {
+        "code": "0899",
+        "name": "Engineering and Architecture Student Trainee",
+        "employees": 148,
+        "avgSalary": 60380
+      },
+      {
+        "code": "0804",
+        "name": "Fire Protection Engineering",
+        "employees": 105,
+        "avgSalary": 158109
+      },
+      {
+        "code": "0803",
+        "name": "Safety Engineering",
+        "employees": 104,
+        "avgSalary": 134493
+      },
+      {
+        "code": "0817",
+        "name": "Survey Technical",
+        "employees": 87,
+        "avgSalary": 64308
+      },
+      {
+        "code": "0896",
+        "name": "Industrial Engineering",
+        "employees": 74,
+        "avgSalary": 149756
+      },
+      {
+        "code": "0880",
+        "name": "Mining Engineering",
+        "employees": 54,
+        "avgSalary": 127109
+      },
+      {
+        "code": "0871",
+        "name": "Naval Architecture",
+        "employees": 51,
+        "avgSalary": 154529
+      },
+      {
+        "code": "0873",
+        "name": "Marine Survey Technical",
+        "employees": 33,
+        "avgSalary": 141338
+      }
+    ]
+  },
+  {
+    "slug": "miscellaneous-occupations-group",
+    "name": "Miscellaneous Occupations Group",
+    "totalEmployees": 35282,
+    "avgSalary": 101449,
+    "occupationCount": 21,
+    "topOccupations": [
+      {
+        "code": "0089",
+        "name": "Emergency Management Specialist",
+        "employees": 11657,
+        "avgSalary": 96376
+      },
+      {
+        "code": "0080",
+        "name": "Security Administration",
+        "employees": 5959,
+        "avgSalary": 123295
+      },
+      {
+        "code": "0028",
+        "name": "Environmental Protection Specialist",
+        "employees": 3409,
+        "avgSalary": 126483
+      },
+      {
+        "code": "0025",
+        "name": "Park Ranger",
+        "employees": 3268,
+        "avgSalary": 86045
+      },
+      {
+        "code": "0018",
+        "name": "Safety and Occupational Health Management",
+        "employees": 2567,
+        "avgSalary": 116252
+      },
+      {
+        "code": "0086",
+        "name": "Security Clerical and Assistance",
+        "employees": 2200,
+        "avgSalary": 64965
+      },
+      {
+        "code": "0006",
+        "name": "Correctional Institution Administration",
+        "employees": 1626,
+        "avgSalary": 122300
+      },
+      {
+        "code": "0060",
+        "name": "Chaplain",
+        "employees": 1118,
+        "avgSalary": 102475
+      },
+      {
+        "code": "0085",
+        "name": "Security Guard",
+        "employees": 1097,
+        "avgSalary": 57480
+      },
+      {
+        "code": "0090",
+        "name": "Guide",
+        "employees": 671,
+        "avgSalary": 46999
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "0089",
+        "name": "Emergency Management Specialist",
+        "employees": 11657,
+        "avgSalary": 96376
+      },
+      {
+        "code": "0080",
+        "name": "Security Administration",
+        "employees": 5959,
+        "avgSalary": 123295
+      },
+      {
+        "code": "0028",
+        "name": "Environmental Protection Specialist",
+        "employees": 3409,
+        "avgSalary": 126483
+      },
+      {
+        "code": "0025",
+        "name": "Park Ranger",
+        "employees": 3268,
+        "avgSalary": 86045
+      },
+      {
+        "code": "0018",
+        "name": "Safety and Occupational Health Management",
+        "employees": 2567,
+        "avgSalary": 116252
+      },
+      {
+        "code": "0086",
+        "name": "Security Clerical and Assistance",
+        "employees": 2200,
+        "avgSalary": 64965
+      },
+      {
+        "code": "0006",
+        "name": "Correctional Institution Administration",
+        "employees": 1626,
+        "avgSalary": 122300
+      },
+      {
+        "code": "0060",
+        "name": "Chaplain",
+        "employees": 1118,
+        "avgSalary": 102475
+      },
+      {
+        "code": "0085",
+        "name": "Security Guard",
+        "employees": 1097,
+        "avgSalary": 57480
+      },
+      {
+        "code": "0090",
+        "name": "Guide",
+        "employees": 671,
+        "avgSalary": 46999
+      },
+      {
+        "code": "0081",
+        "name": "Fire Protection and Prevention",
+        "employees": 460,
+        "avgSalary": 73712
+      },
+      {
+        "code": "0023",
+        "name": "Outdoor Recreation Planning",
+        "employees": 390,
+        "avgSalary": 94488
+      },
+      {
+        "code": "0020",
+        "name": "Community Planning",
+        "employees": 345,
+        "avgSalary": 130275
+      },
+      {
+        "code": "0030",
+        "name": "Sports Specialist",
+        "employees": 241,
+        "avgSalary": 83334
+      },
+      {
+        "code": "0050",
+        "name": "Funeral Directing",
+        "employees": 125,
+        "avgSalary": 92469
+      },
+      {
+        "code": "0019",
+        "name": "Safety Technician",
+        "employees": 44,
+        "avgSalary": 69188
+      },
+      {
+        "code": "0099",
+        "name": "General Student Trainee",
+        "employees": 44,
+        "avgSalary": 41966
+      },
+      {
+        "code": "0072",
+        "name": "Fingerprint Identification",
+        "employees": 36,
+        "avgSalary": 130049
+      },
+      {
+        "code": "0029",
+        "name": "Environmental Protection Assistant",
+        "employees": 14,
+        "avgSalary": 66757
+      },
+      {
+        "code": "0017",
+        "name": "Explosives Safety",
+        "employees": 8,
+        "avgSalary": 136893
+      },
+      {
+        "code": "0062",
+        "name": "Clothing Design",
+        "employees": 3,
+        "avgSalary": 154554
+      }
+    ]
+  },
+  {
+    "slug": "transportation-group",
+    "name": "Transportation Group",
+    "totalEmployees": 31357,
+    "avgSalary": 138431,
+    "occupationCount": 15,
+    "topOccupations": [
+      {
+        "code": "2152",
+        "name": "Air Traffic Control",
+        "employees": 19344,
+        "avgSalary": 152431
+      },
+      {
+        "code": "2101",
+        "name": "Transportation Specialist",
+        "employees": 7199,
+        "avgSalary": 122153
+      },
+      {
+        "code": "2102",
+        "name": "Transportation Clerk and Assistant",
+        "employees": 1137,
+        "avgSalary": 55414
+      },
+      {
+        "code": "2186",
+        "name": "Technical Systems Program Manager",
+        "employees": 726,
+        "avgSalary": 188810
+      },
+      {
+        "code": "2150",
+        "name": "Transportation Operations",
+        "employees": 664,
+        "avgSalary": 103820
+      },
+      {
+        "code": "2121",
+        "name": "Railroad Safety",
+        "employees": 515,
+        "avgSalary": 118100
+      },
+      {
+        "code": "2123",
+        "name": "Motor Carrier Safety",
+        "employees": 494,
+        "avgSalary": 92688
+      },
+      {
+        "code": "2151",
+        "name": "Dispatching",
+        "employees": 346,
+        "avgSalary": 58828
+      },
+      {
+        "code": "2181",
+        "name": "Aircraft Operation",
+        "employees": 275,
+        "avgSalary": 149405
+      },
+      {
+        "code": "2125",
+        "name": "Highway Safety",
+        "employees": 173,
+        "avgSalary": 135339
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "2152",
+        "name": "Air Traffic Control",
+        "employees": 19344,
+        "avgSalary": 152431
+      },
+      {
+        "code": "2101",
+        "name": "Transportation Specialist",
+        "employees": 7199,
+        "avgSalary": 122153
+      },
+      {
+        "code": "2102",
+        "name": "Transportation Clerk and Assistant",
+        "employees": 1137,
+        "avgSalary": 55414
+      },
+      {
+        "code": "2186",
+        "name": "Technical Systems Program Manager",
+        "employees": 726,
+        "avgSalary": 188810
+      },
+      {
+        "code": "2150",
+        "name": "Transportation Operations",
+        "employees": 664,
+        "avgSalary": 103820
+      },
+      {
+        "code": "2121",
+        "name": "Railroad Safety",
+        "employees": 515,
+        "avgSalary": 118100
+      },
+      {
+        "code": "2123",
+        "name": "Motor Carrier Safety",
+        "employees": 494,
+        "avgSalary": 92688
+      },
+      {
+        "code": "2151",
+        "name": "Dispatching",
+        "employees": 346,
+        "avgSalary": 58828
+      },
+      {
+        "code": "2181",
+        "name": "Aircraft Operation",
+        "employees": 275,
+        "avgSalary": 149405
+      },
+      {
+        "code": "2125",
+        "name": "Highway Safety",
+        "employees": 173,
+        "avgSalary": 135339
+      },
+      {
+        "code": "2154",
+        "name": "Air Traffic Assistance",
+        "employees": 172,
+        "avgSalary": 82756
+      },
+      {
+        "code": "2110",
+        "name": "Transportation Industry Analysis",
+        "employees": 139,
+        "avgSalary": 149029
+      },
+      {
+        "code": "2130",
+        "name": "Traffic Management",
+        "employees": 128,
+        "avgSalary": 117634
+      },
+      {
+        "code": "2199",
+        "name": "Transportation Student Trainee",
+        "employees": 34,
+        "avgSalary": 45860
+      },
+      {
+        "code": "2131",
+        "name": "Freight Rate",
+        "employees": 11,
+        "avgSalary": 67364
+      }
+    ]
+  },
+  {
+    "slug": "human-resources-management-group",
+    "name": "Human Resources Management Group",
+    "totalEmployees": 24611,
+    "avgSalary": 118228,
+    "occupationCount": 6,
+    "topOccupations": [
+      {
+        "code": "0201",
+        "name": "Human Resources Management",
+        "employees": 20803,
+        "avgSalary": 122790
+      },
+      {
+        "code": "0203",
+        "name": "Human Resources Assistance",
+        "employees": 2193,
+        "avgSalary": 64012
+      },
+      {
+        "code": "0260",
+        "name": "Equal Employment Opportunity",
+        "employees": 1328,
+        "avgSalary": 131390
+      },
+      {
+        "code": "0244",
+        "name": "Labor-management Relations Examining",
+        "employees": 195,
+        "avgSalary": 146492
+      },
+      {
+        "code": "0241",
+        "name": "Mediation",
+        "employees": 69,
+        "avgSalary": 154713
+      },
+      {
+        "code": "0299",
+        "name": "Human Resources Management Student Trainee",
+        "employees": 23,
+        "avgSalary": 52537
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "0201",
+        "name": "Human Resources Management",
+        "employees": 20803,
+        "avgSalary": 122790
+      },
+      {
+        "code": "0203",
+        "name": "Human Resources Assistance",
+        "employees": 2193,
+        "avgSalary": 64012
+      },
+      {
+        "code": "0260",
+        "name": "Equal Employment Opportunity",
+        "employees": 1328,
+        "avgSalary": 131390
+      },
+      {
+        "code": "0244",
+        "name": "Labor-management Relations Examining",
+        "employees": 195,
+        "avgSalary": 146492
+      },
+      {
+        "code": "0241",
+        "name": "Mediation",
+        "employees": 69,
+        "avgSalary": 154713
+      },
+      {
+        "code": "0299",
+        "name": "Human Resources Management Student Trainee",
+        "employees": 23,
+        "avgSalary": 52537
+      }
+    ]
+  },
+  {
+    "slug": "physical-sciences-group",
+    "name": "Physical Sciences Group",
+    "totalEmployees": 18911,
+    "avgSalary": 131277,
+    "occupationCount": 24,
+    "topOccupations": [
+      {
+        "code": "1301",
+        "name": "General Physical Science",
+        "employees": 5991,
+        "avgSalary": 143187
+      },
+      {
+        "code": "1320",
+        "name": "Chemistry",
+        "employees": 2887,
+        "avgSalary": 146912
+      },
+      {
+        "code": "1340",
+        "name": "Meteorology",
+        "employees": 2220,
+        "avgSalary": 123985
+      },
+      {
+        "code": "1315",
+        "name": "Hydrology",
+        "employees": 1642,
+        "avgSalary": 116221
+      },
+      {
+        "code": "1316",
+        "name": "Hydrologic Technician",
+        "employees": 1378,
+        "avgSalary": 73701
+      },
+      {
+        "code": "1350",
+        "name": "Geology",
+        "employees": 926,
+        "avgSalary": 122589
+      },
+      {
+        "code": "1310",
+        "name": "Physics",
+        "employees": 634,
+        "avgSalary": 171725
+      },
+      {
+        "code": "1311",
+        "name": "Physical Science Technician",
+        "employees": 446,
+        "avgSalary": 78473
+      },
+      {
+        "code": "1361",
+        "name": "Navigational Information",
+        "employees": 430,
+        "avgSalary": 146873
+      },
+      {
+        "code": "1330",
+        "name": "Astronomy and Space Science",
+        "employees": 364,
+        "avgSalary": 175175
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "1301",
+        "name": "General Physical Science",
+        "employees": 5991,
+        "avgSalary": 143187
+      },
+      {
+        "code": "1320",
+        "name": "Chemistry",
+        "employees": 2887,
+        "avgSalary": 146912
+      },
+      {
+        "code": "1340",
+        "name": "Meteorology",
+        "employees": 2220,
+        "avgSalary": 123985
+      },
+      {
+        "code": "1315",
+        "name": "Hydrology",
+        "employees": 1642,
+        "avgSalary": 116221
+      },
+      {
+        "code": "1316",
+        "name": "Hydrologic Technician",
+        "employees": 1378,
+        "avgSalary": 73701
+      },
+      {
+        "code": "1350",
+        "name": "Geology",
+        "employees": 926,
+        "avgSalary": 122589
+      },
+      {
+        "code": "1310",
+        "name": "Physics",
+        "employees": 634,
+        "avgSalary": 171725
+      },
+      {
+        "code": "1311",
+        "name": "Physical Science Technician",
+        "employees": 446,
+        "avgSalary": 78473
+      },
+      {
+        "code": "1361",
+        "name": "Navigational Information",
+        "employees": 430,
+        "avgSalary": 146873
+      },
+      {
+        "code": "1330",
+        "name": "Astronomy and Space Science",
+        "employees": 364,
+        "avgSalary": 175175
+      },
+      {
+        "code": "1370",
+        "name": "Cartography",
+        "employees": 355,
+        "avgSalary": 119265
+      },
+      {
+        "code": "1306",
+        "name": "Health Physics",
+        "employees": 350,
+        "avgSalary": 145743
+      },
+      {
+        "code": "1313",
+        "name": "Geophysics",
+        "employees": 289,
+        "avgSalary": 148948
+      },
+      {
+        "code": "1373",
+        "name": "Land Surveying",
+        "employees": 258,
+        "avgSalary": 106733
+      },
+      {
+        "code": "1360",
+        "name": "Oceanography",
+        "employees": 193,
+        "avgSalary": 153499
+      },
+      {
+        "code": "1341",
+        "name": "Meteorological Technician",
+        "employees": 144,
+        "avgSalary": 95629
+      },
+      {
+        "code": "1371",
+        "name": "Cartographic Technician",
+        "employees": 125,
+        "avgSalary": 70207
+      },
+      {
+        "code": "1399",
+        "name": "Physical Science Student Trainee",
+        "employees": 89,
+        "avgSalary": 48770
+      },
+      {
+        "code": "1382",
+        "name": "Food Technology",
+        "employees": 74,
+        "avgSalary": 146188
+      },
+      {
+        "code": "1397",
+        "name": "Document Analysis",
+        "employees": 48,
+        "avgSalary": 151134
+      },
+      {
+        "code": "1372",
+        "name": "Geodesy",
+        "employees": 41,
+        "avgSalary": 153784
+      },
+      {
+        "code": "1380",
+        "name": "Forest Products Technology",
+        "employees": 13,
+        "avgSalary": 134507
+      },
+      {
+        "code": "1321",
+        "name": "Metallurgy",
+        "employees": 8,
+        "avgSalary": 167316
+      },
+      {
+        "code": "1384",
+        "name": "Textile Technology",
+        "employees": 6,
+        "avgSalary": 126447
+      }
+    ]
+  },
+  {
+    "slug": "general-services-and-support-work-family",
+    "name": "General Services and Support Work Family",
+    "totalEmployees": 13081,
+    "avgSalary": 46637,
+    "occupationCount": 5,
+    "topOccupations": [
+      {
+        "code": "3566",
+        "name": "Custodial Working",
+        "employees": 11980,
+        "avgSalary": 46505
+      },
+      {
+        "code": "3502",
+        "name": "Laboring",
+        "employees": 1021,
+        "avgSalary": 47448
+      },
+      {
+        "code": "3501",
+        "name": "Misc General Services and Support Work",
+        "employees": 60,
+        "avgSalary": 57397
+      },
+      {
+        "code": "3511",
+        "name": "Laboratory Working",
+        "employees": 19,
+        "avgSalary": 48684
+      },
+      {
+        "code": "3513",
+        "name": "Coin/currency Checking",
+        "employees": 1,
+        "avgSalary": 110569
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "3566",
+        "name": "Custodial Working",
+        "employees": 11980,
+        "avgSalary": 46505
+      },
+      {
+        "code": "3502",
+        "name": "Laboring",
+        "employees": 1021,
+        "avgSalary": 47448
+      },
+      {
+        "code": "3501",
+        "name": "Misc General Services and Support Work",
+        "employees": 60,
+        "avgSalary": 57397
+      },
+      {
+        "code": "3511",
+        "name": "Laboratory Working",
+        "employees": 19,
+        "avgSalary": 48684
+      },
+      {
+        "code": "3513",
+        "name": "Coin/currency Checking",
+        "employees": 1,
+        "avgSalary": 110569
+      }
+    ]
+  },
+  {
+    "slug": "investigation-group",
+    "name": "Investigation Group",
+    "totalEmployees": 12890,
+    "avgSalary": 108201,
+    "occupationCount": 12,
+    "topOccupations": [
+      {
+        "code": "1862",
+        "name": "Consumer Safety Inspection",
+        "employees": 5252,
+        "avgSalary": 73086
+      },
+      {
+        "code": "1825",
+        "name": "Aviation Safety",
+        "employees": 4164,
+        "avgSalary": 142693
+      },
+      {
+        "code": "1849",
+        "name": "Wage and Hour Investigation Series",
+        "employees": 973,
+        "avgSalary": 119357
+      },
+      {
+        "code": "1822",
+        "name": "Mine Safety and Health Inspection Series",
+        "employees": 925,
+        "avgSalary": 110636
+      },
+      {
+        "code": "1860",
+        "name": "Equal Opportunity Investigation",
+        "employees": 613,
+        "avgSalary": 111235
+      },
+      {
+        "code": "1863",
+        "name": "Food Inspection",
+        "employees": 509,
+        "avgSalary": 59053
+      },
+      {
+        "code": "1831",
+        "name": "Securities Compliance Examining",
+        "employees": 384,
+        "avgSalary": 239459
+      },
+      {
+        "code": "1850",
+        "name": "Agricultural Warehouse Inspection Series",
+        "employees": 34,
+        "avgSalary": 98236
+      },
+      {
+        "code": "1815",
+        "name": "Air Safety Investigating",
+        "employees": 28,
+        "avgSalary": 142624
+      },
+      {
+        "code": "1899",
+        "name": "Investigation Student Trainee",
+        "employees": 4,
+        "avgSalary": 52320
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "1862",
+        "name": "Consumer Safety Inspection",
+        "employees": 5252,
+        "avgSalary": 73086
+      },
+      {
+        "code": "1825",
+        "name": "Aviation Safety",
+        "employees": 4164,
+        "avgSalary": 142693
+      },
+      {
+        "code": "1849",
+        "name": "Wage and Hour Investigation Series",
+        "employees": 973,
+        "avgSalary": 119357
+      },
+      {
+        "code": "1822",
+        "name": "Mine Safety and Health Inspection Series",
+        "employees": 925,
+        "avgSalary": 110636
+      },
+      {
+        "code": "1860",
+        "name": "Equal Opportunity Investigation",
+        "employees": 613,
+        "avgSalary": 111235
+      },
+      {
+        "code": "1863",
+        "name": "Food Inspection",
+        "employees": 509,
+        "avgSalary": 59053
+      },
+      {
+        "code": "1831",
+        "name": "Securities Compliance Examining",
+        "employees": 384,
+        "avgSalary": 239459
+      },
+      {
+        "code": "1850",
+        "name": "Agricultural Warehouse Inspection Series",
+        "employees": 34,
+        "avgSalary": 98236
+      },
+      {
+        "code": "1815",
+        "name": "Air Safety Investigating",
+        "employees": 28,
+        "avgSalary": 142624
+      },
+      {
+        "code": "1899",
+        "name": "Investigation Student Trainee",
+        "employees": 4,
+        "avgSalary": 52320
+      },
+      {
+        "code": "1894",
+        "name": "Customs Entry and Liquidating",
+        "employees": 2,
+        "avgSalary": 113233
+      },
+      {
+        "code": "1889",
+        "name": "Import Compliance Series",
+        "employees": 2,
+        "avgSalary": 125065
+      }
+    ]
+  },
+  {
+    "slug": "copyright-patent-and-trademark-group",
+    "name": "Copyright, Patent, and Trademark Group",
+    "totalEmployees": 10316,
+    "avgSalary": 159133,
+    "occupationCount": 7,
+    "topOccupations": [
+      {
+        "code": "1224",
+        "name": "Patent Examining",
+        "employees": 9257,
+        "avgSalary": 157418
+      },
+      {
+        "code": "1226",
+        "name": "Design Patent Examining",
+        "employees": 375,
+        "avgSalary": 131984
+      },
+      {
+        "code": "1220",
+        "name": "Patent Administration",
+        "employees": 321,
+        "avgSalary": 197945
+      },
+      {
+        "code": "1222",
+        "name": "Patent Attorney",
+        "employees": 319,
+        "avgSalary": 199941
+      },
+      {
+        "code": "1223",
+        "name": "Patent Classifying",
+        "employees": 33,
+        "avgSalary": 187211
+      },
+      {
+        "code": "1221",
+        "name": "Patent Adviser",
+        "employees": 6,
+        "avgSalary": 154700
+      },
+      {
+        "code": "1202",
+        "name": "Patent Technician",
+        "employees": 5,
+        "avgSalary": 94713
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "1224",
+        "name": "Patent Examining",
+        "employees": 9257,
+        "avgSalary": 157418
+      },
+      {
+        "code": "1226",
+        "name": "Design Patent Examining",
+        "employees": 375,
+        "avgSalary": 131984
+      },
+      {
+        "code": "1220",
+        "name": "Patent Administration",
+        "employees": 321,
+        "avgSalary": 197945
+      },
+      {
+        "code": "1222",
+        "name": "Patent Attorney",
+        "employees": 319,
+        "avgSalary": 199941
+      },
+      {
+        "code": "1223",
+        "name": "Patent Classifying",
+        "employees": 33,
+        "avgSalary": 187211
+      },
+      {
+        "code": "1221",
+        "name": "Patent Adviser",
+        "employees": 6,
+        "avgSalary": 154700
+      },
+      {
+        "code": "1202",
+        "name": "Patent Technician",
+        "employees": 5,
+        "avgSalary": 94713
+      }
+    ]
+  },
+  {
+    "slug": "information-and-arts-group",
+    "name": "Information and Arts Group",
+    "totalEmployees": 9783,
+    "avgSalary": 121955,
+    "occupationCount": 18,
+    "topOccupations": [
+      {
+        "code": "1035",
+        "name": "Public Affairs",
+        "employees": 3370,
+        "avgSalary": 127464
+      },
+      {
+        "code": "1001",
+        "name": "General Arts and Information",
+        "employees": 2525,
+        "avgSalary": 125615
+      },
+      {
+        "code": "1084",
+        "name": "Visual Information",
+        "employees": 781,
+        "avgSalary": 108762
+      },
+      {
+        "code": "1082",
+        "name": "Writing and Editing",
+        "employees": 574,
+        "avgSalary": 135733
+      },
+      {
+        "code": "1016",
+        "name": "Museum Specialist and Technician",
+        "employees": 512,
+        "avgSalary": 94498
+      },
+      {
+        "code": "1071",
+        "name": "Audiovisual Production",
+        "employees": 409,
+        "avgSalary": 125408
+      },
+      {
+        "code": "1040",
+        "name": "Language Specialist",
+        "employees": 333,
+        "avgSalary": 115382
+      },
+      {
+        "code": "1015",
+        "name": "Museum Curator",
+        "employees": 332,
+        "avgSalary": 124166
+      },
+      {
+        "code": "1083",
+        "name": "Technical Writing and Editing",
+        "employees": 331,
+        "avgSalary": 125828
+      },
+      {
+        "code": "1008",
+        "name": "Interior Design",
+        "employees": 269,
+        "avgSalary": 104551
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "1035",
+        "name": "Public Affairs",
+        "employees": 3370,
+        "avgSalary": 127464
+      },
+      {
+        "code": "1001",
+        "name": "General Arts and Information",
+        "employees": 2525,
+        "avgSalary": 125615
+      },
+      {
+        "code": "1084",
+        "name": "Visual Information",
+        "employees": 781,
+        "avgSalary": 108762
+      },
+      {
+        "code": "1082",
+        "name": "Writing and Editing",
+        "employees": 574,
+        "avgSalary": 135733
+      },
+      {
+        "code": "1016",
+        "name": "Museum Specialist and Technician",
+        "employees": 512,
+        "avgSalary": 94498
+      },
+      {
+        "code": "1071",
+        "name": "Audiovisual Production",
+        "employees": 409,
+        "avgSalary": 125408
+      },
+      {
+        "code": "1040",
+        "name": "Language Specialist",
+        "employees": 333,
+        "avgSalary": 115382
+      },
+      {
+        "code": "1015",
+        "name": "Museum Curator",
+        "employees": 332,
+        "avgSalary": 124166
+      },
+      {
+        "code": "1083",
+        "name": "Technical Writing and Editing",
+        "employees": 331,
+        "avgSalary": 125828
+      },
+      {
+        "code": "1008",
+        "name": "Interior Design",
+        "employees": 269,
+        "avgSalary": 104551
+      },
+      {
+        "code": "1010",
+        "name": "Exhibits Specialist",
+        "employees": 219,
+        "avgSalary": 102896
+      },
+      {
+        "code": "1060",
+        "name": "Photography",
+        "employees": 83,
+        "avgSalary": 104764
+      },
+      {
+        "code": "1087",
+        "name": "Editorial Assistance",
+        "employees": 21,
+        "avgSalary": 61352
+      },
+      {
+        "code": "1020",
+        "name": "Illustrating",
+        "employees": 14,
+        "avgSalary": 86904
+      },
+      {
+        "code": "1099",
+        "name": "Information and Arts Student Trainee",
+        "employees": 4,
+        "avgSalary": 63198
+      },
+      {
+        "code": "1046",
+        "name": "Language Clerical",
+        "employees": 2,
+        "avgSalary": 45396
+      },
+      {
+        "code": "1051",
+        "name": "Music Specialist",
+        "employees": 2,
+        "avgSalary": 102573
+      },
+      {
+        "code": "1056",
+        "name": "Art Specialist",
+        "employees": 2,
+        "avgSalary": 61298
+      }
+    ]
+  },
+  {
+    "slug": "general-maintenance-and-operations-work-family",
+    "name": "General Maintenance and Operations Work Family",
+    "totalEmployees": 8855,
+    "avgSalary": 76035,
+    "occupationCount": 9,
+    "topOccupations": [
+      {
+        "code": "4749",
+        "name": "Maintenance Mechanic",
+        "employees": 6146,
+        "avgSalary": 74140
+      },
+      {
+        "code": "4742",
+        "name": "Utility Systems Repairing-operating",
+        "employees": 1405,
+        "avgSalary": 83169
+      },
+      {
+        "code": "4754",
+        "name": "Cemetery Caretaking",
+        "employees": 625,
+        "avgSalary": 62771
+      },
+      {
+        "code": "4701",
+        "name": "Misc General Maintenance & Operations Work",
+        "employees": 586,
+        "avgSalary": 92789
+      },
+      {
+        "code": "4737",
+        "name": "General Equipment Mechanic",
+        "employees": 35,
+        "avgSalary": 74005
+      },
+      {
+        "code": "4741",
+        "name": "General Equipment Operating",
+        "employees": 29,
+        "avgSalary": 77763
+      },
+      {
+        "code": "4717",
+        "name": "Boat Building and Repairing",
+        "employees": 15,
+        "avgSalary": 72335
+      },
+      {
+        "code": "4714",
+        "name": "Model Making",
+        "employees": 10,
+        "avgSalary": 88900
+      },
+      {
+        "code": "4745",
+        "name": "Research Laboratory Mechanic",
+        "employees": 4,
+        "avgSalary": 86647
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "4749",
+        "name": "Maintenance Mechanic",
+        "employees": 6146,
+        "avgSalary": 74140
+      },
+      {
+        "code": "4742",
+        "name": "Utility Systems Repairing-operating",
+        "employees": 1405,
+        "avgSalary": 83169
+      },
+      {
+        "code": "4754",
+        "name": "Cemetery Caretaking",
+        "employees": 625,
+        "avgSalary": 62771
+      },
+      {
+        "code": "4701",
+        "name": "Misc General Maintenance & Operations Work",
+        "employees": 586,
+        "avgSalary": 92789
+      },
+      {
+        "code": "4737",
+        "name": "General Equipment Mechanic",
+        "employees": 35,
+        "avgSalary": 74005
+      },
+      {
+        "code": "4741",
+        "name": "General Equipment Operating",
+        "employees": 29,
+        "avgSalary": 77763
+      },
+      {
+        "code": "4717",
+        "name": "Boat Building and Repairing",
+        "employees": 15,
+        "avgSalary": 72335
+      },
+      {
+        "code": "4714",
+        "name": "Model Making",
+        "employees": 10,
+        "avgSalary": 88900
+      },
+      {
+        "code": "4745",
+        "name": "Research Laboratory Mechanic",
+        "employees": 4,
+        "avgSalary": 86647
+      }
+    ]
+  },
+  {
+    "slug": "food-preparation-and-serving-family",
+    "name": "Food Preparation and Serving Family",
+    "totalEmployees": 8644,
+    "avgSalary": 57000,
+    "occupationCount": 3,
+    "topOccupations": [
+      {
+        "code": "7408",
+        "name": "Food Service Working",
+        "employees": 5285,
+        "avgSalary": 48262
+      },
+      {
+        "code": "7404",
+        "name": "Cooking",
+        "employees": 3358,
+        "avgSalary": 70749
+      },
+      {
+        "code": "7402",
+        "name": "Baking",
+        "employees": 1,
+        "avgSalary": 63987
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "7408",
+        "name": "Food Service Working",
+        "employees": 5285,
+        "avgSalary": 48262
+      },
+      {
+        "code": "7404",
+        "name": "Cooking",
+        "employees": 3358,
+        "avgSalary": 70749
+      },
+      {
+        "code": "7402",
+        "name": "Baking",
+        "employees": 1,
+        "avgSalary": 63987
+      }
+    ]
+  },
+  {
+    "slug": "education-group",
+    "name": "Education Group",
+    "totalEmployees": 7898,
+    "avgSalary": 103216,
+    "occupationCount": 10,
+    "topOccupations": [
+      {
+        "code": "1712",
+        "name": "Training Instruction",
+        "employees": 2536,
+        "avgSalary": 104561
+      },
+      {
+        "code": "1710",
+        "name": "Education and Vocational Training",
+        "employees": 1528,
+        "avgSalary": 105445
+      },
+      {
+        "code": "1702",
+        "name": "Education and Training Technician",
+        "employees": 1254,
+        "avgSalary": 68471
+      },
+      {
+        "code": "1701",
+        "name": "General Education and Training",
+        "employees": 889,
+        "avgSalary": 129258
+      },
+      {
+        "code": "1715",
+        "name": "Vocational Rehabilitation",
+        "employees": 771,
+        "avgSalary": 87460
+      },
+      {
+        "code": "1750",
+        "name": "Instructional Systems",
+        "employees": 463,
+        "avgSalary": 131023
+      },
+      {
+        "code": "1720",
+        "name": "Education Program",
+        "employees": 356,
+        "avgSalary": 137363
+      },
+      {
+        "code": "1740",
+        "name": "Education Services",
+        "employees": 57,
+        "avgSalary": 85882
+      },
+      {
+        "code": "1730",
+        "name": "Education Research",
+        "employees": 31,
+        "avgSalary": 157395
+      },
+      {
+        "code": "1725",
+        "name": "Public Health Educator",
+        "employees": 13,
+        "avgSalary": 105386
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "1712",
+        "name": "Training Instruction",
+        "employees": 2536,
+        "avgSalary": 104561
+      },
+      {
+        "code": "1710",
+        "name": "Education and Vocational Training",
+        "employees": 1528,
+        "avgSalary": 105445
+      },
+      {
+        "code": "1702",
+        "name": "Education and Training Technician",
+        "employees": 1254,
+        "avgSalary": 68471
+      },
+      {
+        "code": "1701",
+        "name": "General Education and Training",
+        "employees": 889,
+        "avgSalary": 129258
+      },
+      {
+        "code": "1715",
+        "name": "Vocational Rehabilitation",
+        "employees": 771,
+        "avgSalary": 87460
+      },
+      {
+        "code": "1750",
+        "name": "Instructional Systems",
+        "employees": 463,
+        "avgSalary": 131023
+      },
+      {
+        "code": "1720",
+        "name": "Education Program",
+        "employees": 356,
+        "avgSalary": 137363
+      },
+      {
+        "code": "1740",
+        "name": "Education Services",
+        "employees": 57,
+        "avgSalary": 85882
+      },
+      {
+        "code": "1730",
+        "name": "Education Research",
+        "employees": 31,
+        "avgSalary": 157395
+      },
+      {
+        "code": "1725",
+        "name": "Public Health Educator",
+        "employees": 13,
+        "avgSalary": 105386
+      }
+    ]
+  },
+  {
+    "slug": "mathematics-and-statistics-group",
+    "name": "Mathematics and Statistics Group",
+    "totalEmployees": 7728,
+    "avgSalary": 144113,
+    "occupationCount": 11,
+    "topOccupations": [
+      {
+        "code": "1530",
+        "name": "Statistics",
+        "employees": 2953,
+        "avgSalary": 137831
+      },
+      {
+        "code": "1529",
+        "name": "Mathematical Statistics",
+        "employees": 1293,
+        "avgSalary": 156015
+      },
+      {
+        "code": "1550",
+        "name": "Computer Science",
+        "employees": 1238,
+        "avgSalary": 155340
+      },
+      {
+        "code": "1515",
+        "name": "Operations Research",
+        "employees": 830,
+        "avgSalary": 159626
+      },
+      {
+        "code": "1560",
+        "name": "Data Science Series",
+        "employees": 639,
+        "avgSalary": 142812
+      },
+      {
+        "code": "1531",
+        "name": "Statistical Assistant",
+        "employees": 358,
+        "avgSalary": 51060
+      },
+      {
+        "code": "1510",
+        "name": "Actuarial Science",
+        "employees": 231,
+        "avgSalary": 165104
+      },
+      {
+        "code": "1520",
+        "name": "Mathematics",
+        "employees": 113,
+        "avgSalary": 175554
+      },
+      {
+        "code": "1501",
+        "name": "General Mathematics and Statistics",
+        "employees": 55,
+        "avgSalary": 210220
+      },
+      {
+        "code": "1599",
+        "name": "Mathematics and Statistics Student Trainee",
+        "employees": 17,
+        "avgSalary": 54892
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "1530",
+        "name": "Statistics",
+        "employees": 2953,
+        "avgSalary": 137831
+      },
+      {
+        "code": "1529",
+        "name": "Mathematical Statistics",
+        "employees": 1293,
+        "avgSalary": 156015
+      },
+      {
+        "code": "1550",
+        "name": "Computer Science",
+        "employees": 1238,
+        "avgSalary": 155340
+      },
+      {
+        "code": "1515",
+        "name": "Operations Research",
+        "employees": 830,
+        "avgSalary": 159626
+      },
+      {
+        "code": "1560",
+        "name": "Data Science Series",
+        "employees": 639,
+        "avgSalary": 142812
+      },
+      {
+        "code": "1531",
+        "name": "Statistical Assistant",
+        "employees": 358,
+        "avgSalary": 51060
+      },
+      {
+        "code": "1510",
+        "name": "Actuarial Science",
+        "employees": 231,
+        "avgSalary": 165104
+      },
+      {
+        "code": "1520",
+        "name": "Mathematics",
+        "employees": 113,
+        "avgSalary": 175554
+      },
+      {
+        "code": "1501",
+        "name": "General Mathematics and Statistics",
+        "employees": 55,
+        "avgSalary": 210220
+      },
+      {
+        "code": "1599",
+        "name": "Mathematics and Statistics Student Trainee",
+        "employees": 17,
+        "avgSalary": 54892
+      },
+      {
+        "code": "1541",
+        "name": "Cryptanalysis",
+        "employees": 1,
+        "avgSalary": 156755
+      }
+    ]
+  },
+  {
+    "slug": "supply-group",
+    "name": "Supply Group",
+    "totalEmployees": 7656,
+    "avgSalary": 71206,
+    "occupationCount": 7,
+    "topOccupations": [
+      {
+        "code": "2010",
+        "name": "Inventory Management",
+        "employees": 2731,
+        "avgSalary": 77421
+      },
+      {
+        "code": "2005",
+        "name": "Supply Clerical and Technician",
+        "employees": 2597,
+        "avgSalary": 51544
+      },
+      {
+        "code": "2003",
+        "name": "Supply Program Management",
+        "employees": 1501,
+        "avgSalary": 93266
+      },
+      {
+        "code": "2091",
+        "name": "Sales Store Clerical",
+        "employees": 377,
+        "avgSalary": 41152
+      },
+      {
+        "code": "2001",
+        "name": "General Supply",
+        "employees": 326,
+        "avgSalary": 96920
+      },
+      {
+        "code": "2030",
+        "name": "Distribution Facilities & Storage Management",
+        "employees": 120,
+        "avgSalary": 102725
+      },
+      {
+        "code": "2032",
+        "name": "Packaging",
+        "employees": 4,
+        "avgSalary": 107340
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "2010",
+        "name": "Inventory Management",
+        "employees": 2731,
+        "avgSalary": 77421
+      },
+      {
+        "code": "2005",
+        "name": "Supply Clerical and Technician",
+        "employees": 2597,
+        "avgSalary": 51544
+      },
+      {
+        "code": "2003",
+        "name": "Supply Program Management",
+        "employees": 1501,
+        "avgSalary": 93266
+      },
+      {
+        "code": "2091",
+        "name": "Sales Store Clerical",
+        "employees": 377,
+        "avgSalary": 41152
+      },
+      {
+        "code": "2001",
+        "name": "General Supply",
+        "employees": 326,
+        "avgSalary": 96920
+      },
+      {
+        "code": "2030",
+        "name": "Distribution Facilities & Storage Management",
+        "employees": 120,
+        "avgSalary": 102725
+      },
+      {
+        "code": "2032",
+        "name": "Packaging",
+        "employees": 4,
+        "avgSalary": 107340
+      }
+    ]
+  },
+  {
+    "slug": "equipment-facilities-and-services-group",
+    "name": "Equipment, Facilities, and Services Group",
+    "totalEmployees": 5235,
+    "avgSalary": 106452,
+    "occupationCount": 8,
+    "topOccupations": [
+      {
+        "code": "1601",
+        "name": "Equipment Facilities, and Services",
+        "employees": 2183,
+        "avgSalary": 108473
+      },
+      {
+        "code": "1640",
+        "name": "Facility Operations Services",
+        "employees": 1388,
+        "avgSalary": 113335
+      },
+      {
+        "code": "1670",
+        "name": "Equipment Services",
+        "employees": 460,
+        "avgSalary": 108059
+      },
+      {
+        "code": "1630",
+        "name": "Cemetery Administration Services",
+        "employees": 361,
+        "avgSalary": 85960
+      },
+      {
+        "code": "1603",
+        "name": "Equipment, Facilities, and Services Assistance",
+        "employees": 319,
+        "avgSalary": 65072
+      },
+      {
+        "code": "1654",
+        "name": "Printing Services",
+        "employees": 287,
+        "avgSalary": 129132
+      },
+      {
+        "code": "1667",
+        "name": "Food Services",
+        "employees": 213,
+        "avgSalary": 105746
+      },
+      {
+        "code": "1658",
+        "name": "Laundry Operations Services",
+        "employees": 24,
+        "avgSalary": 87108
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "1601",
+        "name": "Equipment Facilities, and Services",
+        "employees": 2183,
+        "avgSalary": 108473
+      },
+      {
+        "code": "1640",
+        "name": "Facility Operations Services",
+        "employees": 1388,
+        "avgSalary": 113335
+      },
+      {
+        "code": "1670",
+        "name": "Equipment Services",
+        "employees": 460,
+        "avgSalary": 108059
+      },
+      {
+        "code": "1630",
+        "name": "Cemetery Administration Services",
+        "employees": 361,
+        "avgSalary": 85960
+      },
+      {
+        "code": "1603",
+        "name": "Equipment, Facilities, and Services Assistance",
+        "employees": 319,
+        "avgSalary": 65072
+      },
+      {
+        "code": "1654",
+        "name": "Printing Services",
+        "employees": 287,
+        "avgSalary": 129132
+      },
+      {
+        "code": "1667",
+        "name": "Food Services",
+        "employees": 213,
+        "avgSalary": 105746
+      },
+      {
+        "code": "1658",
+        "name": "Laundry Operations Services",
+        "employees": 24,
+        "avgSalary": 87108
+      }
+    ]
+  },
+  {
+    "slug": "transportation-mobile-equipment-operation-family",
+    "name": "Transportation/mobile Equipment Operation Family",
+    "totalEmployees": 4467,
+    "avgSalary": 66809,
+    "occupationCount": 12,
+    "topOccupations": [
+      {
+        "code": "5703",
+        "name": "Motor Vehicle Operating",
+        "employees": 2335,
+        "avgSalary": 61741
+      },
+      {
+        "code": "5716",
+        "name": "Engineering Equipment Operating",
+        "employees": 1396,
+        "avgSalary": 76519
+      },
+      {
+        "code": "5701",
+        "name": "Misc Transportation/mobile Equipment Oper",
+        "employees": 315,
+        "avgSalary": 58323
+      },
+      {
+        "code": "5705",
+        "name": "Tractor Operating",
+        "employees": 243,
+        "avgSalary": 60909
+      },
+      {
+        "code": "5786",
+        "name": "Small Craft Operating",
+        "employees": 64,
+        "avgSalary": 76518
+      },
+      {
+        "code": "5725",
+        "name": "Crane Operating",
+        "employees": 42,
+        "avgSalary": 86135
+      },
+      {
+        "code": "5729",
+        "name": "Drill Rig Operating",
+        "employees": 35,
+        "avgSalary": 75351
+      },
+      {
+        "code": "5782",
+        "name": "Ship Operating",
+        "employees": 19,
+        "avgSalary": 101728
+      },
+      {
+        "code": "5704",
+        "name": "Fork Lift Operating",
+        "employees": 9,
+        "avgSalary": 67473
+      },
+      {
+        "code": "5788",
+        "name": "Deckhand",
+        "employees": 4,
+        "avgSalary": 63862
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "5703",
+        "name": "Motor Vehicle Operating",
+        "employees": 2335,
+        "avgSalary": 61741
+      },
+      {
+        "code": "5716",
+        "name": "Engineering Equipment Operating",
+        "employees": 1396,
+        "avgSalary": 76519
+      },
+      {
+        "code": "5701",
+        "name": "Misc Transportation/mobile Equipment Oper",
+        "employees": 315,
+        "avgSalary": 58323
+      },
+      {
+        "code": "5705",
+        "name": "Tractor Operating",
+        "employees": 243,
+        "avgSalary": 60909
+      },
+      {
+        "code": "5786",
+        "name": "Small Craft Operating",
+        "employees": 64,
+        "avgSalary": 76518
+      },
+      {
+        "code": "5725",
+        "name": "Crane Operating",
+        "employees": 42,
+        "avgSalary": 86135
+      },
+      {
+        "code": "5729",
+        "name": "Drill Rig Operating",
+        "employees": 35,
+        "avgSalary": 75351
+      },
+      {
+        "code": "5782",
+        "name": "Ship Operating",
+        "employees": 19,
+        "avgSalary": 101728
+      },
+      {
+        "code": "5704",
+        "name": "Fork Lift Operating",
+        "employees": 9,
+        "avgSalary": 67473
+      },
+      {
+        "code": "5788",
+        "name": "Deckhand",
+        "employees": 4,
+        "avgSalary": 63862
+      },
+      {
+        "code": "5737",
+        "name": "Locomotive Engineering",
+        "employees": 3,
+        "avgSalary": 58561
+      },
+      {
+        "code": "5738",
+        "name": "Railroad Maintenance Vehicle Operating",
+        "employees": 2,
+        "avgSalary": 76134
+      }
+    ]
+  },
+  {
+    "slug": "quality-assurance-inspection-and-grading-group",
+    "name": "Quality Assurance, Inspection, and Grading Group",
+    "totalEmployees": 2981,
+    "avgSalary": 67975,
+    "occupationCount": 4,
+    "topOccupations": [
+      {
+        "code": "1980",
+        "name": "Agricultural Commodity Grading",
+        "employees": 1565,
+        "avgSalary": 68894
+      },
+      {
+        "code": "1981",
+        "name": "Agricultural Commodity Aid",
+        "employees": 905,
+        "avgSalary": 37488
+      },
+      {
+        "code": "1910",
+        "name": "Quality Assurance",
+        "employees": 510,
+        "avgSalary": 119311
+      },
+      {
+        "code": "1999",
+        "name": "Quality Inspection Student Trainee",
+        "employees": 1,
+        "avgSalary": 40528
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "1980",
+        "name": "Agricultural Commodity Grading",
+        "employees": 1565,
+        "avgSalary": 68894
+      },
+      {
+        "code": "1981",
+        "name": "Agricultural Commodity Aid",
+        "employees": 905,
+        "avgSalary": 37488
+      },
+      {
+        "code": "1910",
+        "name": "Quality Assurance",
+        "employees": 510,
+        "avgSalary": 119311
+      },
+      {
+        "code": "1999",
+        "name": "Quality Inspection Student Trainee",
+        "employees": 1,
+        "avgSalary": 40528
+      }
+    ]
+  },
+  {
+    "slug": "warehousing-and-stock-handling-family",
+    "name": "Warehousing and Stock Handling Family",
+    "totalEmployees": 2921,
+    "avgSalary": 66333,
+    "occupationCount": 8,
+    "topOccupations": [
+      {
+        "code": "6907",
+        "name": "Materials Handler",
+        "employees": 2693,
+        "avgSalary": 66316
+      },
+      {
+        "code": "6941",
+        "name": "Bulk Money Handling",
+        "employees": 160,
+        "avgSalary": 68659
+      },
+      {
+        "code": "6904",
+        "name": "Tools and Parts Attending",
+        "employees": 23,
+        "avgSalary": 64057
+      },
+      {
+        "code": "6913",
+        "name": "Hazardous Waste Disposing",
+        "employees": 17,
+        "avgSalary": 58344
+      },
+      {
+        "code": "6912",
+        "name": "Materials Examining and Identifying",
+        "employees": 15,
+        "avgSalary": 61027
+      },
+      {
+        "code": "6910",
+        "name": "Materials Expediting",
+        "employees": 8,
+        "avgSalary": 60580
+      },
+      {
+        "code": "6901",
+        "name": "Misc Warehousing and Stock Handling",
+        "employees": 3,
+        "avgSalary": 72648
+      },
+      {
+        "code": "6914",
+        "name": "Store Working",
+        "employees": 2,
+        "avgSalary": 50714
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "6907",
+        "name": "Materials Handler",
+        "employees": 2693,
+        "avgSalary": 66316
+      },
+      {
+        "code": "6941",
+        "name": "Bulk Money Handling",
+        "employees": 160,
+        "avgSalary": 68659
+      },
+      {
+        "code": "6904",
+        "name": "Tools and Parts Attending",
+        "employees": 23,
+        "avgSalary": 64057
+      },
+      {
+        "code": "6913",
+        "name": "Hazardous Waste Disposing",
+        "employees": 17,
+        "avgSalary": 58344
+      },
+      {
+        "code": "6912",
+        "name": "Materials Examining and Identifying",
+        "employees": 15,
+        "avgSalary": 61027
+      },
+      {
+        "code": "6910",
+        "name": "Materials Expediting",
+        "employees": 8,
+        "avgSalary": 60580
+      },
+      {
+        "code": "6901",
+        "name": "Misc Warehousing and Stock Handling",
+        "employees": 3,
+        "avgSalary": 72648
+      },
+      {
+        "code": "6914",
+        "name": "Store Working",
+        "employees": 2,
+        "avgSalary": 50714
+      }
+    ]
+  },
+  {
+    "slug": "library-and-archives-group",
+    "name": "Library and Archives Group",
+    "totalEmployees": 2684,
+    "avgSalary": 94227,
+    "occupationCount": 5,
+    "topOccupations": [
+      {
+        "code": "1421",
+        "name": "Archives Technician",
+        "employees": 1303,
+        "avgSalary": 67237
+      },
+      {
+        "code": "1420",
+        "name": "Archivist",
+        "employees": 486,
+        "avgSalary": 117942
+      },
+      {
+        "code": "1410",
+        "name": "Librarian",
+        "employees": 427,
+        "avgSalary": 127333
+      },
+      {
+        "code": "1412",
+        "name": "Technical Information Services",
+        "employees": 370,
+        "avgSalary": 126351
+      },
+      {
+        "code": "1411",
+        "name": "Library Technician",
+        "employees": 98,
+        "avgSalary": 69942
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "1421",
+        "name": "Archives Technician",
+        "employees": 1303,
+        "avgSalary": 67237
+      },
+      {
+        "code": "1420",
+        "name": "Archivist",
+        "employees": 486,
+        "avgSalary": 117942
+      },
+      {
+        "code": "1410",
+        "name": "Librarian",
+        "employees": 427,
+        "avgSalary": 127333
+      },
+      {
+        "code": "1412",
+        "name": "Technical Information Services",
+        "employees": 370,
+        "avgSalary": 126351
+      },
+      {
+        "code": "1411",
+        "name": "Library Technician",
+        "employees": 98,
+        "avgSalary": 69942
+      }
+    ]
+  },
+  {
+    "slug": "electrical-installation-and-maintenance-family",
+    "name": "Electrical Installation and Maintenance Family",
+    "totalEmployees": 2318,
+    "avgSalary": 100748,
+    "occupationCount": 5,
+    "topOccupations": [
+      {
+        "code": "2805",
+        "name": "Electrician",
+        "employees": 1352,
+        "avgSalary": 80616
+      },
+      {
+        "code": "2810",
+        "name": "High Voltage Electrician",
+        "employees": 865,
+        "avgSalary": 133484
+      },
+      {
+        "code": "2854",
+        "name": "Electrical Equipment Repairer",
+        "employees": 56,
+        "avgSalary": 82727
+      },
+      {
+        "code": "2892",
+        "name": "Aircraft Electrician",
+        "employees": 30,
+        "avgSalary": 87200
+      },
+      {
+        "code": "2801",
+        "name": "Misc Electrical Installation & Maintenance",
+        "employees": 15,
+        "avgSalary": 121906
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "2805",
+        "name": "Electrician",
+        "employees": 1352,
+        "avgSalary": 80616
+      },
+      {
+        "code": "2810",
+        "name": "High Voltage Electrician",
+        "employees": 865,
+        "avgSalary": 133484
+      },
+      {
+        "code": "2854",
+        "name": "Electrical Equipment Repairer",
+        "employees": 56,
+        "avgSalary": 82727
+      },
+      {
+        "code": "2892",
+        "name": "Aircraft Electrician",
+        "employees": 30,
+        "avgSalary": 87200
+      },
+      {
+        "code": "2801",
+        "name": "Misc Electrical Installation & Maintenance",
+        "employees": 15,
+        "avgSalary": 121906
+      }
+    ]
+  },
+  {
+    "slug": "veterinary-medical-science-group",
+    "name": "Veterinary Medical Science Group",
+    "totalEmployees": 1989,
+    "avgSalary": 117356,
+    "occupationCount": 3,
+    "topOccupations": [
+      {
+        "code": "0701",
+        "name": "Veterinary Medical Science",
+        "employees": 1600,
+        "avgSalary": 129767
+      },
+      {
+        "code": "0704",
+        "name": "Animal Health Technician",
+        "employees": 373,
+        "avgSalary": 66667
+      },
+      {
+        "code": "0799",
+        "name": "Veterinary Student Trainee",
+        "employees": 16,
+        "avgSalary": 57958
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "0701",
+        "name": "Veterinary Medical Science",
+        "employees": 1600,
+        "avgSalary": 129767
+      },
+      {
+        "code": "0704",
+        "name": "Animal Health Technician",
+        "employees": 373,
+        "avgSalary": 66667
+      },
+      {
+        "code": "0799",
+        "name": "Veterinary Student Trainee",
+        "employees": 16,
+        "avgSalary": 57958
+      }
+    ]
+  },
+  {
+    "slug": "industrial-equipment-maintenance-family",
+    "name": "Industrial Equipment Maintenance Family",
+    "totalEmployees": 1902,
+    "avgSalary": 86334,
+    "occupationCount": 11,
+    "topOccupations": [
+      {
+        "code": "5306",
+        "name": "Air Conditioning Equipment Mechanic",
+        "employees": 1180,
+        "avgSalary": 80034
+      },
+      {
+        "code": "5352",
+        "name": "Industrial Equipment Mechanic",
+        "employees": 363,
+        "avgSalary": 110778
+      },
+      {
+        "code": "5334",
+        "name": "Marine Machinery Mechanic",
+        "employees": 144,
+        "avgSalary": 79578
+      },
+      {
+        "code": "5350",
+        "name": "Production Machinery Mechanic",
+        "employees": 61,
+        "avgSalary": 78179
+      },
+      {
+        "code": "5301",
+        "name": "Misc Industrial Equipment Maintenance",
+        "employees": 50,
+        "avgSalary": 96439
+      },
+      {
+        "code": "5309",
+        "name": "Heating & Boiler Plant Equipmt Mechanic",
+        "employees": 34,
+        "avgSalary": 78139
+      },
+      {
+        "code": "5378",
+        "name": "Powered Support Systems Mechanic",
+        "employees": 32,
+        "avgSalary": 78548
+      },
+      {
+        "code": "5317",
+        "name": "Laundry & Dry Cleaning Equipmt Repairing",
+        "employees": 20,
+        "avgSalary": 76530
+      },
+      {
+        "code": "5318",
+        "name": "Lock and Dam Repairing",
+        "employees": 10,
+        "avgSalary": 117922
+      },
+      {
+        "code": "5313",
+        "name": "Elevator Mechanic",
+        "employees": 6,
+        "avgSalary": 80495
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "5306",
+        "name": "Air Conditioning Equipment Mechanic",
+        "employees": 1180,
+        "avgSalary": 80034
+      },
+      {
+        "code": "5352",
+        "name": "Industrial Equipment Mechanic",
+        "employees": 363,
+        "avgSalary": 110778
+      },
+      {
+        "code": "5334",
+        "name": "Marine Machinery Mechanic",
+        "employees": 144,
+        "avgSalary": 79578
+      },
+      {
+        "code": "5350",
+        "name": "Production Machinery Mechanic",
+        "employees": 61,
+        "avgSalary": 78179
+      },
+      {
+        "code": "5301",
+        "name": "Misc Industrial Equipment Maintenance",
+        "employees": 50,
+        "avgSalary": 96439
+      },
+      {
+        "code": "5309",
+        "name": "Heating & Boiler Plant Equipmt Mechanic",
+        "employees": 34,
+        "avgSalary": 78139
+      },
+      {
+        "code": "5378",
+        "name": "Powered Support Systems Mechanic",
+        "employees": 32,
+        "avgSalary": 78548
+      },
+      {
+        "code": "5317",
+        "name": "Laundry & Dry Cleaning Equipmt Repairing",
+        "employees": 20,
+        "avgSalary": 76530
+      },
+      {
+        "code": "5318",
+        "name": "Lock and Dam Repairing",
+        "employees": 10,
+        "avgSalary": 117922
+      },
+      {
+        "code": "5313",
+        "name": "Elevator Mechanic",
+        "employees": 6,
+        "avgSalary": 80495
+      },
+      {
+        "code": "5323",
+        "name": "Oiling and Greasing",
+        "employees": 2,
+        "avgSalary": 70343
+      }
+    ]
+  },
+  {
+    "slug": "industrial-equipment-operation-family",
+    "name": "Industrial Equipment Operation Family",
+    "totalEmployees": 1405,
+    "avgSalary": 95704,
+    "occupationCount": 12,
+    "topOccupations": [
+      {
+        "code": "5402",
+        "name": "Boiler Plant Operating",
+        "employees": 413,
+        "avgSalary": 75602
+      },
+      {
+        "code": "5407",
+        "name": "Electrical Power Controlling",
+        "employees": 344,
+        "avgSalary": 151729
+      },
+      {
+        "code": "5406",
+        "name": "Utility Systems Operating",
+        "employees": 276,
+        "avgSalary": 74973
+      },
+      {
+        "code": "5415",
+        "name": "Air Conditioning Equipment Operating",
+        "employees": 126,
+        "avgSalary": 76208
+      },
+      {
+        "code": "5409",
+        "name": "Water Treatment Plant Operating",
+        "employees": 60,
+        "avgSalary": 86547
+      },
+      {
+        "code": "5401",
+        "name": "Misc Industrial Equipment Operation",
+        "employees": 42,
+        "avgSalary": 93495
+      },
+      {
+        "code": "5408",
+        "name": "Sewage Disposal Plant Operating",
+        "employees": 38,
+        "avgSalary": 77510
+      },
+      {
+        "code": "5440",
+        "name": "Packaging Machine Operating",
+        "employees": 26,
+        "avgSalary": 74407
+      },
+      {
+        "code": "5419",
+        "name": "Stationary-engine Operating",
+        "employees": 24,
+        "avgSalary": 116911
+      },
+      {
+        "code": "5426",
+        "name": "Lock and Dam Operating",
+        "employees": 23,
+        "avgSalary": 67934
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "5402",
+        "name": "Boiler Plant Operating",
+        "employees": 413,
+        "avgSalary": 75602
+      },
+      {
+        "code": "5407",
+        "name": "Electrical Power Controlling",
+        "employees": 344,
+        "avgSalary": 151729
+      },
+      {
+        "code": "5406",
+        "name": "Utility Systems Operating",
+        "employees": 276,
+        "avgSalary": 74973
+      },
+      {
+        "code": "5415",
+        "name": "Air Conditioning Equipment Operating",
+        "employees": 126,
+        "avgSalary": 76208
+      },
+      {
+        "code": "5409",
+        "name": "Water Treatment Plant Operating",
+        "employees": 60,
+        "avgSalary": 86547
+      },
+      {
+        "code": "5401",
+        "name": "Misc Industrial Equipment Operation",
+        "employees": 42,
+        "avgSalary": 93495
+      },
+      {
+        "code": "5408",
+        "name": "Sewage Disposal Plant Operating",
+        "employees": 38,
+        "avgSalary": 77510
+      },
+      {
+        "code": "5440",
+        "name": "Packaging Machine Operating",
+        "employees": 26,
+        "avgSalary": 74407
+      },
+      {
+        "code": "5419",
+        "name": "Stationary-engine Operating",
+        "employees": 24,
+        "avgSalary": 116911
+      },
+      {
+        "code": "5426",
+        "name": "Lock and Dam Operating",
+        "employees": 23,
+        "avgSalary": 67934
+      },
+      {
+        "code": "5413",
+        "name": "Fuel Distribution System Operating",
+        "employees": 17,
+        "avgSalary": 77186
+      },
+      {
+        "code": "5423",
+        "name": "Sandblasting",
+        "employees": 16,
+        "avgSalary": 66963
+      }
+    ]
+  },
+  {
+    "slug": "plumbing-and-pipefitting-family",
+    "name": "Plumbing and Pipefitting Family",
+    "totalEmployees": 1122,
+    "avgSalary": 80018,
+    "occupationCount": 3,
+    "topOccupations": [
+      {
+        "code": "4204",
+        "name": "Pipefitting",
+        "employees": 781,
+        "avgSalary": 79157
+      },
+      {
+        "code": "4206",
+        "name": "Plumbing",
+        "employees": 340,
+        "avgSalary": 81795
+      },
+      {
+        "code": "4201",
+        "name": "Miscellaneous Plumbing and Pipefitting",
+        "employees": 1,
+        "avgSalary": 148636
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "4204",
+        "name": "Pipefitting",
+        "employees": 781,
+        "avgSalary": 79157
+      },
+      {
+        "code": "4206",
+        "name": "Plumbing",
+        "employees": 340,
+        "avgSalary": 81795
+      },
+      {
+        "code": "4201",
+        "name": "Miscellaneous Plumbing and Pipefitting",
+        "employees": 1,
+        "avgSalary": 148636
+      }
+    ]
+  },
+  {
+    "slug": "printing-family",
+    "name": "Printing Family",
+    "totalEmployees": 989,
+    "avgSalary": 112996,
+    "occupationCount": 9,
+    "topOccupations": [
+      {
+        "code": "4402",
+        "name": "Bindery Working",
+        "employees": 249,
+        "avgSalary": 101216
+      },
+      {
+        "code": "4406",
+        "name": "Letterpress Operating",
+        "employees": 195,
+        "avgSalary": 135842
+      },
+      {
+        "code": "4401",
+        "name": "Miscellaneous Printing and Reproduction",
+        "employees": 148,
+        "avgSalary": 85832
+      },
+      {
+        "code": "4403",
+        "name": "Hand Composing",
+        "employees": 136,
+        "avgSalary": 101887
+      },
+      {
+        "code": "4454",
+        "name": "Intaglio Press Operating",
+        "employees": 118,
+        "avgSalary": 137961
+      },
+      {
+        "code": "4417",
+        "name": "Offset Press Operating",
+        "employees": 61,
+        "avgSalary": 116237
+      },
+      {
+        "code": "4441",
+        "name": "Bookbinding",
+        "employees": 50,
+        "avgSalary": 121487
+      },
+      {
+        "code": "4416",
+        "name": "Platemaking",
+        "employees": 17,
+        "avgSalary": 114057
+      },
+      {
+        "code": "4449",
+        "name": "Electrolytic Intaglio Platemaking",
+        "employees": 15,
+        "avgSalary": 141229
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "4402",
+        "name": "Bindery Working",
+        "employees": 249,
+        "avgSalary": 101216
+      },
+      {
+        "code": "4406",
+        "name": "Letterpress Operating",
+        "employees": 195,
+        "avgSalary": 135842
+      },
+      {
+        "code": "4401",
+        "name": "Miscellaneous Printing and Reproduction",
+        "employees": 148,
+        "avgSalary": 85832
+      },
+      {
+        "code": "4403",
+        "name": "Hand Composing",
+        "employees": 136,
+        "avgSalary": 101887
+      },
+      {
+        "code": "4454",
+        "name": "Intaglio Press Operating",
+        "employees": 118,
+        "avgSalary": 137961
+      },
+      {
+        "code": "4417",
+        "name": "Offset Press Operating",
+        "employees": 61,
+        "avgSalary": 116237
+      },
+      {
+        "code": "4441",
+        "name": "Bookbinding",
+        "employees": 50,
+        "avgSalary": 121487
+      },
+      {
+        "code": "4416",
+        "name": "Platemaking",
+        "employees": 17,
+        "avgSalary": 114057
+      },
+      {
+        "code": "4449",
+        "name": "Electrolytic Intaglio Platemaking",
+        "employees": 15,
+        "avgSalary": 141229
+      }
+    ]
+  },
+  {
+    "slug": "plant-and-animal-work-family",
+    "name": "Plant and Animal Work Family",
+    "totalEmployees": 980,
+    "avgSalary": 65961,
+    "occupationCount": 7,
+    "topOccupations": [
+      {
+        "code": "5003",
+        "name": "Gardening",
+        "employees": 365,
+        "avgSalary": 66938
+      },
+      {
+        "code": "5001",
+        "name": "Miscellaneous Plant and Animal Work",
+        "employees": 203,
+        "avgSalary": 69743
+      },
+      {
+        "code": "5048",
+        "name": "Animal Caretaking",
+        "employees": 169,
+        "avgSalary": 57158
+      },
+      {
+        "code": "5026",
+        "name": "Pest Controlling",
+        "employees": 111,
+        "avgSalary": 71359
+      },
+      {
+        "code": "5031",
+        "name": "Insects Production Working",
+        "employees": 78,
+        "avgSalary": 54286
+      },
+      {
+        "code": "5042",
+        "name": "Tree Trimming and Removing",
+        "employees": 53,
+        "avgSalary": 78605
+      },
+      {
+        "code": "5002",
+        "name": "Farming",
+        "employees": 1,
+        "avgSalary": 70374
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "5003",
+        "name": "Gardening",
+        "employees": 365,
+        "avgSalary": 66938
+      },
+      {
+        "code": "5001",
+        "name": "Miscellaneous Plant and Animal Work",
+        "employees": 203,
+        "avgSalary": 69743
+      },
+      {
+        "code": "5048",
+        "name": "Animal Caretaking",
+        "employees": 169,
+        "avgSalary": 57158
+      },
+      {
+        "code": "5026",
+        "name": "Pest Controlling",
+        "employees": 111,
+        "avgSalary": 71359
+      },
+      {
+        "code": "5031",
+        "name": "Insects Production Working",
+        "employees": 78,
+        "avgSalary": 54286
+      },
+      {
+        "code": "5042",
+        "name": "Tree Trimming and Removing",
+        "employees": 53,
+        "avgSalary": 78605
+      },
+      {
+        "code": "5002",
+        "name": "Farming",
+        "employees": 1,
+        "avgSalary": 70374
+      }
+    ]
+  },
+  {
+    "slug": "electronic-equipment-installation-and-maintenance-family",
+    "name": "Electronic Equipment Installation and Maintenance Family",
+    "totalEmployees": 813,
+    "avgSalary": 114886,
+    "occupationCount": 6,
+    "topOccupations": [
+      {
+        "code": "2606",
+        "name": "Electronic Industrial Controls Mechanic",
+        "employees": 345,
+        "avgSalary": 110426
+      },
+      {
+        "code": "2604",
+        "name": "Electronics Mechanic",
+        "employees": 283,
+        "avgSalary": 99912
+      },
+      {
+        "code": "2610",
+        "name": "Electronic Integrated Systems Mechanic",
+        "employees": 143,
+        "avgSalary": 145511
+      },
+      {
+        "code": "2601",
+        "name": "Misc Electronic Equipmt Install & Maintne",
+        "employees": 34,
+        "avgSalary": 152759
+      },
+      {
+        "code": "2608",
+        "name": "Electronic Digital Computer Mechanic",
+        "employees": 4,
+        "avgSalary": 93701
+      },
+      {
+        "code": "2602",
+        "name": "Electronic Measurement Equipment Mechanic",
+        "employees": 4,
+        "avgSalary": 163318
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "2606",
+        "name": "Electronic Industrial Controls Mechanic",
+        "employees": 345,
+        "avgSalary": 110426
+      },
+      {
+        "code": "2604",
+        "name": "Electronics Mechanic",
+        "employees": 283,
+        "avgSalary": 99912
+      },
+      {
+        "code": "2610",
+        "name": "Electronic Integrated Systems Mechanic",
+        "employees": 143,
+        "avgSalary": 145511
+      },
+      {
+        "code": "2601",
+        "name": "Misc Electronic Equipmt Install & Maintne",
+        "employees": 34,
+        "avgSalary": 152759
+      },
+      {
+        "code": "2608",
+        "name": "Electronic Digital Computer Mechanic",
+        "employees": 4,
+        "avgSalary": 93701
+      },
+      {
+        "code": "2602",
+        "name": "Electronic Measurement Equipment Mechanic",
+        "employees": 4,
+        "avgSalary": 163318
+      }
+    ]
+  },
+  {
+    "slug": "laundry-dry-cleaning-and-pressing-family",
+    "name": "Laundry, Dry Cleaning, and Pressing Family",
+    "totalEmployees": 765,
+    "avgSalary": 48233,
+    "occupationCount": 3,
+    "topOccupations": [
+      {
+        "code": "7304",
+        "name": "Laundry Working",
+        "employees": 559,
+        "avgSalary": 45301
+      },
+      {
+        "code": "7305",
+        "name": "Laundry Machine Operating",
+        "employees": 169,
+        "avgSalary": 53378
+      },
+      {
+        "code": "7301",
+        "name": "Misc Laundry, Dry Cleaning, and Pressing",
+        "employees": 37,
+        "avgSalary": 69037
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "7304",
+        "name": "Laundry Working",
+        "employees": 559,
+        "avgSalary": 45301
+      },
+      {
+        "code": "7305",
+        "name": "Laundry Machine Operating",
+        "employees": 169,
+        "avgSalary": 53378
+      },
+      {
+        "code": "7301",
+        "name": "Misc Laundry, Dry Cleaning, and Pressing",
+        "employees": 37,
+        "avgSalary": 69037
+      }
+    ]
+  },
+  {
+    "slug": "wood-work-family",
+    "name": "Wood Work Family",
+    "totalEmployees": 676,
+    "avgSalary": 75922,
+    "occupationCount": 4,
+    "topOccupations": [
+      {
+        "code": "4607",
+        "name": "Carpentry",
+        "employees": 594,
+        "avgSalary": 75156
+      },
+      {
+        "code": "4605",
+        "name": "Wood Crafting",
+        "employees": 43,
+        "avgSalary": 79730
+      },
+      {
+        "code": "4601",
+        "name": "Miscellaneous Woodwork",
+        "employees": 31,
+        "avgSalary": 87247
+      },
+      {
+        "code": "4604",
+        "name": "Wood Working",
+        "employees": 8,
+        "avgSalary": 68415
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "4607",
+        "name": "Carpentry",
+        "employees": 594,
+        "avgSalary": 75156
+      },
+      {
+        "code": "4605",
+        "name": "Wood Crafting",
+        "employees": 43,
+        "avgSalary": 79730
+      },
+      {
+        "code": "4601",
+        "name": "Miscellaneous Woodwork",
+        "employees": 31,
+        "avgSalary": 87247
+      },
+      {
+        "code": "4604",
+        "name": "Wood Working",
+        "employees": 8,
+        "avgSalary": 68415
+      }
+    ]
+  },
+  {
+    "slug": "painting-and-paperhanging-family",
+    "name": "Painting and Paperhanging Family",
+    "totalEmployees": 628,
+    "avgSalary": 75256,
+    "occupationCount": 2,
+    "topOccupations": [
+      {
+        "code": "4102",
+        "name": "Painting",
+        "employees": 594,
+        "avgSalary": 75361
+      },
+      {
+        "code": "4104",
+        "name": "Sign Painting",
+        "employees": 34,
+        "avgSalary": 73414
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "4102",
+        "name": "Painting",
+        "employees": 594,
+        "avgSalary": 75361
+      },
+      {
+        "code": "4104",
+        "name": "Sign Painting",
+        "employees": 34,
+        "avgSalary": 73414
+      }
+    ]
+  },
+  {
+    "slug": "transportation-mobile-equipment-maintenance-family",
+    "name": "Transportation/mobile Equipment Maintenance Family",
+    "totalEmployees": 527,
+    "avgSalary": 84539,
+    "occupationCount": 5,
+    "topOccupations": [
+      {
+        "code": "5823",
+        "name": "Automotive Mechanic",
+        "employees": 328,
+        "avgSalary": 80212
+      },
+      {
+        "code": "5803",
+        "name": "Heavy Mobile Equipment Mechanic",
+        "employees": 178,
+        "avgSalary": 91992
+      },
+      {
+        "code": "5801",
+        "name": "Misc Transportation/mobile Equipmt Maintne",
+        "employees": 14,
+        "avgSalary": 98909
+      },
+      {
+        "code": "5806",
+        "name": "Mobile Equipment Servicing",
+        "employees": 4,
+        "avgSalary": 55410
+      },
+      {
+        "code": "5876",
+        "name": "Electromotive Equipment Mechanic",
+        "employees": 3,
+        "avgSalary": 87132
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "5823",
+        "name": "Automotive Mechanic",
+        "employees": 328,
+        "avgSalary": 80212
+      },
+      {
+        "code": "5803",
+        "name": "Heavy Mobile Equipment Mechanic",
+        "employees": 178,
+        "avgSalary": 91992
+      },
+      {
+        "code": "5801",
+        "name": "Misc Transportation/mobile Equipmt Maintne",
+        "employees": 14,
+        "avgSalary": 98909
+      },
+      {
+        "code": "5806",
+        "name": "Mobile Equipment Servicing",
+        "employees": 4,
+        "avgSalary": 55410
+      },
+      {
+        "code": "5876",
+        "name": "Electromotive Equipment Mechanic",
+        "employees": 3,
+        "avgSalary": 87132
+      }
+    ]
+  },
+  {
+    "slug": "metal-work-family",
+    "name": "Metal Work Family",
+    "totalEmployees": 434,
+    "avgSalary": 77743,
+    "occupationCount": 6,
+    "topOccupations": [
+      {
+        "code": "3869",
+        "name": "Metal Forming Machine Operating",
+        "employees": 235,
+        "avgSalary": 70435
+      },
+      {
+        "code": "3806",
+        "name": "Sheet Metal Mechanic",
+        "employees": 119,
+        "avgSalary": 89843
+      },
+      {
+        "code": "3801",
+        "name": "Miscellaneous Metal Work",
+        "employees": 49,
+        "avgSalary": 81414
+      },
+      {
+        "code": "3820",
+        "name": "Shipfitting",
+        "employees": 29,
+        "avgSalary": 80594
+      },
+      {
+        "code": "3802",
+        "name": "Metal Forging",
+        "employees": 1,
+        "avgSalary": 75549
+      },
+      {
+        "code": "3809",
+        "name": "Mobile Equipment Metal Mechanic",
+        "employees": 1,
+        "avgSalary": 95000
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "3869",
+        "name": "Metal Forming Machine Operating",
+        "employees": 235,
+        "avgSalary": 70435
+      },
+      {
+        "code": "3806",
+        "name": "Sheet Metal Mechanic",
+        "employees": 119,
+        "avgSalary": 89843
+      },
+      {
+        "code": "3801",
+        "name": "Miscellaneous Metal Work",
+        "employees": 49,
+        "avgSalary": 81414
+      },
+      {
+        "code": "3820",
+        "name": "Shipfitting",
+        "employees": 29,
+        "avgSalary": 80594
+      },
+      {
+        "code": "3802",
+        "name": "Metal Forging",
+        "employees": 1,
+        "avgSalary": 75549
+      },
+      {
+        "code": "3809",
+        "name": "Mobile Equipment Metal Mechanic",
+        "employees": 1,
+        "avgSalary": 95000
+      }
+    ]
+  },
+  {
+    "slug": "vessel-jobs-family-excluded-from-the-federal-wage-system",
+    "name": "Vessel Jobs Family (excluded From the Federal Wage System)",
+    "totalEmployees": 389,
+    "avgSalary": 75052,
+    "occupationCount": 20,
+    "topOccupations": [
+      {
+        "code": "9901",
+        "name": "Miscellaneous Vessel Jobs",
+        "employees": 64,
+        "avgSalary": 58550
+      },
+      {
+        "code": "9924",
+        "name": "Able Seaman",
+        "employees": 56,
+        "avgSalary": 51426
+      },
+      {
+        "code": "9927",
+        "name": "Seaman-fisherman",
+        "employees": 36,
+        "avgSalary": 61579
+      },
+      {
+        "code": "9973",
+        "name": "Second Cook",
+        "employees": 27,
+        "avgSalary": 47500
+      },
+      {
+        "code": "9931",
+        "name": "Chief Engineer",
+        "employees": 26,
+        "avgSalary": 186950
+      },
+      {
+        "code": "9933",
+        "name": "Second Assistant Engineer",
+        "employees": 25,
+        "avgSalary": 106877
+      },
+      {
+        "code": "9954",
+        "name": "Unlicensed Junior Engineer",
+        "employees": 25,
+        "avgSalary": 57750
+      },
+      {
+        "code": "9932",
+        "name": "First Assistant Engineer",
+        "employees": 23,
+        "avgSalary": 117694
+      },
+      {
+        "code": "9934",
+        "name": "Third Assistant Engineer",
+        "employees": 21,
+        "avgSalary": 94268
+      },
+      {
+        "code": "9960",
+        "name": "Oiler",
+        "employees": 17,
+        "avgSalary": 49495
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "9901",
+        "name": "Miscellaneous Vessel Jobs",
+        "employees": 64,
+        "avgSalary": 58550
+      },
+      {
+        "code": "9924",
+        "name": "Able Seaman",
+        "employees": 56,
+        "avgSalary": 51426
+      },
+      {
+        "code": "9927",
+        "name": "Seaman-fisherman",
+        "employees": 36,
+        "avgSalary": 61579
+      },
+      {
+        "code": "9973",
+        "name": "Second Cook",
+        "employees": 27,
+        "avgSalary": 47500
+      },
+      {
+        "code": "9931",
+        "name": "Chief Engineer",
+        "employees": 26,
+        "avgSalary": 186950
+      },
+      {
+        "code": "9933",
+        "name": "Second Assistant Engineer",
+        "employees": 25,
+        "avgSalary": 106877
+      },
+      {
+        "code": "9954",
+        "name": "Unlicensed Junior Engineer",
+        "employees": 25,
+        "avgSalary": 57750
+      },
+      {
+        "code": "9932",
+        "name": "First Assistant Engineer",
+        "employees": 23,
+        "avgSalary": 117694
+      },
+      {
+        "code": "9934",
+        "name": "Third Assistant Engineer",
+        "employees": 21,
+        "avgSalary": 94268
+      },
+      {
+        "code": "9960",
+        "name": "Oiler",
+        "employees": 17,
+        "avgSalary": 49495
+      },
+      {
+        "code": "9968",
+        "name": "Chief Steward",
+        "employees": 15,
+        "avgSalary": 68994
+      },
+      {
+        "code": "9928",
+        "name": "Ordinary Seaman",
+        "employees": 13,
+        "avgSalary": 42409
+      },
+      {
+        "code": "9920",
+        "name": "Boatswain",
+        "employees": 11,
+        "avgSalary": 76699
+      },
+      {
+        "code": "9923",
+        "name": "Boatswain's Mate",
+        "employees": 9,
+        "avgSalary": 60014
+      },
+      {
+        "code": "9971",
+        "name": "Chief Cook",
+        "employees": 6,
+        "avgSalary": 58342
+      },
+      {
+        "code": "9965",
+        "name": "Wiper",
+        "employees": 5,
+        "avgSalary": 42010
+      },
+      {
+        "code": "9902",
+        "name": "Master",
+        "employees": 4,
+        "avgSalary": 126032
+      },
+      {
+        "code": "9905",
+        "name": "First Officer",
+        "employees": 3,
+        "avgSalary": 84943
+      },
+      {
+        "code": "9944",
+        "name": "Electronics Technician",
+        "employees": 2,
+        "avgSalary": 89968
+      },
+      {
+        "code": "9916",
+        "name": "Master-mate (fishing Vessel)",
+        "employees": 1,
+        "avgSalary": 95398
+      }
+    ]
+  },
+  {
+    "slug": "general-equipment-maintenance-family",
+    "name": "General Equipment Maintenance Family",
+    "totalEmployees": 188,
+    "avgSalary": 73305,
+    "occupationCount": 4,
+    "topOccupations": [
+      {
+        "code": "4804",
+        "name": "Locksmithing",
+        "employees": 131,
+        "avgSalary": 73949
+      },
+      {
+        "code": "4805",
+        "name": "Medical Equipment Repairing",
+        "employees": 32,
+        "avgSalary": 75960
+      },
+      {
+        "code": "4801",
+        "name": "Misc General Equipment Maintenance",
+        "employees": 23,
+        "avgSalary": 65950
+      },
+      {
+        "code": "4840",
+        "name": "Tool and Equipment Repairing",
+        "employees": 2,
+        "avgSalary": 73254
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "4804",
+        "name": "Locksmithing",
+        "employees": 131,
+        "avgSalary": 73949
+      },
+      {
+        "code": "4805",
+        "name": "Medical Equipment Repairing",
+        "employees": 32,
+        "avgSalary": 75960
+      },
+      {
+        "code": "4801",
+        "name": "Misc General Equipment Maintenance",
+        "employees": 23,
+        "avgSalary": 65950
+      },
+      {
+        "code": "4840",
+        "name": "Tool and Equipment Repairing",
+        "employees": 2,
+        "avgSalary": 73254
+      }
+    ]
+  },
+  {
+    "slug": "structural-and-finishing-work-family",
+    "name": "Structural and Finishing Work Family",
+    "totalEmployees": 182,
+    "avgSalary": 73542,
+    "occupationCount": 6,
+    "topOccupations": [
+      {
+        "code": "3603",
+        "name": "Masonry",
+        "employees": 148,
+        "avgSalary": 72364
+      },
+      {
+        "code": "3610",
+        "name": "Insulating",
+        "employees": 18,
+        "avgSalary": 76655
+      },
+      {
+        "code": "3605",
+        "name": "Plastering",
+        "employees": 7,
+        "avgSalary": 71113
+      },
+      {
+        "code": "3606",
+        "name": "Roofing",
+        "employees": 4,
+        "avgSalary": 80172
+      },
+      {
+        "code": "3601",
+        "name": "Miscellaneous Structural & Finishing Work",
+        "employees": 3,
+        "avgSalary": 94054
+      },
+      {
+        "code": "3604",
+        "name": "Tile Setting",
+        "employees": 2,
+        "avgSalary": 97192
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "3603",
+        "name": "Masonry",
+        "employees": 148,
+        "avgSalary": 72364
+      },
+      {
+        "code": "3610",
+        "name": "Insulating",
+        "employees": 18,
+        "avgSalary": 76655
+      },
+      {
+        "code": "3605",
+        "name": "Plastering",
+        "employees": 7,
+        "avgSalary": 71113
+      },
+      {
+        "code": "3606",
+        "name": "Roofing",
+        "employees": 4,
+        "avgSalary": 80172
+      },
+      {
+        "code": "3601",
+        "name": "Miscellaneous Structural & Finishing Work",
+        "employees": 3,
+        "avgSalary": 94054
+      },
+      {
+        "code": "3604",
+        "name": "Tile Setting",
+        "employees": 2,
+        "avgSalary": 97192
+      }
+    ]
+  },
+  {
+    "slug": "machine-tool-work-family",
+    "name": "Machine Tool Work Family",
+    "totalEmployees": 182,
+    "avgSalary": 89424,
+    "occupationCount": 3,
+    "topOccupations": [
+      {
+        "code": "3414",
+        "name": "Machining",
+        "employees": 145,
+        "avgSalary": 89674
+      },
+      {
+        "code": "3416",
+        "name": "Toolmaking",
+        "employees": 20,
+        "avgSalary": 86354
+      },
+      {
+        "code": "3401",
+        "name": "Miscellaneous Machine Tool Work",
+        "employees": 17,
+        "avgSalary": 90903
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "3414",
+        "name": "Machining",
+        "employees": 145,
+        "avgSalary": 89674
+      },
+      {
+        "code": "3416",
+        "name": "Toolmaking",
+        "employees": 20,
+        "avgSalary": 86354
+      },
+      {
+        "code": "3401",
+        "name": "Miscellaneous Machine Tool Work",
+        "employees": 17,
+        "avgSalary": 90903
+      }
+    ]
+  },
+  {
+    "slug": "metal-processing-family",
+    "name": "Metal Processing Family",
+    "totalEmployees": 159,
+    "avgSalary": 85751,
+    "occupationCount": 5,
+    "topOccupations": [
+      {
+        "code": "3703",
+        "name": "Welding",
+        "employees": 134,
+        "avgSalary": 86415
+      },
+      {
+        "code": "3712",
+        "name": "Heat Treating",
+        "employees": 10,
+        "avgSalary": 77878
+      },
+      {
+        "code": "3727",
+        "name": "Buffing and Polishing",
+        "employees": 7,
+        "avgSalary": 81641
+      },
+      {
+        "code": "3705",
+        "name": "Non-destructive Testing",
+        "employees": 5,
+        "avgSalary": 97968
+      },
+      {
+        "code": "3725",
+        "name": "Battery Repairing",
+        "employees": 3,
+        "avgSalary": 71542
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "3703",
+        "name": "Welding",
+        "employees": 134,
+        "avgSalary": 86415
+      },
+      {
+        "code": "3712",
+        "name": "Heat Treating",
+        "employees": 10,
+        "avgSalary": 77878
+      },
+      {
+        "code": "3727",
+        "name": "Buffing and Polishing",
+        "employees": 7,
+        "avgSalary": 81641
+      },
+      {
+        "code": "3705",
+        "name": "Non-destructive Testing",
+        "employees": 5,
+        "avgSalary": 97968
+      },
+      {
+        "code": "3725",
+        "name": "Battery Repairing",
+        "employees": 3,
+        "avgSalary": 71542
+      }
+    ]
+  },
+  {
+    "slug": "instrument-work-family",
+    "name": "Instrument Work Family",
+    "totalEmployees": 148,
+    "avgSalary": 58008,
+    "occupationCount": 3,
+    "topOccupations": [
+      {
+        "code": "3359",
+        "name": "Instrument Mechanic",
+        "employees": 144,
+        "avgSalary": 57260
+      },
+      {
+        "code": "3301",
+        "name": "Miscellaneous Instrument Work",
+        "employees": 3,
+        "avgSalary": 85233
+      },
+      {
+        "code": "3378",
+        "name": "Precision Measurement Equipment Calibrating",
+        "employees": 1,
+        "avgSalary": 84043
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "3359",
+        "name": "Instrument Mechanic",
+        "employees": 144,
+        "avgSalary": 57260
+      },
+      {
+        "code": "3301",
+        "name": "Miscellaneous Instrument Work",
+        "employees": 3,
+        "avgSalary": 85233
+      },
+      {
+        "code": "3378",
+        "name": "Precision Measurement Equipment Calibrating",
+        "employees": 1,
+        "avgSalary": 84043
+      }
+    ]
+  },
+  {
+    "slug": "aircraft-overhaul-family",
+    "name": "Aircraft Overhaul Family",
+    "totalEmployees": 141,
+    "avgSalary": 93795,
+    "occupationCount": 2,
+    "topOccupations": [
+      {
+        "code": "8852",
+        "name": "Aircraft Mechanic",
+        "employees": 137,
+        "avgSalary": 94640
+      },
+      {
+        "code": "8862",
+        "name": "Aircraft Attending",
+        "employees": 4,
+        "avgSalary": 64843
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "8852",
+        "name": "Aircraft Mechanic",
+        "employees": 137,
+        "avgSalary": 94640
+      },
+      {
+        "code": "8862",
+        "name": "Aircraft Attending",
+        "employees": 4,
+        "avgSalary": 64843
+      }
+    ]
+  },
+  {
+    "slug": "fabric-and-leather-work-family",
+    "name": "Fabric and Leather Work Family",
+    "totalEmployees": 136,
+    "avgSalary": 71475,
+    "occupationCount": 4,
+    "topOccupations": [
+      {
+        "code": "3105",
+        "name": "Fabric Working",
+        "employees": 85,
+        "avgSalary": 81843
+      },
+      {
+        "code": "3111",
+        "name": "Sewing Machine Operating",
+        "employees": 46,
+        "avgSalary": 50683
+      },
+      {
+        "code": "3106",
+        "name": "Upholstering",
+        "employees": 4,
+        "avgSalary": 88536
+      },
+      {
+        "code": "3101",
+        "name": "Misc Fabric and Leather Work",
+        "employees": 1,
+        "avgSalary": 78429
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "3105",
+        "name": "Fabric Working",
+        "employees": 85,
+        "avgSalary": 81843
+      },
+      {
+        "code": "3111",
+        "name": "Sewing Machine Operating",
+        "employees": 46,
+        "avgSalary": 50683
+      },
+      {
+        "code": "3106",
+        "name": "Upholstering",
+        "employees": 4,
+        "avgSalary": 88536
+      },
+      {
+        "code": "3101",
+        "name": "Misc Fabric and Leather Work",
+        "employees": 1,
+        "avgSalary": 78429
+      }
+    ]
+  },
+  {
+    "slug": "packing-and-processing-family",
+    "name": "Packing and Processing Family",
+    "totalEmployees": 96,
+    "avgSalary": 63011,
+    "occupationCount": 2,
+    "topOccupations": [
+      {
+        "code": "7002",
+        "name": "Packing",
+        "employees": 80,
+        "avgSalary": 62258
+      },
+      {
+        "code": "7006",
+        "name": "Preservation Servicing",
+        "employees": 16,
+        "avgSalary": 66778
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "7002",
+        "name": "Packing",
+        "employees": 80,
+        "avgSalary": 62258
+      },
+      {
+        "code": "7006",
+        "name": "Preservation Servicing",
+        "employees": 16,
+        "avgSalary": 66778
+      }
+    ]
+  },
+  {
+    "slug": "miscellaneous-occupations-family",
+    "name": "Miscellaneous Occupations Family",
+    "totalEmployees": 55,
+    "avgSalary": 83215,
+    "occupationCount": 3,
+    "topOccupations": [
+      {
+        "code": "5210",
+        "name": "Rigging",
+        "employees": 40,
+        "avgSalary": 82111
+      },
+      {
+        "code": "5220",
+        "name": "Shipwright",
+        "employees": 9,
+        "avgSalary": 81947
+      },
+      {
+        "code": "5201",
+        "name": "Miscellaneous Occupations",
+        "employees": 6,
+        "avgSalary": 92475
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "5210",
+        "name": "Rigging",
+        "employees": 40,
+        "avgSalary": 82111
+      },
+      {
+        "code": "5220",
+        "name": "Shipwright",
+        "employees": 9,
+        "avgSalary": 81947
+      },
+      {
+        "code": "5201",
+        "name": "Miscellaneous Occupations",
+        "employees": 6,
+        "avgSalary": 92475
+      }
+    ]
+  },
+  {
+    "slug": "personal-services-family",
+    "name": "Personal Services Family",
+    "totalEmployees": 51,
+    "avgSalary": 42659,
+    "occupationCount": 2,
+    "topOccupations": [
+      {
+        "code": "7601",
+        "name": "Miscellaneous Personal Services",
+        "employees": 50,
+        "avgSalary": 43512
+      },
+      {
+        "code": "7603",
+        "name": "Barbering",
+        "employees": 1,
+        "avgSalary": 0
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "7601",
+        "name": "Miscellaneous Personal Services",
+        "employees": 50,
+        "avgSalary": 43512
+      },
+      {
+        "code": "7603",
+        "name": "Barbering",
+        "employees": 1,
+        "avgSalary": 0
+      }
+    ]
+  },
+  {
+    "slug": "lens-and-crystal-work-family",
+    "name": "Lens and Crystal Work Family",
+    "totalEmployees": 50,
+    "avgSalary": 66634,
+    "occupationCount": 1,
+    "topOccupations": [
+      {
+        "code": "4010",
+        "name": "Prescription Eyeglass Making",
+        "employees": 50,
+        "avgSalary": 66634
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "4010",
+        "name": "Prescription Eyeglass Making",
+        "employees": 50,
+        "avgSalary": 66634
+      }
+    ]
+  },
+  {
+    "slug": "engine-overhaul-family",
+    "name": "Engine Overhaul Family",
+    "totalEmployees": 29,
+    "avgSalary": 77199,
+    "occupationCount": 3,
+    "topOccupations": [
+      {
+        "code": "8610",
+        "name": "Small Engine Mechanic",
+        "employees": 18,
+        "avgSalary": 69927
+      },
+      {
+        "code": "8602",
+        "name": "Aircraft Engine Mechanic",
+        "employees": 10,
+        "avgSalary": 91736
+      },
+      {
+        "code": "8601",
+        "name": "Miscellaneous Engine Overhaul",
+        "employees": 1,
+        "avgSalary": 62714
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "8610",
+        "name": "Small Engine Mechanic",
+        "employees": 18,
+        "avgSalary": 69927
+      },
+      {
+        "code": "8602",
+        "name": "Aircraft Engine Mechanic",
+        "employees": 10,
+        "avgSalary": 91736
+      },
+      {
+        "code": "8601",
+        "name": "Miscellaneous Engine Overhaul",
+        "employees": 1,
+        "avgSalary": 62714
+      }
+    ]
+  },
+  {
+    "slug": "wire-communications-equipment-installation-and-maintenance-family",
+    "name": "Wire Communications Equipment Installation and Maintenance Family",
+    "totalEmployees": 25,
+    "avgSalary": 88596,
+    "occupationCount": 2,
+    "topOccupations": [
+      {
+        "code": "2502",
+        "name": "Telecommunications Mechanic",
+        "employees": 19,
+        "avgSalary": 73656
+      },
+      {
+        "code": "2501",
+        "name": "Misc Wire Communca Equipmt Install & Maint",
+        "employees": 6,
+        "avgSalary": 135905
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "2502",
+        "name": "Telecommunications Mechanic",
+        "employees": 19,
+        "avgSalary": 73656
+      },
+      {
+        "code": "2501",
+        "name": "Misc Wire Communca Equipmt Install & Maint",
+        "employees": 6,
+        "avgSalary": 135905
+      }
+    ]
+  },
+  {
+    "slug": "motion-picture-radio-television-and-sound-equipment-operating-family",
+    "name": "Motion Picture, Radio, Television, and Sound Equipment Operating Family",
+    "totalEmployees": 19,
+    "avgSalary": 122311,
+    "occupationCount": 1,
+    "topOccupations": [
+      {
+        "code": "3940",
+        "name": "Broadcasting Equipment Operating",
+        "employees": 19,
+        "avgSalary": 122311
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "3940",
+        "name": "Broadcasting Equipment Operating",
+        "employees": 19,
+        "avgSalary": 122311
+      }
+    ]
+  },
+  {
+    "slug": "pliable-materials-work-family",
+    "name": "Pliable Materials Work Family",
+    "totalEmployees": 19,
+    "avgSalary": 86246,
+    "occupationCount": 1,
+    "topOccupations": [
+      {
+        "code": "4352",
+        "name": "Composite/plastic Fabricating",
+        "employees": 19,
+        "avgSalary": 86246
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "4352",
+        "name": "Composite/plastic Fabricating",
+        "employees": 19,
+        "avgSalary": 86246
+      }
+    ]
+  },
+  {
+    "slug": "armament-work-family",
+    "name": "Armament Work Family",
+    "totalEmployees": 16,
+    "avgSalary": 82288,
+    "occupationCount": 1,
+    "topOccupations": [
+      {
+        "code": "6641",
+        "name": "Ordnance Equipment Mechanic",
+        "employees": 16,
+        "avgSalary": 82288
+      }
+    ],
+    "allOccupations": [
+      {
+        "code": "6641",
+        "name": "Ordnance Equipment Mechanic",
+        "employees": 16,
+        "avgSalary": 82288
+      }
+    ]
+  }
+]

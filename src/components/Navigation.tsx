@@ -22,6 +22,7 @@ const categories: NavCategory[] = [
     items: [
       { href: "/agencies", title: "Agencies", description: "128 federal agencies" },
       { href: "/occupations", title: "Occupations", description: "540+ federal job series" },
+      { href: "/occupations/families", title: "Occupation Families", description: "Career group directory" },
       { href: "/states", title: "States", description: "Federal workers by state" },
       { href: "/subagencies", title: "Subagencies", description: "Agency subdivisions" },
       { href: "/lookup", title: "Agency Lookup", description: "Search any agency" },

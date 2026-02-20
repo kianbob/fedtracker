@@ -67,7 +67,7 @@ export function SubagenciesClient({ parentGroups }: { parentGroups: SubagencyGro
             </div>
             <div className="divide-y divide-gray-100">
               {(expandedGroups.has(group.code) ? group.subs : group.subs.slice(0, 10)).map((sub) => (
-                <div key={sub.code} className="flex items-center justify-between px-6 py-3 hover:bg-gray-50">
+                <Link key={sub.code} href={`/subagencies/${sub.code}`} className="flex items-center justify-between px-6 py-3 hover:bg-indigo-50 transition-colors">
                   <div>
                     <span className="text-sm text-gray-800">{cleanAgencyName(sub.name)}</span>
                     <span className="text-xs text-gray-400 ml-2">({sub.code})</span>
@@ -76,7 +76,7 @@ export function SubagenciesClient({ parentGroups }: { parentGroups: SubagencyGro
                     <span className="text-gray-600 w-20 text-right">{formatNumber(sub.employees)}</span>
                     <span className="text-gray-400 w-24 text-right">Avg {formatSalary(sub.avgSalary)}</span>
                   </div>
-                </div>
+                </Link>
               ))}
               {group.subs.length > 10 && !expandedGroups.has(group.code) && (
                 <button

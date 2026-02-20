@@ -248,6 +248,18 @@ export default async function StateDetailPage({ params }: { params: { code: stri
         </>
       )}
 
+      {/* Link to occupations breakdown */}
+      {occData && (
+        <section className="mb-12">
+          <Link
+            href={`/states/${params.code}/occupations`}
+            className="inline-flex items-center gap-2 text-indigo-600 hover:text-indigo-800 font-medium text-lg"
+          >
+            View top occupations in {data.name} →
+          </Link>
+        </section>
+      )}
+
       {/* Related Links */}
       <section>
         <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4">Explore More</h2>

@@ -63,6 +63,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   } catch {}
 
+  // State occupation pages
+  try {
+    const stateOccs: { code: string }[] = JSON.parse(fs.readFileSync(path.join(process.cwd(), "public", "data", "state-occupations.json"), "utf-8"));
+    stateOccs.forEach(s => {
+      pages.push({ url: `${base}/states/${s.code}/occupations`, lastModified: now, changeFrequency: "monthly", priority: 0.6 });
+    });
+  } catch {}
+
   // Occupation families
   pages.push({ url: `${base}/occupations/families`, lastModified: now, changeFrequency: "monthly", priority: 0.8 });
   try {

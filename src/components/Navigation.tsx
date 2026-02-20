@@ -37,6 +37,7 @@ const categories: NavCategory[] = [
       { href: "/appointments", title: "Appointments", description: "Hiring types" },
       { href: "/education", title: "Education & Pay", description: "Degree vs salary" },
       { href: "/spending", title: "Agency Spending", description: "Budget per employee" },
+      { href: "/salary-compare", title: "Salary Compare", description: "Compare your salary" },
     ],
   },
   {

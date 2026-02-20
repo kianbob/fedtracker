@@ -1,0 +1,182 @@
+[
+  {
+    "slug": "va-vs-dod",
+    "title": "Veterans Affairs vs Defense",
+    "agency1Name": "Department of Veterans Affairs",
+    "agency2Name": "Department of Defense"
+  },
+  {
+    "slug": "dhs-vs-doj",
+    "title": "Homeland Security vs Justice",
+    "agency1Name": "Department of Homeland Security",
+    "agency2Name": "Department of Justice"
+  },
+  {
+    "slug": "nasa-vs-doe",
+    "title": "NASA vs Energy",
+    "agency1Name": "National Aeronautics and Space Administration",
+    "agency2Name": "Department of Energy"
+  },
+  {
+    "slug": "hhs-vs-ed",
+    "title": "Health and Human Services vs Education",
+    "agency1Name": "Department of Health and Human Services",
+    "agency2Name": "Department of Education"
+  },
+  {
+    "slug": "epa-vs-doi",
+    "title": "EPA vs Interior",
+    "agency1Name": "Environmental Protection Agency",
+    "agency2Name": "Department of the Interior"
+  },
+  {
+    "slug": "state-vs-usaid",
+    "title": "State vs USAID",
+    "agency1Name": "Department of State",
+    "agency2Name": "U.S. Agency for International Development"
+  },
+  {
+    "slug": "gsa-vs-opm",
+    "title": "GSA vs OPM",
+    "agency1Name": "General Services Administration",
+    "agency2Name": "Office of Personnel Management"
+  },
+  {
+    "slug": "usda-vs-doi",
+    "title": "Agriculture vs Interior",
+    "agency1Name": "Department of Agriculture",
+    "agency2Name": "Department of the Interior"
+  },
+  {
+    "slug": "treasury-vs-ssa",
+    "title": "Treasury vs SSA",
+    "agency1Name": "Department of the Treasury",
+    "agency2Name": "Social Security Administration"
+  },
+  {
+    "slug": "doj-vs-dhs",
+    "title": "Justice vs Homeland Security",
+    "agency1Name": "Department of Justice",
+    "agency2Name": "Department of Homeland Security"
+  },
+  {
+    "slug": "navy-vs-army",
+    "title": "Navy vs Army",
+    "agency1Name": "Department of the Navy",
+    "agency2Name": "Department of the Army"
+  },
+  {
+    "slug": "army-vs-air-force",
+    "title": "Army vs Air Force",
+    "agency1Name": "Department of the Army",
+    "agency2Name": "Department of the Air Force"
+  },
+  {
+    "slug": "va-vs-hhs",
+    "title": "Veterans Affairs vs Health and Human Services",
+    "agency1Name": "Department of Veterans Affairs",
+    "agency2Name": "Department of Health and Human Services"
+  },
+  {
+    "slug": "ed-vs-labor",
+    "title": "Education vs Labor",
+    "agency1Name": "Department of Education",
+    "agency2Name": "Department of Labor"
+  },
+  {
+    "slug": "commerce-vs-agriculture",
+    "title": "Commerce vs Agriculture",
+    "agency1Name": "Department of Commerce",
+    "agency2Name": "Department of Agriculture"
+  },
+  {
+    "slug": "dot-vs-dhs",
+    "title": "Transportation vs Homeland Security",
+    "agency1Name": "Department of Transportation",
+    "agency2Name": "Department of Homeland Security"
+  },
+  {
+    "slug": "epa-vs-energy",
+    "title": "EPA vs Energy",
+    "agency1Name": "Environmental Protection Agency",
+    "agency2Name": "Department of Energy"
+  },
+  {
+    "slug": "nasa-vs-nsf",
+    "title": "NASA vs NSF",
+    "agency1Name": "National Aeronautics and Space Administration",
+    "agency2Name": "National Science Foundation"
+  },
+  {
+    "slug": "hud-vs-ed",
+    "title": "Housing and Urban Development vs Education",
+    "agency1Name": "Department of Housing and Urban Development",
+    "agency2Name": "Department of Education"
+  },
+  {
+    "slug": "sba-vs-gsa",
+    "title": "SBA vs GSA",
+    "agency1Name": "Small Business Administration",
+    "agency2Name": "General Services Administration"
+  },
+  {
+    "slug": "state-vs-doj",
+    "title": "State vs Justice",
+    "agency1Name": "Department of State",
+    "agency2Name": "Department of Justice"
+  },
+  {
+    "slug": "treasury-vs-commerce",
+    "title": "Treasury vs Commerce",
+    "agency1Name": "Department of the Treasury",
+    "agency2Name": "Department of Commerce"
+  },
+  {
+    "slug": "labor-vs-hhs",
+    "title": "Labor vs Health and Human Services",
+    "agency1Name": "Department of Labor",
+    "agency2Name": "Department of Health and Human Services"
+  },
+  {
+    "slug": "interior-vs-agriculture",
+    "title": "Interior vs Agriculture",
+    "agency1Name": "Department of the Interior",
+    "agency2Name": "Department of Agriculture"
+  },
+  {
+    "slug": "opm-vs-omb",
+    "title": "OPM vs OMB",
+    "agency1Name": "Office of Personnel Management",
+    "agency2Name": "Office of Management and Budget"
+  },
+  {
+    "slug": "sec-vs-cftc",
+    "title": "SEC vs CFTC",
+    "agency1Name": "Securities and Exchange Commission",
+    "agency2Name": "Commodity Futures Trading Commission"
+  },
+  {
+    "slug": "fdic-vs-ncua",
+    "title": "FDIC vs NCUA",
+    "agency1Name": "Federal Deposit Insurance Corporation",
+    "agency2Name": "National Credit Union Administration"
+  },
+  {
+    "slug": "ftc-vs-fcc",
+    "title": "FTC vs FCC",
+    "agency1Name": "Federal Trade Commission",
+    "agency2Name": "Federal Communications Commission"
+  },
+  {
+    "slug": "nrc-vs-epa",
+    "title": "NRC vs EPA",
+    "agency1Name": "Nuclear Regulatory Commission",
+    "agency2Name": "Environmental Protection Agency"
+  },
+  {
+    "slug": "usaid-vs-peace-corps",
+    "title": "USAID vs Peace Corps",
+    "agency1Name": "U.S. Agency for International Development",
+    "agency2Name": "Peace Corps"
+  }
+]

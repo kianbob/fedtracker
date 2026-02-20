@@ -184,6 +184,28 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Salary Compare CTA */}
+      <section className="max-w-7xl mx-auto px-4 mt-16">
+        <Link
+          href="/salary-compare"
+          className="block bg-gradient-to-r from-indigo-600 to-indigo-500 rounded-xl p-8 sm:p-10 hover:from-indigo-700 hover:to-indigo-600 transition-all group shadow-lg"
+        >
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+            <div>
+              <h3 className="font-serif text-2xl sm:text-3xl font-bold text-white mb-2">
+                How Does Your Salary Compare?
+              </h3>
+              <p className="text-indigo-100 text-sm sm:text-base">
+                See how your pay stacks up against 2M+ federal employees across every agency, grade, and occupation.
+              </p>
+            </div>
+            <span className="bg-white text-indigo-700 font-semibold px-6 py-3 rounded-lg text-sm whitespace-nowrap self-start sm:self-center group-hover:bg-indigo-50 transition-colors">
+              Compare Now →
+            </span>
+          </div>
+        </Link>
+      </section>
+
       {/* Agency Risk Scores */}
       <section className="max-w-7xl mx-auto px-4 mt-16">
         <div className="flex items-center justify-between mb-6">

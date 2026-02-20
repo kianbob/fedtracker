@@ -16,6 +16,7 @@ export function Footer() {
               <Link href="/occupations" aria-label="Federal occupations data" className="block text-gray-600 hover:text-accent">Occupations</Link>
               <Link href="/states" aria-label="Federal workforce by state" className="block text-gray-600 hover:text-accent">States</Link>
               <Link href="/salaries" aria-label="Federal salary data" className="block text-gray-600 hover:text-accent">Salaries</Link>
+              <Link href="/salary-compare" aria-label="Compare your salary to federal employees" className="block text-gray-600 hover:text-accent">Salary Compare</Link>
               <Link href="/compare" aria-label="Compare federal agencies" className="block text-gray-600 hover:text-accent">Compare</Link>
               <Link href="/lookup" aria-label="Look up a federal agency" className="block text-gray-600 hover:text-accent">Agency Lookup</Link>
               <Link href="/downloads" aria-label="Download federal workforce data" className="block text-gray-600 hover:text-accent">Downloads</Link>

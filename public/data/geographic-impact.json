@@ -1,1 +1,536 @@
-{"current_by_state": [{"state": "DC", "state_name": "DISTRICT OF COLUMBIA", "employees": 103634, "agencies": 108}, {"state": "CA", "state_name": "CALIFORNIA", "employees": 78934, "agencies": 71}, {"state": "MD", "state_name": "MARYLAND", "employees": 78673, "agencies": 61}, {"state": "TX", "state_name": "TEXAS", "employees": 74997, "agencies": 64}, {"state": "FL", "state_name": "FLORIDA", "employees": 56620, "agencies": 66}, {"state": "VA", "state_name": "VIRGINIA", "employees": 43877, "agencies": 79}, {"state": "GA", "state_name": "GEORGIA", "employees": 41303, "agencies": 59}, {"state": "PA", "state_name": "PENNSYLVANIA", "employees": 37478, "agencies": 57}, {"state": "NY", "state_name": "NEW YORK", "employees": 37035, "agencies": 64}, {"state": "IL", "state_name": "ILLINOIS", "employees": 28285, "agencies": 54}, {"state": "NC", "state_name": "NORTH CAROLINA", "employees": 27361, "agencies": 48}, {"state": "OH", "state_name": "OHIO", "employees": 26609, "agencies": 50}, {"state": "MO", "state_name": "MISSOURI", "employees": 25895, "agencies": 42}, {"state": "CO", "state_name": "COLORADO", "employees": 24786, "agencies": 58}, {"state": "AZ", "state_name": "ARIZONA", "employees": 23603, "agencies": 46}, {"state": "WA", "state_name": "WASHINGTON", "employees": 23305, "agencies": 53}, {"state": "TN", "state_name": "TENNESSEE", "employees": 23026, "agencies": 48}, {"state": "MI", "state_name": "MICHIGAN", "employees": 18374, "agencies": 48}, {"state": "MA", "state_name": "MASSACHUSETTS", "employees": 16770, "agencies": 55}, {"state": "AL", "state_name": "ALABAMA", "employees": 15654, "agencies": 40}, {"state": "OK", "state_name": "OKLAHOMA", "employees": 15064, "agencies": 34}, {"state": "OR", "state_name": "OREGON", "employees": 14878, "agencies": 41}, {"state": "UT", "state_name": "UTAH", "employees": 14688, "agencies": 37}, {"state": "NDR", "state_name": "NO DATA REPORTED", "employees": 14518, "agencies": 40}, {"state": "NM", "state_name": "NEW MEXICO", "employees": 14184, "agencies": 39}, {"state": "MN", "state_name": "MINNESOTA", "employees": 13961, "agencies": 46}, {"state": "WI", "state_name": "WISCONSIN", "employees": 13641, "agencies": 41}, {"state": "WV", "state_name": "WEST VIRGINIA", "employees": 13584, "agencies": 36}, {"state": "SC", "state_name": "SOUTH CAROLINA", "employees": 12851, "agencies": 46}, {"state": "KY", "state_name": "KENTUCKY", "employees": 12450, "agencies": 40}, {"state": "LA", "state_name": "LOUISIANA", "employees": 12234, "agencies": 35}, {"state": "IN", "state_name": "INDIANA", "employees": 11441, "agencies": 35}, {"state": "NJ", "state_name": "NEW JERSEY", "employees": 10873, "agencies": 50}, {"state": "NV", "state_name": "NEVADA", "employees": 10145, "agencies": 36}, {"state": "AR", "state_name": "ARKANSAS", "employees": 9727, "agencies": 31}, {"state": "KS", "state_name": "KANSAS", "employees": 9601, "agencies": 34}, {"state": "MS", "state_name": "MISSISSIPPI", "employees": 9305, "agencies": 33}, {"state": "MT", "state_name": "MONTANA", "employees": 7546, "agencies": 29}, {"state": "ID", "state_name": "IDAHO", "employees": 7422, "agencies": 26}, {"state": "IA", "state_name": "IOWA", "employees": 7250, "agencies": 31}, {"state": "SD", "state_name": "SOUTH DAKOTA", "employees": 6730, "agencies": 22}, {"state": "NE", "state_name": "NEBRASKA", "employees": 5544, "agencies": 28}, {"state": "AK", "state_name": "ALASKA", "employees": 5207, "agencies": 24}, {"state": "CT", "state_name": "CONNECTICUT", "employees": 5009, "agencies": 30}, {"state": "HI", "state_name": "HAWAII", "employees": 4923, "agencies": 36}, {"state": "WY", "state_name": "WYOMING", "employees": 4588, "agencies": 22}, {"state": "NH", "state_name": "NEW HAMPSHIRE", "employees": 3724, "agencies": 38}, {"state": "ND", "state_name": "NORTH DAKOTA", "employees": 3650, "agencies": 26}, {"state": "ME", "state_name": "MAINE", "employees": 3477, "agencies": 37}, {"state": "RI", "state_name": "RHODE ISLAND", "employees": 3053, "agencies": 30}, {"state": "VT", "state_name": "VERMONT", "employees": 2489, "agencies": 27}, {"state": "DE", "state_name": "DELAWARE", "employees": 2256, "agencies": 36}, {"state": "*", "state_name": "INVALID", "employees": 1231, "agencies": 29}], "separations_by_location": [{"code": "US", "separations": 84405}, {"code": "06", "separations": 76046}, {"code": "11", "separations": 66208}, {"code": "51", "separations": 59308}, {"code": "48", "separations": 53081}, {"code": "24", "separations": 43889}, {"code": "12", "separations": 35604}, {"code": "13", "separations": 29845}, {"code": "53", "separations": 27032}, {"code": "36", "separations": 24465}, {"code": "42", "separations": 23718}, {"code": "08", "separations": 21912}, {"code": "37", "separations": 20855}, {"code": "04", "separations": 19124}, {"code": "39", "separations": 18604}, {"code": "29", "separations": 17460}, {"code": "17", "separations": 16260}, {"code": "49", "separations": 16109}, {"code": "41", "separations": 15279}, {"code": "01", "separations": 14982}, {"code": "40", "separations": 14214}, {"code": "47", "separations": 13624}, {"code": "35", "separations": 12398}, {"code": "25", "separations": 11097}, {"code": "18", "separations": 10951}, {"code": "30", "separations": 10677}, {"code": "26", "separations": 10425}, {"code": "45", "separations": 10384}, {"code": "15", "separations": 10317}, {"code": "16", "separations": 9479}, {"code": "21", "separations": 9292}, {"code": "GM", "separations": 8335}, {"code": "28", "separations": 8333}, {"code": "34", "separations": 8165}, {"code": "27", "separations": 8128}, {"code": "02", "separations": 7982}, {"code": "55", "separations": 7872}, {"code": "22", "separations": 7848}, {"code": "20", "separations": 7433}, {"code": "32", "separations": 7097}, {"code": "56", "separations": 6464}, {"code": "JA", "separations": 6435}, {"code": "RQ", "separations": 5915}, {"code": "05", "separations": 5812}, {"code": "54", "separations": 5524}, {"code": "46", "separations": 5435}, {"code": "31", "separations": 4643}, {"code": "23", "separations": 4619}, {"code": "19", "separations": 4228}, {"code": "09", "separations": 3568}, {"code": "38", "separations": 3107}, {"code": "44", "separations": 3038}, {"code": "KS", "separations": 2499}, {"code": "33", "separations": 2250}, {"code": "IT", "separations": 1944}, {"code": "GQ", "separations": 1936}, {"code": "10", "separations": 1658}, {"code": "50", "separations": 1609}, {"code": "UK", "separations": 1296}, {"code": "**", "separations": 671}]}
+{
+  "current_by_state": [
+    {
+      "state": "DC",
+      "state_name": "DISTRICT OF COLUMBIA",
+      "employees": 103634,
+      "agencies": 108
+    },
+    {
+      "state": "CA",
+      "state_name": "CALIFORNIA",
+      "employees": 78934,
+      "agencies": 71
+    },
+    {
+      "state": "MD",
+      "state_name": "MARYLAND",
+      "employees": 78673,
+      "agencies": 61
+    },
+    {
+      "state": "TX",
+      "state_name": "TEXAS",
+      "employees": 74997,
+      "agencies": 64
+    },
+    {
+      "state": "FL",
+      "state_name": "FLORIDA",
+      "employees": 56620,
+      "agencies": 66
+    },
+    {
+      "state": "VA",
+      "state_name": "VIRGINIA",
+      "employees": 43877,
+      "agencies": 79
+    },
+    {
+      "state": "GA",
+      "state_name": "GEORGIA",
+      "employees": 41303,
+      "agencies": 59
+    },
+    {
+      "state": "PA",
+      "state_name": "PENNSYLVANIA",
+      "employees": 37478,
+      "agencies": 57
+    },
+    {
+      "state": "NY",
+      "state_name": "NEW YORK",
+      "employees": 37035,
+      "agencies": 64
+    },
+    {
+      "state": "IL",
+      "state_name": "ILLINOIS",
+      "employees": 28285,
+      "agencies": 54
+    },
+    {
+      "state": "NC",
+      "state_name": "NORTH CAROLINA",
+      "employees": 27361,
+      "agencies": 48
+    },
+    {
+      "state": "OH",
+      "state_name": "OHIO",
+      "employees": 26609,
+      "agencies": 50
+    },
+    {
+      "state": "MO",
+      "state_name": "MISSOURI",
+      "employees": 25895,
+      "agencies": 42
+    },
+    {
+      "state": "CO",
+      "state_name": "COLORADO",
+      "employees": 24786,
+      "agencies": 58
+    },
+    {
+      "state": "AZ",
+      "state_name": "ARIZONA",
+      "employees": 23603,
+      "agencies": 46
+    },
+    {
+      "state": "WA",
+      "state_name": "WASHINGTON",
+      "employees": 23305,
+      "agencies": 53
+    },
+    {
+      "state": "TN",
+      "state_name": "TENNESSEE",
+      "employees": 23026,
+      "agencies": 48
+    },
+    {
+      "state": "MI",
+      "state_name": "MICHIGAN",
+      "employees": 18374,
+      "agencies": 48
+    },
+    {
+      "state": "MA",
+      "state_name": "MASSACHUSETTS",
+      "employees": 16770,
+      "agencies": 55
+    },
+    {
+      "state": "AL",
+      "state_name": "ALABAMA",
+      "employees": 15654,
+      "agencies": 40
+    },
+    {
+      "state": "OK",
+      "state_name": "OKLAHOMA",
+      "employees": 15064,
+      "agencies": 34
+    },
+    {
+      "state": "OR",
+      "state_name": "OREGON",
+      "employees": 14878,
+      "agencies": 41
+    },
+    {
+      "state": "UT",
+      "state_name": "UTAH",
+      "employees": 14688,
+      "agencies": 37
+    },
+    {
+      "state": "NDR",
+      "state_name": "NO DATA REPORTED",
+      "employees": 14518,
+      "agencies": 40
+    },
+    {
+      "state": "NM",
+      "state_name": "NEW MEXICO",
+      "employees": 14184,
+      "agencies": 39
+    },
+    {
+      "state": "MN",
+      "state_name": "MINNESOTA",
+      "employees": 13961,
+      "agencies": 46
+    },
+    {
+      "state": "WI",
+      "state_name": "WISCONSIN",
+      "employees": 13641,
+      "agencies": 41
+    },
+    {
+      "state": "WV",
+      "state_name": "WEST VIRGINIA",
+      "employees": 13584,
+      "agencies": 36
+    },
+    {
+      "state": "SC",
+      "state_name": "SOUTH CAROLINA",
+      "employees": 12851,
+      "agencies": 46
+    },
+    {
+      "state": "KY",
+      "state_name": "KENTUCKY",
+      "employees": 12450,
+      "agencies": 40
+    },
+    {
+      "state": "LA",
+      "state_name": "LOUISIANA",
+      "employees": 12234,
+      "agencies": 35
+    },
+    {
+      "state": "IN",
+      "state_name": "INDIANA",
+      "employees": 11441,
+      "agencies": 35
+    },
+    {
+      "state": "NJ",
+      "state_name": "NEW JERSEY",
+      "employees": 10873,
+      "agencies": 50
+    },
+    {
+      "state": "NV",
+      "state_name": "NEVADA",
+      "employees": 10145,
+      "agencies": 36
+    },
+    {
+      "state": "AR",
+      "state_name": "ARKANSAS",
+      "employees": 9727,
+      "agencies": 31
+    },
+    {
+      "state": "KS",
+      "state_name": "KANSAS",
+      "employees": 9601,
+      "agencies": 34
+    },
+    {
+      "state": "MS",
+      "state_name": "MISSISSIPPI",
+      "employees": 9305,
+      "agencies": 33
+    },
+    {
+      "state": "MT",
+      "state_name": "MONTANA",
+      "employees": 7546,
+      "agencies": 29
+    },
+    {
+      "state": "ID",
+      "state_name": "IDAHO",
+      "employees": 7422,
+      "agencies": 26
+    },
+    {
+      "state": "IA",
+      "state_name": "IOWA",
+      "employees": 7250,
+      "agencies": 31
+    },
+    {
+      "state": "SD",
+      "state_name": "SOUTH DAKOTA",
+      "employees": 6730,
+      "agencies": 22
+    },
+    {
+      "state": "NE",
+      "state_name": "NEBRASKA",
+      "employees": 5544,
+      "agencies": 28
+    },
+    {
+      "state": "AK",
+      "state_name": "ALASKA",
+      "employees": 5207,
+      "agencies": 24
+    },
+    {
+      "state": "CT",
+      "state_name": "CONNECTICUT",
+      "employees": 5009,
+      "agencies": 30
+    },
+    {
+      "state": "HI",
+      "state_name": "HAWAII",
+      "employees": 4923,
+      "agencies": 36
+    },
+    {
+      "state": "WY",
+      "state_name": "WYOMING",
+      "employees": 4588,
+      "agencies": 22
+    },
+    {
+      "state": "NH",
+      "state_name": "NEW HAMPSHIRE",
+      "employees": 3724,
+      "agencies": 38
+    },
+    {
+      "state": "ND",
+      "state_name": "NORTH DAKOTA",
+      "employees": 3650,
+      "agencies": 26
+    },
+    {
+      "state": "ME",
+      "state_name": "MAINE",
+      "employees": 3477,
+      "agencies": 37
+    },
+    {
+      "state": "RI",
+      "state_name": "RHODE ISLAND",
+      "employees": 3053,
+      "agencies": 30
+    },
+    {
+      "state": "VT",
+      "state_name": "VERMONT",
+      "employees": 2489,
+      "agencies": 27
+    },
+    {
+      "state": "DE",
+      "state_name": "DELAWARE",
+      "employees": 2256,
+      "agencies": 36
+    },
+    {
+      "state": "*",
+      "state_name": "INVALID",
+      "employees": 1231,
+      "agencies": 29
+    }
+  ],
+  "separations_by_location": [
+    {
+      "state": "CA",
+      "separations": 76046
+    },
+    {
+      "state": "DC",
+      "separations": 66208
+    },
+    {
+      "state": "VA",
+      "separations": 59308
+    },
+    {
+      "state": "TX",
+      "separations": 53081
+    },
+    {
+      "state": "MD",
+      "separations": 43889
+    },
+    {
+      "state": "FL",
+      "separations": 35604
+    },
+    {
+      "state": "GA",
+      "separations": 29845
+    },
+    {
+      "state": "WA",
+      "separations": 27032
+    },
+    {
+      "state": "NY",
+      "separations": 24465
+    },
+    {
+      "state": "PA",
+      "separations": 23718
+    },
+    {
+      "state": "CO",
+      "separations": 21912
+    },
+    {
+      "state": "NC",
+      "separations": 20855
+    },
+    {
+      "state": "AZ",
+      "separations": 19124
+    },
+    {
+      "state": "OH",
+      "separations": 18604
+    },
+    {
+      "state": "MO",
+      "separations": 17460
+    },
+    {
+      "state": "IL",
+      "separations": 16260
+    },
+    {
+      "state": "UT",
+      "separations": 16109
+    },
+    {
+      "state": "OR",
+      "separations": 15279
+    },
+    {
+      "state": "AL",
+      "separations": 14982
+    },
+    {
+      "state": "OK",
+      "separations": 14214
+    },
+    {
+      "state": "TN",
+      "separations": 13624
+    },
+    {
+      "state": "NM",
+      "separations": 12398
+    },
+    {
+      "state": "MA",
+      "separations": 11097
+    },
+    {
+      "state": "IN",
+      "separations": 10951
+    },
+    {
+      "state": "MT",
+      "separations": 10677
+    },
+    {
+      "state": "MI",
+      "separations": 10425
+    },
+    {
+      "state": "SC",
+      "separations": 10384
+    },
+    {
+      "state": "HI",
+      "separations": 10317
+    },
+    {
+      "state": "ID",
+      "separations": 9479
+    },
+    {
+      "state": "KY",
+      "separations": 9292
+    },
+    {
+      "state": "MS",
+      "separations": 8333
+    },
+    {
+      "state": "NJ",
+      "separations": 8165
+    },
+    {
+      "state": "MN",
+      "separations": 8128
+    },
+    {
+      "state": "AK",
+      "separations": 7982
+    },
+    {
+      "state": "WI",
+      "separations": 7872
+    },
+    {
+      "state": "LA",
+      "separations": 7848
+    },
+    {
+      "state": "KS",
+      "separations": 7433
+    },
+    {
+      "state": "NV",
+      "separations": 7097
+    },
+    {
+      "state": "WY",
+      "separations": 6464
+    },
+    {
+      "state": "PR",
+      "separations": 5915
+    },
+    {
+      "state": "AR",
+      "separations": 5812
+    },
+    {
+      "state": "WV",
+      "separations": 5524
+    },
+    {
+      "state": "SD",
+      "separations": 5435
+    },
+    {
+      "state": "NE",
+      "separations": 4643
+    },
+    {
+      "state": "ME",
+      "separations": 4619
+    },
+    {
+      "state": "IA",
+      "separations": 4228
+    },
+    {
+      "state": "CT",
+      "separations": 3568
+    },
+    {
+      "state": "ND",
+      "separations": 3107
+    },
+    {
+      "state": "RI",
+      "separations": 3038
+    },
+    {
+      "state": "NH",
+      "separations": 2250
+    },
+    {
+      "state": "GU",
+      "separations": 1936
+    },
+    {
+      "state": "DE",
+      "separations": 1658
+    },
+    {
+      "state": "VT",
+      "separations": 1609
+    }
+  ]
+}

@@ -355,33 +355,15 @@ export default function STEMWorkforcePage() {
         </Section>
       </div>
 
-      {/* RELATED ANALYSIS */}
-      <section className="mt-16 mb-12">
-        <h2 className="font-serif text-2xl font-bold text-gray-900 mb-4">
-          Related Analysis
-        </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      {/* Related Analysis */}
+      <hr className="border-gray-200 mb-8" />
+      <section className="mb-12">
+        <h2 className="font-serif text-2xl font-bold text-gray-900 mb-6">Related Analysis</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {[
-            {
-              href: "/salary-analysis",
-              title: "Salary Analysis",
-              desc: "Pay patterns, grade distributions, and compensation gaps across the federal workforce.",
-            },
-            {
-              href: "/workforce-analysis",
-              title: "Workforce Deep Dive",
-              desc: "Comprehensive analysis of federal employment trends, demographics, and structural changes.",
-            },
-            {
-              href: "/federal-bloat",
-              title: "Federal Bloat",
-              desc: "Is the federal workforce too big? Data on headcount, spending per employee, and the shadow contractor workforce.",
-            },
-            {
-              href: "/occupation-impact",
-              title: "Occupation Impact",
-              desc: "Which job series are most affected by workforce reductions and restructuring.",
-            },
+            { href: "/occupations", title: "Occupations", desc: "Federal workforce by job series" },
+            { href: "/brain-drain", title: "Brain Drain Index", desc: "Senior staff losses and salary gaps" },
+            { href: "/education", title: "Education Levels", desc: "Workforce education breakdown" },
           ].map((link) => (
             <Link
               key={link.href}

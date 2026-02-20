@@ -22,7 +22,7 @@ interface StateData {
 
 interface GeoData {
   current_by_state: StateData[];
-  separations_by_location: { code: string; separations: number }[];
+  separations_by_location: { state: string; separations: number }[];
 }
 
 export default function GeographicImpactPage() {
@@ -39,9 +39,31 @@ export default function GeographicImpactPage() {
     return data.current_by_state.filter((s) => s.state !== "*" && s.state !== "NDR");
   }, [data]);
 
+  const separationsMap = useMemo(() => {
+    if (!data) return new Map<string, number>();
+    const map = new Map<string, number>();
+    for (const entry of data.separations_by_location) {
+      map.set(entry.state, entry.separations);
+    }
+    return map;
+  }, [data]);
+
   const totalEmployees = useMemo(() => states.reduce((s, a) => s + a.employees, 0), [states]);
+  const totalSeparations = useMemo(() => {
+    let sum = 0;
+    separationsMap.forEach((v) => (sum += v));
+    return sum;
+  }, [separationsMap]);
 
   const top20 = useMemo(() => states.slice(0, 20), [states]);
+
+  const topSeparations = useMemo(() => {
+    return states
+      .map((s) => ({ ...s, separations: separationsMap.get(s.state) || 0 }))
+      .filter((s) => s.separations > 0)
+      .sort((a, b) => b.separations - a.separations)
+      .slice(0, 20);
+  }, [states, separationsMap]);
 
   const beltway = useMemo(() => {
     const dcVaMd = states.filter((s) => ["DC", "VA", "MD"].includes(s.state));
@@ -148,6 +170,42 @@ export default function GeographicImpactPage() {
         </div>
       </section>
 
+      {/* Top 20 by Separations */}
+      <section className="mb-16">
+        <h2 className="font-serif text-3xl font-bold text-gray-900 mb-2">
+          📉 Top 20 States by Separations
+        </h2>
+        <p className="text-gray-600 mb-6">
+          States that lost the most federal employees — {totalSeparations.toLocaleString()} total separations.
+        </p>
+        <div className="bg-white border border-gray-200 rounded-xl p-4 md:p-6">
+          <ResponsiveContainer width="100%" height={500}>
+            <BarChart data={topSeparations} layout="vertical" barCategoryGap="12%">
+              <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
+              <XAxis type="number" tickFormatter={(v: number) => `${(v / 1000).toFixed(0)}K`} tick={{ fontSize: 12 }} />
+              <YAxis dataKey="state" type="category" width={40} tick={{ fontSize: 12 }} />
+              <Tooltip formatter={(value: any) => typeof value === "number" ? value.toLocaleString() : String(value ?? "")} labelFormatter={(label: any) => {
+                const l = String(label);
+                const found = topSeparations.find(s => s.state === l);
+                return found ? found.state_name : l;
+              }} />
+              <Bar dataKey="separations" radius={[0, 4, 4, 0]}>
+                {topSeparations.map((entry, i) => (
+                  <Cell
+                    key={i}
+                    fill={["DC", "VA", "MD"].includes(entry.state) ? "#818cf8" : "#f87171"}
+                  />
+                ))}
+              </Bar>
+            </BarChart>
+          </ResponsiveContainer>
+          <div className="flex gap-4 mt-3 text-xs text-gray-500 justify-center">
+            <span className="flex items-center gap-1"><span className="w-3 h-3 bg-indigo-400 rounded-sm inline-block" /> DC/VA/MD (Beltway)</span>
+            <span className="flex items-center gap-1"><span className="w-3 h-3 bg-red-400 rounded-sm inline-block" /> Other states</span>
+          </div>
+        </div>
+      </section>
+
       {/* Full State Table */}
       <section className="mb-16">
         <h2 className="font-serif text-3xl font-bold text-gray-900 mb-2">
@@ -160,6 +218,7 @@ export default function GeographicImpactPage() {
               <tr>
                 <th className="px-4 py-3 text-left text-xs font-semibold text-gray-600 uppercase">State</th>
                 <th className="px-4 py-3 text-right text-xs font-semibold text-gray-600 uppercase">Employees</th>
+                <th className="px-4 py-3 text-right text-xs font-semibold text-gray-600 uppercase">Separations</th>
                 <th className="px-4 py-3 text-right text-xs font-semibold text-gray-600 uppercase"># Agencies</th>
                 <th className="px-4 py-3 text-right text-xs font-semibold text-gray-600 uppercase">% of Total</th>
               </tr>
@@ -172,6 +231,7 @@ export default function GeographicImpactPage() {
                     <span className="text-gray-400 ml-2 text-xs">({s.state})</span>
                   </td>
                   <td className="px-4 py-2 text-sm text-right text-gray-700">{s.employees.toLocaleString()}</td>
+                  <td className="px-4 py-2 text-sm text-right text-gray-700">{(separationsMap.get(s.state) || 0).toLocaleString()}</td>
                   <td className="px-4 py-2 text-sm text-right text-gray-700">{s.agencies}</td>
                   <td className="px-4 py-2 text-sm text-right text-gray-600">
                     {((s.employees / totalEmployees) * 100).toFixed(1)}%
@@ -192,6 +252,33 @@ export default function GeographicImpactPage() {
           federal footprints. When we talk about cutting the federal workforce, we&apos;re talking about jobs
           in every state — often in communities where the government is the largest employer.
         </p>
+      </section>
+
+      {/* Related Analysis */}
+      <hr className="border-gray-200 mb-8" />
+      <section className="mb-12">
+        <h2 className="font-serif text-2xl font-bold text-gray-900 mb-6">Related Analysis</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {[
+            { href: "/impact", title: "Agency Impact", desc: "How agencies are affected by workforce changes" },
+            { href: "/states", title: "State Breakdown", desc: "Federal employment by state" },
+            { href: "/doge", title: "DOGE Tracker", desc: "Department of Government Efficiency actions" },
+          ].map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className="bg-white border border-gray-200 rounded-xl p-5 hover:border-indigo-300 hover:shadow-md transition-all group"
+            >
+              <h3 className="font-serif font-bold text-gray-900 group-hover:text-indigo-700 transition-colors mb-1">
+                {link.title}
+              </h3>
+              <p className="text-sm text-gray-500">{link.desc}</p>
+              <span className="text-indigo-600 text-sm font-medium mt-2 inline-block">
+                Explore →
+              </span>
+            </Link>
+          ))}
+        </div>
       </section>
     </main>
   );

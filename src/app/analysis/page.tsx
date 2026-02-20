@@ -16,6 +16,16 @@ const items = [
   { href: "/federal-bloat", title: "Federal Bloat", stat: "🏛️", desc: "Federal workforce size and efficiency" },
   { href: "/salary-analysis", title: "Salary Analysis", stat: "💵", desc: "Deep pay pattern analysis" },
   { href: "/spending", title: "Agency Spending", stat: "💰", desc: "Budget per employee by agency" },
+  { href: "/stem-workforce", title: "STEM Workforce", stat: "🔬", desc: "Technical workforce analysis" },
+  { href: "/salary-explorer", title: "Salary Explorer", stat: "🔎", desc: "Interactive pay lookup tool" },
+  { href: "/demographics", title: "Demographics", stat: "2M+", desc: "Age, gender, and veteran statistics" },
+  { href: "/education", title: "Education & Pay", stat: "🎓", desc: "How degrees affect federal salaries" },
+  { href: "/occupations", title: "Occupations", stat: "540+", desc: "Every federal job series analyzed" },
+  { href: "/trends", title: "Workforce Trends", stat: "5yr", desc: "Employment changes over time" },
+  { href: "/impact", title: "State Impact", stat: "🗺️", desc: "Geographic effects of cuts" },
+  { href: "/appointments", title: "Appointments", stat: "📋", desc: "Hiring types and patterns" },
+  { href: "/occupation-impact", title: "Occupation Impact", stat: "👷", desc: "Which jobs are most at risk" },
+  { href: "/who-got-cut", title: "Who Got Cut", stat: "🔎", desc: "Detailed reduction breakdown" },
 ];
 
 export default function AnalysisPage() {

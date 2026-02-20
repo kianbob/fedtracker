@@ -282,6 +282,34 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Deep Dives */}
+      <section className="max-w-7xl mx-auto px-4 mt-16">
+        <h2 className="font-serif text-3xl font-bold text-gray-900 mb-2">Deep Dives</h2>
+        <p className="text-sm text-gray-500 mb-8">Interactive tools and in-depth analysis of federal workforce data.</p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {[
+            { href: "/brain-drain", icon: "🧠", title: "Brain Drain Index", desc: "Agencies losing senior staff earning $49K more than replacements" },
+            { href: "/retirement-cliff", icon: "⏳", title: "Retirement Cliff", desc: "54.5% of Selective Service near retirement age" },
+            { href: "/geographic-impact", icon: "🗺️", title: "Geographic Impact", desc: "Where federal jobs are disappearing" },
+            { href: "/stem-workforce", icon: "🔬", title: "STEM Workforce", desc: "552K federal STEM workers at risk" },
+            { href: "/monthly-timeline", icon: "📅", title: "Monthly Timeline", desc: "48 months of hiring vs firing data" },
+            { href: "/salary-explorer", icon: "💰", title: "Salary Explorer", desc: "Interactive tool to compare agency pay" },
+          ].map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              className="bg-white border border-gray-200 rounded-xl p-5 hover:shadow-lg hover:border-accent transition-all group"
+            >
+              <span className="text-3xl">{item.icon}</span>
+              <h3 className="font-serif text-lg font-bold text-gray-900 group-hover:text-accent transition-colors mt-2 mb-1">
+                {item.title}
+              </h3>
+              <p className="text-sm text-gray-500 leading-snug">{item.desc}</p>
+            </Link>
+          ))}
+        </div>
+      </section>
+
       {/* Top Agencies */}
       <section className="max-w-7xl mx-auto px-4 mt-16 mb-16">
         <div className="flex items-center justify-between mb-8">

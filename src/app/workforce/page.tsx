@@ -14,6 +14,9 @@ const items = [
   { href: "/stem-workforce", title: "STEM Workforce", stat: "🔬", desc: "Technical workforce analysis" },
   { href: "/trends", title: "Workforce Trends", stat: "5yr", desc: "Employment changes over time" },
   { href: "/education", title: "Education & Pay", stat: "🎓", desc: "How degrees affect federal salaries" },
+  { href: "/occupations", title: "Occupations", stat: "540+", desc: "Every federal job series analyzed" },
+  { href: "/brain-drain", title: "Brain Drain Index", stat: "🧠", desc: "Who is really leaving" },
+  { href: "/retirement-cliff", title: "Retirement Cliff", stat: "⏳", desc: "Aging workforce risk analysis" },
 ];
 
 export default function WorkforcePage() {

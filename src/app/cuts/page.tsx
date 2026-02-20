@@ -14,6 +14,8 @@ const items = [
   { href: "/impact", title: "State Impact", stat: "🗺️", desc: "Geographic effects of cuts" },
   { href: "/occupation-impact", title: "Occupation Impact", stat: "👷", desc: "Which jobs are most at risk" },
   { href: "/risk", title: "Risk Scores", stat: "⚡", desc: "Which agencies are most vulnerable" },
+  { href: "/appointments", title: "Appointments", stat: "📋", desc: "Hiring types and patterns" },
+  { href: "/geographic-impact", title: "Geographic Impact", stat: "🗺️", desc: "Where federal jobs are concentrated" },
 ];
 
 export default function CutsPage() {

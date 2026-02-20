@@ -71,6 +71,32 @@ export default function MonthlyTimelinePage() {
           </p>
         </div>
       </section>
+      {/* Related Analysis */}
+      <hr className="border-gray-200 mb-8 mt-16" />
+      <section className="mb-12">
+        <h2 className="font-serif text-2xl font-bold text-gray-900 mb-6">Related Analysis</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {[
+            { href: "/trends", title: "Workforce Trends", desc: "Historical patterns in federal employment" },
+            { href: "/timeline", title: "Event Timeline", desc: "Key events affecting the federal workforce" },
+            { href: "/doge", title: "DOGE Tracker", desc: "Department of Government Efficiency actions" },
+          ].map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className="bg-white border border-gray-200 rounded-xl p-5 hover:border-indigo-300 hover:shadow-md transition-all group"
+            >
+              <h3 className="font-serif font-bold text-gray-900 group-hover:text-indigo-700 transition-colors mb-1">
+                {link.title}
+              </h3>
+              <p className="text-sm text-gray-500">{link.desc}</p>
+              <span className="text-indigo-600 text-sm font-medium mt-2 inline-block">
+                Explore →
+              </span>
+            </Link>
+          ))}
+        </div>
+      </section>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-const SITE_URL = "https://openfeds.org";
+const SITE_URL = "https://www.openfeds.org";
 
 const pages = [
   {
@@ -35,6 +35,62 @@ const pages = [
       "The average federal salary is $116,751 — but most workers earn $60-100K. The real story is a system that rewards longevity over performance.",
     url: "/salary-analysis",
     date: "2025-01-15",
+  },
+  {
+    title: "The Brain Drain Index: Who's Really Leaving Government?",
+    description:
+      "Senior employees leaving earn $49K more than new hires replacing them. The federal brain drain is real — and the data proves it.",
+    url: "/brain-drain",
+    date: "2025-02-15",
+  },
+  {
+    title: "The Federal Retirement Cliff: Which Agencies Are Next?",
+    description:
+      "54.5% of Selective Service employees are near retirement. Dozens of agencies face a demographic tsunami on top of DOGE cuts.",
+    url: "/retirement-cliff",
+    date: "2025-02-15",
+  },
+  {
+    title: "Geographic Impact: Where Federal Jobs Are Disappearing",
+    description:
+      "DC, California, and Georgia lost the most federal workers. But the Beltway Bubble means the real impact is felt nationwide.",
+    url: "/geographic-impact",
+    date: "2025-02-15",
+  },
+  {
+    title: "The STEM Brain Drain: Are We Losing America's Technical Workforce?",
+    description:
+      "552K federal STEM workers across 128 agencies. Engineers, scientists, and healthcare professionals — who employs them and what happens when they leave.",
+    url: "/stem-workforce",
+    date: "2025-02-15",
+  },
+  {
+    title: "Month by Month: How the Federal Workforce Changed (FY2020-2024)",
+    description:
+      "48 months of federal workforce data reveals the patterns annual numbers hide: seasonal hiring waves, COVID disruptions, and the DOGE effect.",
+    url: "/monthly-timeline",
+    date: "2025-02-15",
+  },
+  {
+    title: "Occupation Impact: Which Federal Jobs Were Hit Hardest by DOGE",
+    description:
+      "Administrative, clerical, and medical roles bore the brunt of federal workforce reductions. See which occupations lost the most people.",
+    url: "/occupation-impact",
+    date: "2025-02-15",
+  },
+  {
+    title: "Career vs. Temporary: Appointment Types and Who Got Cut",
+    description:
+      "Career employees made up the bulk of RIFs, but temporary and Schedule A workers were disproportionately affected by DOGE reductions.",
+    url: "/appointments",
+    date: "2025-02-15",
+  },
+  {
+    title: "Education & Salary: Does a Degree Pay Off in Government?",
+    description:
+      "Federal pay by education level: Bachelor's, Master's, PhD, and Professional degrees. How education affects federal salaries across agencies.",
+    url: "/education",
+    date: "2025-02-15",
   },
 ];
 

@@ -1,1 +1,164 @@
-{"code": "NC", "name": "North Carolina", "employees": 27310, "avgSalary": 111444, "topAgencies": [{"name": "Department of Veterans Affairs", "code": "VA", "employees": 16520}, {"name": "Department of Agriculture", "code": "AG", "employees": 1764}, {"name": "Environmental Protection Agency", "code": "EP", "employees": 1328}, {"name": "Department of Homeland Security", "code": "HS", "employees": 1263}, {"name": "Social Security Administration", "code": "SZ", "employees": 1151}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 1133}, {"name": "Department of Justice", "code": "DJ", "employees": 796}, {"name": "Department of Commerce", "code": "CM", "employees": 793}, {"name": "Department of Transportation", "code": "TD", "employees": 644}, {"name": "Department of Interior", "code": "IN", "employees": 587}, {"name": "Department of Treasury", "code": "TR", "employees": 539}, {"name": "General Services Administration", "code": "GS", "employees": 149}, {"name": "Federal Deposit Insurance Corporation", "code": "FD", "employees": 125}, {"name": "Department of Labor", "code": "DL", "employees": 102}, {"name": "Small Business Administration", "code": "SB", "employees": 89}], "topOccupations": [{"name": "Nurse", "employees": 3649, "avgSalary": 129123}, {"name": "Medical Support Assistance", "employees": 1621, "avgSalary": 58757}, {"name": "Medical Officer", "employees": 1147, "avgSalary": 313080}, {"name": "Information Technology Management", "employees": 818, "avgSalary": 129536}, {"name": "Veterans Claims Examining", "employees": 812, "avgSalary": 86065}, {"name": "Miscellaneous Administration and Program", "employees": 770, "avgSalary": 101511}, {"name": "Social Work", "employees": 738, "avgSalary": 106784}, {"name": "Social Insurance Administration", "employees": 715, "avgSalary": 95758}, {"name": "Management and Program Analysis", "employees": 657, "avgSalary": 121836}, {"name": "Miscellaneous Clerk and Assistant", "employees": 579, "avgSalary": 51298}, {"name": "General Natural Resources Management and Biological Sciences", "employees": 571, "avgSalary": 125783}, {"name": "Nursing Assistant", "employees": 569, "avgSalary": 54414}, {"name": "Practical Nurse", "employees": 567, "avgSalary": 72812}, {"name": "Human Resources Management", "employees": 525, "avgSalary": 111570}, {"name": "Pharmacist", "employees": 457, "avgSalary": 164325}]}
+{
+  "code": "NC",
+  "name": "North Carolina",
+  "employees": 27310,
+  "avgSalary": 111444,
+  "topAgencies": [
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 16520
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 1764
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 1328
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 1263
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 1151
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 1133
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 796
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 793
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 644
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 587
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 539
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 149
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 125
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 102
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 89
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Nurse",
+      "employees": 3649,
+      "avgSalary": 129123
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 1621,
+      "avgSalary": 58757
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 1147,
+      "avgSalary": 313080
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 818,
+      "avgSalary": 129536
+    },
+    {
+      "name": "Veterans Claims Examining",
+      "employees": 812,
+      "avgSalary": 86065
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 770,
+      "avgSalary": 101511
+    },
+    {
+      "name": "Social Work",
+      "employees": 738,
+      "avgSalary": 106784
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 715,
+      "avgSalary": 95758
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 657,
+      "avgSalary": 121836
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 579,
+      "avgSalary": 51298
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 571,
+      "avgSalary": 125783
+    },
+    {
+      "name": "Nursing Assistant",
+      "employees": 569,
+      "avgSalary": 54414
+    },
+    {
+      "name": "Practical Nurse",
+      "employees": 567,
+      "avgSalary": 72812
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 525,
+      "avgSalary": 111570
+    },
+    {
+      "name": "Pharmacist",
+      "employees": 457,
+      "avgSalary": 164325
+    }
+  ],
+  "separations2025": 20855,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": -4.8,
+  "dogeNarrative": "North Carolina employs 27,310 federal workers with an average salary of $111,444, 4.8% below the national average. DOGE workforce reductions in 2025 resulted in 20,855 separations statewide."
+}

@@ -1,1 +1,164 @@
-{"code": "IN", "name": "Indiana", "employees": 11422, "avgSalary": 101586, "topAgencies": [{"name": "Department of Veterans Affairs", "code": "VA", "employees": 6988}, {"name": "Department of Transportation", "code": "TD", "employees": 877}, {"name": "Department of Commerce", "code": "CM", "employees": 789}, {"name": "Department of Agriculture", "code": "AG", "employees": 649}, {"name": "Social Security Administration", "code": "SZ", "employees": 617}, {"name": "Department of Justice", "code": "DJ", "employees": 383}, {"name": "Department of Treasury", "code": "TR", "employees": 307}, {"name": "Department of Interior", "code": "IN", "employees": 227}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 116}, {"name": "Department of Homeland Security", "code": "HS", "employees": 113}, {"name": "Department of Labor", "code": "DL", "employees": 81}, {"name": "General Services Administration", "code": "GS", "employees": 47}, {"name": "Federal Deposit Insurance Corporation", "code": "FD", "employees": 40}, {"name": "Department of Housing and Urban Developm", "code": "HU", "employees": 38}, {"name": "Equal Employment Opportunity Commission", "code": "EE", "employees": 34}], "topOccupations": [{"name": "Nurse", "employees": 1413, "avgSalary": 116513}, {"name": "Medical Support Assistance", "employees": 659, "avgSalary": 52843}, {"name": "Air Traffic Control", "employees": 583, "avgSalary": 147614}, {"name": "Medical Officer", "employees": 403, "avgSalary": 298449}, {"name": "Social Work", "employees": 375, "avgSalary": 93658}, {"name": "Social Insurance Administration", "employees": 374, "avgSalary": 97431}, {"name": "Miscellaneous Clerk and Assistant", "employees": 294, "avgSalary": 49070}, {"name": "Veterans Claims Examining", "employees": 280, "avgSalary": 81102}, {"name": "Practical Nurse", "employees": 255, "avgSalary": 71059}, {"name": "Miscellaneous Administration and Program", "employees": 252, "avgSalary": 102872}, {"name": "Management and Program Analysis", "employees": 248, "avgSalary": 112500}, {"name": "Statistical Assistant", "employees": 241, "avgSalary": 46987}, {"name": "Custodial Working", "employees": 225, "avgSalary": 45583}, {"name": "Pharmacist", "employees": 223, "avgSalary": 160127}, {"name": "Human Resources Management", "employees": 220, "avgSalary": 113347}]}
+{
+  "code": "IN",
+  "name": "Indiana",
+  "employees": 11422,
+  "avgSalary": 101586,
+  "topAgencies": [
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 6988
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 877
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 789
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 649
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 617
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 383
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 307
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 227
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 116
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 113
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 81
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 47
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 40
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 38
+    },
+    {
+      "name": "Equal Employment Opportunity Commission",
+      "code": "EE",
+      "employees": 34
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Nurse",
+      "employees": 1413,
+      "avgSalary": 116513
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 659,
+      "avgSalary": 52843
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 583,
+      "avgSalary": 147614
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 403,
+      "avgSalary": 298449
+    },
+    {
+      "name": "Social Work",
+      "employees": 375,
+      "avgSalary": 93658
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 374,
+      "avgSalary": 97431
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 294,
+      "avgSalary": 49070
+    },
+    {
+      "name": "Veterans Claims Examining",
+      "employees": 280,
+      "avgSalary": 81102
+    },
+    {
+      "name": "Practical Nurse",
+      "employees": 255,
+      "avgSalary": 71059
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 252,
+      "avgSalary": 102872
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 248,
+      "avgSalary": 112500
+    },
+    {
+      "name": "Statistical Assistant",
+      "employees": 241,
+      "avgSalary": 46987
+    },
+    {
+      "name": "Custodial Working",
+      "employees": 225,
+      "avgSalary": 45583
+    },
+    {
+      "name": "Pharmacist",
+      "employees": 223,
+      "avgSalary": 160127
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 220,
+      "avgSalary": 113347
+    }
+  ],
+  "separations2025": 10951,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": -13.3,
+  "dogeNarrative": "Indiana employs 11,422 federal workers with an average salary of $101,586, 13.3% below the national average. DOGE workforce reductions in 2025 resulted in 10,951 separations statewide."
+}

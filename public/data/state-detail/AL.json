@@ -1,1 +1,164 @@
-{"code": "AL", "name": "Alabama", "employees": 15620, "avgSalary": 104400, "topAgencies": [{"name": "Department of Veterans Affairs", "code": "VA", "employees": 7572}, {"name": "Social Security Administration", "code": "SZ", "employees": 2243}, {"name": "Nat Aeronautics and Space Administration", "code": "NN", "employees": 2191}, {"name": "Department of Agriculture", "code": "AG", "employees": 874}, {"name": "Department of Homeland Security", "code": "HS", "employees": 551}, {"name": "Department of Justice", "code": "DJ", "employees": 406}, {"name": "Department of Transportation", "code": "TD", "employees": 288}, {"name": "Department of Treasury", "code": "TR", "employees": 288}, {"name": "Department of Commerce", "code": "CM", "employees": 265}, {"name": "Department of Interior", "code": "IN", "employees": 220}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 182}, {"name": "Small Business Administration", "code": "SB", "employees": 125}, {"name": "Department of Labor", "code": "DL", "employees": 106}, {"name": "General Services Administration", "code": "GS", "employees": 86}, {"name": "Equal Employment Opportunity Commission", "code": "EE", "employees": 55}], "topOccupations": [{"name": "Nurse", "employees": 1517, "avgSalary": 118693}, {"name": "Aerospace Engineering", "employees": 845, "avgSalary": 145569}, {"name": "Social Insurance Administration", "employees": 770, "avgSalary": 100424}, {"name": "Contact Representative", "employees": 715, "avgSalary": 63437}, {"name": "Medical Support Assistance", "employees": 701, "avgSalary": 55577}, {"name": "General Engineering", "employees": 480, "avgSalary": 160977}, {"name": "Management and Program Analysis", "employees": 450, "avgSalary": 118983}, {"name": "Medical Officer", "employees": 448, "avgSalary": 298010}, {"name": "General Legal and Kindred Administration", "employees": 446, "avgSalary": 70818}, {"name": "Nursing Assistant", "employees": 382, "avgSalary": 49990}, {"name": "Information Technology Management", "employees": 379, "avgSalary": 133031}, {"name": "Social Work", "employees": 372, "avgSalary": 99198}, {"name": "Miscellaneous Administration and Program", "employees": 363, "avgSalary": 105376}, {"name": "Veterans Claims Examining", "employees": 328, "avgSalary": 82285}, {"name": "Miscellaneous Clerk and Assistant", "employees": 303, "avgSalary": 51446}]}
+{
+  "code": "AL",
+  "name": "Alabama",
+  "employees": 15620,
+  "avgSalary": 104400,
+  "topAgencies": [
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 7572
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 2243
+    },
+    {
+      "name": "Nat Aeronautics and Space Administration",
+      "code": "NN",
+      "employees": 2191
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 874
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 551
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 406
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 288
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 288
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 265
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 220
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 182
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 125
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 106
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 86
+    },
+    {
+      "name": "Equal Employment Opportunity Commission",
+      "code": "EE",
+      "employees": 55
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Nurse",
+      "employees": 1517,
+      "avgSalary": 118693
+    },
+    {
+      "name": "Aerospace Engineering",
+      "employees": 845,
+      "avgSalary": 145569
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 770,
+      "avgSalary": 100424
+    },
+    {
+      "name": "Contact Representative",
+      "employees": 715,
+      "avgSalary": 63437
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 701,
+      "avgSalary": 55577
+    },
+    {
+      "name": "General Engineering",
+      "employees": 480,
+      "avgSalary": 160977
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 450,
+      "avgSalary": 118983
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 448,
+      "avgSalary": 298010
+    },
+    {
+      "name": "General Legal and Kindred Administration",
+      "employees": 446,
+      "avgSalary": 70818
+    },
+    {
+      "name": "Nursing Assistant",
+      "employees": 382,
+      "avgSalary": 49990
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 379,
+      "avgSalary": 133031
+    },
+    {
+      "name": "Social Work",
+      "employees": 372,
+      "avgSalary": 99198
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 363,
+      "avgSalary": 105376
+    },
+    {
+      "name": "Veterans Claims Examining",
+      "employees": 328,
+      "avgSalary": 82285
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 303,
+      "avgSalary": 51446
+    }
+  ],
+  "separations2025": 14982,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": -10.9,
+  "dogeNarrative": "Alabama employs 15,620 federal workers with an average salary of $104,400, 10.9% below the national average. DOGE workforce reductions in 2025 resulted in 14,982 separations statewide."
+}

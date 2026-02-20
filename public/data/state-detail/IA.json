@@ -1,1 +1,164 @@
-{"code": "IA", "name": "Iowa", "employees": 7244, "avgSalary": 102792, "topAgencies": [{"name": "Department of Veterans Affairs", "code": "VA", "employees": 4307}, {"name": "Department of Agriculture", "code": "AG", "employees": 1639}, {"name": "Social Security Administration", "code": "SZ", "employees": 222}, {"name": "Department of Transportation", "code": "TD", "employees": 220}, {"name": "Department of Commerce", "code": "CM", "employees": 201}, {"name": "Department of Treasury", "code": "TR", "employees": 140}, {"name": "Department of Interior", "code": "IN", "employees": 111}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 91}, {"name": "Federal Deposit Insurance Corporation", "code": "FD", "employees": 85}, {"name": "Department of Homeland Security", "code": "HS", "employees": 68}, {"name": "Department of Labor", "code": "DL", "employees": 35}, {"name": "General Services Administration", "code": "GS", "employees": 24}, {"name": "Department of Energy", "code": "DN", "employees": 20}, {"name": "Department of Justice", "code": "DJ", "employees": 13}, {"name": "Small Business Administration", "code": "SB", "employees": 12}], "topOccupations": [{"name": "Nurse", "employees": 1013, "avgSalary": 112726}, {"name": "Medical Officer", "employees": 346, "avgSalary": 301718}, {"name": "Medical Support Assistance", "employees": 291, "avgSalary": 52924}, {"name": "Soil Conservation", "employees": 236, "avgSalary": 82949}, {"name": "Consumer Safety Inspection", "employees": 209, "avgSalary": 70906}, {"name": "Miscellaneous Clerk and Assistant", "employees": 205, "avgSalary": 51087}, {"name": "Social Work", "employees": 202, "avgSalary": 100002}, {"name": "Biological Science Technician", "employees": 180, "avgSalary": 58092}, {"name": "Veterans Claims Examining", "employees": 165, "avgSalary": 86782}, {"name": "Human Resources Management", "employees": 152, "avgSalary": 117897}, {"name": "Social Insurance Administration", "employees": 151, "avgSalary": 96448}, {"name": "Pharmacist", "employees": 150, "avgSalary": 156724}, {"name": "Miscellaneous Administration and Program", "employees": 140, "avgSalary": 96583}, {"name": "Management and Program Analysis", "employees": 135, "avgSalary": 110449}, {"name": "Information Technology Management", "employees": 126, "avgSalary": 121181}]}
+{
+  "code": "IA",
+  "name": "Iowa",
+  "employees": 7244,
+  "avgSalary": 102792,
+  "topAgencies": [
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 4307
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 1639
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 222
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 220
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 201
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 140
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 111
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 91
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 85
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 68
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 35
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 24
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 20
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 13
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 12
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Nurse",
+      "employees": 1013,
+      "avgSalary": 112726
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 346,
+      "avgSalary": 301718
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 291,
+      "avgSalary": 52924
+    },
+    {
+      "name": "Soil Conservation",
+      "employees": 236,
+      "avgSalary": 82949
+    },
+    {
+      "name": "Consumer Safety Inspection",
+      "employees": 209,
+      "avgSalary": 70906
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 205,
+      "avgSalary": 51087
+    },
+    {
+      "name": "Social Work",
+      "employees": 202,
+      "avgSalary": 100002
+    },
+    {
+      "name": "Biological Science Technician",
+      "employees": 180,
+      "avgSalary": 58092
+    },
+    {
+      "name": "Veterans Claims Examining",
+      "employees": 165,
+      "avgSalary": 86782
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 152,
+      "avgSalary": 117897
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 151,
+      "avgSalary": 96448
+    },
+    {
+      "name": "Pharmacist",
+      "employees": 150,
+      "avgSalary": 156724
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 140,
+      "avgSalary": 96583
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 135,
+      "avgSalary": 110449
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 126,
+      "avgSalary": 121181
+    }
+  ],
+  "separations2025": 4228,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": -12.2,
+  "dogeNarrative": "Iowa employs 7,244 federal workers with an average salary of $102,792, 12.2% below the national average. DOGE workforce reductions in 2025 resulted in 4,228 separations statewide."
+}

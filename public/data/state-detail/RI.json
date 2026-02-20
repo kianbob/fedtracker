@@ -1,1 +1,164 @@
-{"code": "RI", "name": "Rhode Island", "employees": 3047, "avgSalary": 118305, "topAgencies": [{"name": "Department of Veterans Affairs", "code": "VA", "employees": 2219}, {"name": "Social Security Administration", "code": "SZ", "employees": 133}, {"name": "Department of Commerce", "code": "CM", "employees": 130}, {"name": "Department of Homeland Security", "code": "HS", "employees": 104}, {"name": "Department of Transportation", "code": "TD", "employees": 82}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 67}, {"name": "Department of Agriculture", "code": "AG", "employees": 64}, {"name": "Environmental Protection Agency", "code": "EP", "employees": 63}, {"name": "Department of Treasury", "code": "TR", "employees": 49}, {"name": "Department of Interior", "code": "IN", "employees": 48}, {"name": "Department of Labor", "code": "DL", "employees": 25}, {"name": "General Services Administration", "code": "GS", "employees": 16}, {"name": "Department of Housing and Urban Developm", "code": "HU", "employees": 12}, {"name": "Department of Justice", "code": "DJ", "employees": 11}, {"name": "Small Business Administration", "code": "SB", "employees": 8}], "topOccupations": [{"name": "Nurse", "employees": 412, "avgSalary": 135675}, {"name": "Veterans Claims Examining", "employees": 338, "avgSalary": 98285}, {"name": "Medical Officer", "employees": 179, "avgSalary": 290523}, {"name": "Medical Support Assistance", "employees": 148, "avgSalary": 60314}, {"name": "Social Work", "employees": 102, "avgSalary": 108955}, {"name": "Social Insurance Administration", "employees": 81, "avgSalary": 108694}, {"name": "Miscellaneous Administration and Program", "employees": 70, "avgSalary": 110854}, {"name": "General Health Science", "employees": 70, "avgSalary": 110152}, {"name": "Custodial Working", "employees": 69, "avgSalary": 47132}, {"name": "Management and Program Analysis", "employees": 63, "avgSalary": 128520}, {"name": "Psychology", "employees": 60, "avgSalary": 131124}, {"name": "Pharmacist", "employees": 55, "avgSalary": 144678}, {"name": "Miscellaneous Clerk and Assistant", "employees": 54, "avgSalary": 54601}, {"name": "General Natural Resources Management and Biological Sciences", "employees": 51, "avgSalary": 128867}, {"name": "Human Resources Management", "employees": 49, "avgSalary": 135685}]}
+{
+  "code": "RI",
+  "name": "Rhode Island",
+  "employees": 3047,
+  "avgSalary": 118305,
+  "topAgencies": [
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 2219
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 133
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 130
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 104
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 82
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 67
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 64
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 63
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 49
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 48
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 25
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 16
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 12
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 11
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 8
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Nurse",
+      "employees": 412,
+      "avgSalary": 135675
+    },
+    {
+      "name": "Veterans Claims Examining",
+      "employees": 338,
+      "avgSalary": 98285
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 179,
+      "avgSalary": 290523
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 148,
+      "avgSalary": 60314
+    },
+    {
+      "name": "Social Work",
+      "employees": 102,
+      "avgSalary": 108955
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 81,
+      "avgSalary": 108694
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 70,
+      "avgSalary": 110854
+    },
+    {
+      "name": "General Health Science",
+      "employees": 70,
+      "avgSalary": 110152
+    },
+    {
+      "name": "Custodial Working",
+      "employees": 69,
+      "avgSalary": 47132
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 63,
+      "avgSalary": 128520
+    },
+    {
+      "name": "Psychology",
+      "employees": 60,
+      "avgSalary": 131124
+    },
+    {
+      "name": "Pharmacist",
+      "employees": 55,
+      "avgSalary": 144678
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 54,
+      "avgSalary": 54601
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 51,
+      "avgSalary": 128867
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 49,
+      "avgSalary": 135685
+    }
+  ],
+  "separations2025": 3038,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": 1,
+  "dogeNarrative": "Rhode Island employs 3,047 federal workers with an average salary of $118,305, 1% above the national average. DOGE workforce reductions in 2025 resulted in 3,038 separations statewide."
+}

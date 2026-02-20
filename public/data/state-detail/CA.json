@@ -1,1 +1,164 @@
-{"code": "CA", "name": "California", "employees": 78422, "avgSalary": 124383, "topAgencies": [{"name": "Department of Veterans Affairs", "code": "VA", "employees": 36689}, {"name": "Department of Agriculture", "code": "AG", "employees": 7200}, {"name": "Department of Treasury", "code": "TR", "employees": 5548}, {"name": "Department of Interior", "code": "IN", "employees": 5332}, {"name": "Social Security Administration", "code": "SZ", "employees": 5162}, {"name": "Department of Transportation", "code": "TD", "employees": 3679}, {"name": "Department of Homeland Security", "code": "HS", "employees": 2678}, {"name": "Department of Justice", "code": "DJ", "employees": 1961}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 1837}, {"name": "Department of Commerce", "code": "CM", "employees": 1787}, {"name": "Nat Aeronautics and Space Administration", "code": "NN", "employees": 1675}, {"name": "Environmental Protection Agency", "code": "EP", "employees": 794}, {"name": "Department of Labor", "code": "DL", "employees": 635}, {"name": "General Services Administration", "code": "GS", "employees": 624}, {"name": "Small Business Administration", "code": "SB", "employees": 605}], "topOccupations": [{"name": "Nurse", "employees": 8038, "avgSalary": 178258}, {"name": "Medical Officer", "employees": 3330, "avgSalary": 323339}, {"name": "Forestry Technician", "employees": 3040, "avgSalary": 69127}, {"name": "Contact Representative", "employees": 3037, "avgSalary": 67777}, {"name": "Social Insurance Administration", "employees": 3006, "avgSalary": 113356}, {"name": "Medical Support Assistance", "employees": 2759, "avgSalary": 63078}, {"name": "Miscellaneous Administration and Program", "employees": 2735, "avgSalary": 117054}, {"name": "Social Work", "employees": 1965, "avgSalary": 127633}, {"name": "Air Traffic Control", "employees": 1901, "avgSalary": 169652}, {"name": "Miscellaneous Clerk and Assistant", "employees": 1886, "avgSalary": 60044}, {"name": "Management and Program Analysis", "employees": 1696, "avgSalary": 129065}, {"name": "Practical Nurse", "employees": 1585, "avgSalary": 87801}, {"name": "General Attorney", "employees": 1376, "avgSalary": 180258}, {"name": "Information Technology Management", "employees": 1312, "avgSalary": 140268}, {"name": "Veterans Claims Examining", "employees": 1270, "avgSalary": 100887}]}
+{
+  "code": "CA",
+  "name": "California",
+  "employees": 78422,
+  "avgSalary": 124383,
+  "topAgencies": [
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 36689
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 7200
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 5548
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 5332
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 5162
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 3679
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 2678
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 1961
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 1837
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 1787
+    },
+    {
+      "name": "Nat Aeronautics and Space Administration",
+      "code": "NN",
+      "employees": 1675
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 794
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 635
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 624
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 605
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Nurse",
+      "employees": 8038,
+      "avgSalary": 178258
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 3330,
+      "avgSalary": 323339
+    },
+    {
+      "name": "Forestry Technician",
+      "employees": 3040,
+      "avgSalary": 69127
+    },
+    {
+      "name": "Contact Representative",
+      "employees": 3037,
+      "avgSalary": 67777
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 3006,
+      "avgSalary": 113356
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 2759,
+      "avgSalary": 63078
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 2735,
+      "avgSalary": 117054
+    },
+    {
+      "name": "Social Work",
+      "employees": 1965,
+      "avgSalary": 127633
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 1901,
+      "avgSalary": 169652
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 1886,
+      "avgSalary": 60044
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 1696,
+      "avgSalary": 129065
+    },
+    {
+      "name": "Practical Nurse",
+      "employees": 1585,
+      "avgSalary": 87801
+    },
+    {
+      "name": "General Attorney",
+      "employees": 1376,
+      "avgSalary": 180258
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 1312,
+      "avgSalary": 140268
+    },
+    {
+      "name": "Veterans Claims Examining",
+      "employees": 1270,
+      "avgSalary": 100887
+    }
+  ],
+  "separations2025": 76046,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": 6.2,
+  "dogeNarrative": "Home to major military bases, VA hospitals, and federal research labs like NASA JPL, California has one of the largest federal footprints outside the Beltway."
+}

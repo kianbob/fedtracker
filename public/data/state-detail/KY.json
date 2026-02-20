@@ -1,1 +1,164 @@
-{"code": "KY", "name": "Kentucky", "employees": 12437, "avgSalary": 97336, "topAgencies": [{"name": "Department of Veterans Affairs", "code": "VA", "employees": 5909}, {"name": "Department of Treasury", "code": "TR", "employees": 2405}, {"name": "Department of Agriculture", "code": "AG", "employees": 983}, {"name": "Department of Justice", "code": "DJ", "employees": 922}, {"name": "Social Security Administration", "code": "SZ", "employees": 637}, {"name": "Department of Transportation", "code": "TD", "employees": 353}, {"name": "Department of Interior", "code": "IN", "employees": 300}, {"name": "Department of Labor", "code": "DL", "employees": 221}, {"name": "Department of Commerce", "code": "CM", "employees": 197}, {"name": "Department of Homeland Security", "code": "HS", "employees": 152}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 96}, {"name": "Federal Deposit Insurance Corporation", "code": "FD", "employees": 65}, {"name": "Department of Energy", "code": "DN", "employees": 53}, {"name": "Department of Housing and Urban Developm", "code": "HU", "employees": 33}, {"name": "General Services Administration", "code": "GS", "employees": 25}], "topOccupations": [{"name": "Nurse", "employees": 1447, "avgSalary": 115154}, {"name": "Contact Representative", "employees": 961, "avgSalary": 61168}, {"name": "Tax Examining", "employees": 525, "avgSalary": 59397}, {"name": "Medical Support Assistance", "employees": 436, "avgSalary": 54523}, {"name": "Social Insurance Administration", "employees": 395, "avgSalary": 94529}, {"name": "Veterans Claims Examining", "employees": 382, "avgSalary": 83136}, {"name": "Medical Officer", "employees": 380, "avgSalary": 315916}, {"name": "Miscellaneous Clerk and Assistant", "employees": 343, "avgSalary": 50168}, {"name": "Social Work", "employees": 329, "avgSalary": 108157}, {"name": "Miscellaneous Administration and Program", "employees": 292, "avgSalary": 96546}, {"name": "Management and Program Analysis", "employees": 279, "avgSalary": 112653}, {"name": "Information Technology Management", "employees": 245, "avgSalary": 122060}, {"name": "Human Resources Management", "employees": 228, "avgSalary": 106056}, {"name": "Practical Nurse", "employees": 201, "avgSalary": 73737}, {"name": "Financial Administration and Program", "employees": 185, "avgSalary": 100979}]}
+{
+  "code": "KY",
+  "name": "Kentucky",
+  "employees": 12437,
+  "avgSalary": 97336,
+  "topAgencies": [
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 5909
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 2405
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 983
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 922
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 637
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 353
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 300
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 221
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 197
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 152
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 96
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 65
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 53
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 33
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 25
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Nurse",
+      "employees": 1447,
+      "avgSalary": 115154
+    },
+    {
+      "name": "Contact Representative",
+      "employees": 961,
+      "avgSalary": 61168
+    },
+    {
+      "name": "Tax Examining",
+      "employees": 525,
+      "avgSalary": 59397
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 436,
+      "avgSalary": 54523
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 395,
+      "avgSalary": 94529
+    },
+    {
+      "name": "Veterans Claims Examining",
+      "employees": 382,
+      "avgSalary": 83136
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 380,
+      "avgSalary": 315916
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 343,
+      "avgSalary": 50168
+    },
+    {
+      "name": "Social Work",
+      "employees": 329,
+      "avgSalary": 108157
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 292,
+      "avgSalary": 96546
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 279,
+      "avgSalary": 112653
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 245,
+      "avgSalary": 122060
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 228,
+      "avgSalary": 106056
+    },
+    {
+      "name": "Practical Nurse",
+      "employees": 201,
+      "avgSalary": 73737
+    },
+    {
+      "name": "Financial Administration and Program",
+      "employees": 185,
+      "avgSalary": 100979
+    }
+  ],
+  "separations2025": 9292,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": -16.9,
+  "dogeNarrative": "Kentucky employs 12,437 federal workers with an average salary of $97,336, 16.9% below the national average. DOGE workforce reductions in 2025 resulted in 9,292 separations statewide."
+}

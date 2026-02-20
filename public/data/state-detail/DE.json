@@ -1,1 +1,164 @@
-{"code": "DE", "name": "Delaware", "employees": 2251, "avgSalary": 115454, "topAgencies": [{"name": "Department of Veterans Affairs", "code": "VA", "employees": 1446}, {"name": "Department of Agriculture", "code": "AG", "employees": 194}, {"name": "Social Security Administration", "code": "SZ", "employees": 100}, {"name": "Department of Commerce", "code": "CM", "employees": 87}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 69}, {"name": "Department of Transportation", "code": "TD", "employees": 61}, {"name": "Department of Treasury", "code": "TR", "employees": 50}, {"name": "Department of Homeland Security", "code": "HS", "employees": 47}, {"name": "Department of Interior", "code": "IN", "employees": 44}, {"name": "Department of Justice", "code": "DJ", "employees": 32}, {"name": "Federal Deposit Insurance Corporation", "code": "FD", "employees": 22}, {"name": "Department of Labor", "code": "DL", "employees": 20}, {"name": "General Services Administration", "code": "GS", "employees": 19}, {"name": "Small Business Administration", "code": "SB", "employees": 13}, {"name": "Environmental Protection Agency", "code": "EP", "employees": 6}], "topOccupations": [{"name": "Nurse", "employees": 300, "avgSalary": 133247}, {"name": "Medical Support Assistance", "employees": 142, "avgSalary": 57809}, {"name": "Medical Officer", "employees": 105, "avgSalary": 295819}, {"name": "Miscellaneous Administration and Program", "employees": 83, "avgSalary": 110943}, {"name": "Social Work", "employees": 80, "avgSalary": 109487}, {"name": "Management and Program Analysis", "employees": 76, "avgSalary": 138326}, {"name": "Consumer Safety Inspection", "employees": 74, "avgSalary": 78730}, {"name": "Miscellaneous Clerk and Assistant", "employees": 72, "avgSalary": 50743}, {"name": "Information Technology Management", "employees": 58, "avgSalary": 139703}, {"name": "Practical Nurse", "employees": 55, "avgSalary": 79245}, {"name": "Social Insurance Administration", "employees": 54, "avgSalary": 110815}, {"name": "Human Resources Management", "employees": 44, "avgSalary": 128758}, {"name": "Veterans Claims Examining", "employees": 40, "avgSalary": 92709}, {"name": "Nursing Assistant", "employees": 39, "avgSalary": 57231}, {"name": "Pharmacist", "employees": 37, "avgSalary": 166864}]}
+{
+  "code": "DE",
+  "name": "Delaware",
+  "employees": 2251,
+  "avgSalary": 115454,
+  "topAgencies": [
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 1446
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 194
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 100
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 87
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 69
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 61
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 50
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 47
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 44
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 32
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 22
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 20
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 19
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 13
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 6
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Nurse",
+      "employees": 300,
+      "avgSalary": 133247
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 142,
+      "avgSalary": 57809
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 105,
+      "avgSalary": 295819
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 83,
+      "avgSalary": 110943
+    },
+    {
+      "name": "Social Work",
+      "employees": 80,
+      "avgSalary": 109487
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 76,
+      "avgSalary": 138326
+    },
+    {
+      "name": "Consumer Safety Inspection",
+      "employees": 74,
+      "avgSalary": 78730
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 72,
+      "avgSalary": 50743
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 58,
+      "avgSalary": 139703
+    },
+    {
+      "name": "Practical Nurse",
+      "employees": 55,
+      "avgSalary": 79245
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 54,
+      "avgSalary": 110815
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 44,
+      "avgSalary": 128758
+    },
+    {
+      "name": "Veterans Claims Examining",
+      "employees": 40,
+      "avgSalary": 92709
+    },
+    {
+      "name": "Nursing Assistant",
+      "employees": 39,
+      "avgSalary": 57231
+    },
+    {
+      "name": "Pharmacist",
+      "employees": 37,
+      "avgSalary": 166864
+    }
+  ],
+  "separations2025": 1658,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": -1.4,
+  "dogeNarrative": "Delaware employs 2,251 federal workers with an average salary of $115,454, 1.4% below the national average. DOGE workforce reductions in 2025 resulted in 1,658 separations statewide."
+}

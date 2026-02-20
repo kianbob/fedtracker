@@ -1,1 +1,164 @@
-{"code": "NH", "name": "New Hampshire", "employees": 3721, "avgSalary": 120742, "topAgencies": [{"name": "Department of Veterans Affairs", "code": "VA", "employees": 1425}, {"name": "Department of Transportation", "code": "TD", "employees": 660}, {"name": "Department of State", "code": "ST", "employees": 449}, {"name": "Department of Agriculture", "code": "AG", "employees": 295}, {"name": "Department of Justice", "code": "DJ", "employees": 147}, {"name": "Social Security Administration", "code": "SZ", "employees": 129}, {"name": "Department of Commerce", "code": "CM", "employees": 108}, {"name": "Department of Interior", "code": "IN", "employees": 88}, {"name": "Department of Treasury", "code": "TR", "employees": 83}, {"name": "Department of Homeland Security", "code": "HS", "employees": 80}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 69}, {"name": "Department of Labor", "code": "DL", "employees": 44}, {"name": "General Services Administration", "code": "GS", "employees": 37}, {"name": "Federal Deposit Insurance Corporation", "code": "FD", "employees": 32}, {"name": "Corp for National and Community Service", "code": "KS", "employees": 12}], "topOccupations": [{"name": "Air Traffic Control", "employees": 416, "avgSalary": 175506}, {"name": "Passport and Visa Examining", "employees": 397, "avgSalary": 96598}, {"name": "Nurse", "employees": 288, "avgSalary": 119180}, {"name": "Medical Support Assistance", "employees": 162, "avgSalary": 58530}, {"name": "Miscellaneous Administration and Program", "employees": 122, "avgSalary": 119692}, {"name": "Management and Program Analysis", "employees": 111, "avgSalary": 133304}, {"name": "Medical Officer", "employees": 91, "avgSalary": 294557}, {"name": "Social Work", "employees": 86, "avgSalary": 110372}, {"name": "Transportation Specialist", "employees": 84, "avgSalary": 129293}, {"name": "Information Technology Management", "employees": 78, "avgSalary": 151489}, {"name": "Veterans Claims Examining", "employees": 66, "avgSalary": 95708}, {"name": "Human Resources Management", "employees": 66, "avgSalary": 129748}, {"name": "Social Insurance Administration", "employees": 64, "avgSalary": 115443}, {"name": "General Natural Resources Management and Biological Sciences", "employees": 64, "avgSalary": 110559}, {"name": "Miscellaneous Clerk and Assistant", "employees": 59, "avgSalary": 54253}]}
+{
+  "code": "NH",
+  "name": "New Hampshire",
+  "employees": 3721,
+  "avgSalary": 120742,
+  "topAgencies": [
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 1425
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 660
+    },
+    {
+      "name": "Department of State",
+      "code": "ST",
+      "employees": 449
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 295
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 147
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 129
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 108
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 88
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 83
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 80
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 69
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 44
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 37
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 32
+    },
+    {
+      "name": "Corp for National and Community Service",
+      "code": "KS",
+      "employees": 12
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Air Traffic Control",
+      "employees": 416,
+      "avgSalary": 175506
+    },
+    {
+      "name": "Passport and Visa Examining",
+      "employees": 397,
+      "avgSalary": 96598
+    },
+    {
+      "name": "Nurse",
+      "employees": 288,
+      "avgSalary": 119180
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 162,
+      "avgSalary": 58530
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 122,
+      "avgSalary": 119692
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 111,
+      "avgSalary": 133304
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 91,
+      "avgSalary": 294557
+    },
+    {
+      "name": "Social Work",
+      "employees": 86,
+      "avgSalary": 110372
+    },
+    {
+      "name": "Transportation Specialist",
+      "employees": 84,
+      "avgSalary": 129293
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 78,
+      "avgSalary": 151489
+    },
+    {
+      "name": "Veterans Claims Examining",
+      "employees": 66,
+      "avgSalary": 95708
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 66,
+      "avgSalary": 129748
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 64,
+      "avgSalary": 115443
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 64,
+      "avgSalary": 110559
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 59,
+      "avgSalary": 54253
+    }
+  ],
+  "separations2025": 2250,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": 3.1,
+  "dogeNarrative": "New Hampshire employs 3,721 federal workers with an average salary of $120,742, 3.1% above the national average. DOGE workforce reductions in 2025 resulted in 2,250 separations statewide."
+}

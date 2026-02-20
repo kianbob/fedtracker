@@ -1,1 +1,164 @@
-{"code": "GA", "name": "Georgia", "employees": 41199, "avgSalary": 111892, "topAgencies": [{"name": "Department of Veterans Affairs", "code": "VA", "employees": 13943}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 8140}, {"name": "Department of Treasury", "code": "TR", "employees": 4796}, {"name": "Department of Transportation", "code": "TD", "employees": 2535}, {"name": "Department of Agriculture", "code": "AG", "employees": 2340}, {"name": "Department of Homeland Security", "code": "HS", "employees": 2284}, {"name": "Social Security Administration", "code": "SZ", "employees": 1425}, {"name": "Environmental Protection Agency", "code": "EP", "employees": 883}, {"name": "Department of Interior", "code": "IN", "employees": 774}, {"name": "Department of Justice", "code": "DJ", "employees": 648}, {"name": "General Services Administration", "code": "GS", "employees": 607}, {"name": "Department of Commerce", "code": "CM", "employees": 564}, {"name": "Department of Labor", "code": "DL", "employees": 433}, {"name": "Small Business Administration", "code": "SB", "employees": 395}, {"name": "Department of Housing and Urban Developm", "code": "HU", "employees": 344}], "topOccupations": [{"name": "Contact Representative", "employees": 2680, "avgSalary": 58473}, {"name": "Nurse", "employees": 2506, "avgSalary": 133650}, {"name": "General Health Science", "employees": 2124, "avgSalary": 136234}, {"name": "Management and Program Analysis", "employees": 1696, "avgSalary": 120455}, {"name": "Miscellaneous Administration and Program", "employees": 1614, "avgSalary": 115671}, {"name": "Information Technology Management", "employees": 1415, "avgSalary": 130961}, {"name": "Public Health Program Specialist", "employees": 1310, "avgSalary": 137563}, {"name": "Medical Support Assistance", "employees": 1297, "avgSalary": 57999}, {"name": "Human Resources Management", "employees": 957, "avgSalary": 114793}, {"name": "Medical Officer", "employees": 951, "avgSalary": 291835}, {"name": "General Natural Resources Management and Biological Sciences", "employees": 879, "avgSalary": 115187}, {"name": "Air Traffic Control", "employees": 878, "avgSalary": 170486}, {"name": "Social Insurance Administration", "employees": 870, "avgSalary": 101456}, {"name": "Emergency Management Specialist", "employees": 821, "avgSalary": 93883}, {"name": "Social Science", "employees": 800, "avgSalary": 99215}]}
+{
+  "code": "GA",
+  "name": "Georgia",
+  "employees": 41199,
+  "avgSalary": 111892,
+  "topAgencies": [
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 13943
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 8140
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 4796
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 2535
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 2340
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 2284
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 1425
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 883
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 774
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 648
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 607
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 564
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 433
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 395
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 344
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Contact Representative",
+      "employees": 2680,
+      "avgSalary": 58473
+    },
+    {
+      "name": "Nurse",
+      "employees": 2506,
+      "avgSalary": 133650
+    },
+    {
+      "name": "General Health Science",
+      "employees": 2124,
+      "avgSalary": 136234
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 1696,
+      "avgSalary": 120455
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 1614,
+      "avgSalary": 115671
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 1415,
+      "avgSalary": 130961
+    },
+    {
+      "name": "Public Health Program Specialist",
+      "employees": 1310,
+      "avgSalary": 137563
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 1297,
+      "avgSalary": 57999
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 957,
+      "avgSalary": 114793
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 951,
+      "avgSalary": 291835
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 879,
+      "avgSalary": 115187
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 878,
+      "avgSalary": 170486
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 870,
+      "avgSalary": 101456
+    },
+    {
+      "name": "Emergency Management Specialist",
+      "employees": 821,
+      "avgSalary": 93883
+    },
+    {
+      "name": "Social Science",
+      "employees": 800,
+      "avgSalary": 99215
+    }
+  ],
+  "separations2025": 29845,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": -4.5,
+  "dogeNarrative": "CDC headquarters in Atlanta and major military installations like Fort Liberty make Georgia a key state for federal employment in healthcare and defense."
+}

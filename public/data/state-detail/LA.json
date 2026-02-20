@@ -1,1 +1,164 @@
-{"code": "LA", "name": "Louisiana", "employees": 12214, "avgSalary": 101900, "topAgencies": [{"name": "Department of Veterans Affairs", "code": "VA", "employees": 6255}, {"name": "Department of Agriculture", "code": "AG", "employees": 1745}, {"name": "Department of Homeland Security", "code": "HS", "employees": 809}, {"name": "Department of Interior", "code": "IN", "employees": 756}, {"name": "Department of Justice", "code": "DJ", "employees": 551}, {"name": "Social Security Administration", "code": "SZ", "employees": 540}, {"name": "Department of Transportation", "code": "TD", "employees": 363}, {"name": "Department of Commerce", "code": "CM", "employees": 242}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 176}, {"name": "Department of State", "code": "ST", "employees": 144}, {"name": "Department of Treasury", "code": "TR", "employees": 131}, {"name": "Small Business Administration", "code": "SB", "employees": 91}, {"name": "Department of Energy", "code": "DN", "employees": 86}, {"name": "Department of Labor", "code": "DL", "employees": 83}, {"name": "Federal Deposit Insurance Corporation", "code": "FD", "employees": 47}], "topOccupations": [{"name": "Nurse", "employees": 1310, "avgSalary": 114512}, {"name": "Medical Support Assistance", "employees": 605, "avgSalary": 50821}, {"name": "Medical Officer", "employees": 455, "avgSalary": 321752}, {"name": "Information Technology Management", "employees": 398, "avgSalary": 119164}, {"name": "Management and Program Analysis", "employees": 389, "avgSalary": 105336}, {"name": "Social Insurance Administration", "employees": 335, "avgSalary": 94641}, {"name": "Miscellaneous Clerk and Assistant", "employees": 323, "avgSalary": 50626}, {"name": "Miscellaneous Administration and Program", "employees": 321, "avgSalary": 95311}, {"name": "Emergency Management Specialist", "employees": 308, "avgSalary": 79118}, {"name": "Social Work", "employees": 292, "avgSalary": 107976}, {"name": "Practical Nurse", "employees": 248, "avgSalary": 68657}, {"name": "Human Resources Management", "employees": 213, "avgSalary": 106117}, {"name": "Nursing Assistant", "employees": 211, "avgSalary": 53600}, {"name": "Veterans Claims Examining", "employees": 187, "avgSalary": 88445}, {"name": "Air Traffic Control", "employees": 176, "avgSalary": 104828}]}
+{
+  "code": "LA",
+  "name": "Louisiana",
+  "employees": 12214,
+  "avgSalary": 101900,
+  "topAgencies": [
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 6255
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 1745
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 809
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 756
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 551
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 540
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 363
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 242
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 176
+    },
+    {
+      "name": "Department of State",
+      "code": "ST",
+      "employees": 144
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 131
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 91
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 86
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 83
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 47
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Nurse",
+      "employees": 1310,
+      "avgSalary": 114512
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 605,
+      "avgSalary": 50821
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 455,
+      "avgSalary": 321752
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 398,
+      "avgSalary": 119164
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 389,
+      "avgSalary": 105336
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 335,
+      "avgSalary": 94641
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 323,
+      "avgSalary": 50626
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 321,
+      "avgSalary": 95311
+    },
+    {
+      "name": "Emergency Management Specialist",
+      "employees": 308,
+      "avgSalary": 79118
+    },
+    {
+      "name": "Social Work",
+      "employees": 292,
+      "avgSalary": 107976
+    },
+    {
+      "name": "Practical Nurse",
+      "employees": 248,
+      "avgSalary": 68657
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 213,
+      "avgSalary": 106117
+    },
+    {
+      "name": "Nursing Assistant",
+      "employees": 211,
+      "avgSalary": 53600
+    },
+    {
+      "name": "Veterans Claims Examining",
+      "employees": 187,
+      "avgSalary": 88445
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 176,
+      "avgSalary": 104828
+    }
+  ],
+  "separations2025": 7848,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": -13,
+  "dogeNarrative": "Louisiana employs 12,214 federal workers with an average salary of $101,900, 13% below the national average. DOGE workforce reductions in 2025 resulted in 7,848 separations statewide."
+}

@@ -1,1 +1,164 @@
-{"code": "AZ", "name": "Arizona", "employees": 23550, "avgSalary": 104250, "topAgencies": [{"name": "Department of Veterans Affairs", "code": "VA", "employees": 10637}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 4268}, {"name": "Department of Interior", "code": "IN", "employees": 3375}, {"name": "Department of Agriculture", "code": "AG", "employees": 1738}, {"name": "Department of Transportation", "code": "TD", "employees": 630}, {"name": "Department of Justice", "code": "DJ", "employees": 590}, {"name": "Social Security Administration", "code": "SZ", "employees": 568}, {"name": "Department of Commerce", "code": "CM", "employees": 409}, {"name": "Department of Homeland Security", "code": "HS", "employees": 264}, {"name": "Department of Energy", "code": "DN", "employees": 264}, {"name": "Department of Treasury", "code": "TR", "employees": 185}, {"name": "Department of State", "code": "ST", "employees": 163}, {"name": "General Services Administration", "code": "GS", "employees": 89}, {"name": "Department of Labor", "code": "DL", "employees": 69}, {"name": "Department of Housing and Urban Developm", "code": "HU", "employees": 49}], "topOccupations": [{"name": "Nurse", "employees": 3071, "avgSalary": 138495}, {"name": "Medical Support Assistance", "employees": 1431, "avgSalary": 54499}, {"name": "Medical Officer", "employees": 889, "avgSalary": 313276}, {"name": "Miscellaneous Clerk and Assistant", "employees": 696, "avgSalary": 57210}, {"name": "Miscellaneous Administration and Program", "employees": 664, "avgSalary": 99804}, {"name": "Forestry Technician", "employees": 659, "avgSalary": 65701}, {"name": "Social Work", "employees": 594, "avgSalary": 106928}, {"name": "Health Aid and Technician", "employees": 466, "avgSalary": 58844}, {"name": "Information Technology Management", "employees": 425, "avgSalary": 116753}, {"name": "Pharmacist", "employees": 422, "avgSalary": 167328}, {"name": "Maintenance Mechanic", "employees": 421, "avgSalary": 69657}, {"name": "Custodial Working", "employees": 417, "avgSalary": 46746}, {"name": "Nursing Assistant", "employees": 393, "avgSalary": 55904}, {"name": "Management and Program Analysis", "employees": 388, "avgSalary": 112112}, {"name": "Veterans Claims Examining", "employees": 387, "avgSalary": 90439}]}
+{
+  "code": "AZ",
+  "name": "Arizona",
+  "employees": 23550,
+  "avgSalary": 104250,
+  "topAgencies": [
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 10637
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 4268
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 3375
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 1738
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 630
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 590
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 568
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 409
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 264
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 264
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 185
+    },
+    {
+      "name": "Department of State",
+      "code": "ST",
+      "employees": 163
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 89
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 69
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 49
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Nurse",
+      "employees": 3071,
+      "avgSalary": 138495
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 1431,
+      "avgSalary": 54499
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 889,
+      "avgSalary": 313276
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 696,
+      "avgSalary": 57210
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 664,
+      "avgSalary": 99804
+    },
+    {
+      "name": "Forestry Technician",
+      "employees": 659,
+      "avgSalary": 65701
+    },
+    {
+      "name": "Social Work",
+      "employees": 594,
+      "avgSalary": 106928
+    },
+    {
+      "name": "Health Aid and Technician",
+      "employees": 466,
+      "avgSalary": 58844
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 425,
+      "avgSalary": 116753
+    },
+    {
+      "name": "Pharmacist",
+      "employees": 422,
+      "avgSalary": 167328
+    },
+    {
+      "name": "Maintenance Mechanic",
+      "employees": 421,
+      "avgSalary": 69657
+    },
+    {
+      "name": "Custodial Working",
+      "employees": 417,
+      "avgSalary": 46746
+    },
+    {
+      "name": "Nursing Assistant",
+      "employees": 393,
+      "avgSalary": 55904
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 388,
+      "avgSalary": 112112
+    },
+    {
+      "name": "Veterans Claims Examining",
+      "employees": 387,
+      "avgSalary": 90439
+    }
+  ],
+  "separations2025": 19124,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": -11,
+  "dogeNarrative": "Arizona employs 23,550 federal workers with an average salary of $104,250, 11% below the national average. DOGE workforce reductions in 2025 resulted in 19,124 separations statewide."
+}

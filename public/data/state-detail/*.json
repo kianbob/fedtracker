@@ -1,1 +1,164 @@
-{"code": "*", "name": "Invalid", "employees": 1226, "avgSalary": 121960, "topAgencies": [{"name": "Department of Homeland Security", "code": "HS", "employees": 478}, {"name": "Department of Transportation", "code": "TD", "employees": 207}, {"name": "Department of Veterans Affairs", "code": "VA", "employees": 173}, {"name": "Department of Commerce", "code": "CM", "employees": 117}, {"name": "Social Security Administration", "code": "SZ", "employees": 64}, {"name": "Department of Agriculture", "code": "AG", "employees": 44}, {"name": "Department of Interior", "code": "IN", "employees": 41}, {"name": "Department of Justice", "code": "DJ", "employees": 22}, {"name": "Department of Treasury", "code": "TR", "employees": 20}, {"name": "Environmental Protection Agency", "code": "EP", "employees": 11}, {"name": "Small Business Administration", "code": "SB", "employees": 10}, {"name": "Department of Housing and Urban Developm", "code": "HU", "employees": 7}, {"name": "Nat Aeronautics and Space Administration", "code": "NN", "employees": 5}, {"name": "Department of Labor", "code": "DL", "employees": 5}, {"name": "Department of Education", "code": "ED", "employees": 4}], "topOccupations": [{"name": "Education and Vocational Training", "employees": 92, "avgSalary": 167078}, {"name": "Aerospace Engineering", "employees": 86, "avgSalary": 162573}, {"name": "Miscellaneous Clerk and Assistant", "employees": 84, "avgSalary": 53261}, {"name": "Management and Program Analysis", "employees": 56, "avgSalary": 133100}, {"name": "Information Technology Management", "employees": 50, "avgSalary": 148916}, {"name": "Miscellaneous Administration and Program", "employees": 50, "avgSalary": 121997}, {"name": "Emergency Management Specialist", "employees": 47, "avgSalary": 100035}, {"name": "Aviation Safety", "employees": 41, "avgSalary": 142316}, {"name": "Social Insurance Administration", "employees": 39, "avgSalary": 114714}, {"name": "Patent Examining", "employees": 38, "avgSalary": 166765}, {"name": "General Attorney", "employees": 36, "avgSalary": 150498}, {"name": "Veterans Claims Examining", "employees": 35, "avgSalary": 101303}, {"name": "Air Traffic Control", "employees": 34, "avgSalary": 105382}, {"name": "Financial Administration and Program", "employees": 24, "avgSalary": 106441}, {"name": "Human Resources Management", "employees": 24, "avgSalary": 120286}]}
+{
+  "code": "*",
+  "name": "Invalid",
+  "employees": 1226,
+  "avgSalary": 121960,
+  "topAgencies": [
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 478
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 207
+    },
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 173
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 117
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 64
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 44
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 41
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 22
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 20
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 11
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 10
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 7
+    },
+    {
+      "name": "Nat Aeronautics and Space Administration",
+      "code": "NN",
+      "employees": 5
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 5
+    },
+    {
+      "name": "Department of Education",
+      "code": "ED",
+      "employees": 4
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Education and Vocational Training",
+      "employees": 92,
+      "avgSalary": 167078
+    },
+    {
+      "name": "Aerospace Engineering",
+      "employees": 86,
+      "avgSalary": 162573
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 84,
+      "avgSalary": 53261
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 56,
+      "avgSalary": 133100
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 50,
+      "avgSalary": 148916
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 50,
+      "avgSalary": 121997
+    },
+    {
+      "name": "Emergency Management Specialist",
+      "employees": 47,
+      "avgSalary": 100035
+    },
+    {
+      "name": "Aviation Safety",
+      "employees": 41,
+      "avgSalary": 142316
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 39,
+      "avgSalary": 114714
+    },
+    {
+      "name": "Patent Examining",
+      "employees": 38,
+      "avgSalary": 166765
+    },
+    {
+      "name": "General Attorney",
+      "employees": 36,
+      "avgSalary": 150498
+    },
+    {
+      "name": "Veterans Claims Examining",
+      "employees": 35,
+      "avgSalary": 101303
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 34,
+      "avgSalary": 105382
+    },
+    {
+      "name": "Financial Administration and Program",
+      "employees": 24,
+      "avgSalary": 106441
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 24,
+      "avgSalary": 120286
+    }
+  ],
+  "separations2025": 0,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": 4.1,
+  "dogeNarrative": "Invalid employs 1,226 federal workers with an average salary of $121,960, 4.1% above the national average. DOGE workforce reductions in 2025 resulted in 0 separations statewide."
+}

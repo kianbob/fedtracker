@@ -1,1 +1,164 @@
-{"code": "TX", "name": "Texas", "employees": 74631, "avgSalary": 110035, "topAgencies": [{"name": "Department of Veterans Affairs", "code": "VA", "employees": 35346}, {"name": "Department of Treasury", "code": "TR", "employees": 8286}, {"name": "Department of Transportation", "code": "TD", "employees": 4506}, {"name": "Department of Homeland Security", "code": "HS", "employees": 4273}, {"name": "Department of Agriculture", "code": "AG", "employees": 3560}, {"name": "Nat Aeronautics and Space Administration", "code": "NN", "employees": 3077}, {"name": "Social Security Administration", "code": "SZ", "employees": 2875}, {"name": "Department of Justice", "code": "DJ", "employees": 2835}, {"name": "Department of Commerce", "code": "CM", "employees": 1429}, {"name": "Small Business Administration", "code": "SB", "employees": 1340}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 1299}, {"name": "Department of Interior", "code": "IN", "employees": 1140}, {"name": "General Services Administration", "code": "GS", "employees": 947}, {"name": "Environmental Protection Agency", "code": "EP", "employees": 748}, {"name": "Department of Labor", "code": "DL", "employees": 721}], "topOccupations": [{"name": "Nurse", "employees": 7275, "avgSalary": 135084}, {"name": "Medical Support Assistance", "employees": 3057, "avgSalary": 57495}, {"name": "Miscellaneous Clerk and Assistant", "employees": 2647, "avgSalary": 50198}, {"name": "Information Technology Management", "employees": 2487, "avgSalary": 137375}, {"name": "Management and Program Analysis", "employees": 2444, "avgSalary": 122927}, {"name": "Contact Representative", "employees": 2437, "avgSalary": 62842}, {"name": "Miscellaneous Administration and Program", "employees": 2152, "avgSalary": 112399}, {"name": "Medical Officer", "employees": 2043, "avgSalary": 302567}, {"name": "Air Traffic Control", "employees": 1811, "avgSalary": 163283}, {"name": "Tax Examining", "employees": 1776, "avgSalary": 54076}, {"name": "Emergency Management Specialist", "employees": 1767, "avgSalary": 89523}, {"name": "Human Resources Management", "employees": 1735, "avgSalary": 117135}, {"name": "Social Insurance Administration", "employees": 1721, "avgSalary": 103391}, {"name": "Veterans Claims Examining", "employees": 1541, "avgSalary": 90499}, {"name": "Social Work", "employees": 1487, "avgSalary": 119781}]}
+{
+  "code": "TX",
+  "name": "Texas",
+  "employees": 74631,
+  "avgSalary": 110035,
+  "topAgencies": [
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 35346
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 8286
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 4506
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 4273
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 3560
+    },
+    {
+      "name": "Nat Aeronautics and Space Administration",
+      "code": "NN",
+      "employees": 3077
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 2875
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 2835
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 1429
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 1340
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 1299
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 1140
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 947
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 748
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 721
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Nurse",
+      "employees": 7275,
+      "avgSalary": 135084
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 3057,
+      "avgSalary": 57495
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 2647,
+      "avgSalary": 50198
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 2487,
+      "avgSalary": 137375
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 2444,
+      "avgSalary": 122927
+    },
+    {
+      "name": "Contact Representative",
+      "employees": 2437,
+      "avgSalary": 62842
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 2152,
+      "avgSalary": 112399
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 2043,
+      "avgSalary": 302567
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 1811,
+      "avgSalary": 163283
+    },
+    {
+      "name": "Tax Examining",
+      "employees": 1776,
+      "avgSalary": 54076
+    },
+    {
+      "name": "Emergency Management Specialist",
+      "employees": 1767,
+      "avgSalary": 89523
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 1735,
+      "avgSalary": 117135
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 1721,
+      "avgSalary": 103391
+    },
+    {
+      "name": "Veterans Claims Examining",
+      "employees": 1541,
+      "avgSalary": 90499
+    },
+    {
+      "name": "Social Work",
+      "employees": 1487,
+      "avgSalary": 119781
+    }
+  ],
+  "separations2025": 53081,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": -6,
+  "dogeNarrative": "Military installations, NASA Johnson Space Center, and border security operations make Texas a critical federal employment hub. DOGE cuts here affect national defense and immigration enforcement."
+}

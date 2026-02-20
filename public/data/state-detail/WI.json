@@ -1,1 +1,164 @@
-{"code": "WI", "name": "Wisconsin", "employees": 13629, "avgSalary": 105181, "topAgencies": [{"name": "Department of Veterans Affairs", "code": "VA", "employees": 9722}, {"name": "Department of Agriculture", "code": "AG", "employees": 1371}, {"name": "Department of Interior", "code": "IN", "employees": 675}, {"name": "Social Security Administration", "code": "SZ", "employees": 456}, {"name": "Department of Commerce", "code": "CM", "employees": 266}, {"name": "Department of Transportation", "code": "TD", "employees": 242}, {"name": "Department of Justice", "code": "DJ", "employees": 156}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 154}, {"name": "Department of Treasury", "code": "TR", "employees": 132}, {"name": "Department of Homeland Security", "code": "HS", "employees": 106}, {"name": "Department of Labor", "code": "DL", "employees": 82}, {"name": "Federal Deposit Insurance Corporation", "code": "FD", "employees": 77}, {"name": "General Services Administration", "code": "GS", "employees": 38}, {"name": "Department of Housing and Urban Developm", "code": "HU", "employees": 28}, {"name": "National Labor Relations Board", "code": "NL", "employees": 19}], "topOccupations": [{"name": "Nurse", "employees": 2289, "avgSalary": 118188}, {"name": "Medical Officer", "employees": 706, "avgSalary": 304003}, {"name": "Medical Support Assistance", "employees": 645, "avgSalary": 54276}, {"name": "Veterans Claims Examining", "employees": 610, "avgSalary": 87889}, {"name": "Social Work", "employees": 365, "avgSalary": 97762}, {"name": "Nursing Assistant", "employees": 353, "avgSalary": 53592}, {"name": "Miscellaneous Clerk and Assistant", "employees": 330, "avgSalary": 49650}, {"name": "Miscellaneous Administration and Program", "employees": 316, "avgSalary": 102076}, {"name": "Social Insurance Administration", "employees": 316, "avgSalary": 97667}, {"name": "Pharmacist", "employees": 297, "avgSalary": 163490}, {"name": "Management and Program Analysis", "employees": 213, "avgSalary": 102306}, {"name": "Practical Nurse", "employees": 208, "avgSalary": 71535}, {"name": "Health Aid and Technician", "employees": 200, "avgSalary": 58702}, {"name": "Custodial Working", "employees": 198, "avgSalary": 48618}, {"name": "General Natural Resources Management and Biological Sciences", "employees": 190, "avgSalary": 98634}]}
+{
+  "code": "WI",
+  "name": "Wisconsin",
+  "employees": 13629,
+  "avgSalary": 105181,
+  "topAgencies": [
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 9722
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 1371
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 675
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 456
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 266
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 242
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 156
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 154
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 132
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 106
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 82
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 77
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 38
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 28
+    },
+    {
+      "name": "National Labor Relations Board",
+      "code": "NL",
+      "employees": 19
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Nurse",
+      "employees": 2289,
+      "avgSalary": 118188
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 706,
+      "avgSalary": 304003
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 645,
+      "avgSalary": 54276
+    },
+    {
+      "name": "Veterans Claims Examining",
+      "employees": 610,
+      "avgSalary": 87889
+    },
+    {
+      "name": "Social Work",
+      "employees": 365,
+      "avgSalary": 97762
+    },
+    {
+      "name": "Nursing Assistant",
+      "employees": 353,
+      "avgSalary": 53592
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 330,
+      "avgSalary": 49650
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 316,
+      "avgSalary": 102076
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 316,
+      "avgSalary": 97667
+    },
+    {
+      "name": "Pharmacist",
+      "employees": 297,
+      "avgSalary": 163490
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 213,
+      "avgSalary": 102306
+    },
+    {
+      "name": "Practical Nurse",
+      "employees": 208,
+      "avgSalary": 71535
+    },
+    {
+      "name": "Health Aid and Technician",
+      "employees": 200,
+      "avgSalary": 58702
+    },
+    {
+      "name": "Custodial Working",
+      "employees": 198,
+      "avgSalary": 48618
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 190,
+      "avgSalary": 98634
+    }
+  ],
+  "separations2025": 7872,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": -10.2,
+  "dogeNarrative": "Wisconsin employs 13,629 federal workers with an average salary of $105,181, 10.2% below the national average. DOGE workforce reductions in 2025 resulted in 7,872 separations statewide."
+}

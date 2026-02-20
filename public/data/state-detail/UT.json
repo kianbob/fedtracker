@@ -1,1 +1,164 @@
-{"code": "UT", "name": "Utah", "employees": 14668, "avgSalary": 89597, "topAgencies": [{"name": "Department of Treasury", "code": "TR", "employees": 6447}, {"name": "Department of Veterans Affairs", "code": "VA", "employees": 3673}, {"name": "Department of Interior", "code": "IN", "employees": 1691}, {"name": "Department of Agriculture", "code": "AG", "employees": 1309}, {"name": "Department of Transportation", "code": "TD", "employees": 606}, {"name": "Department of Commerce", "code": "CM", "employees": 184}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 170}, {"name": "Social Security Administration", "code": "SZ", "employees": 154}, {"name": "Department of Labor", "code": "DL", "employees": 100}, {"name": "Department of Homeland Security", "code": "HS", "employees": 87}, {"name": "Federal Deposit Insurance Corporation", "code": "FD", "employees": 80}, {"name": "Department of Justice", "code": "DJ", "employees": 28}, {"name": "General Services Administration", "code": "GS", "employees": 28}, {"name": "Department of Energy", "code": "DN", "employees": 27}, {"name": "Small Business Administration", "code": "SB", "employees": 18}], "topOccupations": [{"name": "Tax Examining", "employees": 2357, "avgSalary": 52535}, {"name": "Miscellaneous Clerk and Assistant", "employees": 1620, "avgSalary": 44563}, {"name": "Contact Representative", "employees": 832, "avgSalary": 58825}, {"name": "Nurse", "employees": 714, "avgSalary": 120514}, {"name": "Miscellaneous Administration and Program", "employees": 504, "avgSalary": 100173}, {"name": "Management and Program Analysis", "employees": 495, "avgSalary": 116596}, {"name": "Information Technology Management", "employees": 466, "avgSalary": 122754}, {"name": "Veterans Claims Examining", "employees": 430, "avgSalary": 85702}, {"name": "Medical Officer", "employees": 380, "avgSalary": 318038}, {"name": "Human Resources Management", "employees": 354, "avgSalary": 99230}, {"name": "Air Traffic Control", "employees": 328, "avgSalary": 150648}, {"name": "Financial Administration and Program", "employees": 296, "avgSalary": 107409}, {"name": "Medical Support Assistance", "employees": 245, "avgSalary": 65114}, {"name": "Forestry Technician", "employees": 233, "avgSalary": 66607}, {"name": "General Natural Resources Management and Biological Sciences", "employees": 210, "avgSalary": 99163}]}
+{
+  "code": "UT",
+  "name": "Utah",
+  "employees": 14668,
+  "avgSalary": 89597,
+  "topAgencies": [
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 6447
+    },
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 3673
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 1691
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 1309
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 606
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 184
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 170
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 154
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 100
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 87
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 80
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 28
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 28
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 27
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 18
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Tax Examining",
+      "employees": 2357,
+      "avgSalary": 52535
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 1620,
+      "avgSalary": 44563
+    },
+    {
+      "name": "Contact Representative",
+      "employees": 832,
+      "avgSalary": 58825
+    },
+    {
+      "name": "Nurse",
+      "employees": 714,
+      "avgSalary": 120514
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 504,
+      "avgSalary": 100173
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 495,
+      "avgSalary": 116596
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 466,
+      "avgSalary": 122754
+    },
+    {
+      "name": "Veterans Claims Examining",
+      "employees": 430,
+      "avgSalary": 85702
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 380,
+      "avgSalary": 318038
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 354,
+      "avgSalary": 99230
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 328,
+      "avgSalary": 150648
+    },
+    {
+      "name": "Financial Administration and Program",
+      "employees": 296,
+      "avgSalary": 107409
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 245,
+      "avgSalary": 65114
+    },
+    {
+      "name": "Forestry Technician",
+      "employees": 233,
+      "avgSalary": 66607
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 210,
+      "avgSalary": 99163
+    }
+  ],
+  "separations2025": 16109,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": -23.5,
+  "dogeNarrative": "Utah employs 14,668 federal workers with an average salary of $89,597, 23.5% below the national average. DOGE workforce reductions in 2025 resulted in 16,109 separations statewide."
+}

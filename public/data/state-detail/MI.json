@@ -1,1 +1,164 @@
-{"code": "MI", "name": "Michigan", "employees": 18325, "avgSalary": 108775, "topAgencies": [{"name": "Department of Veterans Affairs", "code": "VA", "employees": 11753}, {"name": "Social Security Administration", "code": "SZ", "employees": 1098}, {"name": "Department of Agriculture", "code": "AG", "employees": 1073}, {"name": "Department of Treasury", "code": "TR", "employees": 754}, {"name": "Department of Transportation", "code": "TD", "employees": 734}, {"name": "Department of Commerce", "code": "CM", "employees": 638}, {"name": "Department of Interior", "code": "IN", "employees": 492}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 369}, {"name": "Department of Homeland Security", "code": "HS", "employees": 292}, {"name": "Environmental Protection Agency", "code": "EP", "employees": 285}, {"name": "Department of Justice", "code": "DJ", "employees": 241}, {"name": "Department of Labor", "code": "DL", "employees": 106}, {"name": "Department of Housing and Urban Developm", "code": "HU", "employees": 105}, {"name": "General Services Administration", "code": "GS", "employees": 100}, {"name": "Small Business Administration", "code": "SB", "employees": 41}], "topOccupations": [{"name": "Nurse", "employees": 2391, "avgSalary": 120541}, {"name": "Medical Support Assistance", "employees": 1011, "avgSalary": 58305}, {"name": "Medical Officer", "employees": 839, "avgSalary": 292221}, {"name": "Social Insurance Administration", "employees": 652, "avgSalary": 103486}, {"name": "Social Work", "employees": 643, "avgSalary": 104094}, {"name": "Information Technology Management", "employees": 501, "avgSalary": 133313}, {"name": "Miscellaneous Clerk and Assistant", "employees": 435, "avgSalary": 49891}, {"name": "Practical Nurse", "employees": 420, "avgSalary": 70125}, {"name": "Miscellaneous Administration and Program", "employees": 396, "avgSalary": 105183}, {"name": "Veterans Claims Examining", "employees": 394, "avgSalary": 91868}, {"name": "Management and Program Analysis", "employees": 380, "avgSalary": 115768}, {"name": "Custodial Working", "employees": 363, "avgSalary": 53126}, {"name": "Pharmacist", "employees": 362, "avgSalary": 167489}, {"name": "Nursing Assistant", "employees": 357, "avgSalary": 53555}, {"name": "Air Traffic Control", "employees": 342, "avgSalary": 135641}]}
+{
+  "code": "MI",
+  "name": "Michigan",
+  "employees": 18325,
+  "avgSalary": 108775,
+  "topAgencies": [
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 11753
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 1098
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 1073
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 754
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 734
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 638
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 492
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 369
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 292
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 285
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 241
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 106
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 105
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 100
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 41
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Nurse",
+      "employees": 2391,
+      "avgSalary": 120541
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 1011,
+      "avgSalary": 58305
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 839,
+      "avgSalary": 292221
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 652,
+      "avgSalary": 103486
+    },
+    {
+      "name": "Social Work",
+      "employees": 643,
+      "avgSalary": 104094
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 501,
+      "avgSalary": 133313
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 435,
+      "avgSalary": 49891
+    },
+    {
+      "name": "Practical Nurse",
+      "employees": 420,
+      "avgSalary": 70125
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 396,
+      "avgSalary": 105183
+    },
+    {
+      "name": "Veterans Claims Examining",
+      "employees": 394,
+      "avgSalary": 91868
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 380,
+      "avgSalary": 115768
+    },
+    {
+      "name": "Custodial Working",
+      "employees": 363,
+      "avgSalary": 53126
+    },
+    {
+      "name": "Pharmacist",
+      "employees": 362,
+      "avgSalary": 167489
+    },
+    {
+      "name": "Nursing Assistant",
+      "employees": 357,
+      "avgSalary": 53555
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 342,
+      "avgSalary": 135641
+    }
+  ],
+  "separations2025": 10425,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": -7.1,
+  "dogeNarrative": "Michigan employs 18,325 federal workers with an average salary of $108,775, 7.1% below the national average. DOGE workforce reductions in 2025 resulted in 10,425 separations statewide."
+}

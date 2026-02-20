@@ -1,1 +1,164 @@
-{"code": "NM", "name": "New Mexico", "employees": 13601, "avgSalary": 97389, "topAgencies": [{"name": "Department of Veterans Affairs", "code": "VA", "employees": 3457}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 3118}, {"name": "Department of Interior", "code": "IN", "employees": 3011}, {"name": "Department of Agriculture", "code": "AG", "employees": 1997}, {"name": "Department of Energy", "code": "DN", "employees": 838}, {"name": "Social Security Administration", "code": "SZ", "employees": 566}, {"name": "Department of Transportation", "code": "TD", "employees": 519}, {"name": "Department of Homeland Security", "code": "HS", "employees": 211}, {"name": "Department of Commerce", "code": "CM", "employees": 120}, {"name": "Nat Aeronautics and Space Administration", "code": "NN", "employees": 90}, {"name": "Department of Treasury", "code": "TR", "employees": 45}, {"name": "Department of Labor", "code": "DL", "employees": 33}, {"name": "General Services Administration", "code": "GS", "employees": 31}, {"name": "Department of Justice", "code": "DJ", "employees": 28}, {"name": "Department of Housing and Urban Developm", "code": "HU", "employees": 25}], "topOccupations": [{"name": "Nurse", "employees": 1312, "avgSalary": 116546}, {"name": "Medical Support Assistance", "employees": 534, "avgSalary": 51104}, {"name": "Miscellaneous Administration and Program", "employees": 463, "avgSalary": 102408}, {"name": "Medical Officer", "employees": 442, "avgSalary": 297209}, {"name": "Human Resources Management", "employees": 432, "avgSalary": 96153}, {"name": "Contact Representative", "employees": 385, "avgSalary": 63561}, {"name": "Miscellaneous Clerk and Assistant", "employees": 372, "avgSalary": 53190}, {"name": "Forestry Technician", "employees": 357, "avgSalary": 65300}, {"name": "Air Traffic Control", "employees": 327, "avgSalary": 139781}, {"name": "Nursing Assistant", "employees": 315, "avgSalary": 49903}, {"name": "Management and Program Analysis", "employees": 302, "avgSalary": 107411}, {"name": "Health Aid and Technician", "employees": 266, "avgSalary": 55704}, {"name": "Custodial Working", "employees": 258, "avgSalary": 45995}, {"name": "Information Technology Management", "employees": 255, "avgSalary": 112348}, {"name": "General Natural Resources Management and Biological Sciences", "employees": 237, "avgSalary": 102770}]}
+{
+  "code": "NM",
+  "name": "New Mexico",
+  "employees": 13601,
+  "avgSalary": 97389,
+  "topAgencies": [
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 3457
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 3118
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 3011
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 1997
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 838
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 566
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 519
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 211
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 120
+    },
+    {
+      "name": "Nat Aeronautics and Space Administration",
+      "code": "NN",
+      "employees": 90
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 45
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 33
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 31
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 28
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 25
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Nurse",
+      "employees": 1312,
+      "avgSalary": 116546
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 534,
+      "avgSalary": 51104
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 463,
+      "avgSalary": 102408
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 442,
+      "avgSalary": 297209
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 432,
+      "avgSalary": 96153
+    },
+    {
+      "name": "Contact Representative",
+      "employees": 385,
+      "avgSalary": 63561
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 372,
+      "avgSalary": 53190
+    },
+    {
+      "name": "Forestry Technician",
+      "employees": 357,
+      "avgSalary": 65300
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 327,
+      "avgSalary": 139781
+    },
+    {
+      "name": "Nursing Assistant",
+      "employees": 315,
+      "avgSalary": 49903
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 302,
+      "avgSalary": 107411
+    },
+    {
+      "name": "Health Aid and Technician",
+      "employees": 266,
+      "avgSalary": 55704
+    },
+    {
+      "name": "Custodial Working",
+      "employees": 258,
+      "avgSalary": 45995
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 255,
+      "avgSalary": 112348
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 237,
+      "avgSalary": 102770
+    }
+  ],
+  "separations2025": 12398,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": -16.8,
+  "dogeNarrative": "New Mexico employs 13,601 federal workers with an average salary of $97,389, 16.8% below the national average. DOGE workforce reductions in 2025 resulted in 12,398 separations statewide."
+}

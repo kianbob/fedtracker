@@ -1,1 +1,164 @@
-{"code": "WA", "name": "Washington", "employees": 23256, "avgSalary": 117470, "topAgencies": [{"name": "Department of Veterans Affairs", "code": "VA", "employees": 9355}, {"name": "Department of Interior", "code": "IN", "employees": 2165}, {"name": "Department of Energy", "code": "DN", "employees": 2161}, {"name": "Department of Transportation", "code": "TD", "employees": 2024}, {"name": "Department of Agriculture", "code": "AG", "employees": 1865}, {"name": "Department of Commerce", "code": "CM", "employees": 1018}, {"name": "Social Security Administration", "code": "SZ", "employees": 982}, {"name": "Department of Homeland Security", "code": "HS", "employees": 810}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 760}, {"name": "Department of Treasury", "code": "TR", "employees": 503}, {"name": "Environmental Protection Agency", "code": "EP", "employees": 474}, {"name": "General Services Administration", "code": "GS", "employees": 298}, {"name": "Department of Labor", "code": "DL", "employees": 178}, {"name": "Department of Justice", "code": "DJ", "employees": 169}, {"name": "Department of State", "code": "ST", "employees": 103}], "topOccupations": [{"name": "Nurse", "employees": 1983, "avgSalary": 135511}, {"name": "Medical Support Assistance", "employees": 977, "avgSalary": 60474}, {"name": "Miscellaneous Administration and Program", "employees": 857, "avgSalary": 111738}, {"name": "Veterans Claims Examining", "employees": 676, "avgSalary": 98574}, {"name": "Management and Program Analysis", "employees": 658, "avgSalary": 127586}, {"name": "Medical Officer", "employees": 591, "avgSalary": 299291}, {"name": "Information Technology Management", "employees": 588, "avgSalary": 130957}, {"name": "Social Insurance Administration", "employees": 554, "avgSalary": 107165}, {"name": "Air Traffic Control", "employees": 545, "avgSalary": 159759}, {"name": "Social Work", "employees": 509, "avgSalary": 108556}, {"name": "General Natural Resources Management and Biological Sciences", "employees": 478, "avgSalary": 114217}, {"name": "Contact Representative", "employees": 403, "avgSalary": 71650}, {"name": "Miscellaneous Clerk and Assistant", "employees": 383, "avgSalary": 54758}, {"name": "General Attorney", "employees": 353, "avgSalary": 163231}, {"name": "Electrical Engineering", "employees": 352, "avgSalary": 142441}]}
+{
+  "code": "WA",
+  "name": "Washington",
+  "employees": 23256,
+  "avgSalary": 117470,
+  "topAgencies": [
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 9355
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 2165
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 2161
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 2024
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 1865
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 1018
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 982
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 810
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 760
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 503
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 474
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 298
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 178
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 169
+    },
+    {
+      "name": "Department of State",
+      "code": "ST",
+      "employees": 103
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Nurse",
+      "employees": 1983,
+      "avgSalary": 135511
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 977,
+      "avgSalary": 60474
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 857,
+      "avgSalary": 111738
+    },
+    {
+      "name": "Veterans Claims Examining",
+      "employees": 676,
+      "avgSalary": 98574
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 658,
+      "avgSalary": 127586
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 591,
+      "avgSalary": 299291
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 588,
+      "avgSalary": 130957
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 554,
+      "avgSalary": 107165
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 545,
+      "avgSalary": 159759
+    },
+    {
+      "name": "Social Work",
+      "employees": 509,
+      "avgSalary": 108556
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 478,
+      "avgSalary": 114217
+    },
+    {
+      "name": "Contact Representative",
+      "employees": 403,
+      "avgSalary": 71650
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 383,
+      "avgSalary": 54758
+    },
+    {
+      "name": "General Attorney",
+      "employees": 353,
+      "avgSalary": 163231
+    },
+    {
+      "name": "Electrical Engineering",
+      "employees": 352,
+      "avgSalary": 142441
+    }
+  ],
+  "separations2025": 27032,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": 0.3,
+  "dogeNarrative": "Washington employs 23,256 federal workers with an average salary of $117,470, 0.3% above the national average. DOGE workforce reductions in 2025 resulted in 27,032 separations statewide."
+}

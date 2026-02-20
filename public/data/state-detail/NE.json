@@ -1,1 +1,164 @@
-{"code": "NE", "name": "Nebraska", "employees": 5535, "avgSalary": 100564, "topAgencies": [{"name": "Department of Veterans Affairs", "code": "VA", "employees": 3081}, {"name": "Department of Agriculture", "code": "AG", "employees": 1092}, {"name": "Department of Interior", "code": "IN", "employees": 316}, {"name": "Department of Homeland Security", "code": "HS", "employees": 282}, {"name": "Department of Transportation", "code": "TD", "employees": 180}, {"name": "Social Security Administration", "code": "SZ", "employees": 133}, {"name": "Department of Commerce", "code": "CM", "employees": 118}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 80}, {"name": "Department of Treasury", "code": "TR", "employees": 72}, {"name": "Federal Deposit Insurance Corporation", "code": "FD", "employees": 47}, {"name": "Department of Labor", "code": "DL", "employees": 25}, {"name": "Department of Justice", "code": "DJ", "employees": 22}, {"name": "Department of Energy", "code": "DN", "employees": 21}, {"name": "General Services Administration", "code": "GS", "employees": 21}, {"name": "Department of Housing and Urban Developm", "code": "HU", "employees": 16}], "topOccupations": [{"name": "Nurse", "employees": 683, "avgSalary": 109222}, {"name": "Miscellaneous Administration and Program", "employees": 310, "avgSalary": 95275}, {"name": "Veterans Claims Examining", "employees": 295, "avgSalary": 83965}, {"name": "Medical Support Assistance", "employees": 231, "avgSalary": 51901}, {"name": "Medical Officer", "employees": 205, "avgSalary": 299207}, {"name": "Consumer Safety Inspection", "employees": 199, "avgSalary": 69804}, {"name": "Soil Conservation", "employees": 138, "avgSalary": 85227}, {"name": "Social Work", "employees": 133, "avgSalary": 93806}, {"name": "Miscellaneous Clerk and Assistant", "employees": 126, "avgSalary": 50395}, {"name": "Management and Program Analysis", "employees": 125, "avgSalary": 111995}, {"name": "Information Technology Management", "employees": 104, "avgSalary": 120337}, {"name": "Pharmacist", "employees": 96, "avgSalary": 150191}, {"name": "Practical Nurse", "employees": 93, "avgSalary": 66703}, {"name": "General Natural Resources Management and Biological Sciences", "employees": 93, "avgSalary": 100737}, {"name": "Social Insurance Administration", "employees": 85, "avgSalary": 95333}]}
+{
+  "code": "NE",
+  "name": "Nebraska",
+  "employees": 5535,
+  "avgSalary": 100564,
+  "topAgencies": [
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 3081
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 1092
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 316
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 282
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 180
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 133
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 118
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 80
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 72
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 47
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 25
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 22
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 21
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 21
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 16
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Nurse",
+      "employees": 683,
+      "avgSalary": 109222
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 310,
+      "avgSalary": 95275
+    },
+    {
+      "name": "Veterans Claims Examining",
+      "employees": 295,
+      "avgSalary": 83965
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 231,
+      "avgSalary": 51901
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 205,
+      "avgSalary": 299207
+    },
+    {
+      "name": "Consumer Safety Inspection",
+      "employees": 199,
+      "avgSalary": 69804
+    },
+    {
+      "name": "Soil Conservation",
+      "employees": 138,
+      "avgSalary": 85227
+    },
+    {
+      "name": "Social Work",
+      "employees": 133,
+      "avgSalary": 93806
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 126,
+      "avgSalary": 50395
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 125,
+      "avgSalary": 111995
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 104,
+      "avgSalary": 120337
+    },
+    {
+      "name": "Pharmacist",
+      "employees": 96,
+      "avgSalary": 150191
+    },
+    {
+      "name": "Practical Nurse",
+      "employees": 93,
+      "avgSalary": 66703
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 93,
+      "avgSalary": 100737
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 85,
+      "avgSalary": 95333
+    }
+  ],
+  "separations2025": 4643,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": -14.1,
+  "dogeNarrative": "Nebraska employs 5,535 federal workers with an average salary of $100,564, 14.1% below the national average. DOGE workforce reductions in 2025 resulted in 4,643 separations statewide."
+}

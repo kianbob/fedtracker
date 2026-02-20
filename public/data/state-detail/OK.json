@@ -1,1 +1,164 @@
-{"code": "OK", "name": "Oklahoma", "employees": 15057, "avgSalary": 105143, "topAgencies": [{"name": "Department of Veterans Affairs", "code": "VA", "employees": 7151}, {"name": "Department of Transportation", "code": "TD", "employees": 3141}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 1339}, {"name": "Department of Interior", "code": "IN", "employees": 882}, {"name": "Department of Agriculture", "code": "AG", "employees": 718}, {"name": "Social Security Administration", "code": "SZ", "employees": 421}, {"name": "Department of Commerce", "code": "CM", "employees": 359}, {"name": "Department of Justice", "code": "DJ", "employees": 326}, {"name": "Department of Treasury", "code": "TR", "employees": 144}, {"name": "Department of Homeland Security", "code": "HS", "employees": 129}, {"name": "Department of Housing and Urban Developm", "code": "HU", "employees": 97}, {"name": "Department of Energy", "code": "DN", "employees": 86}, {"name": "Department of Labor", "code": "DL", "employees": 54}, {"name": "General Services Administration", "code": "GS", "employees": 49}, {"name": "Environmental Protection Agency", "code": "EP", "employees": 41}], "topOccupations": [{"name": "Nurse", "employees": 1440, "avgSalary": 125417}, {"name": "Veterans Claims Examining", "employees": 1218, "avgSalary": 80944}, {"name": "Medical Support Assistance", "employees": 668, "avgSalary": 55111}, {"name": "Information Technology Management", "employees": 577, "avgSalary": 127563}, {"name": "Miscellaneous Administration and Program", "employees": 488, "avgSalary": 106105}, {"name": "Medical Officer", "employees": 457, "avgSalary": 315616}, {"name": "Management and Program Analysis", "employees": 440, "avgSalary": 113564}, {"name": "Miscellaneous Clerk and Assistant", "employees": 384, "avgSalary": 50700}, {"name": "Social Work", "employees": 295, "avgSalary": 106847}, {"name": "Human Resources Management", "employees": 274, "avgSalary": 105268}, {"name": "Social Insurance Administration", "employees": 264, "avgSalary": 97826}, {"name": "Practical Nurse", "employees": 257, "avgSalary": 68777}, {"name": "Transportation Specialist", "employees": 234, "avgSalary": 124005}, {"name": "Pharmacist", "employees": 219, "avgSalary": 161307}, {"name": "Financial Administration and Program", "employees": 218, "avgSalary": 90051}]}
+{
+  "code": "OK",
+  "name": "Oklahoma",
+  "employees": 15057,
+  "avgSalary": 105143,
+  "topAgencies": [
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 7151
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 3141
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 1339
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 882
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 718
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 421
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 359
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 326
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 144
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 129
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 97
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 86
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 54
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 49
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 41
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Nurse",
+      "employees": 1440,
+      "avgSalary": 125417
+    },
+    {
+      "name": "Veterans Claims Examining",
+      "employees": 1218,
+      "avgSalary": 80944
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 668,
+      "avgSalary": 55111
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 577,
+      "avgSalary": 127563
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 488,
+      "avgSalary": 106105
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 457,
+      "avgSalary": 315616
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 440,
+      "avgSalary": 113564
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 384,
+      "avgSalary": 50700
+    },
+    {
+      "name": "Social Work",
+      "employees": 295,
+      "avgSalary": 106847
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 274,
+      "avgSalary": 105268
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 264,
+      "avgSalary": 97826
+    },
+    {
+      "name": "Practical Nurse",
+      "employees": 257,
+      "avgSalary": 68777
+    },
+    {
+      "name": "Transportation Specialist",
+      "employees": 234,
+      "avgSalary": 124005
+    },
+    {
+      "name": "Pharmacist",
+      "employees": 219,
+      "avgSalary": 161307
+    },
+    {
+      "name": "Financial Administration and Program",
+      "employees": 218,
+      "avgSalary": 90051
+    }
+  ],
+  "separations2025": 14214,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": -10.2,
+  "dogeNarrative": "Oklahoma employs 15,057 federal workers with an average salary of $105,143, 10.2% below the national average. DOGE workforce reductions in 2025 resulted in 14,214 separations statewide."
+}

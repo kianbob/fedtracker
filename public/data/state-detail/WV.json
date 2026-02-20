@@ -1,1 +1,164 @@
-{"code": "WV", "name": "West Virginia", "employees": 13553, "avgSalary": 105925, "topAgencies": [{"name": "Department of Veterans Affairs", "code": "VA", "employees": 6533}, {"name": "Department of Treasury", "code": "TR", "employees": 2637}, {"name": "Department of Justice", "code": "DJ", "employees": 1016}, {"name": "Department of Agriculture", "code": "AG", "employees": 611}, {"name": "Department of Interior", "code": "IN", "employees": 490}, {"name": "Department of Homeland Security", "code": "HS", "employees": 485}, {"name": "Department of Labor", "code": "DL", "employees": 382}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 323}, {"name": "Department of Energy", "code": "DN", "employees": 274}, {"name": "Social Security Administration", "code": "SZ", "employees": 268}, {"name": "Department of Transportation", "code": "TD", "employees": 181}, {"name": "Department of Commerce", "code": "CM", "employees": 140}, {"name": "General Services Administration", "code": "GS", "employees": 61}, {"name": "Nat Aeronautics and Space Administration", "code": "NN", "employees": 45}, {"name": "Environmental Protection Agency", "code": "EP", "employees": 28}], "topOccupations": [{"name": "Nurse", "employees": 1417, "avgSalary": 114042}, {"name": "Information Technology Management", "employees": 1272, "avgSalary": 137582}, {"name": "Human Resources Management", "employees": 498, "avgSalary": 109035}, {"name": "Financial Administration and Program", "employees": 496, "avgSalary": 99280}, {"name": "Medical Support Assistance", "employees": 442, "avgSalary": 54272}, {"name": "Management and Program Analysis", "employees": 420, "avgSalary": 122899}, {"name": "Accounting", "employees": 410, "avgSalary": 112576}, {"name": "Miscellaneous Administration and Program", "employees": 351, "avgSalary": 106620}, {"name": "Medical Officer", "employees": 308, "avgSalary": 317488}, {"name": "Social Work", "employees": 277, "avgSalary": 102652}, {"name": "Practical Nurse", "employees": 265, "avgSalary": 69213}, {"name": "Miscellaneous Clerk and Assistant", "employees": 245, "avgSalary": 54916}, {"name": "Veterans Claims Examining", "employees": 219, "avgSalary": 84873}, {"name": "Nursing Assistant", "employees": 197, "avgSalary": 52249}, {"name": "Custodial Working", "employees": 197, "avgSalary": 46882}]}
+{
+  "code": "WV",
+  "name": "West Virginia",
+  "employees": 13553,
+  "avgSalary": 105925,
+  "topAgencies": [
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 6533
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 2637
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 1016
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 611
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 490
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 485
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 382
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 323
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 274
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 268
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 181
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 140
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 61
+    },
+    {
+      "name": "Nat Aeronautics and Space Administration",
+      "code": "NN",
+      "employees": 45
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 28
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Nurse",
+      "employees": 1417,
+      "avgSalary": 114042
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 1272,
+      "avgSalary": 137582
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 498,
+      "avgSalary": 109035
+    },
+    {
+      "name": "Financial Administration and Program",
+      "employees": 496,
+      "avgSalary": 99280
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 442,
+      "avgSalary": 54272
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 420,
+      "avgSalary": 122899
+    },
+    {
+      "name": "Accounting",
+      "employees": 410,
+      "avgSalary": 112576
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 351,
+      "avgSalary": 106620
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 308,
+      "avgSalary": 317488
+    },
+    {
+      "name": "Social Work",
+      "employees": 277,
+      "avgSalary": 102652
+    },
+    {
+      "name": "Practical Nurse",
+      "employees": 265,
+      "avgSalary": 69213
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 245,
+      "avgSalary": 54916
+    },
+    {
+      "name": "Veterans Claims Examining",
+      "employees": 219,
+      "avgSalary": 84873
+    },
+    {
+      "name": "Nursing Assistant",
+      "employees": 197,
+      "avgSalary": 52249
+    },
+    {
+      "name": "Custodial Working",
+      "employees": 197,
+      "avgSalary": 46882
+    }
+  ],
+  "separations2025": 5524,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": -9.6,
+  "dogeNarrative": "West Virginia employs 13,553 federal workers with an average salary of $105,925, 9.6% below the national average. DOGE workforce reductions in 2025 resulted in 5,524 separations statewide."
+}

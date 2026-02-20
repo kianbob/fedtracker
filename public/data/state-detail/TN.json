@@ -1,1 +1,164 @@
-{"code": "TN", "name": "Tennessee", "employees": 22971, "avgSalary": 99066, "topAgencies": [{"name": "Department of Veterans Affairs", "code": "VA", "employees": 12991}, {"name": "Department of Treasury", "code": "TR", "employees": 4289}, {"name": "Department of Agriculture", "code": "AG", "employees": 1378}, {"name": "Department of Transportation", "code": "TD", "employees": 987}, {"name": "Social Security Administration", "code": "SZ", "employees": 810}, {"name": "Department of Interior", "code": "IN", "employees": 588}, {"name": "Department of Energy", "code": "DN", "employees": 437}, {"name": "Department of Commerce", "code": "CM", "employees": 306}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 297}, {"name": "Department of Homeland Security", "code": "HS", "employees": 228}, {"name": "Department of Justice", "code": "DJ", "employees": 216}, {"name": "Federal Deposit Insurance Corporation", "code": "FD", "employees": 88}, {"name": "Department of Labor", "code": "DL", "employees": 77}, {"name": "General Services Administration", "code": "GS", "employees": 65}, {"name": "Equal Employment Opportunity Commission", "code": "EE", "employees": 48}], "topOccupations": [{"name": "Nurse", "employees": 2839, "avgSalary": 121138}, {"name": "Contact Representative", "employees": 2177, "avgSalary": 56957}, {"name": "Medical Support Assistance", "employees": 1046, "avgSalary": 54865}, {"name": "Medical Officer", "employees": 959, "avgSalary": 309220}, {"name": "Tax Examining", "employees": 792, "avgSalary": 51599}, {"name": "Miscellaneous Clerk and Assistant", "employees": 704, "avgSalary": 47885}, {"name": "Social Work", "employees": 604, "avgSalary": 108405}, {"name": "Information Technology Management", "employees": 578, "avgSalary": 120990}, {"name": "Air Traffic Control", "employees": 569, "avgSalary": 148300}, {"name": "Management and Program Analysis", "employees": 551, "avgSalary": 112151}, {"name": "Veterans Claims Examining", "employees": 542, "avgSalary": 86512}, {"name": "Social Insurance Administration", "employees": 471, "avgSalary": 95539}, {"name": "Practical Nurse", "employees": 434, "avgSalary": 70020}, {"name": "Pharmacist", "employees": 403, "avgSalary": 168272}, {"name": "Miscellaneous Administration and Program", "employees": 402, "avgSalary": 94057}]}
+{
+  "code": "TN",
+  "name": "Tennessee",
+  "employees": 22971,
+  "avgSalary": 99066,
+  "topAgencies": [
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 12991
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 4289
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 1378
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 987
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 810
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 588
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 437
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 306
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 297
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 228
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 216
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 88
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 77
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 65
+    },
+    {
+      "name": "Equal Employment Opportunity Commission",
+      "code": "EE",
+      "employees": 48
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Nurse",
+      "employees": 2839,
+      "avgSalary": 121138
+    },
+    {
+      "name": "Contact Representative",
+      "employees": 2177,
+      "avgSalary": 56957
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 1046,
+      "avgSalary": 54865
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 959,
+      "avgSalary": 309220
+    },
+    {
+      "name": "Tax Examining",
+      "employees": 792,
+      "avgSalary": 51599
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 704,
+      "avgSalary": 47885
+    },
+    {
+      "name": "Social Work",
+      "employees": 604,
+      "avgSalary": 108405
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 578,
+      "avgSalary": 120990
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 569,
+      "avgSalary": 148300
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 551,
+      "avgSalary": 112151
+    },
+    {
+      "name": "Veterans Claims Examining",
+      "employees": 542,
+      "avgSalary": 86512
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 471,
+      "avgSalary": 95539
+    },
+    {
+      "name": "Practical Nurse",
+      "employees": 434,
+      "avgSalary": 70020
+    },
+    {
+      "name": "Pharmacist",
+      "employees": 403,
+      "avgSalary": 168272
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 402,
+      "avgSalary": 94057
+    }
+  ],
+  "separations2025": 13624,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": -15.4,
+  "dogeNarrative": "Tennessee employs 22,971 federal workers with an average salary of $99,066, 15.4% below the national average. DOGE workforce reductions in 2025 resulted in 13,624 separations statewide."
+}

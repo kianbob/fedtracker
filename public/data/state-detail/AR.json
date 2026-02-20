@@ -1,1 +1,164 @@
-{"code": "AR", "name": "Arkansas", "employees": 9682, "avgSalary": 101455, "topAgencies": [{"name": "Department of Veterans Affairs", "code": "VA", "employees": 6281}, {"name": "Department of Agriculture", "code": "AG", "employees": 1357}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 375}, {"name": "Social Security Administration", "code": "SZ", "employees": 373}, {"name": "Department of Justice", "code": "DJ", "employees": 293}, {"name": "Department of Interior", "code": "IN", "employees": 293}, {"name": "Department of Transportation", "code": "TD", "employees": 183}, {"name": "Department of Commerce", "code": "CM", "employees": 115}, {"name": "Department of Homeland Security", "code": "HS", "employees": 77}, {"name": "Department of Treasury", "code": "TR", "employees": 74}, {"name": "Department of Energy", "code": "DN", "employees": 63}, {"name": "Small Business Administration", "code": "SB", "employees": 43}, {"name": "Department of Labor", "code": "DL", "employees": 42}, {"name": "Federal Deposit Insurance Corporation", "code": "FD", "employees": 29}, {"name": "Nat Archives and Records Administration", "code": "NQ", "employees": 28}], "topOccupations": [{"name": "Nurse", "employees": 1582, "avgSalary": 130135}, {"name": "Medical Support Assistance", "employees": 555, "avgSalary": 52423}, {"name": "Medical Officer", "employees": 328, "avgSalary": 317946}, {"name": "Social Work", "employees": 292, "avgSalary": 106476}, {"name": "Consumer Safety Inspection", "employees": 251, "avgSalary": 71051}, {"name": "Social Insurance Administration", "employees": 248, "avgSalary": 96073}, {"name": "Miscellaneous Administration and Program", "employees": 243, "avgSalary": 95240}, {"name": "Miscellaneous Clerk and Assistant", "employees": 212, "avgSalary": 48764}, {"name": "Nursing Assistant", "employees": 207, "avgSalary": 53318}, {"name": "Veterans Claims Examining", "employees": 203, "avgSalary": 85098}, {"name": "Pharmacist", "employees": 195, "avgSalary": 166378}, {"name": "Practical Nurse", "employees": 182, "avgSalary": 71253}, {"name": "General Natural Resources Management and Biological Sciences", "employees": 166, "avgSalary": 113371}, {"name": "Custodial Working", "employees": 153, "avgSalary": 43582}, {"name": "Management and Program Analysis", "employees": 150, "avgSalary": 98439}]}
+{
+  "code": "AR",
+  "name": "Arkansas",
+  "employees": 9682,
+  "avgSalary": 101455,
+  "topAgencies": [
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 6281
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 1357
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 375
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 373
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 293
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 293
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 183
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 115
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 77
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 74
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 63
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 43
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 42
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 29
+    },
+    {
+      "name": "Nat Archives and Records Administration",
+      "code": "NQ",
+      "employees": 28
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Nurse",
+      "employees": 1582,
+      "avgSalary": 130135
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 555,
+      "avgSalary": 52423
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 328,
+      "avgSalary": 317946
+    },
+    {
+      "name": "Social Work",
+      "employees": 292,
+      "avgSalary": 106476
+    },
+    {
+      "name": "Consumer Safety Inspection",
+      "employees": 251,
+      "avgSalary": 71051
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 248,
+      "avgSalary": 96073
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 243,
+      "avgSalary": 95240
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 212,
+      "avgSalary": 48764
+    },
+    {
+      "name": "Nursing Assistant",
+      "employees": 207,
+      "avgSalary": 53318
+    },
+    {
+      "name": "Veterans Claims Examining",
+      "employees": 203,
+      "avgSalary": 85098
+    },
+    {
+      "name": "Pharmacist",
+      "employees": 195,
+      "avgSalary": 166378
+    },
+    {
+      "name": "Practical Nurse",
+      "employees": 182,
+      "avgSalary": 71253
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 166,
+      "avgSalary": 113371
+    },
+    {
+      "name": "Custodial Working",
+      "employees": 153,
+      "avgSalary": 43582
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 150,
+      "avgSalary": 98439
+    }
+  ],
+  "separations2025": 5812,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": -13.4,
+  "dogeNarrative": "Arkansas employs 9,682 federal workers with an average salary of $101,455, 13.4% below the national average. DOGE workforce reductions in 2025 resulted in 5,812 separations statewide."
+}

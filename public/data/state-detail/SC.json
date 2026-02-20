@@ -1,1 +1,164 @@
-{"code": "SC", "name": "South Carolina", "employees": 12758, "avgSalary": 103755, "topAgencies": [{"name": "Department of Veterans Affairs", "code": "VA", "employees": 7911}, {"name": "Department of Agriculture", "code": "AG", "employees": 913}, {"name": "Department of Justice", "code": "DJ", "employees": 603}, {"name": "Department of State", "code": "ST", "employees": 591}, {"name": "Social Security Administration", "code": "SZ", "employees": 543}, {"name": "Department of Commerce", "code": "CM", "employees": 434}, {"name": "Department of Homeland Security", "code": "HS", "employees": 343}, {"name": "Department of Transportation", "code": "TD", "employees": 337}, {"name": "Department of Energy", "code": "DN", "employees": 284}, {"name": "Department of Interior", "code": "IN", "employees": 245}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 226}, {"name": "Department of Treasury", "code": "TR", "employees": 117}, {"name": "Small Business Administration", "code": "SB", "employees": 53}, {"name": "General Services Administration", "code": "GS", "employees": 48}, {"name": "Department of Labor", "code": "DL", "employees": 43}], "topOccupations": [{"name": "Nurse", "employees": 1534, "avgSalary": 123054}, {"name": "Medical Support Assistance", "employees": 765, "avgSalary": 54438}, {"name": "Medical Officer", "employees": 516, "avgSalary": 311487}, {"name": "Veterans Claims Examining", "employees": 494, "avgSalary": 86745}, {"name": "Miscellaneous Administration and Program", "employees": 371, "avgSalary": 97694}, {"name": "Social Work", "employees": 359, "avgSalary": 103039}, {"name": "Human Resources Management", "employees": 322, "avgSalary": 106776}, {"name": "Social Insurance Administration", "employees": 320, "avgSalary": 95309}, {"name": "Management and Program Analysis", "employees": 310, "avgSalary": 113616}, {"name": "Pharmacist", "employees": 289, "avgSalary": 161935}, {"name": "Miscellaneous Clerk and Assistant", "employees": 286, "avgSalary": 49484}, {"name": "Information Technology Management", "employees": 279, "avgSalary": 130014}, {"name": "Passport and Visa Examining", "employees": 229, "avgSalary": 82270}, {"name": "Financial Administration and Program", "employees": 193, "avgSalary": 104544}, {"name": "Nursing Assistant", "employees": 189, "avgSalary": 49091}]}
+{
+  "code": "SC",
+  "name": "South Carolina",
+  "employees": 12758,
+  "avgSalary": 103755,
+  "topAgencies": [
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 7911
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 913
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 603
+    },
+    {
+      "name": "Department of State",
+      "code": "ST",
+      "employees": 591
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 543
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 434
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 343
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 337
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 284
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 245
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 226
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 117
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 53
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 48
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 43
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Nurse",
+      "employees": 1534,
+      "avgSalary": 123054
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 765,
+      "avgSalary": 54438
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 516,
+      "avgSalary": 311487
+    },
+    {
+      "name": "Veterans Claims Examining",
+      "employees": 494,
+      "avgSalary": 86745
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 371,
+      "avgSalary": 97694
+    },
+    {
+      "name": "Social Work",
+      "employees": 359,
+      "avgSalary": 103039
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 322,
+      "avgSalary": 106776
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 320,
+      "avgSalary": 95309
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 310,
+      "avgSalary": 113616
+    },
+    {
+      "name": "Pharmacist",
+      "employees": 289,
+      "avgSalary": 161935
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 286,
+      "avgSalary": 49484
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 279,
+      "avgSalary": 130014
+    },
+    {
+      "name": "Passport and Visa Examining",
+      "employees": 229,
+      "avgSalary": 82270
+    },
+    {
+      "name": "Financial Administration and Program",
+      "employees": 193,
+      "avgSalary": 104544
+    },
+    {
+      "name": "Nursing Assistant",
+      "employees": 189,
+      "avgSalary": 49091
+    }
+  ],
+  "separations2025": 10384,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": -11.4,
+  "dogeNarrative": "South Carolina employs 12,758 federal workers with an average salary of $103,755, 11.4% below the national average. DOGE workforce reductions in 2025 resulted in 10,384 separations statewide."
+}

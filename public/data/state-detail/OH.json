@@ -1,1 +1,164 @@
-{"code": "OH", "name": "Ohio", "employees": 26532, "avgSalary": 112636, "topAgencies": [{"name": "Department of Veterans Affairs", "code": "VA", "employees": 16930}, {"name": "Nat Aeronautics and Space Administration", "code": "NN", "employees": 1440}, {"name": "Department of Transportation", "code": "TD", "employees": 1186}, {"name": "Department of Treasury", "code": "TR", "employees": 1179}, {"name": "Social Security Administration", "code": "SZ", "employees": 1173}, {"name": "Department of Agriculture", "code": "AG", "employees": 894}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 764}, {"name": "Environmental Protection Agency", "code": "EP", "employees": 509}, {"name": "Department of Commerce", "code": "CM", "employees": 464}, {"name": "Department of Interior", "code": "IN", "employees": 356}, {"name": "Department of Homeland Security", "code": "HS", "employees": 339}, {"name": "Department of Labor", "code": "DL", "employees": 331}, {"name": "Department of Justice", "code": "DJ", "employees": 280}, {"name": "Department of Energy", "code": "DN", "employees": 167}, {"name": "General Services Administration", "code": "GS", "employees": 115}], "topOccupations": [{"name": "Nurse", "employees": 3862, "avgSalary": 125888}, {"name": "Medical Support Assistance", "employees": 1352, "avgSalary": 55118}, {"name": "Medical Officer", "employees": 1028, "avgSalary": 312356}, {"name": "Social Work", "employees": 833, "avgSalary": 103312}, {"name": "Practical Nurse", "employees": 738, "avgSalary": 75870}, {"name": "Social Insurance Administration", "employees": 737, "avgSalary": 99579}, {"name": "Air Traffic Control", "employees": 678, "avgSalary": 152117}, {"name": "Management and Program Analysis", "employees": 668, "avgSalary": 114938}, {"name": "Miscellaneous Administration and Program", "employees": 632, "avgSalary": 107972}, {"name": "Human Resources Management", "employees": 566, "avgSalary": 119439}, {"name": "Nursing Assistant", "employees": 528, "avgSalary": 50965}, {"name": "Pharmacist", "employees": 523, "avgSalary": 167000}, {"name": "Miscellaneous Clerk and Assistant", "employees": 519, "avgSalary": 51589}, {"name": "General Engineering", "employees": 472, "avgSalary": 154740}, {"name": "Contact Representative", "employees": 437, "avgSalary": 64743}]}
+{
+  "code": "OH",
+  "name": "Ohio",
+  "employees": 26532,
+  "avgSalary": 112636,
+  "topAgencies": [
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 16930
+    },
+    {
+      "name": "Nat Aeronautics and Space Administration",
+      "code": "NN",
+      "employees": 1440
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 1186
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 1179
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 1173
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 894
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 764
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 509
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 464
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 356
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 339
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 331
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 280
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 167
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 115
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Nurse",
+      "employees": 3862,
+      "avgSalary": 125888
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 1352,
+      "avgSalary": 55118
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 1028,
+      "avgSalary": 312356
+    },
+    {
+      "name": "Social Work",
+      "employees": 833,
+      "avgSalary": 103312
+    },
+    {
+      "name": "Practical Nurse",
+      "employees": 738,
+      "avgSalary": 75870
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 737,
+      "avgSalary": 99579
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 678,
+      "avgSalary": 152117
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 668,
+      "avgSalary": 114938
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 632,
+      "avgSalary": 107972
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 566,
+      "avgSalary": 119439
+    },
+    {
+      "name": "Nursing Assistant",
+      "employees": 528,
+      "avgSalary": 50965
+    },
+    {
+      "name": "Pharmacist",
+      "employees": 523,
+      "avgSalary": 167000
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 519,
+      "avgSalary": 51589
+    },
+    {
+      "name": "General Engineering",
+      "employees": 472,
+      "avgSalary": 154740
+    },
+    {
+      "name": "Contact Representative",
+      "employees": 437,
+      "avgSalary": 64743
+    }
+  ],
+  "separations2025": 18604,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": -3.8,
+  "dogeNarrative": "Ohio employs 26,532 federal workers with an average salary of $112,636, 3.8% below the national average. DOGE workforce reductions in 2025 resulted in 18,604 separations statewide."
+}

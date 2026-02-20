@@ -1,1 +1,164 @@
-{"code": "MS", "name": "Mississippi", "employees": 9290, "avgSalary": 95125, "topAgencies": [{"name": "Department of Veterans Affairs", "code": "VA", "employees": 4810}, {"name": "Department of Agriculture", "code": "AG", "employees": 1258}, {"name": "Social Security Administration", "code": "SZ", "employees": 475}, {"name": "Nat Aeronautics and Space Administration", "code": "NN", "employees": 451}, {"name": "Department of Homeland Security", "code": "HS", "employees": 420}, {"name": "Department of Justice", "code": "DJ", "employees": 415}, {"name": "Department of Interior", "code": "IN", "employees": 317}, {"name": "Department of Commerce", "code": "CM", "employees": 294}, {"name": "Department of Transportation", "code": "TD", "employees": 175}, {"name": "Government Publishing Office", "code": "LP", "employees": 147}, {"name": "Armed Forces Retirement Home", "code": "RH", "employees": 119}, {"name": "Department of Treasury", "code": "TR", "employees": 107}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 59}, {"name": "Small Business Administration", "code": "SB", "employees": 49}, {"name": "Department of Labor", "code": "DL", "employees": 44}], "topOccupations": [{"name": "Nurse", "employees": 1074, "avgSalary": 118620}, {"name": "Medical Support Assistance", "employees": 453, "avgSalary": 49667}, {"name": "Social Insurance Administration", "employees": 285, "avgSalary": 98140}, {"name": "Human Resources Management", "employees": 254, "avgSalary": 108111}, {"name": "Miscellaneous Administration and Program", "employees": 246, "avgSalary": 99277}, {"name": "Miscellaneous Clerk and Assistant", "employees": 234, "avgSalary": 49152}, {"name": "Social Work", "employees": 192, "avgSalary": 101226}, {"name": "Consumer Safety Inspection", "employees": 191, "avgSalary": 72913}, {"name": "Veterans Claims Examining", "employees": 191, "avgSalary": 86632}, {"name": "Nursing Assistant", "employees": 186, "avgSalary": 53452}, {"name": "Emergency Management Specialist", "employees": 183, "avgSalary": 78957}, {"name": "Information Technology Management", "employees": 182, "avgSalary": 122970}, {"name": "Practical Nurse", "employees": 177, "avgSalary": 67766}, {"name": "Medical Officer", "employees": 174, "avgSalary": 319453}, {"name": "Management and Program Analysis", "employees": 172, "avgSalary": 104786}]}
+{
+  "code": "MS",
+  "name": "Mississippi",
+  "employees": 9290,
+  "avgSalary": 95125,
+  "topAgencies": [
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 4810
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 1258
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 475
+    },
+    {
+      "name": "Nat Aeronautics and Space Administration",
+      "code": "NN",
+      "employees": 451
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 420
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 415
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 317
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 294
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 175
+    },
+    {
+      "name": "Government Publishing Office",
+      "code": "LP",
+      "employees": 147
+    },
+    {
+      "name": "Armed Forces Retirement Home",
+      "code": "RH",
+      "employees": 119
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 107
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 59
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 49
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 44
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Nurse",
+      "employees": 1074,
+      "avgSalary": 118620
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 453,
+      "avgSalary": 49667
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 285,
+      "avgSalary": 98140
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 254,
+      "avgSalary": 108111
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 246,
+      "avgSalary": 99277
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 234,
+      "avgSalary": 49152
+    },
+    {
+      "name": "Social Work",
+      "employees": 192,
+      "avgSalary": 101226
+    },
+    {
+      "name": "Consumer Safety Inspection",
+      "employees": 191,
+      "avgSalary": 72913
+    },
+    {
+      "name": "Veterans Claims Examining",
+      "employees": 191,
+      "avgSalary": 86632
+    },
+    {
+      "name": "Nursing Assistant",
+      "employees": 186,
+      "avgSalary": 53452
+    },
+    {
+      "name": "Emergency Management Specialist",
+      "employees": 183,
+      "avgSalary": 78957
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 182,
+      "avgSalary": 122970
+    },
+    {
+      "name": "Practical Nurse",
+      "employees": 177,
+      "avgSalary": 67766
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 174,
+      "avgSalary": 319453
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 172,
+      "avgSalary": 104786
+    }
+  ],
+  "separations2025": 8333,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": -18.8,
+  "dogeNarrative": "Mississippi employs 9,290 federal workers with an average salary of $95,125, 18.8% below the national average. DOGE workforce reductions in 2025 resulted in 8,333 separations statewide."
+}

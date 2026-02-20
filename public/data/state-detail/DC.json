@@ -1,1 +1,164 @@
-{"code": "DC", "name": "District of Columbia", "employees": 101857, "avgSalary": 152703, "topAgencies": [{"name": "Department of Homeland Security", "code": "HS", "employees": 13735}, {"name": "Department of Justice", "code": "DJ", "employees": 13694}, {"name": "Department of State", "code": "ST", "employees": 7622}, {"name": "Department of Veterans Affairs", "code": "VA", "employees": 6350}, {"name": "Department of Transportation", "code": "TD", "employees": 6249}, {"name": "Department of Treasury", "code": "TR", "employees": 5940}, {"name": "Environmental Protection Agency", "code": "EP", "employees": 3894}, {"name": "Department of Energy", "code": "DN", "employees": 3700}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 3385}, {"name": "Smithsonian Institution", "code": "SM", "employees": 3351}, {"name": "Department of Agriculture", "code": "AG", "employees": 2827}, {"name": "General Services Administration", "code": "GS", "employees": 2386}, {"name": "Department of Commerce", "code": "CM", "employees": 2292}, {"name": "Department of Housing and Urban Developm", "code": "HU", "employees": 2280}, {"name": "Department of Labor", "code": "DL", "employees": 2280}], "topOccupations": [{"name": "Management and Program Analysis", "employees": 13957, "avgSalary": 148097}, {"name": "Miscellaneous Administration and Program", "employees": 13407, "avgSalary": 148817}, {"name": "General Attorney", "employees": 12198, "avgSalary": 187473}, {"name": "Information Technology Management", "employees": 8198, "avgSalary": 166241}, {"name": "Program Management", "employees": 2900, "avgSalary": 194376}, {"name": "Human Resources Management", "employees": 2815, "avgSalary": 152737}, {"name": "General Business and Industry", "employees": 2446, "avgSalary": 160277}, {"name": "Security Administration", "employees": 2063, "avgSalary": 137765}, {"name": "Foreign Affairs", "employees": 1945, "avgSalary": 151204}, {"name": "Contracting", "employees": 1836, "avgSalary": 156558}, {"name": "Financial Administration and Program", "employees": 1810, "avgSalary": 155772}, {"name": "Budget Analysis", "employees": 1678, "avgSalary": 156160}, {"name": "Accounting", "employees": 1553, "avgSalary": 173131}, {"name": "Social Science", "employees": 1445, "avgSalary": 138197}, {"name": "Economist", "employees": 1385, "avgSalary": 174049}]}
+{
+  "code": "DC",
+  "name": "District of Columbia",
+  "employees": 101857,
+  "avgSalary": 152703,
+  "topAgencies": [
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 13735
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 13694
+    },
+    {
+      "name": "Department of State",
+      "code": "ST",
+      "employees": 7622
+    },
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 6350
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 6249
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 5940
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 3894
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 3700
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 3385
+    },
+    {
+      "name": "Smithsonian Institution",
+      "code": "SM",
+      "employees": 3351
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 2827
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 2386
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 2292
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 2280
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 2280
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Management and Program Analysis",
+      "employees": 13957,
+      "avgSalary": 148097
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 13407,
+      "avgSalary": 148817
+    },
+    {
+      "name": "General Attorney",
+      "employees": 12198,
+      "avgSalary": 187473
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 8198,
+      "avgSalary": 166241
+    },
+    {
+      "name": "Program Management",
+      "employees": 2900,
+      "avgSalary": 194376
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 2815,
+      "avgSalary": 152737
+    },
+    {
+      "name": "General Business and Industry",
+      "employees": 2446,
+      "avgSalary": 160277
+    },
+    {
+      "name": "Security Administration",
+      "employees": 2063,
+      "avgSalary": 137765
+    },
+    {
+      "name": "Foreign Affairs",
+      "employees": 1945,
+      "avgSalary": 151204
+    },
+    {
+      "name": "Contracting",
+      "employees": 1836,
+      "avgSalary": 156558
+    },
+    {
+      "name": "Financial Administration and Program",
+      "employees": 1810,
+      "avgSalary": 155772
+    },
+    {
+      "name": "Budget Analysis",
+      "employees": 1678,
+      "avgSalary": 156160
+    },
+    {
+      "name": "Accounting",
+      "employees": 1553,
+      "avgSalary": 173131
+    },
+    {
+      "name": "Social Science",
+      "employees": 1445,
+      "avgSalary": 138197
+    },
+    {
+      "name": "Economist",
+      "employees": 1385,
+      "avgSalary": 174049
+    }
+  ],
+  "separations2025": 66208,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": 30.4,
+  "dogeNarrative": "The Beltway Bubble — DC has the highest concentration of federal workers and felt DOGE cuts most directly. With over 100,000 federal employees, the district is ground zero for workforce reduction efforts."
+}

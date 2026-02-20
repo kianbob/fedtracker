@@ -1,1 +1,164 @@
-{"code": "AK", "name": "Alaska", "employees": 5204, "avgSalary": 114085, "topAgencies": [{"name": "Department of Interior", "code": "IN", "employees": 1671}, {"name": "Department of Transportation", "code": "TD", "employees": 1092}, {"name": "Department of Veterans Affairs", "code": "VA", "employees": 889}, {"name": "Department of Agriculture", "code": "AG", "employees": 575}, {"name": "Department of Commerce", "code": "CM", "employees": 410}, {"name": "Department of Homeland Security", "code": "HS", "employees": 288}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 97}, {"name": "Social Security Administration", "code": "SZ", "employees": 34}, {"name": "Environmental Protection Agency", "code": "EP", "employees": 29}, {"name": "Department of Housing and Urban Developm", "code": "HU", "employees": 25}, {"name": "General Services Administration", "code": "GS", "employees": 22}, {"name": "Department of Treasury", "code": "TR", "employees": 20}, {"name": "Department of Labor", "code": "DL", "employees": 15}, {"name": "Denali Commission", "code": "DQ", "employees": 12}, {"name": "Small Business Administration", "code": "SB", "employees": 8}], "topOccupations": [{"name": "Air Traffic Control", "employees": 432, "avgSalary": 136355}, {"name": "Miscellaneous Administration and Program", "employees": 285, "avgSalary": 112651}, {"name": "Transportation Specialist", "employees": 271, "avgSalary": 121591}, {"name": "General Natural Resources Management and Biological Sciences", "employees": 267, "avgSalary": 117536}, {"name": "Medical Support Assistance", "employees": 179, "avgSalary": 59412}, {"name": "Nurse", "employees": 170, "avgSalary": 145864}, {"name": "Miscellaneous Clerk and Assistant", "employees": 158, "avgSalary": 59061}, {"name": "Information Technology Management", "employees": 143, "avgSalary": 132125}, {"name": "Aviation Safety", "employees": 137, "avgSalary": 146278}, {"name": "Maintenance Mechanic", "employees": 112, "avgSalary": 88700}, {"name": "Park Ranger", "employees": 112, "avgSalary": 98862}, {"name": "Wildlife Biology", "employees": 108, "avgSalary": 115333}, {"name": "Management and Program Analysis", "employees": 105, "avgSalary": 122739}, {"name": "Fish Biology", "employees": 95, "avgSalary": 114445}, {"name": "Forestry Technician", "employees": 83, "avgSalary": 83062}]}
+{
+  "code": "AK",
+  "name": "Alaska",
+  "employees": 5204,
+  "avgSalary": 114085,
+  "topAgencies": [
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 1671
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 1092
+    },
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 889
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 575
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 410
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 288
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 97
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 34
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 29
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 25
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 22
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 20
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 15
+    },
+    {
+      "name": "Denali Commission",
+      "code": "DQ",
+      "employees": 12
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 8
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Air Traffic Control",
+      "employees": 432,
+      "avgSalary": 136355
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 285,
+      "avgSalary": 112651
+    },
+    {
+      "name": "Transportation Specialist",
+      "employees": 271,
+      "avgSalary": 121591
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 267,
+      "avgSalary": 117536
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 179,
+      "avgSalary": 59412
+    },
+    {
+      "name": "Nurse",
+      "employees": 170,
+      "avgSalary": 145864
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 158,
+      "avgSalary": 59061
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 143,
+      "avgSalary": 132125
+    },
+    {
+      "name": "Aviation Safety",
+      "employees": 137,
+      "avgSalary": 146278
+    },
+    {
+      "name": "Maintenance Mechanic",
+      "employees": 112,
+      "avgSalary": 88700
+    },
+    {
+      "name": "Park Ranger",
+      "employees": 112,
+      "avgSalary": 98862
+    },
+    {
+      "name": "Wildlife Biology",
+      "employees": 108,
+      "avgSalary": 115333
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 105,
+      "avgSalary": 122739
+    },
+    {
+      "name": "Fish Biology",
+      "employees": 95,
+      "avgSalary": 114445
+    },
+    {
+      "name": "Forestry Technician",
+      "employees": 83,
+      "avgSalary": 83062
+    }
+  ],
+  "separations2025": 7982,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": -2.6,
+  "dogeNarrative": "Alaska employs 5,204 federal workers with an average salary of $114,085, 2.6% below the national average. DOGE workforce reductions in 2025 resulted in 7,982 separations statewide."
+}

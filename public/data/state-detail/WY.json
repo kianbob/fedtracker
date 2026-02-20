@@ -1,1 +1,164 @@
-{"code": "WY", "name": "Wyoming", "employees": 4582, "avgSalary": 95175, "topAgencies": [{"name": "Department of Veterans Affairs", "code": "VA", "employees": 1923}, {"name": "Department of Interior", "code": "IN", "employees": 1534}, {"name": "Department of Agriculture", "code": "AG", "employees": 770}, {"name": "Department of Transportation", "code": "TD", "employees": 75}, {"name": "Department of Commerce", "code": "CM", "employees": 67}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 48}, {"name": "Department of Energy", "code": "DN", "employees": 42}, {"name": "Social Security Administration", "code": "SZ", "employees": 28}, {"name": "Department of Labor", "code": "DL", "employees": 24}, {"name": "Department of Homeland Security", "code": "HS", "employees": 23}, {"name": "Department of Treasury", "code": "TR", "employees": 20}, {"name": "Department of Justice", "code": "DJ", "employees": 11}, {"name": "Small Business Administration", "code": "SB", "employees": 6}, {"name": "General Services Administration", "code": "GS", "employees": 6}, {"name": "Department of Housing and Urban Developm", "code": "HU", "employees": 2}], "topOccupations": [{"name": "Nurse", "employees": 428, "avgSalary": 129357}, {"name": "Miscellaneous Administration and Program", "employees": 207, "avgSalary": 96859}, {"name": "Forestry Technician", "employees": 196, "avgSalary": 64803}, {"name": "General Natural Resources Management and Biological Sciences", "employees": 155, "avgSalary": 96104}, {"name": "Medical Support Assistance", "employees": 149, "avgSalary": 62167}, {"name": "Miscellaneous Clerk and Assistant", "employees": 135, "avgSalary": 50422}, {"name": "Park Ranger", "employees": 129, "avgSalary": 83524}, {"name": "Pharmacist", "employees": 106, "avgSalary": 162329}, {"name": "Maintenance Mechanic", "employees": 100, "avgSalary": 74489}, {"name": "Wildland Fire Management", "employees": 93, "avgSalary": 82558}, {"name": "Nursing Assistant", "employees": 88, "avgSalary": 56387}, {"name": "Social Work", "employees": 83, "avgSalary": 112584}, {"name": "Medical Officer", "employees": 78, "avgSalary": 312982}, {"name": "Rangeland Management", "employees": 72, "avgSalary": 84366}, {"name": "Engineering Technical", "employees": 69, "avgSalary": 88151}]}
+{
+  "code": "WY",
+  "name": "Wyoming",
+  "employees": 4582,
+  "avgSalary": 95175,
+  "topAgencies": [
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 1923
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 1534
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 770
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 75
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 67
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 48
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 42
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 28
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 24
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 23
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 20
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 11
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 6
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 6
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 2
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Nurse",
+      "employees": 428,
+      "avgSalary": 129357
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 207,
+      "avgSalary": 96859
+    },
+    {
+      "name": "Forestry Technician",
+      "employees": 196,
+      "avgSalary": 64803
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 155,
+      "avgSalary": 96104
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 149,
+      "avgSalary": 62167
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 135,
+      "avgSalary": 50422
+    },
+    {
+      "name": "Park Ranger",
+      "employees": 129,
+      "avgSalary": 83524
+    },
+    {
+      "name": "Pharmacist",
+      "employees": 106,
+      "avgSalary": 162329
+    },
+    {
+      "name": "Maintenance Mechanic",
+      "employees": 100,
+      "avgSalary": 74489
+    },
+    {
+      "name": "Wildland Fire Management",
+      "employees": 93,
+      "avgSalary": 82558
+    },
+    {
+      "name": "Nursing Assistant",
+      "employees": 88,
+      "avgSalary": 56387
+    },
+    {
+      "name": "Social Work",
+      "employees": 83,
+      "avgSalary": 112584
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 78,
+      "avgSalary": 312982
+    },
+    {
+      "name": "Rangeland Management",
+      "employees": 72,
+      "avgSalary": 84366
+    },
+    {
+      "name": "Engineering Technical",
+      "employees": 69,
+      "avgSalary": 88151
+    }
+  ],
+  "separations2025": 6464,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": -18.7,
+  "dogeNarrative": "Wyoming employs 4,582 federal workers with an average salary of $95,175, 18.7% below the national average. DOGE workforce reductions in 2025 resulted in 6,464 separations statewide."
+}

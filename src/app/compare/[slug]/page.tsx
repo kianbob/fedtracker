@@ -1,245 +1,310 @@
-import { notFound } from "next/navigation";
-import Link from "next/link";
-import type { Metadata } from "next";
-import { formatNumber, formatSalary } from "@/lib/format";
 import fs from "fs";
 import path from "path";
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import { Metadata } from "next";
 
-interface Agency {
+interface AgencyData {
   code: string;
   name: string;
   employees: number;
   avgSalary: number | null;
-  retirementPct: number;
-  retirementEligible: number;
-  stemPct: number;
-  avgTenure: number;
   riskScore: number;
+  rifCount: number;
+  reductionPct: number;
+  retirementPct: number;
+  stemPct: number;
   seps2025: number;
   seps2024: number;
   sepChange: number;
-  rifCount: number;
   quitCount: number;
   quitRate: number;
   retirementCount: number;
   terminationCount: number;
-  reductionPct: number;
+  avgTenure: number;
+  retirementEligible: number;
   experienceLostYears: number;
 }
 
 interface ComparisonData {
   slug: string;
   title: string;
-  agency1: Agency;
-  agency2: Agency;
+  agency1: AgencyData;
+  agency2: AgencyData;
 }
 
-function getComparisonData(slug: string): ComparisonData | null {
-  const filePath = path.join(process.cwd(), "public", "data", "comparisons", `${slug}.json`);
-  if (!fs.existsSync(filePath)) return null;
+interface IndexEntry {
+  slug: string;
+  title: string;
+  agency1Name: string;
+  agency2Name: string;
+}
+
+function getComparison(slug: string): ComparisonData | null {
+  try {
+    const filePath = path.join(process.cwd(), "public/data/comparisons", `${slug}.json`);
+    return JSON.parse(fs.readFileSync(filePath, "utf-8"));
+  } catch {
+    return null;
+  }
+}
+
+function getIndex(): IndexEntry[] {
+  const filePath = path.join(process.cwd(), "public/data/comparisons/index.json");
   return JSON.parse(fs.readFileSync(filePath, "utf-8"));
 }
 
-export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
-  const data = getComparisonData(params.slug);
+export function generateStaticParams() {
+  return getIndex().map((entry) => ({ slug: entry.slug }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const data = getComparison(slug);
   if (!data) return { title: "Comparison Not Found — OpenFeds" };
+
+  const a1 = data.agency1;
+  const a2 = data.agency2;
+  const title = `${data.title}: Federal Agency Comparison — OpenFeds`;
+  const description = `Compare ${a1.name} (${(a1.employees).toLocaleString()} employees) vs ${a2.name} (${(a2.employees).toLocaleString()} employees). Side-by-side analysis of salaries, risk scores, RIF counts, and workforce reductions.`;
+
   return {
-    title: `${data.agency1.name} vs ${data.agency2.name} — Federal Agency Comparison — OpenFeds`,
-    description: `Side-by-side comparison of ${data.agency1.name} (${formatNumber(data.agency1.employees)} employees) and ${data.agency2.name} (${formatNumber(data.agency2.employees)} employees). Salaries, risk scores, separations, and more.`,
+    title,
+    description,
+    openGraph: { title, description },
   };
 }
 
-export function generateStaticParams() {
-  const filePath = path.join(process.cwd(), "public", "data", "comparisons", "index.json");
-  if (!fs.existsSync(filePath)) return [];
-  const index: { slug: string }[] = JSON.parse(fs.readFileSync(filePath, "utf-8"));
-  return index.map((item) => ({ slug: item.slug }));
+function fmt(val: number | null | undefined, type: "number" | "currency" | "pct" | "score" = "number"): string {
+  if (val == null) return "N/A";
+  if (type === "currency") return "$" + val.toLocaleString();
+  if (type === "pct") return val.toFixed(1) + "%";
+  if (type === "score") return val.toString() + "/100";
+  return val.toLocaleString();
 }
 
-export const dynamicParams = true;
+type Direction = "lower" | "higher" | "neutral";
 
-type MetricRow = {
+interface Metric {
   label: string;
-  val1: string;
-  val2: string;
-  /** 1 = agency1 is better, 2 = agency2 is better, 0 = neutral */
-  better: 0 | 1 | 2;
-};
-
-function pct(n: number | null | undefined): string {
-  if (n == null || isNaN(n)) return "N/A";
-  return `${n.toFixed(1)}%`;
+  key: keyof AgencyData;
+  type: "number" | "currency" | "pct" | "score";
+  better: Direction;
 }
 
-function num(n: number | null | undefined): string {
-  if (n == null || isNaN(n)) return "N/A";
-  return n.toLocaleString();
+const metrics: Metric[] = [
+  { label: "Employees", key: "employees", type: "number", better: "neutral" },
+  { label: "Avg Salary", key: "avgSalary", type: "currency", better: "higher" },
+  { label: "Risk Score", key: "riskScore", type: "score", better: "lower" },
+  { label: "RIF Count", key: "rifCount", type: "number", better: "lower" },
+  { label: "Reduction %", key: "reductionPct", type: "pct", better: "lower" },
+  { label: "Retirement %", key: "retirementPct", type: "pct", better: "lower" },
+  { label: "STEM %", key: "stemPct", type: "pct", better: "higher" },
+  { label: "2025 Separations", key: "seps2025", type: "number", better: "lower" },
+  { label: "Avg Tenure (yrs)", key: "avgTenure", type: "number", better: "higher" },
+  { label: "Quit Rate %", key: "quitRate", type: "pct", better: "lower" },
+];
+
+function getColor(v1: number | null, v2: number | null, better: Direction, isFirst: boolean): string {
+  if (better === "neutral" || v1 == null || v2 == null || v1 === v2) return "";
+  const firstBetter = better === "lower" ? v1 < v2 : v1 > v2;
+  if (isFirst) return firstBetter ? "text-green-600 font-semibold" : "text-red-600";
+  return firstBetter ? "text-red-600" : "text-green-600 font-semibold";
 }
 
-function buildRows(a1: Agency, a2: Agency): MetricRow[] {
-  // Helper: higher is better (1), lower is better (-1), neutral (0)
-  function compare(v1: number | null, v2: number | null, higherIsBetter: boolean): 0 | 1 | 2 {
-    if (v1 == null || v2 == null || v1 === v2) return 0;
-    if (higherIsBetter) return v1 > v2 ? 1 : 2;
-    return v1 < v2 ? 1 : 2;
+function generateSummary(a1: AgencyData, a2: AgencyData): string {
+  const parts: string[] = [];
+
+  // Size comparison
+  const bigger = a1.employees > a2.employees ? a1 : a2;
+  const smaller = a1.employees > a2.employees ? a2 : a1;
+  const ratio = (bigger.employees / smaller.employees).toFixed(1);
+  parts.push(`${bigger.name} is ${ratio}x larger than ${smaller.name} with ${bigger.employees.toLocaleString()} employees compared to ${smaller.employees.toLocaleString()}.`);
+
+  // Risk comparison
+  const riskier = a1.riskScore > a2.riskScore ? a1 : a2;
+  const safer = a1.riskScore > a2.riskScore ? a2 : a1;
+  parts.push(`${riskier.name} faces higher workforce risk with a score of ${riskier.riskScore}/100 vs ${safer.riskScore}/100 for ${safer.name}.`);
+
+  // Salary comparison
+  if (a1.avgSalary && a2.avgSalary) {
+    const higherPay = a1.avgSalary > a2.avgSalary ? a1 : a2;
+    const lowerPay = a1.avgSalary > a2.avgSalary ? a2 : a1;
+    const diff = higherPay.avgSalary! - lowerPay.avgSalary!;
+    parts.push(`${higherPay.name} pays $${diff.toLocaleString()} more on average ($${higherPay.avgSalary!.toLocaleString()} vs $${lowerPay.avgSalary!.toLocaleString()}).`);
   }
 
-  return [
-    {
-      label: "Total Employees",
-      val1: formatNumber(a1.employees),
-      val2: formatNumber(a2.employees),
-      better: compare(a1.employees, a2.employees, true),
-    },
-    {
-      label: "Average Salary",
-      val1: formatSalary(a1.avgSalary),
-      val2: formatSalary(a2.avgSalary),
-      better: compare(a1.avgSalary, a2.avgSalary, true),
-    },
-    {
-      label: "Risk Score",
-      val1: a1.riskScore.toString(),
-      val2: a2.riskScore.toString(),
-      better: compare(a1.riskScore, a2.riskScore, false),
-    },
-    {
-      label: "RIF Count",
-      val1: num(a1.rifCount),
-      val2: num(a2.rifCount),
-      better: compare(a1.rifCount, a2.rifCount, false),
-    },
-    {
-      label: "Workforce Reduction",
-      val1: pct(a1.reductionPct),
-      val2: pct(a2.reductionPct),
-      better: compare(a1.reductionPct, a2.reductionPct, false),
-    },
-    {
-      label: "Retirement Eligible",
-      val1: pct(a1.retirementPct),
-      val2: pct(a2.retirementPct),
-      better: compare(a1.retirementPct, a2.retirementPct, false),
-    },
-    {
-      label: "STEM Workforce",
-      val1: pct(a1.stemPct),
-      val2: pct(a2.stemPct),
-      better: compare(a1.stemPct, a2.stemPct, true),
-    },
-    {
-      label: "Avg Tenure (years)",
-      val1: a1.avgTenure.toFixed(1),
-      val2: a2.avgTenure.toFixed(1),
-      better: compare(a1.avgTenure, a2.avgTenure, true),
-    },
-    {
-      label: "2025 Separations",
-      val1: num(a1.seps2025),
-      val2: num(a2.seps2025),
-      better: compare(a1.seps2025, a2.seps2025, false),
-    },
-    {
-      label: "Separation Change YoY",
-      val1: `${a1.sepChange > 0 ? "+" : ""}${pct(a1.sepChange)}`,
-      val2: `${a2.sepChange > 0 ? "+" : ""}${pct(a2.sepChange)}`,
-      better: compare(a1.sepChange, a2.sepChange, false),
-    },
-    {
-      label: "Quit Rate",
-      val1: pct(a1.quitRate),
-      val2: pct(a2.quitRate),
-      better: compare(a1.quitRate, a2.quitRate, false),
-    },
-    {
-      label: "Terminations",
-      val1: num(a1.terminationCount),
-      val2: num(a2.terminationCount),
-      better: compare(a1.terminationCount, a2.terminationCount, false),
-    },
-    {
-      label: "Experience Lost (years)",
-      val1: num(a1.experienceLostYears),
-      val2: num(a2.experienceLostYears),
-      better: compare(a1.experienceLostYears, a2.experienceLostYears, false),
-    },
-  ];
+  // Reduction comparison
+  const moreReduced = a1.reductionPct > a2.reductionPct ? a1 : a2;
+  parts.push(`${moreReduced.name} has seen steeper workforce reductions at ${moreReduced.reductionPct.toFixed(1)}% compared to ${(a1 === moreReduced ? a2 : a1).reductionPct.toFixed(1)}% for ${(a1 === moreReduced ? a2 : a1).name}.`);
+
+  return parts.join(" ");
 }
 
-export default async function ComparisonPage({ params }: { params: { slug: string } }) {
-  const data = getComparisonData(params.slug);
+export default async function ComparisonPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const data = getComparison(slug);
   if (!data) notFound();
 
-  const { agency1, agency2 } = data;
-  const rows = buildRows(agency1, agency2);
+  const { agency1: a1, agency2: a2 } = data;
+  const summary = generateSummary(a1, a2);
+
+  // Bar chart data
+  const barMetrics = [
+    { label: "Risk Score", v1: a1.riskScore, v2: a2.riskScore, max: 100 },
+    { label: "Reduction %", v1: a1.reductionPct, v2: a2.reductionPct, max: Math.max(a1.reductionPct, a2.reductionPct) * 1.2 },
+    { label: "STEM %", v1: a1.stemPct, v2: a2.stemPct, max: Math.max(a1.stemPct, a2.stemPct, 1) * 1.2 },
+    { label: "Retirement %", v1: a1.retirementPct, v2: a2.retirementPct, max: Math.max(a1.retirementPct, a2.retirementPct) * 1.2 },
+  ];
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: `How do ${a1.name} and ${a2.name} compare?`,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: summary,
+        },
+      },
+      {
+        "@type": "Question",
+        name: `Which agency has more employees, ${a1.name} or ${a2.name}?`,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: `${a1.name} has ${a1.employees.toLocaleString()} employees while ${a2.name} has ${a2.employees.toLocaleString()} employees.`,
+        },
+      },
+    ],
+  };
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-12">
+    <div className="max-w-5xl mx-auto px-4 py-8">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
       <nav className="text-sm text-gray-500 mb-6">
+        <Link href="/" className="hover:text-indigo-600">Home</Link>
+        {" / "}
         <Link href="/compare" className="hover:text-indigo-600">Compare</Link>
-        <span className="mx-2">›</span>
-        <span>{data.title}</span>
+        {" / "}
+        <span className="text-gray-900">{data.title}</span>
       </nav>
 
-      <h1 className="font-serif text-3xl sm:text-4xl font-bold text-gray-900 mb-2">
-        {data.title}
+      <h1 className="font-heading text-3xl md:text-4xl font-bold text-center mb-2">
+        <Link href={`/agency/${a1.code}`} className="text-indigo-600 hover:text-indigo-800">{a1.name}</Link>
+        <span className="text-gray-400 mx-3">vs</span>
+        <Link href={`/agency/${a2.code}`} className="text-indigo-600 hover:text-indigo-800">{a2.name}</Link>
       </h1>
-      <p className="text-gray-500 mb-8">
-        Side-by-side federal agency comparison
-      </p>
+      <p className="text-center text-gray-500 mb-8">Federal Agency Comparison</p>
 
-      <div className="bg-white border border-gray-200 rounded-xl overflow-hidden">
-        <table className="w-full text-sm">
+      {/* Comparison Table */}
+      <div className="bg-white rounded-xl shadow-md overflow-hidden mb-8">
+        <table className="w-full">
           <thead>
-            <tr className="border-b border-gray-200 bg-gray-50">
-              <th className="text-left px-4 py-3 font-medium text-gray-600 w-1/3">Metric</th>
-              <th className="text-right px-4 py-3 font-medium text-gray-600 w-1/3">
-                <Link href={`/agencies/${agency1.code}`} className="text-indigo-600 hover:text-indigo-800">
-                  {agency1.name}
-                </Link>
-              </th>
-              <th className="text-right px-4 py-3 font-medium text-gray-600 w-1/3">
-                <Link href={`/agencies/${agency2.code}`} className="text-indigo-600 hover:text-indigo-800">
-                  {agency2.name}
-                </Link>
-              </th>
+            <tr className="bg-gray-50 border-b">
+              <th className="text-left px-4 py-3 text-sm font-semibold text-gray-600">Metric</th>
+              <th className="text-right px-4 py-3 text-sm font-semibold text-indigo-600">{a1.name}</th>
+              <th className="text-right px-4 py-3 text-sm font-semibold text-indigo-600">{a2.name}</th>
             </tr>
           </thead>
-          <tbody className="divide-y divide-gray-100">
-            {rows.map((row) => (
-              <tr key={row.label} className="hover:bg-gray-50">
-                <td className="px-4 py-3 text-gray-700 font-medium">{row.label}</td>
-                <td className={`px-4 py-3 text-right tabular-nums ${
-                  row.better === 1 ? "text-green-700 font-semibold" :
-                  row.better === 2 ? "text-red-600" : "text-gray-900"
-                }`}>
-                  {row.val1}
-                </td>
-                <td className={`px-4 py-3 text-right tabular-nums ${
-                  row.better === 2 ? "text-green-700 font-semibold" :
-                  row.better === 1 ? "text-red-600" : "text-gray-900"
-                }`}>
-                  {row.val2}
-                </td>
-              </tr>
-            ))}
+          <tbody>
+            {metrics.map((m, i) => {
+              const v1 = a1[m.key] as number | null;
+              const v2 = a2[m.key] as number | null;
+              return (
+                <tr key={m.key} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
+                  <td className="px-4 py-3 text-sm text-gray-700 font-medium">{m.label}</td>
+                  <td className={`px-4 py-3 text-sm text-right ${getColor(v1, v2, m.better, true)}`}>
+                    {fmt(v1, m.type)}
+                  </td>
+                  <td className={`px-4 py-3 text-sm text-right ${getColor(v1, v2, m.better, false)}`}>
+                    {fmt(v2, m.type)}
+                  </td>
+                </tr>
+              );
+            })}
           </tbody>
         </table>
       </div>
 
-      <div className="mt-8 flex flex-wrap gap-4">
+      {/* Visual Comparison */}
+      <div className="bg-white rounded-xl shadow-md p-6 mb-8">
+        <h2 className="font-heading text-xl font-bold mb-4">Visual Comparison</h2>
+        <div className="space-y-4">
+          {barMetrics.map((bm) => (
+            <div key={bm.label}>
+              <p className="text-sm font-medium text-gray-700 mb-1">{bm.label}</p>
+              <div className="flex items-center gap-2">
+                <span className="text-xs text-gray-500 w-10 text-right">{bm.v1.toFixed(1)}</span>
+                <div className="flex-1 flex gap-1">
+                  <div
+                    className="h-5 bg-indigo-500 rounded-l"
+                    style={{ width: `${Math.min((bm.v1 / bm.max) * 100, 100)}%` }}
+                  />
+                </div>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="text-xs text-gray-500 w-10 text-right">{bm.v2.toFixed(1)}</span>
+                <div className="flex-1 flex gap-1">
+                  <div
+                    className="h-5 bg-amber-500 rounded-l"
+                    style={{ width: `${Math.min((bm.v2 / bm.max) * 100, 100)}%` }}
+                  />
+                </div>
+              </div>
+              <div className="flex text-xs text-gray-400 mt-0.5 gap-4">
+                <span className="flex items-center gap-1"><span className="w-2 h-2 bg-indigo-500 rounded-sm inline-block" /> {a1.name}</span>
+                <span className="flex items-center gap-1"><span className="w-2 h-2 bg-amber-500 rounded-sm inline-block" /> {a2.name}</span>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Summary */}
+      <div className="bg-white rounded-xl shadow-md p-6 mb-8">
+        <h2 className="font-heading text-xl font-bold mb-3">Analysis</h2>
+        <p className="text-gray-700 leading-relaxed">{summary}</p>
+      </div>
+
+      {/* Links */}
+      <div className="flex flex-col sm:flex-row gap-4 justify-center">
         <Link
-          href={`/agencies/${agency1.code}`}
-          className="inline-flex items-center px-4 py-2 bg-indigo-600 text-white rounded-lg text-sm font-medium hover:bg-indigo-700"
+          href={`/agency/${a1.code}`}
+          className="px-6 py-3 bg-indigo-600 text-white rounded-lg text-center hover:bg-indigo-700 transition"
         >
-          View {agency1.name} →
+          View {a1.name} Details →
         </Link>
         <Link
-          href={`/agencies/${agency2.code}`}
-          className="inline-flex items-center px-4 py-2 bg-indigo-600 text-white rounded-lg text-sm font-medium hover:bg-indigo-700"
+          href={`/agency/${a2.code}`}
+          className="px-6 py-3 bg-indigo-600 text-white rounded-lg text-center hover:bg-indigo-700 transition"
         >
-          View {agency2.name} →
+          View {a2.name} Details →
         </Link>
+      </div>
+
+      {/* Other Comparisons */}
+      <div className="mt-12">
+        <h2 className="font-heading text-xl font-bold mb-4">More Comparisons</h2>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+          {getIndex()
+            .filter((e) => e.slug !== slug)
+            .slice(0, 9)
+            .map((e) => (
+              <Link
+                key={e.slug}
+                href={`/compare/${e.slug}`}
+                className="px-3 py-2 bg-gray-50 rounded-lg text-sm text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 transition"
+              >
+                {e.title}
+              </Link>
+            ))}
+        </div>
       </div>
     </div>
   );

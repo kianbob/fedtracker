@@ -1,1 +1,164 @@
-{"code": "CT", "name": "Connecticut", "employees": 4985, "avgSalary": 122399, "topAgencies": [{"name": "Department of Veterans Affairs", "code": "VA", "employees": 3638}, {"name": "Social Security Administration", "code": "SZ", "employees": 268}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 168}, {"name": "Department of Justice", "code": "DJ", "employees": 149}, {"name": "Department of Transportation", "code": "TD", "employees": 149}, {"name": "Department of Treasury", "code": "TR", "employees": 135}, {"name": "Department of Agriculture", "code": "AG", "employees": 104}, {"name": "Department of Commerce", "code": "CM", "employees": 78}, {"name": "Department of Labor", "code": "DL", "employees": 55}, {"name": "Department of Interior", "code": "IN", "employees": 43}, {"name": "Department of State", "code": "ST", "employees": 43}, {"name": "Federal Deposit Insurance Corporation", "code": "FD", "employees": 38}, {"name": "General Services Administration", "code": "GS", "employees": 31}, {"name": "Department of Housing and Urban Developm", "code": "HU", "employees": 27}, {"name": "Department of Homeland Security", "code": "HS", "employees": 21}], "topOccupations": [{"name": "Nurse", "employees": 765, "avgSalary": 131345}, {"name": "Medical Officer", "employees": 393, "avgSalary": 294897}, {"name": "Medical Support Assistance", "employees": 269, "avgSalary": 60409}, {"name": "Social Work", "employees": 167, "avgSalary": 103008}, {"name": "Social Insurance Administration", "employees": 164, "avgSalary": 110618}, {"name": "Custodial Working", "employees": 133, "avgSalary": 47705}, {"name": "General Health Science", "employees": 127, "avgSalary": 118237}, {"name": "Management and Program Analysis", "employees": 118, "avgSalary": 132651}, {"name": "Veterans Claims Examining", "employees": 117, "avgSalary": 96062}, {"name": "Psychology", "employees": 114, "avgSalary": 127992}, {"name": "Miscellaneous Administration and Program", "employees": 104, "avgSalary": 115854}, {"name": "Pharmacist", "employees": 102, "avgSalary": 146473}, {"name": "Nursing Assistant", "employees": 90, "avgSalary": 57271}, {"name": "Practical Nurse", "employees": 82, "avgSalary": 72757}, {"name": "Health System Specialist", "employees": 78, "avgSalary": 103574}]}
+{
+  "code": "CT",
+  "name": "Connecticut",
+  "employees": 4985,
+  "avgSalary": 122399,
+  "topAgencies": [
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 3638
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 268
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 168
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 149
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 149
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 135
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 104
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 78
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 55
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 43
+    },
+    {
+      "name": "Department of State",
+      "code": "ST",
+      "employees": 43
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 38
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 31
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 27
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 21
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Nurse",
+      "employees": 765,
+      "avgSalary": 131345
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 393,
+      "avgSalary": 294897
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 269,
+      "avgSalary": 60409
+    },
+    {
+      "name": "Social Work",
+      "employees": 167,
+      "avgSalary": 103008
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 164,
+      "avgSalary": 110618
+    },
+    {
+      "name": "Custodial Working",
+      "employees": 133,
+      "avgSalary": 47705
+    },
+    {
+      "name": "General Health Science",
+      "employees": 127,
+      "avgSalary": 118237
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 118,
+      "avgSalary": 132651
+    },
+    {
+      "name": "Veterans Claims Examining",
+      "employees": 117,
+      "avgSalary": 96062
+    },
+    {
+      "name": "Psychology",
+      "employees": 114,
+      "avgSalary": 127992
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 104,
+      "avgSalary": 115854
+    },
+    {
+      "name": "Pharmacist",
+      "employees": 102,
+      "avgSalary": 146473
+    },
+    {
+      "name": "Nursing Assistant",
+      "employees": 90,
+      "avgSalary": 57271
+    },
+    {
+      "name": "Practical Nurse",
+      "employees": 82,
+      "avgSalary": 72757
+    },
+    {
+      "name": "Health System Specialist",
+      "employees": 78,
+      "avgSalary": 103574
+    }
+  ],
+  "separations2025": 3568,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": 4.5,
+  "dogeNarrative": "Connecticut employs 4,985 federal workers with an average salary of $122,399, 4.5% above the national average. DOGE workforce reductions in 2025 resulted in 3,568 separations statewide."
+}

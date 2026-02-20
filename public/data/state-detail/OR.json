@@ -1,1 +1,164 @@
-{"code": "OR", "name": "Oregon", "employees": 14854, "avgSalary": 106920, "topAgencies": [{"name": "Department of Veterans Affairs", "code": "VA", "employees": 6030}, {"name": "Department of Agriculture", "code": "AG", "employees": 2975}, {"name": "Department of Interior", "code": "IN", "employees": 2198}, {"name": "Department of Energy", "code": "DN", "employees": 1299}, {"name": "Department of Commerce", "code": "CM", "employees": 425}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 343}, {"name": "Department of Treasury", "code": "TR", "employees": 310}, {"name": "Department of Transportation", "code": "TD", "employees": 301}, {"name": "Social Security Administration", "code": "SZ", "employees": 298}, {"name": "Department of Justice", "code": "DJ", "employees": 178}, {"name": "Department of Homeland Security", "code": "HS", "employees": 167}, {"name": "Environmental Protection Agency", "code": "EP", "employees": 107}, {"name": "Department of Labor", "code": "DL", "employees": 53}, {"name": "Federal Deposit Insurance Corporation", "code": "FD", "employees": 37}, {"name": "General Services Administration", "code": "GS", "employees": 35}], "topOccupations": [{"name": "Nurse", "employees": 1351, "avgSalary": 138722}, {"name": "Forestry Technician", "employees": 760, "avgSalary": 69517}, {"name": "Miscellaneous Administration and Program", "employees": 716, "avgSalary": 100112}, {"name": "Medical Support Assistance", "employees": 594, "avgSalary": 59917}, {"name": "General Natural Resources Management and Biological Sciences", "employees": 529, "avgSalary": 103044}, {"name": "Medical Officer", "employees": 406, "avgSalary": 318954}, {"name": "Information Technology Management", "employees": 350, "avgSalary": 128570}, {"name": "Social Work", "employees": 334, "avgSalary": 110057}, {"name": "Management and Program Analysis", "employees": 319, "avgSalary": 116358}, {"name": "Miscellaneous Clerk and Assistant", "employees": 266, "avgSalary": 52787}, {"name": "Forestry", "employees": 230, "avgSalary": 86365}, {"name": "Biological Science Technician", "employees": 218, "avgSalary": 55830}, {"name": "Pharmacist", "employees": 199, "avgSalary": 165156}, {"name": "Contact Representative", "employees": 198, "avgSalary": 67452}, {"name": "Social Insurance Administration", "employees": 193, "avgSalary": 99685}]}
+{
+  "code": "OR",
+  "name": "Oregon",
+  "employees": 14854,
+  "avgSalary": 106920,
+  "topAgencies": [
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 6030
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 2975
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 2198
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 1299
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 425
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 343
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 310
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 301
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 298
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 178
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 167
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 107
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 53
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 37
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 35
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Nurse",
+      "employees": 1351,
+      "avgSalary": 138722
+    },
+    {
+      "name": "Forestry Technician",
+      "employees": 760,
+      "avgSalary": 69517
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 716,
+      "avgSalary": 100112
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 594,
+      "avgSalary": 59917
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 529,
+      "avgSalary": 103044
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 406,
+      "avgSalary": 318954
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 350,
+      "avgSalary": 128570
+    },
+    {
+      "name": "Social Work",
+      "employees": 334,
+      "avgSalary": 110057
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 319,
+      "avgSalary": 116358
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 266,
+      "avgSalary": 52787
+    },
+    {
+      "name": "Forestry",
+      "employees": 230,
+      "avgSalary": 86365
+    },
+    {
+      "name": "Biological Science Technician",
+      "employees": 218,
+      "avgSalary": 55830
+    },
+    {
+      "name": "Pharmacist",
+      "employees": 199,
+      "avgSalary": 165156
+    },
+    {
+      "name": "Contact Representative",
+      "employees": 198,
+      "avgSalary": 67452
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 193,
+      "avgSalary": 99685
+    }
+  ],
+  "separations2025": 15279,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": -8.7,
+  "dogeNarrative": "Oregon employs 14,854 federal workers with an average salary of $106,920, 8.7% below the national average. DOGE workforce reductions in 2025 resulted in 15,279 separations statewide."
+}

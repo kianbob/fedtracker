@@ -1,1 +1,164 @@
-{"code": "SD", "name": "South Dakota", "employees": 6723, "avgSalary": 92322, "topAgencies": [{"name": "Department of Veterans Affairs", "code": "VA", "employees": 2895}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 1296}, {"name": "Department of Interior", "code": "IN", "employees": 1014}, {"name": "Department of Agriculture", "code": "AG", "employees": 844}, {"name": "Department of Energy", "code": "DN", "employees": 190}, {"name": "Department of Commerce", "code": "CM", "employees": 92}, {"name": "Department of Transportation", "code": "TD", "employees": 88}, {"name": "Department of Justice", "code": "DJ", "employees": 79}, {"name": "Social Security Administration", "code": "SZ", "employees": 72}, {"name": "Department of Treasury", "code": "TR", "employees": 43}, {"name": "Federal Deposit Insurance Corporation", "code": "FD", "employees": 39}, {"name": "Department of Homeland Security", "code": "HS", "employees": 38}, {"name": "Department of Labor", "code": "DL", "employees": 21}, {"name": "Small Business Administration", "code": "SB", "employees": 5}, {"name": "General Services Administration", "code": "GS", "employees": 4}], "topOccupations": [{"name": "Nurse", "employees": 860, "avgSalary": 107796}, {"name": "Medical Support Assistance", "employees": 314, "avgSalary": 51297}, {"name": "Miscellaneous Clerk and Assistant", "employees": 197, "avgSalary": 66912}, {"name": "Miscellaneous Administration and Program", "employees": 173, "avgSalary": 92302}, {"name": "Custodial Working", "employees": 164, "avgSalary": 43667}, {"name": "Medical Officer", "employees": 136, "avgSalary": 321219}, {"name": "Social Work", "employees": 133, "avgSalary": 91329}, {"name": "Pharmacist", "employees": 133, "avgSalary": 150672}, {"name": "Information Technology Management", "employees": 132, "avgSalary": 113294}, {"name": "Health Aid and Technician", "employees": 124, "avgSalary": 54279}, {"name": "General Natural Resources Management and Biological Sciences", "employees": 123, "avgSalary": 89523}, {"name": "Veterans Claims Examining", "employees": 119, "avgSalary": 82122}, {"name": "Practical Nurse", "employees": 116, "avgSalary": 70608}, {"name": "Soil Conservation", "employees": 114, "avgSalary": 85135}, {"name": "Forestry Technician", "employees": 107, "avgSalary": 67504}]}
+{
+  "code": "SD",
+  "name": "South Dakota",
+  "employees": 6723,
+  "avgSalary": 92322,
+  "topAgencies": [
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 2895
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 1296
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 1014
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 844
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 190
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 92
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 88
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 79
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 72
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 43
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 39
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 38
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 21
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 5
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 4
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Nurse",
+      "employees": 860,
+      "avgSalary": 107796
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 314,
+      "avgSalary": 51297
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 197,
+      "avgSalary": 66912
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 173,
+      "avgSalary": 92302
+    },
+    {
+      "name": "Custodial Working",
+      "employees": 164,
+      "avgSalary": 43667
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 136,
+      "avgSalary": 321219
+    },
+    {
+      "name": "Social Work",
+      "employees": 133,
+      "avgSalary": 91329
+    },
+    {
+      "name": "Pharmacist",
+      "employees": 133,
+      "avgSalary": 150672
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 132,
+      "avgSalary": 113294
+    },
+    {
+      "name": "Health Aid and Technician",
+      "employees": 124,
+      "avgSalary": 54279
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 123,
+      "avgSalary": 89523
+    },
+    {
+      "name": "Veterans Claims Examining",
+      "employees": 119,
+      "avgSalary": 82122
+    },
+    {
+      "name": "Practical Nurse",
+      "employees": 116,
+      "avgSalary": 70608
+    },
+    {
+      "name": "Soil Conservation",
+      "employees": 114,
+      "avgSalary": 85135
+    },
+    {
+      "name": "Forestry Technician",
+      "employees": 107,
+      "avgSalary": 67504
+    }
+  ],
+  "separations2025": 5435,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": -21.2,
+  "dogeNarrative": "South Dakota employs 6,723 federal workers with an average salary of $92,322, 21.2% below the national average. DOGE workforce reductions in 2025 resulted in 5,435 separations statewide."
+}

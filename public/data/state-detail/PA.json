@@ -1,1 +1,164 @@
-{"code": "PA", "name": "Pennsylvania", "employees": 37317, "avgSalary": 104601, "topAgencies": [{"name": "Department of Veterans Affairs", "code": "VA", "employees": 17875}, {"name": "Department of Treasury", "code": "TR", "employees": 5091}, {"name": "Social Security Administration", "code": "SZ", "employees": 3204}, {"name": "Department of Justice", "code": "DJ", "employees": 1498}, {"name": "Department of Agriculture", "code": "AG", "employees": 1198}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 1019}, {"name": "Department of Interior", "code": "IN", "employees": 908}, {"name": "Department of Transportation", "code": "TD", "employees": 894}, {"name": "Department of Homeland Security", "code": "HS", "employees": 769}, {"name": "Department of Commerce", "code": "CM", "employees": 754}, {"name": "Office of Personnel Management", "code": "OM", "employees": 707}, {"name": "Environmental Protection Agency", "code": "EP", "employees": 696}, {"name": "Department of Labor", "code": "DL", "employees": 663}, {"name": "General Services Administration", "code": "GS", "employees": 600}, {"name": "Department of Energy", "code": "DN", "employees": 421}], "topOccupations": [{"name": "Nurse", "employees": 3619, "avgSalary": 121133}, {"name": "Contact Representative", "employees": 3467, "avgSalary": 64129}, {"name": "Medical Support Assistance", "employees": 1241, "avgSalary": 55364}, {"name": "Social Insurance Administration", "employees": 1215, "avgSalary": 103027}, {"name": "Medical Officer", "employees": 1177, "avgSalary": 300975}, {"name": "Miscellaneous Clerk and Assistant", "employees": 1082, "avgSalary": 52785}, {"name": "Miscellaneous Administration and Program", "employees": 1036, "avgSalary": 109436}, {"name": "Tax Examining", "employees": 990, "avgSalary": 60559}, {"name": "Management and Program Analysis", "employees": 977, "avgSalary": 124740}, {"name": "Veterans Claims Examining", "employees": 792, "avgSalary": 94711}, {"name": "Social Work", "employees": 783, "avgSalary": 101996}, {"name": "Information Technology Management", "employees": 719, "avgSalary": 134888}, {"name": "Practical Nurse", "employees": 696, "avgSalary": 71672}, {"name": "Human Resources Management", "employees": 646, "avgSalary": 119895}, {"name": "General Legal and Kindred Administration", "employees": 601, "avgSalary": 81258}]}
+{
+  "code": "PA",
+  "name": "Pennsylvania",
+  "employees": 37317,
+  "avgSalary": 104601,
+  "topAgencies": [
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 17875
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 5091
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 3204
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 1498
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 1198
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 1019
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 908
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 894
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 769
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 754
+    },
+    {
+      "name": "Office of Personnel Management",
+      "code": "OM",
+      "employees": 707
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 696
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 663
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 600
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 421
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Nurse",
+      "employees": 3619,
+      "avgSalary": 121133
+    },
+    {
+      "name": "Contact Representative",
+      "employees": 3467,
+      "avgSalary": 64129
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 1241,
+      "avgSalary": 55364
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 1215,
+      "avgSalary": 103027
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 1177,
+      "avgSalary": 300975
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 1082,
+      "avgSalary": 52785
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 1036,
+      "avgSalary": 109436
+    },
+    {
+      "name": "Tax Examining",
+      "employees": 990,
+      "avgSalary": 60559
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 977,
+      "avgSalary": 124740
+    },
+    {
+      "name": "Veterans Claims Examining",
+      "employees": 792,
+      "avgSalary": 94711
+    },
+    {
+      "name": "Social Work",
+      "employees": 783,
+      "avgSalary": 101996
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 719,
+      "avgSalary": 134888
+    },
+    {
+      "name": "Practical Nurse",
+      "employees": 696,
+      "avgSalary": 71672
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 646,
+      "avgSalary": 119895
+    },
+    {
+      "name": "General Legal and Kindred Administration",
+      "employees": 601,
+      "avgSalary": 81258
+    }
+  ],
+  "separations2025": 23718,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": -10.7,
+  "dogeNarrative": "Pennsylvania employs 37,317 federal workers with an average salary of $104,601, 10.7% below the national average. DOGE workforce reductions in 2025 resulted in 23,718 separations statewide."
+}

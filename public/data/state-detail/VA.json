@@ -1,1 +1,164 @@
-{"code": "VA", "name": "Virginia", "employees": 43076, "avgSalary": 132853, "topAgencies": [{"name": "Department of Veterans Affairs", "code": "VA", "employees": 12027}, {"name": "Department of Homeland Security", "code": "HS", "employees": 7991}, {"name": "Department of Commerce", "code": "CM", "employees": 7172}, {"name": "Department of Interior", "code": "IN", "employees": 2754}, {"name": "Department of Transportation", "code": "TD", "employees": 2082}, {"name": "Nat Aeronautics and Space Administration", "code": "NN", "employees": 1873}, {"name": "Department of Justice", "code": "DJ", "employees": 1555}, {"name": "Department of Agriculture", "code": "AG", "employees": 1426}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 1317}, {"name": "National Science Foundation", "code": "NF", "employees": 1044}, {"name": "Department of Treasury", "code": "TR", "employees": 767}, {"name": "Social Security Administration", "code": "SZ", "employees": 619}, {"name": "Department of State", "code": "ST", "employees": 433}, {"name": "General Services Administration", "code": "GS", "employees": 364}, {"name": "National Credit Union Administration", "code": "CU", "employees": 352}], "topOccupations": [{"name": "Patent Examining", "employees": 3917, "avgSalary": 161618}, {"name": "Information Technology Management", "employees": 3310, "avgSalary": 155252}, {"name": "Management and Program Analysis", "employees": 3157, "avgSalary": 140673}, {"name": "Nurse", "employees": 2540, "avgSalary": 129233}, {"name": "Miscellaneous Administration and Program", "employees": 2503, "avgSalary": 133612}, {"name": "General Attorney", "employees": 1424, "avgSalary": 171514}, {"name": "Contracting", "employees": 1087, "avgSalary": 139932}, {"name": "Human Resources Management", "employees": 1066, "avgSalary": 132786}, {"name": "Medical Support Assistance", "employees": 1044, "avgSalary": 57603}, {"name": "Air Traffic Control", "employees": 1010, "avgSalary": 180244}, {"name": "Medical Officer", "employees": 821, "avgSalary": 314621}, {"name": "Financial Administration and Program", "employees": 697, "avgSalary": 128030}, {"name": "Emergency Management Specialist", "employees": 570, "avgSalary": 104874}, {"name": "Aerospace Engineering", "employees": 547, "avgSalary": 145244}, {"name": "Social Work", "employees": 538, "avgSalary": 103138}]}
+{
+  "code": "VA",
+  "name": "Virginia",
+  "employees": 43076,
+  "avgSalary": 132853,
+  "topAgencies": [
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 12027
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 7991
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 7172
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 2754
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 2082
+    },
+    {
+      "name": "Nat Aeronautics and Space Administration",
+      "code": "NN",
+      "employees": 1873
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 1555
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 1426
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 1317
+    },
+    {
+      "name": "National Science Foundation",
+      "code": "NF",
+      "employees": 1044
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 767
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 619
+    },
+    {
+      "name": "Department of State",
+      "code": "ST",
+      "employees": 433
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 364
+    },
+    {
+      "name": "National Credit Union Administration",
+      "code": "CU",
+      "employees": 352
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Patent Examining",
+      "employees": 3917,
+      "avgSalary": 161618
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 3310,
+      "avgSalary": 155252
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 3157,
+      "avgSalary": 140673
+    },
+    {
+      "name": "Nurse",
+      "employees": 2540,
+      "avgSalary": 129233
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 2503,
+      "avgSalary": 133612
+    },
+    {
+      "name": "General Attorney",
+      "employees": 1424,
+      "avgSalary": 171514
+    },
+    {
+      "name": "Contracting",
+      "employees": 1087,
+      "avgSalary": 139932
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 1066,
+      "avgSalary": 132786
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 1044,
+      "avgSalary": 57603
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 1010,
+      "avgSalary": 180244
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 821,
+      "avgSalary": 314621
+    },
+    {
+      "name": "Financial Administration and Program",
+      "employees": 697,
+      "avgSalary": 128030
+    },
+    {
+      "name": "Emergency Management Specialist",
+      "employees": 570,
+      "avgSalary": 104874
+    },
+    {
+      "name": "Aerospace Engineering",
+      "employees": 547,
+      "avgSalary": 145244
+    },
+    {
+      "name": "Social Work",
+      "employees": 538,
+      "avgSalary": 103138
+    }
+  ],
+  "separations2025": 59308,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": 13.4,
+  "dogeNarrative": "As part of the Pentagon corridor, Virginia houses DOD, intelligence agencies, and a massive contractor workforce. DOGE-driven cuts ripple through Northern Virginia communities deeply tied to federal spending."
+}

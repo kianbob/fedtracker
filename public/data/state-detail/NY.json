@@ -1,1 +1,164 @@
-{"code": "NY", "name": "New York", "employees": 36885, "avgSalary": 114577, "topAgencies": [{"name": "Department of Veterans Affairs", "code": "VA", "employees": 17755}, {"name": "Department of Treasury", "code": "TR", "employees": 4540}, {"name": "Social Security Administration", "code": "SZ", "employees": 3054}, {"name": "Department of Transportation", "code": "TD", "employees": 2253}, {"name": "Department of Homeland Security", "code": "HS", "employees": 1412}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 1039}, {"name": "Department of Commerce", "code": "CM", "employees": 968}, {"name": "Department of Agriculture", "code": "AG", "employees": 812}, {"name": "Department of Justice", "code": "DJ", "employees": 796}, {"name": "Department of Interior", "code": "IN", "employees": 731}, {"name": "Environmental Protection Agency", "code": "EP", "employees": 577}, {"name": "General Services Administration", "code": "GS", "employees": 485}, {"name": "Securities and Exchange Commission", "code": "SE", "employees": 482}, {"name": "Department of Labor", "code": "DL", "employees": 396}, {"name": "Department of Housing and Urban Developm", "code": "HU", "employees": 257}], "topOccupations": [{"name": "Nurse", "employees": 3297, "avgSalary": 130229}, {"name": "Contact Representative", "employees": 2334, "avgSalary": 69322}, {"name": "Social Insurance Administration", "employees": 1800, "avgSalary": 109108}, {"name": "Medical Officer", "employees": 1291, "avgSalary": 289556}, {"name": "Miscellaneous Administration and Program", "employees": 1112, "avgSalary": 117725}, {"name": "Miscellaneous Clerk and Assistant", "employees": 1043, "avgSalary": 56626}, {"name": "General Attorney", "employees": 1036, "avgSalary": 186840}, {"name": "Medical Support Assistance", "employees": 968, "avgSalary": 56713}, {"name": "Air Traffic Control", "employees": 947, "avgSalary": 163343}, {"name": "Social Work", "employees": 911, "avgSalary": 98723}, {"name": "Management and Program Analysis", "employees": 852, "avgSalary": 124671}, {"name": "Nursing Assistant", "employees": 767, "avgSalary": 58402}, {"name": "Veterans Claims Examining", "employees": 711, "avgSalary": 85590}, {"name": "Information Technology Management", "employees": 693, "avgSalary": 136540}, {"name": "Custodial Working", "employees": 651, "avgSalary": 50265}]}
+{
+  "code": "NY",
+  "name": "New York",
+  "employees": 36885,
+  "avgSalary": 114577,
+  "topAgencies": [
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 17755
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 4540
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 3054
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 2253
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 1412
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 1039
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 968
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 812
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 796
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 731
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 577
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 485
+    },
+    {
+      "name": "Securities and Exchange Commission",
+      "code": "SE",
+      "employees": 482
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 396
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 257
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Nurse",
+      "employees": 3297,
+      "avgSalary": 130229
+    },
+    {
+      "name": "Contact Representative",
+      "employees": 2334,
+      "avgSalary": 69322
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 1800,
+      "avgSalary": 109108
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 1291,
+      "avgSalary": 289556
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 1112,
+      "avgSalary": 117725
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 1043,
+      "avgSalary": 56626
+    },
+    {
+      "name": "General Attorney",
+      "employees": 1036,
+      "avgSalary": 186840
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 968,
+      "avgSalary": 56713
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 947,
+      "avgSalary": 163343
+    },
+    {
+      "name": "Social Work",
+      "employees": 911,
+      "avgSalary": 98723
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 852,
+      "avgSalary": 124671
+    },
+    {
+      "name": "Nursing Assistant",
+      "employees": 767,
+      "avgSalary": 58402
+    },
+    {
+      "name": "Veterans Claims Examining",
+      "employees": 711,
+      "avgSalary": 85590
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 693,
+      "avgSalary": 136540
+    },
+    {
+      "name": "Custodial Working",
+      "employees": 651,
+      "avgSalary": 50265
+    }
+  ],
+  "separations2025": 24465,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": -2.2,
+  "dogeNarrative": "New York employs 36,885 federal workers with an average salary of $114,577, 2.2% below the national average. DOGE workforce reductions in 2025 resulted in 24,465 separations statewide."
+}

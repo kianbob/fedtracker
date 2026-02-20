@@ -1,1 +1,164 @@
-{"code": "MN", "name": "Minnesota", "employees": 13910, "avgSalary": 111529, "topAgencies": [{"name": "Department of Veterans Affairs", "code": "VA", "employees": 7943}, {"name": "Department of Agriculture", "code": "AG", "employees": 1437}, {"name": "Department of Transportation", "code": "TD", "employees": 935}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 733}, {"name": "Department of Interior", "code": "IN", "employees": 643}, {"name": "Department of Justice", "code": "DJ", "employees": 627}, {"name": "Social Security Administration", "code": "SZ", "employees": 357}, {"name": "Department of Homeland Security", "code": "HS", "employees": 261}, {"name": "Department of Treasury", "code": "TR", "employees": 260}, {"name": "Department of Commerce", "code": "CM", "employees": 225}, {"name": "Department of Housing and Urban Developm", "code": "HU", "employees": 79}, {"name": "Environmental Protection Agency", "code": "EP", "employees": 70}, {"name": "Department of Labor", "code": "DL", "employees": 65}, {"name": "Federal Deposit Insurance Corporation", "code": "FD", "employees": 61}, {"name": "General Services Administration", "code": "GS", "employees": 45}], "topOccupations": [{"name": "Nurse", "employees": 1935, "avgSalary": 129506}, {"name": "Veterans Claims Examining", "employees": 687, "avgSalary": 92769}, {"name": "Medical Support Assistance", "employees": 617, "avgSalary": 60284}, {"name": "Air Traffic Control", "employees": 611, "avgSalary": 162602}, {"name": "Medical Officer", "employees": 434, "avgSalary": 314153}, {"name": "Practical Nurse", "employees": 343, "avgSalary": 77673}, {"name": "Management and Program Analysis", "employees": 340, "avgSalary": 125179}, {"name": "Miscellaneous Administration and Program", "employees": 326, "avgSalary": 106405}, {"name": "Social Work", "employees": 305, "avgSalary": 105068}, {"name": "Human Resources Management", "employees": 296, "avgSalary": 116754}, {"name": "Miscellaneous Clerk and Assistant", "employees": 286, "avgSalary": 54285}, {"name": "Pharmacist", "employees": 261, "avgSalary": 167644}, {"name": "Social Insurance Administration", "employees": 247, "avgSalary": 103260}, {"name": "Nursing Assistant", "employees": 242, "avgSalary": 56787}, {"name": "Custodial Working", "employees": 218, "avgSalary": 49234}]}
+{
+  "code": "MN",
+  "name": "Minnesota",
+  "employees": 13910,
+  "avgSalary": 111529,
+  "topAgencies": [
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 7943
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 1437
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 935
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 733
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 643
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 627
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 357
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 261
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 260
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 225
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 79
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 70
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 65
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 61
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 45
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Nurse",
+      "employees": 1935,
+      "avgSalary": 129506
+    },
+    {
+      "name": "Veterans Claims Examining",
+      "employees": 687,
+      "avgSalary": 92769
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 617,
+      "avgSalary": 60284
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 611,
+      "avgSalary": 162602
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 434,
+      "avgSalary": 314153
+    },
+    {
+      "name": "Practical Nurse",
+      "employees": 343,
+      "avgSalary": 77673
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 340,
+      "avgSalary": 125179
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 326,
+      "avgSalary": 106405
+    },
+    {
+      "name": "Social Work",
+      "employees": 305,
+      "avgSalary": 105068
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 296,
+      "avgSalary": 116754
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 286,
+      "avgSalary": 54285
+    },
+    {
+      "name": "Pharmacist",
+      "employees": 261,
+      "avgSalary": 167644
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 247,
+      "avgSalary": 103260
+    },
+    {
+      "name": "Nursing Assistant",
+      "employees": 242,
+      "avgSalary": 56787
+    },
+    {
+      "name": "Custodial Working",
+      "employees": 218,
+      "avgSalary": 49234
+    }
+  ],
+  "separations2025": 8128,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": -4.8,
+  "dogeNarrative": "Minnesota employs 13,910 federal workers with an average salary of $111,529, 4.8% below the national average. DOGE workforce reductions in 2025 resulted in 8,128 separations statewide."
+}

@@ -1,1 +1,164 @@
-{"code": "VT", "name": "Vermont", "employees": 2487, "avgSalary": 116503, "topAgencies": [{"name": "Department of Veterans Affairs", "code": "VA", "employees": 1229}, {"name": "Department of Homeland Security", "code": "HS", "employees": 615}, {"name": "Department of Agriculture", "code": "AG", "employees": 243}, {"name": "Department of Interior", "code": "IN", "employees": 81}, {"name": "Department of Commerce", "code": "CM", "employees": 74}, {"name": "Department of Transportation", "code": "TD", "employees": 63}, {"name": "Social Security Administration", "code": "SZ", "employees": 50}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 37}, {"name": "Department of State", "code": "ST", "employees": 28}, {"name": "Department of Treasury", "code": "TR", "employees": 22}, {"name": "General Services Administration", "code": "GS", "employees": 10}, {"name": "Small Business Administration", "code": "SB", "employees": 6}, {"name": "Department of Justice", "code": "DJ", "employees": 5}, {"name": "Department of Labor", "code": "DL", "employees": 5}, {"name": "Environmental Protection Agency", "code": "EP", "employees": 4}], "topOccupations": [{"name": "Nurse", "employees": 293, "avgSalary": 124505}, {"name": "Miscellaneous Administration and Program", "employees": 208, "avgSalary": 110180}, {"name": "Management and Program Analysis", "employees": 142, "avgSalary": 120784}, {"name": "Medical Officer", "employees": 130, "avgSalary": 312994}, {"name": "Security Administration", "employees": 95, "avgSalary": 122919}, {"name": "Medical Support Assistance", "employees": 78, "avgSalary": 58281}, {"name": "Human Resources Management", "employees": 69, "avgSalary": 114044}, {"name": "Information Technology Management", "employees": 65, "avgSalary": 147244}, {"name": "Social Work", "employees": 56, "avgSalary": 106365}, {"name": "Miscellaneous Clerk and Assistant", "employees": 51, "avgSalary": 47386}, {"name": "Financial Administration and Program", "employees": 48, "avgSalary": 116026}, {"name": "General Natural Resources Management and Biological Sciences", "employees": 45, "avgSalary": 104481}, {"name": "General Health Science", "employees": 43, "avgSalary": 111824}, {"name": "Social Insurance Administration", "employees": 40, "avgSalary": 96554}, {"name": "Security Clerical and Assistance", "employees": 39, "avgSalary": 60166}]}
+{
+  "code": "VT",
+  "name": "Vermont",
+  "employees": 2487,
+  "avgSalary": 116503,
+  "topAgencies": [
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 1229
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 615
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 243
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 81
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 74
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 63
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 50
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 37
+    },
+    {
+      "name": "Department of State",
+      "code": "ST",
+      "employees": 28
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 22
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 10
+    },
+    {
+      "name": "Small Business Administration",
+      "code": "SB",
+      "employees": 6
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 5
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 5
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 4
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Nurse",
+      "employees": 293,
+      "avgSalary": 124505
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 208,
+      "avgSalary": 110180
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 142,
+      "avgSalary": 120784
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 130,
+      "avgSalary": 312994
+    },
+    {
+      "name": "Security Administration",
+      "employees": 95,
+      "avgSalary": 122919
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 78,
+      "avgSalary": 58281
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 69,
+      "avgSalary": 114044
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 65,
+      "avgSalary": 147244
+    },
+    {
+      "name": "Social Work",
+      "employees": 56,
+      "avgSalary": 106365
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 51,
+      "avgSalary": 47386
+    },
+    {
+      "name": "Financial Administration and Program",
+      "employees": 48,
+      "avgSalary": 116026
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 45,
+      "avgSalary": 104481
+    },
+    {
+      "name": "General Health Science",
+      "employees": 43,
+      "avgSalary": 111824
+    },
+    {
+      "name": "Social Insurance Administration",
+      "employees": 40,
+      "avgSalary": 96554
+    },
+    {
+      "name": "Security Clerical and Assistance",
+      "employees": 39,
+      "avgSalary": 60166
+    }
+  ],
+  "separations2025": 1609,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": -0.5,
+  "dogeNarrative": "Vermont employs 2,487 federal workers with an average salary of $116,503, 0.5% below the national average. DOGE workforce reductions in 2025 resulted in 1,609 separations statewide."
+}

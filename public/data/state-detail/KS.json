@@ -1,1 +1,164 @@
-{"code": "KS", "name": "Kansas", "employees": 9589, "avgSalary": 103019, "topAgencies": [{"name": "Department of Veterans Affairs", "code": "VA", "employees": 5215}, {"name": "Department of Agriculture", "code": "AG", "employees": 1094}, {"name": "Department of Transportation", "code": "TD", "employees": 722}, {"name": "Environmental Protection Agency", "code": "EP", "employees": 493}, {"name": "Department of Interior", "code": "IN", "employees": 383}, {"name": "Department of Homeland Security", "code": "HS", "employees": 284}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 263}, {"name": "Department of Justice", "code": "DJ", "employees": 249}, {"name": "Social Security Administration", "code": "SZ", "employees": 212}, {"name": "Department of Commerce", "code": "CM", "employees": 153}, {"name": "Department of Housing and Urban Developm", "code": "HU", "employees": 125}, {"name": "Department of Treasury", "code": "TR", "employees": 114}, {"name": "Nat Archives and Records Administration", "code": "NQ", "employees": 60}, {"name": "General Services Administration", "code": "GS", "employees": 52}, {"name": "Department of Labor", "code": "DL", "employees": 44}], "topOccupations": [{"name": "Nurse", "employees": 1053, "avgSalary": 117100}, {"name": "Air Traffic Control", "employees": 375, "avgSalary": 155183}, {"name": "Medical Support Assistance", "employees": 329, "avgSalary": 60024}, {"name": "Management and Program Analysis", "employees": 297, "avgSalary": 103328}, {"name": "Miscellaneous Administration and Program", "employees": 293, "avgSalary": 98373}, {"name": "Human Resources Management", "employees": 275, "avgSalary": 115022}, {"name": "Contact Representative", "employees": 240, "avgSalary": 60574}, {"name": "Miscellaneous Clerk and Assistant", "employees": 238, "avgSalary": 51051}, {"name": "Information Technology Management", "employees": 236, "avgSalary": 123233}, {"name": "Social Work", "employees": 211, "avgSalary": 106959}, {"name": "General Natural Resources Management and Biological Sciences", "employees": 195, "avgSalary": 102292}, {"name": "Medical Officer", "employees": 183, "avgSalary": 307894}, {"name": "Practical Nurse", "employees": 179, "avgSalary": 73687}, {"name": "Pharmacist", "employees": 174, "avgSalary": 170961}, {"name": "Financial Clerical and Assistance", "employees": 169, "avgSalary": 55641}]}
+{
+  "code": "KS",
+  "name": "Kansas",
+  "employees": 9589,
+  "avgSalary": 103019,
+  "topAgencies": [
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 5215
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 1094
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 722
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 493
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 383
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 284
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 263
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 249
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 212
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 153
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 125
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 114
+    },
+    {
+      "name": "Nat Archives and Records Administration",
+      "code": "NQ",
+      "employees": 60
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 52
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 44
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Nurse",
+      "employees": 1053,
+      "avgSalary": 117100
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 375,
+      "avgSalary": 155183
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 329,
+      "avgSalary": 60024
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 297,
+      "avgSalary": 103328
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 293,
+      "avgSalary": 98373
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 275,
+      "avgSalary": 115022
+    },
+    {
+      "name": "Contact Representative",
+      "employees": 240,
+      "avgSalary": 60574
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 238,
+      "avgSalary": 51051
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 236,
+      "avgSalary": 123233
+    },
+    {
+      "name": "Social Work",
+      "employees": 211,
+      "avgSalary": 106959
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 195,
+      "avgSalary": 102292
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 183,
+      "avgSalary": 307894
+    },
+    {
+      "name": "Practical Nurse",
+      "employees": 179,
+      "avgSalary": 73687
+    },
+    {
+      "name": "Pharmacist",
+      "employees": 174,
+      "avgSalary": 170961
+    },
+    {
+      "name": "Financial Clerical and Assistance",
+      "employees": 169,
+      "avgSalary": 55641
+    }
+  ],
+  "separations2025": 7433,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": -12,
+  "dogeNarrative": "Kansas employs 9,589 federal workers with an average salary of $103,019, 12% below the national average. DOGE workforce reductions in 2025 resulted in 7,433 separations statewide."
+}

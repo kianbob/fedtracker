@@ -1,1 +1,164 @@
-{"code": "CO", "name": "Colorado", "employees": 24676, "avgSalary": 120987, "topAgencies": [{"name": "Department of Veterans Affairs", "code": "VA", "employees": 7677}, {"name": "Department of Interior", "code": "IN", "employees": 5174}, {"name": "Department of Agriculture", "code": "AG", "employees": 2613}, {"name": "Department of Transportation", "code": "TD", "employees": 1432}, {"name": "Department of Commerce", "code": "CM", "employees": 1391}, {"name": "Department of Treasury", "code": "TR", "employees": 803}, {"name": "Department of Energy", "code": "DN", "employees": 780}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 763}, {"name": "Department of Homeland Security", "code": "HS", "employees": 758}, {"name": "Department of Justice", "code": "DJ", "employees": 633}, {"name": "Environmental Protection Agency", "code": "EP", "employees": 620}, {"name": "Social Security Administration", "code": "SZ", "employees": 530}, {"name": "General Services Administration", "code": "GS", "employees": 348}, {"name": "Department of Housing and Urban Developm", "code": "HU", "employees": 274}, {"name": "Department of Labor", "code": "DL", "employees": 247}], "topOccupations": [{"name": "Nurse", "employees": 1483, "avgSalary": 132231}, {"name": "Miscellaneous Administration and Program", "employees": 1119, "avgSalary": 118760}, {"name": "Management and Program Analysis", "employees": 1046, "avgSalary": 127010}, {"name": "Information Technology Management", "employees": 1045, "avgSalary": 140923}, {"name": "Air Traffic Control", "employees": 653, "avgSalary": 166626}, {"name": "General Natural Resources Management and Biological Sciences", "employees": 613, "avgSalary": 118878}, {"name": "Civil Engineering", "employees": 560, "avgSalary": 130737}, {"name": "Medical Support Assistance", "employees": 553, "avgSalary": 62595}, {"name": "Medical Officer", "employees": 532, "avgSalary": 309094}, {"name": "General Business and Industry", "employees": 518, "avgSalary": 127001}, {"name": "Human Resources Management", "employees": 508, "avgSalary": 124798}, {"name": "General Attorney", "employees": 496, "avgSalary": 176020}, {"name": "Miscellaneous Clerk and Assistant", "employees": 487, "avgSalary": 62388}, {"name": "General Physical Science", "employees": 455, "avgSalary": 137060}, {"name": "Financial Administration and Program", "employees": 440, "avgSalary": 109258}]}
+{
+  "code": "CO",
+  "name": "Colorado",
+  "employees": 24676,
+  "avgSalary": 120987,
+  "topAgencies": [
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 7677
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 5174
+    },
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 2613
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 1432
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 1391
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 803
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 780
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 763
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 758
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 633
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 620
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 530
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 348
+    },
+    {
+      "name": "Department of Housing and Urban Developm",
+      "code": "HU",
+      "employees": 274
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 247
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Nurse",
+      "employees": 1483,
+      "avgSalary": 132231
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 1119,
+      "avgSalary": 118760
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 1046,
+      "avgSalary": 127010
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 1045,
+      "avgSalary": 140923
+    },
+    {
+      "name": "Air Traffic Control",
+      "employees": 653,
+      "avgSalary": 166626
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 613,
+      "avgSalary": 118878
+    },
+    {
+      "name": "Civil Engineering",
+      "employees": 560,
+      "avgSalary": 130737
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 553,
+      "avgSalary": 62595
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 532,
+      "avgSalary": 309094
+    },
+    {
+      "name": "General Business and Industry",
+      "employees": 518,
+      "avgSalary": 127001
+    },
+    {
+      "name": "Human Resources Management",
+      "employees": 508,
+      "avgSalary": 124798
+    },
+    {
+      "name": "General Attorney",
+      "employees": 496,
+      "avgSalary": 176020
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 487,
+      "avgSalary": 62388
+    },
+    {
+      "name": "General Physical Science",
+      "employees": 455,
+      "avgSalary": 137060
+    },
+    {
+      "name": "Financial Administration and Program",
+      "employees": 440,
+      "avgSalary": 109258
+    }
+  ],
+  "separations2025": 21912,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": 3.3,
+  "dogeNarrative": "Colorado employs 24,676 federal workers with an average salary of $120,987, 3.3% above the national average. DOGE workforce reductions in 2025 resulted in 21,912 separations statewide."
+}

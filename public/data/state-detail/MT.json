@@ -1,1 +1,164 @@
-{"code": "MT", "name": "Montana", "employees": 7540, "avgSalary": 96677, "topAgencies": [{"name": "Department of Agriculture", "code": "AG", "employees": 2323}, {"name": "Department of Veterans Affairs", "code": "VA", "employees": 1804}, {"name": "Department of Interior", "code": "IN", "employees": 1574}, {"name": "Department of Health and Human Services", "code": "HE", "employees": 1037}, {"name": "Department of Transportation", "code": "TD", "employees": 210}, {"name": "Department of Energy", "code": "DN", "employees": 134}, {"name": "Department of Commerce", "code": "CM", "employees": 131}, {"name": "Social Security Administration", "code": "SZ", "employees": 92}, {"name": "Department of Homeland Security", "code": "HS", "employees": 59}, {"name": "Environmental Protection Agency", "code": "EP", "employees": 43}, {"name": "Department of Treasury", "code": "TR", "employees": 28}, {"name": "Department of Labor", "code": "DL", "employees": 27}, {"name": "Federal Deposit Insurance Corporation", "code": "FD", "employees": 24}, {"name": "General Services Administration", "code": "GS", "employees": 19}, {"name": "Department of Justice", "code": "DJ", "employees": 7}], "topOccupations": [{"name": "Forestry Technician", "employees": 562, "avgSalary": 69899}, {"name": "Nurse", "employees": 540, "avgSalary": 125100}, {"name": "General Natural Resources Management and Biological Sciences", "employees": 394, "avgSalary": 101808}, {"name": "Miscellaneous Administration and Program", "employees": 388, "avgSalary": 98315}, {"name": "Miscellaneous Clerk and Assistant", "employees": 223, "avgSalary": 51127}, {"name": "Medical Support Assistance", "employees": 222, "avgSalary": 64497}, {"name": "Civil Engineering", "employees": 150, "avgSalary": 107640}, {"name": "Wildland Fire Management", "employees": 130, "avgSalary": 89295}, {"name": "Forestry", "employees": 127, "avgSalary": 84315}, {"name": "Information Technology Management", "employees": 125, "avgSalary": 111550}, {"name": "Maintenance Mechanic", "employees": 113, "avgSalary": 79053}, {"name": "Management and Program Analysis", "employees": 109, "avgSalary": 104767}, {"name": "Health Aid and Technician", "employees": 107, "avgSalary": 56991}, {"name": "Medical Officer", "employees": 104, "avgSalary": 306094}, {"name": "Veterans Claims Examining", "employees": 104, "avgSalary": 85960}]}
+{
+  "code": "MT",
+  "name": "Montana",
+  "employees": 7540,
+  "avgSalary": 96677,
+  "topAgencies": [
+    {
+      "name": "Department of Agriculture",
+      "code": "AG",
+      "employees": 2323
+    },
+    {
+      "name": "Department of Veterans Affairs",
+      "code": "VA",
+      "employees": 1804
+    },
+    {
+      "name": "Department of Interior",
+      "code": "IN",
+      "employees": 1574
+    },
+    {
+      "name": "Department of Health and Human Services",
+      "code": "HE",
+      "employees": 1037
+    },
+    {
+      "name": "Department of Transportation",
+      "code": "TD",
+      "employees": 210
+    },
+    {
+      "name": "Department of Energy",
+      "code": "DN",
+      "employees": 134
+    },
+    {
+      "name": "Department of Commerce",
+      "code": "CM",
+      "employees": 131
+    },
+    {
+      "name": "Social Security Administration",
+      "code": "SZ",
+      "employees": 92
+    },
+    {
+      "name": "Department of Homeland Security",
+      "code": "HS",
+      "employees": 59
+    },
+    {
+      "name": "Environmental Protection Agency",
+      "code": "EP",
+      "employees": 43
+    },
+    {
+      "name": "Department of Treasury",
+      "code": "TR",
+      "employees": 28
+    },
+    {
+      "name": "Department of Labor",
+      "code": "DL",
+      "employees": 27
+    },
+    {
+      "name": "Federal Deposit Insurance Corporation",
+      "code": "FD",
+      "employees": 24
+    },
+    {
+      "name": "General Services Administration",
+      "code": "GS",
+      "employees": 19
+    },
+    {
+      "name": "Department of Justice",
+      "code": "DJ",
+      "employees": 7
+    }
+  ],
+  "topOccupations": [
+    {
+      "name": "Forestry Technician",
+      "employees": 562,
+      "avgSalary": 69899
+    },
+    {
+      "name": "Nurse",
+      "employees": 540,
+      "avgSalary": 125100
+    },
+    {
+      "name": "General Natural Resources Management and Biological Sciences",
+      "employees": 394,
+      "avgSalary": 101808
+    },
+    {
+      "name": "Miscellaneous Administration and Program",
+      "employees": 388,
+      "avgSalary": 98315
+    },
+    {
+      "name": "Miscellaneous Clerk and Assistant",
+      "employees": 223,
+      "avgSalary": 51127
+    },
+    {
+      "name": "Medical Support Assistance",
+      "employees": 222,
+      "avgSalary": 64497
+    },
+    {
+      "name": "Civil Engineering",
+      "employees": 150,
+      "avgSalary": 107640
+    },
+    {
+      "name": "Wildland Fire Management",
+      "employees": 130,
+      "avgSalary": 89295
+    },
+    {
+      "name": "Forestry",
+      "employees": 127,
+      "avgSalary": 84315
+    },
+    {
+      "name": "Information Technology Management",
+      "employees": 125,
+      "avgSalary": 111550
+    },
+    {
+      "name": "Maintenance Mechanic",
+      "employees": 113,
+      "avgSalary": 79053
+    },
+    {
+      "name": "Management and Program Analysis",
+      "employees": 109,
+      "avgSalary": 104767
+    },
+    {
+      "name": "Health Aid and Technician",
+      "employees": 107,
+      "avgSalary": 56991
+    },
+    {
+      "name": "Medical Officer",
+      "employees": 104,
+      "avgSalary": 306094
+    },
+    {
+      "name": "Veterans Claims Examining",
+      "employees": 104,
+      "avgSalary": 85960
+    }
+  ],
+  "separations2025": 10677,
+  "nationalAvgSalary": 117113,
+  "salaryVsNational": -17.4,
+  "dogeNarrative": "Montana employs 7,540 federal workers with an average salary of $96,677, 17.4% below the national average. DOGE workforce reductions in 2025 resulted in 10,677 separations statewide."
+}

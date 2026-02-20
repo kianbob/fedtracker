@@ -66,6 +66,7 @@ export function Footer() {
               <h4 className="font-semibold text-gray-900 mb-3 text-xs uppercase tracking-wider">Sister Sites</h4>
               <div className="space-y-2 text-sm">
                 <a href="https://www.openmedicaid.org" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">OpenMedicaid — Medicaid Spending Tracker ↗</a>
+                <a href="https://www.openspending.us" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">OpenSpending — Federal Spending Tracker ↗</a>
               </div>
             </div>
 

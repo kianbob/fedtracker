@@ -8,6 +8,7 @@ import { SubagenciesClient } from "./SubagenciesClient";
 export const metadata: Metadata = {
   title: "Federal Subagencies — 788 Organizations Within Agencies — OpenFeds",
   description: "Drill into the organizational structure of the federal government. Browse 788 subagencies within departments, with employee counts and salary data.",
+  alternates: { canonical: "/subagencies" },
 };
 
 function loadJson(name: string) {

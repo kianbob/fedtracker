@@ -3,6 +3,7 @@ import Link from "next/link";
 export const metadata = {
   title: "About OpenFeds — Data Sources & Methodology — OpenFeds",
   description: "About OpenFeds, data sources, and methodology.",
+  alternates: { canonical: "/about" },
 };
 
 export default function AboutPage() {

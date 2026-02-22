@@ -7,6 +7,7 @@ import agencyBudgets from "../../../public/data/agency-budgets.json";
 export const metadata: Metadata = {
   title: "Is the Federal Workforce Too Big? — OpenFeds",
   description:
+  alternates: { canonical: "/federal-bloat" },
     "The federal workforce is smaller than in 1960, but spending per employee has exploded. The real bloat isn't headcount — it's the shadow contractor workforce and runaway budgets.",
 };
 

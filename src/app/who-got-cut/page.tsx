@@ -8,6 +8,7 @@ import hardestHit from "../../../public/data/hardest-hit.json";
 export const metadata: Metadata = {
   title: "Who Got Cut: The DOGE Workforce Reduction — OpenFeds",
   description:
+  alternates: { canonical: "/who-got-cut" },
     "335,000 federal separations in 2025 — a 67% increase. RIFs surged from 46 to 10,721. Here's who was affected, which agencies shrank, and where the jobs disappeared.",
 };
 

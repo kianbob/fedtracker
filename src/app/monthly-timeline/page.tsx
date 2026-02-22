@@ -5,6 +5,7 @@ import { MonthlyTimelineClient } from "./MonthlyTimelineClient";
 export const metadata: Metadata = {
   title: "Month by Month: How the Federal Workforce Changed (FY2020-2024) — OpenFeds",
   description:
+  alternates: { canonical: "/monthly-timeline" },
     "48 months of federal workforce data: separations, accessions, quits, retirements, RIFs, and net change. See the patterns the annual numbers hide.",
 };
 

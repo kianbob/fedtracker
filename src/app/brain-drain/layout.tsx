@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "The Brain Drain Index: Who's Really Leaving Government — OpenFeds",
-  description:
-    "Agencies are losing employees earning $49K more than their replacements. Interactive analysis of the federal brain drain by agency, grade, and experience.",
+  title: "Federal Brain Drain Analysis — OpenFeds",
+  description: "Which agencies are losing the most talent? Analysis of federal workforce departures by agency, occupation, and education level.",
+  alternates: { canonical: "/brain-drain" },
 };
 
 export default function Layout({ children }: { children: React.ReactNode }) {

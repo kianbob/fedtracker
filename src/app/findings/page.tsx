@@ -10,6 +10,7 @@ import tenureSeparations from "../../../public/data/tenure-separations.json";
 export const metadata: Metadata = {
   title: "Key Findings — The Real State of the Federal Workforce — OpenFeds",
   description: "Data-driven analysis of the federal workforce in 2025: the DOGE effect, retirement cliff, experience drain, STEM brain drain, and more.",
+  alternates: { canonical: "/findings" },
 };
 
 function PullQuote({ text, source }: { text: string; source?: string }) {

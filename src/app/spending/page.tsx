@@ -4,6 +4,7 @@ import { SpendingClient } from "./SpendingClient";
 export const metadata: Metadata = {
   title: "Agency Spending — Budget Per Employee, Contracts & Outsourcing — OpenFeds",
   description:
+  alternates: { canonical: "/spending" },
     "How much does each federal agency spend per employee? Explore budget authority, contract outsourcing, grants, and direct payments by agency — powered by USASpending.gov data.",
   openGraph: {
     title: "Agency Spending Data - OpenFeds",

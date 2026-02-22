@@ -6,6 +6,7 @@ import path from "path";
 export const metadata: Metadata = {
   title: "DOGE Timeline: Month-by-Month Federal Workforce Impact — OpenFeds",
   description: "Interactive timeline of DOGE's impact on the federal workforce. 335K+ separations, month-by-month trends, hiring freezes, and the September 2025 exodus.",
+  alternates: { canonical: "/timeline" },
 };
 
 function getData() {

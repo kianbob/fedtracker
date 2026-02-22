@@ -4,6 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "DOGE & Cuts — OpenFeds",
   description: "Track federal workforce reductions, DOGE impact, separations, geographic effects, and risk analysis.",
+  alternates: { canonical: "/cuts" },
 };
 
 const items = [

@@ -5,8 +5,8 @@ import { LookupClient } from "./LookupClient";
 export const metadata: Metadata = {
   title: "What Happened to My Agency? — OpenFeds",
   description:
-  alternates: { canonical: "/lookup" },
     "Look up any federal agency to see how it was affected by 2025 workforce changes. Risk scores, separations, RIFs, and more.",
+  alternates: { canonical: "/lookup" },
 };
 
 export default function LookupPage() {

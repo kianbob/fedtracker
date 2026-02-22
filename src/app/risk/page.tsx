@@ -8,11 +8,11 @@ import Breadcrumb from "@/components/Breadcrumb";
 export const metadata: Metadata = {
   title: "Agency Risk Dashboard — Which Agencies Are Most At Risk? — OpenFeds",
   description: "Risk scores for every federal agency based on workforce reduction, retirement eligibility, separation rates, and more.",
-  alternates: { canonical: "/risk" },
   openGraph: {
     title: "Agency Risk Dashboard - OpenFeds",
     description: "Risk scores for every federal agency based on workforce reduction, retirement eligibility, and separation rates.",
   },
+  alternates: { canonical: "/risk" },
 };
 
 export default function RiskPage() {

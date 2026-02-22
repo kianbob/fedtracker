@@ -8,11 +8,11 @@ export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
   title: "Federal Workforce Demographics — Age, Education, Veterans, Telework — OpenFeds",
   description: "Explore the demographics of the federal workforce: age distribution, education levels, veteran status, remote work, and race/ethnicity composition from OPM FedScope.",
-  alternates: { canonical: "/demographics" },
   openGraph: {
     title: "Federal Workforce Demographics - OpenFeds",
     description: "Age distribution, education levels, veteran status, and telework patterns across the federal workforce from OPM FedScope data.",
   },
+  alternates: { canonical: "/demographics" },
 };
 
 function getDemographicsData() {

@@ -9,8 +9,8 @@ export const metadata: Metadata = {
   title:
     "The STEM Brain Drain: Are We Losing America's Technical Workforce? — OpenFeds",
   description:
-  alternates: { canonical: "/stem-workforce" },
     "Federal STEM workforce analysis: engineers, scientists, technologists, and healthcare professionals across 128 agencies. Who employs them, what they earn, and why it matters for national security.",
+  alternates: { canonical: "/stem-workforce" },
 };
 
 const STEM_TYPES = [

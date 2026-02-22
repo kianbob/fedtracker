@@ -6,14 +6,12 @@ import Breadcrumb from "@/components/Breadcrumb";
 export const metadata: Metadata = {
   title: "Data Downloads — OpenFeds",
   description: "Download federal workforce data as JSON or CSV. Agency lists, DOGE impact, risk scores, demographics, and more.",
-  alternates: { canonical: "/downloads" },
 };
 
 interface Dataset {
   file: string;
   name: string;
   description: string;
-  alternates: { canonical: "/downloads" },
   size: string;
   csvFile?: string;
   csvSize?: string;

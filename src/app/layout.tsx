@@ -35,7 +35,7 @@ const jsonLdWebSite = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "OpenFeds",
-  "url": "https://openfeds.org",
+  "url": "https://www.openfeds.org",
   "description": "Track the federal workforce with data from OPM FedScope. 2.07M employees, 128 agencies, salaries, layoffs, hiring trends, and DOGE impact analysis.",
   "publisher": {
     "@type": "Organization",
@@ -49,7 +49,7 @@ const jsonLdDataset = {
   "@type": "Dataset",
   "name": "Federal Workforce Analysis (FY2020–2025)",
   "description": "Analysis of OPM FedScope employment, separations, and accessions data covering 2.07 million federal employees across 128 agencies, including 2025 DOGE workforce reduction impact.",
-  "url": "https://openfeds.org",
+  "url": "https://www.openfeds.org",
   "creator": {
     "@type": "Organization",
     "name": "TheDataProject.ai"
@@ -59,6 +59,7 @@ const jsonLdDataset = {
     "name": "OPM FedScope",
     "description": "Official federal workforce data published by the U.S. Office of Personnel Management covering employment demographics, separations, and accessions.",
     "url": "https://data.opm.gov",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
     "creator": {
       "@type": "Organization",
       "name": "U.S. Office of Personnel Management"

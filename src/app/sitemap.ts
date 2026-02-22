@@ -81,15 +81,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   } catch {}
 
-  // Occupation detail pages
+  // Occupation detail pages — only include codes that have detail files
   try {
-    const occupationsPath = path.join(process.cwd(), "public", "data", "occupations.json");
-    const occupations: { code: string }[] = JSON.parse(fs.readFileSync(occupationsPath, "utf-8"));
-    occupations.forEach(occ => {
-      if (occ.code && occ.code !== "*") {
-        pages.push({ url: `${base}/occupations/${occ.code}`, lastModified: now, changeFrequency: "monthly", priority: 0.6 });
-      }
-    });
+    const occDetailDir = path.join(process.cwd(), "public", "data", "occupation-detail");
+    if (fs.existsSync(occDetailDir)) {
+      fs.readdirSync(occDetailDir)
+        .filter(f => f.endsWith(".json") && f !== "*.json")
+        .forEach(f => {
+          const code = f.replace(".json", "");
+          pages.push({ url: `${base}/occupations/${code}`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.6 });
+        });
+    }
   } catch {}
 
   // Subagency detail pages

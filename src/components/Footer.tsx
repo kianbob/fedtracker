@@ -68,6 +68,7 @@ export function Footer() {
                 <a href="https://www.openmedicare.us" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">OpenMedicare — Medicare Spending Tracker ↗</a>
                 <a href="https://www.openmedicaid.org" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">OpenMedicaid — Medicaid Spending Tracker ↗</a>
                 <a href="https://www.openspending.us" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">OpenSpending — Federal Spending Tracker ↗</a>
+                <a href="https://www.openlobby.us" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">OpenLobby — Federal Lobbying Tracker ↗</a>
               </div>
             </div>
 

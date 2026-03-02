@@ -73,6 +73,7 @@ export function Footer() {
                 <a href="https://www.vaccinewatch.org" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">VaccineWatch — Vaccine Safety Data ↗</a>
                 <a href="https://www.opensubsidies.org" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">OpenSubsidies — Farm Subsidy Tracker ↗</a>
                 <a href="https://www.warcosts.org" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">WarCosts — War Spending Tracker ↗</a>
+                <a href="https://www.openprescriber.org" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">OpenPrescriber — Medicare Part D Data ↗</a>
               </div>
             </div>
 

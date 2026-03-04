@@ -69,7 +69,7 @@ export function Footer() {
                 <a href="https://www.openmedicaid.org" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">OpenMedicaid — Medicaid Spending Tracker ↗</a>
                 <a href="https://www.openspending.us" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">OpenSpending — Federal Spending Tracker ↗</a>
                 <a href="https://www.openimmigration.us" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">OpenImmigration — Immigration Court Tracker ↗</a>
-                <a href="https://www.openlobby.us" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">OpenLobby — Federal Lobbying Tracker ↗</a>
+            <li><a href="https://www.opencrime.us" className="hover:text-white">OpenCrime</a></li>                <a href="https://www.openlobby.us" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">OpenLobby — Federal Lobbying Tracker ↗</a>
                 <a href="https://www.vaccinewatch.org" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">VaccineWatch — Vaccine Safety Data ↗</a>
                 <a href="https://www.opensubsidies.org" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">OpenSubsidies — Farm Subsidy Tracker ↗</a>
                 <a href="https://www.warcosts.org" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">WarCosts — War Spending Tracker ↗</a>

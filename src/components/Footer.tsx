@@ -74,6 +74,7 @@ export function Footer() {
                 <a href="https://www.opensubsidies.org" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">OpenSubsidies — Farm Subsidy Tracker ↗</a>
                 <a href="https://www.warcosts.org" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">WarCosts — War Spending Tracker ↗</a>
                 <a href="https://www.openprescriber.org" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">OpenPrescriber — Medicare Part D Data ↗</a>
+                <a href="https://www.givescope.com" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">GiveScope — Nonprofit Spending Tracker ↗</a>
               </div>
             </div>
 

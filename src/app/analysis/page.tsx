@@ -27,6 +27,10 @@ const items = [
   { href: "/appointments", title: "Appointments", stat: "📋", desc: "Hiring types and patterns" },
   { href: "/occupation-impact", title: "Occupation Impact", stat: "👷", desc: "Which jobs are most at risk" },
   { href: "/who-got-cut", title: "Who Got Cut", stat: "🔎", desc: "Detailed reduction breakdown" },
+  { href: "/analysis/redundant-agencies", title: "Redundant Agencies", stat: "🔄", desc: "Overlapping agencies doing the same job" },
+  { href: "/analysis/contractor-vs-federal", title: "Contractors vs Feds", stat: "👥", desc: "Which workforce actually costs more?" },
+  { href: "/analysis/political-appointees", title: "Political Appointees", stat: "🏛️", desc: "The 4,000 people who run the government" },
+  { href: "/analysis/firing-federal-workers", title: "Firing Federal Workers", stat: "🔒", desc: "Why it takes 170+ days to fire a fed" },
 ];
 
 export default function AnalysisPage() {

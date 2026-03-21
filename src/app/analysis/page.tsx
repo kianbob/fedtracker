@@ -31,6 +31,16 @@ const items = [
   { href: "/analysis/contractor-vs-federal", title: "Contractors vs Feds", stat: "👥", desc: "Which workforce actually costs more?" },
   { href: "/analysis/political-appointees", title: "Political Appointees", stat: "🏛️", desc: "The 4,000 people who run the government" },
   { href: "/analysis/firing-federal-workers", title: "Firing Federal Workers", stat: "🔒", desc: "Why it takes 170+ days to fire a fed" },
+  { href: "/analysis/doge-savings-reality", title: "The $110B Myth", stat: "💸", desc: "What DOGE actually saved vs what they claim" },
+  { href: "/analysis/where-grants-went", title: "Where Grants Went", stat: "🌍", desc: "$49B in terminated grants analyzed" },
+  { href: "/analysis/the-great-resignation-september", title: "Black September", stat: "125K", desc: "The month 125,000 federal workers left" },
+  { href: "/analysis/contract-vendor-network", title: "Follow the Money", stat: "📊", desc: "Who lost $61B in contracts" },
+  { href: "/analysis/tribal-impact", title: "Tribal Impact", stat: "🪶", desc: "$1.77B in tribal grants eliminated" },
+  { href: "/analysis/university-funding-crisis", title: "University Funding", stat: "🎓", desc: "4,011 research grants terminated" },
+  { href: "/analysis/small-contracts-theater", title: "Small Contract Theater", stat: "🎭", desc: "8,000 cuts that saved almost nothing" },
+  { href: "/analysis/payment-justification-analysis", title: "Payment Analysis", stat: "🔍", desc: "Inside 107K federal payment justifications" },
+  { href: "/analysis/federal-brain-drain-cost", title: "Brain Drain Cost", stat: "🧠", desc: "The hidden cost of losing 217K workers" },
+  { href: "/analysis/doge-agency-scorecard", title: "Agency Scorecard", stat: "📝", desc: "Grading every agency's DOGE cuts" },
 ];
 
 export default function AnalysisPage() {

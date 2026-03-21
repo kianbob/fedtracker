@@ -38,7 +38,7 @@ export function SubagenciesClient({ parentGroups }: { parentGroups: SubagencyGro
   };
 
   return (
-    <>
+    <div>
       <input
         type="text"
         placeholder="Search agencies or subagencies..."
@@ -113,6 +113,6 @@ export function SubagenciesClient({ parentGroups }: { parentGroups: SubagencyGro
           </button>
         </div>
       )}
-    </>
+    </div>
   );
 }

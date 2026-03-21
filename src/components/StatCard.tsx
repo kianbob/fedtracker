@@ -1,4 +1,4 @@
-export function StatCard({ label, value, sub }: { label: string; value: string; sub?: string }) {
+export function StatCard({ label = "", value, sub }: { label?: string; value: string; sub?: string }) {
   const textSize = value.length > 30 ? "text-xs leading-snug" : value.length > 20 ? "text-sm" : value.length > 12 ? "text-xl" : "text-3xl";
   return (
     <div className="bg-white rounded-xl border border-gray-200 p-6 hover:shadow-md transition-shadow">

@@ -103,5 +103,51 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   } catch {}
 
+  // DOGE pages
+  const dogePages = [
+    "doge/savings", "doge/contracts", "doge/grants", "doge/leases",
+    "doge/payments", "doge/vendors", "doge/recipients",
+  ];
+  dogePages.forEach(p => {
+    pages.push({ url: `${base}/${p}`, lastModified: now, changeFrequency: "weekly", priority: 0.9 });
+  });
+
+  // DOGE Vendor detail pages
+  try {
+    const vendorDir = path.join(process.cwd(), "public", "data", "vendors");
+    if (fs.existsSync(vendorDir)) {
+      fs.readdirSync(vendorDir).filter(f => f.endsWith(".json")).forEach(f => {
+        pages.push({ url: `${base}/doge/vendors/${f.replace(".json", "")}`, lastModified: now, changeFrequency: "monthly", priority: 0.6 });
+      });
+    }
+  } catch {}
+
+  // DOGE Recipient detail pages
+  try {
+    const recipientDir = path.join(process.cwd(), "public", "data", "recipients");
+    if (fs.existsSync(recipientDir)) {
+      fs.readdirSync(recipientDir).filter(f => f.endsWith(".json")).forEach(f => {
+        pages.push({ url: `${base}/doge/recipients/${f.replace(".json", "")}`, lastModified: now, changeFrequency: "monthly", priority: 0.6 });
+      });
+    }
+  } catch {}
+
+  // DOGE Analysis articles
+  const dogeAnalysis = [
+    "doge-savings-reality", "where-grants-went", "the-great-resignation-september",
+    "contract-vendor-network", "tribal-impact", "university-funding-crisis",
+    "small-contracts-theater", "payment-justification-analysis",
+    "federal-brain-drain-cost", "doge-agency-scorecard",
+  ];
+  dogeAnalysis.forEach(slug => {
+    pages.push({ url: `${base}/analysis/${slug}`, lastModified: now, changeFrequency: "monthly", priority: 0.8 });
+  });
+
+  // Tools
+  const tools = ["government-builder", "taxpayer-impact", "contract-search", "agency-report-card"];
+  tools.forEach(t => {
+    pages.push({ url: `${base}/tools/${t}`, lastModified: now, changeFrequency: "monthly", priority: 0.7 });
+  });
+
   return pages;
 }

@@ -1,0 +1,197 @@
+'use client'
+
+import { useState, useMemo } from "react"
+import { StatCard } from "@/components/StatCard"
+import { formatNumber } from "@/lib/format"
+
+interface Grant {
+  agency: string
+  value: number
+  savings: number
+  description: string
+  date: string
+  link?: string
+}
+
+interface RecipientData {
+  slug: string
+  name: string
+  totalValue: number
+  totalSavings: number
+  agencies: string[]
+  grants: Grant[]
+}
+
+interface RecipientDetailClientProps {
+  data: RecipientData
+}
+
+export default function RecipientDetailClient({ data }: RecipientDetailClientProps) {
+  const [searchQuery, setSearchQuery] = useState("")
+  const [sortField, setSortField] = useState<keyof Grant>("savings")
+  const [sortDirection, setSortDirection] = useState<"asc" | "desc">("desc")
+
+  // Filter and sort grants
+  const filteredAndSortedGrants = useMemo(() => {
+    let filtered = data.grants.filter(grant =>
+      grant.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      grant.agency.toLowerCase().includes(searchQuery.toLowerCase())
+    )
+
+    filtered.sort((a, b) => {
+      const aValue = a[sortField]
+      const bValue = b[sortField]
+      
+      if (typeof aValue === 'string' && typeof bValue === 'string') {
+        return sortDirection === 'desc' 
+          ? bValue.localeCompare(aValue)
+          : aValue.localeCompare(bValue)
+      }
+      
+      return sortDirection === 'desc' 
+        ? (bValue as number) - (aValue as number)
+        : (aValue as number) - (bValue as number)
+    })
+
+    return filtered
+  }, [data.grants, searchQuery, sortField, sortDirection])
+
+  const handleSort = (field: keyof Grant) => {
+    if (sortField === field) {
+      setSortDirection(sortDirection === "desc" ? "asc" : "desc")
+    } else {
+      setSortField(field)
+      setSortDirection("desc")
+    }
+  }
+
+  const getSortIcon = (field: keyof Grant) => {
+    if (sortField !== field) return "↕️"
+    return sortDirection === "desc" ? "↓" : "↑"
+  }
+
+  return (
+    <div className="space-y-8">
+      {/* Summary Stats */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <StatCard
+          label="Total Grants"
+          value={formatNumber(data.grants.length)}
+          sub="Terminated by DOGE"
+        />
+        <StatCard
+          label="Total Grant Value"
+          value={`$${formatNumber(data.totalValue / 1000000)}M`}
+          sub="Originally awarded"
+        />
+        <StatCard
+          label="Total Claimed Savings"
+          value={`$${formatNumber(data.totalSavings / 1000000)}M`}
+          sub="From terminations"
+        />
+      </div>
+
+      {/* Search and Filters */}
+      <div className="bg-gray-50 p-6 rounded-lg">
+        <div className="flex flex-col md:flex-row gap-4">
+          <div className="flex-1">
+            <label htmlFor="search" className="block text-sm font-medium text-gray-700 mb-2">
+              Search grants
+            </label>
+            <input
+              id="search"
+              type="text"
+              placeholder="Search by description or agency..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+            />
+          </div>
+        </div>
+        <p className="text-sm text-gray-600 mt-2">
+          Showing {filteredAndSortedGrants.length} of {data.grants.length} grants
+        </p>
+      </div>
+
+      {/* Grants Table */}
+      <div className="bg-white shadow-sm border border-gray-200 rounded-lg overflow-hidden">
+        <div className="px-6 py-4 bg-gray-50 border-b border-gray-200">
+          <h3 className="text-lg font-semibold text-gray-900">Terminated Grants</h3>
+        </div>
+        <div className="overflow-x-auto">
+          <table className="min-w-full divide-y divide-gray-200">
+            <thead className="bg-gray-50">
+              <tr>
+                <th 
+                  className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
+                  onClick={() => handleSort('agency')}
+                >
+                  Agency {getSortIcon('agency')}
+                </th>
+                <th 
+                  className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
+                  onClick={() => handleSort('value')}
+                >
+                  Grant Value {getSortIcon('value')}
+                </th>
+                <th 
+                  className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
+                  onClick={() => handleSort('savings')}
+                >
+                  Claimed Savings {getSortIcon('savings')}
+                </th>
+                <th 
+                  className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
+                  onClick={() => handleSort('date')}
+                >
+                  Date {getSortIcon('date')}
+                </th>
+                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                  Description
+                </th>
+                <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                  Link
+                </th>
+              </tr>
+            </thead>
+            <tbody className="bg-white divide-y divide-gray-200">
+              {filteredAndSortedGrants.map((grant, index) => (
+                <tr key={`${grant.agency}-${index}`} className="hover:bg-gray-50">
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                    {grant.agency}
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                    ${formatNumber(grant.value / 1000000)}M
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-green-600">
+                    ${formatNumber(grant.savings / 1000000)}M
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                    {grant.date}
+                  </td>
+                  <td className="px-6 py-4 text-sm text-gray-500 max-w-xs">
+                    <div className="truncate">{grant.description}</div>
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap text-sm">
+                    {grant.link ? (
+                      <a
+                        href={grant.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-indigo-600 hover:text-indigo-800"
+                      >
+                        View Grant →
+                      </a>
+                    ) : (
+                      <span className="text-gray-400">N/A</span>
+                    )}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  )
+}

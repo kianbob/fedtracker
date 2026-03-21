@@ -2,3 +2,7 @@ node_modules
 .next
 out
 .vercel
+
+# Large raw data files (keep analytics, exclude raw)
+public/data/doge-api/payments.json
+data-pipeline/

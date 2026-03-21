@@ -27,7 +27,7 @@ export default function ComparePage() {
   const comparisons = getIndex();
 
   return (
-    <>
+    <div>
       <Suspense>
         <CompareClient />
       </Suspense>
@@ -49,6 +49,6 @@ export default function ComparePage() {
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 }

@@ -85,27 +85,50 @@ export default function Home() {
         </div>
       </section>
 
-      {/* DOGE Impact CTA */}
+      {/* DOGE Data Hub CTA */}
       <section className="max-w-7xl mx-auto px-4 mt-10">
-        <Link href="/doge" className="block bg-red-50 border-2 border-red-200 rounded-xl p-6 hover:bg-red-100 hover:border-red-300 transition-all group">
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-            <div>
-              <p className="text-xs font-semibold text-red-600 uppercase tracking-wide mb-1">New Analysis</p>
-              <h3 className="font-serif text-2xl font-bold text-red-900 group-hover:text-red-800">
-                DOGE Impact: 2025 Workforce Reduction
-              </h3>
-              <p className="text-sm text-red-700 mt-1">
-                The federal government underwent its largest restructuring in modern history. See the data.
-              </p>
-              <div className="flex gap-2 mt-2">
-                <Link href="/impact" className="text-xs font-medium text-red-600 hover:underline">State-by-State Impact →</Link>
-              </div>
+        <div className="bg-gradient-to-r from-indigo-900 to-indigo-700 rounded-xl p-6 sm:p-8 text-white">
+          <p className="text-xs font-semibold text-indigo-300 uppercase tracking-wide mb-2">📊 DOGE Data Hub</p>
+          <h3 className="font-serif text-2xl sm:text-3xl font-bold mb-3">
+            $110.3 Billion in &ldquo;Savings&rdquo; — We Checked the Math
+          </h3>
+          <p className="text-indigo-200 mb-4 max-w-2xl">
+            DOGE claims $110.3B saved from 29,591 terminated contracts, grants, and leases. 
+            We pulled every record from the DOGE API and cross-referenced the data. Here&apos;s what we found.
+          </p>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-6">
+            <div className="bg-white/10 rounded-lg p-3 text-center">
+              <p className="text-2xl font-bold">13,440</p>
+              <p className="text-xs text-indigo-300">Contracts Cut</p>
             </div>
-            <span className="bg-red-600 text-white font-semibold px-5 py-2.5 rounded-lg text-sm whitespace-nowrap self-start sm:self-center group-hover:bg-red-700 transition-colors">
-              View Report →
-            </span>
+            <div className="bg-white/10 rounded-lg p-3 text-center">
+              <p className="text-2xl font-bold">15,887</p>
+              <p className="text-xs text-indigo-300">Grants Cut</p>
+            </div>
+            <div className="bg-white/10 rounded-lg p-3 text-center">
+              <p className="text-2xl font-bold">107K</p>
+              <p className="text-xs text-indigo-300">Payments Reviewed</p>
+            </div>
+            <div className="bg-white/10 rounded-lg p-3 text-center">
+              <p className="text-2xl font-bold">217K</p>
+              <p className="text-xs text-indigo-300">Positions Lost</p>
+            </div>
           </div>
-        </Link>
+          <div className="flex flex-wrap gap-3">
+            <Link href="/doge/savings" className="bg-white text-indigo-900 font-semibold px-5 py-2.5 rounded-lg text-sm hover:bg-indigo-50 transition-colors">
+              Savings Fact-Check →
+            </Link>
+            <Link href="/doge/contracts" className="border border-white/30 text-white px-5 py-2.5 rounded-lg text-sm hover:bg-white/10 transition-colors">
+              Contract Tracker
+            </Link>
+            <Link href="/doge/grants" className="border border-white/30 text-white px-5 py-2.5 rounded-lg text-sm hover:bg-white/10 transition-colors">
+              Grant Tracker
+            </Link>
+            <Link href="/doge" className="border border-white/30 text-white px-5 py-2.5 rounded-lg text-sm hover:bg-white/10 transition-colors">
+              Workforce Impact
+            </Link>
+          </div>
+        </div>
       </section>
 
       {/* Recent Trends Chart */}

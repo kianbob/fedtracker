@@ -68,7 +68,7 @@ export function RiskTable({ agencies }: { agencies: Agency[] }) {
   }
 
   return (
-    <>
+    <div>
     <div className="mb-4 flex items-center gap-3">
       <label className="flex items-center gap-2 text-sm text-gray-600 cursor-pointer">
         <input type="checkbox" checked={hideSmall} onChange={() => setHideSmall(!hideSmall)} className="accent-indigo-600" />
@@ -123,6 +123,6 @@ export function RiskTable({ agencies }: { agencies: Agency[] }) {
         </tbody>
       </table>
     </div>
-    </>
+    </div>
   );
 }

@@ -46,6 +46,13 @@ const categories: NavCategory[] = [
     hubHref: "/cuts",
     items: [
       { href: "/doge", title: "DOGE Impact Dashboard", description: "Live impact tracker" },
+      { href: "/doge/savings", title: "Savings Fact-Check", description: "$110B claimed — what's real?" },
+      { href: "/doge/contracts", title: "Contract Tracker", description: "13,440 terminated contracts" },
+      { href: "/doge/grants", title: "Grant Tracker", description: "15,887 terminated grants" },
+      { href: "/doge/payments", title: "Payment Browser", description: "107K payments reviewed" },
+      { href: "/doge/vendors", title: "Vendors", description: "Contractors hit by DOGE" },
+      { href: "/doge/recipients", title: "Grant Recipients", description: "Who lost funding" },
+      { href: "/doge/leases", title: "Lease Tracker", description: "264 leases terminated" },
       { href: "/layoffs", title: "Separations", description: "All departure types" },
       { href: "/who-got-cut", title: "Who Got Cut", description: "Detailed breakdown" },
       { href: "/risk", title: "Risk Scores", description: "Agency vulnerability" },

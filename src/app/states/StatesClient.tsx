@@ -28,7 +28,7 @@ export function StatesClient({ states }: { states: { code: string; name: string;
   };
 
   return (
-    <>
+    <div>
       <div className="flex items-center gap-2 mb-6 text-sm text-gray-500">
         <span>Sort by:</span>
         {([["employees", "Employees"], ["avgSalary", "Avg Salary"], ["name", "Name"]] as [SortKey, string][]).map(([key, label]) => (
@@ -66,6 +66,6 @@ export function StatesClient({ states }: { states: { code: string; name: string;
           </Link>
         ))}
       </div>
-    </>
+    </div>
   );
 }

@@ -79,8 +79,6 @@ export function Footer() {
                 <a href="https://www.spacgraveyard.com" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">SPACGraveyard ↗</a>
                 <a href="https://www.aiexposure.org" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">AI Exposure ↗</a>
                 <a href="https://www.tarifftax.org" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">TariffTax ↗</a>
-                <a href="https://powermap-app.vercel.app" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">PowerMap ↗</a>
-                <a href="https://openhousing-app.vercel.app" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">OpenHousing ↗</a>
               </div>
             </div>
 

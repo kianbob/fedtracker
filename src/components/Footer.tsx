@@ -69,13 +69,19 @@ export function Footer() {
                 <a href="https://www.openmedicaid.org" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">OpenMedicaid — Medicaid Spending Tracker ↗</a>
                 <a href="https://www.openspending.us" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">OpenSpending — Federal Spending Tracker ↗</a>
                 <a href="https://www.openimmigration.us" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">OpenImmigration — Immigration Court Tracker ↗</a>
-            <li><a href="https://www.opencrime.us" className="hover:text-white">OpenCrime</a></li>                <a href="https://www.openlobby.us" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">OpenLobby — Federal Lobbying Tracker ↗</a>
+                <a href="https://www.opencrime.us" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">OpenCrime ↗</a>
+                <a href="https://www.openlobby.us" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">OpenLobby — Federal Lobbying Tracker ↗</a>
                 <a href="https://www.vaccinewatch.org" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">VaccineWatch — Vaccine Safety Data ↗</a>
                 <a href="https://www.opensubsidies.org" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">OpenSubsidies — Farm Subsidy Tracker ↗</a>
                 <a href="https://www.warcosts.org" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">WarCosts — War Spending Tracker ↗</a>
                 <a href="https://www.openprescriber.org" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">OpenPrescriber — Medicare Part D Data ↗</a>
                 <a href="https://www.givescope.com" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">GiveScope — Nonprofit Spending Tracker ↗</a>
-              <a href="https://www.spacgraveyard.com" target="_blank" rel="noopener noreferrer" className="block text-gray-500 hover:text-teal-700 text-sm transition-colors">SPACGraveyard</a>              </div>
+                <a href="https://www.spacgraveyard.com" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">SPACGraveyard ↗</a>
+                <a href="https://www.aiexposure.org" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">AI Exposure ↗</a>
+                <a href="https://www.tarifftax.org" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">TariffTax ↗</a>
+                <a href="https://powermap-app.vercel.app" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">PowerMap ↗</a>
+                <a href="https://openhousing-app.vercel.app" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">OpenHousing ↗</a>
+              </div>
             </div>
 
             <div className="mt-6">

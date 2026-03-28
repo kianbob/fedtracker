@@ -79,7 +79,6 @@ export function Footer() {
                 <a href="https://www.aiexposure.org" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">AI Exposure ↗</a>
                 <a href="https://www.tarifftax.org" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">TariffTax ↗</a>
                 <a href="https://www.shelterscope.com" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">ShelterScope ↗</a>
-                <a href="https://www.openfeds.org" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">OpenFeds ↗</a>
                 <a href="https://thedataproject.ai" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">TheDataProject.ai ↗</a>
               </div>
             </div>

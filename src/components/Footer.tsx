@@ -72,13 +72,15 @@ export function Footer() {
                 <a href="https://www.opencrime.us" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">OpenCrime ↗</a>
                 <a href="https://www.openlobby.us" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">OpenLobby — Federal Lobbying Tracker ↗</a>
                 <a href="https://www.vaccinewatch.org" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">VaccineWatch — Vaccine Safety Data ↗</a>
-                <a href="https://www.opensubsidies.org" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">OpenSubsidies — Farm Subsidy Tracker ↗</a>
                 <a href="https://www.warcosts.org" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">WarCosts — War Spending Tracker ↗</a>
                 <a href="https://www.openprescriber.org" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">OpenPrescriber — Medicare Part D Data ↗</a>
                 <a href="https://www.givescope.com" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">GiveScope — Nonprofit Spending Tracker ↗</a>
                 <a href="https://www.spacgraveyard.com" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">SPACGraveyard ↗</a>
                 <a href="https://www.aiexposure.org" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">AI Exposure ↗</a>
                 <a href="https://www.tarifftax.org" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">TariffTax ↗</a>
+                <a href="https://www.shelterscope.com" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">ShelterScope ↗</a>
+                <a href="https://www.openfeds.org" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">OpenFeds ↗</a>
+                <a href="https://thedataproject.ai" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">TheDataProject.ai ↗</a>
               </div>
             </div>
 

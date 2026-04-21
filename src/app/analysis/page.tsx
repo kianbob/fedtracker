@@ -41,6 +41,9 @@ const items = [
   { href: "/analysis/payment-justification-analysis", title: "Payment Analysis", stat: "🔍", desc: "Inside 107K federal payment justifications" },
   { href: "/analysis/federal-brain-drain-cost", title: "Brain Drain Cost", stat: "🧠", desc: "The hidden cost of losing 217K workers" },
   { href: "/analysis/doge-agency-scorecard", title: "Agency Scorecard", stat: "📝", desc: "Grading every agency's DOGE cuts" },
+  { href: "/analysis/drp-true-cost", title: "DRP True Cost", stat: "$4.5B", desc: "The $4.5B price tag for paying 76K to do nothing" },
+  { href: "/analysis/doge-cost-vs-savings", title: "Cost vs. Savings", stat: "⚖️", desc: "Did workforce cuts actually save money?" },
+  { href: "/analysis/agency-departure-breakdown", title: "Agency Departures", stat: "280K", desc: "Where 280,000 federal workers went, agency by agency" },
 ];
 
 export default function AnalysisPage() {

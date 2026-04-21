@@ -71,7 +71,7 @@ export default function Home() {
       {/* Narrative Hook */}
       <section className="max-w-4xl mx-auto px-4 mt-10 mb-4 text-center">
         <p className="text-xl sm:text-2xl text-gray-700 leading-relaxed">
-          <span className="font-bold text-accent text-2xl sm:text-3xl">217,000</span> federal positions have been restructured since January 2025 — the largest workforce reduction in modern history. Here&apos;s the data.
+          <span className="font-bold text-accent text-2xl sm:text-3xl">280,000+</span> federal positions have been eliminated since January 2025 — the largest peacetime workforce reduction in American history. Here&apos;s the data.
         </p>
       </section>
 
@@ -110,8 +110,8 @@ export default function Home() {
               <p className="text-xs text-indigo-300">Payments Reviewed</p>
             </div>
             <div className="bg-white/10 rounded-lg p-3 text-center">
-              <p className="text-2xl font-bold">217K</p>
-              <p className="text-xs text-indigo-300">Positions Lost</p>
+              <p className="text-2xl font-bold">280K+</p>
+              <p className="text-xs text-indigo-300">Positions Eliminated</p>
             </div>
           </div>
           <div className="flex flex-wrap gap-3">

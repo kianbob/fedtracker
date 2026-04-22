@@ -77,6 +77,7 @@ export function Footer() {
                 <a href="https://www.givescope.com" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">GiveScope — Nonprofit Spending Tracker ↗</a>
                 <a href="https://www.spacgraveyard.com" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">SPACGraveyard ↗</a>
                 <a href="https://www.aiexposure.org" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">AI Exposure ↗</a>
+                <a href="https://www.theailobby.com" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">The AI Lobby ↗</a>
                 <a href="https://www.autopilotwatch.com" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">AutoPilotWatch ↗</a>                <a href="https://www.tarifftax.org" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">TariffTax ↗</a>
                 <a href="https://www.shelterscope.com" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">ShelterScope ↗</a>
                 <a href="https://thedataproject.ai" target="_blank" rel="noopener noreferrer" className="block text-gray-600 hover:text-accent">TheDataProject.ai ↗</a>

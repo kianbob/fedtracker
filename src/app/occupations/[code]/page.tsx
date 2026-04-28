@@ -1,4 +1,4 @@
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { formatNumber, formatSalary, toTitleCase, explainGrade, fixAgencyName, stateFullName } from "@/lib/format";
@@ -14,8 +14,22 @@ function getOccData(code: string) {
   return JSON.parse(fs.readFileSync(filePath, "utf-8"));
 }
 
+/** Try to find an occupation code by name (case-insensitive). */
+function findCodeByName(name: string): string | null {
+  const listPath = path.join(process.cwd(), "public", "data", "occupations.json");
+  if (!fs.existsSync(listPath)) return null;
+  const occupations: { code: string; name: string }[] = JSON.parse(fs.readFileSync(listPath, "utf-8"));
+  const normalized = decodeURIComponent(name).toUpperCase().trim();
+  const match = occupations.find(o => o.name.toUpperCase().trim() === normalized);
+  return match?.code ?? null;
+}
+
 export async function generateMetadata({ params }: { params: { code: string } }): Promise<Metadata> {
-  const data = getOccData(params.code);
+  let data = getOccData(params.code);
+  if (!data) {
+    const resolvedCode = findCodeByName(params.code);
+    if (resolvedCode) data = getOccData(resolvedCode);
+  }
   if (!data) return { title: "Occupation Not Found — OpenFeds" };
   return {
     title: `${toTitleCase(data.name)} (${data.code}) — ${formatNumber(data.employees)} Employees — OpenFeds`,
@@ -33,8 +47,16 @@ export function generateStaticParams() {
 }
 
 export default async function OccupationDetailPage({ params }: { params: { code: string } }) {
-  const data = getOccData(params.code);
-  if (!data) notFound();
+  let data = getOccData(params.code);
+
+  // If not found by code, try matching by occupation name (handles URLs like /occupations/POLICE)
+  if (!data) {
+    const resolvedCode = findCodeByName(params.code);
+    if (resolvedCode) {
+      redirect(`/occupations/${resolvedCode}`);
+    }
+    notFound();
+  }
 
   const topAgency = data.topAgencies?.[0];
 

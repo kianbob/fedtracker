@@ -4,7 +4,7 @@ import salaryStats from "../../../public/data/salary-stats.json";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Federal Salary Data — Pay Distribution, Top Agencies & Occupations — OpenFeds",
+  title: "Federal Salary Data — Pay by Agency & Role",
   description: "Explore federal employee salaries: pay distribution, highest-paid agencies and occupations, and GS grade breakdowns from OPM FedScope data.",
   openGraph: {
     title: "Federal Salary Data - OpenFeds",

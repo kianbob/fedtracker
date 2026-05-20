@@ -6,7 +6,7 @@ import { formatNumber, formatSalary, cleanAgencyName } from "@/lib/format";
 import { SubagenciesClient } from "./SubagenciesClient";
 
 export const metadata: Metadata = {
-  title: "Federal Subagencies — 788 Organizations Within Agencies — OpenFeds",
+  title: "788 Federal Subagencies — Full Directory",
   description: "Drill into the organizational structure of the federal government. Browse 788 subagencies within departments, with employee counts and salary data.",
   alternates: { canonical: "/subagencies" },
 };

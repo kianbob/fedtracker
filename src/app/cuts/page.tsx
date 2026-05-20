@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import { formatNumber, formatSalary } from "@/lib/format";
 
 export const metadata: Metadata = {
-  title: "DOGE & Cuts: Federal Workforce Reductions Tracker — OpenFeds",
+  title: "DOGE Federal Workforce Cuts Tracker",
   description:
     "Comprehensive tracker of federal workforce reductions under DOGE. 280K+ separations, $4.5B in DRP payments, $764M in RIF severance, agency-by-agency breakdown, and timeline of major actions.",
   alternates: { canonical: "/cuts" },

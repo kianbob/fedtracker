@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Firing Federal Workers: Why It's Nearly Impossible — OpenFeds",
+  title: "Firing Federal Workers: Why It Takes 170 Days",
   description:
     "Data on federal employee termination rates, the appeals process, MSPB reinstatement rates, and why it takes 6-12 months to fire a federal worker for poor performance.",
   alternates: { canonical: "/analysis/firing-federal-workers" },

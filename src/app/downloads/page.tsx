@@ -4,7 +4,7 @@ import path from "path";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "Data Downloads — OpenFeds",
+  title: "Federal Workforce Data Downloads: JSON & CSV",
   description: "Download federal workforce data as JSON or CSV. Agency lists, DOGE impact, risk scores, demographics, and more.",
 };
 

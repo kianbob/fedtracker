@@ -5,7 +5,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import { formatNumber } from "@/lib/format";
 
 export const metadata: Metadata = {
-  title: "The True Cost of the Deferred Resignation Program: $4.5 Billion for Nothing — OpenFeds",
+  title: "Deferred Resignation Cost: $4.5B Analysis",
   description:
     "The government paid $4.5 billion to 76,000 federal employees who accepted the DRP and did no work for up to 8 months. Was it worth it? We break down the math.",
   alternates: { canonical: "/analysis/drp-true-cost" },

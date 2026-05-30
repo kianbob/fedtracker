@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Small Contracts Theater — OpenFeds",
+  title: "DOGE Small Contracts: 8,000 Cuts Analyzed",
   description: "8,000 DOGE contract cuts that saved almost nothing.",
   alternates: { canonical: "/analysis/small-contracts-theater" },
 };

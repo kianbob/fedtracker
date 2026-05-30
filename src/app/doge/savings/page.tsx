@@ -4,7 +4,7 @@ import path from "path";
 import SavingsClient from "./SavingsClient";
 
 export const metadata: Metadata = {
-  title: "DOGE Savings Fact-Check Dashboard — $110.3B in Claims Analyzed — OpenFeds",
+  title: "DOGE Savings Fact-Check: $110B Claims Analyzed",
   description: "Fact-checking DOGE's claimed $110.3B in federal savings. See the breakdown by contracts, grants, and leases, plus verification status and top claims analyzed.",
   alternates: { canonical: "/doge/savings" },
   openGraph: {

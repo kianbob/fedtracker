@@ -2,7 +2,7 @@ import React from "react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "How Does Your Salary Compare to Federal Workers? — OpenFeds",
+  title: "Federal Salary Comparison Tool | OpenFeds",
   description:
     "Compare your salary to federal employees. See how you rank against 1M+ federal workers by state, occupation, and overall pay distribution.",
   openGraph: {

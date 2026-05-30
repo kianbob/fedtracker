@@ -4,7 +4,7 @@ import fs from "fs";
 import path from "path";
 
 export const metadata: Metadata = {
-  title: "Occupation Impact — Which Federal Jobs Were Hit Hardest by DOGE — OpenFeds",
+  title: "Federal Jobs Hit Hardest by DOGE Cuts",
   description: "Analysis of DOGE's impact by occupation: which federal jobs saw the most separations, RIFs, and workforce reduction in 2025.",
   alternates: { canonical: "/occupation-impact" },
 };

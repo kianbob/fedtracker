@@ -3,7 +3,7 @@ import Breadcrumb from '@/components/Breadcrumb';
 import { TaxpayerImpactClient } from './TaxpayerImpactClient';
 
 export const metadata: Metadata = {
-  title: 'Taxpayer Impact Calculator | Federal Employee Tracker',
+  title: 'DOGE Taxpayer Savings Calculator by State',
   description: 'Calculate what DOGE savings mean for the average taxpayer by state. See how much you could save if government efficiency claims are real.',
   keywords: ['DOGE savings', 'taxpayer impact', 'government efficiency', 'tax savings by state'],
   alternates: { canonical: '/tools/taxpayer-impact' },

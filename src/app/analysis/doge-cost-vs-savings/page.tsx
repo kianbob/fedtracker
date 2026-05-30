@@ -4,7 +4,7 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "DOGE Cost vs. Savings: Did Workforce Cuts Actually Save Money? — OpenFeds",
+  title: "DOGE Cost vs Savings: Did Cuts Save Money?",
   description:
     "A comprehensive accounting of DOGE workforce restructuring costs ($6.8B) vs verified savings ($5.5B recurring). The math that shows Year 1 was a net loss.",
   alternates: { canonical: "/analysis/doge-cost-vs-savings" },

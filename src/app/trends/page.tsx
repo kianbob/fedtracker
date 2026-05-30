@@ -4,7 +4,7 @@ import trends from "../../../public/data/trends.json";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Federal Workforce Trends — Hiring vs. Firing — OpenFeds",
+  title: "Federal Hiring vs Firing Trends 2020-2025",
   description: "Hiring vs. firing trends across the federal workforce.",
   openGraph: {
     title: "Federal Workforce Trends - OpenFeds",

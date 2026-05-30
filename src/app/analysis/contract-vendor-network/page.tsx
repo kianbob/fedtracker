@@ -12,7 +12,7 @@ const dogeData = JSON.parse(fs.readFileSync(path.join(process.cwd(), "public/dat
 const vendorIndex = JSON.parse(fs.readFileSync(path.join(process.cwd(), "public/data/vendor-index.json"), "utf-8"));
 
 export const metadata: Metadata = {
-  title: "Follow the Money: Who Lost $61 Billion in Federal Contracts? — OpenFeds",
+  title: "DOGE Contracts: Who Lost $61B?",
   description:
     "Deep dive into the 4,019 unique vendors who lost federal contracts in DOGE cuts. From Walgreens' $3B loss to thousands of small businesses - who really lost out?",
   alternates: { canonical: "/analysis/contract-vendor-network" },

@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "About OpenFeds — Data Sources & Methodology — OpenFeds",
+  title: "About OpenFeds: Data Sources & Methodology",
   description: "About OpenFeds, data sources, and methodology.",
   alternates: { canonical: "/about" },
 };

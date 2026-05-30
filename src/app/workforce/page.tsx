@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Workforce — OpenFeds",
+  title: "Federal Workforce Data & Statistics",
   description: "Federal workforce data: demographics, salaries, appointments, STEM analysis, trends, and education.",
   alternates: { canonical: "/workforce" },
 };

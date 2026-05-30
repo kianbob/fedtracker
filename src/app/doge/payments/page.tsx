@@ -5,7 +5,7 @@ import fs from 'fs'
 import path from 'path'
 
 export const metadata: Metadata = {
-  title: "Federal Payments Under Review by DOGE | OpenFeds",
+  title: "DOGE Payment Review: $9.2B Under Scrutiny",
   description: "$9.2 billion in federal payments under DOGE review. Analyze payment patterns, agency spending, keyword analysis, and flagged transactions.",
   alternates: { canonical: "https://openfeds.com/doge/payments" },
   openGraph: {

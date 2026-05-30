@@ -22,12 +22,12 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "./",
   },
-  title: "OpenFeds — Federal Workforce Data",
+  title: "Federal Employee Data & Salary Tracker | OpenFeds",
   description:
-    "Track the federal workforce: employees, salaries, layoffs, and hiring across all agencies. Built from OPM FedScope data.",
+    "Track 2M+ federal employees across 128 agencies. Salaries, layoffs, hiring trends & DOGE impact from official OPM data.",
   openGraph: {
-    title: "OpenFeds — Federal Workforce Data",
-    description: "Track the federal workforce with real data from OPM FedScope.",
+    title: "Federal Employee Data & Salary Tracker | OpenFeds",
+    description: "Track 2M+ federal employees across 128 agencies. Official OPM salary, layoff & hiring data.",
     type: "website",
   },
 };

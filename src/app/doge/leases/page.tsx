@@ -5,7 +5,7 @@ import fs from 'fs';
 import path from 'path';
 
 export const metadata: Metadata = {
-  title: 'DOGE Lease Terminations Tracker | Federal Employee Tracker',
+  title: 'DOGE Lease Cuts: 264 Leases, $53M Saved',
   description: '264 federal leases terminated saving $53.5M. Track which agencies eliminated leases, square footage reduced, and cost per square foot savings.',
   keywords: ['DOGE leases', 'federal lease terminations', 'real estate savings', 'government efficiency', 'office space reduction'],
   alternates: { canonical: '/doge/leases' },

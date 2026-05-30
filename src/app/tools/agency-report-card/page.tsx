@@ -5,7 +5,7 @@ import fs from 'fs';
 import path from 'path';
 
 export const metadata: Metadata = {
-  title: 'Agency DOGE Report Card | Federal Employee Tracker',
+  title: 'Federal Agency DOGE Report Card Tool',
   description: 'Grade each federal agency on DOGE performance. Compare workforce changes, contract savings, verification rates, and efficiency scores.',
   keywords: ['DOGE scorecard', 'agency performance', 'federal efficiency', 'agency comparison', 'government report card'],
   alternates: { canonical: '/tools/agency-report-card' },

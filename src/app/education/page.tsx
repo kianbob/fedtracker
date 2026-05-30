@@ -5,7 +5,7 @@ import { EducationChart } from "./EducationChart";
 import educationData from "../../../public/data/education-salary.json";
 
 export const metadata: Metadata = {
-  title: "Federal Pay by Degree Level — Analysis",
+  title: "Federal Pay by Education Level & Degree",
   description: "How does education level affect federal salary? Analysis of pay by degree from high school to doctorate across 2M+ federal employees.",
   alternates: { canonical: "/education" },
 };

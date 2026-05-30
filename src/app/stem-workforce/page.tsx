@@ -7,10 +7,9 @@ import stemData from "../../../public/data/stem-analysis.json";
 import { STEMCategoryChart } from "./STEMCategoryChart";
 
 export const metadata: Metadata = {
-  title:
-    "The STEM Brain Drain: Are We Losing America's Technical Workforce? — OpenFeds",
+  title: "Federal STEM Workforce: 552K Workers at Risk",
   description:
-    "Federal STEM workforce analysis: engineers, scientists, technologists, and healthcare professionals across 128 agencies. Who employs them, what they earn, and why it matters for national security.",
+    "552K federal STEM workers across 128 agencies. Engineers, scientists & healthcare pros — salaries, brain drain risk & DOGE impact.",
   alternates: { canonical: "/stem-workforce" },
 };
 

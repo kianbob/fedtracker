@@ -5,7 +5,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import { formatNumber } from "@/lib/format";
 
 export const metadata: Metadata = {
-  title: "Agency-by-Agency: Where 280,000 Federal Workers Went — OpenFeds",
+  title: "Agency Departures: Where 280K Feds Went",
   description:
     "Detailed breakdown of federal workforce departures by agency. From USAID's 85% gutting to VA's surgical trims — how DOGE cuts hit each agency differently.",
   alternates: { canonical: "/analysis/agency-departure-breakdown" },

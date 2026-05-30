@@ -4,7 +4,7 @@ import Link from "next/link";
 import { StatCard } from "@/components/StatCard";
 
 export const metadata: Metadata = {
-  title: "Federal Remote Work: Telework Data, Costs & Productivity — OpenFeds",
+  title: "Federal Remote Work & Telework Data",
   description:
     "Federal telework data: how many feds work from home, office space costs, productivity evidence, and the return-to-office debate.",
   alternates: { canonical: "/analysis/remote-work-feds" },

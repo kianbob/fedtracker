@@ -12,7 +12,7 @@ const dogeData = JSON.parse(fs.readFileSync(path.join(process.cwd(), "public/dat
 const contractsData = JSON.parse(fs.readFileSync(path.join(process.cwd(), "public/data/doge-contracts-analytics.json"), "utf-8"));
 
 export const metadata: Metadata = {
-  title: "The $110 Billion Myth: What DOGE Actually Saved — OpenFeds",
+  title: "DOGE $110B Myth: What Was Actually Saved",
   description:
     "Deep analysis of DOGE's claimed $110.3 billion in savings vs reality. Breaking down contracts, grants, and the verified numbers that tell the real story.",
   alternates: { canonical: "/analysis/doge-savings-reality" },

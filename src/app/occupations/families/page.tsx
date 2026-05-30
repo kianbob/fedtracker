@@ -3,7 +3,7 @@ import { formatNumber, formatSalary } from "@/lib/format";
 import familiesData from "../../../../public/data/occupation-families.json";
 
 export const metadata = {
-  title: "Occupation Families — Federal Career Groups — OpenFeds",
+  title: "Federal Career Groups & Job Families",
   description: "Explore federal occupation families: career groups spanning 540+ job series across the U.S. government workforce.",
 };
 

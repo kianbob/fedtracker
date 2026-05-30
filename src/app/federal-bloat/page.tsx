@@ -6,7 +6,7 @@ import { formatNumber, fixAgencyName } from "@/lib/format";
 import agencyBudgets from "../../../public/data/agency-budgets.json";
 
 export const metadata: Metadata = {
-  title: "Is the Federal Workforce Too Big? — OpenFeds",
+  title: "Federal Bloat Myth: Is Government Too Big?",
   description:
     "The federal workforce is smaller than in 1960, but spending per employee has exploded. The real bloat isn't headcount — it's the shadow contractor workforce and runaway budgets.",
   alternates: { canonical: "/federal-bloat" },
@@ -57,9 +57,41 @@ const totalContracts = agencyBudgets.reduce(
   0
 );
 
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is the federal workforce growing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The federal civilian workforce (2.07M) is actually smaller than it was in 1960, despite the U.S. population nearly doubling. However, spending per employee has increased significantly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many federal contractors are there?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Estimates suggest 4-5 million federal contractors supplement the 2.07M civilian workforce, creating a shadow workforce that often costs more per person than direct employees."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is federal bloat?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Federal bloat refers to inefficiencies in government spending — not necessarily headcount. While employee numbers are flat, budgets per employee have grown substantially, with increased reliance on expensive contractors."
+      }
+    }
+  ]
+};
 export default function FederalBloatPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <nav className="flex items-center gap-1.5 text-xs text-slate-500 mb-6">
         <Link href="/" className="hover:text-indigo-400">Home</Link>
         <span>/</span>

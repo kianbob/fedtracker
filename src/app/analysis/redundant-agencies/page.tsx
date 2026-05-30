@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Redundant Federal Agencies: Taxpayers Fund the Same Job Twice — OpenFeds",
+  title: "Redundant Federal Agencies: Overlap Analysis",
   description:
     "Data-driven analysis of overlapping federal agencies with duplicate missions. How many agencies does it take to manage workforce training, food safety, or cybersecurity?",
   alternates: { canonical: "/analysis/redundant-agencies" },

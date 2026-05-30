@@ -7,7 +7,7 @@ import salaryStats from "../../../../public/data/salary-stats.json";
 import agencyList from "../../../../public/data/agency-list.json";
 
 export const metadata: Metadata = {
-  title: "Federal Salary Breakdown: What Uncle Sam Really Pays — OpenFeds",
+  title: "Federal Salary Breakdown by Grade & Agency",
   description:
     "Average federal salary by agency, GS pay scale explained, highest-paid positions, and where your tax dollars go. Complete 2025 data from OPM FedScope.",
   alternates: { canonical: "/analysis/federal-salary-breakdown" },

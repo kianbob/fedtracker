@@ -5,7 +5,7 @@ import fs from 'fs';
 import path from 'path';
 
 export const metadata: Metadata = {
-  title: 'Build Your Own Government | Federal Employee Tracker',
+  title: 'Build Your Own Government Calculator',
   description: 'Interactive calculator to design your ideal federal government. Pick which agencies to keep or cut and see the real-time impact on workforce size, costs, and taxpayer savings.',
   keywords: ['government calculator', 'federal agencies', 'DOGE cuts', 'government efficiency', 'federal workforce'],
   alternates: { canonical: '/tools/government-builder' },

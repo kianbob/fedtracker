@@ -5,7 +5,7 @@ import fs from 'fs';
 import path from 'path';
 
 export const metadata: Metadata = {
-  title: 'DOGE Contract Search | Federal Employee Tracker',
+  title: 'DOGE Contract Search & Analysis Tool',
   description: 'Search and analyze DOGE contract savings claims. Filter by agency, contractor, and savings amount. Export results and verify FPDS data.',
   keywords: ['DOGE contracts', 'federal contracts', 'contract search', 'government spending', 'contractor lookup'],
   alternates: { canonical: '/tools/contract-search' },

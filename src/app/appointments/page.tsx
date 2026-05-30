@@ -4,7 +4,7 @@ import fs from "fs";
 import path from "path";
 
 export const metadata: Metadata = {
-  title: "Career vs Temporary — Who Got Cut",
+  title: "Federal Appointments: Career vs Temporary Cuts",
   description: "How DOGE cuts affected different federal appointment types: career, career-conditional, excepted service, SES, and temporary employees.",
   alternates: { canonical: "/appointments" },
 };

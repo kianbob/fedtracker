@@ -7,9 +7,9 @@ import { formatNumber } from "@/lib/format";
 import salaryStats from "../../../public/data/salary-stats.json";
 
 export const metadata: Metadata = {
-  title: "Federal Pay: Are Government Workers Overpaid? — OpenFeds",
+  title: "Government Employee Pay: Overpaid or Underpaid?",
   description:
-    "The average federal salary is $116,751 — but most workers earn $60-100K. The real story is a system that rewards longevity over performance.",
+    "Average federal salary is $116K but most earn $60-100K. Compare federal vs private sector pay across 540+ occupations.",
   alternates: { canonical: "/salary-analysis" },
 };
 

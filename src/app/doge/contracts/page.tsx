@@ -4,7 +4,7 @@ import path from "path";
 import ContractsClient from "./ContractsClient";
 
 export const metadata: Metadata = {
-  title: "DOGE Contract Tracker — 13,440 Contracts Terminated, $61B Claimed — OpenFeds",
+  title: "DOGE Contracts: 13,440 Terminated, $61B Cut",
   description: "Complete database of federal contracts terminated by DOGE. See which vendors lost the most, FPDS verification status, and links to vendor profiles.",
   alternates: { canonical: "/doge/contracts" },
   openGraph: {

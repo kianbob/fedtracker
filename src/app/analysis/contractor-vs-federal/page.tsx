@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Contractors vs Federal Employees: Which Costs More? — OpenFeds",
+  title: "Contractors vs Federal Employees: Cost Data",
   description:
     "Federal contractor spending vs federal employee costs compared. Data on the $700B+ contractor workforce, cost per head, and whether outsourcing actually saves money.",
   alternates: { canonical: "/analysis/contractor-vs-federal" },

@@ -12,7 +12,7 @@ const dogeImpact = JSON.parse(fs.readFileSync(path.join(process.cwd(), "public/d
 const monthlyData = JSON.parse(fs.readFileSync(path.join(process.cwd(), "public/data/monthly-timeline.json"), "utf-8"));
 
 export const metadata: Metadata = {
-  title: "Black September: The 125,000 Federal Workers Who Left in One Month — OpenFeds",
+  title: "Black September: 125K Federal Workers Left",
   description:
     "Analysis of the massive September 2025 federal workforce exodus. 125,589 separations in one month - more than any month in modern history. What happened and why.",
   alternates: { canonical: "/analysis/the-great-resignation-september" },

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 
 export const metadata: Metadata = {
-  title: "Updates — OpenFeds",
+  title: "OpenFeds Data Updates & Changelog",
   description: "Data updates and changelog for OpenFeds federal workforce data.",
 };
 

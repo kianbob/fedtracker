@@ -7,7 +7,7 @@ import dogeImpact from "../../../public/data/doge-impact.json";
 import hardestHit from "../../../public/data/hardest-hit.json";
 
 export const metadata: Metadata = {
-  title: "Who Got Cut: The DOGE Workforce Reduction — OpenFeds",
+  title: "Who Got Cut: 335K Federal Separations in 2025",
   description:
     "335,000 federal separations in 2025 — a 67% increase. RIFs surged from 46 to 10,721. Here's who was affected, which agencies shrank, and where the jobs disappeared.",
   alternates: { canonical: "/who-got-cut" },
@@ -62,9 +62,41 @@ const totalTerminations = hardestHit.reduce(
   (s, a) => s + a.terminationCount, 0
 );
 
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How many federal employees were cut in 2025?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Over 335,000 federal separations occurred in 2025, a 67% increase over 2024. This includes RIFs, terminations, retirements, and voluntary departures driven by DOGE restructuring."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a RIF in federal employment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Reduction in Force (RIF) is a formal layoff process for federal employees. RIFs surged from 46 in FY2024 to 10,721 in FY2025 under DOGE restructuring."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which agencies had the most layoffs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Agencies like USAID, the Department of Education, and HHS saw some of the largest proportional workforce reductions during DOGE restructuring in 2025."
+      }
+    }
+  ]
+};
 export default function WhoGotCutPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <nav className="flex items-center gap-1.5 text-xs text-slate-500 mb-6">
         <Link href="/" className="hover:text-indigo-400">Home</Link>
         <span>/</span>

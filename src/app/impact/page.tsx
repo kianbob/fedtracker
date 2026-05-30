@@ -6,7 +6,7 @@ import stateImpact from "../../../public/data/state-impact.json";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "DOGE Impact by State — State-by-State Federal Workforce Reductions — OpenFeds",
+  title: "DOGE Impact by State: Federal Job Cuts Map",
   description: "See how DOGE-driven federal workforce reductions impact each state. DC, Maryland, and Virginia hit hardest.",
   openGraph: {
     title: "DOGE Impact by State - OpenFeds",

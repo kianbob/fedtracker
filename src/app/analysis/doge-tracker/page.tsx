@@ -7,7 +7,7 @@ import dogeImpact from "../../../../public/data/doge-impact.json";
 import agencyList from "../../../../public/data/agency-list.json";
 
 export const metadata: Metadata = {
-  title: "DOGE Tracker: Department of Government Efficiency Impact — OpenFeds",
+  title: "DOGE Tracker: Government Efficiency Impact",
   description:
     "Track DOGE's real impact on the federal workforce. Positions eliminated, savings claimed vs actual, which agencies were hit hardest, and what comes next.",
   alternates: { canonical: "/analysis/doge-tracker" },

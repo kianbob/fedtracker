@@ -13,9 +13,48 @@ import trends from "../../public/data/trends.json";
 
 export const metadata: Metadata = {
   title: "OpenFeds — Track the Federal Workforce | 2M+ Employees, 128 Agencies",
-  description: "Explore data on 2M+ federal employees across 128 agencies. Salaries, layoffs, hiring trends, and separations — all from official OPM FedScope data.",
+  description: "Search 2M+ federal employee records. Compare salaries by agency, track DOGE layoffs & 335K separations across 128 agencies.",
 };
 
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How many federal employees are there in 2025?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There are approximately 2.07 million federal civilian employees across 128 agencies, according to OPM FedScope data."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the average federal employee salary?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The average federal employee salary is approximately $106,000, though most employees earn between $60,000 and $100,000 depending on GS grade and location."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many federal workers were laid off by DOGE?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In 2025, over 335,000 federal separations occurred — a 67% increase over 2024. This includes 10,721 RIFs (layoffs), up from just 46 the prior year."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is OPM FedScope data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "FedScope is the official federal workforce database published by the U.S. Office of Personnel Management (OPM), covering employment, salaries, demographics, and separations."
+      }
+    }
+  ]
+};
 export default function Home() {
   const topAgencies = agencyList.slice(0, 12);
   const maxEmployees = topAgencies[0]?.employees ?? 1;
@@ -35,6 +74,7 @@ export default function Home() {
 
   return (
     <div>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       {/* Data freshness banner */}
       <div className="bg-amber-50 border-b border-amber-200 px-4 py-2 text-center text-sm text-amber-800">
         📊 Data from OPM FedScope: Employment as of December 2025 · Separations &amp; Accessions FY2020–2025. <span className="font-medium">Now includes December 2025 data.</span>

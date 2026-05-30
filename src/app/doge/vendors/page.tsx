@@ -5,7 +5,7 @@ import fs from 'fs'
 import path from 'path'
 
 export const metadata: Metadata = {
-  title: "Federal Contractors Hit by DOGE | OpenFeds",
+  title: "Federal Contractors Hit by DOGE Cuts",
   description: "Complete directory of federal contractors affected by DOGE efficiency initiatives. See contract terminations, savings claimed, and agencies involved.",
   alternates: { canonical: "https://openfeds.com/doge/vendors" },
   openGraph: {

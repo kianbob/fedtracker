@@ -7,7 +7,7 @@ import salaryStats from "../../../../public/data/salary-stats.json";
 import agencyList from "../../../../public/data/agency-list.json";
 
 export const metadata: Metadata = {
-  title: "Overpaid Bureaucrats? Federal vs Private Sector Pay — OpenFeds",
+  title: "Federal vs Private Sector Pay Comparison",
   description:
     "Are federal employees overpaid compared to private sector workers? Data-driven comparison of federal vs private pay by occupation, education, and agency.",
   alternates: { canonical: "/analysis/overpaid-bureaucrats" },

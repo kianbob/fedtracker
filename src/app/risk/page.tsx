@@ -6,7 +6,7 @@ import agencyRisk from "../../../public/data/agency-risk.json";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "Agency Risk Dashboard — Which Agencies Are Most At Risk? — OpenFeds",
+  title: "Federal Agency Risk Scores & Vulnerability",
   description: "Risk scores for every federal agency based on workforce reduction, retirement eligibility, separation rates, and more.",
   openGraph: {
     title: "Agency Risk Dashboard - OpenFeds",

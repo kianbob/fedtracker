@@ -4,7 +4,7 @@ import path from "path";
 import GrantsClient from "./GrantsClient";
 
 export const metadata: Metadata = {
-  title: "DOGE Grant Tracker — 15,887 Grants Terminated, $49.2B Claimed — OpenFeds",
+  title: "DOGE Grants: 15,887 Terminated, $49B Cut",
   description: "Track all grants terminated by DOGE: university research, hospital funding, state programs, and international aid. See which recipients lost the most funding.",
   alternates: { canonical: "/doge/grants" },
   openGraph: {

@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Political Appointees: The 4,000 People Who Actually Run the Government — OpenFeds",
+  title: "Political Appointees: 4,000 Who Run Government",
   description:
     "Analysis of federal political appointee positions: how many exist, what they earn, turnover rates, and the revolving door between government and industry.",
   alternates: { canonical: "/analysis/political-appointees" },

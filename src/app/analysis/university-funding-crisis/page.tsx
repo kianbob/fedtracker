@@ -11,7 +11,7 @@ import UniversityFundingCrisisClient from "./UniversityFundingCrisisClient";
 const dogeData = JSON.parse(fs.readFileSync(path.join(process.cwd(), "public/data/doge-dashboard.json"), "utf-8"));
 
 export const metadata: Metadata = {
-  title: "4,011 University Grants Terminated: The Research Funding Freeze — OpenFeds",
+  title: "University Grants Cut: 4,011 Terminated",
   description:
     "Analysis of $4.57 billion in federal university research grants cut by DOGE. From climate science to AI research - the long-term impact on American innovation.",
   alternates: { canonical: "/analysis/university-funding-crisis" },

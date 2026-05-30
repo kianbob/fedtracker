@@ -7,7 +7,7 @@ import agencyList from "../../../../public/data/agency-list.json";
 import trends from "../../../../public/data/trends.json";
 
 export const metadata: Metadata = {
-  title: "Federal Workforce Growth: 1940 to 2025 — OpenFeds",
+  title: "Federal Workforce Growth: 1940 to 2025",
   description:
     "How the federal workforce grew from 1 million to 3.1 million and back. Which agencies expanded most, and whether the current size makes sense.",
   alternates: { canonical: "/analysis/workforce-growth" },

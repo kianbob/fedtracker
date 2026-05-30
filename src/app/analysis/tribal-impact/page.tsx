@@ -11,7 +11,7 @@ import TribalImpactClient from "./TribalImpactClient";
 const dogeData = JSON.parse(fs.readFileSync(path.join(process.cwd(), "public/data/doge-dashboard.json"), "utf-8"));
 
 export const metadata: Metadata = {
-  title: "$1.77 Billion in Tribal Grants Cut: What It Means for Native Communities — OpenFeds",
+  title: "Tribal Grants Cut: $1.77B Impact Analysis",
   description:
     "Analysis of 478 federal grants to tribal nations terminated by DOGE. From healthcare to education to sovereignty programs - the impact on Native American communities.",
   alternates: { canonical: "/analysis/tribal-impact" },

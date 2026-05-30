@@ -4,7 +4,7 @@ import fs from "fs";
 import path from "path";
 
 export const metadata: Metadata = {
-  title: "DOGE Impact — 217K Positions Restructured",
+  title: "DOGE Impact: 217K Federal Jobs Restructured",
   description:
     "Data-driven analysis of the 2025 federal workforce restructuring under DOGE: 217,177 net positions reduced, 10,721 RIFs, hiring reduced 54%. Agency-by-agency breakdown and monthly trends from OPM data.",
   openGraph: {
@@ -25,6 +25,37 @@ function loadJson(filename: string) {
   }
 }
 
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is DOGE (Department of Government Efficiency)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DOGE is the Department of Government Efficiency initiative that restructured 217,000+ federal positions, terminated 13,440 contracts worth $61B, and cut 15,887 grants worth $49B in 2025."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much has DOGE saved?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DOGE claims $110.3B in total savings from contract terminations, grant cuts, and lease cancellations. Independent analysis suggests actual verified savings are significantly lower."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many federal jobs did DOGE eliminate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "DOGE restructured approximately 217,000 federal positions through a combination of RIFs, hiring freezes, deferred resignations, and voluntary separation incentives."
+      }
+    }
+  ]
+};
 export default function DogePage() {
   const data = loadJson("doge-impact.json");
   const agencyList: { code: string; name: string; employees: number }[] =
@@ -34,5 +65,9 @@ export default function DogePage() {
   const empByCode: Record<string, number> = {};
   for (const a of agencyList) empByCode[a.code] = a.employees;
 
-  return <DogeClient data={data} agencyEmployees={empByCode} />;
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <DogeClient data={data} agencyEmployees={empByCode} />
+    </>);
 }

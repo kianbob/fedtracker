@@ -1,8 +1,8 @@
 import { AgenciesClient } from "./AgenciesClient";
 
 export const metadata = {
-  title: "All Federal Agencies — Employee Counts & Salaries — OpenFeds",
-  description: "Browse all 128 federal agencies with employee counts and average salary data from OPM FedScope. Search, sort, and explore.",
+  title: "All 128 Federal Agencies: Salaries & Workforce",
+  description: "Compare all 128 federal agencies by employee count, average salary & workforce size. Searchable directory from OPM data.",
   alternates: { canonical: "/agencies" },
 };
 

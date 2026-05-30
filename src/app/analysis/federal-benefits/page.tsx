@@ -4,7 +4,7 @@ import Link from "next/link";
 import { StatCard } from "@/components/StatCard";
 
 export const metadata: Metadata = {
-  title: "Federal Benefits: FERS, TSP, FEHB — Total Compensation Worth — OpenFeds",
+  title: "Federal Benefits: FERS, TSP & FEHB Value",
   description:
     "What's a federal job really worth? FERS pension, TSP match, FEHB health insurance, paid leave, and job security add 40-50% on top of salary.",
   alternates: { canonical: "/analysis/federal-benefits" },

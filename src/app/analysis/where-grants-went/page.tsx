@@ -12,7 +12,7 @@ const dogeData = JSON.parse(fs.readFileSync(path.join(process.cwd(), "public/dat
 const grantsData = JSON.parse(fs.readFileSync(path.join(process.cwd(), "public/data/doge-grants-analytics.json"), "utf-8"));
 
 export const metadata: Metadata = {
-  title: "$49 Billion in Grants: Where Taxpayer Money Was Going — OpenFeds",
+  title: "Federal Grants: Where $49B Was Going",
   description:
     "Analysis of the 15,887 federal grants terminated by DOGE. From international organizations to universities to tribal nations — where the money went and what services are now gone.",
   alternates: { canonical: "/analysis/where-grants-went" },

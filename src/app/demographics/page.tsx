@@ -6,7 +6,7 @@ import path from "path";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Federal Workforce Demographics — Age & Education",
+  title: "Federal Workforce Demographics: Age & Education",
   description: "Explore the demographics of the federal workforce: age distribution, education levels, veteran status, remote work, and race/ethnicity composition from OPM FedScope.",
   openGraph: {
     title: "Federal Workforce Demographics - OpenFeds",

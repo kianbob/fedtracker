@@ -6,7 +6,7 @@ import path from "path";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Workforce Analysis — Who's Leaving, Retirement Risk, Experience Exodus — OpenFeds",
+  title: "Federal Workforce Analysis: Who Is Leaving?",
   description: "Deep analysis of the federal workforce: retirement cliff, experience drain, STEM brain drain, manager ratios, and who's actually leaving in 2025.",
   openGraph: {
     title: "Workforce Analysis - OpenFeds",

@@ -450,6 +450,9 @@ export default function CutsPage() {
               { href: "/analysis/doge-savings-reality", title: "The $110B Myth", desc: "What DOGE actually saved" },
               { href: "/analysis/the-great-resignation-september", title: "Black September", desc: "125K left in one month" },
               { href: "/analysis/drp-true-cost", title: "DRP True Cost", desc: "$4.5B in admin leave payments" },
+              { href: "/analysis/workforce-reductions-2025-2026", title: "Reductions 2025-2026", desc: "Complete data on 256K workforce reductions" },
+              { href: "/analysis/agency-cuts-2026", title: "Agency Cuts 2026", desc: "Agency-by-agency breakdown" },
+              { href: "/analysis/workforce-trends", title: "Workforce Trends", desc: "Is government right-sized now?" },
             ].map((item) => (
               <Link
                 key={item.href}

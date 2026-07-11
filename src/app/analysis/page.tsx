@@ -44,6 +44,9 @@ const items = [
   { href: "/analysis/drp-true-cost", title: "DRP True Cost", stat: "$4.5B", desc: "The $4.5B price tag for paying 76K to do nothing" },
   { href: "/analysis/doge-cost-vs-savings", title: "Cost vs. Savings", stat: "⚖️", desc: "Did workforce cuts actually save money?" },
   { href: "/analysis/agency-departure-breakdown", title: "Agency Departures", stat: "280K", desc: "Where 280,000 federal workers went, agency by agency" },
+  { href: "/analysis/workforce-reductions-2025-2026", title: "Reductions 2025-2026", stat: "256K", desc: "Complete data on 256K federal workforce reductions" },
+  { href: "/analysis/agency-cuts-2026", title: "Agency Cuts 2026", stat: "🏛️", desc: "Agency-by-agency breakdown of 2026 federal cuts" },
+  { href: "/analysis/workforce-trends", title: "Workforce Trends Analysis", stat: "📜", desc: "Historical context: is government right-sized now?" },
 ];
 
 export default function AnalysisPage() {

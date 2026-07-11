@@ -12,8 +12,8 @@ import statesData from "../../public/data/states.json";
 import trends from "../../public/data/trends.json";
 
 export const metadata: Metadata = {
-  title: "OpenFeds — Track the Federal Workforce | 2M+ Employees, 128 Agencies",
-  description: "Search 2M+ federal employee records. Compare salaries by agency, track DOGE layoffs & 335K separations across 128 agencies.",
+  title: "OpenFeds — Track the Federal Workforce | 1.81M Employees, 128 Agencies",
+  description: "Search 1.81M federal employee records. Compare salaries by agency, track DOGE layoffs & workforce reductions across 128 agencies.",
 };
 
 
@@ -26,7 +26,7 @@ const faqSchema = {
       "name": "How many federal employees are there in 2025?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "There are approximately 2.07 million federal civilian employees across 128 agencies, according to OPM FedScope data."
+        "text": "There are approximately 1.81 million federal civilian employees across 128 agencies, according to OPM FedScope data."
       }
     },
     {
@@ -259,7 +259,7 @@ export default function Home() {
                 How Does Your Salary Compare?
               </h3>
               <p className="text-indigo-100 text-sm sm:text-base">
-                See how your pay stacks up against 2M+ federal employees across every agency, grade, and occupation.
+                See how your pay stacks up against 1.81M federal employees across every agency, grade, and occupation.
               </p>
             </div>
             <span className="bg-white text-indigo-700 font-semibold px-6 py-3 rounded-lg text-sm whitespace-nowrap self-start sm:self-center group-hover:bg-indigo-50 transition-colors">

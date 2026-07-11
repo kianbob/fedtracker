@@ -24,10 +24,10 @@ export const metadata: Metadata = {
   },
   title: "Federal Employee Data & Salary Tracker | OpenFeds",
   description:
-    "Track 2M+ federal employees across 128 agencies. Salaries, layoffs, hiring trends & DOGE impact from official OPM data.",
+    "Track 1.81M federal employees across 128 agencies. Salaries, layoffs, hiring trends & DOGE impact from official OPM data.",
   openGraph: {
     title: "Federal Employee Data & Salary Tracker | OpenFeds",
-    description: "Track 2M+ federal employees across 128 agencies. Official OPM salary, layoff & hiring data.",
+    description: "Track 1.81M federal employees across 128 agencies. Official OPM salary, layoff & hiring data.",
     type: "website",
   },
 };
@@ -37,7 +37,7 @@ const jsonLdWebSite = {
   "@type": "WebSite",
   "name": "OpenFeds",
   "url": "https://www.openfeds.org",
-  "description": "Track the federal workforce with data from OPM FedScope. 2.07M employees, 128 agencies, salaries, layoffs, hiring trends, and DOGE impact analysis.",
+  "description": "Track the federal workforce with data from OPM FedScope. 1.81M employees, 128 agencies, salaries, layoffs, hiring trends, and DOGE impact analysis.",
   "publisher": {
     "@type": "Organization",
     "name": "TheDataProject.ai",
@@ -56,8 +56,8 @@ const jsonLdWebSite = {
 const jsonLdDataset = {
   "@context": "https://schema.org",
   "@type": "Dataset",
-  "name": "Federal Workforce Analysis (FY2020–2025)",
-  "description": "Analysis of OPM FedScope employment, separations, and accessions data covering 2.07 million federal employees across 128 agencies, including 2025 DOGE workforce reduction impact.",
+  "name": "Federal Workforce Analysis (FY2020–2026)",
+  "description": "Analysis of OPM FedScope employment, separations, and accessions data covering 1.81 million federal employees across 128 agencies, including 2025-2026 DOGE workforce reduction impact.",
   "url": "https://www.openfeds.org",
   "creator": {
     "@type": "Organization",
@@ -74,7 +74,7 @@ const jsonLdDataset = {
       "name": "U.S. Office of Personnel Management"
     }
   },
-  "temporalCoverage": "2020-01/2025-12",
+  "temporalCoverage": "2020-01/2026-07",
   "license": "https://creativecommons.org/publicdomain/zero/1.0/",
   "variableMeasured": [
     "Employment Count",

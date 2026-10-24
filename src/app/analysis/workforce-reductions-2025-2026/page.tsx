@@ -123,7 +123,7 @@ export default function WorkforceReductions2025Page() {
             <p>
               The question isn&apos;t whether 256,000 cuts are large — they are. The question is whether a workforce 
               that had grown 10% in eight years with no corresponding improvement in government service quality 
-              was appropriately sized in the first place.
+              was appropriately sized in the first place. The <a href="https://americanfactbook.org/spending" className="text-accent hover:underline" target="_blank" rel="noopener">American Factbook spending dashboard</a> puts these workforce costs in the context of the full federal budget.
             </p>
             <p>
               For comparison: the federal workforce shrank by 350,000 between 1993 and 1999 under Clinton-era 

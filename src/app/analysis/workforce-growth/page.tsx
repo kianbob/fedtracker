@@ -70,7 +70,7 @@ export default function WorkforceGrowthPage() {
         </h1>
         <p className="text-xl text-gray-600 max-w-3xl leading-relaxed">
           From 1 million in 1940 to 3.8 million during WWII, peaking again at 3.1 million in 1990, and
-          now down to 2.07 million. The federal workforce tells the story of American government itself.
+          now down to 2.07 million. The federal workforce tells the story of American government itself. Explore current federal pay data alongside these trends on the <a href="https://americanfactbook.org/federal-salaries" className="text-accent hover:underline" target="_blank" rel="noopener">American Factbook federal salaries dashboard</a>.
         </p>
         <div className="flex gap-4 mt-6 text-sm text-gray-500">
           <span>Sources: OPM, BLS, Census Bureau</span>

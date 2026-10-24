@@ -73,7 +73,7 @@ export default function FederalSalaryBreakdownPage() {
         <p className="text-xl text-gray-600 max-w-3xl leading-relaxed">
           The average federal employee earns <strong>{formatSalary(Math.round(avgSalaryAll))}</strong> per year — but that
           number hides enormous variation. Securities regulators average $236K. Treasury clerks average $93K.
-          Here&apos;s the complete picture.
+          Here&apos;s the complete picture. For a broader look at how federal compensation fits into total government spending, see the <a href="https://americanfactbook.org/federal-salaries" className="text-accent hover:underline" target="_blank" rel="noopener">American Factbook federal salary explorer</a>.
         </p>
         <div className="flex gap-4 mt-6 text-sm text-gray-500">
           <span>Data: OPM FedScope Dec 2025</span>
